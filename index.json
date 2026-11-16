@@ -13,7 +13,7 @@
  "files": [
   {
    "path": "00-READ-FIRST.md",
-   "bytes": 3167
+   "bytes": 3304
   },
   {
    "path": "01-context.txt",
@@ -58,6 +58,10 @@
   {
    "path": "02-goals/money.md",
    "bytes": 2391
+  },
+  {
+   "path": "02-goals/the-venture.md",
+   "bytes": 2671
   },
   {
    "path": "03-the-brief/directives.md",

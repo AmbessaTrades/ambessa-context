@@ -44,6 +44,9 @@ below are working hypotheses he is testing. Treat them as the current best readi
 settled strategy, and check `05-offers/hypotheses.md` before you build an argument on any of
 them.
 
+**Start with `02-goals/the-venture.md`** — it states what is chosen and what is still a
+hypothesis, in the order things were decided.
+
 The working hypothesis: high-ticket paid work — $5k to $25k to onboard one client — to two kinds of buyer: governments
 in Africa and the Caribbean, and companies doing $10M to $5B. Not consumer subscriptions.
 The candidate deliverables are verification and deal files — who really owns a company, whether
