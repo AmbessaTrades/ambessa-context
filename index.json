@@ -1,0 +1,155 @@
+{
+ "name": "Ambessa Saul / AUH context pack",
+ "what": "A living context pack so any web agent can work on this business without asking.",
+ "read_order": [
+  "00-READ-FIRST.md",
+  "01-who/identity.md",
+  "02-goals/mission.md",
+  "02-goals/money.md",
+  "04-market/pain-map.md",
+  "05-offers/offer-set.md"
+ ],
+ "rule": "Verified numbers only from 04-market/evidence/findings.csv. Everything else is context.",
+ "files": [
+  {
+   "path": "00-READ-FIRST.md",
+   "bytes": 2764
+  },
+  {
+   "path": "01-context.txt",
+   "bytes": 4230
+  },
+  {
+   "path": "01-who/calm-room.md",
+   "bytes": 2600
+  },
+  {
+   "path": "01-who/founder-authority.md",
+   "bytes": 1238
+  },
+  {
+   "path": "01-who/identity.md",
+   "bytes": 2598
+  },
+  {
+   "path": "01-who/mental-models-memoir.md",
+   "bytes": 3116
+  },
+  {
+   "path": "01-who/mental-models.md",
+   "bytes": 2974
+  },
+  {
+   "path": "01-who/north-star.md",
+   "bytes": 2153
+  },
+  {
+   "path": "01-who/systems-thinking.md",
+   "bytes": 1323
+  },
+  {
+   "path": "02-findings.csv",
+   "bytes": 173498
+  },
+  {
+   "path": "02-goals/mission.md",
+   "bytes": 29564
+  },
+  {
+   "path": "02-goals/money.md",
+   "bytes": 1969
+  },
+  {
+   "path": "03-the-brief/directives.md",
+   "bytes": 1622
+  },
+  {
+   "path": "03-the-brief/the-brief.md",
+   "bytes": 68566
+  },
+  {
+   "path": "04-market/competitive-map.md",
+   "bytes": 8416
+  },
+  {
+   "path": "04-market/evidence/README.md",
+   "bytes": 648
+  },
+  {
+   "path": "04-market/evidence/confidence.md",
+   "bytes": 3134
+  },
+  {
+   "path": "04-market/evidence/findings.csv",
+   "bytes": 173712
+  },
+  {
+   "path": "04-market/market-answers.md",
+   "bytes": 10785
+  },
+  {
+   "path": "04-market/pain-map.md",
+   "bytes": 6401
+  },
+  {
+   "path": "04-market/thread-log.md",
+   "bytes": 60598
+  },
+  {
+   "path": "05-offers/hypotheses.md",
+   "bytes": 1254
+  },
+  {
+   "path": "05-offers/offer-set.md",
+   "bytes": 3020
+  },
+  {
+   "path": "06-playbook/content.md",
+   "bytes": 2387
+  },
+  {
+   "path": "06-playbook/search.md",
+   "bytes": 6148
+  },
+  {
+   "path": "07-agents/agents-and-harnesses.md",
+   "bytes": 60407
+  },
+  {
+   "path": "07-agents/bot-contract.md",
+   "bytes": 5791
+  },
+  {
+   "path": "07-agents/context-as-a-packet.md",
+   "bytes": 1268
+  },
+  {
+   "path": "08-journal/recent.md",
+   "bytes": 889595
+  },
+  {
+   "path": "08-journal/summaries.md",
+   "bytes": 44162
+  },
+  {
+   "path": "09-assets/README.md",
+   "bytes": 453
+  },
+  {
+   "path": "09-assets/ambessa-saul-profile.png",
+   "bytes": 688113
+  },
+  {
+   "path": "09-assets/manifest.json",
+   "bytes": 3276
+  },
+  {
+   "path": "README.md",
+   "bytes": 1783
+  },
+  {
+   "path": "SYNC.md",
+   "bytes": 2645
+  }
+ ]
+}

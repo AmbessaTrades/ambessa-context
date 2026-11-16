@@ -1,39 +1,63 @@
 AUH / AMBESSA SAUL - CONTEXT PACK
-Prepared 16 Nov 2026 for a web agent validating business ideas before a build sprint on 23 Nov.
+
+One-file read. The full pack is the numbered folders in this repo; index.json lists every file.
 
 WHO
-Ambi, 31. Diasporic African: Jamaican-Guyanese roots, Canadian, living in Kenya. Builds AUH - software and media businesses for Africa, the Caribbean and the Black diaspora. Personal brand: Ambessa Saul, on Africa-Caribbean trade, politics and economics. Speaks in voice notes, decides fast, wants pressure-testing not agreement.
+Ambi, 31. Diasporic African: Jamaican-Guyanese roots, Canadian, living in Kenya. Builds AUH -
+software and media businesses for Africa, the Caribbean and the Black diaspora. Personal brand:
+Ambessa Saul, on Africa-Caribbean trade, politics and economics. Speaks in voice notes, decides
+fast, wants pressure-testing rather than agreement.
 
-WHAT IS BEING SOLD
-Paid work, not advice, to African and Caribbean governments and companies with $10M-$5B revenue. Price band $5k-$25k per engagement. Target: first paying clients in 60 days. Content and product run together.
+WHAT IS SOLD
+High-ticket paid work, not advice, to two buyers: governments in Africa and the Caribbean, and
+companies doing $10M-$5B. $5k-$25k to onboard one client, plus $3k-$5k a month while live. Never
+consumer subscriptions. Deliverables are verification and deal files: who really owns a company,
+whether a government can sign and will pay, what paperwork actually clears a border. Target:
+first paying clients inside 60 days. Content and product run together - the content makes the
+market, the product takes the money.
 
-THE FIVE WALLS (all figures verified against the sources in 02-findings.csv)
-1. Payment rails. Caribbean banks lost about 4 in 10 correspondent relationships in 15 years. No local-currency settlement between CARICOM and Africa. Every African letter of credit is confirmed by a bank outside the region. Africa runs 42 currencies; PAPSS is live in 30+ countries but Nigeria settled only N5.6bn (~$3.6m) in H1 2025, down 53%.
-2. Trade finance. Africa's gap is $74bn. Bank intermediation fell to 23% of African merchandise trade (2020-24) from 40% (2011-19), against ~80% globally. West Africa: $14bn gap, 21% of applications rejected, 45-67% of rejections are collateral or applicant risk.
-3. Logistics. The regions are 1,600 miles apart with no direct link. Caribbean importers pay 12-21% of goods value in transport and insurance. Cargo sits ~3 weeks in African ports; Lagos over 20 days; South African terminals averaged 99-hour vessel waits.
-4. State behaviour. Kenya: Sh511.75bn verified pending bills. Zambia and Ghana pay late as budgeting habit. Rwanda's 30-day VAT refund runs months to years. Namibia cannot enforce a foreign arbitral award without a Certificate of Status Investment.
-5. The unpublished gate. Caribbean SPS approval has no published risk assessment for most products. CARICOM's Secretariat processed 192 tariff suspension requests. Rum faces an 88% tariff in African markets. Africa-Caribbean trade has never exceeded 6% of bilateral exports.
+THE FIVE WALLS (numbers verified in 02-findings.csv)
+1. Payment rails. Caribbean banks lost about 4 in 10 correspondent relationships in 15 years. No
+   local-currency settlement between CARICOM and Africa. Every African letter of credit is
+   confirmed by a bank outside the region. PAPSS is live in 30+ countries but Nigeria settled only
+   N5.6bn (~$3.6m) in H1 2025, down 53%.
+2. Trade finance. Africa's gap is $74bn. Bank intermediation fell to 23% of African merchandise
+   trade against ~80% globally. West Africa: $14bn gap, 21% of applications rejected.
+3. Logistics. 1,600 miles apart with no direct link. Caribbean importers pay 12-21% of goods
+   value in transport and insurance. Cargo sits ~3 weeks in African ports; Lagos over 20 days.
+4. State behaviour. Kenya: Sh511.75bn verified pending bills. Zambia and Ghana pay late as a
+   budgeting habit. Namibia cannot enforce a foreign arbitral award without a certificate.
+5. The unpublished gate. Caribbean SPS approval has no published risk assessment for most
+   products. CARICOM processed 192 tariff suspension requests. Rum faces an 88% tariff in African
+   markets. Africa-Caribbean trade has never exceeded 6% of bilateral exports.
 
-THE MARKET ANSWERS
-- East Africa and the Caribbean: politically engaged, commercially absent. The CARICOM chair opened the first Africa-Caribbean summit saying there had never been trade; the $300m of announced deals had no East African counterparty; a 2021 Kenya-Barbados air services agreement produced no route and no trade.
-- China buys the tender before it opens: over $2bn of financed surveillance across 11 countries, Nigeria alone $470m, vendor named inside the loan. ZTE built Ethiopia's network on a $1.5bn Chinese credit. Huawei holds Kenya's Safe City and Uganda's $126m CCTV and is pushing DeepSeek into Zambian government services.
-- India wins by being the non-Chinese option: Ghana bought a >$200m 5G stack to avoid Chinese vendors; NPCI licensed its UPI design to Namibia's central bank; TCS is building a sovereign cloud in Kenya.
-- Chinese and Indian consumer apps buy distribution at the handset preload and the ad auction, not by resident teams: four of Ghana's top five shopping apps are Chinese-owned; Temu went 5,600 to 208,000 downloads in a quarter.
-- The corridor is live but unserved: WapiPay is the only startup with a licensed live Africa-Caribbean corridor (Bank of Jamaica approval, JN Money payout); Knova runs a Jamaica-Ghana trade corridor; Zeepay's Barbados subsidiary was suspended by the central bank and wound up.
-- Nobody operates the trusted middle for one mid-market cross-border deal: verify both sides, answer who confirms the credit, who funds the gap, who carries it, and hold the file.
+THE MARKET
+East Africa is politically engaged with the Caribbean and commercially absent. China buys the
+tender before it opens: over $2bn of financed surveillance across 11 countries, the vendor named
+inside the loan. India wins by being the non-Chinese option: Ghana bought a >$200m 5G stack to
+avoid Chinese vendors, NPCI licensed UPI to Namibia. The corridor is live but unserved: WapiPay is
+the only startup with a licensed live Africa-Caribbean corridor; Zeepay's Barbados arm was
+suspended by the central bank. Nobody operates the trusted middle for one mid-market deal.
 
-THE STARTUP MAP
-Google Africa Applied AI Lab 2026 cohort: AethexAI (voice agents for banks and telcos), Agrails (farm insurance), Crane AI Labs (offline AI on cheap phones), Intron (African-accent speech), Satlyt (orbital compute), Smile ID (identity verification), Termii (verification and messaging), Tolbi (satellite plus voice for farmers), Vendy (storefronts and payments inside WhatsApp), Viamo (AI by voice call without a smartphone). Six are components of a verification and deal desk, so assemble rather than build.
-Pricing in use: Cirquu N9,000 (~$7) per user per month for 17 modules; Knowlix $24.90 per seat; Bujeti N17,000-35,000 per user per month; Decide $7 for 500 credits; Meditect 50,000 XOF (~$88) per year for two users paid by mobile money; Lelapa $9.99 / $49.99 / contact sales.
-Selling in use: the founder contacts the principal above the champion and demos live; the buyer is handed one forwardable artefact; WhatsApp is the checkout (Bill Express J$55 per bill; Zuri Health KES 250 per chat consultation). Faceless brands hold the commodity end on published prices and free audits but none shows a named client.
+THE OFFERS, SCORED OUT OF 50
+1. The Second Opinion, 42 - verify the company before signature. $15k-$25k per deal.
+2. The Authority File, 41 - verify the state before a company signs: authority, budget line,
+   payment record, enforcement. $20k-$35k per deal. Also runs the other way, governments checking
+   bidders, because donor-funded procurement already requires it.
+3. The Border Desk, 39 - the document gate for a firm that ships. $8k-$12k a month.
+4. The Aftercare File, 39 - for investment promotion agencies, every commitment tracked to
+   execution. $60k-$150k a year.
+5. The Verified Room, 38 - one file both sides live in. $15k open plus $5k a month.
+Dead: power maps that assert who controls whom; landed-cost calculators; procurement lists;
+consumer-priced voice tools; a deal room as the first ask.
 
-THE FIVE IDEAS, SCORED OUT OF 50 (verifiable / ticket / one-glance / speed / moat)
-1. The Second Opinion - 42. Verify the company before signature: ownership, sanctions, litigation, tax standing, whether it has ever delivered. $15-25k per deal.
-2. The Authority File - 41. Verify the state before a company signs: authority to bind, approved budget line, payment record, where a dispute can be enforced. $20-35k per deal. Expanded: also sells in the other direction, governments checking bidders, because donor-funded procurement already requires it and the budget exists.
-3. The Border Desk - 39. Recurring document gate for firms that ship: cleared papers plus the block list per shipment. $8-12k per month.
-4. The Aftercare File - 39. For investment promotion agencies: track every signed commitment to execution. $60-150k per year.
-5. The Verified Room - 38. One file both sides live in, every claim attached to a source. $15k to open plus $5k per month.
-Dead: voice-to-paper subscriptions, landed-cost calculators (lawyers own that seat), procurement entry lists, and any power map that asserts who controls whom (unverifiable).
+HOW TO ANSWER
+Answer first. Number steps. Five items maximum. No preamble, no closers, no jargon. Run three to
+six logic passes before writing. Judge second and third consequences, not the first. Perception
+beats reality: a buyer judges his own risk, not the product. People move for money, status,
+promotion or entertainment - name which. A claim needs a source and a page, a label when it
+cannot be checked, and a split between what is said, what is inferred and what is unknown.
 
-HOW TO JUDGE ANYTHING HERE
-A claim needs a source and a page, a label when it cannot be checked, and a clear split between what a source says, what is inferred and what is unknown. Say what is still open and the single next action. Push back on strategy dressed as decided, cheap pricing, copying a competitor's funnel, and claims without sources.
+READ NEXT, IN ORDER
+00-READ-FIRST.md, 01-who/identity.md, 02-goals/money.md, 04-market/pain-map.md,
+05-offers/offer-set.md, 05-offers/hypotheses.md
