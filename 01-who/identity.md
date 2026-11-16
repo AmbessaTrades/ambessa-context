@@ -8,7 +8,9 @@ in the morning, studies with a guru in South India, and is learning Swahili. He 
 finance and loves it. He has run several software attempts; the ones that worked were small,
 and the ones that failed failed by growing features instead of customers.
 
-**What he is building now:** a paid business and a personal brand at the same time. The brand
+**What he is building toward:** a paid business and a personal brand at the same time. The
+shape of the business is still moving; the brand decision — his face, his voice, daily output —
+is the part he has settled. The brand
 is Ambessa Saul — Africa-Caribbean trade, politics and economics, spoken plainly, daily, on
 YouTube and X. The business sells high-ticket verification and deal work to governments and
 companies. The content makes the market; the product takes the money.

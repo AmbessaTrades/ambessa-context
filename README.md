@@ -11,6 +11,10 @@ no contact details.
 4. `04-market/pain-map.md` — the five things that block trade, with numbers.
 5. `05-offers/offer-set.md` — the five scored ideas and what is deliberately dead.
 
+**Not decided:** the buyer type, the prices and the offer shapes in here are working
+hypotheses, not settled strategy. Read `05-offers/hypotheses.md` for what is still open and do
+not build an argument as though it were closed.
+
 **The one rule:** a number is only real if it appears in `04-market/evidence/findings.csv`
 with `verified = 1`, and you can open its source link. Everything else is context or a lead.
 

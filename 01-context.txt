@@ -8,13 +8,14 @@ software and media businesses for Africa, the Caribbean and the Black diaspora. 
 Ambessa Saul, on Africa-Caribbean trade, politics and economics. Speaks in voice notes, decides
 fast, wants pressure-testing rather than agreement.
 
-WHAT IS SOLD
+WHAT HE IS EXPLORING (nothing here is decided)
 High-ticket paid work, not advice, to two buyers: governments in Africa and the Caribbean, and
 companies doing $10M-$5B. $5k-$25k to onboard one client, plus $3k-$5k a month while live. Never
 consumer subscriptions. Deliverables are verification and deal files: who really owns a company,
 whether a government can sign and will pay, what paperwork actually clears a border. Target:
 first paying clients inside 60 days. Content and product run together - the content makes the
-market, the product takes the money.
+market, the product takes the money. Prices, buyer types and deliverable shapes are working
+hypotheses being tested with real buyers, not settled strategy.
 
 THE FIVE WALLS (numbers verified in 02-findings.csv)
 1. Payment rails. Caribbean banks lost about 4 in 10 correspondent relationships in 15 years. No
@@ -39,7 +40,7 @@ avoid Chinese vendors, NPCI licensed UPI to Namibia. The corridor is live but un
 the only startup with a licensed live Africa-Caribbean corridor; Zeepay's Barbados arm was
 suspended by the central bank. Nobody operates the trusted middle for one mid-market deal.
 
-THE OFFERS, SCORED OUT OF 50
+CANDIDATE OFFERS, SCORED OUT OF 50 - NONE CHOSEN
 1. The Second Opinion, 42 - verify the company before signature. $15k-$25k per deal.
 2. The Authority File, 41 - verify the state before a company signs: authority, budget line,
    payment record, enforcement. $20k-$35k per deal. Also runs the other way, governments checking

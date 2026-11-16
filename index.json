@@ -13,11 +13,11 @@
  "files": [
   {
    "path": "00-READ-FIRST.md",
-   "bytes": 2764
+   "bytes": 3167
   },
   {
    "path": "01-context.txt",
-   "bytes": 4230
+   "bytes": 4403
   },
   {
    "path": "01-who/calm-room.md",
@@ -29,7 +29,7 @@
   },
   {
    "path": "01-who/identity.md",
-   "bytes": 2598
+   "bytes": 2733
   },
   {
    "path": "01-who/mental-models-memoir.md",
@@ -37,7 +37,7 @@
   },
   {
    "path": "01-who/mental-models.md",
-   "bytes": 2974
+   "bytes": 4932
   },
   {
    "path": "01-who/north-star.md",
@@ -57,7 +57,7 @@
   },
   {
    "path": "02-goals/money.md",
-   "bytes": 1969
+   "bytes": 2179
   },
   {
    "path": "03-the-brief/directives.md",
@@ -89,7 +89,7 @@
   },
   {
    "path": "04-market/pain-map.md",
-   "bytes": 6401
+   "bytes": 6260
   },
   {
    "path": "04-market/thread-log.md",
@@ -101,7 +101,7 @@
   },
   {
    "path": "05-offers/offer-set.md",
-   "bytes": 3020
+   "bytes": 3274
   },
   {
    "path": "06-playbook/content.md",
@@ -145,7 +145,7 @@
   },
   {
    "path": "README.md",
-   "bytes": 1783
+   "bytes": 2012
   },
   {
    "path": "SYNC.md",

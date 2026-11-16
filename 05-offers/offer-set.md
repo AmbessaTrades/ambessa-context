@@ -1,4 +1,8 @@
-# The offer set, scored
+# Candidate offers, scored — none chosen
+
+Five shapes that survived the first rounds of thinking, ranked on how they would read to a
+buyer. Ranked is not decided. Two of these may be one product; some may be dead on contact with
+a real customer. Nothing here is a commitment.
 
 Scored out of 50 on: can every claim be verified / ticket size / does a buyer say yes at a
 glance / speed to the first dollar / moat.

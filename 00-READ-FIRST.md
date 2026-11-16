@@ -37,12 +37,18 @@ Never flatter.
 
 Nothing else. Do not invent a number, a client name, a contract value or a date.
 
-## What he is selling
+## What he is exploring
 
-High-ticket paid work — $5k to $25k to onboard one client — to two kinds of buyer: governments
+**Nothing in this pack is a decision yet.** The buyer types, prices and deliverables
+below are working hypotheses he is testing. Treat them as the current best reading, not as
+settled strategy, and check `05-offers/hypotheses.md` before you build an argument on any of
+them.
+
+The working hypothesis: high-ticket paid work — $5k to $25k to onboard one client — to two kinds of buyer: governments
 in Africa and the Caribbean, and companies doing $10M to $5B. Not consumer subscriptions.
-Deliverables are verification and deal files: who really owns a company, whether a government
-can sign and will pay, what paperwork actually clears a border.
+The candidate deliverables are verification and deal files — who really owns a company, whether
+a government can sign and will pay, what paperwork actually clears a border. Which of those is
+first, and whether that is the right shape at all, is still open.
 
 ## What is out of scope
 

@@ -1,4 +1,8 @@
-# The money model
+# Money — the current hypothesis
+
+These are the shapes being tested, not a settled price list. He has not fixed a price with a
+buyer yet. Use them to reason about viability, and quote them as "working number", not "our
+rate".
 
 ## Who pays
 
