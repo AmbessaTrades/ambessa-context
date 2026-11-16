@@ -2,9 +2,7 @@
 
 _What actually blocks a cross-border deal between Africa, the Caribbean and the diaspora. Every figure here traces to a row in evidence/findings.csv._
 
-Compiled 16 Nov 2026, from documents only. 69 pains collected, **56 machine-verified**
-(the quote was re-found on the live source), 13 unconfirmed (sources block re-reading),
-8 explicitly block a deal. Files at `~/AUH/AMBESSA/intel/`.
+Every figure here traces to a row in `evidence/findings.csv` (the current count lives there).
 
 ---
 
