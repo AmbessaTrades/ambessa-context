@@ -25,7 +25,7 @@
   },
   {
    "path": "01-who/founder-authority.md",
-   "bytes": 1238
+   "bytes": 1233
   },
   {
    "path": "01-who/identity.md",
@@ -41,19 +41,19 @@
   },
   {
    "path": "01-who/north-star.md",
-   "bytes": 2153
+   "bytes": 2148
   },
   {
    "path": "01-who/systems-thinking.md",
-   "bytes": 1323
+   "bytes": 1318
   },
   {
    "path": "02-findings.csv",
-   "bytes": 173498
+   "bytes": 173488
   },
   {
    "path": "02-goals/mission.md",
-   "bytes": 29564
+   "bytes": 29532
   },
   {
    "path": "02-goals/money.md",
@@ -65,7 +65,7 @@
   },
   {
    "path": "03-the-brief/the-brief.md",
-   "bytes": 68566
+   "bytes": 68578
   },
   {
    "path": "04-market/competitive-map.md",
@@ -81,7 +81,7 @@
   },
   {
    "path": "04-market/evidence/findings.csv",
-   "bytes": 173712
+   "bytes": 173702
   },
   {
    "path": "04-market/market-answers.md",
@@ -93,7 +93,7 @@
   },
   {
    "path": "04-market/thread-log.md",
-   "bytes": 60598
+   "bytes": 60500
   },
   {
    "path": "05-offers/hypotheses.md",
@@ -113,7 +113,7 @@
   },
   {
    "path": "07-agents/agents-and-harnesses.md",
-   "bytes": 60407
+   "bytes": 60378
   },
   {
    "path": "07-agents/bot-contract.md",
@@ -121,15 +121,15 @@
   },
   {
    "path": "07-agents/context-as-a-packet.md",
-   "bytes": 1268
+   "bytes": 1263
   },
   {
    "path": "08-journal/recent.md",
-   "bytes": 136909
+   "bytes": 136629
   },
   {
    "path": "08-journal/summaries.md",
-   "bytes": 44162
+   "bytes": 44146
   },
   {
    "path": "09-assets/README.md",
@@ -141,7 +141,7 @@
   },
   {
    "path": "09-assets/manifest.json",
-   "bytes": 3276
+   "bytes": 3288
   },
   {
    "path": "README.md",

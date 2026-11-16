@@ -24,7 +24,7 @@ The numbers, provider claims and proposed automation in the source are dated pla
 
 ## Read first
 
-1. [[90 Sources/9b8dd7c8b7a[number removed]bd|Studio North Star — full direction, ladder, risks and next artifact]]
+1. [[90 Sources/9b8dd7c8b7a83111258513bd|Studio North Star — full direction, ladder, risks and next artifact]]
 2. [[10 Projects/Studio AUH|Studio AUH]]
 3. [[10 Projects/Mission and life architecture|Mission and life architecture]]
 

@@ -60,7 +60,7 @@ New observations append below with their author, time and original day log. An o
 
 **Logged observation · verify against the linked source before treating as current state.**
 
-## [number removed]:46 EAT — MUNGURA — Memoir rename, OAuth scheduling and current channel money were verified
+## 2026-10-16 13:46 EAT — MUNGURA — Memoir rename, OAuth scheduling and current channel money were verified
 
 Ambi renamed Debate Agent to Memoir, preserving the same backend, port 3001, stable debate-agent topic, shared vault and history. Installed signed Memoir.app with an open-book icon and retained the old application path as a compatibility symlink. Memoir / /memoir routes across Codex, Claude and Hermes to the existing shared memory.
 
@@ -70,7 +70,7 @@ Money now uses actual owner Studio captured 16 October: Sep18–Oct15 displayed 
 
 Limitation: private Studio full/realtime/recovery jobs are still paused in Hermes. Their CuaDriver daemon is not running and the last full collection failed to bind the authenticated Studio window. Today’s bounded Money capture is fresh overview/revenue evidence, not proof that the full private scheduled sweep works. Do not label the stale full sweep healthy. No paused job was duplicated or enabled.
 
-[[90 Sources/78bed[number removed]f2ab43f|Full day log · 2026-10-16]]
+[[90 Sources/78bed306953290045f2ab43f|Full day log · 2026-10-16]]
 
 <!-- event:12560042ed2d1cfdb4bb9dba06ac828ea3bdd4c00b898883814f2acd15bfa49e -->
 ## 2026-10-16T13:53:37+03:00 · MUNGURA
@@ -82,7 +82,7 @@ Changed: installed Memoir.app with the new book icon, existing backend/vault/aut
 Verified: 87 Python regressions; 19 memory-renderer checks; eight Money UI scenarios; public collector and actual scheduled shell wrapper passed. Installed Memoir Money screen and phone layout exercised; no browser errors. Portable memory source closure: 192 linked snapshots, zero missing. Code milestone c1635e6474 saved and pushed to github.com/AmbessaTrades/tubeloop.
 Remaining: the existing private Studio collectors remain paused with their old driver stopped; fresh limited owner evidence expires after24h. The next real nightly/weekly run remains the proof of journal scheduling. No complete private automatic sweep is claimed.
 
-[[90 Sources/78bed[number removed]f2ab43f|Full day log · 2026-10-16]]
+[[90 Sources/78bed306953290045f2ab43f|Full day log · 2026-10-16]]
 
 <!-- event:5a67786e3df5626466606e6b2e90273f54c35e2be2929ee165c2ac58c2a6bf19 -->
 ## 2026-10-16T19:33:13+03:00 · MUNGURA
@@ -94,7 +94,7 @@ Ambi clarified the private UFO channel strategy and its purpose
 - Verification: Direct user corrections in this conversation. Read shared mission page and complete ambi-life-architecture source in two bounded ranges at the same revision; previously read Studio North Star. No implementation or earnings claim was verified.
 - Status: in progress — strategy discussion; no build authorized
 
-[[90 Sources/78bed[number removed]f2ab43f|Full day log · 2026-10-16]]
+[[90 Sources/78bed306953290045f2ab43f|Full day log · 2026-10-16]]
 
 <!-- event:89698fa5d23a5ed53d9a2760c6ecad62f95eecdaa90504afd983f50c96fdaa86 -->
 ## 2026-10-16T19:43:03+03:00 · MUNGURA
@@ -107,7 +107,7 @@ The updated private UFO show strategy received a bounded feasibility assessment
 - Verification: Read source-backed Memoir Studio, Knowledge Stack, Content Genome and life/North Star context with bounded receipts; inspected Studio blueprint language explicitly excluding views/revenue from craft odds. Independently opened official YouTube YPP eligibility, announced changes, RPM definitions, CTR FAQ and concurrent title/thumbnail testing guidance. Research-agent reports preserve inaccessible-page, snapshot-date, survivorship and sampling limits. Arithmetic calculated directly; saved Markdown is a research deliverable, not a prototype or completed media.
 - Status: strategy assessment complete — no implementation or publishing
 
-[[90 Sources/78bed[number removed]f2ab43f|Full day log · 2026-10-16]]
+[[90 Sources/78bed306953290045f2ab43f|Full day log · 2026-10-16]]
 
 <!-- event:f1dd0f87dc25873adf597f989cace28b589bdc9049b9fb9cbcef3b18005c304a -->
 ## 2026-10-16T19:45:26+03:00 · MUNGURA
@@ -120,7 +120,7 @@ Ambi kept the UFO research direction open and deferred the large fan-out
 - Verification: Direct founder steering in this conversation. Memoir CloneEngine overview and first5000characters of its original runbook document a separate local own-voice path; this is historical source evidence, not an Inworld2 runtime check. The existing feasibility assessment now carries the later founder steering before its provisional analysis. No new channel scan, audio generation, code change, agent fan-out or recurring task was launched.
 - Status: direction preserved — future research and build not started
 
-[[90 Sources/78bed[number removed]f2ab43f|Full day log · 2026-10-16]]
+[[90 Sources/78bed306953290045f2ab43f|Full day log · 2026-10-16]]
 
 <!-- event:7f52ad2f06c40cb8604bf559b42218c971005d4bd62dfb07b7c9be7eaa29afb6 -->
 ## 2026-10-16T20:05:55+03:00 · MUNGURA
@@ -133,7 +133,7 @@ Ambi's three exact UFO show references were visually studied
 - Verification: Downloaded the three public user-supplied reference videos for local analysis. Inspected50 timestamped Nesi frames,54 Jaymez frames,65 God’s Eye frames, a16-frame Nesi motion sequence and an enlarged editor screenshot; source media decoded and ffprobe dimensions/durations checked. Original-English captions were used, with local base.en ASR of Nesi’s original track as cross-check; multi-language dubs excluded. Direct audio input is unsupported in this session, so exact mix, keyboard/click timbre and vocal inflection were not auditioned. Review is sampled visual coverage across55m18s metadata runtime, not uninterrupted audiovisual viewing. Six selected stills assembled with preserved aspect ratios and visually checked. Full study records coverage, limitations and timestamped source links. No broader channel scan is part of this reference review.
 - Status: reference study complete with direct-audio audition limitation — no build
 
-[[90 Sources/78bed[number removed]f2ab43f|Full day log · 2026-10-16]]
+[[90 Sources/78bed306953290045f2ab43f|Full day log · 2026-10-16]]
 
 <!-- event:0a843bbe5b18dbee1f9b54456d87b1a2e88ddbc0cfba67ab09927280cbe2a74e -->
 ## 2026-10-18T10:47:38+03:00 · TEHUTI
@@ -149,7 +149,7 @@ Blacksite started: UFO desk app, research swarm wave 1 done
 
 [[90 Sources/00f67120e702055f2ff552d1|Full day log · 2026-10-18]]
 
-<!-- event:0424abddbc93ccabd7a2731f0a[number removed]db358afae67d0e5269d522ef -->
+<!-- event:0424abddbc93ccabd7a2731f0a14389513154036db358afae67d0e5269d522ef -->
 ## 2026-10-18T11:27:43+03:00 · TEHUTI
 
 **Logged observation · verify against the linked source before treating as current state.**
@@ -175,7 +175,7 @@ UFO channel: the edge is case choice, not the reaction format
 
 [[90 Sources/00f67120e702055f2ff552d1|Full day log · 2026-10-18]]
 
-<!-- event:e73627e6c90ce[number removed]fa7d9c88e5a34989eeb66299eecc3feeb635a1 -->
+<!-- event:e73627e6c90ce5226341453166fa7d9c88e5a34989eeb66299eecc3feeb635a1 -->
 ## 2026-10-19T17:25:56+03:00 · MUNGURA
 
 **Logged observation · verify against the linked source before treating as current state.**

@@ -10,7 +10,7 @@ Studio’s causal chains and invalidation rules are concrete examples: track wha
 
 ## Read first
 
-1. [[90 Sources/c9f50195d[number removed]e4da|STORY-MIND]]
+1. [[90 Sources/c9f50195d51002103424e4da|STORY-MIND]]
 2. [[90 Sources/9050090606c10077ff4e190a|STORY-ENGINE-BLUEPRINT]]
 
 ## Connected pages

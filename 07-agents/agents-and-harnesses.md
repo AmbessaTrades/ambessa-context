@@ -91,7 +91,7 @@ TubeLoop backup left out 4 file(s) that contain keys
 - Fix: move the key into the folder's .env (the keys backup picks it up) or add the path to secret_allow in ~/.auh-git/projects/tubeloop/project.json if it is not a real key.
 - Status: blocked — needs an agent to look
 
-[[90 Sources/78bed[number removed]f2ab43f|Full day log · 2026-10-16]]
+[[90 Sources/78bed306953290045f2ab43f|Full day log · 2026-10-16]]
 
 <!-- event:f2c26349246b11c70edd3a036b7c943ba33ea2309665a07cfdd0ebca72277bc0 -->
 ## 2026-10-16T09:28:36+03:00 · MUNGURA
@@ -102,7 +102,7 @@ Founder decisions: use the supplied TubeLoop.ai light/dark OKLCH palette exclusi
 Verified milestone: all four web views share local VT323 and one theme switch, including Sema nonce-based script policy and Gauntlet. Native wrapper was compiled, installed, signed, relaunched and its light window verified. Canonical topic pages, original history and stable evidence anchors remain intact. Recent journal UI and newest-first rendering are implemented and under final destination verification.
 Autosave investigation: Git backup is Python/Git, with no model calls. Confirmed successful-auto-save day-log entries feed subsequent private backups; a code backup also changed only the at field in a generated report. Bounded change/notification repair is in progress; real content backups, existing owners, failure alerts and history must be preserved. No authorization to pause Studio or start the hypothetical alien channel.
 
-[[90 Sources/78bed[number removed]f2ab43f|Full day log · 2026-10-16]]
+[[90 Sources/78bed306953290045f2ab43f|Full day log · 2026-10-16]]
 
 <!-- event:7f8e9e96f7755e25de3b6748116b3f897fc4541bcd5b8b3cb4ecc775b249c9b6 -->
 ## 2026-10-16T14:19:41+03:00 · MUNGURA
@@ -114,7 +114,7 @@ Changed: a single muted blue document-link accent now distinguishes links in bot
 Delivered: 18 actual app snapshots with captions, live routes and SHA256 manifest; offline HTML gallery, Markdown guide and ZIP at the current conversation outputs/Memoir-tour and outputs/Memoir-photo-guide.zip. Canonical copy is ~/debate-agent/docs/memoir-tour, linked from the Memoir and Agents pages by guide source21f3d5c13dacb6c73aaf98fe. No demonstration notes, new scheduler or separate memory store were created.
 Verified: both theme link colors inspected in the live reader, 18 knowledge tests and19 renderer checks passed. All18 gallery images/hash records validated, 196 linked source snapshots have zero missing links. Code/photos saved and pushed as15a1fc806b to github.com/AmbessaTrades/tubeloop. Startup pointers direct reads but do not prove automatic compliance in an existing chat. Other devices still require transferred files, source remapping and an authorized adapter; no remote sync or iOS runtime is claimed.
 
-[[90 Sources/78bed[number removed]f2ab43f|Full day log · 2026-10-16]]
+[[90 Sources/78bed306953290045f2ab43f|Full day log · 2026-10-16]]
 
 <!-- event:1f708d173115870ca7999c871b296eab0b9a1ed34675f85a79ec1035f7a8ba8a -->
 ## 2026-10-16T18:40:16+03:00 · MUNGURA
@@ -127,7 +127,7 @@ Preserved: canonical Mungura Hermes nightly00:20, launchd daily00:05, backend00:
 Verification: the model worker now classifies routine pulses by explicit heartbeat message type; an event explaining a heartbeat repair remains visible in Markdown and DB. Isolated event-versus-pulse tests passed. Yesterday15October’s canonical daily journal was generated through ChatGPT OAuth6.1low; quality/density validation and all18 index links passed, SUMMARY and DB synchronized and live reader/date API verified. Corrected old status labels to the shared configuration; /api/journal/status reports Oct15 success and configured6.1low. Next automatic nightly run remains pending.
 Memoir Dock repair: pinned label is Memoir, its serialized bookmark resolves without staleness to ~/Applications/Memoir.app, and only that app process runs. Archived obsolete .app backup/build copies with non-launchable extensions so the old before-rename app cannot reopen through its prior identity. Installed a bold transparent white open-book glyph matching TubeLoop/Studio assets, explicitly loaded the current bundle icon at launch, signed and relaunched Memoir while retaining bundleID/auth/data.
 
-[[90 Sources/78bed[number removed]f2ab43f|Full day log · 2026-10-16]]
+[[90 Sources/78bed306953290045f2ab43f|Full day log · 2026-10-16]]
 
 <!-- event:6873d6f8f563bfd7d18b5ba65fac951c21d4973c9631004eacb80d9e1d6ce1d4 -->
 ## 2026-10-18T13:39:41+03:00 · TEHUTI
@@ -160,7 +160,7 @@ Blacksite is now a real Mac app (Blacksite.app + launchd server)
 
 [[90 Sources/00f67120e702055f2ff552d1|Full day log · 2026-10-18]]
 
-<!-- event:2d490f[number removed]f9a9274b8982910d843e07e6ae575602a38eb62e851cf -->
+<!-- event:2d490f2762649938989f9a9274b8982910d843e07e6ae575602a38eb62e851cf -->
 ## 2026-10-18T14:25:16+03:00 · TEHUTI
 
 **Logged observation · verify against the linked source before treating as current state.**
@@ -187,7 +187,7 @@ Blacksite director + camera engine: smooth moves and measured pacing rules
 
 [[90 Sources/00f67120e702055f2ff552d1|Full day log · 2026-10-18]]
 
-<!-- event:6a4ed04206b8a68bc4a[number removed]c2a48876ca2f9b4ab7fda2bbb561de68fb -->
+<!-- event:6a4ed04206b8a68bc4a10645790530c2a48876ca2f9b4ab7fda2bbb561de68fb -->
 ## 2026-10-18T15:17:31+03:00 · TEHUTI
 
 **Logged observation · verify against the linked source before treating as current state.**
@@ -206,7 +206,7 @@ Blacksite voice lab: Ambi V3 pronunciations + tag-face sync verified
 
 [[90 Sources/00f67120e702055f2ff552d1|Full day log · 2026-10-18]]
 
-<!-- event:62293649fb549091b894f9edbbacf[number removed]db1c8a2886506a2e19aa2d50 -->
+<!-- event:62293649fb549091b894f9edbbacf93573934684db1c8a2886506a2e19aa2d50 -->
 ## 2026-10-18T15:23:42+03:00 · TEHUTI
 
 **Logged observation · verify against the linked source before treating as current state.**

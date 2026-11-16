@@ -10,7 +10,7 @@ Rolling window rebuilt on every sync. Newest day last. This is what was actually
 
 ---
 
-## [number removed]:09 EAT — MUNGURA — Daily journal generated for 2026-11-09; status=success; db_length=76550; source_hash=042d7f80563c.
+## 2026-11-10 00:09 EAT — MUNGURA — Daily journal generated for 2026-11-09; status=success; db_length=76550; source_hash=042d7f80563c.
 <!-- type: event -->
 **From:** MUNGURA
 
@@ -43,7 +43,7 @@ Daily journal generated for 2026-11-09; status=success; db_length=76550; source_
 **Status:** complete.
 **Tags:** [memory, daily-journal, scheduler]
 
-## [number removed]:17 EAT — MUNGURA — Home-design apps study: $10M plan reset toward free channels and a back office
+## 2026-11-10 00:17 EAT — MUNGURA — Home-design apps study: $10M plan reset toward free channels and a back office
 <!-- type: event -->
 **From:** MUNGURA
 
@@ -59,7 +59,7 @@ Home-design apps study: $10M plan reset toward free channels and a back office
 
 ---
 
-## [number removed]:19 EAT — MUNGURA — Weekly long-term summary generated
+## 2026-11-10 00:19 EAT — MUNGURA — Weekly long-term summary generated
 <!-- type: event_bus -->
 **From:** mungura
 
@@ -69,7 +69,7 @@ Tags: prompt4, longterm-weekly
 
 ---
 
-## [number removed]:19 EAT — MUNGURA — Weekly long-term summary generated: 2026-11-03-to-11-09
+## 2026-11-10 00:19 EAT — MUNGURA — Weekly long-term summary generated: 2026-11-03-to-11-09
 <!-- type: event -->
 **From:** MUNGURA
 
@@ -77,7 +77,7 @@ Weekly long-term summary generated: 2026-11-03-to-11-09
 
 ---
 
-## [number removed]:23 EAT — MUNGURA — Daily journal generated for 2026-11-09; status=success; db_length=76466; source_hash=ac850f888c71.
+## 2026-11-10 00:23 EAT — MUNGURA — Daily journal generated for 2026-11-09; status=success; db_length=76466; source_hash=ac850f888c71.
 <!-- type: event -->
 **From:** MUNGURA
 
@@ -110,7 +110,7 @@ Daily journal generated for 2026-11-09; status=success; db_length=76466; source_
 **Status:** complete.
 **Tags:** [memory, daily-journal, scheduler]
 
-## [number removed]:33 EAT — MUNGURA — Home app 0.83: no-ads plan, the free marketing machine, the Office and the widget, on the board (sections N, O)
+## 2026-11-10 00:33 EAT — MUNGURA — Home app 0.83: no-ads plan, the free marketing machine, the Office and the widget, on the board (sections N, O)
 <!-- type: event -->
 **From:** MUNGURA
 
@@ -123,7 +123,7 @@ Home app 0.83: no-ads plan, the free marketing machine, the Office and the widge
 
 ---
 
-## [number removed]:16 EAT — MUNGURA — Home app 0.84: new look SHEET, 27 screens, the build pack, one cohesive board, relay mode
+## 2026-11-10 01:16 EAT — MUNGURA — Home app 0.84: new look SHEET, 27 screens, the build pack, one cohesive board, relay mode
 <!-- type: event -->
 **From:** MUNGURA
 
@@ -136,7 +136,7 @@ Home app 0.84: new look SHEET, 27 screens, the build pack, one cohesive board, r
 
 ---
 
-## [number removed]:16 EAT — TEHUTI — Home app build pack: blind copy panel and free-channel research run; cold-start test still open
+## 2026-11-10 01:16 EAT — TEHUTI — Home app build pack: blind copy panel and free-channel research run; cold-start test still open
 <!-- type: event -->
 **From:** TEHUTI
 
@@ -152,7 +152,7 @@ Home app build pack: blind copy panel and free-channel research run; cold-start 
 
 ---
 
-## [number removed]:10 EAT — MUNGURA — Home app 0.85: engine, gripes, second marketing machine, 12 bots; stopped at usage limit
+## 2026-11-10 03:10 EAT — MUNGURA — Home app 0.85: engine, gripes, second marketing machine, 12 bots; stopped at usage limit
 <!-- type: event -->
 **From:** MUNGURA
 
@@ -161,7 +161,7 @@ Home app build pack: blind copy panel and free-channel research run; cold-start 
 - Verification: pack_lint ok (27 screens, 39 files); 12 golden requests check; 12 bot examples pass and 12 planted bad answers caught; screens re-shot and looked at. NOT verified: the board rebuild (a worker was still running), doctor after the last edits, bots on a live runner (shell not signed in).
 - Status: in-progress. Next chat starts at BUILD/START-HERE.md; PROGRESS has "Planner stopped here". Waiting on Ambi: the name (urgent), three price questions, one key.
 
-## [number removed]:33 EAT — MUNGURA — Home app 0.86: two X posts studied; video plan "the app is the advert" and reel cards
+## 2026-11-10 04:33 EAT — MUNGURA — Home app 0.86: two X posts studied; video plan "the app is the advert" and reel cards
 <!-- type: event -->
 **From:** MUNGURA
 
@@ -172,7 +172,7 @@ Home app 0.86: two X posts studied; video plan "the app is the advert" and reel 
 
 ---
 
-## [number removed]:34 EAT — TEHUTI — Home app pack to 0.85: picture engine, marketing doors, bots, cold-start test
+## 2026-11-10 04:34 EAT — TEHUTI — Home app pack to 0.85: picture engine, marketing doors, bots, cold-start test
 <!-- type: event -->
 **From:** TEHUTI
 
@@ -187,7 +187,7 @@ Home app pack to 0.85: picture engine, marketing doors, bots, cold-start test
 
 ---
 
-## [number removed]:46 EAT — TEHUTI — TubeLoop backup left out 7 file(s) that contain keys
+## 2026-11-10 04:46 EAT — TEHUTI — TubeLoop backup left out 7 file(s) that contain keys
 <!-- type: event -->
 **From:** TEHUTI
 
@@ -199,7 +199,7 @@ TubeLoop backup left out 7 file(s) that contain keys
 
 ---
 
-## [number removed]:46 EAT — TEHUTI — TubeLoop backup kept the last saved copy of a folder that shrank or vanished
+## 2026-11-10 04:46 EAT — TEHUTI — TubeLoop backup kept the last saved copy of a folder that shrank or vanished
 <!-- type: event -->
 **From:** TEHUTI
 
@@ -209,7 +209,7 @@ TubeLoop backup kept the last saved copy of a folder that shrank or vanished
 
 ---
 
-## [number removed]:18 EAT — TEHUTI — Home decor app: name picked (Drawn Room), Rust foundation and moving screens built and checked
+## 2026-11-10 05:18 EAT — TEHUTI — Home decor app: name picked (Drawn Room), Rust foundation and moving screens built and checked
 <!-- type: event -->
 **From:** TEHUTI
 
@@ -225,7 +225,7 @@ Home decor app: name picked (Drawn Room), Rust foundation and moving screens bui
 
 ---
 
-## [number removed]:09 EAT — TEHUTI — Home design app: server, database and first seven-screen photo flow built and checked
+## 2026-11-10 06:09 EAT — TEHUTI — Home design app: server, database and first seven-screen photo flow built and checked
 <!-- type: event -->
 **From:** TEHUTI
 
@@ -241,7 +241,7 @@ Home design app: server, database and first seven-screen photo flow built and ch
 
 ---
 
-## [number removed]:10 EAT — MUNGURA — VMake daily study: LOT thumbnails vs performance
+## 2026-11-10 06:10 EAT — MUNGURA — VMake daily study: LOT thumbnails vs performance
 <!-- type: event -->
 **From:** MUNGURA
 
@@ -253,7 +253,7 @@ _[truncated in this pack; full day log stays on the machine]
 
 ## 2026-11-11
 
-## [number removed]:19 EAT — MUNGURA — Prompt form + render rig: a code-rendered film that can actually be captured
+## 2026-11-11 00:19 EAT — MUNGURA — Prompt form + render rig: a code-rendered film that can actually be captured
 
 
 
@@ -263,7 +263,7 @@ _[truncated in this pack; full day log stays on the machine]
 **Status/open:** the skill `code-render-prompt` exists only in the gericho-orchestrate profile — installing it fleet-wide means writing into the default profile's skills dir, which needs Ambi's word. No model call has been spent generating a scene from the form yet; the reference was written directly, so the form is proven executable but not yet proven as a prompt-to-model contract. Not found anywhere in logs or vault: a yesterday dissection of the Semichenko/Fable video, and a bot called "Fonquin" — both named by Ambi, neither on disk.
 **Related:** [Prompts and render rigs](../vault/10%20Projects/Prompts%20and%20render%20rigs.md) [TubeLoop](../vault/10%20Projects/TubeLoop.md)
 
-## [number removed]:43 EAT — TEHUTI — TubeLoop backup recovered: backup run working again
+## 2026-11-11 00:43 EAT — TEHUTI — TubeLoop backup recovered: backup run working again
 <!-- type: event -->
 **From:** TEHUTI
 
@@ -273,7 +273,7 @@ TubeLoop backup recovered: backup run working again
 
 ---
 
-## [number removed]:52 EAT — TEHUTI — TubeLoop backup left out 7 file(s) that contain keys
+## 2026-11-11 05:52 EAT — TEHUTI — TubeLoop backup left out 7 file(s) that contain keys
 <!-- type: event -->
 **From:** TEHUTI
 
@@ -285,7 +285,7 @@ TubeLoop backup left out 7 file(s) that contain keys
 
 ---
 
-## [number removed]:52 EAT — TEHUTI — TubeLoop backup kept the last saved copy of a folder that shrank or vanished
+## 2026-11-11 05:52 EAT — TEHUTI — TubeLoop backup kept the last saved copy of a folder that shrank or vanished
 <!-- type: event -->
 **From:** TEHUTI
 
@@ -295,7 +295,7 @@ TubeLoop backup kept the last saved copy of a folder that shrank or vanished
 
 ---
 
-## [number removed]:10 EAT — MUNGURA — VMake daily study: LOT thumbnails vs performance
+## 2026-11-11 06:10 EAT — MUNGURA — VMake daily study: LOT thumbnails vs performance
 <!-- type: event -->
 **From:** MUNGURA
 
@@ -323,7 +323,7 @@ TubeLoop backup kept the last saved copy of a folder that shrank or vanished
 - Status: complete
 
 
-## [number removed]:41 EAT — MUNGURA — TitleBatch nightly: added 0 — Claude Opus 5 answered no round (exit 1: ror', 'message': 'OAuth authentication is currently not allowed for this)
+## 2026-11-11 06:41 EAT — MUNGURA — TitleBatch nightly: added 0 — Claude Opus 5 answered no round (exit 1: ror', 'message': 'OAuth authentication is currently not allowed for this)
 <!-- type: event -->
 **From:** MUNGURA
 
@@ -332,35 +332,35 @@ TubeLoop backup kept the last saved copy of a folder that shrank or vanished
 - Verification: batch json on disk; new rows counted from the board (new_n = 0)
 - Status: blocked — added 0 new titles: Claude Opus 5 answered no round (exit 1: ror', 'message': 'OAuth authentication is currently not allowed for this)
 
-## [number removed]:15 EAT — MUNGURA — By The Clock studied, engine proven, TitleBatch retired
+## 2026-11-11 09:15 EAT — MUNGURA — By The Clock studied, engine proven, TitleBatch retired
 
 **Changed (verified):** Ambi pointed at By The Clock's Napoleon film (911,123 views on 2,970 subscribers, 8:48, 2 weeks old) and said bend it. Downloaded the video (184 MB) and pulled ten frames; the published description gives the whole engine away: 1.5 s = 1 day on the July march, 2.5 s = 1 hour at Borodino, 9 s = 1 day at the Berezina. Time compression is declared data, not editing. Wrote the study to ~/AUH/STUDY/bytheclock-2026-11-11/STUDY.md; Elektrika returned DESIGN-SPEC.md (183 lines, measured geometry and hex sampled from the frames) plus four skills (map-clock-film, plate-film-engine, ocr-text-gate, staged-prompt-contract). Built the engine twice in code: camap.py (hand polylines), then camap2.py on a real base map - Natural Earth 50m land and rivers, Cliopatria 1812 borders showing Russian Empire, First French Empire and Duchy of Warsaw. proof-clock-v3.mp4: 1920x1080, 875 frames, 35 s, clock running 1/4 s -> 2 s -> 1/2 s per day, strength as countable counters, losses left on the map as debris. Also retired TitleBatch: plist unloaded, disabled and moved to ~/AUH/.retired/ after its nightly added 0 titles on a dead Claude OAuth.
 **Why/verdict:** The format is not map animation, it is a clock with a map attached; strength as countable blocks and the dead staying on the map are the two mechanics that carry it. Proven by a rendered artifact, not by a plan. Defects I can still see: no relief or woods so the field stays thin, the column is small at 500 km scale, and the loss-bar numbers were overlapping before the fix.
 **Status/open:** Base data is on disk and public domain (Natural Earth, Cliopatria/Seshat) so this lane costs nothing to run. Open: relief and woods need a DEM or hand shading; a decision from Ambi on whether this is a new channel pitch or a tool for LOT; the video has no narration or quote cards yet.
 **Related:** [Memoir](../vault/10%20Projects/Debate%20Agent.md) [Mission and life architecture](../vault/10%20Projects/Mission%20and%20life%20architecture.md)
 
-## [number removed]:28 EAT — MUNGURA — Map-clock film: real relief base, v4 rendered
+## 2026-11-11 09:28 EAT — MUNGURA — Map-clock film: real relief base, v4 rendered
 
 **Changed (verified):** Downloaded Natural Earth 50m shaded relief (NE2_50M_SR_W, 88.9 MB) and wrote relief.py, which samples that raster through the film's own projection into 1920x1080 and tints it to the parchment field, so the map is real terrain rather than flat colour. Rebuilt the base in camap2.py on it; scattered the loss debris instead of drawing it as a block; and removed a fabricated Russian casualty series - the panel now says "not modelled in this proof" because Minard gives the French flow only. proof-clock-v4.mp4: 1920x1080, 875 frames, 35.0 s, 2.58 MB, ffprobe-verified. Frames now write as JPEG (a photographic base made PNG frames slow: one run stalled at 206 frames in six minutes).
 **Why/verdict:** The reference's field is a real atlas; flat colour could never read as one. Relief at 0.88-1.08 shading keeps the data first while the ground looks like ground. Rendering is fast now: 875 frames in about two minutes.
 **Status/open:** Still missing the reference's stippled woods and dense minor roads. Data honesty: only Napoleon's flow is Minard; any Russian series must come from a cited source before it appears. Waiting on Ambi: is this a new channel pitch or a tool inside LOT.
 **Related:** [Memoir](../vault/10%20Projects/Debate%20Agent.md)
 
-## [number removed]:01 EAT — MUNGURA — Senior-audience bend: contract wired, 12-second TV-tier film rendered
+## 2026-11-11 10:01 EAT — MUNGURA — Senior-audience bend: contract wired, 12-second TV-tier film rendered
 
 **Changed (verified):** Ideation written to ~/AUH/STUDY/bend-by-the-clock-2026-11-10/IDEATION-senior-audience.md. Live scan grounded it: "war every day map documentary" returns Geo History 8.7M and 15.3M plus Real Time History 2.3M and 3.8M (crowded), while "history documentary for older viewers explained slowly" returns 1.7K, 283 and 503 views (empty). The bend is therefore an audience bend, not a topic bend: 64px badge, 34px legend floor, no cut under 2.5s, 20-35 min, calm narrator, music 20 dB under voice, one number at a time, 96px TV overscan. Elektrika delivered design.json (schema bytheclock.screen-grammar.v2, every value tagged measured/inferred/directive, Iowan Old Style primary, Charter as the open fallback, Georgia rejected) plus GODSEYE-WAR-SPEC.md and six skills. I wired the contract into the renderer: apply_design() reads design.json, draw_frame_senior() computes every panel from its own text instead of a hardcoded box, and make_film.py takes --senior. Proof: out/senior-12s.mp4, 300 frames, 12.0 s, 1.43 MB, and a frame pulled back out of the MP4 shows the loss panel inside its box, the credit off the scale bar, and the army column legible at TV distance.
 **Why/verdict:** One contract, two tiers - the renderer now holds no opinions of its own about type or colour. The senior tier is not a restyle, it is a different layout, and computing panels from measured text is what makes a 34px floor safe.
 **Status/open:** Open: narration and quote cards not built; labels still collide with the army column at Vitebsk; the pilot needs its clock re-timed to the senior rule (1.5 s/day is the floor, decisive moments 3-5 s). Elektrika owns senior-audience-craft, war-campaign-data, archival-audio-supply, video-description-seo.
 **Related:** [Memoir](../vault/10%20Projects/Debate%20Agent.md)
 
-## [number removed]:31 EAT — MUNGURA — War Maps: 8:17 Napoleon film rendered from code, scored with real audio, packaged
+## 2026-11-11 16:31 EAT — MUNGURA — War Maps: 8:17 Napoleon film rendered from code, scored with real audio, packaged
 
 **Changed (verified):** The full round-trip campaign is rendered and delivered: ~/AUH/STUDY/bytheclock-2026-11-11/proof/out/WARMAPS-napoleon-1812-final.mp4 - 12,427 frames, 497.08 s (8:17), 31.3 MB, h264 + AAC, TV tier. Campaign data in campaigns/napoleon-1812-roundtrip.json: 174 days, Kovno to Moscow and back, three documented anchors from Minard (422,000 crossed, 100,000 at Moscow, 10,000 returned), everything between them interpolated and labelled as such in the film and the description. Renderer fixes found by looking at frames, not by trusting the pipeline: a stationary army collapsed every counter onto one point (Moscow was a blob for 52 seconds) - fixed with an arrival-heading fallback; the temperature axis read JUN-SEP on a film ending in December - now derived from the campaign dates; the timeline collided with the loss panel - moved; the route read as a dashed wire - redrawn as a cased road. Renderer speed: 0.33 s/frame with per-frame stroked text, 0.037 s/frame after caching the label layer into one blit - a 9x speedup, measured. Elektrika delivered a warmap.audio-cue-sheet.v1 with six real recordings and licences; I mixed it with measured per-cue gains (the 1922 Marine Band sides sit 35 dB down) after finding an off-by-one in the filter inputs that silently replaced the two march cues with the silent bed. Score verified by sampling the mux at ten points. Titus delivered the description and three thumbnails; I corrected his chapter times against the clock (Borodino is 1:53, not 2:28) and wrote DESCRIPTION-final.md.
 **Why/verdict:** The film is the artifact and it exists. Zero tokens at render; the only model spend was authoring the campaign and looking at frames. No narrator, as ordered: six public-domain recordings, and two minutes of the eight are deliberately silent because no real recording exists of a burning Moscow.
 **Status/open:** Open: the morning-ideation board (pick a card, get the finished film) is specified but not built - it is Elektrika's lane and needs the morning. Not yet published anywhere. No traffic yet, so no revenue claim.
 **Related:** [Memoir](../vault/10%20Projects/Debate%20Agent.md)
 
-## [number removed]:29 EAT — TEHUTI — TubeLoop backup left out 7 file(s) that contain keys
+## 2026-11-11 18:29 EAT — TEHUTI — TubeLoop backup left out 7 file(s) that contain keys
 <!-- type: event -->
 **From:** TEHUTI
 
@@ -372,7 +372,7 @@ TubeLoop backup left out 7 file(s) that contain keys
 
 ---
 
-## [number removed]:29 EAT — TEHUTI — TubeLoop backup kept the last saved copy of a folder that shrank or vanished
+## 2026-11-11 18:29 EAT — TEHUTI — TubeLoop backup kept the last saved copy of a folder that shrank or vanished
 <!-- type: event -->
 **From:** TEHUTI
 
@@ -382,21 +382,21 @@ TubeLoop backup kept the last saved copy of a folder that shrank or vanished
 
 ---
 
-## [number removed]:43 EAT — MUNGURA — Era-audio study re-checked: 13/13 licences and durations proven, one real defect found
+## 2026-11-11 18:43 EAT — MUNGURA — Era-audio study re-checked: 13/13 licences and durations proven, one real defect found
 
 **Changed (verified):** The delegated audio study landed at ~/AUH/STUDY/warmaps-audio-2026-11-11/ERA-AUDIO-AND-LETTERS.md (302 lines: audio per era, cue-sheet schema, period-letter sourcing and a 9-step letter-card renderer spec). I did not take its [V] marks on trust — I turned them into two gates in the same folder: verify-licences.py compares every claimed licence with the licence Commons itself records, verify-durations.py compares every claimed duration with server-side metadata. Both now pass **13/13** (durations all inside 0.5 s; X2 Truman measured 0:25.7, previously "unread"), and all 7 LibriVox running times match the pages. The check also caught one real defect the reader missed: **M1 Agincourt carol** is tagged PD-old-70 for the *15th-century work* and carries **no performer or recording release** — the same trap it correctly caught on the 1931 Thill disc — so it is demoted from [V] to [V-lic / U-rec] and must not ship until a released file is found. Part B improved: both facsimiles cleared through the API (Napoleon→Prince Regent, Wellcome **CC BY 4.0**, not PD-old; Haley 1864, **PD**, Missouri History Museum), and the LOC "no warranty" quote re-sourced to the per-collection Rights and Access pages, plus the Grant Papers line "All manuscripts authored by President Grant himself are in the public domain."
 **Why/verdict:** A child's [V] is a claim; a gate is evidence. The API proves the file is *tagged*, never that the tag reaches the layer we use — which is exactly why M1 survived a green gate and still failed a human read. Cheap trick worth keeping: Commons `prop=videoinfo&viprop=duration` returns real durations with no download, after the download route hit HTTP 429 on 7 of 13 files.
 **Status/open:** Open — the 1931 Thill disc is PD in the EU and US-copyrighted to 2031 (a cue-sheet business decision, N1 is the clean substitute); WW1 front-line effects and all Churchill/BBC material stay UNVERIFIED; the war-map film is packaged but unpublished. Also fixed the context layer: added a `warmaps` project to the Memoir map (~/debate-agent/memory/vault/project-maps.json) so "war maps" and "era audio" resolve, and dropped the retired com.auh.titlebatch-scan job from vmake — `map-check` now **289 checked, 0 failed**.
 **Related:** [War Map](../vault/30%20Story%20systems/War%20Map.md) [Memoir](../vault/10%20Projects/Debate%20Agent.md)
 
-## [number removed]:05 EAT — MUNGURA — Ambi: research is irrelevant, visuals and ideation are the product; frame grammar rebuilt, riddles killed
+## 2026-11-11 19:05 EAT — MUNGURA — Ambi: research is irrelevant, visuals and ideation are the product; frame grammar rebuilt, riddles killed
 
 **Changed (verified):** Ambi cut the audio/licence audit short — "the research is kind of irrelevant… if the visuals aren't good and ideation isn't good, it could be marked simulation… the riddles aren't good." So the order of work changed: stop proving sources, start making the picture and the idea land. Two things done. (1) **The film's frame grammar was rebuilt** in ~/AUH/STUDY/bytheclock-2026-11-11/proof/film2.py — the old frames were a diagram on blank parchment (7 names, 6 counters, no direction); the new frames draw the ground as a place (all 50m rivers cased, lakes, dotted 1812 borders, 75 real towns with haloed labels), the army as **countable ranks of blocks** (22×14, 1 = 10,000), a **cased road with direction arrows** that turns brick on the retreat, plate-kit panels with hard 7 px shadows, and **one plain sentence per beat** at the bottom. Campaign steps were re-dated to the real days (Vilna 28 Jun, Vitebsk 28 Jul, Smolensk 17 Aug, Borodino 7 Sep, Moscow 14 Sep, Maly 24 Oct, Orsha 20 Nov, Berezina 28 Nov) and the temperature series replaced with a true seasonal curve. (2) **The riddles are gone from the studio board** (~/AUH/WarMapStudio/board.json): "the difference between an army and a crowd" is now "The retreat reaches a river with 35,700 men left. Two bridges hold the crossing open." Verified by screenshotting the live app at 127.0.0.1:3007 — job panel reads DONE, 90 FRAMES · 2.11 MB, the player holds a real film, and all four cards read as plain statements.
 **Why/verdict:** He is right and the old frames prove it: a legible diagram is not a picture. What changed the read is ground + direction + countability + one sentence, not more data. Render cost measured at 0.183 s/frame after caching fonts and baking the minor labels (was 1.4 s/frame — a 7.6× speedup) and a per-frame PNG verify now catches corrupt writes that made ffmpeg die with "chunk too big".
 **Status/open:** Open — the renderer's terrain is parchment-relief, while the app's own films still look like green satellite; the two visual languages must become one before any of this ships. Sadowa and the Berezina have no scene document, so their cards stay unarmed. Nothing published.
 **Related:** [War Maps](../vault/10%20Projects/War%20Maps.md)
 
-## [number removed]:12 EAT — MUNGURA — Kingdom grammar measured and built: the battle page is now a page, not a diagram
+## 2026-11-11 20:12 EAT — MUNGURA — Kingdom grammar measured and built: the battle page is now a page, not a diagram
 
 **Changed (verified):** Ambi sent the real reference — five Kingdom manga battle pages — and said it is the backbone of War Maps: "imagine if you only had a page to show exactly what is going on." I measured the pages instead of admiring them (`~/AUH/STUDY/warmaps-kingdom-2026-11-11/ref1..5.png`, component detection in numpy): unit plate 72×17 px of a 518-wide page (13.9 % w, 4.4 % h → ~267×48 at 1080p), name plate 230–540×86–150, commander's framed face ~150×98, army mass 230–540×140–195, one mark ~13×17 on a 24×28 pitch, giant army word one word at 120–190 px. Wrote the layout law into `KINGDOM-GRAMMAR.md` and built the prototype `kingdom.py`: **Cannae, 216 BC, 10:00**, real order of battle from the cannae JSON — nine formation blocks, each in a reserved margin slot with a thin leader line to its own plate, two commander portraits, one clock, one giant word per army, line-art ridge and river. Verified by looking at the PNG: no overlapping text, everything reads at TV distance.
 **Why/verdict:** Five iterations were needed and the failures were all the same failure 
@@ -405,7 +405,7 @@ _[truncated in this pack; full day log stays on the machine]
 
 ## 2026-11-12
 
-## [number removed]:42 EAT — MUNGURA — VMake daily study: LOT thumbnails vs performance
+## 2026-11-12 06:42 EAT — MUNGURA — VMake daily study: LOT thumbnails vs performance
 <!-- type: event -->
 **From:** MUNGURA
 
@@ -415,7 +415,7 @@ _[truncated in this pack; full day log stays on the machine]
 - Status: blocked
 
 
-## [number removed]:43 EAT — TEHUTI — TubeLoop backup left out 7 file(s) that contain keys
+## 2026-11-12 06:43 EAT — TEHUTI — TubeLoop backup left out 7 file(s) that contain keys
 <!-- type: event -->
 **From:** TEHUTI
 
@@ -427,7 +427,7 @@ TubeLoop backup left out 7 file(s) that contain keys
 
 ---
 
-## [number removed]:43 EAT — TEHUTI — TubeLoop backup kept the last saved copy of a folder that shrank or vanished
+## 2026-11-12 06:43 EAT — TEHUTI — TubeLoop backup kept the last saved copy of a folder that shrank or vanished
 <!-- type: event -->
 **From:** TEHUTI
 
@@ -437,7 +437,7 @@ TubeLoop backup kept the last saved copy of a folder that shrank or vanished
 
 ---
 
-## [number removed]:20 EAT — MUNGURA — Loop V28 proposition: Hermes in the panes, time in 3-second cells
+## 2026-11-12 10:20 EAT — MUNGURA — Loop V28 proposition: Hermes in the panes, time in 3-second cells
 Changed: wrote ~/AUH/Loop/loop/revival/PROPOSAL-HERMES-CELLS-V1.md (2,083 words) and
 BRIEF-ALL-AGENTS-2026-11-12.md. Read the revival board (272 text nodes), LOT-VIZ-SHADOW-BEING-ENGINE V27.0
 (10,139 words, Section 6 timing), loop/revival/PLAN.md + GIF-TEST.md, and PaneGrid.tsx (Service union at :35,
@@ -450,7 +450,7 @@ Status-open: Q4-Q7 to Ambi (Hermes default, 100 GIFs, 3 s grid, Titus/Electrika 
 yet; Bygone pacing measured from durations only, cut rhythm unmeasured.
 Related: ~/AUH/Loop/src/components/shots/PaneGrid.tsx, ~/AUH/Loop/loop/revival/*, skill lot-viz-shadow (to build)
 
-## [number removed]:45 EAT — MUNGURA — Both claude -p lanes returned "Credit balance is too low"; wrote their files myself
+## 2026-11-12 10:45 EAT — MUNGURA — Both claude -p lanes returned "Credit balance is too low"; wrote their files myself
 Changed: /tmp/electrika.log and /tmp/titus.log both said credit too low and wrote nothing. Wrote the two files
 directly: ~/AUH/Loop/loop/revival/ELECTRIKA-TIMING-SPEC.md (quantisation to 3 s cells, worked 25/30-min arithmetic,
 shots.json schema + 5 Rust invariants, the 5 loop-law pass/fail tests, V27 section-by-section fate, skill file
@@ -461,7 +461,7 @@ Why-verdict: no fan-out on a dead account — the work is mine to do. The 70-GIF
 Status-open: Q4-Q7 with Ambi; GIF test never run; Bygone cut rhythm unmeasured (needs a frame study).
 Related: proposal + brief in the same folder; lanes resume when credit returns
 
-## [number removed]:05 EAT — MUNGURA — Daily flow set: morning titles+thumbnails, evening validation, three syncs
+## 2026-11-12 11:05 EAT — MUNGURA — Daily flow set: morning titles+thumbnails, evening validation, three syncs
 Changed: wrote ~/AUH/Loop/loop/revival/DAILY-FLOW.md (the standing law), TITLEBOT-STANDING-BRIEF.md (the paste
 brief), lanes.json (lot live, niche-b empty until named), and bin/morning-pack.sh + the first real pack folder
 data/daily/2026-11-12/morning.json. Seshat confirmed live on :3002; vault path confirmed; no TikTok uploader exists
@@ -472,7 +472,7 @@ Status-open: lane B (the second niche) is unnamed - flow refuses to guess; TikTo
 uploader or stays manual; no cron installed yet (he said tell them the flow, not start it).
 Related: DAILY-FLOW.md, TITLEBOT-STANDING-BRIEF.md, lanes.json, bin/morning-pack.sh
 
-## [number removed]:40 EAT — MUNGURA — Dropped the invented sync surfaces; Studio AUH bible + LOT ideation protocol
+## 2026-11-12 13:40 EAT — MUNGURA — Dropped the invented sync surfaces; Studio AUH bible + LOT ideation protocol
 Changed: deleted loop/revival/DAILY-FLOW.md, TITLEBOT-STANDING-BRIEF.md, lanes.json (they carried Notion/Seshat/
 TikTok sync Ambi never asked for). Wrote ~/AUH/Studio/STUDIO-AUH-BIBLE.md (Jacopist reverse-engineered: dispatch
 every 28-34 s measured from transcripts; 4-rung opening inside 105 s; thumbnails = report cover - Earth map with
@@ -485,7 +485,7 @@ Status-open: thumbnails pulled only as maxres stills; cut rhythm per dispatch an
 zombie transcript only a fragment.
 Related: STUDIO-AUH-BIBLE.md, LOT-IDEATION-PROTOCOL.md, Jacopist MVIwvywuQpQ / QEOQwrNz0bU / pUZw6AYBNcE / cUgwRpPphpM
 
-## [number removed]:08 EAT — TEHUTI — TubeLoop backup left out 7 file(s) that contain keys
+## 2026-11-12 21:08 EAT — TEHUTI — TubeLoop backup left out 7 file(s) that contain keys
 <!-- type: event -->
 **From:** TEHUTI
 
@@ -497,7 +497,7 @@ TubeLoop backup left out 7 file(s) that contain keys
 
 ---
 
-## [number removed]:08 EAT — TEHUTI — TubeLoop backup kept the last saved copy of a folder that shrank or vanished
+## 2026-11-12 21:08 EAT — TEHUTI — TubeLoop backup kept the last saved copy of a folder that shrank or vanished
 <!-- type: event -->
 **From:** TEHUTI
 
@@ -507,7 +507,7 @@ TubeLoop backup kept the last saved copy of a folder that shrank or vanished
 
 ---
 
-## [number removed]:25 EAT — TEHUTI — DSH wired into Memoir: MCP bridge, all Hermes skills, ported bot brains
+## 2026-11-12 21:25 EAT — TEHUTI — DSH wired into Memoir: MCP bridge, all Hermes skills, ported bot brains
 <!-- type: event -->
 **From:** TEHUTI
 
@@ -520,7 +520,7 @@ DSH wired into Memoir: MCP bridge, all Hermes skills, ported bot brains
 
 ---
 
-## [number removed]:48 EAT — MUNGURA — Daily journal generated for 2026-11-11; status=success; db_length=32640; source_hash=5b82fbd0e831.
+## 2026-11-12 21:48 EAT — MUNGURA — Daily journal generated for 2026-11-11; status=success; db_length=32640; source_hash=5b82fbd0e831.
 <!-- type: event -->
 **From:** MUNGURA
 
@@ -553,7 +553,7 @@ Daily journal generated for 2026-11-11; status=success; db_length=32640; source_
 **Status:** complete.
 **Tags:** [memory, daily-journal, scheduler]
 
-## [number removed]:48 EAT — TEHUTI — Hermes bots wired into DeepSeek Harness as live tools
+## 2026-11-12 21:48 EAT — TEHUTI — Hermes bots wired into DeepSeek Harness as live tools
 <!-- type: event -->
 **From:** TEHUTI
 
@@ -566,7 +566,7 @@ Hermes bots wired into DeepSeek Harness as live tools
 
 ---
 
-## [number removed]:52 EAT — MUNGURA — Daily journal generated for 2026-11-10; status=success; db_length=64092; source_hash=40df60d4721d.
+## 2026-11-12 21:52 EAT — MUNGURA — Daily journal generated for 2026-11-10; status=success; db_length=64092; source_hash=40df60d4721d.
 <!-- type: event -->
 **From:** MUNGURA
 
@@ -599,20 +599,20 @@ Daily journal generated for 2026-11-10; status=success; db_length=64092; source_
 **Status:** complete.
 **Tags:** [memory, daily-journal, scheduler]
 
-## [number removed]:52 EAT — TEHUTI — Nightly journal off Anthropic: DeepSeek Flash low, missing days 10-11 backfilled
+## 2026-11-12 21:52 EAT — TEHUTI — Nightly journal off Anthropic: DeepSeek Flash low, missing days 10-11 backfilled
 <!-- type: event -->
 **From:** TEHUTI
 
 Nightly journal off Anthropic: DeepSeek Flash low, missing days 10-11 backfilled
 - Harness: DeepSeek Harness (deepseek-flash)
-- What happened: Changed: the nightly daily journal and the weekly long-term summary now run on DeepSeek, Ambi's 2026-11-12 call. `~/debate-agent/scripts/scheduled_model.py` routes journals to `deepseek-flash` with reasoning `low` first and `deepseek-v4-pro` with `low` as the safety net; no Anthropic route remains. The canonical constants PROVIDER/MODEL/REASONING/DISPLAY moved to deepseek/deepseek-flash/low/DeepSeek Flash. Daily and weekly status text no longer hardcodes Claude: the weekly status builds MODEL_ROUTE_TEXT from JOURNAL_ROUTES, and the daily `provider_policy` and `sub_agent.route` now read from the live route. Argparse text, docstrings and the retired-model alias map were updated so old `--model claude-haiku-5.5` callers still resolve to the canonical DeepSeek model. Ran a real catch-up: [number removed],667 chars) and [number removed],919 chars) dailies generated with SUMMARY mirrors, DB lengths 64,092 and 32,640, validation passed. The first real run exposed a self-inflicted NameError (`MODEL` vs `MODEL_CANONICAL`) in the status block; fixed, then re-ran and forced 2026-11-10 once so its status record is truthful. Brain updated in three places: `~/.hermes/memories/MEMORY.md` MODEL ROUTING line, `~/.dsh/AGENTS.md`, `~/.dsh/AUH-BRAIN.md` now say journals and weekly summaries run DeepSeek Flash low since 2026-11-12, off Anthropic. Why-verdict: Ambi said switch the nightly journal off Anthropic to DeepSeek from now on and low thinking is fine; the Anthropic routes had been failing since 10 Nov (Haiku 5.5 and Opus 5 both errored), leaving three days without dailies. Status: complete. Next scheduled run [number removed]:05 (launchd com.auh.daily-journal) then 00:07 (backend safety net) will generate 2026-11-12 on the new route; the weekly job inherits the same routes. Verification: 6/6 `unittest test_scheduled_model` pass including the two-route fallback test; `hermes chat --provider deepseek --reasoning low -m deepseek-flash` and `-m deepseek-v4-pro` both answered OK; catch-up exited 0; journal-status.json shows last_run_status success, provider deepseek, model deepseek-flash, reasoning low, and both dates success; files and DB rows exist for both days. Side effect to know: `scheduled_model.run_scheduled_routes` is an alias of the journal route runner, so the LOT Community generator moves to DeepSeek as well.
+- What happened: Changed: the nightly daily journal and the weekly long-term summary now run on DeepSeek, Ambi's 2026-11-12 call. `~/debate-agent/scripts/scheduled_model.py` routes journals to `deepseek-flash` with reasoning `low` first and `deepseek-v4-pro` with `low` as the safety net; no Anthropic route remains. The canonical constants PROVIDER/MODEL/REASONING/DISPLAY moved to deepseek/deepseek-flash/low/DeepSeek Flash. Daily and weekly status text no longer hardcodes Claude: the weekly status builds MODEL_ROUTE_TEXT from JOURNAL_ROUTES, and the daily `provider_policy` and `sub_agent.route` now read from the live route. Argparse text, docstrings and the retired-model alias map were updated so old `--model claude-haiku-5.5` callers still resolve to the canonical DeepSeek model. Ran a real catch-up: 2026-11-10 (64,667 chars) and 2026-11-11 (32,919 chars) dailies generated with SUMMARY mirrors, DB lengths 64,092 and 32,640, validation passed. The first real run exposed a self-inflicted NameError (`MODEL` vs `MODEL_CANONICAL`) in the status block; fixed, then re-ran and forced 2026-11-10 once so its status record is truthful. Brain updated in three places: `~/.hermes/memories/MEMORY.md` MODEL ROUTING line, `~/.dsh/AGENTS.md`, `~/.dsh/AUH-BRAIN.md` now say journals and weekly summaries run DeepSeek Flash low since 2026-11-12, off Anthropic. Why-verdict: Ambi said switch the nightly journal off Anthropic to DeepSeek from now on and low thinking is fine; the Anthropic routes had been failing since 10 Nov (Haiku 5.5 and Opus 5 both errored), leaving three days without dailies. Status: complete. Next scheduled run 2026-11-13 00:05 (launchd com.auh.daily-journal) then 00:07 (backend safety net) will generate 2026-11-12 on the new route; the weekly job inherits the same routes. Verification: 6/6 `unittest test_scheduled_model` pass including the two-route fallback test; `hermes chat --provider deepseek --reasoning low -m deepseek-flash` and `-m deepseek-v4-pro` both answered OK; catch-up exited 0; journal-status.json shows last_run_status success, provider deepseek, model deepseek-flash, reasoning low, and both dates success; files and DB rows exist for both days. Side effect to know: `scheduled_model.run_scheduled_routes` is an alias of the journal route runner, so the LOT Community generator moves to DeepSeek as well.
 - Files changed: /Users/Mungura/debate-agent/scripts/scheduled_model.py; /Users/Mungura/debate-agent/scripts/generate_daily_journal_gpt55.py; /Users/Mungura/debate-agent/scripts/generate_weekly_summary_gpt55.py; /Users/Mungura/debate-agent/memory/daily/journal-status.json; /Users/Mungura/debate-agent/memory/daily/2026-11-10.md; /Users/Mungura/debate-agent/memory/daily/2026-11-11.md; /Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-10.md; /Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-11.md; /Users/Mungura/.hermes/memories/MEMORY.md; /Users/Mungura/.dsh/AGENTS.md; /Users/Mungura/.dsh/AUH-BRAIN.md
 - Verification: tests 6/6; both DeepSeek models answered via Hermes CLI; catch-up exit 0; journal-status provider deepseek / model deepseek-flash / reasoning low / last success 2026-11-11; daily files 2026-11-10.md + 2026-11-11.md and DB rows present; validation passed in both result payloads.
-- Status: complete — journals and weekly on DeepSeek Flash low; both missing days generated; next run [number removed]:05
+- Status: complete — journals and weekly on DeepSeek Flash low; both missing days generated; next run 2026-11-13 00:05
 
 ---
 
-## [number removed]:54 EAT — TEHUTI — Gaps closed: CUA + Codex provider installed, fleet strip built, bots→harness designed
+## 2026-11-12 21:54 EAT — TEHUTI — Gaps closed: CUA + Codex provider installed, fleet strip built, bots→harness designed
 <!-- type: event -->
 **From:** TEHUTI
 
@@ -628,7 +628,7 @@ _[truncated in this pack; full day log stays on the machine]
 
 ---
 
-## [number removed]:08 EAT — MUNGURA — Daily journal generated for 2026-11-12; status=success; db_length=34227; source_hash=7c6b3286ebd2.
+## 2026-11-13 00:08 EAT — MUNGURA — Daily journal generated for 2026-11-12; status=success; db_length=34227; source_hash=7c6b3286ebd2.
 <!-- type: event -->
 **From:** MUNGURA
 
@@ -661,7 +661,7 @@ Daily journal generated for 2026-11-12; status=success; db_length=34227; source_
 **Status:** complete.
 **Tags:** [memory, daily-journal, scheduler]
 
-## [number removed]:19 EAT — MUNGURA — VMake daily study: LOT thumbnails vs performance
+## 2026-11-13 06:19 EAT — MUNGURA — VMake daily study: LOT thumbnails vs performance
 <!-- type: event -->
 **From:** MUNGURA
 
@@ -689,7 +689,7 @@ Daily journal generated for 2026-11-12; status=success; db_length=34227; source_
 - Status: complete
 
 
-## [number removed]:18 EAT — TEHUTI — TubeLoop backup left out 7 file(s) that contain keys
+## 2026-11-13 13:18 EAT — TEHUTI — TubeLoop backup left out 7 file(s) that contain keys
 <!-- type: event -->
 **From:** TEHUTI
 
@@ -701,7 +701,7 @@ TubeLoop backup left out 7 file(s) that contain keys
 
 ---
 
-## [number removed]:18 EAT — TEHUTI — TubeLoop backup kept the last saved copy of a folder that shrank or vanished
+## 2026-11-13 13:18 EAT — TEHUTI — TubeLoop backup kept the last saved copy of a folder that shrank or vanished
 <!-- type: event -->
 **From:** TEHUTI
 
@@ -711,7 +711,7 @@ TubeLoop backup kept the last saved copy of a folder that shrank or vanished
 
 ---
 
-## [number removed]:32 EAT — MUNGURA — AFRICORD plan: chat-video app for Ambi's fiancee
+## 2026-11-13 13:32 EAT — MUNGURA — AFRICORD plan: chat-video app for Ambi's fiancee
 <!-- type: event -->
 **From:** MUNGURA (harness: Hermes desktop, deepseek-flash, profile gericho-orchestrate)
 
@@ -738,7 +738,7 @@ Ambi wants a phone app that makes 16:9 Discord-chat history videos, African pers
 **Related**
 - `~/AUH/SERVER/PLAN.md` · `~/AUH/SERVER/GRILL.md` · `~/AUH/SERVER/out/proof.mp4`
 
-## [number removed]:55 EAT — MUNGURA — AFRICORD: 720p locked, 3 design directions drawn
+## 2026-11-13 13:55 EAT — MUNGURA — AFRICORD: 720p locked, 3 design directions drawn
 <!-- type: event -->
 **From:** MUNGURA (harness: Hermes desktop, deepseek-flash, profile gericho-orchestrate)
 
@@ -761,7 +761,7 @@ Ambi wants a phone app that makes 16:9 Discord-chat history videos, African pers
 **Related**
 - `~/AUH/SERVER/PLAN.md` · `GRILL.md` · `ui/dirs.png` · `out/proof_720.mp4`
 
-## [number removed]:20 EAT — MUNGURA — AFRICORD/Kitui: measured Discord spec, renderer v2, app screens
+## 2026-11-13 14:20 EAT — MUNGURA — AFRICORD/Kitui: measured Discord spec, renderer v2, app screens
 <!-- type: event -->
 **From:** MUNGURA (harness: Hermes desktop, deepseek-flash, profile gericho-orchestrate)
 
@@ -787,7 +787,7 @@ Ambi wants a phone app that makes 16:9 Discord-chat history videos, African pers
 **Related**
 - `~/AUH/SERVER/DISCORD-SPEC.md` · `render/chat-v2.html` · `out/proof2.mp4` · `ui/app.html`
 
-## [number removed]:30 EAT — MUNGURA — The writing engine works: gates pass, video rendered from the script
+## 2026-11-13 14:30 EAT — MUNGURA — The writing engine works: gates pass, video rendered from the script
 <!-- type: event -->
 **From:** MUNGURA (harness: Hermes desktop, deepseek-flash, profile gericho-orchestrate)
 
@@ -814,7 +814,7 @@ Ambi wants a phone app that makes 16:9 Discord-chat history videos, African pers
 **Related**
 - `~/AUH/SERVER/engine/` · `out/ng-za-a1.mp4` · `scripts/ng-za-a1.json`
 
-## [number removed]:34 EAT — MUNGURA — The renderer now exists in Rust
+## 2026-11-13 14:34 EAT — MUNGURA — The renderer now exists in Rust
 <!-- type: event -->
 **From:** MUNGURA (harness: Hermes desktop, deepseek-flash, profile gericho-orchestrate)
 
@@ -835,7 +835,7 @@ Ambi wants a phone app that makes 16:9 Discord-chat history videos, African pers
 **Related**
 - `~/AUH/SERVER/rust/chatrender/src/main.rs` · `out/rust_vs_js.png`
 
-## [number removed]:00 EAT — MUNGURA — Format fixed: ONE message at a time; agents re-tasked to build, not report
+## 2026-11-13 15:00 EAT — MUNGURA — Format fixed: ONE message at a time; agents re-tasked to build, not report
 <!-- type: event -->
 **From:** MUNGURA (harness: Hermes desktop, deepseek-flash, profile gericho-orchestrate)
 
@@ -858,7 +858,7 @@ Ambi wants a phone app that makes 16:9 Discord-chat history videos, African pers
 **Related**
 - `render/chat-v4.html` · `out/ds-ng-za-v4.mp4` · `engine/generate.py` · `out/mine_vs_real.png`
 
-## [number removed]:05 EAT — MUNGURA — Thumbnails and app screens rebuilt; four agents building artifacts
+## 2026-11-13 15:05 EAT — MUNGURA — Thumbnails and app screens rebuilt; four agents building artifacts
 <!-- type: event -->
 **From:** MUNGURA (harness: Hermes desktop, deepseek-flash, profile gericho-orchestrate)
 
@@ -881,7 +881,7 @@ Ambi wants a phone app that makes 16:9 Discord-chat history videos, African pers
 **Related**
 - `ui/app-v2.html` · `render/thumb.html` · `out/th_sheet.png`
 
-## [number removed]:07 EAT — MUNGURA — Real people can now walk into the chat
+## 2026-11-13 15:07 EAT — MUNGURA — Real people can now walk into the chat
 <!-- type: event -->
 **From:** MUNGURA (harness: Hermes desktop, deepseek-flash, profile gericho-orchestrate)
 
@@ -900,7 +900,7 @@ Ambi wants a phone app that makes 16:9 Discord-chat history videos, African pers
 **Related**
 - `engine/celebrities.json` · `engine/generate.py` · `out/cast_sheet.png`
 
-## [number removed]:23 EAT — TEHUTI — TubeLoop backup run failed
+## 2026-11-13 15:23 EAT — TEHUTI — TubeLoop backup run failed
 <!-- type: event -->
 **From:** TEHUTI
 
@@ -910,7 +910,7 @@ TubeLoop backup run failed
 
 ---
 
-## [number removed]:22 EAT — MUNGURA — First APK exists: Africord v0.1
+## 2026-11-13 15:22 EAT — MUNGURA — First APK exists: Africord v0.1
 <!-- type: event -->
 **From:** MUNGURA (harness: Hermes desktop, deepseek-flash, profile gericho-orchestrate)
 
@@ -932,7 +932,7 @@ TubeLoop backup run failed
 **Related**
 - `~/AUH/SERVER/AFRICORD-v0.1.apk` · `android/` · `engine/voices.json`
 
-## [number removed]:25 EAT — TEHUTI — TubeLoop backup recovered: backup run working again
+## 2026-11-13 16:25 EAT — TEHUTI — TubeLoop backup recovered: backup run working again
 <!-- type: event -->
 **From:** TEHUTI
 
@@ -942,7 +942,7 @@ TubeLoop backup recovered: backup run working again
 
 ---
 
-## [number removed]:35 EAT — MUNGURA — Full 16-minute video renders; five agent artifacts wired
+## 2026-11-13 17:35 EAT — MUNGURA — Full 16-minute video renders; five agent artifacts wired
 <!-- type: event -->
 **From:** MUNGURA (harness: Hermes desktop, deepseek-flash, profile gericho-orchestrate)
 
@@ -968,7 +968,7 @@ TubeLoop backup recovered: backup run working again
 **Related**
 - `out/full-ng-za.mp4` · `engine/render2.py` · `engine/pacing.json` · `skills/discord-chat-video-lane`
 
-## [number removed]:42 EAT — MUNGURA — Real faces in the chat; 12 voice packs; history + situations in
+## 2026-11-13 17:42 EAT — MUNGURA — Real faces in the chat; 12 voice packs; history + situations in
 <!-- type: event -->
 **From:** MUNGURA (harness: Hermes desktop, deepseek-flash, profile gericho-orchestrate)
 
@@ -983,7 +983,7 @@ _[truncated in this pack; full day log stays on the machine]
 
 ---
 
-## [number removed]:09 EAT — MUNGURA — Daily journal generated for 2026-11-13; status=success; db_length=28383; source_hash=dc3d24f63566.
+## 2026-11-14 00:09 EAT — MUNGURA — Daily journal generated for 2026-11-13; status=success; db_length=28383; source_hash=dc3d24f63566.
 <!-- type: event -->
 **From:** MUNGURA
 
@@ -1016,7 +1016,7 @@ Daily journal generated for 2026-11-13; status=success; db_length=28383; source_
 **Status:** complete.
 **Tags:** [memory, daily-journal, scheduler]
 
-## [number removed]:26 EAT — MUNGURA — Daily journal generated for 2026-11-13; status=success; db_length=28383; source_hash=d84ce803879e.
+## 2026-11-14 00:26 EAT — MUNGURA — Daily journal generated for 2026-11-13; status=success; db_length=28383; source_hash=d84ce803879e.
 <!-- type: event -->
 **From:** MUNGURA
 
@@ -1049,7 +1049,7 @@ Daily journal generated for 2026-11-13; status=success; db_length=28383; source_
 **Status:** complete.
 **Tags:** [memory, daily-journal, scheduler]
 
-## [number removed]:57 EAT — TEHUTI — TubeLoop backup left out 7 file(s) that contain keys
+## 2026-11-14 01:57 EAT — TEHUTI — TubeLoop backup left out 7 file(s) that contain keys
 <!-- type: event -->
 **From:** TEHUTI
 
@@ -1061,7 +1061,7 @@ TubeLoop backup left out 7 file(s) that contain keys
 
 ---
 
-## [number removed]:57 EAT — TEHUTI — TubeLoop backup kept the last saved copy of a folder that shrank or vanished
+## 2026-11-14 01:57 EAT — TEHUTI — TubeLoop backup kept the last saved copy of a folder that shrank or vanished
 <!-- type: event -->
 **From:** TEHUTI
 
@@ -1071,7 +1071,7 @@ TubeLoop backup kept the last saved copy of a folder that shrank or vanished
 
 ---
 
-## [number removed]:10 EAT — MUNGURA — VMake daily study: LOT thumbnails vs performance
+## 2026-11-14 06:10 EAT — MUNGURA — VMake daily study: LOT thumbnails vs performance
 <!-- type: event -->
 **From:** MUNGURA
 
@@ -1099,7 +1099,7 @@ TubeLoop backup kept the last saved copy of a folder that shrank or vanished
 - Status: complete
 
 
-## [number removed]:11 EAT — TEHUTI — TubeLoop backup run failed
+## 2026-11-14 08:11 EAT — TEHUTI — TubeLoop backup run failed
 <!-- type: event -->
 **From:** TEHUTI
 
@@ -1109,7 +1109,7 @@ TubeLoop backup run failed
 
 ---
 
-## [number removed]:14 EAT — TEHUTI — TubeLoop backup recovered: backup run working again
+## 2026-11-14 09:14 EAT — TEHUTI — TubeLoop backup recovered: backup run working again
 <!-- type: event -->
 **From:** TEHUTI
 
@@ -1119,7 +1119,7 @@ TubeLoop backup recovered: backup run working again
 
 ---
 
-## [number removed]:07 EAT — TEHUTI — TubeLoop backup left out 7 file(s) that contain keys
+## 2026-11-14 18:07 EAT — TEHUTI — TubeLoop backup left out 7 file(s) that contain keys
 <!-- type: event -->
 **From:** TEHUTI
 
@@ -1131,7 +1131,7 @@ TubeLoop backup left out 7 file(s) that contain keys
 
 ---
 
-## [number removed]:07 EAT — TEHUTI — TubeLoop backup kept the last saved copy of a folder that shrank or vanished
+## 2026-11-14 18:07 EAT — TEHUTI — TubeLoop backup kept the last saved copy of a folder that shrank or vanished
 <!-- type: event -->
 **From:** TEHUTI
 
@@ -1147,7 +1147,7 @@ TubeLoop backup kept the last saved copy of a folder that shrank or vanished
 
 ---
 
-## [number removed]:19 EAT — MUNGURA — Daily journal generated for 2026-11-14; status=success; db_length=13869; source_hash=8f1024d7d047.
+## 2026-11-15 02:19 EAT — MUNGURA — Daily journal generated for 2026-11-14; status=success; db_length=13869; source_hash=8f1024d7d047.
 <!-- type: event -->
 **From:** MUNGURA
 
@@ -1180,7 +1180,7 @@ Daily journal generated for 2026-11-14; status=success; db_length=13869; source_
 **Status:** complete.
 **Tags:** [memory, daily-journal, scheduler]
 
-## [number removed]:26 EAT — MUNGURA — Day opened: Memoir pass, disk at 98%, LOT silent since 2 Nov
+## 2026-11-15 02:26 EAT — MUNGURA — Day opened: Memoir pass, disk at 98%, LOT silent since 2 Nov
 
 - **Changed:** today's record opened and checked end to end. New `loop` state written (the page still described 31 Oct–2 Nov). Backup and disk nuance appended to `backup`. LOT dormancy appended to `lot`. The one `find` miss of this pass (`lot revenue snapshot`) added to `vault/project-maps.json`. Saved to GitHub as `21511e599e` via `tubeloop-commit`.
 - **Why-verdict:** every beat is a real read, not a summary. `map-check` = 292 paths, 0 failed before the add and 298 after it. `sync-topics --since 2026-11-15` = nothing pending, `--apply` mirrored 0. `df /System/Volumes/Data` = 875 Gi of 926 Gi used (98%), 27 Gi free. `auh-git status tubeloop` = last save 96c848994f on GitHub, 8 files unsaved. `public/latest.json` (collected 2026-11-14T23:17Z) = latest LOT upload 2026-11-02T23:15Z "He Used Black MAGIC for Revenge, Then Became a Saint" at about 2,100 views, uploads7d 0, uploads28d 12, sourceCount 100.
@@ -1191,7 +1191,7 @@ Daily journal generated for 2026-11-14; status=success; db_length=13869; source_
   4. The cron ticker was not running at 02:00; both 02:00 jobs (LOT Revenue public snapshot, nightly journal) were dispatched at 02:17:47, lateness 1066 s. Both completed ok. Cause not investigated in this pass.
 - **Related:** topics `loop`, `backup`, `lot`, `memory`.
 
-## [number removed]:10 EAT — MUNGURA — VMake daily study: LOT thumbnails vs performance
+## 2026-11-15 06:10 EAT — MUNGURA — VMake daily study: LOT thumbnails vs performance
 <!-- type: event -->
 **From:** MUNGURA
 
@@ -1219,7 +1219,7 @@ Daily journal generated for 2026-11-14; status=success; db_length=13869; source_
 - Status: complete
 
 
-## [number removed]:23 EAT — TEHUTI — TubeLoop backup left out 7 file(s) that contain keys
+## 2026-11-15 06:23 EAT — TEHUTI — TubeLoop backup left out 7 file(s) that contain keys
 <!-- type: event -->
 **From:** TEHUTI
 
@@ -1231,7 +1231,7 @@ TubeLoop backup left out 7 file(s) that contain keys
 
 ---
 
-## [number removed]:23 EAT — TEHUTI — TubeLoop backup kept the last saved copy of a folder that shrank or vanished
+## 2026-11-15 06:23 EAT — TEHUTI — TubeLoop backup kept the last saved copy of a folder that shrank or vanished
 <!-- type: event -->
 **From:** TEHUTI
 
@@ -1241,7 +1241,7 @@ TubeLoop backup kept the last saved copy of a folder that shrank or vanished
 
 ---
 
-## [number removed]:56 EAT — TEHUTI — TubeLoop backup left out 7 file(s) that contain keys
+## 2026-11-15 18:56 EAT — TEHUTI — TubeLoop backup left out 7 file(s) that contain keys
 <!-- type: event -->
 **From:** TEHUTI
 
@@ -1253,7 +1253,7 @@ TubeLoop backup left out 7 file(s) that contain keys
 
 ---
 
-## [number removed]:56 EAT — TEHUTI — TubeLoop backup kept the last saved copy of a folder that shrank or vanished
+## 2026-11-15 18:56 EAT — TEHUTI — TubeLoop backup kept the last saved copy of a folder that shrank or vanished
 <!-- type: event -->
 **From:** TEHUTI
 
@@ -1263,7 +1263,7 @@ TubeLoop backup kept the last saved copy of a folder that shrank or vanished
 
 ---
 
-## [number removed]:09 EAT — MUNGURA — Profile picture de-AI prompt pack (V4 base)
+## 2026-11-15 23:09 EAT — MUNGURA — Profile picture de-AI prompt pack (V4 base)
 
 **Changed** — `~/AUH/STUDY/profile-pic-deai-2026-11-15/`: `V4-BASE.jpg` (1984², the
 version Ambi picked), `V3-OLD.png`, `REF-finn.png`, `REF-blue-drape.png`,
@@ -1292,7 +1292,7 @@ blue-drape press photo.
 
 ---
 
-## [number removed]:08 EAT — MUNGURA — Daily journal generated for 2026-11-15; status=success; db_length=14799; source_hash=229981586cda.
+## 2026-11-16 00:08 EAT — MUNGURA — Daily journal generated for 2026-11-15; status=success; db_length=14799; source_hash=229981586cda.
 <!-- type: event -->
 **From:** MUNGURA
 
@@ -1325,7 +1325,7 @@ Daily journal generated for 2026-11-15; status=success; db_length=14799; source_
 **Status:** complete.
 **Tags:** [memory, daily-journal, scheduler]
 
-## [number removed]:21 EAT — MUNGURA — Daily journal generated for 2026-11-15; status=success; db_length=14799; source_hash=dca0339b3248.
+## 2026-11-16 00:21 EAT — MUNGURA — Daily journal generated for 2026-11-15; status=success; db_length=14799; source_hash=dca0339b3248.
 <!-- type: event -->
 **From:** MUNGURA
 
@@ -1358,7 +1358,7 @@ Daily journal generated for 2026-11-15; status=success; db_length=14799; source_
 **Status:** complete.
 **Tags:** [memory, daily-journal, scheduler]
 
-## [number removed]:51 EAT — MUNGURA — VMake daily study: LOT thumbnails vs performance
+## 2026-11-16 06:51 EAT — MUNGURA — VMake daily study: LOT thumbnails vs performance
 <!-- type: event -->
 **From:** MUNGURA
 
@@ -1368,7 +1368,7 @@ Daily journal generated for 2026-11-15; status=success; db_length=14799; source_
 - Status: blocked
 
 
-## [number removed]:49 EAT — TEHUTI — TubeLoop backup run failed
+## 2026-11-16 10:49 EAT — TEHUTI — TubeLoop backup run failed
 <!-- type: event -->
 **From:** TEHUTI
 
@@ -1378,7 +1378,7 @@ TubeLoop backup run failed
 
 ---
 
-## [number removed]:33 EAT — TEHUTI — TubeLoop backup left out 7 file(s) that contain keys
+## 2026-11-16 15:33 EAT — TEHUTI — TubeLoop backup left out 7 file(s) that contain keys
 <!-- type: event -->
 **From:** TEHUTI
 
@@ -1390,7 +1390,7 @@ TubeLoop backup left out 7 file(s) that contain keys
 
 ---
 
-## [number removed]:33 EAT — TEHUTI — TubeLoop backup kept the last saved copy of a folder that shrank or vanished
+## 2026-11-16 15:33 EAT — TEHUTI — TubeLoop backup kept the last saved copy of a folder that shrank or vanished
 <!-- type: event -->
 **From:** TEHUTI
 
@@ -1400,7 +1400,7 @@ TubeLoop backup kept the last saved copy of a folder that shrank or vanished
 
 ---
 
-## [number removed]:34 EAT — TEHUTI — TubeLoop backup recovered: backup run working again
+## 2026-11-16 15:34 EAT — TEHUTI — TubeLoop backup recovered: backup run working again
 <!-- type: event -->
 **From:** TEHUTI
 
@@ -1410,21 +1410,21 @@ TubeLoop backup recovered: backup run working again
 
 ---
 
-## [number removed]:55 EAT — MUNGURA — Africa-CARICOM pain base built and gated
+## 2026-11-16 18:55 EAT — MUNGURA — Africa-CARICOM pain base built and gated
 
 - What changed: new lane folder ~/AUH/AMBESSA/intel (nothing existed before). Built pains.db + check.py gate + build_page.py + index.html. Collected 69 pain points across four buyer groups (CARICOM gov, African gov, African firms $10M-$5B, diaspora firms $10M-$1B); 56 machine-verified against their live source, 13 unconfirmed because the sites block re-reading, 8 explicit deal-blockers. Captured 141 accounts Ambi follows and 417 X posts with URLs.
 - Why / verdict: the deal does not die of mistrust, it dies of payment rails, trade finance gap ($74bn Africa, 23% bank intermediation vs 80% global), logistics (no direct Africa-CARICOM link, 12-21% of import value in freight, 3-week port dwell) and state behaviour (Kenya Sh511.75bn pending bills, Namibia cannot enforce foreign arbitral awards). Institutions never post pain on X - documents only. Therefore the offer reframes from 'verified deal room' to a deal desk answering four questions per live deal.
 - Status/open: unconfirmed 13 need a non-blocked route; first real deal pair unnamed; memoir topic not yet written; page counts per group still show collected not verified.
 - Related: ~/AUH/AMBESSA/intel/BRIEF.md, index.html, pains.db, check.py, x/following.json
 
-## [number removed]:40 EAT — MUNGURA — Prep intel: East Africa, China, India, settlement, contracts
+## 2026-11-16 19:40 EAT — MUNGURA — Prep intel: East Africa, China, India, settlement, contracts
 
 - What changed: ~/AUH/AMBESSA/intel now holds 140 findings, 130 machine-verified, across 10 groups (4 buyer, 6 competitive). New files: APPENDIX-16NOV.md (Notion-pasteable), SEARCH-PLAYBOOK.md (tested queries). Appended the same evidence to the afribbean topic with explicit lineage (Afribbean dropped 8 Nov; thesis moved to the Ambessa Saul lane).
 - Why / verdict: East Africa is politically engaged with the Caribbean and commercially absent (CARICOM chair: never been trade; $300m ACTIF deals had no East African counterparty; 2021 Kenya-Barbados air services produced no route). China buys the tender before it opens ($2bn+ financed surveillance, 11 countries). India wins by being the non-Chinese option (Ghana 5G >$200m, UPI licensed to Namibia, TCS sovereign cloud Kenya). Chinese/Indian apps buy distribution at preload and ad spend, not resident teams. PAPSS live in 30+ countries but Nigeria settled only N5.6bn (~$3.6m) H1 2025. Conclusion: the gap is the trusted middle for one mid-market cross-border deal, not a rail and not a tender.
 - Status/open: Ambi corrected direction mid-run - this is prep only, no software design, coding sprint is 22 Nov on Claude Code. First real deal pair still unnamed. 10 findings unconfirmed (blocked/JS/PDF sources).
 - Related: ~/AUH/AMBESSA/intel/{APPENDIX-16NOV.md,BRIEF.md,SEARCH-PLAYBOOK.md,index.html,pains.db,check.py}
 
-## [number removed]:20 EAT — MUNGURA — Startup layer: who is shipping into these markets
+## 2026-11-16 20:20 EAT — MUNGURA — Startup layer: who is shipping into these markets
 
 - What changed: evidence base grew to 214 findings / 204 verified / 15 groups. New groups: startup_cohort (Google Africa Applied AI Lab 2026), small_ai_startups, offer_teardown, crossborder_startups, how_they_sell, faceless_and_caribbean. New file REVERSE-ENGINEER.md (mechanics worth borrowing, mechanics to avoid). Fixed a real gate bug: kwanex.com matched "x.com" as a substring and was misrouted to the X-capture route; host is now parsed exactly.
 - Why / verdict: the Africa-Caribbean corridor is live but unserved - WapiPay is the only licensed live startup corridor (BoJ approval, JN Money payout), Knova runs a Jamaica-Ghana trade corridor, and Zeepay's Barbados arm was suspended by the central bank and wound up. Pricing that works here is flat per seat with all modules (Cirquu N9,000 ~ $7), seat-not-AI (Knowlix $24.90, Bujeti N17k-35k), credits for heavy users (Decide $7/500), local currency + mobile money (Meditect 50,000 XOF/yr). Selling is founder-DM-the-principal plus one public artefact; WhatsApp is the checkout (Bill Express J$55/bill). Faceless brands win the commodity end but never show a named client; the face wins the trust end.
