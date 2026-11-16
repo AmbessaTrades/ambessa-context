@@ -1430,3 +1430,13 @@ TubeLoop backup recovered: backup run working again
 - Why / verdict: the Africa-Caribbean corridor is live but unserved - WapiPay is the only licensed live startup corridor (BoJ approval, JN Money payout), Knova runs a Jamaica-Ghana trade corridor, and Zeepay's Barbados arm was suspended by the central bank and wound up. Pricing that works here is flat per seat with all modules (Cirquu N9,000 ~ $7), seat-not-AI (Knowlix $24.90, Bujeti N17k-35k), credits for heavy users (Decide $7/500), local currency + mobile money (Meditect 50,000 XOF/yr). Selling is founder-DM-the-principal plus one public artefact; WhatsApp is the checkout (Bill Express J$55/bill). Faceless brands win the commodity end but never show a named client; the face wins the trust end.
 - Status/open: this remains PREP ONLY per Ambi - no software design, no product decision. Unverified 10 of 214. Still open: which mechanics we adopt for our own funnel, and the first named deal pair.
 - Related: ~/AUH/AMBESSA/intel/{REVERSE-ENGINEER.md,APPENDIX-16NOV.md,index.html,pains.db,raw3/}
+
+## 2026-11-16 21:17 EAT — MUNGURA — Ambessa venture registered as the North Star, context pack published
+
+**Changed.** Two Memoir project pages written and registered in `topics.json` and `project-maps.json as one project `ambessa`: `ambessa-venture` (the North Star, chosen, unnamed) and `ambessa-context` (the public context pack). Map screen works: `memory_cli.py map ambessa`; `map-check` 314 checked, 0 failed. State notes set on both topics. Mission topic appended with the North Star move. `~/.hermes/SOUL.md` gained "How We Think — the models" (thirteen lenses) plus an income line inside Money Urgency; gericho, electrika and titus SOULs point at it. Public pack at https://github.com/AmbessaTrades/ambessa-context rebuilt to 36 files, idempotent (second run `changed: 0`), daily cron `Context pack sync` 07:00 silent unless something moved.
+
+**Why-verdict.** Ambi called the venture the single North Star and told me to stop stating open items as decided. Every hand-written doc in the pack now says "exploring / candidate / open"; the generated digest and the Genspark blocks were rewritten the same way. The rule is now in SOUL for every bot, not just in a repo file.
+
+**Status-open.** No name, no first paying client, no chosen first offer. Thirteen image slots in the brief are still empty — only the portrait reached disk as a file; the rest arrived as literal `!image.png` text. Pack journal window is seven days.
+
+**Related.** `10 Projects/Ambessa Saul venture.md`, `10 Projects/Ambessa Context Pack.md`, `~/AUH/AMBESSA/sync_context_repo.py`, memory topic `mission`, `10 Projects/Afribbean`.
