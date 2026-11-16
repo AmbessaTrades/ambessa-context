@@ -196,3 +196,14 @@ Remaining: periodic source/index passes run under the existing maintenance loop 
 - Status: support work verified
 
 [[90 Sources/932c26552a808205023eac26|Full day log · 2026-10-19]]
+
+<!-- event:2d49ad335eee51c2880b165dacf5cb7c53df62cdfcc450d83e635f8e472b8a38 -->
+## 2026-11-16T21:04:36+03:00 · MUNGURA
+
+North Star moved, 16 Nov 2026 (Ambi).
+
+The venture is now the single North Star: a personal brand (Ambessa Saul) and a company brand feeding each other, selling verification and deal files to African and Caribbean governments and to companies doing $10M-$5B. No looking left, no looking right. The stated target is the first million from this venture.
+
+Money position as it actually stands: YouTube covers the rent. The income is expected to come from this venture and has not started. The price band ($5k-$25k onboarding plus a $3k-$5k monthly retainer) and the five candidate offers are hypotheses being tested, not settled rates. Consumer subscriptions are refused.
+
+What is Chosen versus open: the brand decision is settled (his face, his voice, daily output). The name, the first offer, the first client and the first named deal pair are open.

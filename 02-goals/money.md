@@ -4,6 +4,10 @@ These are the shapes being tested, not a settled price list. He has not fixed a 
 buyer yet. Use them to reason about viability, and quote them as "working number", not "our
 rate".
 
+**Where income actually comes from right now:** YouTube covers the rent. This venture is the
+income line and it has not started yet. Everything below is the shape being tested, not a
+rate that has been charged.
+
 ## Who pays
 
 Two buyers, both high ticket:
