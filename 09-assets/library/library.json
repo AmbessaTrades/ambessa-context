@@ -1,5 +1,5 @@
 {
- "count": 69,
+ "count": 71,
  "raw_base": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/",
  "items": [
   {
@@ -591,6 +591,22 @@
    "bytes": 493450,
    "use": "An article page at readable size with him inset — the source is the picture.",
    "steal": "Cite on screen, not in the description: the viewer sees the page they would have had to find.",
+   "tags": "system"
+  },
+  {
+   "file": "70-anton-prop.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/70-anton-prop.png",
+   "bytes": 513383,
+   "use": "Same pose, same tee, a tablet with a blue screen held at chest height, heart imagery behind him.",
+   "steal": "The prop. A tablet or a folded paper gives the hands a job and makes a static shot read as work rather than a pose.",
+   "tags": "system"
+  },
+  {
+   "file": "71-anton-diagram-annotated.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/71-anton-diagram-annotated.png",
+   "bytes": 1112338,
+   "use": "A grey anatomical plate with soleus and gastrocnemius lettered and arrowed, white ground, red labels.",
+   "steal": "When a diagram must be annotated, annotate the source image rather than redrawing it — the letters are the argument.",
    "tags": "system"
   }
  ]
