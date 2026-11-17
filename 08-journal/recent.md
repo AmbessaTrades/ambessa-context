@@ -1210,3 +1210,63 @@ Severity: error
 Tags: prompt4, longterm-weekly
 
 ---
+
+## 2026-11-17 08:45 EAT — TEHUTI — TubeLoop backup left out 7 file(s) that contain keys
+<!-- type: event -->
+**From:** TEHUTI
+
+TubeLoop backup left out 7 file(s) that contain keys
+- Left out (secret found, value not shown): home/AUH/Blacksite/data/lanes/2026-10-28T10-12-58-wedjat-fd34/backup/vendor/godseye-lite/dist/assets/studio-WGq3jXIg.js [a live key value]; home/AUH/Blacksite/data/lanes/2026-10-28T10-12-58-wedjat-fd34/backup/vendor/godseye-lite/src/wedjat/studio.js [a live key value]; home/AUH/Blacksite/data/lanes/2026-10-28T11-10-10-wedjat-e5a0/backup/vendor/godseye-lite/dist/assets/studio-WGq3jXIg.js [a live key value]; home/AUH/Blacksite/data/lanes/2026-10-28T11-10-10-wedjat-e5a0/backup/vendor/godseye-lite/src/wedjat/studio.js [a live key value]; home/AUH/Blacksite/research/study-1108/vidrush/pages/builtin.html [google api key]; home/AUH/Loop/jobs/verse/_config/active-hotkeys.json [a live key value]; home/AUH/Loop/src/components/AudioDashboard.tsx [a live key value]
+- Left out (over size cap): home/AUH/Loop/loop/revival/bygone/bygone-highest-state.webm (71 MB); home/AUH/Blacksite/data/packages/ep-mvfpm7ln-770d0be167.zip (104 MB); home/AUH/Blacksite/data/wedjat-adsb/2026-10-21.json (134 MB)
+- Fix: move the key into the folder's .env (the keys backup picks it up) or add the path to secret_allow in ~/.auh-git/projects/tubeloop/project.json if it is not a real key.
+- Status: blocked — needs an agent to look
+
+---
+
+## 2026-11-17 08:45 EAT — TEHUTI — TubeLoop backup kept the last saved copy of a folder that shrank or vanished
+<!-- type: event -->
+**From:** TEHUTI
+
+TubeLoop backup kept the last saved copy of a folder that shrank or vanished
+- Kept last saved version (safety): home/AUH/CloneEngine — lost 174 of 175 files
+- Status: blocked — needs an agent to look
+
+---
+
+## 2026-11-17 08:43 EAT — MUNGURA — VMake daily study: LOT thumbnails vs performance
+<!-- type: event -->
+**From:** MUNGURA
+
+- What happened: LOT 277,000 subs · last 21d 3 uploads · median 3,600 views · views/sub 0.013
+- Style that wins now: S1 mean 0.95x best 1.25x — dark, high-contrast, saturated, warm, big face/figure, clean/simple
+- Own outliers: 13.89x “Your SEM3N Is SPIRIT You Can Spend”; 11.67x “Your SEM3N Is What Your AURA Is Made Of”; 4.44x “When You DON'T Ejaculate, Your Nerves Go QUI”
+- Competitor Beyond The Alchemy (84,100 subs, median 26,000): 26.15x “Why Women Sense Your Energy Instantly (A”; 4.08x “Escaping the Edging Trap: The Dopamine P”
+- Competitor Masculine Theory (122,000 subs, median 14,000): 23.14x “Semen retention is nervous system evolut”; 5.07x “It wasn't about semen retention. It was ”
+- Competitor The Aligned Men (16,200 subs, median 4,350): 46.9x “I Did PURE Semen Retention For 1 Year, H”; 28.51x “SEMEN RETENTION BENEFITS  | 13+ MIND BLO”
+- Competitor Captain Sinbad (554,000 subs, median 11,500): 4.61x “Act like a "hot girl" for success in lif”; 2.78x “You Can Have Everything You Want in 90 D”
+- Competitor Semen Retention Club (162,000 subs, median 16,000): 46.88x “Captain Picard - Semen Retention”; 9.0x “She Can't Seduce A Man IMMUNE TO TEMPTAT”
+- Competitor Sexual Kung Fu (197,000 subs, median 9,700): 24.95x “Angion Method For Penis Growth and Harde”; 24.64x “Orgasm Without Ejaculating By Retraining”
+- Competitor Astral Doorway (308,000 subs, median 3,550): 24.51x “How to Observe Yourself | Key I — 01 • T”; 21.97x “The Spiritual Future of Humanity & End T”
+- Competitor Regal Change (26,700 subs, median 2,900): 2.97x “Why You Give Hot Chicks PTSD On Semen Re”; 2.66x “I Couldn't Handle All The Female Attract”
+- Competitor Taylor Johnson - Integrative Sexual Health for Men (114,000 subs, median 5,200): 28.65x “Sex Transmutation Explained ✨🔥 (How-To G”; 20.96x “Multiple Ejaculations for Men (Technique”
+- Style to borrow: from The Aligned Men best 46.9x — mid-tone, flat, saturated, warm, big face/figure, clean/simple
+- Errors: annel/UCboJ1avpnorCXLDU5UauVzg: yt-dlp failed for https://www.youtube.com/channel/UCboJ1avpnorCXLDU5UauVzg/video
+- Files changed: /Users/Mungura/AUH/VMake/out/study/study_c44deb7c.json, out/study/study_latest.json
+- Verification: 40 videos with real view counts; 40 thumbnails on disk; 1 style clusters
+- Catalog re-TN queue (views × ad slots × velocity; basis previous snapshot): #1 7.6% “The 6 Stages of KUNDALINI AWAKENING & ” TN DRAFT SHE IS COILED; #2 7.6% “THE 7 STAGES OF SEMEN RETENTION” TN DRAFT KEEP IT; #3 6.3% “The Reason Masturb*tion is Killing You” TN DRAFT DON'T SPILL
+- Fastest movers (v/day): 475 “The 6 Stages of KUNDALINI AWAKENIN”; 475 “Your SEM3N Is What Your AURA Is Ma”; 475 “Why Your Body Is NOT Needed After ”
+- META (last 90d, 39 outliers): thumbs are big text at bottom · cleaner / simpler · bigger face / figure ; titles start with WHY · ask a question ; outliers run 0–32 min
+- META shift vs last quarter: shorter titles (~8 words vs 9) -1.3→-0.9; ask a question -0.08→+0.12; warn (don't / never / banned) +0.07→-0.12
+- LOT vs meta: winners are more muted · one field · flatter than LOT's last 12
+- Status: complete
+
+
+## 2026-11-17 08:05 EAT — MUNGURA — The rejected-ideas log: eleven dead rounds saved as dead ground
+
+**Changed.** New Memoir project page `ambessa-rejected` — "Ambessa — ideas explored and rejected" — registered third in Projects (after the venture and the context pack) and pointed to from the venture page. It records all eleven idea rounds with Ambi's own verdict on each, the five reasons an idea died, the numbers with trust labels, the errors that session admitted, and its reading of Ambi marked as a claim rather than canon. Same content published in the public pack as `05-offers/explored-and-rejected.md`, with personal details removed.
+
+**Why-verdict.** He spent a long session with another AI and his verdict was "it fell short in a lot of places… it's just not it". Saving the ideas matters less than saving the rejections: the next agent must know this is dead ground and may re-propose one only with new evidence. Ambi's words outrank the other agent's summary where they disagree (price band $5k–$25k, buyer ceiling $5B).
+
+**Status-open.** The eleventh set, led by the EU Forest-Rule File, was never judged. No idea yet has a named penalty, a finished sample and a buyer saying yes.
+
+**Related.** `10 Projects/Ambessa — ideas explored and rejected.md`, `10 Projects/Ambessa Saul venture.md`, `05-offers/explored-and-rejected.md`, topic `ambessa-rejected`.
