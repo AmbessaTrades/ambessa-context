@@ -106,3 +106,29 @@ The devices this batch adds to the system:
 6. **Dotted connectors.** Security or flow shown as objects joined by dashed lines, accent only on the secret parts.
 7. **Taped serif plate.** The chapter title is paper on a wall, not a lower third.
 8. **Token board + its unlit pair.** Shape-and-number chapters; the lit/unlit pair is the animation.
+
+
+### Third batch — composition and emphasis
+
+| `38-three-plinth-circuit.png` | 'One memory, one context' in serif; three isometric plinths — Claude on yellow, ChatGPT on green, Grok Bot on blue — wired by dotted orange lines to a central stack of orange plates. | The circuit board: outer nodes wear the other people's brand colours, the accent is spent only on the thing being added. Dotted wires, no arrows. |
+| `39-blur-in-title.png` | A title caught mid-arrival, soft and out of focus behind the bot face; subject large in a rounded window. | Titles move. A still from a transition shows text arriving blurred and resolving — stop designing static title cards and design the 400ms that lands them. |
+| `40-highlight-travels.png` | The 10 Updates board with 07 lifted, tilted in 3D and ringed in orange while the rest sit flat. | Position without a cursor: one card rotates and gains a ring, and the eye knows exactly where we are. No arrow, no highlight bar. |
+| `41-lit-trio.png` | Same 10 Updates board, first three cards glowing amber under a Business label; the rest sit equal and flat. | Emphasis is a property of the frame, not an effect added on top — the lit trio and the flat six are the same component with one flag. |
+| `42-prompt-as-artefact.png` | A dark card headed PROMPT holding a monospace prompt, orange COPY and outlined FULLSCREEN; beside it an iPhone showing the same words as a bubble; Calendar and Reminders icons wearing green ticks; an orange 'Take a screenshot!' pill. | Show the actual prompt as a copyable artefact — proof instead of paraphrase. Green ticks on the app icons do the 'it worked' job. |
+| `43-icons-as-props.png` | Subject large left; a Home icon and a Location icon floating at label size; the phone mock empty beside them. | App icons are allowed to be props: unboxed, large, label underneath. The phone stays the hero. |
+| `44-squiggle-wireframe.png` | 'Chat' in serif, a wireframe chat window drawn in squiggle lines with an orange border and an orange circular X badge; subject on the right. | Squiggles mean 'text, not readable' and cost nothing — no lorem ipsum, no fake copy. One orange badge is all the UI furniture needed. |
+| `45-light-artefact-dark-ground.png` | A bright white dashboard and share sheet floating on black, cursor included; the subject reduced to a small inset bottom-left. | Contrast does the framing: a white artefact on black needs no border. The presenter can shrink to thumbnail when the modal is the point. |
+| `46-checked-title.png` | 'Page' in serif with a solid green circle tick beside it; a white page mock below showing weekly sales, three stat cards and one bar picked out in blue. | A serif noun plus one green tick reads as 'done, real, shipped'. One coloured bar proves the chart without a caption. |
+| `47-mascot-roster.png` | Full white app UI: a sidebar of coloured blob mascots with two eyes — GROKO, SHOPO, TRAVO, FITO, GIFTO, MAILO — a client list, and a weekly checklist with green ticks and a black GROKO pill on the row it touched. | Each agent is a colour and a shape, not an icon — the roster becomes the navigation. A named pill marks the row the agent acted on. |
+
+What this batch adds, beyond the earlier devices:
+
+1. **The circuit board.** Three branded plinths wired by dotted lines to a central stack; the accent is spent only on the new thing, brand colours stay on the outside nodes.
+2. **Titles in motion.** A still from a transition shows type arriving blurred and resolving. Design the 400ms, not the card.
+3. **The highlight travels.** One card tilts in 3D and gains a ring — position shown without a cursor or arrow.
+4. **Prompt as artefact.** The real prompt on a dark card with copy and fullscreen buttons; proof instead of paraphrase.
+5. **Icons as props.** Unboxed app icons at label size; the phone stays the hero.
+6. **Squiggle wireframes.** Wavy lines mean "text" and cost nothing — no lorem, no fake copy.
+7. **Light artefact on dark ground.** A white UI on black frames itself; the presenter shrinks to a thumbnail.
+8. **Checked title.** A serif noun plus one solid green tick reads as shipped; one coloured bar proves a chart.
+9. **Mascot roster.** Agents as coloured blobs with two eyes become the navigation; a named pill marks the row that was touched.
