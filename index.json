@@ -17,7 +17,7 @@
   },
   {
    "path": "01-context.txt",
-   "bytes": 4992
+   "bytes": 5205
   },
   {
    "path": "01-who/calm-room.md",
@@ -53,7 +53,7 @@
   },
   {
    "path": "02-goals/mission.md",
-   "bytes": 31102
+   "bytes": 31377
   },
   {
    "path": "02-goals/money.md",
@@ -154,6 +154,70 @@
   {
    "path": "09-assets/ambessa-saul-profile.png",
    "bytes": 688113
+  },
+  {
+   "path": "09-assets/library/01-ideabrowser-everyone-is-lazy.png",
+   "bytes": 92022
+  },
+  {
+   "path": "09-assets/library/02-alex-kwon-laziest-person.png",
+   "bytes": 103039
+  },
+  {
+   "path": "09-assets/library/03-greg-isenberg-youtube-channel.png",
+   "bytes": 166529
+  },
+  {
+   "path": "09-assets/library/04-ideabrowser-pinned-signal-in-noise.png",
+   "bytes": 362755
+  },
+  {
+   "path": "09-assets/library/05-greg-isenberg-pinned-content-strategy.png",
+   "bytes": 490184
+  },
+  {
+   "path": "09-assets/library/06-greg-isenberg-x-profile-frontrun.png",
+   "bytes": 375612
+  },
+  {
+   "path": "09-assets/library/07-boldness-to-brains-ratio.png",
+   "bytes": 929276
+  },
+  {
+   "path": "09-assets/library/08-x-following-political-list.png",
+   "bytes": 246022
+  },
+  {
+   "path": "09-assets/library/09-frontrun-pro-trending-panel.png",
+   "bytes": 130412
+  },
+  {
+   "path": "09-assets/library/10-hermes-bot-roster.png",
+   "bytes": 123036
+  },
+  {
+   "path": "09-assets/library/11-skills-model-designsystem.png",
+   "bytes": 432192
+  },
+  {
+   "path": "09-assets/library/12-email-list-hero-serif.png",
+   "bytes": 350037
+  },
+  {
+   "path": "09-assets/library/13-llm-writing-ticks-42.png",
+   "bytes": 202086
+  },
+  {
+   "path": "09-assets/library/14-zlusd-private-transfer-deck.png",
+   "bytes": 367081
+  },
+  {
+   "path": "09-assets/library/LIBRARY.md",
+   "bytes": 4244
+  },
+  {
+   "path": "09-assets/library/library.json",
+   "bytes": 4274
   },
   {
    "path": "09-assets/manifest.json",

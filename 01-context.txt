@@ -52,6 +52,9 @@ CANDIDATE OFFERS, SCORED OUT OF 50 - NONE CHOSEN
 Dead: power maps that assert who controls whom; landed-cost calculators; procurement lists;
 consumer-priced voice tools; a deal room as the first ask.
 
+VISUAL LIBRARY
+Fourteen direction images with a note on what to steal from each: 09-assets/library/ (LIBRARY.md, library.json). Read before designing a profile, hero, thumbnail system, chart, landing page or UI.
+
 DEAD GROUND - READ BEFORE PROPOSING
 Eleven idea rounds were already run and killed, with Ambi's verdict on each: the Authority File,
 the Kenya payable file, the Guyana checklist, the old-bills file, the Promise Scoreboard, the

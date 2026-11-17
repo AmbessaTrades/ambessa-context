@@ -35,6 +35,7 @@ Read the overview, follow Read first in order, then use the source evidence for 
 
 - [[10 Projects/Ambessa Saul venture|Ambessa Saul — the venture (unnamed)]] — The North Star: a personal brand and a company brand feeding each other, selling verification and deal files to African and Caribbean governments and to companies doing $10M-$5B. Unnamed. The target is the first million from this, not from ads.
 - [[10 Projects/Ambessa Context Pack|Ambessa Context Pack]] — The public, self-updating context repository any web agent can read without an account: identity, hypotheses, verified evidence, offers, playbooks, journal. Built by sync_context_repo.py and refreshed daily.
+- [[10 Projects/Ambessa — ideas explored and rejected|Ambessa — ideas explored and rejected]] — Eleven idea rounds already run and killed, with Ambi's verdict on each and the five reasons an idea died. Read before proposing anything; re-propose only with new evidence.
 - [[10 Projects/Studio AUH|Studio AUH]] — Original stories and animated series, directed by Ambi, with a linked path from reference knowledge to accepted canon and finished episodes.
 - [[10 Projects/Blacksite|Blacksite]] — A major AUH software project: a research Brain and visible Timeline turn sourced strange-event footage into reaction videos, with Wedjat scenes and review-driven learning.
 - [[10 Projects/Wedjat|Wedjat]] — AUH’s private God’s Eye View fork: a lighter geographic scouting app and Scene Studio, connected directly to Blacksite’s cases, clips, videos and shared scene player.
