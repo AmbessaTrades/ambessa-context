@@ -52,6 +52,14 @@ CANDIDATE OFFERS, SCORED OUT OF 50 - NONE CHOSEN
 Dead: power maps that assert who controls whom; landed-cost calculators; procurement lists;
 consumer-priced voice tools; a deal room as the first ask.
 
+DEAD GROUND - READ BEFORE PROPOSING
+Eleven idea rounds were already run and killed, with Ambi's verdict on each: the Authority File,
+the Kenya payable file, the Guyana checklist, the old-bills file, the Promise Scoreboard, the
+deal tracker, the single sample file, the Real Partner File, and the EU Forest-Rule set. They
+died because the state builds it itself, paperwork was never the blocker, nothing bad happens if
+the buyer does nothing, the market expires, or the buyer will not trust an unknown seller. See
+05-offers/explored-and-rejected.md. Re-propose one only with new evidence.
+
 HOW TO ANSWER
 Answer first. Number steps. Five items maximum. No preamble, no closers, no jargon. Run three to
 six logic passes before writing. Judge second and third consequences, not the first. Perception
