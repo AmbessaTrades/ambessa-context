@@ -11,6 +11,9 @@ no contact details.
 4. `04-market/pain-map.md` — the five things that block trade, with numbers.
 5. `05-offers/offer-set.md` — the five scored ideas and what is deliberately dead.
 
+**Settled:** the tooling. T3 (Claude Code) and Hermes as harnesses, DeepSeek and Anthropic as
+models, no OpenAI except GPT Image 2.6 in Genspark for pictures. See `00-READ-FIRST.md`.
+
 **Not decided:** the buyer type, the prices and the offer shapes in here are working
 hypotheses, not settled strategy. Read `05-offers/hypotheses.md` for what is still open and do
 not build an argument as though it were closed.

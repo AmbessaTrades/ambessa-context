@@ -13,7 +13,7 @@
  "files": [
   {
    "path": "00-READ-FIRST.md",
-   "bytes": 3304
+   "bytes": 3775
   },
   {
    "path": "01-context.txt",
@@ -53,7 +53,7 @@
   },
   {
    "path": "02-goals/mission.md",
-   "bytes": 31377
+   "bytes": 31815
   },
   {
    "path": "02-goals/money.md",
@@ -65,7 +65,7 @@
   },
   {
    "path": "03-the-brief/directives.md",
-   "bytes": 1622
+   "bytes": 3030
   },
   {
    "path": "03-the-brief/the-brief.md",
@@ -137,11 +137,11 @@
   },
   {
    "path": "08-journal/recent.md",
-   "bytes": 122844
+   "bytes": 114950
   },
   {
    "path": "08-journal/summaries.md",
-   "bytes": 44146
+   "bytes": 45543
   },
   {
    "path": "09-assets/.DS_Store",
@@ -212,16 +212,244 @@
    "bytes": 367081
   },
   {
+   "path": "09-assets/library/15-nord-dedicated-ip-plans.png",
+   "bytes": 510725
+  },
+  {
+   "path": "09-assets/library/16-split-panel-talking-head-1.png",
+   "bytes": 743973
+  },
+  {
+   "path": "09-assets/library/17-split-panel-talking-head-2.png",
+   "bytes": 2331454
+  },
+  {
+   "path": "09-assets/library/18-dark-thread-canvas.png",
+   "bytes": 961586
+  },
+  {
+   "path": "09-assets/library/19-serif-claim-pill-scale.png",
+   "bytes": 1150796
+  },
+  {
+   "path": "09-assets/library/20-annotation-arrows.png",
+   "bytes": 1488257
+  },
+  {
+   "path": "09-assets/library/21-dashboard-half.png",
+   "bytes": 2592390
+  },
+  {
+   "path": "09-assets/library/22-icon-diagram.png",
+   "bytes": 2415042
+  },
+  {
+   "path": "09-assets/library/23-orange-badge.png",
+   "bytes": 2496163
+  },
+  {
+   "path": "09-assets/library/24-cloud-diagram.png",
+   "bytes": 2422034
+  },
+  {
+   "path": "09-assets/library/25-paper-collage.png",
+   "bytes": 2605807
+  },
+  {
+   "path": "09-assets/library/26-app-icon-grid.png",
+   "bytes": 2792523
+  },
+  {
+   "path": "09-assets/library/27-full-room-honest.png",
+   "bytes": 3825814
+  },
+  {
+   "path": "09-assets/library/28-simulated-product-phone.png",
+   "bytes": 2674797
+  },
+  {
+   "path": "09-assets/library/29-paper-diorama-offline-vs-web.png",
+   "bytes": 2942876
+  },
+  {
+   "path": "09-assets/library/30-route-on-3d-map.png",
+   "bytes": 3666783
+  },
+  {
+   "path": "09-assets/library/31-real-shop-mock.png",
+   "bytes": 2458435
+  },
+  {
+   "path": "09-assets/library/32-ui-as-the-diagram.png",
+   "bytes": 2321977
+  },
+  {
+   "path": "09-assets/library/33-two-plinths.png",
+   "bytes": 2073912
+  },
+  {
+   "path": "09-assets/library/34-vault-and-secrets.png",
+   "bytes": 2699466
+  },
+  {
+   "path": "09-assets/library/35-paper-title-card.png",
+   "bytes": 2985669
+  },
+  {
+   "path": "09-assets/library/36-token-board-lit.png",
+   "bytes": 1275506
+  },
+  {
+   "path": "09-assets/library/37-token-board-unlit.png",
+   "bytes": 1524353
+  },
+  {
+   "path": "09-assets/library/38-three-plinth-circuit.png",
+   "bytes": 2699797
+  },
+  {
+   "path": "09-assets/library/39-blur-in-title.png",
+   "bytes": 2518969
+  },
+  {
+   "path": "09-assets/library/40-highlight-travels.png",
+   "bytes": 1729305
+  },
+  {
+   "path": "09-assets/library/41-lit-trio.png",
+   "bytes": 1532178
+  },
+  {
+   "path": "09-assets/library/42-prompt-as-artefact.png",
+   "bytes": 2670210
+  },
+  {
+   "path": "09-assets/library/43-icons-as-props.png",
+   "bytes": 2659190
+  },
+  {
+   "path": "09-assets/library/44-squiggle-wireframe.png",
+   "bytes": 2714636
+  },
+  {
+   "path": "09-assets/library/45-light-artefact-dark-ground.png",
+   "bytes": 1147845
+  },
+  {
+   "path": "09-assets/library/46-checked-title.png",
+   "bytes": 2420557
+  },
+  {
+   "path": "09-assets/library/47-mascot-roster.png",
+   "bytes": 1768990
+  },
+  {
+   "path": "09-assets/library/48-footage-plate.png",
+   "bytes": 2022659
+  },
+  {
+   "path": "09-assets/library/49-plate-full-bleed.png",
+   "bytes": 1945084
+  },
+  {
+   "path": "09-assets/library/50-honest-room-shot.png",
+   "bytes": 766208
+  },
+  {
+   "path": "09-assets/library/51-arc-source-icon.png",
+   "bytes": 881395
+  },
+  {
+   "path": "09-assets/library/52-container-before-content.png",
+   "bytes": 1085859
+  },
+  {
+   "path": "09-assets/library/53-tiles-land.png",
+   "bytes": 1316014
+  },
+  {
+   "path": "09-assets/library/54-grid-completes.png",
+   "bytes": 1883525
+  },
+  {
+   "path": "09-assets/library/55-reference-card-arrives.png",
+   "bytes": 4433772
+  },
+  {
+   "path": "09-assets/library/56-tweet-plus-diagram.png",
+   "bytes": 4826164
+  },
+  {
+   "path": "09-assets/library/57-skeuomorphic-dial.png",
+   "bytes": 3413664
+  },
+  {
+   "path": "09-assets/library/58-anton-thumbnail-grid-1.png",
+   "bytes": 1878623
+  },
+  {
+   "path": "09-assets/library/59-anton-thumbnail-grid-2.png",
+   "bytes": 3270233
+  },
+  {
+   "path": "09-assets/library/60-anton-a-shot.png",
+   "bytes": 903495
+  },
+  {
+   "path": "09-assets/library/61-anton-aerial.png",
+   "bytes": 1231227
+  },
+  {
+   "path": "09-assets/library/62-anton-microscopy.png",
+   "bytes": 1144459
+  },
+  {
+   "path": "09-assets/library/63-anton-paper.png",
+   "bytes": 1146917
+  },
+  {
+   "path": "09-assets/library/64-anton-body-diagram.png",
+   "bytes": 440873
+  },
+  {
+   "path": "09-assets/library/65-anton-wolf-bg.png",
+   "bytes": 1097104
+  },
+  {
+   "path": "09-assets/library/66-primetv-a-shot.png",
+   "bytes": 482171
+  },
+  {
+   "path": "09-assets/library/67-primetv-artefact.png",
+   "bytes": 319635
+  },
+  {
+   "path": "09-assets/library/68-primetv-formula.png",
+   "bytes": 220928
+  },
+  {
+   "path": "09-assets/library/69-primetv-article.png",
+   "bytes": 493450
+  },
+  {
+   "path": "09-assets/library/70-anton-prop.png",
+   "bytes": 513383
+  },
+  {
+   "path": "09-assets/library/71-anton-diagram-annotated.png",
+   "bytes": 1112338
+  },
+  {
    "path": "09-assets/library/GALLERY.html",
-   "bytes": 4214
+   "bytes": 37211
   },
   {
    "path": "09-assets/library/LIBRARY.md",
-   "bytes": 4244
+   "bytes": 24205
   },
   {
    "path": "09-assets/library/library.json",
-   "bytes": 4274
+   "bytes": 35743
   },
   {
    "path": "09-assets/manifest.json",
@@ -229,7 +457,7 @@
   },
   {
    "path": "README.md",
-   "bytes": 2012
+   "bytes": 2196
   },
   {
    "path": "SYNC.md",

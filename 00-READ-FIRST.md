@@ -37,6 +37,15 @@ Never flatter.
 
 Nothing else. Do not invent a number, a client name, a contract value or a date.
 
+## What is settled
+
+The tools are decided and should not be reopened: **T3 (Claude Code) and Hermes** as the two
+harnesses, **DeepSeek and Anthropic** as the only model families, **no OpenAI** for any work
+except picture-making through GPT Image 2.6 in Genspark. The journals that record all of this
+run on DeepSeek Flash at medium thinking, through Hermes, on a schedule.
+
+Everything else — buyer, price, first product, which country opens — is still a hypothesis.
+
 ## What he is exploring
 
 **Nothing in this pack is a decision yet.** The buyer types, prices and deliverables

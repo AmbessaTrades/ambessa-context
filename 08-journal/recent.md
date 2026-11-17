@@ -4,158 +4,6 @@ Rolling window rebuilt on every sync. Newest day last. This is what was actually
 
 ---
 
-## 2026-11-11
-
-## 2026-11-11 00:19 EAT — MUNGURA — Prompt form + render rig: a code-rendered film that can actually be captured
-
-
-
-
-**Changed (logged):** Built the code-render lane Ambi asked for, as artifacts not notes. (1) `~/AUH/PROMPTS/FORM-DETERMINISTIC-RENDER.md` — the seven-block prompt form (contract, scene, systems, hero, life, camera, look, laws) distilled from the prompt Ambi pasted, plus the five laws and the recorded 8-pass execution table. (2) `~/AUH/PROMPTS/rig/capture.py` — Playwright rig that loads any self-contained HTML, steps `window.renderAt(t)`, and gates on: canvas exactly 1280x720, no page errors, no blank frame (stddev + colour count), three frames re-rendered in a fresh browser with identical SHA-256, then ffmpeg to MP4. (3) `~/AUH/PROMPTS/scenes/paris-1888.html` — a working voxel diorama of the 1888 Eiffel construction built directly from the form: four splayed lattice legs with real X-bracing, masonry piers, platform 1 finished, level 2 half-decked, open crown, Seine with quay walls and a 3-pier stone bridge, 3 Haussmann rows, yard with girder stacks/sheds/steam engine, 2 creeper cranes, ~300 three-voxel people, carts, riverboat, 18 pigeons, sprite sparks and smoke. (4) `~/AUH/PROMPTS/renders/paris-1888-14s.mp4` — 420 frames, 1280x720, 30 fps, 14.000 s, 7.4 MB, verified by decoding frame at t=7 and looking at it. (5) `~/AUH/STUDY/bend-by-the-clock-2026-11-10/` — channel teardown from yt-dlp metadata + the 3 thumbnails + their own descriptions, with the bend blueprint.
-**Why/verdict:** Ambi: prompting is a skill and the Semichenko structure is useful even though the account is engagement farming. Measured on the reference build: 8 visual passes, every fix found by looking at a PNG never by reading code (buried river, ground plate overhanging the rock, camera never showing the underside, smoke as a white slab, fog start at the subject distance). Rig gates green: page errors [], blank frames [], determinism hashes 2ccb6e60/5a1cece0/5ac1ef02 identical across a fresh browser. By The Clock measured: 3 videos, 2.96K subs, 1,426,243 views, 482 views per subscriber, 0.62% like rate, ~74k watch hours at 35% retention. Memoir: new `prompts` topic + project map entry, map --write then map-check 271 paths 0 failed (first run caught my own two defects: skill not in the shared store, film not yet written).
-**Status/open:** the skill `code-render-prompt` exists only in the gericho-orchestrate profile — installing it fleet-wide means writing into the default profile's skills dir, which needs Ambi's word. No model call has been spent generating a scene from the form yet; the reference was written directly, so the form is proven executable but not yet proven as a prompt-to-model contract. Not found anywhere in logs or vault: a yesterday dissection of the Semichenko/Fable video, and a bot called "Fonquin" — both named by Ambi, neither on disk.
-**Related:** [Prompts and render rigs](../vault/10%20Projects/Prompts%20and%20render%20rigs.md) [TubeLoop](../vault/10%20Projects/TubeLoop.md)
-
-## 2026-11-11 00:43 EAT — TEHUTI — TubeLoop backup recovered: backup run working again
-<!-- type: event -->
-**From:** TEHUTI
-
-TubeLoop backup recovered: backup run working again
-- A complete backup run succeeded; push state is tracked separately.
-- Status: complete — the recorded backup fault is resolved
-
----
-
-## 2026-11-11 05:52 EAT — TEHUTI — TubeLoop backup left out 7 file(s) that contain keys
-<!-- type: event -->
-**From:** TEHUTI
-
-TubeLoop backup left out 7 file(s) that contain keys
-- Left out (secret found, value not shown): home/AUH/Blacksite/data/lanes/2026-10-28T10-12-58-wedjat-fd34/backup/vendor/godseye-lite/dist/assets/studio-WGq3jXIg.js [a live key value]; home/AUH/Blacksite/data/lanes/2026-10-28T10-12-58-wedjat-fd34/backup/vendor/godseye-lite/src/wedjat/studio.js [a live key value]; home/AUH/Blacksite/data/lanes/2026-10-28T11-10-10-wedjat-e5a0/backup/vendor/godseye-lite/dist/assets/studio-WGq3jXIg.js [a live key value]; home/AUH/Blacksite/data/lanes/2026-10-28T11-10-10-wedjat-e5a0/backup/vendor/godseye-lite/src/wedjat/studio.js [a live key value]; home/AUH/Blacksite/research/study-1108/vidrush/pages/builtin.html [google api key]; home/AUH/Loop/jobs/verse/_config/active-hotkeys.json [a live key value]; home/AUH/Loop/src/components/AudioDashboard.tsx [a live key value]
-- Left out (over size cap): home/AUH/Blacksite/data/packages/ep-mvfpm7ln-770d0be167.zip (104 MB); home/AUH/Blacksite/data/wedjat-adsb/2026-10-21.json (134 MB)
-- Fix: move the key into the folder's .env (the keys backup picks it up) or add the path to secret_allow in ~/.auh-git/projects/tubeloop/project.json if it is not a real key.
-- Status: blocked — needs an agent to look
-
----
-
-## 2026-11-11 05:52 EAT — TEHUTI — TubeLoop backup kept the last saved copy of a folder that shrank or vanished
-<!-- type: event -->
-**From:** TEHUTI
-
-TubeLoop backup kept the last saved copy of a folder that shrank or vanished
-- Kept last saved version (safety): home/AUH/CloneEngine — lost 174 of 175 files
-- Status: blocked — needs an agent to look
-
----
-
-## 2026-11-11 06:10 EAT — MUNGURA — VMake daily study: LOT thumbnails vs performance
-<!-- type: event -->
-**From:** MUNGURA
-
-- What happened: LOT 277,000 subs · last 21d 9 uploads · median 3,100 views · views/sub 0.0112
-- Style that wins now: S1 mean 1.14x best 1.42x — dark, high-contrast, saturated, warm, no face, split left/right, clean/simple
-- Own outliers: 16.13x “Your SEM3N Is SPIRIT You Can Spend”; 12.58x “Your SEM3N Is What Your AURA Is Made Of”; 5.16x “When You DON'T Ejaculate, Your Nerves Go QUI”
-- Competitor Beyond The Alchemy (84,000 subs, median 25,000): 27.16x “Why Women Sense Your Energy Instantly (A”; 4.2x “Escaping the Edging Trap: The Dopamine P”
-- Competitor Masculine Theory (122,000 subs, median 18,000): 18.0x “Semen retention is nervous system evolut”; 3.94x “It wasn't about semen retention. It was ”
-- Competitor The Aligned Men (16,200 subs, median 4,350): 46.67x “I Did PURE Semen Retention For 1 Year, H”; 28.05x “SEMEN RETENTION BENEFITS  | 13+ MIND BLO”
-- Competitor Captain Sinbad (554,000 subs, median 11,500): 4.61x “Act like a "hot girl" for success in lif”; 2.78x “You Can Have Everything You Want in 90 D”
-- Competitor Semen Retention Club (162,000 subs, median 15,000): 49.07x “Captain Picard - Semen Retention”; 9.6x “She Can't Seduce A Man IMMUNE TO TEMPTAT”
-- Competitor Sexual Kung Fu (196,000 subs, median 8,500): 28.12x “Angion Method For Penis Growth and Harde”; 27.18x “Orgasm Without Ejaculating By Retraining”
-- Competitor Astral Doorway (308,000 subs, median 3,600): 23.89x “How to Observe Yourself | Key I — 01 • T”; 21.67x “The Spiritual Future of Humanity & End T”
-- Competitor Regal Change (26,600 subs, median 3,400): 2.5x “Why You Give Hot Chicks PTSD On Semen Re”; 2.32x “Hard To Be Nice When You're An Attractiv”
-- Competitor Taylor Johnson - Integrative Sexual Health for Men (114,000 subs, median 5,100): 29.22x “Sex Transmutation Explained ✨🔥 (How-To G”; 21.37x “Multiple Ejaculations for Men (Technique”
-- Style to borrow: from Semen Retention Club best 49.07x — dark, high-contrast, muted, neutral, figure present, clean/simple
-- Errors: annel/UCboJ1avpnorCXLDU5UauVzg: yt-dlp failed for https://www.youtube.com/channel/UCboJ1avpnorCXLDU5UauVzg/video
-- Files changed: /Users/Mungura/AUH/VMake/out/study/study_c44deb7c.json, out/study/study_latest.json
-- Verification: 40 videos with real view counts; 40 thumbnails on disk; 4 style clusters
-- Catalog re-TN queue (views × ad slots × velocity; basis previous snapshot): #1 8.2% “THE 7 STAGES OF SEMEN RETENTION” TN DRAFT KEEP IT; #2 6.7% “The Reason Masturb*tion is Killing You” TN DRAFT DON'T SPILL; #3 5.7% “The Magic WITHIN YOU & How To ACTIVATE” TN DRAFT IT'S REAL
-- Fastest movers (v/day): 1000 “Your SEM3N Is SPIRIT You Can Spend”; 100 “When You Ejaculate, Your Spirit St”; 100 “The urge to CVM can & MUST be tran”
-- META (last 90d, 38 outliers): thumbs are cleaner / simpler · flatter · split left/right ; titles start with WHY ; outliers run 0–32 min
-- META shift vs last quarter: shorter titles (~8 words vs 9) -1.3→-0.8
-- LOT vs meta: winners are more muted · flatter · one field than LOT's last 12
-- Status: complete
-
-
-## 2026-11-11 06:41 EAT — MUNGURA — TitleBatch nightly: added 0 — Claude Opus 5 answered no round (exit 1: ror', 'message': 'OAuth authentication is currently not allowed for this)
-<!-- type: event -->
-**From:** MUNGURA
-
-- What happened: added 0 new titles (board stays at 126 rows, batch 48). Why: Claude Opus 5 answered no round (exit 1: ror', 'message': 'OAuth authentication is currently not allowed for this). Fallback: anthropic:claude-opus-5 was dead at the last probe (exit 1: ror', 'message': 'OAuth authentication is currently not allowed for this organization.', 'details': {') — used claude-opus-5. The old broad engine filled in and all 52 of its rows died (42 off the S3X lane, 6 the same idea as a board row, 4 broke a title rule). Models alive at the probe: claude-opus-5, claude-opus-4-8, claude-fable-5-1, claude-sonnet-5, claude-haiku-4-5, claude-fable-5, anthropic:claude-opus-5-5, openai-codex:gpt-6-sol
-- Files changed: out/titlebatch/latest.json, data/{own_snapshot,outliers,competitor_snapshot,vocab,odds,models,model_log}.json
-- Verification: batch json on disk; new rows counted from the board (new_n = 0)
-- Status: blocked — added 0 new titles: Claude Opus 5 answered no round (exit 1: ror', 'message': 'OAuth authentication is currently not allowed for this)
-
-## 2026-11-11 09:15 EAT — MUNGURA — By The Clock studied, engine proven, TitleBatch retired
-
-**Changed (verified):** Ambi pointed at By The Clock's Napoleon film (911,123 views on 2,970 subscribers, 8:48, 2 weeks old) and said bend it. Downloaded the video (184 MB) and pulled ten frames; the published description gives the whole engine away: 1.5 s = 1 day on the July march, 2.5 s = 1 hour at Borodino, 9 s = 1 day at the Berezina. Time compression is declared data, not editing. Wrote the study to ~/AUH/STUDY/bytheclock-2026-11-11/STUDY.md; Elektrika returned DESIGN-SPEC.md (183 lines, measured geometry and hex sampled from the frames) plus four skills (map-clock-film, plate-film-engine, ocr-text-gate, staged-prompt-contract). Built the engine twice in code: camap.py (hand polylines), then camap2.py on a real base map - Natural Earth 50m land and rivers, Cliopatria 1812 borders showing Russian Empire, First French Empire and Duchy of Warsaw. proof-clock-v3.mp4: 1920x1080, 875 frames, 35 s, clock running 1/4 s -> 2 s -> 1/2 s per day, strength as countable counters, losses left on the map as debris. Also retired TitleBatch: plist unloaded, disabled and moved to ~/AUH/.retired/ after its nightly added 0 titles on a dead Claude OAuth.
-**Why/verdict:** The format is not map animation, it is a clock with a map attached; strength as countable blocks and the dead staying on the map are the two mechanics that carry it. Proven by a rendered artifact, not by a plan. Defects I can still see: no relief or woods so the field stays thin, the column is small at 500 km scale, and the loss-bar numbers were overlapping before the fix.
-**Status/open:** Base data is on disk and public domain (Natural Earth, Cliopatria/Seshat) so this lane costs nothing to run. Open: relief and woods need a DEM or hand shading; a decision from Ambi on whether this is a new channel pitch or a tool for LOT; the video has no narration or quote cards yet.
-**Related:** [Memoir](../vault/10%20Projects/Debate%20Agent.md) [Mission and life architecture](../vault/10%20Projects/Mission%20and%20life%20architecture.md)
-
-## 2026-11-11 09:28 EAT — MUNGURA — Map-clock film: real relief base, v4 rendered
-
-**Changed (verified):** Downloaded Natural Earth 50m shaded relief (NE2_50M_SR_W, 88.9 MB) and wrote relief.py, which samples that raster through the film's own projection into 1920x1080 and tints it to the parchment field, so the map is real terrain rather than flat colour. Rebuilt the base in camap2.py on it; scattered the loss debris instead of drawing it as a block; and removed a fabricated Russian casualty series - the panel now says "not modelled in this proof" because Minard gives the French flow only. proof-clock-v4.mp4: 1920x1080, 875 frames, 35.0 s, 2.58 MB, ffprobe-verified. Frames now write as JPEG (a photographic base made PNG frames slow: one run stalled at 206 frames in six minutes).
-**Why/verdict:** The reference's field is a real atlas; flat colour could never read as one. Relief at 0.88-1.08 shading keeps the data first while the ground looks like ground. Rendering is fast now: 875 frames in about two minutes.
-**Status/open:** Still missing the reference's stippled woods and dense minor roads. Data honesty: only Napoleon's flow is Minard; any Russian series must come from a cited source before it appears. Waiting on Ambi: is this a new channel pitch or a tool inside LOT.
-**Related:** [Memoir](../vault/10%20Projects/Debate%20Agent.md)
-
-## 2026-11-11 10:01 EAT — MUNGURA — Senior-audience bend: contract wired, 12-second TV-tier film rendered
-
-**Changed (verified):** Ideation written to ~/AUH/STUDY/bend-by-the-clock-2026-11-10/IDEATION-senior-audience.md. Live scan grounded it: "war every day map documentary" returns Geo History 8.7M and 15.3M plus Real Time History 2.3M and 3.8M (crowded), while "history documentary for older viewers explained slowly" returns 1.7K, 283 and 503 views (empty). The bend is therefore an audience bend, not a topic bend: 64px badge, 34px legend floor, no cut under 2.5s, 20-35 min, calm narrator, music 20 dB under voice, one number at a time, 96px TV overscan. Elektrika delivered design.json (schema bytheclock.screen-grammar.v2, every value tagged measured/inferred/directive, Iowan Old Style primary, Charter as the open fallback, Georgia rejected) plus GODSEYE-WAR-SPEC.md and six skills. I wired the contract into the renderer: apply_design() reads design.json, draw_frame_senior() computes every panel from its own text instead of a hardcoded box, and make_film.py takes --senior. Proof: out/senior-12s.mp4, 300 frames, 12.0 s, 1.43 MB, and a frame pulled back out of the MP4 shows the loss panel inside its box, the credit off the scale bar, and the army column legible at TV distance.
-**Why/verdict:** One contract, two tiers - the renderer now holds no opinions of its own about type or colour. The senior tier is not a restyle, it is a different layout, and computing panels from measured text is what makes a 34px floor safe.
-**Status/open:** Open: narration and quote cards not built; labels still collide with the army column at Vitebsk; the pilot needs its clock re-timed to the senior rule (1.5 s/day is the floor, decisive moments 3-5 s). Elektrika owns senior-audience-craft, war-campaign-data, archival-audio-supply, video-description-seo.
-**Related:** [Memoir](../vault/10%20Projects/Debate%20Agent.md)
-
-## 2026-11-11 16:31 EAT — MUNGURA — War Maps: 8:17 Napoleon film rendered from code, scored with real audio, packaged
-
-**Changed (verified):** The full round-trip campaign is rendered and delivered: ~/AUH/STUDY/bytheclock-2026-11-11/proof/out/WARMAPS-napoleon-1812-final.mp4 - 12,427 frames, 497.08 s (8:17), 31.3 MB, h264 + AAC, TV tier. Campaign data in campaigns/napoleon-1812-roundtrip.json: 174 days, Kovno to Moscow and back, three documented anchors from Minard (422,000 crossed, 100,000 at Moscow, 10,000 returned), everything between them interpolated and labelled as such in the film and the description. Renderer fixes found by looking at frames, not by trusting the pipeline: a stationary army collapsed every counter onto one point (Moscow was a blob for 52 seconds) - fixed with an arrival-heading fallback; the temperature axis read JUN-SEP on a film ending in December - now derived from the campaign dates; the timeline collided with the loss panel - moved; the route read as a dashed wire - redrawn as a cased road. Renderer speed: 0.33 s/frame with per-frame stroked text, 0.037 s/frame after caching the label layer into one blit - a 9x speedup, measured. Elektrika delivered a warmap.audio-cue-sheet.v1 with six real recordings and licences; I mixed it with measured per-cue gains (the 1922 Marine Band sides sit 35 dB down) after finding an off-by-one in the filter inputs that silently replaced the two march cues with the silent bed. Score verified by sampling the mux at ten points. Titus delivered the description and three thumbnails; I corrected his chapter times against the clock (Borodino is 1:53, not 2:28) and wrote DESCRIPTION-final.md.
-**Why/verdict:** The film is the artifact and it exists. Zero tokens at render; the only model spend was authoring the campaign and looking at frames. No narrator, as ordered: six public-domain recordings, and two minutes of the eight are deliberately silent because no real recording exists of a burning Moscow.
-**Status/open:** Open: the morning-ideation board (pick a card, get the finished film) is specified but not built - it is Elektrika's lane and needs the morning. Not yet published anywhere. No traffic yet, so no revenue claim.
-**Related:** [Memoir](../vault/10%20Projects/Debate%20Agent.md)
-
-## 2026-11-11 18:29 EAT — TEHUTI — TubeLoop backup left out 7 file(s) that contain keys
-<!-- type: event -->
-**From:** TEHUTI
-
-TubeLoop backup left out 7 file(s) that contain keys
-- Left out (secret found, value not shown): home/AUH/Blacksite/data/lanes/2026-10-28T10-12-58-wedjat-fd34/backup/vendor/godseye-lite/dist/assets/studio-WGq3jXIg.js [a live key value]; home/AUH/Blacksite/data/lanes/2026-10-28T10-12-58-wedjat-fd34/backup/vendor/godseye-lite/src/wedjat/studio.js [a live key value]; home/AUH/Blacksite/data/lanes/2026-10-28T11-10-10-wedjat-e5a0/backup/vendor/godseye-lite/dist/assets/studio-WGq3jXIg.js [a live key value]; home/AUH/Blacksite/data/lanes/2026-10-28T11-10-10-wedjat-e5a0/backup/vendor/godseye-lite/src/wedjat/studio.js [a live key value]; home/AUH/Blacksite/research/study-1108/vidrush/pages/builtin.html [google api key]; home/AUH/Loop/jobs/verse/_config/active-hotkeys.json [a live key value]; home/AUH/Loop/src/components/AudioDashboard.tsx [a live key value]
-- Left out (over size cap): home/AUH/Blacksite/data/packages/ep-mvfpm7ln-770d0be167.zip (104 MB); home/AUH/Blacksite/data/wedjat-adsb/2026-10-21.json (134 MB)
-- Fix: move the key into the folder's .env (the keys backup picks it up) or add the path to secret_allow in ~/.auh-git/projects/tubeloop/project.json if it is not a real key.
-- Status: blocked — needs an agent to look
-
----
-
-## 2026-11-11 18:29 EAT — TEHUTI — TubeLoop backup kept the last saved copy of a folder that shrank or vanished
-<!-- type: event -->
-**From:** TEHUTI
-
-TubeLoop backup kept the last saved copy of a folder that shrank or vanished
-- Kept last saved version (safety): home/AUH/CloneEngine — lost 174 of 175 files
-- Status: blocked — needs an agent to look
-
----
-
-## 2026-11-11 18:43 EAT — MUNGURA — Era-audio study re-checked: 13/13 licences and durations proven, one real defect found
-
-**Changed (verified):** The delegated audio study landed at ~/AUH/STUDY/warmaps-audio-2026-11-11/ERA-AUDIO-AND-LETTERS.md (302 lines: audio per era, cue-sheet schema, period-letter sourcing and a 9-step letter-card renderer spec). I did not take its [V] marks on trust — I turned them into two gates in the same folder: verify-licences.py compares every claimed licence with the licence Commons itself records, verify-durations.py compares every claimed duration with server-side metadata. Both now pass **13/13** (durations all inside 0.5 s; X2 Truman measured 0:25.7, previously "unread"), and all 7 LibriVox running times match the pages. The check also caught one real defect the reader missed: **M1 Agincourt carol** is tagged PD-old-70 for the *15th-century work* and carries **no performer or recording release** — the same trap it correctly caught on the 1931 Thill disc — so it is demoted from [V] to [V-lic / U-rec] and must not ship until a released file is found. Part B improved: both facsimiles cleared through the API (Napoleon→Prince Regent, Wellcome **CC BY 4.0**, not PD-old; Haley 1864, **PD**, Missouri History Museum), and the LOC "no warranty" quote re-sourced to the per-collection Rights and Access pages, plus the Grant Papers line "All manuscripts authored by President Grant himself are in the public domain."
-**Why/verdict:** A child's [V] is a claim; a gate is evidence. The API proves the file is *tagged*, never that the tag reaches the layer we use — which is exactly why M1 survived a green gate and still failed a human read. Cheap trick worth keeping: Commons `prop=videoinfo&viprop=duration` returns real durations with no download, after the download route hit HTTP 429 on 7 of 13 files.
-**Status/open:** Open — the 1931 Thill disc is PD in the EU and US-copyrighted to 2031 (a cue-sheet business decision, N1 is the clean substitute); WW1 front-line effects and all Churchill/BBC material stay UNVERIFIED; the war-map film is packaged but unpublished. Also fixed the context layer: added a `warmaps` project to the Memoir map (~/debate-agent/memory/vault/project-maps.json) so "war maps" and "era audio" resolve, and dropped the retired com.auh.titlebatch-scan job from vmake — `map-check` now **289 checked, 0 failed**.
-**Related:** [War Map](../vault/30%20Story%20systems/War%20Map.md) [Memoir](../vault/10%20Projects/Debate%20Agent.md)
-
-## 2026-11-11 19:05 EAT — MUNGURA — Ambi: research is irrelevant, visuals and ideation are the product; frame grammar rebuilt, riddles killed
-
-**Changed (verified):** Ambi cut the audio/licence audit short — "the research is kind of irrelevant… if the visuals aren't good and ideation isn't good, it could be marked simulation… the riddles aren't good." So the order of work changed: stop proving sources, start making the picture and the idea land. Two things done. (1) **The film's frame grammar was rebuilt** in ~/AUH/STUDY/bytheclock-2026-11-11/proof/film2.py — the old frames were a diagram on blank parchment (7 names, 6 counters, no direction); the new frames draw the ground as a place (all 50m rivers cased, lakes, dotted 1812 borders, 75 real towns with haloed labels), the army as **countable ranks of blocks** (22×14, 1 = 10,000), a **cased road with direction arrows** that turns brick on the retreat, plate-kit panels with hard 7 px shadows, and **one plain sentence per beat** at the bottom. Campaign steps were re-dated to the real days (Vilna 28 Jun, Vitebsk 28 Jul, Smolensk 17 Aug, Borodino 7 Sep, Moscow 14 Sep, Maly 24 Oct, Orsha 20 Nov, Berezina 28 Nov) and the temperature series replaced with a true seasonal curve. (2) **The riddles are gone from the studio board** (~/AUH/WarMapStudio/board.json): "the difference between an army and a crowd" is now "The retreat reaches a river with 35,700 men left. Two bridges hold the crossing open." Verified by screenshotting the live app at 127.0.0.1:3007 — job panel reads DONE, 90 FRAMES · 2.11 MB, the player holds a real film, and all four cards read as plain statements.
-**Why/verdict:** He is right and the old frames prove it: a legible diagram is not a picture. What changed the read is ground + direction + countability + one sentence, not more data. Render cost measured at 0.183 s/frame after caching fonts and baking the minor labels (was 1.4 s/frame — a 7.6× speedup) and a per-frame PNG verify now catches corrupt writes that made ffmpeg die with "chunk too big".
-**Status/open:** Open — the renderer's terrain is parchment-relief, while the app's own films still look like green satellite; the two visual languages must become one before any of this ships. Sadowa and the Berezina have no scene document, so their cards stay unarmed. Nothing published.
-**Related:** [War Maps](../vault/10%20Projects/War%20Maps.md)
-
-## 2026-11-11 20:12 EAT — MUNGURA — Kingdom grammar measured and built: the battle page is now a page, not a diagram
-
-**Changed (verified):** Ambi sent the real reference — five Kingdom manga battle pages — and said it is the backbone of War Maps: "imagine if you only had a page to show exactly what is going on." I measured the pages instead of admiring them (`~/AUH/STUDY/warmaps-kingdom-2026-11-11/ref1..5.png`, component detection in numpy): unit plate 72×17 px of a 518-wide page (13.9 % w, 4.4 % h → ~267×48 at 1080p), name plate 230–540×86–150, commander's framed face ~150×98, army mass 230–540×140–195, one mark ~13×17 on a 24×28 pitch, giant army word one word at 120–190 px. Wrote the layout law into `KINGDOM-GRAMMAR.md` and built the prototype `kingdom.py`: **Cannae, 216 BC, 10:00**, real order of battle from the cannae JSON — nine formation blocks, each in a reserved margin slot with a thin leader line to its own plate, two commander portraits, one clock, one giant word per army, line-art ridge and river. Verified by looking at the PNG: no overlapping text, everything reads at TV distance.
-**Why/verdict:** Five iterations were needed and the failures were all the same failure 
-
-_[truncated in this pack; full day log stays on the machine]
-
 ## 2026-11-12
 
 ## 2026-11-12 06:42 EAT — MUNGURA — VMake daily study: LOT thumbnails vs performance
@@ -1290,3 +1138,148 @@ TubeLoop backup kept the last saved copy of a folder that shrank or vanished
 **Status-open.** Eight questions await his answer, starting with the name, the first market and the first offer. The fourteen library images and the portrait are the only visual assets on disk; the twelve founding-brief placeholders are still empty.
 
 **Related.** `~/AUH/AMBESSA/intel/MASTER-BRIEF.md`, `09-assets/library/`, topics `ambessa-venture`, `ambessa-context`.
+
+## 2026-11-17 12:40 EAT — MUNGURA — Brief v2 merged against the cloud agent, mental models rewritten, gallery proven
+
+**Changed.** `MASTER-BRIEF.md` is now 10,581 words and eighteen parts, merging the cloud agent's structure (authority order, decided/open/dead tables, the forty-two tics, the verified Tan detail, link and image indexes, thirty-four agents in eight units, the weakest-assumption paragraph) with what this bot had (corrected evidence counts, the five walls, account plumbing, reply doctrine, digest filters, guardrails, the visual library). Added in the merge: a ten-stage pipeline for one piece of content, a first-seventy-two-hours sequence, and a Poteto-to-our-vocabulary translation table. `01-who/mental-models.md` rewritten to fourteen named lenses with the quotes he saved. `09-assets/library/GALLERY.html` renders all fourteen images — verified 14 of 14 loaded, zero broken.
+
+**Why-verdict.** He asked which was better and to keep the best of both. The cloud agent held length and structure; this bot held the evidence correction, the library and the machine context. Neither was sufficient alone, and the merged file is longer than both.
+
+**Status-open.** Ten questions await his answers. Three X links are still unknown (callumhyman24 x2, Rames_Jusso), the Alexandr Wang video link was never supplied, and the short link beside the OCR note is unresolved.
+
+**Related.** `~/AUH/AMBESSA/intel/MASTER-BRIEF.md`, `MASTER-BRIEF-v1.md`, `01-who/mental-models.md`, `09-assets/library/GALLERY.html`.
+
+## 2026-11-17 13:20 EAT — MUNGURA — Fourteen venture skills built, the copy gate proven, tokens written
+
+**Changed.** New `ambessa` skill group: 14 skills written to `~/.hermes/skills/ambessa` and copied into gericho-orchestrate, electrika and titus. Voice, news lane, thumb/title, video system, brand tokens, software surface, reply doctrine, X brand, decision map, offer design, dossier, morning brief, wave supervisor, and `copy-tic-check` with a working `tic_check.py`. Design system written at `~/AUH/AMBESSA/design-system/tokens.json` (accent deliberately open, two candidates). Index at `skills/ambessa/README.md` naming the lane owner per skill.
+
+**Why-verdict.** The 496-skill library was deep on LOT/Blacksite craft and nearly empty on the venture itself. Prose rules were also being ignored, which is the exact failure Poteto names, so the copy gate ships as a script: a sloppy sample trips 15 hard hits and exits 1, a tight sample passes with one soft note. Loader verified — `skill_view copy-tic-check` returns the skill and its linked script.
+
+**Status-open.** No pointer patches yet in `humanizer`, `title-formulas`, `xitter`; no Hermes plugin built. The `tehuti` profile no longer exists on this machine — only gericho-orchestrate, electrika and titus. Accent colour still unchosen, so every surface stays ink-on-paper until Ambi decides.
+
+**Related.** `~/.hermes/skills/ambessa/`, `~/AUH/AMBESSA/design-system/tokens.json`, `~/AUH/AMBESSA/intel/MASTER-BRIEF.md`, topic `ambessa-venture`.
+
+## 2026-11-17 14:05 EAT — MUNGURA — Twenty skills, the second half built for research and synthesis
+
+**Changed.** Six capability skills added to the ambessa suite: research-sprint, synthesis, source-ledger (with a working `verify_quote.py`), content-factory, question-craft, model-benchmark. Twenty total in the default library and in gericho-orchestrate, electrika and titus. Brief gained Part 20 — the content factory, merging Riley Brown's 16 Nov article with Kallaway's systems-based thinker; now 12,922 words, 21 parts. Routing lines patched into `humanizer`, `title-formulas` and `xitter` in all four libraries.
+
+**Why-verdict.** His correction was exact: the first pass was opinion, not capability, and he cannot answer questions that depend on next week. So the second half is machinery — source tiers, seven synthesis shapes, a quote verifier that fails a fake on contact, and a question protocol that sorts researchable / his taste / not-yet-answerable so bucket three stops reaching him.
+
+**Status-open.** Five decisions remain genuinely open (first product, first country, accent, business-account voice, first software surface) and are recorded as open, not asked again. No Hermes plugin built — both capabilities ship as scripts inside skills instead.
+
+**Related.** `~/.hermes/skills/ambessa/`, `MASTER-BRIEF.md` Part 20, `design-system/tokens.json`, topic `ambessa-venture`.
+
+## 2026-11-17 14:40 EAT — MUNGURA — Scaffold MCP tested, the curve and the boring stretch, Rust recorded
+
+**Changed.** Part 21 appended to the brief (now 13,944 words, 22 parts): the writing-scaffold MCP tested live — 4 tools, 7,262 eligible scaffolds, no key — with the rule that only its structure is borrowed and never its cadence; Wang's exponential-curve advice with the observation that the boring stretch is the moat; and Rust recorded as his instruction with the trade-offs written down (Rust core, thin shell, Python behind a boundary). `ambessa-voice` gained a "borrowing a structure" section pointing at the MCP with the same caveat. Suite recopied, 20 skills in four libraries, brief re-rendered.
+
+**Why-verdict.** He asked whether the MCP is useful, not for an opinion about it. It answers with no key and holds real institutional shapes (S-1 risk sections, press releases, Common Sense), but its own instruction to preserve "cadence and phrasing" would smuggle another writer's voice into copy that must sound like Ambi — so structure only, tic-check after.
+
+**Status-open.** The Wang video itself was never supplied — only the tweet — so the transcript extraction is queued, not done. Rust is a direction, not yet a locked architecture decision; the vertical slice (fetch → verify quote → ledger row → one dossier page) is the test.
+
+**Related.** `MASTER-BRIEF.md` Part 21, `ambessa-voice`, `design-system/tokens.json`, topic `ambessa-venture`.
+
+## 2026-11-17 15:10 EAT — MUNGURA — The self-prompting agent: Finn's model, inverted for his patience
+
+**Changed.** Part 22 appended to the brief (14,886 words, 23 parts) with both Alex Finn posts quoted, and a new skill `ambessa-self-prompt` written, copied to all three profiles (suite now 21 each). The skill runs the interrogation: retrieve, generate a hundred questions, answer what context can settle with confidence labels, write a spec with an acceptance test, decompose into artefacts with checks, execute in waves, report in four beats. Finn's cognitive-load prompt saved verbatim as a monthly routine.
+
+**Why-verdict.** Finn asks the human a hundred questions; a reply to his own post says that would test anyone's patience — and Ambi has four minutes and ADHD. So the hundred go to the agent and only five reach him, which is the version that actually lightens his load rather than relocating the paperwork.
+
+**Status-open.** The monthly cognitive-load run has not been done yet. Nothing is scheduled; the first invocation is the next time a build starts cold.
+
+**Related.** `MASTER-BRIEF.md` Part 22, `ambessa-self-prompt`, `ambessa-question-craft`, `ambessa-wave-supervisor`, topic `ambessa-venture`.
+
+## 2026-11-17 16:05 EAT — MUNGURA — Five critics, 284 findings, the suite rebuilt to zero errors
+
+**Changed.** Dispatched five isolated critics (architecture, executability, domain truth, routing, adversarial) against a frozen copy of the 21-skill suite. They returned 284 findings — 2 critical, 86 high. Rebuilt against them: both gate scripts fail closed (empty input and missing file exit 2, quotes under 40 chars refused, subject must appear in the quote, ledger.csv + verified-only CSV emitted, sha binds the check to the draft, coverage reported honestly as 42/42); every skill now carries a When to use / When not to use / Handoff block, a numbered procedure, a Gates section and a named Output; all 21 descriptions are triggers under 60 characters; tags normalised; an umbrella router skill added at the suite root with a precedence rule; README rewritten to 21 rows; `open-items.json` created so open decisions stop dying with a session.
+
+**Why-verdict.** The critics found what a self-review would not: every gate passed vacuously, the dossier documented a row schema the verifier rejected, fifteen skills had no inbound reference, and the router table lived only in the one install that lacked it. Domain corrections included the $10M–$5B buyer band, the voice no longer pre-deciding an injustice, question-craft no longer parking his decisions, and wave-supervisor starting with eight children rather than twenty-five.
+
+**Status-open.** Five decisions remain his, now recorded in `open-items.json` rather than asked again. The Wang video transcript extraction is still queued for want of a link.
+
+**Related.** `~/.hermes/skills/ambessa/` (ARCHITECTURE.md, _tools/validate_suite.py, README.md, SKILL.md), copies in gericho-orchestrate, electrika and titus, topic `ambessa-venture`.
+
+## 2026-11-17 17:20 EAT — MUNGURA — Both project pages rewritten for the 23rd; 274 unrelated records pruned
+
+**Changed.** `10 Projects/Ambessa Saul venture.md` and `10 Projects/Ambessa Context Pack.md` had their hand-written heads rebuilt around what now exists: the brief (23 parts, 14,886 words), 21 skills plus umbrella with validator exit 0, the two fail-closed gate scripts, the design tokens with the accent open, the 14-image library with gallery, the 214/204 evidence base, 57 published files, `open-items.json` with the five decisions, and a "23rd — where to start" sequence. The context page's machine history was 433KB with 274 records belonging to TubeLoop/VizBatch/GenSpark; those were pruned to 32.9KB, and both pages now carry a line saying everything below the head is machine-generated continuity, not current state. Topic statuses and revisions refreshed; state notes rewritten; `map-check` 314, 0 failed.
+
+**Why-verdict.** He asked that the preparation be visible on the 23rd so the next agent does not redo it. A page whose first screen lists what exists, where it is and what to check is worth more than a page of append history — and the append history was actively wrong, pulling another project's records in.
+
+**Status-open.** Memoir's continuity grouping is still pulling unrelated AUH journal entries into this project; pruning fixed the file, not the cause. If it recurs, the grouping rule in the maintenance pass needs the project root tightened.
+
+**Related.** `10 Projects/Ambessa Saul venture.md`, `10 Projects/Ambessa Context Pack.md`, `10 Projects/Ambessa — ideas explored and rejected.md`, topic `ambessa-venture`, `ambessa-context`.
+
+## 2026-11-17 17:55 EAT — MUNGURA — The IP question answered with numbers, not a build
+
+**Changed.** Part 24 appended to the brief (now 24 parts, 15,935 words): the IP research with costs and a verdict, the reverse-video finding, PsyopAnime as a UI reference, and the design law (software never outshines the marketing; 20–50 review passes). Nord's pricing screenshot added as image 15 in the visual library, LIBRARY.md and library.json updated, gallery rebuilt to 15 of 15, pushed. `OI-6` added to open-items for the IP choice.
+
+**Why-verdict.** He asked whether to reverse-engineer a VPN. The honest answer is no: an IP block, an ASN and an abuse desk are a business, and the only thing needed is one static address. Checked costs: Nord dedicated IP $4.19/mo on two years, $5.89 on one, $8.99 monthly; a Canadian VPS with WireGuard $4–6/mo with our own IP; static-over-WireGuard services $2–4/mo. Also separated what is real from what vendors sell: no public YouTube trust score and no documented down-ranking for IP churn — carriers rotate addresses constantly — but verification friction, location drift and eligibility are real, so the address is worth buying as hygiene.
+
+**Status-open.** Which route he picks (VPS or Nord), and whether the business account gets its own IP. The `reverse-any-video` skill on this machine is the HyperFrames one, gated on Pro auth, so paid Pro is a revenue decision, not a technical one. The Rames_Jusso link returned no content twice and stays unread.
+
+**Related.** `MASTER-BRIEF.md` Part 24, `09-assets/library/15-nord-dedicated-ip-plans.png`, `open-items.json` OI-6, skill `media/reverse-any-video`.
+
+## 2026-11-17 18:20 EAT — MUNGURA — Claude Code is one patch behind; the fix is recorded as a first step
+
+**Changed.** Read Tekon Burns' 17 Nov post through the jina proxy (the direct extract returned nothing). Logged it as §21.4 in the brief and as step 1 of the "23rd — where to start" checklist on the venture page: update Claude Code to 2.1.326 before anything else. Checked this machine: `claude --version` returns **2.1.325**, one patch behind, so every T3 Code session is still paying the 93K-token config overhead.
+
+**Why-verdict.** He asked for it to be appended where it belongs and for the agent to update itself. The post's numbers are operational, not conceptual — 86% overhead cut, stale-settings fix, recaps no longer billed — so it belongs in the environment notes with a verification step, not in the strategy parts. The one caveat worth carrying: opusplan compaction now runs on Opus, so compaction costs more.
+
+**Status-open.** The update has not been run from here — it happens on the next T3 Code session, which is his to start. After updating, verify `/update-config` reads in the low thousands of tokens and log the before/after.
+
+**Related.** `MASTER-BRIEF.md` §21.4, `10 Projects/Ambessa Saul venture.md` (23rd checklist), source `x.com/TekonBurns/status/2122598865627209940`.
+
+## 2026-11-17 18:45 EAT — MUNGURA — The follow graph becomes an instrument; two market signals logged
+
+**Changed.** §7.7 added to the brief — the standing instruction to scan every account on `x.com/Ambessa_Saul/following` with cheap workers (one per ten accounts, fixed JSON per handle: role, country, three items each with URL/date/verbatim quote, allusions, who they amplify, can they sign or pay) and an Opus overseer clustering against the five walls into a twenty-signal report, weekly deltas after the first full pass. §9.7 added — Stephen Deng's five-criteria DFS Ventures pattern, logged as a rubric for our own offer, and Terra's $52m SpaceX round with the reply backlash recorded as the lesson about funding headlines in this market.
+
+**Why-verdict.** He asked for the graph to be treated as a training corpus rather than a feed, and for the two posts to be appended without adjudication. Both are now written so the next agent can act: the scan produces files, not impressions; the Deng rubric gives a pass/fail against our own wedge; the Terra thread shows what happens within hours to any company claim published without a primary record.
+
+**Status-open.** The first full scan has not been run. Nothing in §9.7 is verified by us — Terra's funding and the allegations in the replies are recorded as posted, with attributions intact.
+
+**Related.** `MASTER-BRIEF.md` §7.7 and §9.7, sources `x.com/mrstephendeng/status/2122593058607935` and `x.com/carter8f/status/2122394732450009498`, topic `ambessa-venture`.
+
+## 2026-11-17 19:10 EAT — MUNGURA — Hindsight installed and configured, held off for disk
+
+**Changed.** Installed the Hindsight memory provider (catalog 1.2.4) into the gericho-orchestrate profile and configured it at `~/.hindsight/config.json` — shared across profiles, `bank_id: memoir`, daemon profile `hermes`, LLM `openai_compatible` at DeepSeek, idle timeout 30 min — with the key in `~/.hermes/.env` as `HINDSI
+
+_[truncated in this pack; full day log stays on the machine]
+
+## 2026-11-18
+
+> Message-level context for this day. Auto-logged.
+
+---
+
+## 2026-11-18 00:04 EAT — MUNGURA — Daily journal generated for 2026-11-08; status=success; db_length=57949; source_hash=135968598845.
+<!-- type: event -->
+**From:** MUNGURA
+
+Daily journal generated for 2026-11-08; status=success; db_length=57949; source_hash=135968598845.
+
+---
+
+### [00:04] Exchange: Daily journal worker run for 2026-11-08
+
+**From:** MUNGURA
+**Context:** Permanent daily journal worker executed in `catch-up` mode.
+
+**Actions:**
+- Target date: `2026-11-08`.
+- Result status: `success`.
+- Daily path: `/Users/Mungura/debate-agent/memory/daily/2026-11-08.md`.
+- SUMMARY path: `/Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-08.md`.
+- DB row length: `57949`.
+- Status pointer: `/Users/Mungura/debate-agent/memory/daily/journal-status.json`.
+
+**Files Changed:** /Users/Mungura/debate-agent/memory/daily/2026-11-08.md, /Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-08.md, /Users/Mungura/debate-agent/memory/daily/evidence-digests/2026-11-08.json, /Users/Mungura/debate-agent/memory/daily/journal-status.json, /Users/Mungura/debate-agent/memory/memory.db, /Users/Mungura/debate-agent/memory/daily/_backups/2026-11-08.md.pre-sonnet5-repair-20261117_235908.bak, /Users/Mungura/debate-agent/memory/daily/_backups/SUMMARY-2026-11-08.md.pre-sonnet5-repair-20261117_235908.bak.
+**Journal Dates Repaired:** 2026-11-08.
+**Scheduler Touched:** status pointer only.
+**Routes Touched:** dashboard API log attempted; status route verification handled separately.
+**Tests Run:** `catch-up`.
+**Verification Results:** files written, SUMMARY mirror written, DB length=57949, api_log_status=200.
+**Failures:** none.
+**Next Action:** verify dashboard routes and scheduler persistence.
+
+**Status:** complete.
+**Tags:** [memory, daily-journal, scheduler]

@@ -22,3 +22,32 @@ Ambi's own rules, distilled. A correction he makes in conversation overrides any
    thing and look at it.
 10. **Ship the real thing to the real destination.** A plan, a test, or a green number is not
     a finished piece of work.
+
+## The stack, settled
+
+Two harnesses, two model families, no more switching. **T3 (Claude Code) on the plan** and
+**Hermes on DeepSeek**. Models: **DeepSeek and Anthropic only**. Nothing is built on OpenAI —
+no coding, no journals, no agent work.
+
+The one exception: images. **GPT Image 2.6 inside Genspark** is a permitted image lane. It is a
+picture tool, not a coding or writing route.
+
+Claude Code must always bill to the plan, never to API credits. The shell wrapper strips
+`ANTHROPIC_API_KEY` before the CLI runs; a single stray key turns every call into a bill.
+
+## The journals are the backbone
+
+The daily and weekly journals are how the work feeds forward; he calls them the backbone of the
+intelligence. They run **on DeepSeek Flash, medium thinking, through Hermes** — the same model
+this pack's agents run on — and never on OpenAI anything.
+
+- Daily: 00:05, summarising the day that just closed.
+- Weekly: Wednesday 00:15, folding the week into long-term memory.
+- Both are scheduled in Hermes itself, so a broken scheduler cannot quietly stop them.
+- A missing journal is a defect to repair at full depth, not a gap to skip.
+
+## The operator question (open)
+
+`MASTER-BRIEF.md` Part 28 records the constraints for the first human hire — what she will not
+do, what she needs, and the tests any role must pass. It is context, not a decision. Do not
+treat a lane discussed there as chosen.
