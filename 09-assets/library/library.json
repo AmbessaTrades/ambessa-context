@@ -1,0 +1,104 @@
+{
+ "count": 14,
+ "raw_base": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/",
+ "items": [
+  {
+   "file": "01-ideabrowser-everyone-is-lazy.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/01-ideabrowser-everyone-is-lazy.png",
+   "bytes": 92022,
+   "use": "everyone is lazy - the purchase test",
+   "tags": "copy,offer"
+  },
+  {
+   "file": "02-alex-kwon-laziest-person.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/02-alex-kwon-laziest-person.png",
+   "bytes": 103039,
+   "use": "design for the laziest user, one action on screen",
+   "tags": "copy,product"
+  },
+  {
+   "file": "03-greg-isenberg-youtube-channel.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/03-greg-isenberg-youtube-channel.png",
+   "bytes": 166529,
+   "use": "one promise in the banner, reads at thumbnail size",
+   "tags": "youtube,brand"
+  },
+  {
+   "file": "04-ideabrowser-pinned-signal-in-noise.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/04-ideabrowser-pinned-signal-in-noise.png",
+   "bytes": 362755,
+   "use": "branded artwork carries the pin",
+   "tags": "x,brand"
+  },
+  {
+   "file": "05-greg-isenberg-pinned-content-strategy.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/05-greg-isenberg-pinned-content-strategy.png",
+   "bytes": 490184,
+   "use": "the pin is the content strategy",
+   "tags": "x,brand"
+  },
+  {
+   "file": "06-greg-isenberg-x-profile-frontrun.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/06-greg-isenberg-x-profile-frontrun.png",
+   "bytes": 375612,
+   "use": "same face handle banner across X and YouTube, product panel",
+   "tags": "x,brand"
+  },
+  {
+   "file": "07-boldness-to-brains-ratio.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/07-boldness-to-brains-ratio.png",
+   "bytes": 929276,
+   "use": "two axes, four quadrants, honest placing",
+   "tags": "positioning"
+  },
+  {
+   "file": "08-x-following-political-list.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/08-x-following-political-list.png",
+   "bytes": 246022,
+   "use": "the follow graph is the editorial brief",
+   "tags": "x,politics"
+  },
+  {
+   "file": "09-frontrun-pro-trending-panel.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/09-frontrun-pro-trending-panel.png",
+   "bytes": 130412,
+   "use": "decision-maker panel, windowed strength",
+   "tags": "product,x"
+  },
+  {
+   "file": "10-hermes-bot-roster.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/10-hermes-bot-roster.png",
+   "bytes": 123036,
+   "use": "names carry the job",
+   "tags": "stack"
+  },
+  {
+   "file": "11-skills-model-designsystem.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/11-skills-model-designsystem.png",
+   "bytes": 432192,
+   "use": "skills + model + design system, three legs",
+   "tags": "stack,design"
+  },
+  {
+   "file": "12-email-list-hero-serif.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/12-email-list-hero-serif.png",
+   "bytes": 350037,
+   "use": "one headline, one italic, one proof line, one action",
+   "tags": "landing,design"
+  },
+  {
+   "file": "13-llm-writing-ticks-42.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/13-llm-writing-ticks-42.png",
+   "bytes": 202086,
+   "use": "forty-two AI writing tells - the anti-rule sheet",
+   "tags": "copy"
+  },
+  {
+   "file": "14-zlusd-private-transfer-deck.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/14-zlusd-private-transfer-deck.png",
+   "bytes": 367081,
+   "use": "private vs confidential made visible, six-step flow",
+   "tags": "product,deal-room"
+  }
+ ]
+}
