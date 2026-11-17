@@ -1,5 +1,5 @@
 {
- "count": 27,
+ "count": 37,
  "raw_base": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/",
  "items": [
   {
@@ -222,6 +222,96 @@
    "video": "https://youtu.be/P_hvEpI0twQ",
    "tags": "design,layout,motion",
    "name": "27-full-room-honest.png"
+  },
+  {
+   "file": "28-simulated-product-phone.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/28-simulated-product-phone.png",
+   "bytes": 2674797,
+   "use": "Subject fills the left half in a rounded window; an iPhone mock sits right with a green call button and three pill buttons — Delivery, Supplier, Booking.",
+   "steal": "Simulate the product and footnote it (*live demo simulation). Green means 'capability', orange means 'attention' — never the same colour twice.",
+   "video": "https://youtu.be/P_hvEpI0twQ",
+   "tags": "design,layout,motion"
+  },
+  {
+   "file": "29-paper-diorama-offline-vs-web.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/29-paper-diorama-offline-vs-web.png",
+   "bytes": 2942876,
+   "use": "Two cut-paper buildings: a cream shopfront with an 'Offline' sign and one clerk, facing a blue-awning storefront with a browser window and four customers.",
+   "steal": "The comparison IS the picture: two buildings, two eras, two palettes. Faceless paper figures sidestep casting entirely — the model village argues better than a chart.",
+   "video": "https://youtu.be/P_hvEpI0twQ",
+   "tags": "design,layout,motion"
+  },
+  {
+   "file": "30-route-on-3d-map.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/30-route-on-3d-map.png",
+   "bytes": 3666783,
+   "use": "Dark isometric city block with an orange glowing route from a blue RoboLabs pin to a yellow building; a floating card reads 'Stripe Pay — SENT $500, Transfer fee $0, Just announced 27 Oct'.",
+   "steal": "An invisible transaction becomes physical as a line on a map. The numbers live in a floating card; the motion is the line drawing itself.",
+   "video": "https://youtu.be/P_hvEpI0twQ",
+   "tags": "design,layout,motion"
+  },
+  {
+   "file": "31-real-shop-mock.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/31-real-shop-mock.png",
+   "bytes": 2458435,
+   "use": "Subject large left; right, a browser mock of a real-looking Shopify store with product photo, price and a 'Buy with Shop Pay' button.",
+   "steal": "Evidence is allowed brand colour: the real logo earns trust a drawn one cannot. Crop the mock like a screenshot, keep one button hot.",
+   "video": "https://youtu.be/P_hvEpI0twQ",
+   "tags": "design,layout,motion"
+  },
+  {
+   "file": "32-ui-as-the-diagram.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/32-ui-as-the-diagram.png",
+   "bytes": 2321977,
+   "use": "Full desktop app on screen — mascot avatars in the sidebar, a pink chat bubble asking for a gift under $50, three product cards as the answer, settings toggles right; subject inset bottom-left.",
+   "steal": "The interface carries the story: bubbles for conversation, cards for the answer, chips for labels. The person shrinks to an inset so the product can be the star.",
+   "video": "https://youtu.be/P_hvEpI0twQ",
+   "tags": "design,layout,motion"
+  },
+  {
+   "file": "33-two-plinths.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/33-two-plinths.png",
+   "bytes": 2073912,
+   "use": "Isometric: a phone stand carrying a card labelled 'you', a blue shop building labelled 'the shop', Apple Pay and G Pay marks, and a stand-in card number.",
+   "steal": "Two plinths, two parties, one abstract idea made concrete. Lowercase labels under objects — no arrows needed.",
+   "video": "https://youtu.be/P_hvEpI0twQ",
+   "tags": "design,layout,motion"
+  },
+  {
+   "file": "34-vault-and-secrets.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/34-vault-and-secrets.png",
+   "bytes": 2699466,
+   "use": "Orange vault icon, a white bot face, dotted connector lines running to 'Sign in' and 'Checkout' cards filled with orange dots standing in for passwords.",
+   "steal": "Security explained as objects joined by dotted lines. Orange only on the vault and the secrets, so the eye learns what matters in one frame.",
+   "video": "https://youtu.be/P_hvEpI0twQ",
+   "tags": "design,layout,motion"
+  },
+  {
+   "file": "35-paper-title-card.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/35-paper-title-card.png",
+   "bytes": 2985669,
+   "use": "Serif 'Agentic payments' on a black plate taped to the wall, an orange cut-paper credit card, a blue paper bag and a white bot face; torn newspaper scraps in the corners.",
+   "steal": "Paper collage says 'concept, not screenshot'. A taped serif plate is the cheapest chapter title there is.",
+   "video": "https://youtu.be/P_hvEpI0twQ",
+   "tags": "design,layout,motion"
+  },
+  {
+   "file": "36-token-board-lit.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/36-token-board-lit.png",
+   "bytes": 1275506,
+   "use": "'10 Updates' in white bold; three cards lit with an orange outline under a 'Business' label in serif, then six unlit cards, then the tenth below. Each card carries a mascot glyph and a number.",
+   "steal": "A chapter menu as a board of tokens: shape instead of icon, number instead of word. The first three glow because they are the ones that matter to a business owner.",
+   "video": "https://youtu.be/P_hvEpI0twQ",
+   "tags": "design,layout,motion"
+  },
+  {
+   "file": "37-token-board-unlit.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/37-token-board-unlit.png",
+   "bytes": 1524353,
+   "use": "The same board without the glow, the Business label or the emphasis — every card equal.",
+   "steal": "The lit/unlit pair is the motion. One frame gains emphasis and the eye follows without a single arrow; build the pair, not the animation.",
+   "video": "https://youtu.be/P_hvEpI0twQ",
+   "tags": "design,layout,motion"
   }
  ]
 }

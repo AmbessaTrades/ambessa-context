@@ -81,3 +81,28 @@ Frames pulled from two videos: Claude 2.0 (`youtu.be/yMnFHFf43Qg`) and Grok Bot 
 | `25-paper-collage.png` | A mock handwritten note showing HTML/CSS next to a torn-paper 'Video model' card with a red X, plus a green check on 'Much cheaper'. | When the argument is a comparison, leave the interface entirely: paper, marker, torn edge. Tactile beats polished for one beat, then back. |
 | `26-app-icon-grid.png` | Six app icons in a 3×2 grid with names under them, on black, subject still at left. | Icons as evidence in a taxonomy frame. Nothing else on screen: no paragraph, no bullet, no arrow. The grid is the sentence. |
 | `27-full-room-honest.png` | The subject alone, full frame, real room, real window, hands moving, no graphics at all. | The reset shot. After five designed frames, one honest one buys back trust — and it is free to produce. |
+
+
+### Second batch — the devices, named
+
+| `28-simulated-product-phone.png` | Subject fills the left half in a rounded window; an iPhone mock sits right with a green call button and three pill buttons — Delivery, Supplier, Booking. | Simulate the product and footnote it (*live demo simulation). Green means 'capability', orange means 'attention' — never the same colour twice. |
+| `29-paper-diorama-offline-vs-web.png` | Two cut-paper buildings: a cream shopfront with an 'Offline' sign and one clerk, facing a blue-awning storefront with a browser window and four customers. | The comparison IS the picture: two buildings, two eras, two palettes. Faceless paper figures sidestep casting entirely — the model village argues better than a chart. |
+| `30-route-on-3d-map.png` | Dark isometric city block with an orange glowing route from a blue RoboLabs pin to a yellow building; a floating card reads 'Stripe Pay — SENT $500, Transfer fee $0, Just announced 27 Oct'. | An invisible transaction becomes physical as a line on a map. The numbers live in a floating card; the motion is the line drawing itself. |
+| `31-real-shop-mock.png` | Subject large left; right, a browser mock of a real-looking Shopify store with product photo, price and a 'Buy with Shop Pay' button. | Evidence is allowed brand colour: the real logo earns trust a drawn one cannot. Crop the mock like a screenshot, keep one button hot. |
+| `32-ui-as-the-diagram.png` | Full desktop app on screen — mascot avatars in the sidebar, a pink chat bubble asking for a gift under $50, three product cards as the answer, settings toggles right; subject inset bottom-left. | The interface carries the story: bubbles for conversation, cards for the answer, chips for labels. The person shrinks to an inset so the product can be the star. |
+| `33-two-plinths.png` | Isometric: a phone stand carrying a card labelled 'you', a blue shop building labelled 'the shop', Apple Pay and G Pay marks, and a stand-in card number. | Two plinths, two parties, one abstract idea made concrete. Lowercase labels under objects — no arrows needed. |
+| `34-vault-and-secrets.png` | Orange vault icon, a white bot face, dotted connector lines running to 'Sign in' and 'Checkout' cards filled with orange dots standing in for passwords. | Security explained as objects joined by dotted lines. Orange only on the vault and the secrets, so the eye learns what matters in one frame. |
+| `35-paper-title-card.png` | Serif 'Agentic payments' on a black plate taped to the wall, an orange cut-paper credit card, a blue paper bag and a white bot face; torn newspaper scraps in the corners. | Paper collage says 'concept, not screenshot'. A taped serif plate is the cheapest chapter title there is. |
+| `36-token-board-lit.png` | '10 Updates' in white bold; three cards lit with an orange outline under a 'Business' label in serif, then six unlit cards, then the tenth below. Each card carries a mascot glyph and a number. | A chapter menu as a board of tokens: shape instead of icon, number instead of word. The first three glow because they are the ones that matter to a business owner. |
+| `37-token-board-unlit.png` | The same board without the glow, the Business label or the emphasis — every card equal. | The lit/unlit pair is the motion. One frame gains emphasis and the eye follows without a single arrow; build the pair, not the animation. |
+
+The devices this batch adds to the system:
+
+1. **Simulation footnote.** Fake product screens carry `*live demo simulation` in the corner. Honesty is part of the look.
+2. **Paper diorama.** Two cut-paper buildings argue a before/after better than a chart, and faceless figures dodge casting.
+3. **Route on a map.** An invisible transaction becomes a glowing line between two pins; the numbers sit in a floating card.
+4. **UI as diagram.** Bubbles, cards and chips carry the story; the presenter shrinks to an inset.
+5. **Two plinths.** Two parties, two objects, lowercase labels — no arrows.
+6. **Dotted connectors.** Security or flow shown as objects joined by dashed lines, accent only on the secret parts.
+7. **Taped serif plate.** The chapter title is paper on a wall, not a lower third.
+8. **Token board + its unlit pair.** Shape-and-number chapters; the lit/unlit pair is the animation.
