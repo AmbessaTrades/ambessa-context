@@ -37,7 +37,7 @@
   },
   {
    "path": "01-who/mental-models.md",
-   "bytes": 4932
+   "bytes": 7487
   },
   {
    "path": "01-who/north-star.md",
@@ -137,7 +137,7 @@
   },
   {
    "path": "08-journal/recent.md",
-   "bytes": 120236
+   "bytes": 122844
   },
   {
    "path": "08-journal/summaries.md",
@@ -210,6 +210,10 @@
   {
    "path": "09-assets/library/14-zlusd-private-transfer-deck.png",
    "bytes": 367081
+  },
+  {
+   "path": "09-assets/library/GALLERY.html",
+   "bytes": 4214
   },
   {
    "path": "09-assets/library/LIBRARY.md",

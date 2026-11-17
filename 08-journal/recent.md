@@ -1270,3 +1270,23 @@ TubeLoop backup kept the last saved copy of a folder that shrank or vanished
 **Status-open.** The eleventh set, led by the EU Forest-Rule File, was never judged. No idea yet has a named penalty, a finished sample and a buyer saying yes.
 
 **Related.** `10 Projects/Ambessa — ideas explored and rejected.md`, `10 Projects/Ambessa Saul venture.md`, `05-offers/explored-and-rejected.md`, topic `ambessa-rejected`.
+
+## 2026-11-17 11:20 EAT — MUNGURA — The visual shelf: fourteen direction images published as a permanent library
+
+**Changed.** `09-assets/library/` in the public pack now holds fourteen images Ambi sent as direction, each named for its job, with `LIBRARY.md` (what to steal from each) and `library.json` (machine index with raw URLs). Covers X profile and pin architecture, the forty-two AI writing tells, the skills/model/design-system diagram, a private-versus-confidential payments flow, a trending panel to turn into a decision-maker panel, a serif landing hero, and the boldness-to-brains axis. Digest now points at it under VISUAL LIBRARY.
+
+**Why-verdict.** He asked for a Pinterest that survives every session and that he can point an agent at by URL. Keeping the images in chat loses them; keeping them on disk hides them; a public folder plus an index makes them usable by any agent, any week, without him re-explaining a single picture.
+
+**Status-open.** More images are still arriving, and the twelve `!image.png` placeholders from the founding brief remain empty — only the portrait and these fourteen exist as files.
+
+**Related.** `09-assets/library/LIBRARY.md`, `09-assets/library/library.json`, `09-assets/ambessa-saul-profile.png`, topic `ambessa-context`.
+
+## 2026-11-17 11:45 EAT — MUNGURA — The master brief rebuilt: 5,677 words, twenty-four sections
+
+**Changed.** `~/AUH/AMBESSA/intel/MASTER-BRIEF.md` — the giant brain-dump reshaped, longer than the original and ordered for fan-out: twelve workstreams each with owner, artefact and check; account plumbing (which handle and email governs X versus YouTube); week-by-week sprint; the five walls with quotable numbers; reply doctrine; four-filter news digest; wide-surface/narrow-door resolution; the floor if nothing sells; eight open questions in one batch for Ambi. Same job given to a cloud agent for comparison.
+
+**Why-verdict.** His instruction was explicit: keep every nuance, keep the machine-only references to T3 Code, Hermes, Memoir and the bots, map the links and images where they belong, and lengthen rather than compress. The value is not length — it is that a child agent can be handed one row and one law set instead of the whole dump.
+
+**Status-open.** Eight questions await his answer, starting with the name, the first market and the first offer. The fourteen library images and the portrait are the only visual assets on disk; the twelve founding-brief placeholders are still empty.
+
+**Related.** `~/AUH/AMBESSA/intel/MASTER-BRIEF.md`, `09-assets/library/`, topics `ambessa-venture`, `ambessa-context`.
