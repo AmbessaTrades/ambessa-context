@@ -63,3 +63,21 @@ generated face.
 
 | File | What it is | What to steal |
 |---|---|---|
+
+
+## Jay E / RoboNuggets — the frame system
+
+Frames pulled from two videos: Claude 2.0 (`youtu.be/yMnFHFf43Qg`) and Grok Bot (`youtu.be/P_hvEpI0twQ`). Stills show layout; the motion is only visible in the videos.
+
+| File | What it is | What to steal |
+|---|---|---|
+| `18-01-dark-thread-canvas.png` | Three task columns floating on near-black, the subject inset bottom-left in a rounded window, three pill bars turning green as work completes. | The ground is a product UI, not a backdrop: the interface IS the set. Subject never larger than a fifth of the frame. Green carries progress, never decoration. |
+| `19-02-serif-claim-pill-scale.png` | A serif headline ('Your brain's context window') over a row of ten rounded bars grading green to red. | One serif sentence carries the whole idea; a single row of shapes proves it. This is the house move: claim in serif, evidence as geometry. |
+| `20-03-annotation-arrows.png` | A screenshot of a real post, with orange marker highlights and hand-drawn white arrows labelled 'Works' and 'Looks'. | Annotation as argument: two arrows and two words explain a product decision. Orange only on the two phrases that matter. |
+| `21-04-dashboard-half.png` | Subject in a rounded window on the left third; a full dark dashboard mock on the right with an orange sun mark above it. | The most reusable layout in the set: person left, live-looking artefact right, dotted texture in the lower third to stop the black going flat. |
+| `22-05-icon-diagram.png` | 'Personal intelligence agents' in serif, subtitle in sans, a monitor outline with three check-marked rows and a white circle with a pause glyph. | Thin white line icons at one weight, one green tick repeated three times. The pause circle is a character, not an icon — a small mascot earns warmth. |
+| `23-06-orange-badge.png` | The same dashboard again, now carrying an orange 'AI-powered' badge, an ask bar and the words 'LLM-powered' set huge under it. | Repeat the artefact and add one element: the difference between the two frames IS the explanation. Accent used once per frame. |
+| `24-07-cloud-diagram.png` | 'Projects' in serif over a cloud outline containing an orange sun mark, three crab-glyph nodes and a laptop outline below. | A diagram is allowed to be friendly. Two stroke weights (blue cloud, white laptop), orange kept for the brand mark only. |
+| `25-08-paper-collage.png` | A mock handwritten note showing HTML/CSS next to a torn-paper 'Video model' card with a red X, plus a green check on 'Much cheaper'. | When the argument is a comparison, leave the interface entirely: paper, marker, torn edge. Tactile beats polished for one beat, then back. |
+| `26-09-app-icon-grid.png` | Six app icons in a 3×2 grid with names under them, on black, subject still at left. | Icons as evidence in a taxonomy frame. Nothing else on screen: no paragraph, no bullet, no arrow. The grid is the sentence. |
+| `27-10-full-room-honest.png` | The subject alone, full frame, real room, real window, hands moving, no graphics at all. | The reset shot. After five designed frames, one honest one buys back trust — and it is free to produce. |
