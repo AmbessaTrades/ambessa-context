@@ -1,5 +1,5 @@
 {
- "count": 15,
+ "count": 17,
  "raw_base": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/",
  "items": [
   {
@@ -106,6 +106,22 @@
    "bytes": 510725,
    "use": "dedicated IP pricing: $4.19/mo on 2 years, $5.89 on 1 year, $8.99 monthly",
    "tags": "infra,network,cost"
+  },
+  {
+   "file": "16-split-panel-talking-head-1.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/16-split-panel-talking-head-1.png",
+   "bytes": 743973,
+   "use": "Two devices from one talk: a two-tone comparison panel (sage green vs coral red) with hand-drawn geometry, and the same speaker keyed over a deep blue gradient with a translucent mark behind him",
+   "steal": "The split panel does the argument with no words; the keying lets a mark sit BEHIND the subject; black hoodie on saturated ground separates with zero effort",
+   "tags": "reference"
+  },
+  {
+   "file": "17-split-panel-talking-head-2.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/17-split-panel-talking-head-2.png",
+   "bytes": 2331454,
+   "use": "Two devices from one talk: a two-tone comparison panel (sage green vs coral red) with hand-drawn geometry, and the same speaker keyed over a deep blue gradient with a translucent mark behind him",
+   "steal": "The split panel does the argument with no words; the keying lets a mark sit BEHIND the subject; black hoodie on saturated ground separates with zero effort",
+   "tags": "reference"
   }
  ]
 }

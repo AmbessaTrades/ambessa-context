@@ -11,6 +11,8 @@ Machine index: `library.json` in this folder.
 
 | File | What it is | What to steal |
 |---|---|---|
+| `16-split-panel-talking-head-1.png` | Two devices from one talk: a two-tone comparison panel (sage green vs coral red) with hand-drawn geometry, and the same speaker keyed over a deep blue gradient with a translucent mark behind him | The split panel does the argument with no words; the keying lets a mark sit BEHIND the subject; black hoodie on saturated ground separates with zero effort |
+| `17-split-panel-talking-head-2.png` | Two devices from one talk: a two-tone comparison panel (sage green vs coral red) with hand-drawn geometry, and the same speaker keyed over a deep blue gradient with a translucent mark behind him | The split panel does the argument with no words; the keying lets a mark sit BEHIND the subject; black hoodie on saturated ground separates with zero effort |
 | `06-greg-isenberg-x-profile-frontrun.png` | A polished X profile: portrait, one-line bio, a product panel underneath. | Same face, same handle, same banner across X and YouTube. The profile sells the products without a sales sentence. |
 | `05-greg-isenberg-pinned-content-strategy.png` | A pinned post that states the entire content strategy in a few lines. | The pin is a table of contents for the account. A decision-maker lands and knows what they will get. |
 | `04-ideabrowser-pinned-signal-in-noise.png` | A pinned post carrying a graphic instead of an argument. | Branded artwork in the pin; the words do less work than the image. |
@@ -56,3 +58,8 @@ Machine index: `library.json` in this folder.
 
 The portrait lives one level up, at `09-assets/ambessa-saul-profile.png`. Use it, never a
 generated face.
+
+## Added references
+
+| File | What it is | What to steal |
+|---|---|---|
