@@ -124,94 +124,104 @@
    "tags": "reference"
   },
   {
-   "file": "18-01-dark-thread-canvas.png",
-   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/18-01-dark-thread-canvas.png",
+   "file": "18-dark-thread-canvas.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/18-dark-thread-canvas.png",
    "bytes": 961586,
    "use": "Three task columns floating on near-black, the subject inset bottom-left in a rounded window, three pill bars turning green as work completes.",
    "steal": "The ground is a product UI, not a backdrop: the interface IS the set. Subject never larger than a fifth of the frame. Green carries progress, never decoration.",
    "video": "https://youtu.be/yMnFHFf43Qg",
-   "tags": "design,layout,motion"
+   "tags": "design,layout,motion",
+   "name": "18-dark-thread-canvas.png"
   },
   {
-   "file": "19-02-serif-claim-pill-scale.png",
-   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/19-02-serif-claim-pill-scale.png",
+   "file": "19-serif-claim-pill-scale.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/19-serif-claim-pill-scale.png",
    "bytes": 1150796,
    "use": "A serif headline ('Your brain's context window') over a row of ten rounded bars grading green to red.",
    "steal": "One serif sentence carries the whole idea; a single row of shapes proves it. This is the house move: claim in serif, evidence as geometry.",
    "video": "https://youtu.be/yMnFHFf43Qg",
-   "tags": "design,layout,motion"
+   "tags": "design,layout,motion",
+   "name": "19-serif-claim-pill-scale.png"
   },
   {
-   "file": "20-03-annotation-arrows.png",
-   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/20-03-annotation-arrows.png",
+   "file": "20-annotation-arrows.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/20-annotation-arrows.png",
    "bytes": 1488257,
    "use": "A screenshot of a real post, with orange marker highlights and hand-drawn white arrows labelled 'Works' and 'Looks'.",
    "steal": "Annotation as argument: two arrows and two words explain a product decision. Orange only on the two phrases that matter.",
    "video": "https://youtu.be/yMnFHFf43Qg",
-   "tags": "design,layout,motion"
+   "tags": "design,layout,motion",
+   "name": "20-annotation-arrows.png"
   },
   {
-   "file": "21-04-dashboard-half.png",
-   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/21-04-dashboard-half.png",
+   "file": "21-dashboard-half.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/21-dashboard-half.png",
    "bytes": 2592390,
    "use": "Subject in a rounded window on the left third; a full dark dashboard mock on the right with an orange sun mark above it.",
    "steal": "The most reusable layout in the set: person left, live-looking artefact right, dotted texture in the lower third to stop the black going flat.",
    "video": "https://youtu.be/yMnFHFf43Qg",
-   "tags": "design,layout,motion"
+   "tags": "design,layout,motion",
+   "name": "21-dashboard-half.png"
   },
   {
-   "file": "22-05-icon-diagram.png",
-   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/22-05-icon-diagram.png",
+   "file": "22-icon-diagram.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/22-icon-diagram.png",
    "bytes": 2415042,
    "use": "'Personal intelligence agents' in serif, subtitle in sans, a monitor outline with three check-marked rows and a white circle with a pause glyph.",
    "steal": "Thin white line icons at one weight, one green tick repeated three times. The pause circle is a character, not an icon — a small mascot earns warmth.",
    "video": "https://youtu.be/P_hvEpI0twQ",
-   "tags": "design,layout,motion"
+   "tags": "design,layout,motion",
+   "name": "22-icon-diagram.png"
   },
   {
-   "file": "23-06-orange-badge.png",
-   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/23-06-orange-badge.png",
+   "file": "23-orange-badge.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/23-orange-badge.png",
    "bytes": 2496163,
    "use": "The same dashboard again, now carrying an orange 'AI-powered' badge, an ask bar and the words 'LLM-powered' set huge under it.",
    "steal": "Repeat the artefact and add one element: the difference between the two frames IS the explanation. Accent used once per frame.",
    "video": "https://youtu.be/yMnFHFf43Qg",
-   "tags": "design,layout,motion"
+   "tags": "design,layout,motion",
+   "name": "23-orange-badge.png"
   },
   {
-   "file": "24-07-cloud-diagram.png",
-   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/24-07-cloud-diagram.png",
+   "file": "24-cloud-diagram.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/24-cloud-diagram.png",
    "bytes": 2422034,
    "use": "'Projects' in serif over a cloud outline containing an orange sun mark, three crab-glyph nodes and a laptop outline below.",
    "steal": "A diagram is allowed to be friendly. Two stroke weights (blue cloud, white laptop), orange kept for the brand mark only.",
    "video": "https://youtu.be/yMnFHFf43Qg",
-   "tags": "design,layout,motion"
+   "tags": "design,layout,motion",
+   "name": "24-cloud-diagram.png"
   },
   {
-   "file": "25-08-paper-collage.png",
-   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/25-08-paper-collage.png",
+   "file": "25-paper-collage.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/25-paper-collage.png",
    "bytes": 2605807,
    "use": "A mock handwritten note showing HTML/CSS next to a torn-paper 'Video model' card with a red X, plus a green check on 'Much cheaper'.",
    "steal": "When the argument is a comparison, leave the interface entirely: paper, marker, torn edge. Tactile beats polished for one beat, then back.",
    "video": "https://youtu.be/yMnFHFf43Qg",
-   "tags": "design,layout,motion"
+   "tags": "design,layout,motion",
+   "name": "25-paper-collage.png"
   },
   {
-   "file": "26-09-app-icon-grid.png",
-   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/26-09-app-icon-grid.png",
+   "file": "26-app-icon-grid.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/26-app-icon-grid.png",
    "bytes": 2792523,
    "use": "Six app icons in a 3×2 grid with names under them, on black, subject still at left.",
    "steal": "Icons as evidence in a taxonomy frame. Nothing else on screen: no paragraph, no bullet, no arrow. The grid is the sentence.",
    "video": "https://youtu.be/P_hvEpI0twQ",
-   "tags": "design,layout,motion"
+   "tags": "design,layout,motion",
+   "name": "26-app-icon-grid.png"
   },
   {
-   "file": "27-10-full-room-honest.png",
-   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/27-10-full-room-honest.png",
+   "file": "27-full-room-honest.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/27-full-room-honest.png",
    "bytes": 3825814,
    "use": "The subject alone, full frame, real room, real window, hands moving, no graphics at all.",
    "steal": "The reset shot. After five designed frames, one honest one buys back trust — and it is free to produce.",
    "video": "https://youtu.be/P_hvEpI0twQ",
-   "tags": "design,layout,motion"
+   "tags": "design,layout,motion",
+   "name": "27-full-room-honest.png"
   }
  ]
 }
