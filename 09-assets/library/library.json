@@ -1,5 +1,5 @@
 {
- "count": 37,
+ "count": 47,
  "raw_base": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/",
  "items": [
   {
@@ -310,6 +310,96 @@
    "bytes": 1524353,
    "use": "The same board without the glow, the Business label or the emphasis — every card equal.",
    "steal": "The lit/unlit pair is the motion. One frame gains emphasis and the eye follows without a single arrow; build the pair, not the animation.",
+   "video": "https://youtu.be/P_hvEpI0twQ",
+   "tags": "design,layout,motion"
+  },
+  {
+   "file": "38-three-plinth-circuit.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/38-three-plinth-circuit.png",
+   "bytes": 2699797,
+   "use": "'One memory, one context' in serif; three isometric plinths — Claude on yellow, ChatGPT on green, Grok Bot on blue — wired by dotted orange lines to a central stack of orange plates.",
+   "steal": "The circuit board: outer nodes wear the other people's brand colours, the accent is spent only on the thing being added. Dotted wires, no arrows.",
+   "video": "https://youtu.be/P_hvEpI0twQ",
+   "tags": "design,layout,motion"
+  },
+  {
+   "file": "39-blur-in-title.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/39-blur-in-title.png",
+   "bytes": 2518969,
+   "use": "A title caught mid-arrival, soft and out of focus behind the bot face; subject large in a rounded window.",
+   "steal": "Titles move. A still from a transition shows text arriving blurred and resolving — stop designing static title cards and design the 400ms that lands them.",
+   "video": "https://youtu.be/P_hvEpI0twQ",
+   "tags": "design,layout,motion"
+  },
+  {
+   "file": "40-highlight-travels.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/40-highlight-travels.png",
+   "bytes": 1729305,
+   "use": "The 10 Updates board with 07 lifted, tilted in 3D and ringed in orange while the rest sit flat.",
+   "steal": "Position without a cursor: one card rotates and gains a ring, and the eye knows exactly where we are. No arrow, no highlight bar.",
+   "video": "https://youtu.be/P_hvEpI0twQ",
+   "tags": "design,layout,motion"
+  },
+  {
+   "file": "41-lit-trio.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/41-lit-trio.png",
+   "bytes": 1532178,
+   "use": "Same 10 Updates board, first three cards glowing amber under a Business label; the rest sit equal and flat.",
+   "steal": "Emphasis is a property of the frame, not an effect added on top — the lit trio and the flat six are the same component with one flag.",
+   "video": "https://youtu.be/P_hvEpI0twQ",
+   "tags": "design,layout,motion"
+  },
+  {
+   "file": "42-prompt-as-artefact.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/42-prompt-as-artefact.png",
+   "bytes": 2670210,
+   "use": "A dark card headed PROMPT holding a monospace prompt, orange COPY and outlined FULLSCREEN; beside it an iPhone showing the same words as a bubble; Calendar and Reminders icons wearing green ticks; an orange 'Take a screenshot!' pill.",
+   "steal": "Show the actual prompt as a copyable artefact — proof instead of paraphrase. Green ticks on the app icons do the 'it worked' job.",
+   "video": "https://youtu.be/P_hvEpI0twQ",
+   "tags": "design,layout,motion"
+  },
+  {
+   "file": "43-icons-as-props.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/43-icons-as-props.png",
+   "bytes": 2659190,
+   "use": "Subject large left; a Home icon and a Location icon floating at label size; the phone mock empty beside them.",
+   "steal": "App icons are allowed to be props: unboxed, large, label underneath. The phone stays the hero.",
+   "video": "https://youtu.be/P_hvEpI0twQ",
+   "tags": "design,layout,motion"
+  },
+  {
+   "file": "44-squiggle-wireframe.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/44-squiggle-wireframe.png",
+   "bytes": 2714636,
+   "use": "'Chat' in serif, a wireframe chat window drawn in squiggle lines with an orange border and an orange circular X badge; subject on the right.",
+   "steal": "Squiggles mean 'text, not readable' and cost nothing — no lorem ipsum, no fake copy. One orange badge is all the UI furniture needed.",
+   "video": "https://youtu.be/P_hvEpI0twQ",
+   "tags": "design,layout,motion"
+  },
+  {
+   "file": "45-light-artefact-dark-ground.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/45-light-artefact-dark-ground.png",
+   "bytes": 1147845,
+   "use": "A bright white dashboard and share sheet floating on black, cursor included; the subject reduced to a small inset bottom-left.",
+   "steal": "Contrast does the framing: a white artefact on black needs no border. The presenter can shrink to thumbnail when the modal is the point.",
+   "video": "https://youtu.be/P_hvEpI0twQ",
+   "tags": "design,layout,motion"
+  },
+  {
+   "file": "46-checked-title.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/46-checked-title.png",
+   "bytes": 2420557,
+   "use": "'Page' in serif with a solid green circle tick beside it; a white page mock below showing weekly sales, three stat cards and one bar picked out in blue.",
+   "steal": "A serif noun plus one green tick reads as 'done, real, shipped'. One coloured bar proves the chart without a caption.",
+   "video": "https://youtu.be/P_hvEpI0twQ",
+   "tags": "design,layout,motion"
+  },
+  {
+   "file": "47-mascot-roster.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/47-mascot-roster.png",
+   "bytes": 1768990,
+   "use": "Full white app UI: a sidebar of coloured blob mascots with two eyes — GROKO, SHOPO, TRAVO, FITO, GIFTO, MAILO — a client list, and a weekly checklist with green ticks and a black GROKO pill on the row it touched.",
+   "steal": "Each agent is a colour and a shape, not an icon — the roster becomes the navigation. A named pill marks the row the agent acted on.",
    "video": "https://youtu.be/P_hvEpI0twQ",
    "tags": "design,layout,motion"
   }
