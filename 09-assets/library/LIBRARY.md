@@ -151,3 +151,23 @@ The two devices this batch settles:
 
 1. **The plate.** Real footage reduced to a centred rectangle with blurred edges, the presenter cut out and overlapping its border. The overlap is what makes it look shot rather than assembled.
 2. **Build-up as documentation.** Five consecutive frames of one composition — arc and source mark, empty container, then tiles landing one beat at a time — prove that motion can be specified in stills. That is how the timeline editor should be briefed: as a sequence with a fixed frame and a changing count, not as a description of an animation.
+
+
+### Frames 58 to 71 — the production systems
+
+| File | What it is | What to steal |
+|---|---|---|
+| `58-anton-thumbnail-grid-1.png` | Twelve recent thumbnails of one channel: the same man, the same orange tee, the same neutral expression — a different science image and a different three-word phrase each time. | Repeatable packaging: the face and the shirt never change, so only the headline and the object are invented per video. That is a system, not a style. |
+| `59-anton-thumbnail-grid-2.png` | The same grid continued: identical pose, identical crop, new phrase, new object. | Count the words — never more than four, always heavy condensed caps with a hard shadow. The phrase names the surprise; the image carries the proof. |
+| `60-anton-a-shot.png` | Anton cut out in the same waist-up pose as every episode, with the episode's subject photo — the Chernobyl plant — behind him. | The background is the episode, not the room. One lighting setup, one camera, one shirt; the subject swaps the plate behind him. |
+| `61-anton-aerial.png` | A full-frame aerial of the exclusion zone, forest regrowing around the reactor. | When the place is the story, the place fills the frame and he disappears entirely rather than sitting in a corner. |
+| `62-anton-microscopy.png` | A microscopy plate of nematodes, full frame, unannotated. | Figures stay whole: no boxes, no arrows, no zoom unless the paper needed one. |
+| `63-anton-paper.png` | A published paper as a page — journal masthead, title, authors, abstract — legible at frame size. | Show the source as a source. The masthead is the credibility, so it is never cropped off. |
+| `64-anton-body-diagram.png` | A dark anatomical diagram of the calf and venous valves glowing red on near-black. | One diagram, one idea, dark ground. Accent lives inside the diagram, not on top of it. |
+| `65-anton-wolf-bg.png` | Anton in the same pose with a wolf standing behind him in snow. | The plate can be alive — a subject photo with depth beats a flat colour and costs one image search. |
+| `66-primetv-a-shot.png` | The PrimeTime cut out against a flat blue gradient with a wireframe mark; grey tee, headphones, mic. No room in any of the 54 frames sampled. | A permanent set built once. The whole video is made by swapping what appears beside him. |
+| `67-primetv-artefact.png` | A social post fills the frame; he shrinks to a small inset in the corner, still cut out. | The artefact takes the frame and the presenter becomes a thumbnail. Never two equal subjects side by side. |
+| `68-primetv-formula.png` | A mathematical statement set large on a dark card, him small in the corner. | Set the proof as type rather than a screenshot of a PDF. |
+| `69-primetv-article.png` | An article page at readable size with him inset — the source is the picture. | Cite on screen, not in the description: the viewer sees the page they would have had to find. |
+| `70-anton-prop.png` | Same pose, same tee, a tablet with a blue screen held at chest height, heart imagery behind him. | The prop. A tablet or a folded paper gives the hands a job and makes a static shot read as work rather than a pose. |
+| `71-anton-diagram-annotated.png` | A grey anatomical plate with soleus and gastrocnemius lettered and arrowed, white ground, red labels. | When a diagram must be annotated, annotate the source image rather than redrawing it — the letters are the argument. |
