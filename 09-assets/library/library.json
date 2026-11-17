@@ -1,5 +1,5 @@
 {
- "count": 47,
+ "count": 57,
  "raw_base": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/",
  "items": [
   {
@@ -402,6 +402,96 @@
    "steal": "Each agent is a colour and a shape, not an icon — the roster becomes the navigation. A named pill marks the row the agent acted on.",
    "video": "https://youtu.be/P_hvEpI0twQ",
    "tags": "design,layout,motion"
+  },
+  {
+   "file": "48-footage-plate.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/48-footage-plate.png",
+   "bytes": 2022659,
+   "use": "Real jungle footage reduced to a centred plate with blurred edges, the presenter cut out bottom-left and overlapping the plate's border.",
+   "steal": "The plate is a frame inside the frame, and the subject crossing its edge is what makes it feel shot rather than assembled. Blur does the letterboxing for free.",
+   "tags": "design,layout,motion",
+   "video": "https://youtu.be/yMnFHFf43Qg"
+  },
+  {
+   "file": "49-plate-full-bleed.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/49-plate-full-bleed.png",
+   "bytes": 1945084,
+   "use": "The same composition with the footage filling the frame: tiger in the trees, presenter small in the corner.",
+   "steal": "When the footage earns it, let it run full bleed and keep the presenter small. One size of subject per beat, never two heroes.",
+   "tags": "design,layout,motion",
+   "video": "https://youtu.be/yMnFHFf43Qg"
+  },
+  {
+   "file": "50-honest-room-shot.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/50-honest-room-shot.png",
+   "bytes": 766208,
+   "use": "Jay in his own room, full frame, window light, wallpaper and a picture behind him, hands in shot. No graphic at all.",
+   "steal": "The reset again: after a run of designed frames, one unadorned room shot buys back trust. Cheapest frame in the film and the one people remember.",
+   "tags": "design,layout,motion",
+   "video": "https://youtu.be/yMnFHFf43Qg"
+  },
+  {
+   "file": "51-arc-source-icon.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/51-arc-source-icon.png",
+   "bytes": 881395,
+   "use": "A single product mark on the black field with a dotted orange arc curving away from it and ending in a filled dot.",
+   "steal": "An arrow without an arrowhead: dotted curve, filled circle at the head. It reads as motion even frozen, which is why it survives as a still.",
+   "tags": "design,layout,motion",
+   "video": "https://youtu.be/yMnFHFf43Qg"
+  },
+  {
+   "file": "52-container-before-content.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/52-container-before-content.png",
+   "bytes": 1085859,
+   "use": "The panel arrives as an empty rounded outline with one film glyph and a title; nothing inside it yet.",
+   "steal": "Draw the container before the contents. Half a second of empty frame tells the viewer where to look, so nothing has to be announced.",
+   "tags": "design,layout,motion",
+   "video": "https://youtu.be/yMnFHFf43Qg"
+  },
+  {
+   "file": "53-tiles-land.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/53-tiles-land.png",
+   "bytes": 1316014,
+   "use": "Vendor tiles land inside the panel, each a rounded square with a label under it, spaced evenly on a dotted grid.",
+   "steal": "Tiles are evidence: real product marks in their own colours, one label each, equal size. No badges, no borders, no glow.",
+   "tags": "design,layout,motion",
+   "video": "https://youtu.be/yMnFHFf43Qg"
+  },
+  {
+   "file": "54-grid-completes.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/54-grid-completes.png",
+   "bytes": 1883525,
+   "use": "The panel fills to five tiles; the composition does not change, only the count.",
+   "steal": "Keep the frame and change one number. Every added tile is a beat, and the viewer reads growth with no voice-over needed.",
+   "tags": "design,layout,motion",
+   "video": "https://youtu.be/yMnFHFf43Qg"
+  },
+  {
+   "file": "55-reference-card-arrives.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/55-reference-card-arrives.png",
+   "bytes": 4433772,
+   "use": "A rounded card flies in over the panel's top-right corner — orange label MY EARLIER VIDEO, a still from that video, and its title.",
+   "steal": "Cross-reference without leaving the frame: a small card carries the older video, labelled in the accent so it is read as a pointer, not a graphic.",
+   "tags": "design,layout,motion",
+   "video": "https://youtu.be/yMnFHFf43Qg"
+  },
+  {
+   "file": "56-tweet-plus-diagram.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/56-tweet-plus-diagram.png",
+   "bytes": 4826164,
+   "use": "A real post on a black card with orange highlight bars behind the key sentences; on the right, squiggle bars routing along dotted lines to a bolt icon and a brain icon.",
+   "steal": "Quote with a highlighter, then draw the mechanism beside it. The post carries the authority, the diagram carries the explanation, and each is useless alone.",
+   "tags": "design,layout,motion",
+   "video": "https://youtu.be/yMnFHFf43Qg"
+  },
+  {
+   "file": "57-skeuomorphic-dial.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/57-skeuomorphic-dial.png",
+   "bytes": 3413664,
+   "use": "Developer mode drawn as a machined panel: serif title, a metal dial ringed with orange LEDs labelled EFFORT low-to-max, a row of model tiles with one lit, tiny screws and a halftone grid.",
+   "steal": "One physical object explains a settings screen better than the settings screen. Screws, LEDs and a serif title cost nothing and read as craft.",
+   "tags": "design,layout,motion",
+   "video": "https://youtu.be/yMnFHFf43Qg"
   }
  ]
 }

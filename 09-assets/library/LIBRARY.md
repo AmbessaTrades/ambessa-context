@@ -132,3 +132,22 @@ What this batch adds, beyond the earlier devices:
 7. **Light artefact on dark ground.** A white UI on black frames itself; the presenter shrinks to a thumbnail.
 8. **Checked title.** A serif noun plus one solid green tick reads as shipped; one coloured bar proves a chart.
 9. **Mascot roster.** Agents as coloured blobs with two eyes become the navigation; a named pill marks the row that was touched.
+
+
+### Fourth batch — the frame inside the frame
+
+| `48-footage-plate.png` | Real jungle footage reduced to a centred plate with blurred edges, the presenter cut out bottom-left and overlapping the plate's border. | The plate is a frame inside the frame, and the subject crossing its edge is what makes it feel shot rather than assembled. Blur does the letterboxing for free. |
+| `49-plate-full-bleed.png` | The same composition with the footage filling the frame: tiger in the trees, presenter small in the corner. | When the footage earns it, let it run full bleed and keep the presenter small. One size of subject per beat, never two heroes. |
+| `50-honest-room-shot.png` | Jay in his own room, full frame, window light, wallpaper and a picture behind him, hands in shot. No graphic at all. | The reset again: after a run of designed frames, one unadorned room shot buys back trust. Cheapest frame in the film and the one people remember. |
+| `51-arc-source-icon.png` | A single product mark on the black field with a dotted orange arc curving away from it and ending in a filled dot. | An arrow without an arrowhead: dotted curve, filled circle at the head. It reads as motion even frozen, which is why it survives as a still. |
+| `52-container-before-content.png` | The panel arrives as an empty rounded outline with one film glyph and a title; nothing inside it yet. | Draw the container before the contents. Half a second of empty frame tells the viewer where to look, so nothing has to be announced. |
+| `53-tiles-land.png` | Vendor tiles land inside the panel, each a rounded square with a label under it, spaced evenly on a dotted grid. | Tiles are evidence: real product marks in their own colours, one label each, equal size. No badges, no borders, no glow. |
+| `54-grid-completes.png` | The panel fills to five tiles; the composition does not change, only the count. | Keep the frame and change one number. Every added tile is a beat, and the viewer reads growth with no voice-over needed. |
+| `55-reference-card-arrives.png` | A rounded card flies in over the panel's top-right corner — orange label MY EARLIER VIDEO, a still from that video, and its title. | Cross-reference without leaving the frame: a small card carries the older video, labelled in the accent so it is read as a pointer, not a graphic. |
+| `56-tweet-plus-diagram.png` | A real post on a black card with orange highlight bars behind the key sentences; on the right, squiggle bars routing along dotted lines to a bolt icon and a brain icon. | Quote with a highlighter, then draw the mechanism beside it. The post carries the authority, the diagram carries the explanation, and each is useless alone. |
+| `57-skeuomorphic-dial.png` | Developer mode drawn as a machined panel: serif title, a metal dial ringed with orange LEDs labelled EFFORT low-to-max, a row of model tiles with one lit, tiny screws and a halftone grid. | One physical object explains a settings screen better than the settings screen. Screws, LEDs and a serif title cost nothing and read as craft. |
+
+The two devices this batch settles:
+
+1. **The plate.** Real footage reduced to a centred rectangle with blurred edges, the presenter cut out and overlapping its border. The overlap is what makes it look shot rather than assembled.
+2. **Build-up as documentation.** Five consecutive frames of one composition — arc and source mark, empty container, then tiles landing one beat at a time — prove that motion can be specified in stills. That is how the timeline editor should be briefed: as a sequence with a fixed frame and a changing count, not as a description of an animation.
