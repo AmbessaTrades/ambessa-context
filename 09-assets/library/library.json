@@ -1,5 +1,5 @@
 {
- "count": 14,
+ "count": 15,
  "raw_base": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/",
  "items": [
   {
@@ -99,6 +99,13 @@
    "bytes": 367081,
    "use": "private vs confidential made visible, six-step flow",
    "tags": "product,deal-room"
+  },
+  {
+   "file": "15-nord-dedicated-ip-plans.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/15-nord-dedicated-ip-plans.png",
+   "bytes": 510725,
+   "use": "dedicated IP pricing: $4.19/mo on 2 years, $5.89 on 1 year, $8.99 monthly",
+   "tags": "infra,network,cost"
   }
  ]
 }

@@ -46,6 +46,12 @@ Machine index: `library.json` in this folder.
 |---|---|---|
 | `07-boldness-to-brains-ratio.png` | A two-axis chart mapping founders by boldness and brains. | The axis idea, not the joke: two variables, four quadrants, one honest placing. Use for any "where do we sit" argument. |
 
+## Infrastructure
+
+| File | What it is | What to steal |
+|---|---|---|
+| `15-nord-dedicated-ip-plans.png` | Nord's dedicated-IP checkout: $4.19/mo on two years, $5.89 on one, $8.99 monthly. | The price anchor for a stable Canadian address. It is the zero-setup option; a small VPS with WireGuard is the cheaper durable one. |
+
 ## Brand assets
 
 The portrait lives one level up, at `09-assets/ambessa-saul-profile.png`. Use it, never a
