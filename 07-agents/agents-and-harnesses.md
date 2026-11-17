@@ -8,6 +8,21 @@ Identity and execution surface are separate from shared project knowledge.
 
 All harnesses should enter through the same context map and append to the same durable topics. Their SOUL, AGENTS and CLAUDE files carry a small pointer and behavior contract. This does not make inactive agents active or prove automatic compliance; reading receipts and actual append records provide the evidence. Future harnesses use the adapter guide instead of copying a second memory truth.
 
+## The stack, settled — current
+
+Two harnesses and two model families, and no more switching between them.
+
+- **Harnesses:** T3 (Claude Code, always on the plan) and Hermes.
+- **Models:** DeepSeek and Anthropic only. DeepSeek is the workhorse — `deepseek-flash`, reasoning medium.
+- **No OpenAI** for coding, journals or agent work. The single exception is images: GPT Image 2.6 inside Genspark, picture-making only.
+- **Claude Code never sees an API key.** The shell wrapper strips `ANTHROPIC_API_KEY` before the CLI runs, so every call bills to the plan rather than to credits.
+- **The journals are the backbone.** Daily at 00:05 for the day that closed, weekly on Wednesday 00:15, both on DeepSeek Flash at medium thinking through Hermes, both scheduled in Hermes cron rather than launchd so a disabled agent cannot silently stop the record. A missing journal is repaired at full depth.
+- **Only three things start at login:** CopyClip, Hex and Memoir. Memoir's server on port 3001 is what keeps the vault live-syncing. The rest of the AUH services are stopped and disabled, not deleted.
+- **Hex** is the dictation lane: 145 vocabulary terms and 54 replacements mined from 457 real dictations, vocabulary biasing on, AI rewrite off on purpose.
+- **One brief.** `MASTER-BRIEF.md` is the only version: 28 parts, Parts 1–9 discovery, 10–21 operating manual, 22–27 late additions, 28 the human-operator context.
+
+The older table below records which pointer file each harness reads. It is history; the stack above is current.
+
 ## The startup path into Memoir
 
 Mungura, Tehuti and Sia describe the agent identity. Codex, Claude Code and Hermes describe the harness carrying that identity. Their startup files keep a small routing contract; the growing project knowledge stays in one shared vault. Mentioning Memoir, /memoir or $memoir triggers retrieval of the full current task, with the stable debate-agent topic identifying this same application and its history.
@@ -461,19 +476,4 @@ Blacksite 2026-10-19: Ambi reviews the farmer video in the Timeline — laws 0a�
 
 Blacksite learns by itself: in-app Review, lessons ledger, law gates, nightly job
 - Harness: Claude Code (claude-opus-5-5)
-- What happened: Lane L (law 0i, for perpetuity). Built: (1) plan/research/perpetuity-audit.md, which sorts every fix into permanent or one-off and gives each one-off its general rule. (2) Law gates 0–0h plus learned rules in app/tools/law-gates.mjs, served at GET /api/agent/check and added to check-video.mjs. (3) A Timeline REVIEW tab and POST /api/agent/review: shows a token estimate, Haiku readers look at frame sheets, pins post as critic, the fixer rewrites and voices line pins, code pins stay open with an owner. (4) A lessons ledger at research/syntheses/lessons.json, seeded with 16 lessons from the laws and Ambi's pins, read by the writer, the scene agent, scenes-auto and the gates, with a Brain Lessons chip that has undo. (5) launchd com.auh.blacksite-learn runs at 03:30 under a hard budget and writes a morning summary. (6) Every new clip now gets its meta, OCR text boxes and moments at intake (intake.mjs).
-- Files changed: app/server/lessons.mjs; app/server/review.mjs; app/server/intake.mjs; app/server/learn-job.mjs; app/tools/law-gates.mjs; app/tools/review-snap.mjs; app/tools/review_sheets.py; app/tools/clip_text.py; app/src/edit/ReviewPanel.tsx; app/src/ui/Lessons.tsx; app/src/ui/learn.css; research/syntheses/lessons.json; research/toolkit/learn_job.sh; research/toolkit/seed_lessons.mjs; plan/research/perpetuity-audit.md
-- Verification: In the real app on :3041: Review on ep-ariel-1994 gave 36 findings, posted 19 pins and fixed 3 lines ($0.009), using 65k tokens against a 61k estimate. Pins were seen in PINS. A lesson was added and undone in the Brain panel. The nightly job was installed and run by hand (exit 0), and its summary shows in the Brain. Typecheck is clean.
-- Status: complete — not committed; director.ts untouched (showrunner asked to read the director params)
-
-[[90 Sources/932c26552a808205023eac26|Full day log · 2026-10-19]]
-
-<!-- event:f03c9187b115c0e24b535468c0b1acb053deda0f9e32b5d7b0fb87b60f724a79 -->
-## 2026-10-19T11:08:20+03:00 · TEHUTI
-
-**Logged observation · verify against the linked source before treating as current state.**
-
-Blacksite learns by itself: in-app review, lessons ledger, law gates, nightly job (law 0i)
-- Harness: Claude Code (claude-opus-5-5)
-- What happened: Ambi: everything must hold for every future video and work from Blacksite and Wedjat themselves (law 0i).
-- Built a "Review t
+- What happened: Lane L (law 0i, for perpetuity). Built: (1) plan/research/perpetuity-audit.md, which sorts every fix into permanent or one-off and gives each one-off its general rule. (2) Law gates 0–0h plus learned rules in app/tools/law-gates.mjs, served at GET /api/agent/check and added to check-video.mjs. (3) A Timeline REVIEW tab and POST /api/agent/review: shows a token estimate, Haiku readers look at frame sheets, pins post as critic, the fixer rewrites and voices line pins, code pins stay open with an owner. (4) A lessons ledger at research/syntheses/lessons.json, seeded with 16 lessons from the laws and Ambi's pins, read by the writer, the scene agent, scenes-auto and the gates, with a Brain Lessons chip that has undo. (5) launchd com.auh.blacksite-learn runs at 03:30 under a hard budget and writes a morning summary. (6)
