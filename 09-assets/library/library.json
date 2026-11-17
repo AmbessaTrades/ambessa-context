@@ -1,5 +1,5 @@
 {
- "count": 57,
+ "count": 69,
  "raw_base": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/",
  "items": [
   {
@@ -492,6 +492,106 @@
    "steal": "One physical object explains a settings screen better than the settings screen. Screws, LEDs and a serif title cost nothing and read as craft.",
    "tags": "design,layout,motion",
    "video": "https://youtu.be/yMnFHFf43Qg"
+  },
+  {
+   "file": "58-anton-thumbnail-grid-1.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/58-anton-thumbnail-grid-1.png",
+   "bytes": 1878623,
+   "use": "Twelve recent thumbnails of one channel: the same man, the same orange tee, the same neutral expression — a different science image and a different three-word phrase each time.",
+   "steal": "Repeatable packaging: the face and the shirt never change, so only the headline and the object are invented per video. That is a system, not a style.",
+   "tags": "system",
+   "video": "https://www.youtube.com/@whatdamath"
+  },
+  {
+   "file": "59-anton-thumbnail-grid-2.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/59-anton-thumbnail-grid-2.png",
+   "bytes": 3270233,
+   "use": "The same grid continued: identical pose, identical crop, new phrase, new object.",
+   "steal": "Count the words — never more than four, always heavy condensed caps with a hard shadow. The phrase names the surprise; the image carries the proof.",
+   "tags": "system",
+   "video": "https://www.youtube.com/@whatdamath"
+  },
+  {
+   "file": "60-anton-a-shot.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/60-anton-a-shot.png",
+   "bytes": 903495,
+   "use": "Anton cut out in the same waist-up pose as every episode, with the episode's subject photo — the Chernobyl plant — behind him.",
+   "steal": "The background is the episode, not the room. One lighting setup, one camera, one shirt; the subject swaps the plate behind him.",
+   "tags": "system",
+   "video": "https://www.youtube.com/watch?v=mtPYKd1kX4I"
+  },
+  {
+   "file": "61-anton-aerial.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/61-anton-aerial.png",
+   "bytes": 1231227,
+   "use": "A full-frame aerial of the exclusion zone, forest regrowing around the reactor.",
+   "steal": "When the place is the story, the place fills the frame and he disappears entirely rather than sitting in a corner.",
+   "tags": "system"
+  },
+  {
+   "file": "62-anton-microscopy.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/62-anton-microscopy.png",
+   "bytes": 1144459,
+   "use": "A microscopy plate of nematodes, full frame, unannotated.",
+   "steal": "Figures stay whole: no boxes, no arrows, no zoom unless the paper needed one.",
+   "tags": "system"
+  },
+  {
+   "file": "63-anton-paper.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/63-anton-paper.png",
+   "bytes": 1146917,
+   "use": "A published paper as a page — journal masthead, title, authors, abstract — legible at frame size.",
+   "steal": "Show the source as a source. The masthead is the credibility, so it is never cropped off.",
+   "tags": "system"
+  },
+  {
+   "file": "64-anton-body-diagram.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/64-anton-body-diagram.png",
+   "bytes": 440873,
+   "use": "A dark anatomical diagram of the calf and venous valves glowing red on near-black.",
+   "steal": "One diagram, one idea, dark ground. Accent lives inside the diagram, not on top of it.",
+   "tags": "system"
+  },
+  {
+   "file": "65-anton-wolf-bg.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/65-anton-wolf-bg.png",
+   "bytes": 1097104,
+   "use": "Anton in the same pose with a wolf standing behind him in snow.",
+   "steal": "The plate can be alive — a subject photo with depth beats a flat colour and costs one image search.",
+   "tags": "system"
+  },
+  {
+   "file": "66-primetv-a-shot.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/66-primetv-a-shot.png",
+   "bytes": 482171,
+   "use": "The PrimeTime cut out against a flat blue gradient with a wireframe mark; grey tee, headphones, mic. No room in any of the 54 frames sampled.",
+   "steal": "A permanent set built once. The whole video is made by swapping what appears beside him.",
+   "tags": "system",
+   "video": "https://www.youtube.com/watch?v=WXh4LF3zJ1Q"
+  },
+  {
+   "file": "67-primetv-artefact.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/67-primetv-artefact.png",
+   "bytes": 319635,
+   "use": "A social post fills the frame; he shrinks to a small inset in the corner, still cut out.",
+   "steal": "The artefact takes the frame and the presenter becomes a thumbnail. Never two equal subjects side by side.",
+   "tags": "system"
+  },
+  {
+   "file": "68-primetv-formula.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/68-primetv-formula.png",
+   "bytes": 220928,
+   "use": "A mathematical statement set large on a dark card, him small in the corner.",
+   "steal": "Set the proof as type rather than a screenshot of a PDF.",
+   "tags": "system"
+  },
+  {
+   "file": "69-primetv-article.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/69-primetv-article.png",
+   "bytes": 493450,
+   "use": "An article page at readable size with him inset — the source is the picture.",
+   "steal": "Cite on screen, not in the description: the viewer sees the page they would have had to find.",
+   "tags": "system"
   }
  ]
 }
