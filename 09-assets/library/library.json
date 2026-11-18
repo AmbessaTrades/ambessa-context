@@ -1,5 +1,5 @@
 {
- "count": 71,
+ "count": 86,
  "raw_base": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/",
  "items": [
   {
@@ -608,6 +608,126 @@
    "use": "A grey anatomical plate with soleus and gastrocnemius lettered and arrowed, white ground, red labels.",
    "steal": "When a diagram must be annotated, annotate the source image rather than redrawing it — the letters are the argument.",
    "tags": "system"
+  },
+  {
+   "file": "72-nomad-apply-step-1-personal.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/72-nomad-apply-step-1-personal.png",
+   "bytes": 46344,
+   "use": "Nomad Capitalist application, step 1 of 5 — Personal Information: title, name, email, phone, contact preference (Email / Phone Call / WhatsApp) and time zone.",
+   "steal": "Seven fields before a single question about money. The form is an intake, not a brochure.",
+   "tags": "offer,funnel"
+  },
+  {
+   "file": "73-nomad-apply-step-2-eligibility.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/73-nomad-apply-step-2-eligibility.png",
+   "bytes": 34820,
+   "use": "Step 2 of 5 — Eligibility: nationality, country of residence, age band, criminal record.",
+   "steal": "A lawyer's questions, asked before a human is involved: eligibility first, intent later.",
+   "tags": "offer,funnel"
+  },
+  {
+   "file": "74-nomad-apply-step-3-goals-financial.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/74-nomad-apply-step-3-goals-financial.png",
+   "bytes": 87730,
+   "use": "Step 3 of 5 — Goals & Financial: goal, statement, interests, structure and complexity, then the gate — income US$500K+ / net worth US$1M+ / both / neither — then a net-worth band to US$30M+.",
+   "steal": "It never asks a price. It asks a band and a structure, and that is what lets them price the deal.",
+   "tags": "offer,funnel"
+  },
+  {
+   "file": "75-nomad-apply-step-4-readiness.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/75-nomad-apply-step-4-readiness.png",
+   "bytes": 55453,
+   "use": "Step 4 of 5 — Planning & Readiness: how long they have been thinking about it, what stopped them, which advisory stage they are at.",
+   "steal": "The sales script is written by the applicant before anyone speaks.",
+   "tags": "offer,funnel"
+  },
+  {
+   "file": "76-nomad-apply-step-5-confirmation.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/76-nomad-apply-step-5-confirmation.png",
+   "bytes": 187082,
+   "use": "Step 5 of 5 — Confirmation: 'I'm ready to proceed / later / do not wish', referral code, accuracy confirmation. Walking it for research, nothing was submitted.",
+   "steal": "A self-declared buying signal logged before the call, plus a referral-code field that quietly measures word of mouth.",
+   "tags": "offer,funnel"
+  },
+  {
+   "file": "77-nomad-home-hero.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/77-nomad-home-hero.png",
+   "bytes": 922784,
+   "use": "Home page hero — 'Go Where You Are Treated Best', one action in the header.",
+   "steal": "One promise, one button, no feature list.",
+   "tags": "offer,funnel"
+  },
+  {
+   "file": "78-nomad-holistic-plan-process.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/78-nomad-holistic-plan-process.png",
+   "bytes": 155261,
+   "use": "Holistic Plan — the process: application (6–7 min), intro call (45 min), plan creation (8–12 weeks), presentation (2 hours), implementation.",
+   "steal": "The eight-week gap is the product; the two-hour presentation is a handover, not a pitch.",
+   "tags": "offer,funnel"
+  },
+  {
+   "file": "79-nomad-research-indexes.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/79-nomad-research-indexes.png",
+   "bytes": 303561,
+   "use": "Research hub — six proprietary indexes, each with EXPLORE NOW.",
+   "steal": "Free tools, not posts: each index ranks, proves expertise and gives a reason to return. The blueprint for the Ledger.",
+   "tags": "offer,funnel"
+  },
+  {
+   "file": "80-nomad-live-cancun-hero.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/80-nomad-live-cancun-hero.png",
+   "bytes": 867080,
+   "use": "Nomad Capitalist Live: Cancun — the event.",
+   "steal": "The second product: monetises the audience that is not ready for US$28,000 and builds the network that makes it credible.",
+   "tags": "offer,funnel"
+  },
+  {
+   "file": "81-govclose-field-guide-tree.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/81-govclose-field-guide-tree.png",
+   "bytes": 398196,
+   "use": "GovClose field guide — Tree Maintenance: market size with the proxy named, top three customers, map, four steps.",
+   "steal": "The atom to copy: number, customers, map, steps, and footnotes that confess what is estimated.",
+   "tags": "proof,offer"
+  },
+  {
+   "file": "82-govclose-agencies-offers-table.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/82-govclose-agencies-offers-table.png",
+   "bytes": 703644,
+   "use": "Top five agencies by obligations with offers received — Defense $132.41M at 1.80 offers (5/8 reported), HHS 1.86, Commerce 7.33.",
+   "steal": "The denominator printed beside the money is what makes the claim checkable.",
+   "tags": "proof,offer"
+  },
+  {
+   "file": "83-govclose-setaside-table.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/83-govclose-setaside-table.png",
+   "bytes": 563307,
+   "use": "Set-asides against full and open: 47 full and open, 10 small-business set-aside, 2 8(a), 1 SDVOSB.",
+   "steal": "Certification is not the door — most small-business money was won without one.",
+   "tags": "proof,offer"
+  },
+  {
+   "file": "84-govclose-average-vs-median.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/84-govclose-average-vs-median.png",
+   "bytes": 252544,
+   "use": "Average against median: $3.76M average, $642.7K median.",
+   "steal": "The headline is a whale; the business is the median.",
+   "tags": "proof,offer"
+  },
+  {
+   "file": "85-govclose-laundry-spend-chart.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/85-govclose-laundry-spend-chart.png",
+   "bytes": 430671,
+   "use": "Laundry and dry cleaning spend by fiscal year — a boring service with real money.",
+   "steal": "Boring categories have thin competition, which is exactly where a small firm can win.",
+   "tags": "proof,offer"
+  },
+  {
+   "file": "86-govclose-pipeline-roadmap.png",
+   "raw_url": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/86-govclose-pipeline-roadmap.png",
+   "bytes": 404324,
+   "use": "Roadmap → pipeline → output: the only diagram he uses.",
+   "steal": "One diagram, three words per box — the whole method in a single frame.",
+   "tags": "proof,offer"
   }
  ]
 }

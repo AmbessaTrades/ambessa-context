@@ -13,7 +13,7 @@
  "files": [
   {
    "path": "00-READ-FIRST.md",
-   "bytes": 3775
+   "bytes": 4284
   },
   {
    "path": "01-context.txt",
@@ -53,7 +53,7 @@
   },
   {
    "path": "02-goals/mission.md",
-   "bytes": 31541
+   "bytes": 31815
   },
   {
    "path": "02-goals/money.md",
@@ -124,6 +124,10 @@
    "bytes": 2387
   },
   {
+   "path": "06-playbook/govcon-and-high-ticket.md",
+   "bytes": 8201
+  },
+  {
    "path": "06-playbook/search.md",
    "bytes": 6148
   },
@@ -141,7 +145,7 @@
   },
   {
    "path": "08-journal/recent.md",
-   "bytes": 136348
+   "bytes": 138296
   },
   {
    "path": "08-journal/summaries.md",
@@ -444,16 +448,76 @@
    "bytes": 1112338
   },
   {
+   "path": "09-assets/library/72-nomad-apply-step-1-personal.png",
+   "bytes": 46344
+  },
+  {
+   "path": "09-assets/library/73-nomad-apply-step-2-eligibility.png",
+   "bytes": 34820
+  },
+  {
+   "path": "09-assets/library/74-nomad-apply-step-3-goals-financial.png",
+   "bytes": 87730
+  },
+  {
+   "path": "09-assets/library/75-nomad-apply-step-4-readiness.png",
+   "bytes": 55453
+  },
+  {
+   "path": "09-assets/library/76-nomad-apply-step-5-confirmation.png",
+   "bytes": 187082
+  },
+  {
+   "path": "09-assets/library/77-nomad-home-hero.png",
+   "bytes": 922784
+  },
+  {
+   "path": "09-assets/library/78-nomad-holistic-plan-process.png",
+   "bytes": 155261
+  },
+  {
+   "path": "09-assets/library/79-nomad-research-indexes.png",
+   "bytes": 303561
+  },
+  {
+   "path": "09-assets/library/80-nomad-live-cancun-hero.png",
+   "bytes": 867080
+  },
+  {
+   "path": "09-assets/library/81-govclose-field-guide-tree.png",
+   "bytes": 398196
+  },
+  {
+   "path": "09-assets/library/82-govclose-agencies-offers-table.png",
+   "bytes": 703644
+  },
+  {
+   "path": "09-assets/library/83-govclose-setaside-table.png",
+   "bytes": 563307
+  },
+  {
+   "path": "09-assets/library/84-govclose-average-vs-median.png",
+   "bytes": 252544
+  },
+  {
+   "path": "09-assets/library/85-govclose-laundry-spend-chart.png",
+   "bytes": 430671
+  },
+  {
+   "path": "09-assets/library/86-govclose-pipeline-roadmap.png",
+   "bytes": 404324
+  },
+  {
    "path": "09-assets/library/GALLERY.html",
-   "bytes": 37211
+   "bytes": 42218
   },
   {
    "path": "09-assets/library/LIBRARY.md",
-   "bytes": 24205
+   "bytes": 28019
   },
   {
    "path": "09-assets/library/library.json",
-   "bytes": 35743
+   "bytes": 42695
   },
   {
    "path": "09-assets/manifest.json",

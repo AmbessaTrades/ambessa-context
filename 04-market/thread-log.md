@@ -135,21 +135,21 @@ Updated automatically by Memoir’s existing five-minute maintenance pass. Sourc
 
 ### Recent recorded work
 
-- [[source:672dc307478422e17693bd1c|2026-11-08 22:05 EAT — MUNGURA — Afribbean dropped; IQ long-form channel + own IQ app scoped]]
-- [[source:672dc307478422e17693bd1c|2026-11-08 14:29 EAT — MUNGURA — Afribbean: offer defined, $171M path drafted, website fake-case-study draft deleted]]
-- [[source:672dc307478422e17693bd1c|2026-11-08 14:11 EAT — MUNGURA — Afribbean: plan rebuilt as a five-question ledger so new inputs stop rewriting it]]
-- [[source:672dc307478422e17693bd1c|2026-11-08 13:49 EAT — MUNGURA — Afribbean pivot to an AI front desk for missed-call businesses; grill round A saved]]
-- [[source:672dc307478422e17693bd1c|2026-11-08 13:43 EAT — MUNGURA — Afribbean is its own Memoir project: every nuance from today saved]]
-- [[source:672dc307478422e17693bd1c|2026-11-08 13:15 EAT — MUNGURA — Afribbean strategy: 5-agent fact check done, AI debt-recovery lead engine emerging, 5 questions open]]
-- [[source:672dc307478422e17693bd1c|2026-11-08 13:09 EAT — MUNGURA — Afribbean: 5-agent research done, decision board built, grill round 3 open]]
-- [[source:672dc307478422e17693bd1c|2026-11-08 12:41 EAT — MUNGURA — Afribbean: sources read, first 30-day client plan written (private)]]
-- [[source:672dc307478422e17693bd1c|2026-11-08 11:07 EAT — MUNGURA — New big idea: Afribbean / Caribica — Africa–Caribbean trade + AI upgrade company]]
+- [[90 Sources/672dc307478422e17693bd1c|2026-11-08 22:05 EAT — MUNGURA — Afribbean dropped; IQ long-form channel + own IQ app scoped]]
+- [[90 Sources/672dc307478422e17693bd1c|2026-11-08 14:29 EAT — MUNGURA — Afribbean: offer defined, $171M path drafted, website fake-case-study draft deleted]]
+- [[90 Sources/672dc307478422e17693bd1c|2026-11-08 14:11 EAT — MUNGURA — Afribbean: plan rebuilt as a five-question ledger so new inputs stop rewriting it]]
+- [[90 Sources/672dc307478422e17693bd1c|2026-11-08 13:49 EAT — MUNGURA — Afribbean pivot to an AI front desk for missed-call businesses; grill round A saved]]
+- [[90 Sources/672dc307478422e17693bd1c|2026-11-08 13:43 EAT — MUNGURA — Afribbean is its own Memoir project: every nuance from today saved]]
+- [[90 Sources/672dc307478422e17693bd1c|2026-11-08 13:15 EAT — MUNGURA — Afribbean strategy: 5-agent fact check done, AI debt-recovery lead engine emerging, 5 questions open]]
+- [[90 Sources/672dc307478422e17693bd1c|2026-11-08 13:09 EAT — MUNGURA — Afribbean: 5-agent research done, decision board built, grill round 3 open]]
+- [[90 Sources/672dc307478422e17693bd1c|2026-11-08 12:41 EAT — MUNGURA — Afribbean: sources read, first 30-day client plan written (private)]]
+- [[90 Sources/672dc307478422e17693bd1c|2026-11-08 11:07 EAT — MUNGURA — New big idea: Afribbean / Caribica — Africa–Caribbean trade + AI upgrade company]]
 
 ### Source documents and components
 
-- [[source:6fa87c8d66ade83a48b265f3|README.md]] — 2026-11-08 · `8a1b48fae9`
-- [[source:1c5f16e7963c970c837db9f7|GRILL.md]] — 2026-11-08 · `ddd39a7bad`
-- [[source:2c55168741530c1f62967dc5|PLAN.md]] — 2026-11-08 · `4f1afd37f2`
+- [[90 Sources/6fa87c8d66ade83a48b265f3|README.md]] — 2026-11-08 · `8a1b48fae9`
+- [[90 Sources/1c5f16e7963c970c837db9f7|GRILL.md]] — 2026-11-08 · `ddd39a7bad`
+- [[90 Sources/2c55168741530c1f62967dc5|PLAN.md]] — 2026-11-08 · `4f1afd37f2`
 <!-- memoir-project-index:end -->
 
 ## Changes and nuance
@@ -393,4 +393,4 @@ Directory index for the next agent, all under /Users/Mungura/AUH/AMBESSA/intel/:
 - build_page.py, schema.sql - page build and database shape
 - BRIEF.md - the five walls (payments, trade finance, logistics, state behaviour, the unpublished gate)
 - APPENDIX-16NOV.md - the market answers (East Africa, China, India, settlement, contracts)
-- REVERSE-ENGINEER.md - what small startups charge a
+- RE

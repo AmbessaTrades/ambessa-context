@@ -1611,3 +1611,29 @@ Daily journal generated for 2026-11-17; status=success; db_length=46398; source_
 **Status open.** No transcript taken, deliberately. The drill protocol is a proposal; the first session has not run. Whether the lexicon is read automatically by the copy lane or consulted by hand is undecided.
 
 **Related.** Brief `.bak-part29`; Part 3.7, 3.11, 3.14, 5.6, 25.2, 27.3; X post ids 2122750358493728998, 2122915595897221548, 2122767295630213543, 2118479933530063135, 2105231982309564765.
+
+## 2026-11-18 12:53 EAT — MUNGURA — Naming opened: four Hex terms added, Studio restarted, first round rejected
+
+**Changed.** Added `Alfajiri`, `Medu Neter`, `Neter`, `Netarianism` to Hex through its own CLI (149 vocabulary terms, replacements 54 → 68) and started Studio AUH on `127.0.0.1:3030` (pid 14944). Read the Bible, `library.sqlite` and `studio.db`: 25 beings (5 Kemet, 8 south, 12 snow), and the IP tree's three terms — Kemet, The Two Lands, Working, "any use of power put into words, sound, number or shape".
+
+**Why verdict.** He asked for world-building inspiration, not a product name yet. The IP tree already contains a doctrine: every working has a price.
+
+**Status open.** Naming unresolved. First round (Per Ankh, Tehuti, Pramana, Nyaya, Terma) rejected or killed on ownership.
+
+**Related.** `~/AUH/Studio/STUDIO-AUH-BIBLE.md`; `studio.db` ip_terms; Hex pid 3920.
+
+## 2026-11-18 12:58 EAT — MUNGURA — Terma killed as a defence contractor; Zama and Cannae killed as endings
+
+**Changed.** Verified Terma A/S: Danish aerospace, defence and security, founded 1949, Lystrup, owned by the Thomas B. Thrige Foundation, ~2,600 staff. Proposed Terton, Zama, Cannae instead.
+
+**Why verdict.** He objected on principle, not taste: Zama is an existing Kenyan software company, and both battles end the general rather than crown him — "why would the end of one of our great sovereign emperors represent his last battle".
+
+**Status open.** No name. The rule "the record ends empires, not the battle" enters the working set.
+
+**Related.** `terma.com`; war maps in `~/AUH/STUDY/warmaps-*` (Cannae 53 mentions, Zama, Thermopylae).
+
+## 2026-11-18 13:05 EAT — MUNGURA — Six unifications, three grades of certainty, Yaqin and Tawy raised
+
+**Changed.** Kemet unified six times (Narmer, Mentuhotep II, Ahmose I, Piye, Psamtik I, Ptolemaic consolidation), five of them res
+
+_[truncated in this pack; full day log stays on the machine]

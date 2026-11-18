@@ -73,3 +73,11 @@ funnel. None of these are open questions; they have been decided against.
 Return the artifact, not a description of it. If the answer is a table, give the table. If the
 answer is a question, give the question and your recommended answer. If the answer is a plan,
 give the first step and the thing that would prove it wrong.
+
+## If the task touches public money or a high-ticket offer
+
+Read `06-playbook/govcon-and-high-ticket.md` first. It holds the two operators we studied (a former
+US Air Force acquisitions officer, and a boutique firm selling a US$28,000 plan), the exact five-step
+application they use, the Ledger model we built from them, the Caribbean procurement facts for
+Jamaica, Trinidad and Guyana, and the three business shapes that are still open. None of it is a
+decision; the shapes are hypotheses and Ambi decides.

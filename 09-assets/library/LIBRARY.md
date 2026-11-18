@@ -171,3 +171,26 @@ The two devices this batch settles:
 | `69-primetv-article.png` | An article page at readable size with him inset — the source is the picture. | Cite on screen, not in the description: the viewer sees the page they would have had to find. |
 | `70-anton-prop.png` | Same pose, same tee, a tablet with a blue screen held at chest height, heart imagery behind him. | The prop. A tablet or a folded paper gives the hands a job and makes a static shot read as work rather than a pose. |
 | `71-anton-diagram-annotated.png` | A grey anatomical plate with soleus and gastrocnemius lettered and arrowed, white ground, red labels. | When a diagram must be annotated, annotate the source image rather than redrawing it — the letters are the argument. |
+
+## Nomad Capitalist and GovClose
+
+The Nomad Capitalist application walked step by step with mock data and never submitted, plus GovClose's field-guide
+format and proof tables.
+
+| File | What it is | What to steal |
+|---|---|---|
+| `72-nomad-apply-step-1-personal.png` | Nomad Capitalist application, step 1 of 5 — Personal Information: title, name, email, phone, contact preference (Email / Phone Call / WhatsApp) and time zone. | Seven fields before a single question about money. The form is an intake, not a brochure. |
+| `73-nomad-apply-step-2-eligibility.png` | Step 2 of 5 — Eligibility: nationality, country of residence, age band, criminal record. | A lawyer's questions, asked before a human is involved: eligibility first, intent later. |
+| `74-nomad-apply-step-3-goals-financial.png` | Step 3 of 5 — Goals & Financial: goal, statement, interests, structure and complexity, then the gate — income US$500K+ / net worth US$1M+ / both / neither — then a net-worth band to US$30M+. | It never asks a price. It asks a band and a structure, and that is what lets them price the deal. |
+| `75-nomad-apply-step-4-readiness.png` | Step 4 of 5 — Planning & Readiness: how long they have been thinking about it, what stopped them, which advisory stage they are at. | The sales script is written by the applicant before anyone speaks. |
+| `76-nomad-apply-step-5-confirmation.png` | Step 5 of 5 — Confirmation: 'I'm ready to proceed / later / do not wish', referral code, accuracy confirmation. Walking it for research, nothing was submitted. | A self-declared buying signal logged before the call, plus a referral-code field that quietly measures word of mouth. |
+| `77-nomad-home-hero.png` | Home page hero — 'Go Where You Are Treated Best', one action in the header. | One promise, one button, no feature list. |
+| `78-nomad-holistic-plan-process.png` | Holistic Plan — the process: application (6–7 min), intro call (45 min), plan creation (8–12 weeks), presentation (2 hours), implementation. | The eight-week gap is the product; the two-hour presentation is a handover, not a pitch. |
+| `79-nomad-research-indexes.png` | Research hub — six proprietary indexes, each with EXPLORE NOW. | Free tools, not posts: each index ranks, proves expertise and gives a reason to return. The blueprint for the Ledger. |
+| `80-nomad-live-cancun-hero.png` | Nomad Capitalist Live: Cancun — the event. | The second product: monetises the audience that is not ready for US$28,000 and builds the network that makes it credible. |
+| `81-govclose-field-guide-tree.png` | GovClose field guide — Tree Maintenance: market size with the proxy named, top three customers, map, four steps. | The atom to copy: number, customers, map, steps, and footnotes that confess what is estimated. |
+| `82-govclose-agencies-offers-table.png` | Top five agencies by obligations with offers received — Defense $132.41M at 1.80 offers (5/8 reported), HHS 1.86, Commerce 7.33. | The denominator printed beside the money is what makes the claim checkable. |
+| `83-govclose-setaside-table.png` | Set-asides against full and open: 47 full and open, 10 small-business set-aside, 2 8(a), 1 SDVOSB. | Certification is not the door — most small-business money was won without one. |
+| `84-govclose-average-vs-median.png` | Average against median: $3.76M average, $642.7K median. | The headline is a whale; the business is the median. |
+| `85-govclose-laundry-spend-chart.png` | Laundry and dry cleaning spend by fiscal year — a boring service with real money. | Boring categories have thin competition, which is exactly where a small firm can win. |
+| `86-govclose-pipeline-roadmap.png` | Roadmap → pipeline → output: the only diagram he uses. | One diagram, three words per box — the whole method in a single frame. |
