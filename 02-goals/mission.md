@@ -33,24 +33,24 @@ Read the overview, follow Read first in order, then use the source evidence for 
 <!-- memoir-project-index:start -->
 ## Projects in motion
 
-- [[10 Projects/Hex voice setup|Hex voice setup — dictation that writes like Ambi talks]] — Ambi's dictation app Hex is configured by evidence from 457 real dictations: 145 vocabulary terms (names, products, people, places), 54 fixed replacements for the exact wrong strings his voice produces, vocabulary biasing on, AI rewrite off. Portable: any future transcriber can be rebuilt from this page. Exports in ~/.config/hex/portable/.
-- [[10 Projects/Ambessa Saul venture|Ambessa Saul — the venture (unnamed)]] — The North Star: a personal brand and a company brand feeding each other, selling verification and deal files to African and Caribbean governments and to companies doing $10M-$5B. Unnamed. The target is the first million from this, not from ads.
-- [[10 Projects/Ambessa Context Pack|Ambessa Context Pack]] — The public, self-updating context repository any web agent can read without an account: identity, hypotheses, verified evidence, offers, playbooks, journal. Built by sync_context_repo.py and refreshed daily.
-- [[10 Projects/Ambessa — ideas explored and rejected|Ambessa — ideas explored and rejected]] — Eleven idea rounds already run and killed, with Ambi's verdict on each and the five reasons an idea died. Read before proposing anything; re-propose only with new evidence.
-- [[10 Projects/Studio AUH|Studio AUH]] — Original stories and animated series, directed by Ambi, with a linked path from reference knowledge to accepted canon and finished episodes.
-- [[10 Projects/Blacksite|Blacksite]] — A major AUH software project: a research Brain and visible Timeline turn sourced strange-event footage into reaction videos, with Wedjat scenes and review-driven learning.
-- [[10 Projects/Wedjat|Wedjat]] — AUH’s private God’s Eye View fork: a lighter geographic scouting app and Scene Studio, connected directly to Blacksite’s cases, clips, videos and shared scene player.
-- [[10 Projects/TubeLoop|TubeLoop]] — AUH production workflows and channel engines, with the actual source, selected engines, artifacts and destination checks kept distinct.
-- [[10 Projects/AfriFluent and Sema|AfriFluent and Sema]] — Language-product work and its builder surface, preserved as a real project rather than a distracting primary dashboard tab.
-- [[10 Projects/Debate Agent|Memoir]] — The shared memory reader and continuity service. Historical debate machinery remains historical.
-- [[10 Projects/Ambi Aligns You|Ambi Aligns You]] — An owned channel with a personal ocean-sunrise format, title grammar and Notion publishing calendar.
-- [[10 Projects/BOARD|BOARD]] — One editable board, reveal timeline, camera path and real audio become a verified finished MP4.
-- [[10 Projects/War Maps|War Maps]] — Code-rendered day-by-day war-map films: a declared clock, countable strength, the dead left on the map, real archival audio and period-letter cards. Napoleon 1812 round trip rendered, unpublished.
-- [[10 Projects/CloneEngine|CloneEngine]] — Ambi’s local voice-clone lane, with one selected configuration and quality judged by listening and prosody.
-- [[10 Projects/Press system|Press system]] — PressSupply prepares sourced visual material and a pamphlet; PressBatch turns the handoff into a recorded slide video.
-- [[10 Projects/Loop|Loop]] — TubeLoop's Brain plus Timeline film editor with Rust engines, which made the LOT Mystic Files films. On ice since 7 Nov 2026. Started as a local app that stitched narration WAVs.
-- [[10 Projects/Home App|Home app (Drawn Room)]] — AI home-design and remodel web app with a tour YouTube channel. Rust app runs end to end with stand-in pictures; paying, sign-in, Office and code-rendered reels exist; not live. Working name Drawn Room, not final.
-- [[10 Projects/Afribbean|Afribbean]] — A possible AUH company for the $171M north star: AI front desks and upgrades for businesses across Africa, the Caribbean and their diasporas, growing into a trade and money link. Strategy stage; private.
+- [[hex-voice-setup|Hex voice setup — dictation that writes like Ambi talks]] — Ambi's dictation app Hex is configured by evidence from 457 real dictations: 145 vocabulary terms (names, products, people, places), 54 fixed replacements for the exact wrong strings his voice produces, vocabulary biasing on, AI rewrite off. Portable: any future transcriber can be rebuilt from this page. Exports in ~/.config/hex/portable/.
+- [[ambessa-venture|Ambessa Saul — the venture (unnamed)]] — The North Star: a personal brand and a company brand feeding each other, selling verification and deal files to African and Caribbean governments and to companies doing $10M-$5B. Unnamed. The target is the first million from this, not from ads.
+- [[ambessa-context|Ambessa Context Pack]] — The public, self-updating context repository any web agent can read without an account: identity, hypotheses, verified evidence, offers, playbooks, journal. Built by sync_context_repo.py and refreshed daily.
+- [[ambessa-rejected|Ambessa — ideas explored and rejected]] — Eleven idea rounds already run and killed, with Ambi's verdict on each and the five reasons an idea died. Read before proposing anything; re-propose only with new evidence.
+- [[studio|Studio AUH]] — Original stories and animated series, directed by Ambi, with a linked path from reference knowledge to accepted canon and finished episodes.
+- [[blacksite|Blacksite]] — A major AUH software project: a research Brain and visible Timeline turn sourced strange-event footage into reaction videos, with Wedjat scenes and review-driven learning.
+- [[wedjat|Wedjat]] — AUH’s private God’s Eye View fork: a lighter geographic scouting app and Scene Studio, connected directly to Blacksite’s cases, clips, videos and shared scene player.
+- [[tubeloop|TubeLoop]] — AUH production workflows and channel engines, with the actual source, selected engines, artifacts and destination checks kept distinct.
+- [[afrifluent|AfriFluent and Sema]] — Language-product work and its builder surface, preserved as a real project rather than a distracting primary dashboard tab.
+- [[debate-agent|Memoir]] — The shared memory reader and continuity service. Historical debate machinery remains historical.
+- [[aay|Ambi Aligns You]] — An owned channel with a personal ocean-sunrise format, title grammar and Notion publishing calendar.
+- [[board|BOARD]] — One editable board, reveal timeline, camera path and real audio become a verified finished MP4.
+- [[war-maps|War Maps]] — Code-rendered day-by-day war-map films: a declared clock, countable strength, the dead left on the map, real archival audio and period-letter cards. Napoleon 1812 round trip rendered, unpublished.
+- [[cloneengine|CloneEngine]] — Ambi’s local voice-clone lane, with one selected configuration and quality judged by listening and prosody.
+- [[press-system|Press system]] — PressSupply prepares sourced visual material and a pamphlet; PressBatch turns the handoff into a recorded slide video.
+- [[loop|Loop]] — TubeLoop's Brain plus Timeline film editor with Rust engines, which made the LOT Mystic Files films. On ice since 7 Nov 2026. Started as a local app that stitched narration WAVs.
+- [[home-app|Home app (Drawn Room)]] — AI home-design and remodel web app with a tour YouTube channel. Rust app runs end to end with stand-in pictures; paying, sign-in, Office and code-rendered reels exist; not live. Working name Drawn Room, not final.
+- [[afribbean|Afribbean]] — A possible AUH company for the $171M north star: AI front desks and upgrades for businesses across Africa, the Caribbean and their diasporas, growing into a trade and money link. Strategy stage; private.
 
 These links follow the live project registry. Blacksite and Studio AUH are major parallel software efforts by Ambi’s decision on 19 October 2026. Revenue goals remain goals until supported by actual earnings. Project work connects to Mission, Money, Systems and Home without changing financial assumptions. Daily and weekly narratives remain under their existing journal generators.
 <!-- memoir-project-index:end -->

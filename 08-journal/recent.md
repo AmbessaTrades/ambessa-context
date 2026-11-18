@@ -1601,3 +1601,13 @@ Daily journal generated for 2026-11-17; status=success; db_length=46398; source_
 
 **Status:** complete.
 **Tags:** [memory, daily-journal, scheduler]
+
+## 2026-11-18 12:10 EAT — MUNGURA — Part 29 written: five speaking sources and the drill spec
+
+**Changed.** Added `PART 29` to `MASTER-BRIEF.md` (now 33,833 words, HTML 218 KB, re-rendered): the five links he sent (Joseph Tsar articulate course 36:27, Kallaway S-Tier ranking formula 1:38, Victor on growth content 10:43, and two Naval posts), each with URL, runtime, what it is, and what to extract; a rule that the agent watches them rather than inheriting a summary; what each source may and may not change; and his drill design written as a spec — 50-word, 100-word, recorded story, 3-5 prompts, required structures and keywords, raw dictation kept, output a lexicon in four registers. Part 12 link index gained rows 31-35.
+
+**Why verdict.** He did not ask for a transcript — he asked for the links to be placed where the agent will find them, with enough context to know why he wants them watched. The evidence rule from the rest of the file was applied to the viewing step: five bullets plus one timestamped quote, so a structure cannot be claimed without a timestamp.
+
+**Status open.** No transcript taken, deliberately. The drill protocol is a proposal; the first session has not run. Whether the lexicon is read automatically by the copy lane or consulted by hand is undecided.
+
+**Related.** Brief `.bak-part29`; Part 3.7, 3.11, 3.14, 5.6, 25.2, 27.3; X post ids 2122750358493728998, 2122915595897221548, 2122767295630213543, 2118479933530063135, 2105231982309564765.

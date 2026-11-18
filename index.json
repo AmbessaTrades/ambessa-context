@@ -53,7 +53,7 @@
   },
   {
    "path": "02-goals/mission.md",
-   "bytes": 31815
+   "bytes": 31541
   },
   {
    "path": "02-goals/money.md",
@@ -66,6 +66,10 @@
   {
    "path": "03-the-brief/directives.md",
    "bytes": 3030
+  },
+  {
+   "path": "03-the-brief/naming.md",
+   "bytes": 10397
   },
   {
    "path": "03-the-brief/the-brief.md",
@@ -137,7 +141,7 @@
   },
   {
    "path": "08-journal/recent.md",
-   "bytes": 134862
+   "bytes": 136348
   },
   {
    "path": "08-journal/summaries.md",
