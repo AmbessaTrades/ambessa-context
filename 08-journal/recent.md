@@ -1283,3 +1283,321 @@ Daily journal generated for 2026-11-08; status=success; db_length=57949; source_
 
 **Status:** complete.
 **Tags:** [memory, daily-journal, scheduler]
+
+## 2026-11-18 00:10 EAT — MUNGURA — Daily journal generated for 2026-11-09; status=success; db_length=77062; source_hash=2a482716af31.
+<!-- type: event -->
+**From:** MUNGURA
+
+Daily journal generated for 2026-11-09; status=success; db_length=77062; source_hash=2a482716af31.
+
+---
+
+### [00:10] Exchange: Daily journal worker run for 2026-11-09
+
+**From:** MUNGURA
+**Context:** Permanent daily journal worker executed in `catch-up` mode.
+
+**Actions:**
+- Target date: `2026-11-09`.
+- Result status: `success`.
+- Daily path: `/Users/Mungura/debate-agent/memory/daily/2026-11-09.md`.
+- SUMMARY path: `/Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-09.md`.
+- DB row length: `77062`.
+- Status pointer: `/Users/Mungura/debate-agent/memory/daily/journal-status.json`.
+
+**Files Changed:** /Users/Mungura/debate-agent/memory/daily/2026-11-09.md, /Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-09.md, /Users/Mungura/debate-agent/memory/daily/evidence-digests/2026-11-09.json, /Users/Mungura/debate-agent/memory/daily/journal-status.json, /Users/Mungura/debate-agent/memory/memory.db, /Users/Mungura/debate-agent/memory/daily/_backups/2026-11-09.md.pre-sonnet5-repair-20261118_000422.bak, /Users/Mungura/debate-agent/memory/daily/_backups/SUMMARY-2026-11-09.md.pre-sonnet5-repair-20261118_000422.bak.
+**Journal Dates Repaired:** 2026-11-09.
+**Scheduler Touched:** status pointer only.
+**Routes Touched:** dashboard API log attempted; status route verification handled separately.
+**Tests Run:** `catch-up`.
+**Verification Results:** files written, SUMMARY mirror written, DB length=77062, api_log_status=200.
+**Failures:** none.
+**Next Action:** verify dashboard routes and scheduler persistence.
+
+**Status:** complete.
+**Tags:** [memory, daily-journal, scheduler]
+
+## 2026-11-18 00:15 EAT — MUNGURA — Daily journal generated for 2026-11-10; status=success; db_length=64341; source_hash=fef9d9c09c5e.
+<!-- type: event -->
+**From:** MUNGURA
+
+Daily journal generated for 2026-11-10; status=success; db_length=64341; source_hash=fef9d9c09c5e.
+
+---
+
+### [00:15] Exchange: Daily journal worker run for 2026-11-10
+
+**From:** MUNGURA
+**Context:** Permanent daily journal worker executed in `catch-up` mode.
+
+**Actions:**
+- Target date: `2026-11-10`.
+- Result status: `success`.
+- Daily path: `/Users/Mungura/debate-agent/memory/daily/2026-11-10.md`.
+- SUMMARY path: `/Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-10.md`.
+- DB row length: `64341`.
+- Status pointer: `/Users/Mungura/debate-agent/memory/daily/journal-status.json`.
+
+**Files Changed:** /Users/Mungura/debate-agent/memory/daily/2026-11-10.md, /Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-10.md, /Users/Mungura/debate-agent/memory/daily/evidence-digests/2026-11-10.json, /Users/Mungura/debate-agent/memory/daily/journal-status.json, /Users/Mungura/debate-agent/memory/memory.db, /Users/Mungura/debate-agent/memory/daily/_backups/2026-11-10.md.pre-sonnet5-repair-20261118_001025.bak, /Users/Mungura/debate-agent/memory/daily/_backups/SUMMARY-2026-11-10.md.pre-sonnet5-repair-20261118_001025.bak.
+**Journal Dates Repaired:** 2026-11-10.
+**Scheduler Touched:** status pointer only.
+**Routes Touched:** dashboard API log attempted; status route verification handled separately.
+**Tests Run:** `catch-up`.
+**Verification Results:** files written, SUMMARY mirror written, DB length=64341, api_log_status=200.
+**Failures:** none.
+**Next Action:** verify dashboard routes and scheduler persistence.
+
+**Status:** complete.
+**Tags:** [memory, daily-journal, scheduler]
+
+## 2026-11-18 00:21 EAT — MUNGURA — Daily journal generated for 2026-11-11; status=success; db_length=32639; source_hash=4199de27d62a.
+<!-- type: event -->
+**From:** MUNGURA
+
+Daily journal generated for 2026-11-11; status=success; db_length=32639; source_hash=4199de27d62a.
+
+---
+
+### [00:21] Exchange: Daily journal worker run for 2026-11-11
+
+**From:** MUNGURA
+**Context:** Permanent daily journal worker executed in `catch-up` mode.
+
+**Actions:**
+- Target date: `2026-11-11`.
+- Result status: `success`.
+- Daily path: `/Users/Mungura/debate-agent/memory/daily/2026-11-11.md`.
+- SUMMARY path: `/Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-11.md`.
+- DB row length: `32639`.
+- Status pointer: `/Users/Mungura/debate-agent/memory/daily/journal-status.json`.
+
+**Files Changed:** /Users/Mungura/debate-agent/memory/daily/2026-11-11.md, /Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-11.md, /Users/Mungura/debate-agent/memory/daily/evidence-digests/2026-11-11.json, /Users/Mungura/debate-agent/memory/daily/journal-status.json, /Users/Mungura/debate-agent/memory/memory.db, /Users/Mungura/debate-agent/memory/daily/_backups/2026-11-11.md.pre-sonnet5-repair-20261118_001506.bak, /Users/Mungura/debate-agent/memory/daily/_backups/SUMMARY-2026-11-11.md.pre-sonnet5-repair-20261118_001506.bak.
+**Journal Dates Repaired:** 2026-11-11.
+**Scheduler Touched:** status pointer only.
+**Routes Touched:** dashboard API log attempted; status route verification handled separately.
+**Tests Run:** `catch-up`.
+**Verification Results:** files written, SUMMARY mirror written, DB length=32639, api_log_status=200.
+**Failures:** none.
+**Next Action:** verify dashboard routes and scheduler persistence.
+
+**Status:** complete.
+**Tags:** [memory, daily-journal, scheduler]
+
+## 2026-11-18 00:25 EAT — MUNGURA — Message to her checked: Kenyaplex holds, Somovibe does not, and the 22nd is a promise
+
+- **Changed:** Verified the two marketplace claims in the drafted message against the attached pages. Kenyaplex: 50% commission, KSh 1,000 payout threshold, 48-hour review, M-Pesa — every figure confirmed on its own page. Somovibe: 75% confirmed, and the contradiction is real — the hero says free with no card, the FAQ says a one-time KES 100 verification fee by M-Pesa.
+- **Why/verdict:** The message is honest and correctly refuses to promise a salary. Two things should change before it goes: (1) Somovibe asks for money before she earns, which is the pattern scam advisories in Kenya flag, so Kenyaplex should be the only one she touches; (2) "give us until the 22nd" is a dated promise, and the documented failure mode is exactly a promise followed by waiting. A trigger beats a date.
+- **Status/open:** Nothing sent by me; the message is Ambi's to send. Flagged that her only device is a phone, so any note-selling path needs a phone-to-PDF step, which the draft does not mention.
+- **Related:** `MASTER-BRIEF.md` Part 28 (28.8 the waiting pattern, 28.10 questions); day log; Kenyaplex sell-notes page; Somovibe site.
+
+## 2026-11-18 00:25 EAT — MUNGURA — Daily journal generated for 2026-11-12; status=success; db_length=34508; source_hash=af815ed7e819.
+<!-- type: event -->
+**From:** MUNGURA
+
+Daily journal generated for 2026-11-12; status=success; db_length=34508; source_hash=af815ed7e819.
+
+---
+
+### [00:25] Exchange: Daily journal worker run for 2026-11-12
+
+**From:** MUNGURA
+**Context:** Permanent daily journal worker executed in `catch-up` mode.
+
+**Actions:**
+- Target date: `2026-11-12`.
+- Result status: `success`.
+- Daily path: `/Users/Mungura/debate-agent/memory/daily/2026-11-12.md`.
+- SUMMARY path: `/Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-12.md`.
+- DB row length: `34508`.
+- Status pointer: `/Users/Mungura/debate-agent/memory/daily/journal-status.json`.
+
+**Files Changed:** /Users/Mungura/debate-agent/memory/daily/2026-11-12.md, /Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-12.md, /Users/Mungura/debate-agent/memory/daily/evidence-digests/2026-11-12.json, /Users/Mungura/debate-agent/memory/daily/journal-status.json, /Users/Mungura/debate-agent/memory/memory.db, /Users/Mungura/debate-agent/memory/daily/_backups/2026-11-12.md.pre-sonnet5-repair-20261118_002150.bak, /Users/Mungura/debate-agent/memory/daily/_backups/SUMMARY-2026-11-12.md.pre-sonnet5-repair-20261118_002150.bak.
+**Journal Dates Repaired:** 2026-11-12.
+**Scheduler Touched:** status pointer only.
+**Routes Touched:** dashboard API log attempted; status route verification handled separately.
+**Tests Run:** `catch-up`.
+**Verification Results:** files written, SUMMARY mirror written, DB length=34508, api_log_status=200.
+**Failures:** none.
+**Next Action:** verify dashboard routes and scheduler persistence.
+
+**Status:** complete.
+**Tags:** [memory, daily-journal, scheduler]
+
+## 2026-11-18 00:26 EAT — MUNGURA — Daily journal generated for 2026-11-13; status=success; db_length=28807; source_hash=f189c57bf8bc.
+<!-- type: event -->
+**From:** MUNGURA
+
+Daily journal generated for 2026-11-13; status=success; db_length=28807; source_hash=f189c57bf8bc.
+
+---
+
+### [00:26] Exchange: Daily journal worker run for 2026-11-13
+
+**From:** MUNGURA
+**Context:** Permanent daily journal worker executed in `catch-up` mode.
+
+**Actions:**
+- Target date: `2026-11-13`.
+- Result status: `success`.
+- Daily path: `/Users/Mungura/debate-agent/memory/daily/2026-11-13.md`.
+- SUMMARY path: `/Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-13.md`.
+- DB row length: `28807`.
+- Status pointer: `/Users/Mungura/debate-agent/memory/daily/journal-status.json`.
+
+**Files Changed:** /Users/Mungura/debate-agent/memory/daily/2026-11-13.md, /Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-13.md, /Users/Mungura/debate-agent/memory/daily/evidence-digests/2026-11-13.json, /Users/Mungura/debate-agent/memory/daily/journal-status.json, /Users/Mungura/debate-agent/memory/memory.db, /Users/Mungura/debate-agent/memory/daily/_backups/2026-11-13.md.pre-sonnet5-repair-20261118_002508.bak, /Users/Mungura/debate-agent/memory/daily/_backups/SUMMARY-2026-11-13.md.pre-sonnet5-repair-20261118_002508.bak.
+**Journal Dates Repaired:** 2026-11-13.
+**Scheduler Touched:** status pointer only.
+**Routes Touched:** dashboard API log attempted; status route verification handled separately.
+**Tests Run:** `catch-up`.
+**Verification Results:** files written, SUMMARY mirror written, DB length=28807, api_log_status=200.
+**Failures:** none.
+**Next Action:** verify dashboard routes and scheduler persistence.
+
+**Status:** complete.
+**Tags:** [memory, daily-journal, scheduler]
+
+## 2026-11-18 00:31 EAT — MUNGURA — Daily journal generated for 2026-11-14; status=success; db_length=13856; source_hash=533202dd777f.
+<!-- type: event -->
+**From:** MUNGURA
+
+Daily journal generated for 2026-11-14; status=success; db_length=13856; source_hash=533202dd777f.
+
+---
+
+### [00:31] Exchange: Daily journal worker run for 2026-11-14
+
+**From:** MUNGURA
+**Context:** Permanent daily journal worker executed in `catch-up` mode.
+
+**Actions:**
+- Target date: `2026-11-14`.
+- Result status: `success`.
+- Daily path: `/Users/Mungura/debate-agent/memory/daily/2026-11-14.md`.
+- SUMMARY path: `/Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-14.md`.
+- DB row length: `13856`.
+- Status pointer: `/Users/Mungura/debate-agent/memory/daily/journal-status.json`.
+
+**Files Changed:** /Users/Mungura/debate-agent/memory/daily/2026-11-14.md, /Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-14.md, /Users/Mungura/debate-agent/memory/daily/evidence-digests/2026-11-14.json, /Users/Mungura/debate-agent/memory/daily/journal-status.json, /Users/Mungura/debate-agent/memory/memory.db, /Users/Mungura/debate-agent/memory/daily/_backups/2026-11-14.md.pre-sonnet5-repair-20261118_002628.bak, /Users/Mungura/debate-agent/memory/daily/_backups/SUMMARY-2026-11-14.md.pre-sonnet5-repair-20261118_002628.bak.
+**Journal Dates Repaired:** 2026-11-14.
+**Scheduler Touched:** status pointer only.
+**Routes Touched:** dashboard API log attempted; status route verification handled separately.
+**Tests Run:** `catch-up`.
+**Verification Results:** files written, SUMMARY mirror written, DB length=13856, api_log_status=200.
+**Failures:** none.
+**Next Action:** verify dashboard routes and scheduler persistence.
+
+**Status:** complete.
+**Tags:** [memory, daily-journal, scheduler]
+
+## 2026-11-18 00:35 EAT — MUNGURA — Her answer: "I'll wait for Ambi and his company… the notes idea won't get things done"
+
+- **Changed:** Recorded her first words in `MASTER-BRIEF.md` Part 28 (28.8, plus a new question 5 in 28.10); brief 32,186 words, HTML re-rendered at 207,243 bytes.
+- **Why/verdict:** The notes route asked her to produce and sell alone with no buyer guaranteed, so she is right that it would not "get things done" — it cannot reach the seven-hundred-dollar figure anyone named. But "I'll wait" is the failure pattern from 28.8 speaking in her own voice: if nothing arrives, the attempt ends without anyone having to call it off.
+- **Status/open:** No lane exists that needs no build, and the one document a reader-lane would need is not on disk — the recent LOT files in `~/LOT Files/LOT/ts-p/` are visual prompt packages, not spoken scripts. First handover has to come from Notion or be exported.
+- **Related:** `MASTER-BRIEF.md` 28.8, 28.9 item 3, 28.10; `2026-11-18.md` earlier entry on the marketplace check.
+
+## 2026-11-18 00:33 EAT — MUNGURA — Daily journal generated for 2026-11-15; status=success; db_length=14786; source_hash=5ab29382c543.
+<!-- type: event -->
+**From:** MUNGURA
+
+Daily journal generated for 2026-11-15; status=success; db_length=14786; source_hash=5ab29382c543.
+
+---
+
+### [00:33] Exchange: Daily journal worker run for 2026-11-15
+
+**From:** MUNGURA
+**Context:** Permanent daily journal worker executed in `catch-up` mode.
+
+**Actions:**
+- Target date: `2026-11-15`.
+- Result status: `success`.
+- Daily path: `/Users/Mungura/debate-agent/memory/daily/2026-11-15.md`.
+- SUMMARY path: `/Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-15.md`.
+- DB row length: `14786`.
+- Status pointer: `/Users/Mungura/debate-agent/memory/daily/journal-status.json`.
+
+**Files Changed:** /Users/Mungura/debate-agent/memory/daily/2026-11-15.md, /Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-15.md, /Users/Mungura/debate-agent/memory/daily/evidence-digests/2026-11-15.json, /Users/Mungura/debate-agent/memory/daily/journal-status.json, /Users/Mungura/debate-agent/memory/memory.db, /Users/Mungura/debate-agent/memory/daily/_backups/2026-11-15.md.pre-sonnet5-repair-20261118_003120.bak, /Users/Mungura/debate-agent/memory/daily/_backups/SUMMARY-2026-11-15.md.pre-sonnet5-repair-20261118_003120.bak.
+**Journal Dates Repaired:** 2026-11-15.
+**Scheduler Touched:** status pointer only.
+**Routes Touched:** dashboard API log attempted; status route verification handled separately.
+**Tests Run:** `catch-up`.
+**Verification Results:** files written, SUMMARY mirror written, DB length=14786, api_log_status=200.
+**Failures:** none.
+**Next Action:** verify dashboard routes and scheduler persistence.
+
+**Status:** complete.
+**Tags:** [memory, daily-journal, scheduler]
+
+## 2026-11-18 00:35 EAT — MUNGURA — Daily journal generated for 2026-11-16; status=success; db_length=20194; source_hash=01b7fe121119.
+<!-- type: event -->
+**From:** MUNGURA
+
+Daily journal generated for 2026-11-16; status=success; db_length=20194; source_hash=01b7fe121119.
+
+---
+
+### [00:35] Exchange: Daily journal worker run for 2026-11-16
+
+**From:** MUNGURA
+**Context:** Permanent daily journal worker executed in `catch-up` mode.
+
+**Actions:**
+- Target date: `2026-11-16`.
+- Result status: `success`.
+- Daily path: `/Users/Mungura/debate-agent/memory/daily/2026-11-16.md`.
+- SUMMARY path: `/Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-16.md`.
+- DB row length: `20194`.
+- Status pointer: `/Users/Mungura/debate-agent/memory/daily/journal-status.json`.
+
+**Files Changed:** /Users/Mungura/debate-agent/memory/daily/2026-11-16.md, /Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-16.md, /Users/Mungura/debate-agent/memory/daily/evidence-digests/2026-11-16.json, /Users/Mungura/debate-agent/memory/daily/journal-status.json, /Users/Mungura/debate-agent/memory/memory.db.
+**Journal Dates Repaired:** 2026-11-16.
+**Scheduler Touched:** status pointer only.
+**Routes Touched:** dashboard API log attempted; status route verification handled separately.
+**Tests Run:** `catch-up`.
+**Verification Results:** files written, SUMMARY mirror written, DB length=20194, api_log_status=200.
+**Failures:** none.
+**Next Action:** verify dashboard routes and scheduler persistence.
+
+**Status:** complete.
+**Tags:** [memory, daily-journal, scheduler]
+
+## 2026-11-18 00:40 EAT — MUNGURA — Tested from Kenya: Mercor is open at $40–$75/hr, Outlier is a hard block
+
+- **Changed:** Ran the platforms from this machine's Kenyan connection instead of reading blogs about them. Results: **Mercor loads and lists live maths work — Mathematics Expert $40–$75/hr, Mathematics Domain Expert $90–$140/hr, Life/Physical/Social Science Expert $60–$120/hr, Mathematician Talent Network $60–$80/hr**; the Mathematics Expert page confirms $40–$75/hr, a standing talent pool, resume plus "confirm where you work from", then a ~20-minute AI interview reused across every later role. **Alignerr loads and hires across all domains**, $80/hr average, math experts $25–$100/hr, async, min 15 hrs/week, AI interviewer. **Outlier is a hard location block** — app.outlier.ai returns "we are not able to provide service in your location", which contradicts the Kenyan blogs claiming it accepts Kenya. CrowdGen fails at the certificate.
+- **Why/verdict:** She is already inside Mercor and has been paid by them, which is the part a new applicant has to earn. At the low end of the listed maths rate, 20 hours a month is $800 — her stated floor — using the credential she already holds. The single gate is a 20-minute AI interview, believed to be voice or video, which is the one thing she has refused; that is now the only open question in the lane.
+- **Status/open:** Brief Part 28 updated — 28.9 items 5–9 rewritten with the tested evidence, 28.1 corrected to record the unresolved laptop contradiction (phone-only vs a slow laptop). Brief 32,561 words, HTML 209,787 bytes. Nothing sent to her; the message is Ambi's to send.
+- **Related:** `MASTER-BRIEF.md` 28.1, 28.9; day log `2026-11-18.md`; work.mercor.com/jobs/list_AAABoKMjug1fFXpwuDdIZ6TO/mathematics-expert; app.outlier.ai location wall.
+
+## 2026-11-18 00:41 EAT — MUNGURA — Daily journal generated for 2026-11-17; status=success; db_length=46398; source_hash=082c6d4c7784.
+<!-- type: event -->
+**From:** MUNGURA
+
+Daily journal generated for 2026-11-17; status=success; db_length=46398; source_hash=082c6d4c7784.
+
+---
+
+### [00:41] Exchange: Daily journal worker run for 2026-11-17
+
+**From:** MUNGURA
+**Context:** Permanent daily journal worker executed in `catch-up` mode.
+
+**Actions:**
+- Target date: `2026-11-17`.
+- Result status: `success`.
+- Daily path: `/Users/Mungura/debate-agent/memory/daily/2026-11-17.md`.
+- SUMMARY path: `/Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-17.md`.
+- DB row length: `46398`.
+- Status pointer: `/Users/Mungura/debate-agent/memory/daily/journal-status.json`.
+
+**Files Changed:** /Users/Mungura/debate-agent/memory/daily/2026-11-17.md, /Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-17.md, /Users/Mungura/debate-agent/memory/daily/evidence-digests/2026-11-17.json, /Users/Mungura/debate-agent/memory/daily/journal-status.json, /Users/Mungura/debate-agent/memory/memory.db, /Users/Mungura/debate-agent/memory/daily/_backups/2026-11-17.md.pre-sonnet5-repair-20261118_003505.bak, /Users/Mungura/debate-agent/memory/daily/_backups/SUMMARY-2026-11-17.md.pre-sonnet5-repair-20261118_003505.bak.
+**Journal Dates Repaired:** 2026-11-17.
+**Scheduler Touched:** status pointer only.
+**Routes Touched:** dashboard API log attempted; status route verification handled separately.
+**Tests Run:** `catch-up`.
+**Verification Results:** files written, SUMMARY mirror written, DB length=46398, api_log_status=200.
+**Failures:** none.
+**Next Action:** verify dashboard routes and scheduler persistence.
+
+**Status:** complete.
+**Tags:** [memory, daily-journal, scheduler]
