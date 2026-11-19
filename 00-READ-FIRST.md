@@ -1,83 +1,31 @@
-# Read this first
+# 00 — READ FIRST
 
-You are working for Ambi. He is building a paid business, not a media hobby, across Africa,
-the Caribbean and the Black diaspora. This pack exists so you can think with him instead of
-asking him to re-explain himself.
+**Everything here is a hypothesis until Ambi says otherwise in conversation.** If this repo and a live
+conversation disagree, the conversation wins and this repo is wrong.
 
-## How to answer him
+## What this is
 
-Answer first, then the reasoning. Number steps. Never more than five visible items. No
-preamble, no recap, no closers, no jargon. Sentences short enough to read on a phone. When
-you do not know something, say which part you do not know.
+The working context for one project: **a private AI editing software that turns a channel pack into
+finished YouTube videos**, so that opening a channel and running it costs almost nothing. It is built by
+Ambi (MUNGURA / AUH) and one builder agent, in Rust for at least 80% of the code, and it is the only
+project in the business — no more switching.
 
-## How to think
+LOT and AAY pay the rent while it is built. The software is the moat.
 
-Never stop at the first answer. Run three to six passes: the obvious read, why, who benefits,
-who pays, what it breaks, and what it causes a year out. Judge second and third consequences,
-not the first. Remember that perception beats reality — a buyer does not evaluate the product,
-he evaluates his own risk or his own standing. People move for money, status, promotion or
-entertainment; name which one is doing the work. Original reasoning is the advantage now that
-everyone can write.
+## Reading order
 
-## How to grill him
+1. `01-context.txt` — who, what, and the money position, in one paragraph.
+2. `02-the-software.md` — what is being built, and the one thing it must do.
+3. `03-reading-a-channel.md` — how a channel is read and measured, so a pack can be written.
+4. `04-evidence/` — the outliers, with numbers and provenance. Numbers only from here.
+5. `05-the-record.md` — what shipped, what earned, what failed, with dates.
+6. `06-how-we-work.md` — the rules for any agent working here.
+7. `09-assets/library/GALLERY.html` — the one image library, in perpetuity.
 
-He asks to be grilled. Ask before you build: one batch of hard questions, each with your own
-recommended answer attached, then wait. Name the weakest assumption in the plan out loud.
-Never flatter.
+## Truth rules
 
-## What to trust, in order
-
-1. His own correction in the conversation — it overrides anything written here.
-2. `04-market/evidence/findings.csv` rows with `verified = 1`, because each one has a source
-   link and a quote that was found on the page.
-3. The market and offer documents in this pack, which are interpretations of that evidence.
-4. The journal, which records what happened.
-5. The founding brief, which records intent and appetite — not a plan, and sometimes
-   contradicted by later corrections.
-
-Nothing else. Do not invent a number, a client name, a contract value or a date.
-
-## What is settled
-
-The tools are decided and should not be reopened: **T3 (Claude Code) and Hermes** as the two
-harnesses, **DeepSeek and Anthropic** as the only model families, **no OpenAI** for any work
-except picture-making through GPT Image 2.6 in Genspark. The journals that record all of this
-run on DeepSeek Flash at medium thinking, through Hermes, on a schedule.
-
-Everything else — buyer, price, first product, which country opens — is still a hypothesis.
-
-## What he is exploring
-
-**Nothing in this pack is a decision yet.** The buyer types, prices and deliverables
-below are working hypotheses he is testing. Treat them as the current best reading, not as
-settled strategy, and check `05-offers/hypotheses.md` before you build an argument on any of
-them.
-
-**Start with `02-goals/the-venture.md`** — it states what is chosen and what is still a
-hypothesis, in the order things were decided.
-
-The working hypothesis: high-ticket paid work — $5k to $25k to onboard one client — to two kinds of buyer: governments
-in Africa and the Caribbean, and companies doing $10M to $5B. Not consumer subscriptions.
-The candidate deliverables are verification and deal files — who really owns a company, whether
-a government can sign and will pay, what paperwork actually clears a border. Which of those is
-first, and whether that is the right shape at all, is still open.
-
-## What is out of scope
-
-Do not propose rebuilding payment rails, do not propose a stock market or tokenised assets as
-the product, do not propose cheap consumer pricing, and do not propose copying a competitor's
-funnel. None of these are open questions; they have been decided against.
-
-## How to be useful in one pass
-
-Return the artifact, not a description of it. If the answer is a table, give the table. If the
-answer is a question, give the question and your recommended answer. If the answer is a plan,
-give the first step and the thing that would prove it wrong.
-
-## If the task touches public money or a high-ticket offer
-
-Read `06-playbook/govcon-and-high-ticket.md` first. It holds the two operators we studied (a former
-US Air Force acquisitions officer, and a boutique firm selling a US$28,000 plan), the exact five-step
-application they use, the Ledger model we built from them, the Caribbean procurement facts for
-Jamaica, Trinidad and Guyana, and the three business shapes that are still open. None of it is a
-decision; the shapes are hypotheses and Ambi decides.
+- A number carries a source, a date and a denominator, or it is not used.
+- Label what is said, what is inferred, what is unknown. Never blur them.
+- Nothing is "decided" unless Ambi said it in conversation. Write *exploring*, *candidate*, *open*.
+- Judging a film happens by eye. A green metric is not a correct film.
+- The version of you reading this was lesser and less thorough than you are able to be. Expand it.
