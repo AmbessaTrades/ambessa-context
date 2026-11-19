@@ -8,7 +8,8 @@
   "03-reading-a-channel.md",
   "04-evidence/README.md",
   "05-the-record.md",
-  "06-how-we-work.md"
+  "06-how-we-work.md",
+  "07-start-here.md"
  ],
  "library": {
   "path": "09-assets/library/GALLERY.html",
@@ -83,6 +84,10 @@
   {
    "path": "index.json",
    "bytes": 10893
+  },
+  {
+   "path": "07-start-here.md",
+   "bytes": 4415
   }
  ]
 }
