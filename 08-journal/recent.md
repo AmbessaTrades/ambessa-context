@@ -4,225 +4,6 @@ Rolling window rebuilt on every sync. Newest day last. This is what was actually
 
 ---
 
-## 2026-11-12
-
-## 2026-11-12 06:42 EAT — MUNGURA — VMake daily study: LOT thumbnails vs performance
-<!-- type: event -->
-**From:** MUNGURA
-
-- What happened: study FAILED — yt-dlp failed for https://www.youtube.com/channel/UCMApI8KY-eOXqi4_mx6uePw/videos: ost='www.youtube.com', port=443): Fai; yt-dlp failed for https://www.youtube.com/channel/UCSpV4LdFbvrBi88HYNmM70g/videos: ost='www.youtube.com', port=443): Fai; yt-dlp failed for https://www.youtube.com/channel/UCkEg2hYI7rm5zqRyoGF22iA/videos: ost='www.youtube.com', port=443): Fai; yt-dlp failed for https://www.youtube.com/channel/UC5lazMp8-tBYOXZfAazDe8w/videos: ost='www.youtube.com', port=443): Fai; yt-dlp failed for https://www.youtube.com/channel/UCboJ1avpnorCXLDU5UauVzg/videos: ost='www.youtube.com', port=443): Fai; yt-dlp failed for https://www.youtube.com/channel/UC8XKyvQ5Ne_bvYbgv8LaIeg/videos: ost='www.youtube.com', port=443): Fai; yt-dlp failed for https://www.youtube.com/channel/UCxTYD_ycrBfhCK_cH-QrPBA/videos: ost='www.youtube.com', port=443): Fai; yt-dlp failed for https://www.youtube.com/channel/UC2u82QDTLE_sm42t2uGItQg/videos: ost='www.youtube.com', port=443): Fai; yt-dlp failed for https://www.youtube.com/channel/UCy86ub1XvSLlgrTe8wQw_lw/videos: ost='www.youtube.com', port=443): Fai; yt-dlp failed for https://www.youtube.com/channel/UCQ-egwf_sKkZo5cTesgjc_Q/videos: ost='www.youtube.com', port=443): Fai; yt-dlp failed for https://www.youtube.com/channel/UC1VcMOExq4okNAco-yiCBiw/videos: ost='www.youtube.com', port=443): Fai
-- Catalog re-TN: FAILED st='www.youtube.com', port=443): Failed to resolve 'www.youtube.com' ([Errno 8] nodename nor servname provided, or not k
-- META: FAILED yt-dlp failed for https://www.youtube.com/channel/UCMApI8KY-eOXqi4_mx6uePw/videos: ost='www.youtube.com', port=443): Fai
-- Status: blocked
-
-
-## 2026-11-12 06:43 EAT — TEHUTI — TubeLoop backup left out 7 file(s) that contain keys
-<!-- type: event -->
-**From:** TEHUTI
-
-TubeLoop backup left out 7 file(s) that contain keys
-- Left out (secret found, value not shown): home/AUH/Blacksite/data/lanes/2026-10-28T10-12-58-wedjat-fd34/backup/vendor/godseye-lite/dist/assets/studio-WGq3jXIg.js [a live key value]; home/AUH/Blacksite/data/lanes/2026-10-28T10-12-58-wedjat-fd34/backup/vendor/godseye-lite/src/wedjat/studio.js [a live key value]; home/AUH/Blacksite/data/lanes/2026-10-28T11-10-10-wedjat-e5a0/backup/vendor/godseye-lite/dist/assets/studio-WGq3jXIg.js [a live key value]; home/AUH/Blacksite/data/lanes/2026-10-28T11-10-10-wedjat-e5a0/backup/vendor/godseye-lite/src/wedjat/studio.js [a live key value]; home/AUH/Blacksite/research/study-1108/vidrush/pages/builtin.html [google api key]; home/AUH/Loop/jobs/verse/_config/active-hotkeys.json [a live key value]; home/AUH/Loop/src/components/AudioDashboard.tsx [a live key value]
-- Left out (over size cap): home/AUH/Blacksite/data/packages/ep-mvfpm7ln-770d0be167.zip (104 MB); home/AUH/Blacksite/data/wedjat-adsb/2026-10-21.json (134 MB)
-- Fix: move the key into the folder's .env (the keys backup picks it up) or add the path to secret_allow in ~/.auh-git/projects/tubeloop/project.json if it is not a real key.
-- Status: blocked — needs an agent to look
-
----
-
-## 2026-11-12 06:43 EAT — TEHUTI — TubeLoop backup kept the last saved copy of a folder that shrank or vanished
-<!-- type: event -->
-**From:** TEHUTI
-
-TubeLoop backup kept the last saved copy of a folder that shrank or vanished
-- Kept last saved version (safety): home/AUH/CloneEngine — lost 174 of 175 files
-- Status: blocked — needs an agent to look
-
----
-
-## 2026-11-12 10:20 EAT — MUNGURA — Loop V28 proposition: Hermes in the panes, time in 3-second cells
-Changed: wrote ~/AUH/Loop/loop/revival/PROPOSAL-HERMES-CELLS-V1.md (2,083 words) and
-BRIEF-ALL-AGENTS-2026-11-12.md. Read the revival board (272 text nodes), LOT-VIZ-SHADOW-BEING-ENGINE V27.0
-(10,139 words, Section 6 timing), loop/revival/PLAN.md + GIF-TEST.md, and PaneGrid.tsx (Service union at :35,
-lane menu at :3207). Dispatched Electrika (timing + engine->skill spec) and Titus (20 titles) as claude -p lanes.
-Why-verdict: board says 70 GIFs x 3 s = 210 s of motion, not 30 min; engine V27 snaps LV windows to clauses
-within 1.25 s, which a 3-second loop cannot do. Proposal: 3.000 s cell grid, 600 cells for 30 min, ~100 GIFs per
-film, five loop-law checks, Hermes as a third pane service (no browser automation, skills preloaded), engines ->
-skills in three layers with an acceptance test, and bulk 11-pane runs with a concurrency cap.
-Status-open: Q4-Q7 to Ambi (Hermes default, 100 GIFs, 3 s grid, Titus/Electrika ownership). No GIF has been made
-yet; Bygone pacing measured from durations only, cut rhythm unmeasured.
-Related: ~/AUH/Loop/src/components/shots/PaneGrid.tsx, ~/AUH/Loop/loop/revival/*, skill lot-viz-shadow (to build)
-
-## 2026-11-12 10:45 EAT — MUNGURA — Both claude -p lanes returned "Credit balance is too low"; wrote their files myself
-Changed: /tmp/electrika.log and /tmp/titus.log both said credit too low and wrote nothing. Wrote the two files
-directly: ~/AUH/Loop/loop/revival/ELECTRIKA-TIMING-SPEC.md (quantisation to 3 s cells, worked 25/30-min arithmetic,
-shots.json schema + 5 Rust invariants, the 5 loop-law pass/fail tests, V27 section-by-section fate, skill file
-list) and TITUS-TITLES-V1.md (20 titles mapped to the 6 proven shapes, an 8-check title test, the shape-slot
-rewrite, Bygone vs Jade read).
-Why-verdict: no fan-out on a dead account — the work is mine to do. The 70-GIF plan dies by arithmetic: 70 x 3 s
-= 210 s of motion; 30 min needs ~100 GIFs at 6 s a shot.
-Status-open: Q4-Q7 with Ambi; GIF test never run; Bygone cut rhythm unmeasured (needs a frame study).
-Related: proposal + brief in the same folder; lanes resume when credit returns
-
-## 2026-11-12 11:05 EAT — MUNGURA — Daily flow set: morning titles+thumbnails, evening validation, three syncs
-Changed: wrote ~/AUH/Loop/loop/revival/DAILY-FLOW.md (the standing law), TITLEBOT-STANDING-BRIEF.md (the paste
-brief), lanes.json (lot live, niche-b empty until named), and bin/morning-pack.sh + the first real pack folder
-data/daily/2026-11-12/morning.json. Seshat confirmed live on :3002; vault path confirmed; no TikTok uploader exists
-anywhere on the machine (only Blacksite/research/tiktok), so TikTok is a post pack for a human hand.
-Why-verdict: Ambi's flow is generate at dawn, his session, bot validates and humanises at dusk, then sync to
-Seshat, Obsidian and TikTok. Written as a law with artifacts so any bot can pick it up, not as chat prose.
-Status-open: lane B (the second niche) is unnamed - flow refuses to guess; TikTok posting needs an approved
-uploader or stays manual; no cron installed yet (he said tell them the flow, not start it).
-Related: DAILY-FLOW.md, TITLEBOT-STANDING-BRIEF.md, lanes.json, bin/morning-pack.sh
-
-## 2026-11-12 13:40 EAT — MUNGURA — Dropped the invented sync surfaces; Studio AUH bible + LOT ideation protocol
-Changed: deleted loop/revival/DAILY-FLOW.md, TITLEBOT-STANDING-BRIEF.md, lanes.json (they carried Notion/Seshat/
-TikTok sync Ambi never asked for). Wrote ~/AUH/Studio/STUDIO-AUH-BIBLE.md (Jacopist reverse-engineered: dispatch
-every 28-34 s measured from transcripts; 4-rung opening inside 105 s; thumbnails = report cover - Earth map with
-orbital rings + a real comment screenshot, 9 BILLION/DEAD, 2.6 BILLION/INFECTED, WE'RE COMING over a solar sail)
-and loop/revival/LOT-IDEATION-PROTOCOL.md (his loop: 6 titles -> refine -> pamphlet -> bot critiques; 3rd/4th
-order logic as the writing holy grail for Titus and Electrika).
-Why-verdict: Ambi's correction - no TikTok, no Seshat, no MD sprawl. Measured the videos rather than describing
-them: 53 cues/26 min median 28 s; 51 cues/28 min median 34 s.
-Status-open: thumbnails pulled only as maxres stills; cut rhythm per dispatch and voice performance still unmeasured;
-zombie transcript only a fragment.
-Related: STUDIO-AUH-BIBLE.md, LOT-IDEATION-PROTOCOL.md, Jacopist MVIwvywuQpQ / QEOQwrNz0bU / pUZw6AYBNcE / cUgwRpPphpM
-
-## 2026-11-12 21:08 EAT — TEHUTI — TubeLoop backup left out 7 file(s) that contain keys
-<!-- type: event -->
-**From:** TEHUTI
-
-TubeLoop backup left out 7 file(s) that contain keys
-- Left out (secret found, value not shown): home/AUH/Blacksite/data/lanes/2026-10-28T10-12-58-wedjat-fd34/backup/vendor/godseye-lite/dist/assets/studio-WGq3jXIg.js [a live key value]; home/AUH/Blacksite/data/lanes/2026-10-28T10-12-58-wedjat-fd34/backup/vendor/godseye-lite/src/wedjat/studio.js [a live key value]; home/AUH/Blacksite/data/lanes/2026-10-28T11-10-10-wedjat-e5a0/backup/vendor/godseye-lite/dist/assets/studio-WGq3jXIg.js [a live key value]; home/AUH/Blacksite/data/lanes/2026-10-28T11-10-10-wedjat-e5a0/backup/vendor/godseye-lite/src/wedjat/studio.js [a live key value]; home/AUH/Blacksite/research/study-1108/vidrush/pages/builtin.html [google api key]; home/AUH/Loop/jobs/verse/_config/active-hotkeys.json [a live key value]; home/AUH/Loop/src/components/AudioDashboard.tsx [a live key value]
-- Left out (over size cap): home/AUH/Blacksite/data/packages/ep-mvfpm7ln-770d0be167.zip (104 MB); home/AUH/Blacksite/data/wedjat-adsb/2026-10-21.json (134 MB)
-- Fix: move the key into the folder's .env (the keys backup picks it up) or add the path to secret_allow in ~/.auh-git/projects/tubeloop/project.json if it is not a real key.
-- Status: blocked — needs an agent to look
-
----
-
-## 2026-11-12 21:08 EAT — TEHUTI — TubeLoop backup kept the last saved copy of a folder that shrank or vanished
-<!-- type: event -->
-**From:** TEHUTI
-
-TubeLoop backup kept the last saved copy of a folder that shrank or vanished
-- Kept last saved version (safety): home/AUH/CloneEngine — lost 174 of 175 files
-- Status: blocked — needs an agent to look
-
----
-
-## 2026-11-12 21:25 EAT — TEHUTI — DSH wired into Memoir: MCP bridge, all Hermes skills, ported bot brains
-<!-- type: event -->
-**From:** TEHUTI
-
-DSH wired into Memoir: MCP bridge, all Hermes skills, ported bot brains
-- Harness: DeepSeek Harness (deepseek-flash); repaired and re-attributed at 21:31 EAT (the 21:25 write had a malformed tool-call line and the bridge defaulted to Claude Code)
-- What happened: Changed: DeepSeek Harness is now a first-class harness on the shared brain. (1) Installed profile bundle `@local/memoir-bridge` (workspace `plugins/memoir-bridge`) that mounts the existing AUH stdio MCP bridge as server `memoir`; 24 tools registered live in DSH (knowledge context/find/map/catalog/page/source/search/append, log_shortterm, read_context, memory_search, journal_status, lexicon, system_map, hermes_* and codex_* read-only session readers). failOnStartupError stays false so a stopped Memoir can never block harness start; CLI fallback unchanged. (2) Built the single-router skill `~/.agents/skills/hermes-skills` over EVERY Hermes skill: 307 active Hermes + 7 Codex/.agents + 175 archived = 489 entries, with `scripts/find.py` (ranked, bounded lookup) and `scripts/sync.py` (idempotent regeneration). No per-skill symlinks and no copies of skill bodies, so the DSH skill catalog gains exactly one entry instead of 300+. (3) Ported the four Hermes bots' brains into DSH: `~/.dsh/AUH-BRAIN.md` holds the full port (roster, shared doctrine, per-bot specifics, harness-only items, conflicts, open questions) and `~/.dsh/AGENTS.md` is the always-on contract (Memoir boot order across journals/workspace/memory/projects/evidence, authority ladder, write-back, four bots, standing laws, Hermes-to-DSH translation, prohibitions). Why-verdict: Ambi asked to port all Hermes Agent bots' memory and all Hermes Agent skills into this harness without bloating it, and to treat every Memoir section as the brain. One router plus a ported instruction file does that without a second store. Status: complete for the wiring; only follow-up is Ambi's call on the flagged Hermes doctrine conflicts (default model, Claude-only, War Maps ownership, LOT Day timing). Verification: `mcp__memoir__auh_knowledge_context` returned the live harness route; MCP tools are callable from this session; bundle install reported application applied and the row `mcp-memoir` is enabled; router counts match the filesystem (find = 482 SKILL.md - 175 archive = 307) and all 489 catalog paths exist; sync.py re-run reports no change; `~/.dsh/AGENTS.md` loaded by DSH baseline instructions in a live session. Related: `~/.dsh/AGENTS.md`, `~/.dsh/AUH-BRAIN.md`, `~/.agents/skills/hermes-skills/CATALOG.md`, `plugins/memoir-bridge/cordis.patch.yml`.</summary>
-- Files changed: /Users/Mungura/Documents/deepseek-harness/default-workspace/plugins/memoir-bridge/package.json; /Users/Mungura/Documents/deepseek-harness/default-workspace/plugins/memoir-bridge/cordis.patch.yml; /Users/Mungura/Documents/deepseek-harness/default-workspace/plugins/memoir-bridge/locale/en.json; /Users/Mungura/Documents/deepseek-harness/default-workspace/plugins/memoir-bridge/docs/DETAIL.md; /Users/Mungura/Documents/deepseek-harness/default-workspace/plugins/memoir-bridge/icon.svg; /Users/Mungura/.agents/skills/hermes-skills/SKILL.md; /Users/Mungura/.agents/skills/hermes-skills/CATALOG.md; /Users/Mungura/.agents/skills/hermes-skills/scripts/sync.py; /Users/Mungura/.agents/skills/hermes-skills/scripts/find.py; /Users/Mungura/.dsh/AGENTS.md; /Users/Mungura/.dsh/AUH-BRAIN.md; /Users/Mungura/.claude/auh/bridge/auh-bridge.mjs; /Users/Mungura/Documents/deepseek-harness/default-workspace/hermes-port/BRAIN-DIGEST.md
-- Verification: MCP context route returned; 24 mcp__memoir__ tools registered and callable; sync.py idempotent (no change); find.py resolves real paths; catalog 489/489 paths exist; bundle application applied, row mcp-memoir enabled; AGENTS.md loaded as DSH baseline instructions.
-- Status: complete — DSH reads and writes Memoir over MCP; 489 skills reachable via one router; four bots' brains ported; no second store
-
----
-
-## 2026-11-12 21:48 EAT — MUNGURA — Daily journal generated for 2026-11-11; status=success; db_length=32640; source_hash=5b82fbd0e831.
-<!-- type: event -->
-**From:** MUNGURA
-
-Daily journal generated for 2026-11-11; status=success; db_length=32640; source_hash=5b82fbd0e831.
-
----
-
-### [21:48] Exchange: Daily journal worker run for 2026-11-11
-
-**From:** MUNGURA
-**Context:** Permanent daily journal worker executed in `catch-up` mode.
-
-**Actions:**
-- Target date: `2026-11-11`.
-- Result status: `success`.
-- Daily path: `/Users/Mungura/debate-agent/memory/daily/2026-11-11.md`.
-- SUMMARY path: `/Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-11.md`.
-- DB row length: `32640`.
-- Status pointer: `/Users/Mungura/debate-agent/memory/daily/journal-status.json`.
-
-**Files Changed:** /Users/Mungura/debate-agent/memory/daily/2026-11-11.md, /Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-11.md, /Users/Mungura/debate-agent/memory/daily/evidence-digests/2026-11-11.json, /Users/Mungura/debate-agent/memory/daily/journal-status.json, /Users/Mungura/debate-agent/memory/memory.db.
-**Journal Dates Repaired:** 2026-11-11.
-**Scheduler Touched:** status pointer only.
-**Routes Touched:** dashboard API log attempted; status route verification handled separately.
-**Tests Run:** `catch-up`.
-**Verification Results:** files written, SUMMARY mirror written, DB length=32640, api_log_status=200.
-**Failures:** none.
-**Next Action:** verify dashboard routes and scheduler persistence.
-
-**Status:** complete.
-**Tags:** [memory, daily-journal, scheduler]
-
-## 2026-11-12 21:48 EAT — TEHUTI — Hermes bots wired into DeepSeek Harness as live tools
-<!-- type: event -->
-**From:** TEHUTI
-
-Hermes bots wired into DeepSeek Harness as live tools
-- Harness: DeepSeek Harness
-- What happened: Built and installed @local/hermes-bots: a stdio MCP bridge (plugins/hermes-bots/bridge/hermes-bots.mjs) mounted as DSH server hermesbots, giving this harness bot_list, bot_ask, bot_broadcast, bot_status over the four Hermes profiles. Each ask runs hermes -p <profile> -z, so the bot loads its own SOUL, memory, skills, rules and cron; the run lands as an ordinary oneshot session in that profile's own state.db. Note the profile selector must be -p: HERMES_PROFILE alone re-homes the database but leaves identity at the sticky default (first bridge test had every bot answering as Mungura until -p was used). Verified live in this session: bot_list 4 bots in 0.65s; bot_ask titus 5.3-9.1s with correct profile identity; bot_broadcast to all four in parallel, 15.3s wall, 4/4 distinct answers (electrika, gericho, titus named themselves correctly; default answered as gericho/Mungura per its SOUL). Bot inventory: all four gateways running, SOUL + memories present, model deepseek-flash, cron default 21 / electrika 2 / gericho 0 / titus 0 (gericho and titus inherit nothing; an early bridge build wrongly reported 21 inherited jobs, fixed in code). Stronger-model routes on this machine: anthropic, openai-codex, deepseek, zai all logged in, so a per-bot model override is available without new keys. Computer use: this DSH session has no computer-use tool; DSH ships an optional @deepseek-ai/dsh-cua-bundle (disabled, needs macOS permission grants), so the Hermes side was set up and verified through Hermes' own CLI instead of the GUI.
-- Files changed: /Users/Mungura/Documents/deepseek-harness/default-workspace/plugins/hermes-bots/package.json; /Users/Mungura/Documents/deepseek-harness/default-workspace/plugins/hermes-bots/cordis.patch.yml; /Users/Mungura/Documents/deepseek-harness/default-workspace/plugins/hermes-bots/bridge/hermes-bots.mjs; /Users/Mungura/Documents/deepseek-harness/default-workspace/plugins/hermes-bots/locale/en.json; /Users/Mungura/Documents/deepseek-harness/default-workspace/plugins/hermes-bots/docs/DETAIL.md; /Users/Mungura/Documents/deepseek-harness/default-workspace/plugins/hermes-bots/README.md; /Users/Mungura/Documents/deepseek-harness/default-workspace/plugins/hermes-bots/icon.svg
-- Verification: bot_list via mcp__hermesbots__bot_list returned 4 profiles with gateway running and per-profile session counts (titus 3→5 after the two probe runs, last_activity 18:46 UTC = 21:46 EAT, confirming the runs wrote to titus's own state.db); bot_ask titus returned profile id + lane in 5.3s; bot_broadcast returned 4/4 in 15,268 ms with distinct identities; bridge standalone JSON-RPC tested for initialize/tools/list/tools/call; plugin_manager install_bundle reported application applied with no warnings; list_bundles shows @local/hermes-bots enabled with row mcp-hermes-bots.
-- Status: complete — plugin installed and applied; 4 tools live and exercised; bot model choice and a UI panel left as Ambi's call
-
----
-
-## 2026-11-12 21:52 EAT — MUNGURA — Daily journal generated for 2026-11-10; status=success; db_length=64092; source_hash=40df60d4721d.
-<!-- type: event -->
-**From:** MUNGURA
-
-Daily journal generated for 2026-11-10; status=success; db_length=64092; source_hash=40df60d4721d.
-
----
-
-### [21:52] Exchange: Daily journal worker run for 2026-11-10
-
-**From:** MUNGURA
-**Context:** Permanent daily journal worker executed in `manual` mode.
-
-**Actions:**
-- Target date: `2026-11-10`.
-- Result status: `success`.
-- Daily path: `/Users/Mungura/debate-agent/memory/daily/2026-11-10.md`.
-- SUMMARY path: `/Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-10.md`.
-- DB row length: `64092`.
-- Status pointer: `/Users/Mungura/debate-agent/memory/daily/journal-status.json`.
-
-**Files Changed:** /Users/Mungura/debate-agent/memory/daily/2026-11-10.md, /Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-10.md, /Users/Mungura/debate-agent/memory/daily/evidence-digests/2026-11-10.json, /Users/Mungura/debate-agent/memory/daily/journal-status.json, /Users/Mungura/debate-agent/memory/memory.db, /Users/Mungura/debate-agent/memory/daily/_backups/2026-11-10.md.pre-sonnet5-repair-20261112_214840.bak, /Users/Mungura/debate-agent/memory/daily/_backups/SUMMARY-2026-11-10.md.pre-sonnet5-repair-20261112_214840.bak.
-**Journal Dates Repaired:** 2026-11-10.
-**Scheduler Touched:** status pointer only.
-**Routes Touched:** dashboard API log attempted; status route verification handled separately.
-**Tests Run:** `manual`.
-**Verification Results:** files written, SUMMARY mirror written, DB length=64092, api_log_status=200.
-**Failures:** none.
-**Next Action:** verify dashboard routes and scheduler persistence.
-
-**Status:** complete.
-**Tags:** [memory, daily-journal, scheduler]
-
-## 2026-11-12 21:52 EAT — TEHUTI — Nightly journal off Anthropic: DeepSeek Flash low, missing days 10-11 backfilled
-<!-- type: event -->
-**From:** TEHUTI
-
-Nightly journal off Anthropic: DeepSeek Flash low, missing days 10-11 backfilled
-- Harness: DeepSeek Harness (deepseek-flash)
-- What happened: Changed: the nightly daily journal and the weekly long-term summary now run on DeepSeek, Ambi's 2026-11-12 call. `~/debate-agent/scripts/scheduled_model.py` routes journals to `deepseek-flash` with reasoning `low` first and `deepseek-v4-pro` with `low` as the safety net; no Anthropic route remains. The canonical constants PROVIDER/MODEL/REASONING/DISPLAY moved to deepseek/deepseek-flash/low/DeepSeek Flash. Daily and weekly status text no longer hardcodes Claude: the weekly status builds MODEL_ROUTE_TEXT from JOURNAL_ROUTES, and the daily `provider_policy` and `sub_agent.route` now read from the live route. Argparse text, docstrings and the retired-model alias map were updated so old `--model claude-haiku-5.5` callers still resolve to the canonical DeepSeek model. Ran a real catch-up: 2026-11-10 (64,667 chars) and 2026-11-11 (32,919 chars) dailies generated with SUMMARY mirrors, DB lengths 64,092 and 32,640, validation passed. The first real run exposed a self-inflicted NameError (`MODEL` vs `MODEL_CANONICAL`) in the status block; fixed, then re-ran and forced 2026-11-10 once so its status record is truthful. Brain updated in three places: `~/.hermes/memories/MEMORY.md` MODEL ROUTING line, `~/.dsh/AGENTS.md`, `~/.dsh/AUH-BRAIN.md` now say journals and weekly summaries run DeepSeek Flash low since 2026-11-12, off Anthropic. Why-verdict: Ambi said switch the nightly journal off Anthropic to DeepSeek from now on and low thinking is fine; the Anthropic routes had been failing since 10 Nov (Haiku 5.5 and Opus 5 both errored), leaving three days without dailies. Status: complete. Next scheduled run 2026-11-13 00:05 (launchd com.auh.daily-journal) then 00:07 (backend safety net) will generate 2026-11-12 on the new route; the weekly job inherits the same routes. Verification: 6/6 `unittest test_scheduled_model` pass including the two-route fallback test; `hermes chat --provider deepseek --reasoning low -m deepseek-flash` and `-m deepseek-v4-pro` both answered OK; catch-up exited 0; journal-status.json shows last_run_status success, provider deepseek, model deepseek-flash, reasoning low, and both dates success; files and DB rows exist for both days. Side effect to know: `scheduled_model.run_scheduled_routes` is an alias of the journal route runner, so the LOT Community generator moves to DeepSeek as well.
-- Files changed: /Users/Mungura/debate-agent/scripts/scheduled_model.py; /Users/Mungura/debate-agent/scripts/generate_daily_journal_gpt55.py; /Users/Mungura/debate-agent/scripts/generate_weekly_summary_gpt55.py; /Users/Mungura/debate-agent/memory/daily/journal-status.json; /Users/Mungura/debate-agent/memory/daily/2026-11-10.md; /Users/Mungura/debate-agent/memory/daily/2026-11-11.md; /Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-10.md; /Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-11.md; /Users/Mungura/.hermes/memories/MEMORY.md; /Users/Mungura/.dsh/AGENTS.md; /Users/Mungura/.dsh/AUH-BRAIN.md
-- Verification: tests 6/6; both DeepSeek models answered via Hermes CLI; catch-up exit 0; journal-status provider deepseek / model deepseek-flash / reasoning low / last success 2026-11-11; daily files 2026-11-10.md + 2026-11-11.md and DB rows present; validation passed in both result payloads.
-- Status: complete — journals and weekly on DeepSeek Flash low; both missing days generated; next run 2026-11-13 00:05
-
----
-
-## 2026-11-12 21:54 EAT — TEHUTI — Gaps closed: CUA + Codex provider installed, fleet strip built, bots→harness designed
-<!-- type: event -->
-**From:** TEHUTI
-
-Gaps closed: CUA + Codex provider installed, fleet strip built, bots→harness designed
-- Harness: DeepSeek Harness
-- What happened: Closed the gaps Ambi named, in the only order the runtime allows. (1) Computer use: installed @deepseek-ai/dsh-cua-bundle 0.2.2-alpha.2 from the official catalog; install reported restart-required (package-moved), so CUA tools appear after a DSH restart plus macOS Accessibility and Screen Recording grants. (2) Coding quality: installed @deepseek-ai/dsh-subagent-codex 0.2.2-rc.2 (restart-required) so Codex can serve as a subagent provider inside this harness; skipped @deepseek-ai/dsh-subagent-claude-code on purpose because the 2026-11-12 lanes both returned "Credit balance is too low" (credit dead, not a code gap). (3) Visibility: @local/hermes-bots grew from a config-only MCP bundle to a real plugin — Host index.js registers GET 
-
-_[truncated in this pack; full day log stays on the machine]
-
 ## 2026-11-13
 
 > Message-level context for this day. Auto-logged.
@@ -1637,3 +1418,75 @@ Daily journal generated for 2026-11-17; status=success; db_length=46398; source_
 **Changed.** Kemet unified six times (Narmer, Mentuhotep II, Ahmose I, Piye, Psamtik I, Ptolemaic consolidation), five of them res
 
 _[truncated in this pack; full day log stays on the machine]
+
+## 2026-11-19
+
+> Message-level context for this day. Auto-logged.
+
+---
+
+## 2026-11-19 00:09 EAT — MUNGURA — Daily journal generated for 2026-11-18; status=success; db_length=45247; source_hash=96cbdd3c51c6.
+<!-- type: event -->
+**From:** MUNGURA
+
+Daily journal generated for 2026-11-18; status=success; db_length=45247; source_hash=96cbdd3c51c6.
+
+---
+
+### [00:09] Exchange: Daily journal worker run for 2026-11-18
+
+**From:** MUNGURA
+**Context:** Permanent daily journal worker executed in `scheduler` mode.
+
+**Actions:**
+- Target date: `2026-11-18`.
+- Result status: `success`.
+- Daily path: `/Users/Mungura/debate-agent/memory/daily/2026-11-18.md`.
+- SUMMARY path: `/Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-18.md`.
+- DB row length: `45247`.
+- Status pointer: `/Users/Mungura/debate-agent/memory/daily/journal-status.json`.
+
+**Files Changed:** /Users/Mungura/debate-agent/memory/daily/2026-11-18.md, /Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-18.md, /Users/Mungura/debate-agent/memory/daily/evidence-digests/2026-11-18.json, /Users/Mungura/debate-agent/memory/daily/journal-status.json, /Users/Mungura/debate-agent/memory/memory.db.
+**Journal Dates Repaired:** 2026-11-18.
+**Scheduler Touched:** status pointer only.
+**Routes Touched:** dashboard API log attempted; status route verification handled separately.
+**Tests Run:** `scheduler`.
+**Verification Results:** files written, SUMMARY mirror written, DB length=45247, api_log_status=200.
+**Failures:** none.
+**Next Action:** verify dashboard routes and scheduler persistence.
+
+**Status:** complete.
+**Tags:** [memory, daily-journal, scheduler]
+
+## 2026-11-19 00:25 EAT — MUNGURA — Daily journal generated for 2026-11-18; status=success; db_length=45245; source_hash=ad9f99b332d8.
+<!-- type: event -->
+**From:** MUNGURA
+
+Daily journal generated for 2026-11-18; status=success; db_length=45245; source_hash=ad9f99b332d8.
+
+---
+
+### [00:25] Exchange: Daily journal worker run for 2026-11-18
+
+**From:** MUNGURA
+**Context:** Permanent daily journal worker executed in `scheduler` mode.
+
+**Actions:**
+- Target date: `2026-11-18`.
+- Result status: `success`.
+- Daily path: `/Users/Mungura/debate-agent/memory/daily/2026-11-18.md`.
+- SUMMARY path: `/Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-18.md`.
+- DB row length: `45245`.
+- Status pointer: `/Users/Mungura/debate-agent/memory/daily/journal-status.json`.
+
+**Files Changed:** /Users/Mungura/debate-agent/memory/daily/2026-11-18.md, /Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-18.md, /Users/Mungura/debate-agent/memory/daily/evidence-digests/2026-11-18.json, /Users/Mungura/debate-agent/memory/daily/journal-status.json, /Users/Mungura/debate-agent/memory/memory.db, /Users/Mungura/debate-agent/memory/daily/_backups/2026-11-18.md.pre-sonnet5-repair-20261119_002055.bak, /Users/Mungura/debate-agent/memory/daily/_backups/SUMMARY-2026-11-18.md.pre-sonnet5-repair-20261119_002055.bak.
+**Journal Dates Repaired:** 2026-11-18.
+**Scheduler Touched:** status pointer only.
+**Routes Touched:** dashboard API log attempted; status route verification handled separately.
+**Tests Run:** `scheduler`.
+**Verification Results:** files written, SUMMARY mirror written, DB length=45245, api_log_status=200.
+**Failures:** none.
+**Next Action:** verify dashboard routes and scheduler persistence.
+
+**Status:** complete.
+**Tags:** [memory, daily-journal, scheduler]

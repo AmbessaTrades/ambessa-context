@@ -4,272 +4,6 @@ Last three generated summaries. Use for trend, not for proof.
 
 ---
 
-## 2026-11-15
-
-# Daily Summary: 2026-11-15
-
-<!-- auh-journal-index:start -->
-## Index — the day
-
-> Linked brief of the original records. Verification labels describe what the source reports; they are not an independent audit.
-
-### Other meaningful work · index
-- **Alternate model fallback** — **Changed (logged):** Alternate model fallback: disabled; failure leaves short-term logs untouched. [Logged detail](#run-provenance)
-
-_Filtered 18 routine, duplicate, or low-signal entries from this index; the source text remains below._
-<!-- auh-journal-index:end -->
-
-
-## SOURCE INVENTORY
-
-- **Short-term log:** yes · chars=15891 · `/Users/Mungura/debate-agent/memory/shortterm/2026-11-15.md`
-- **Unified event stream:** eligible_for_daily rows=5 · `/Users/Mungura/debate-agent/events/events.db`
-- **Reports/artifacts:** 0 files from `/Users/Mungura/debate-agent/jobs/viz/_reports`
-- **Hermes session transcripts:** 0 files from `/Users/Mungura/.hermes/sessions`
-- **File modification evidence:** 10 high-signal files across debate-agent + TubeLoop roots
-- **Memory DB:** `/Users/Mungura/debate-agent/memory/memory.db`
-- **Event DB:** `/Users/Mungura/debate-agent/events/events.db`
-- **Noise policy:** heartbeat/scanner/scheduler/debate-chatter rows excluded unless they carry files, routes, tests, failures, or explicit user decisions.
-- **Representative file evidence:** `/Users/Mungura/debate-agent/memory/shortterm/2026-11-15.md`; `/Users/Mungura/debate-agent/memory/vault/90 Sources/c10b55d4b4ee30c55c2507be.md`; `/Users/Mungura/AUH/Loop/data/loop/lot/studio/2026-11-15.json`; `/Users/Mungura/AUH/Loop/data/revenue-autopilot/notion/2026-11-15T16-51-05-504Z.json`; `/Users/Mungura/AUH/Loop/data/loop/lot/films.json`; `/Users/Mungura/AUH/Loop/data/shots/engine/engine.json`; `/Users/Mungura/AUH/Loop/data/shots/engine/LOT-VIZ-SHADOW-BEING-ENGINE_V27.0.txt`; `/Users/Mungura/AUH/Loop/data/revenue-autopilot/notion/2026-11-15T02-50-48-075Z.json`; `/Users/Mungura/debate-agent/memory/vault/50 TubeLoop/Library of Tehuti.md`; `/Users/Mungura/AUH/Loop/data/revenue-autopilot/public/2026-11-14T23-17-54-492Z.json`
-
----
-
----
-
-## EXECUTIVE SUMMARY
-
-- Source-backed operational summary generated from 12 signal entries and 0 excluded/noise entries. No unsupported facts were added by the deterministic validator.
-
----
-
-## TIMELINE
-
-- 02:19 — Daily journal generated for 2026-11-14; status=success; db_length=13869; source_hash=8f1024d7d047.
-- 02:19 — Exchange: Daily journal worker run for 2026-11-14
-- 02:26 — Day opened: Memoir pass, disk at 98%, LOT silent since 2 Nov
-- 06:10 — VMake daily study: LOT thumbnails vs performance
-- 06:23 — TubeLoop backup left out 7 file(s) that contain keys
-- 06:23 — TubeLoop backup kept the last saved copy of a folder that shrank or vanished
-- 23:09 — Profile picture de-AI prompt pack (V4 base)
-- 02:19 — Unified Event: Daily journal generated for 2026-11-14; status=success; db_length=13869; source_hash=8f1024d7d047.
-- 06:23 — Unified Event: TubeLoop backup left out 7 file(s) that contain keys
-- 06:23 — Unified Event: TubeLoop backup kept the last saved copy of a folder that shrank or vanished
-- 18:56 — Unified Event: TubeLoop backup kept the last saved copy of a folder that shrank or vanished
-- 00:00 — Source Evidence: File modification evidence — 10 high-signal files
-
----
-
-## MASSIVE KEY ACCOMPLISHMENTS
-
-- 02:26 — Day opened: Memoir pass, disk at 98%, LOT silent since 2 Nov
-- 06:10 — VMake daily study: LOT thumbnails vs performance
-- 06:23 — TubeLoop backup left out 7 file(s) that contain keys
-- 06:23 — TubeLoop backup kept the last saved copy of a folder that shrank or vanished
-- 23:09 — Profile picture de-AI prompt pack (V4 base)
-
----
-
-## KEY DECISIONS WITH REASONING
-
-- 06:23 TubeLoop backup kept the last saved copy of a folder that shrank or vanished (×3 today)
-
----
-
-## FILES MODIFIED / CREATED / MATERIALIZED
-
-- See `SOURCE INVENTORY` representative file evidence and report paths above.
-
----
-
-## ROUTES TOUCHED / VERIFIED
-
-- dashboard API log attempted; status route verification handled separately. (×5 today)
-- 06:23 Unified Event: TubeLoop backup left out 7 file(s) that contain keys
-- 06:23 Unified Event: TubeLoop backup kept the last saved copy of a folder that shrank or vanished (×2 today)
-
----
-
-## TESTS RUN
-
-- `scheduler`.
-
----
-
-## VERIFICATION RESULTS
-
-- Journal quality validator confirmed required source inventory/provenance scaffolding after journal worker synthesis.
-
----
-
-## FAILURES / BLOCKERS
-
-- none.
-- 02:26 Day opened: Memoir pass, disk at 98%, LOT silent since 2 Nov (×2 today)
-- 06:10 VMake daily study: LOT thumbnails vs performance (×2 today)
-- 06:23 TubeLoop backup left out 7 file(s) that contain keys
-- 06:23 TubeLoop backup kept the last saved copy of a folder that shrank or vanished
-
----
-
-## WHAT NOT TO DO
-
-- Do not treat heartbeat/scanner/scheduler noise as implementation work.
-
----
-
-## OPEN ITEMS / NEXT ACTIONS
-
-- verify dashboard routes and scheduler persistence.
-- 02:26 Day opened: Memoir pass, disk at 98%, LOT silent since 2 Nov
-- 23:09 Profile picture de-AI prompt pack (V4 base)
-
----
-
-## COST / USAGE NOTES
-
-- No source-backed items were extracted for this section after deterministic parsing.
-
----
-
-## ARTIFACTS / REPORTS WRITTEN
-
-- No report artifacts were modified or discovered for this date.
-
----
-
-## AGENT DISCOURSE / NOISE EXCLUSION
-
-- Excluded 0 low-signal entries from operational accomplishments. Agent/cron chatter is only retained when tied to files, routes, tests, failures, decisions, or user instructions.
-
----
-
-## DETERMINISTIC EVIDENCE DIGEST
-
-- **Date:** 2026-11-15
-- **Source hash:** `5ab29382c54329494fc6ec57740d1caf40a834667dc56e4b05c137b87d4811a9`
-- **Signal entries:** 12
-- **Noise entries excluded:** 0
-- **High-signal day:** False
-
-### Priority Source-Locked Highlights
-- Daily journal worker evidence
-
-### Source Inventory Counts
-- Shortterm chars: 15891
-- Eligible events: 5
-- Reports: 0
-- Sessions: 0
-- File evidence rows: 10
-
-### Accomplishments
-- 02:26 — Day opened: Memoir pass, disk at 98%, LOT silent since 2 Nov
-- 06:10 — VMake daily study: LOT thumbnails vs performance
-- 06:23 — TubeLoop backup left out 7 file(s) that contain keys
-- 06:23 — TubeLoop backup kept the last saved copy of a folder that shrank or vanished
-- 23:09 — Profile picture de-AI prompt pack (V4 base)
-
-### Prompt Task Phases
-- 23:09 Profile picture de-AI prompt pack (V4 base)
-- Daily journal worker evidence
-
-### Files Modified
-- /Users/Mungura/debate-agent/memory/daily/2026-11-14.md, /Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-14.md, /Users/Mungura/debate-agent/memory/daily/evidence-digests/2026-11-14.json, /Users/Mungura/debate-agent/memory/daily/journal-status.json, /Users/Mungura/debate-agent/memory/memory.db. (×4 today)
-- project-maps.json (×2 today)
-- public/latest.json
-- state.json.tmp
-- 06:10 VMake daily study: LOT thumbnails vs performance
-- PROMPT.md
-- README.md
-- /Users/Mungura/AUH/Loop/data/loop/lot/films.json (×2 today)
-- /Users/Mungura/AUH/Loop/data/loop/lot/studio/2026-11-15.json (×2 today)
-- /Users/Mungura/AUH/Loop/data/revenue-autopilot/notion/2026-11-15T02-50-48-075Z.json (×2 today)
-- /Users/Mungura/AUH/Loop/data/revenue-autopilot/notion/2026-11-15T16-51-05-504Z.json (×2 today)
-- /Users/Mungura/AUH/Loop/data/revenue-autopilot/public/2026-11-14T23-17-54-492Z.json (×2 today)
-- … 5 more source-backed items
-
-### Routes Touched
-- dashboard API log attempted; status route verification handled separately. (×5 today)
-- 06:23 Unified Event: TubeLoop backup left out 7 file(s) that contain keys
-- 06:23 Unified Event: TubeLoop backup kept the last saved copy of a folder that shrank or vanished (×2 today)
-
-### Jobs Tested
-- 02:26 Day opened: Memoir pass, disk at 98%, LOT silent since 2 Nov
-- 06:23 TubeLoop backup left out 7 file(s) that contain keys (×2 today)
-- 06:23 TubeLoop backup kept the last saved copy of a folder that shrank or vanished (×3 today)
-- 00:00 Source Evidence: File modification evidence — 10 high-signal files
-
-### Tests Run
-- `scheduler`.
-
-### Failures Blockers
-- none.
-- 02:26 Day opened: Memoir pass, disk at 98%, LOT silent since 2 Nov (×2 today)
-- 06:10 VMake daily study: LOT thumbnails vs performance (×2 today)
-- 06:23 TubeLoop backup left out 7 file(s) that contain keys
-- 06:23 TubeLoop backup kept the last saved copy of a folder that shrank or vanished
-
-### Decisions
-- 06:23 TubeLoop backup kept the last saved copy of a folder that shrank or vanished (×3 today)
-
-### Reports Written
-- 23:09 Profile picture de-AI prompt pack (V4 base)
-- 00:00 Source Evidence: File modification evidence — 10 high-signal files
-
-### Open Items
-- verify dashboard routes and scheduler persistence.
-- 02:26 Day opened: Memoir pass, disk at 98%, LOT silent since 2 Nov
-- 23:09 Profile picture de-AI prompt pack (V4 base)
-
-### Automation Changes
-- 02:26 Day opened: Memoir pass, disk at 98%, LOT silent since 2 Nov
-
-### Browser Verification
-- 06:10 VMake daily study: LOT thumbnails vs performance
-- 06:23 TubeLoop backup left out 7 file(s) that contain keys (×2 today)
-
-### Disk Verification
-- 02:26 Day opened: Memoir pass, disk at 98%, LOT silent since 2 Nov
-- 06:10 VMake daily study: LOT thumbnails vs performance
-- 23:09 Profile picture de-AI prompt pack (V4 base)
-
-### User Instructions
-- 02:26 Day opened: Memoir pass, disk at 98%, LOT silent since 2 Nov
-- 23:09 Profile picture de-AI prompt pack (V4 base)
-
-### Final Verdicts
-- 02:26 Day opened: Memoir pass, disk at 98%, LOT silent since 2 Nov
-- 23:09 Profile picture de-AI prompt pack (V4 base)
-
-### Safety Statuses
-- 02:26 Day opened: Memoir pass, disk at 98%, LOT silent since 2 Nov
-- 06:23 TubeLoop backup kept the last saved copy of a folder that shrank or vanished (×3 today)
-
-### Timeline
-- 02:19 — Daily journal generated for 2026-11-14; status=success; db_length=13869; source_hash=8f1024d7d047.
-- 02:19 — Exchange: Daily journal worker run for 2026-11-14
-- 02:26 — Day opened: Memoir pass, disk at 98%, LOT silent since 2 Nov
-- 06:10 — VMake daily study: LOT thumbnails vs performance
-- 06:23 — TubeLoop backup left out 7 file(s) that contain keys
-- 06:23 — TubeLoop backup kept the last saved copy of a folder that shrank or vanished
-- 23:09 — Profile picture de-AI prompt pack (V4 base)
-- 02:19 — Unified Event: Daily journal generated for 2026-11-14; status=success; db_length=13869; source_hash=8f1024d7d047.
-- 06:23 — Unified Event: TubeLoop backup left out 7 file(s) that contain keys
-- 06:23 — Unified Event: TubeLoop backup kept the last saved copy of a folder that shrank or vanished
-- 18:56 — Unified Event: TubeLoop backup kept the last saved copy of a folder that shrank or vanished
-- 00:00 — Source Evidence: File modification evidence — 10 high-signal files
-
----
-
-## RUN PROVENANCE
-
-- Source hash: `5ab29382c54329494fc6ec57740d1caf40a834667dc56e4b05c137b87d4811a9`.
-- Run mode: `catch-up`.
-- Generated at: 2026-11-18T00:33:28.
-- Alternate model fallback: disabled; failure leaves short-term logs untouched.
-
-<!-- auh_daily_journal: {"date": "2026-11-15", "generated_at": "2026-11-18T00:33:28", "mode": "catch-up", "model": "deepseek-flash", "model_display": "DeepSeek Flash 4.1", "provider": "deepseek", "reasoning": "medium", "source_hash": "5ab29382c54329494fc6ec57740d1caf40a834667dc56e4b05c137b87d4811a9", "status": "success"} -->
-
-
 ## 2026-11-16
 
 # Daily Summary: 2026-11-16
@@ -1043,3 +777,399 @@ _Filtered 60 routine, duplicate, or low-signal entries from this index; the sour
 - Alternate model fallback: disabled; failure leaves short-term logs untouched.
 
 <!-- auh_daily_journal: {"date": "2026-11-17", "generated_at": "2026-11-18T00:41:12", "mode": "catch-up", "model": "deepseek-flash", "model_display": "DeepSeek Flash 4.1", "provider": "deepseek", "reasoning": "medium", "source_hash": "082c6d4c778488a71ade52f969a7d542fffb9491f2c1effc8d06ff496b1d724c", "status": "success"} -->
+
+
+## 2026-11-18
+
+# Daily Summary: 2026-11-18
+
+<!-- auh-journal-index:start -->
+## Index — the day
+
+> Linked brief of the original records. Verification labels describe what the source reports; they are not an independent audit.
+
+### Other meaningful work · index
+- **none. (×10 today)** — **Changed (logged):** Recorded under FAILURES / BLOCKERS. **Status/open:** none. (×10 today) [Logged detail](#failures-blockers)
+- **Alternate model fallback** — **Changed (logged):** Alternate model fallback: disabled; failure leaves short-term logs untouched. [Logged detail](#run-provenance)
+
+_Filtered 35 routine, duplicate, or low-signal entries from this index; the source text remains below._
+<!-- auh-journal-index:end -->
+
+
+## SOURCE INVENTORY
+
+- **Short-term log:** yes · chars=66927 · `/Users/Mungura/debate-agent/memory/shortterm/2026-11-18.md`
+- **Unified event stream:** eligible_for_daily rows=10 · `/Users/Mungura/debate-agent/events/events.db`
+- **Reports/artifacts:** 0 files from `/Users/Mungura/debate-agent/jobs/viz/_reports`
+- **Hermes session transcripts:** 0 files from `/Users/Mungura/.hermes/sessions`
+- **File modification evidence:** 58 high-signal files across debate-agent + TubeLoop roots
+- **Memory DB:** `/Users/Mungura/debate-agent/memory/memory.db`
+- **Event DB:** `/Users/Mungura/debate-agent/events/events.db`
+- **Noise policy:** heartbeat/scanner/scheduler/debate-chatter rows excluded unless they carry files, routes, tests, failures, or explicit user decisions.
+- **Representative file evidence:** `/Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-17.md`; `/Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-16.md`; `/Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-15.md`; `/Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-14.md`; `/Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-13.md`; `/Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-12.md`; `/Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-11.md`; `/Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-10.md`; `/Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-09.md`; `/Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-08.md`; `/Users/Mungura/AUH/Loop/data/revenue-autopilot/notion/latest.json`; `/Users/Mungura/debate-agent/memory/shortterm/2026-11-18.md`
+
+---
+
+---
+
+## EXECUTIVE SUMMARY
+
+- Source-backed operational summary generated from 45 signal entries and 12 excluded/noise entries. No unsupported facts were added by the deterministic validator.
+
+---
+
+## TIMELINE
+
+- 00:04 — Daily journal generated for 2026-11-08; status=success; db_length=57949; source_hash=135968598845.
+- 00:04 — Exchange: Daily journal worker run for 2026-11-08
+- 00:10 — Daily journal generated for 2026-11-09; status=success; db_length=77062; source_hash=2a482716af31.
+- 00:10 — Exchange: Daily journal worker run for 2026-11-09
+- 00:15 — Daily journal generated for 2026-11-10; status=success; db_length=64341; source_hash=fef9d9c09c5e.
+- 00:15 — Exchange: Daily journal worker run for 2026-11-10
+- 00:21 — Daily journal generated for 2026-11-11; status=success; db_length=32639; source_hash=4199de27d62a.
+- 00:21 — Exchange: Daily journal worker run for 2026-11-11
+- 00:25 — Message to her checked: Kenyaplex holds, Somovibe does not, and the 22nd is a promise
+- 00:25 — Daily journal generated for 2026-11-12; status=success; db_length=34508; source_hash=af815ed7e819.
+- 00:25 — Exchange: Daily journal worker run for 2026-11-12
+- 00:26 — Daily journal generated for 2026-11-13; status=success; db_length=28807; source_hash=f189c57bf8bc.
+- 00:26 — Exchange: Daily journal worker run for 2026-11-13
+- 00:31 — Daily journal generated for 2026-11-14; status=success; db_length=13856; source_hash=533202dd777f.
+- 00:31 — Exchange: Daily journal worker run for 2026-11-14
+- 00:35 — Her answer: "I'll wait for Ambi and his company… the notes idea won't get things done"
+- 00:33 — Daily journal generated for 2026-11-15; status=success; db_length=14786; source_hash=5ab29382c543.
+- 00:33 — Exchange: Daily journal worker run for 2026-11-15
+- 00:35 — Daily journal generated for 2026-11-16; status=success; db_length=20194; source_hash=01b7fe121119.
+- 00:35 — Exchange: Daily journal worker run for 2026-11-16
+- 00:40 — Tested from Kenya: Mercor is open at $40–$75/hr, Outlier is a hard block
+- 00:41 — Daily journal generated for 2026-11-17; status=success; db_length=46398; source_hash=082c6d4c7784.
+- 00:41 — Exchange: Daily journal worker run for 2026-11-17
+- 12:10 — Part 29 written: five speaking sources and the drill spec
+- 13:40 — African phonetics: Meroitic cannot be translated, so its meanings cannot be claimed
+- 15:05 — Presenter lane: body cut-out + phone-to-mic study, compositor proved
+- 17:40 — Ledger model: Howard's method rebuilt for CARICOM
+- 18:20 — Three machines: Petrov reach, Howard rigour, Henderson's $28K decision
+- 17:55 — Gallery built (20 items) and the Nomad funnel walked end to end
+- 19:10 — The fork appended: government is one hypothesis, not the plan
+- 19:25 — One file, one library, appended to the venture topic
+- 19:45 — Correction: Tribeless material removed; sections not pages
+- 20:05 — Playbook landed in the context pack; the rule is now in every brain
+- 20:40 — Correction accepted: the product is software as a service, not a file
+- 00:04 — Unified Event: Daily journal generated for 2026-11-08; status=success; db_length=57949; source_hash=135968598845.
+
+---
+
+## MASSIVE KEY ACCOMPLISHMENTS
+
+- 00:25 — Message to her checked: Kenyaplex holds, Somovibe does not, and the 22nd is a promise
+- 00:35 — Her answer: "I'll wait for Ambi and his company… the notes idea won't get things done"
+- 00:40 — Tested from Kenya: Mercor is open at $40–$75/hr, Outlier is a hard block
+- 12:10 — Part 29 written: five speaking sources and the drill spec
+- 13:40 — African phonetics: Meroitic cannot be translated, so its meanings cannot be claimed
+- 15:05 — Presenter lane: body cut-out + phone-to-mic study, compositor proved
+- 17:40 — Ledger model: Howard's method rebuilt for CARICOM
+- 18:20 — Three machines: Petrov reach, Howard rigour, Henderson's $28K decision
+- 17:55 — Gallery built (20 items) and the Nomad funnel walked end to end
+- 19:10 — The fork appended: government is one hypothesis, not the plan
+- 19:25 — One file, one library, appended to the venture topic
+- 19:45 — Correction: Tribeless material removed; sections not pages
+- 20:05 — Playbook landed in the context pack; the rule is now in every brain
+- 20:40 — Correction accepted: the product is software as a service, not a file
+
+---
+
+## KEY DECISIONS WITH REASONING
+
+- 12:10 Part 29 written: five speaking sources and the drill spec
+- 18:20 Three machines: Petrov reach, Howard rigour, Henderson's $28K decision
+- 19:10 The fork appended: government is one hypothesis, not the plan
+- 19:25 One file, one library, appended to the venture topic
+- 20:40 Correction accepted: the product is software as a service, not a file
+
+---
+
+## FILES MODIFIED / CREATED / MATERIALIZED
+
+- See `SOURCE INVENTORY` representative file evidence and report paths above.
+
+---
+
+## ROUTES TOUCHED / VERIFIED
+
+- dashboard API log attempted; status route verification handled separately. (×20 today)
+
+---
+
+## TESTS RUN
+
+- `catch-up`. (×10 today)
+
+---
+
+## VERIFICATION RESULTS
+
+- Journal quality validator confirmed required source inventory/provenance scaffolding after journal worker synthesis.
+
+---
+
+## FAILURES / BLOCKERS
+
+- none. (×10 today)
+- 00:25 Message to her checked: Kenyaplex holds, Somovibe does not, and the 22nd is a promise
+- 00:35 Her answer: "I'll wait for Ambi and his company… the notes idea won't get things done"
+- 00:40 Tested from Kenya: Mercor is open at $40–$75/hr, Outlier is a hard block
+- 15:05 Presenter lane: body cut-out + phone-to-mic study, compositor proved
+- 17:40 Ledger model: Howard's method rebuilt for CARICOM
+- 19:25 One file, one library, appended to the venture topic
+- 19:45 Correction: Tribeless material removed; sections not pages
+- 20:05 Playbook landed in the context pack; the rule is now in every brain
+- 20:40 Correction accepted: the product is software as a service, not a file
+
+---
+
+## WHAT NOT TO DO
+
+- Do NOT accept empty category scaffolding on high-signal days when source inventory proves evidence exists.
+- Do NOT let global/stale UI state masquerade as job-specific backend truth.
+- Do NOT overwrite existing daily/weekly summaries without backups and validation.
+- Do NOT bypass the configured scheduled worker or silently fall back to another provider.
+- Do NOT hide failures such as stale processes, parser bugs, model/agent availability issues, or synthetic proof timeouts.
+
+---
+
+## OPEN ITEMS / NEXT ACTIONS
+
+- verify dashboard routes and scheduler persistence. (×10 today)
+- 15:05 Presenter lane: body cut-out + phone-to-mic study, compositor proved
+- 20:40 Correction accepted: the product is software as a service, not a file
+
+---
+
+## COST / USAGE NOTES
+
+- 00:40 Tested from Kenya: Mercor is open at $40–$75/hr, Outlier is a hard block
+- 17:40 Ledger model: Howard's method rebuilt for CARICOM
+- 18:20 Three machines: Petrov reach, Howard rigour, Henderson's $28K decision
+- 17:55 Gallery built (20 items) and the Nomad funnel walked end to end
+- 19:10 The fork appended: government is one hypothesis, not the plan
+- 19:25 One file, one library, appended to the venture topic
+- 19:45 Correction: Tribeless material removed; sections not pages
+- 20:05 Playbook landed in the context pack; the rule is now in every brain
+- 20:40 Correction accepted: the product is software as a service, not a file
+
+---
+
+## ARTIFACTS / REPORTS WRITTEN
+
+- 00:25 Message to her checked: Kenyaplex holds, Somovibe does not, and the 22nd is a promise
+- 00:35 Her answer: "I'll wait for Ambi and his company… the notes idea won't get things done"
+- 00:40 Tested from Kenya: Mercor is open at $40–$75/hr, Outlier is a hard block
+- 12:10 Part 29 written: five speaking sources and the drill spec
+- 15:05 Presenter lane: body cut-out + phone-to-mic study, compositor proved
+- 17:40 Ledger model: Howard's method rebuilt for CARICOM
+- 18:20 Three machines: Petrov reach, Howard rigour, Henderson's $28K decision
+- 17:55 Gallery built (20 items) and the Nomad funnel walked end to end
+- 19:10 The fork appended: government is one hypothesis, not the plan
+- 19:25 One file, one library, appended to the venture topic
+- 19:45 Correction: Tribeless material removed; sections not pages
+- 20:05 Playbook landed in the context pack; the rule is now in every brain
+- 20:40 Correction accepted: the product is software as a service, not a file
+- 00:00 Source Evidence: File modification evidence — 58 high-signal files
+
+---
+
+## AGENT DISCOURSE / NOISE EXCLUSION
+
+- Excluded 12 low-signal entries from operational accomplishments. Agent/cron chatter is only retained when tied to files, routes, tests, failures, decisions, or user instructions.
+
+---
+
+## DETERMINISTIC EVIDENCE DIGEST
+
+- **Date:** 2026-11-18
+- **Source hash:** `ad9f99b332d8961fbad9ee9d1b99d5e149f2bfb3415ca9039b35395348b4e1a2`
+- **Signal entries:** 45
+- **Noise entries excluded:** 12
+- **High-signal day:** True
+
+### Priority Source-Locked Highlights
+- Daily journal worker evidence
+
+### Source Inventory Counts
+- Shortterm chars: 66927
+- Eligible events: 10
+- Reports: 0
+- Sessions: 0
+- File evidence rows: 58
+
+### Accomplishments
+- 00:25 — Message to her checked: Kenyaplex holds, Somovibe does not, and the 22nd is a promise
+- 00:35 — Her answer: "I'll wait for Ambi and his company… the notes idea won't get things done"
+- 00:40 — Tested from Kenya: Mercor is open at $40–$75/hr, Outlier is a hard block
+- 12:10 — Part 29 written: five speaking sources and the drill spec
+- 13:40 — African phonetics: Meroitic cannot be translated, so its meanings cannot be claimed
+- 15:05 — Presenter lane: body cut-out + phone-to-mic study, compositor proved
+- 17:40 — Ledger model: Howard's method rebuilt for CARICOM
+- 18:20 — Three machines: Petrov reach, Howard rigour, Henderson's $28K decision
+- 17:55 — Gallery built (20 items) and the Nomad funnel walked end to end
+- 19:10 — The fork appended: government is one hypothesis, not the plan
+- 19:25 — One file, one library, appended to the venture topic
+- 19:45 — Correction: Tribeless material removed; sections not pages
+- … 2 more source-backed items
+
+### Prompt Task Phases
+- 00:35 Her answer: "I'll wait for Ambi and his company… the notes idea won't get things done"
+- 12:10 Part 29 written: five speaking sources and the drill spec
+- Daily journal worker evidence
+
+### Files Modified
+- /Users/Mungura/debate-agent/memory/daily/2026-11-08.md, /Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-08.md, /Users/Mungura/debate-agent/memory/daily/evidence-digests/2026-11-08.json, /Users/Mungura/debate-agent/memory/daily/journal-status.json, /Users/Mungura/debate-agent/memory/memory.db, /Users/Mungura/debate-agent/memory/daily/_backups/2026-1… (×17 today)
+- /Users/Mungura/debate-agent/memory/daily/2026-11-09.md, /Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-09.md, /Users/Mungura/debate-agent/memory/daily/evidence-digests/2026-11-09.json, /Users/Mungura/debate-agent/memory/daily/journal-status.json, /Users/Mungura/debate-agent/memory/memory.db, /Users/Mungura/debate-agent/memory/daily/_backups/2026-1… (×7 today)
+- /Users/Mungura/debate-agent/memory/daily/2026-11-10.md, /Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-10.md, /Users/Mungura/debate-agent/memory/daily/evidence-digests/2026-11-10.json, /Users/Mungura/debate-agent/memory/daily/journal-status.json, /Users/Mungura/debate-agent/memory/memory.db, /Users/Mungura/debate-agent/memory/daily/_backups/2026-1… (×7 today)
+- /Users/Mungura/debate-agent/memory/daily/2026-11-11.md, /Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-11.md, /Users/Mungura/debate-agent/memory/daily/evidence-digests/2026-11-11.json, /Users/Mungura/debate-agent/memory/daily/journal-status.json, /Users/Mungura/debate-agent/memory/memory.db, /Users/Mungura/debate-agent/memory/daily/_backups/2026-1… (×7 today)
+- MASTER-BRIEF.md (×4 today)
+- /Users/Mungura/debate-agent/memory/daily/2026-11-12.md, /Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-12.md, /Users/Mungura/debate-agent/memory/daily/evidence-digests/2026-11-12.json, /Users/Mungura/debate-agent/memory/daily/journal-status.json, /Users/Mungura/debate-agent/memory/memory.db, /Users/Mungura/debate-agent/memory/daily/_backups/2026-1… (×7 today)
+- /Users/Mungura/debate-agent/memory/daily/2026-11-13.md, /Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-13.md, /Users/Mungura/debate-agent/memory/daily/evidence-digests/2026-11-13.json, /Users/Mungura/debate-agent/memory/daily/journal-status.json, /Users/Mungura/debate-agent/memory/memory.db, /Users/Mungura/debate-agent/memory/daily/_backups/2026-1… (×8 today)
+- /Users/Mungura/debate-agent/memory/daily/2026-11-14.md, /Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-14.md, /Users/Mungura/debate-agent/memory/daily/evidence-digests/2026-11-14.json, /Users/Mungura/debate-agent/memory/daily/journal-status.json, /Users/Mungura/debate-agent/memory/memory.db, /Users/Mungura/debate-agent/memory/daily/_backups/2026-1… (×9 today)
+- 2026-11-18.md (×4 today)
+- /Users/Mungura/debate-agent/memory/daily/2026-11-15.md, /Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-15.md, /Users/Mungura/debate-agent/memory/daily/evidence-digests/2026-11-15.json, /Users/Mungura/debate-agent/memory/daily/journal-status.json, /Users/Mungura/debate-agent/memory/memory.db, /Users/Mungura/debate-agent/memory/daily/_backups/2026-1… (×9 today)
+- /Users/Mungura/debate-agent/memory/daily/2026-11-16.md, /Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-16.md, /Users/Mungura/debate-agent/memory/daily/evidence-digests/2026-11-16.json, /Users/Mungura/debate-agent/memory/daily/journal-status.json, /Users/Mungura/debate-agent/memory/memory.db. (×9 today)
+- /Users/Mungura/debate-agent/memory/daily/2026-11-17.md, /Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-17.md, /Users/Mungura/debate-agent/memory/daily/evidence-digests/2026-11-17.json, /Users/Mungura/debate-agent/memory/daily/journal-status.json, /Users/Mungura/debate-agent/memory/memory.db, /Users/Mungura/debate-agent/memory/daily/_backups/2026-1… (×9 today)
+- … 23 more source-backed items
+
+### Routes Touched
+- dashboard API log attempted; status route verification handled separately. (×20 today)
+
+### Tests Run
+- `catch-up`. (×10 today)
+
+### Verification Results
+- 00:25 Message to her checked: Kenyaplex holds, Somovibe does not, and the 22nd is a promise
+- 17:55 Gallery built (20 items) and the Nomad funnel walked end to end
+- 19:10 The fork appended: government is one hypothesis, not the plan
+- 19:25 One file, one library, appended to the venture topic
+
+### Failures Blockers
+- none. (×10 today)
+- 00:25 Message to her checked: Kenyaplex holds, Somovibe does not, and the 22nd is a promise
+- 00:35 Her answer: "I'll wait for Ambi and his company… the notes idea won't get things done"
+- 00:40 Tested from Kenya: Mercor is open at $40–$75/hr, Outlier is a hard block
+- 15:05 Presenter lane: body cut-out + phone-to-mic study, compositor proved
+- 17:40 Ledger model: Howard's method rebuilt for CARICOM
+- 19:25 One file, one library, appended to the venture topic
+- 19:45 Correction: Tribeless material removed; sections not pages
+- 20:05 Playbook landed in the context pack; the rule is now in every brain
+- 20:40 Correction accepted: the product is software as a service, not a file
+
+### Decisions
+- 12:10 Part 29 written: five speaking sources and the drill spec
+- 18:20 Three machines: Petrov reach, Howard rigour, Henderson's $28K decision
+- 19:10 The fork appended: government is one hypothesis, not the plan
+- 19:25 One file, one library, appended to the venture topic
+- 20:40 Correction accepted: the product is software as a service, not a file
+
+### Reports Written
+- 00:25 Message to her checked: Kenyaplex holds, Somovibe does not, and the 22nd is a promise
+- 00:35 Her answer: "I'll wait for Ambi and his company… the notes idea won't get things done"
+- 00:40 Tested from Kenya: Mercor is open at $40–$75/hr, Outlier is a hard block
+- 12:10 Part 29 written: five speaking sources and the drill spec
+- 15:05 Presenter lane: body cut-out + phone-to-mic study, compositor proved
+- 17:40 Ledger model: Howard's method rebuilt for CARICOM
+- 18:20 Three machines: Petrov reach, Howard rigour, Henderson's $28K decision
+- 17:55 Gallery built (20 items) and the Nomad funnel walked end to end
+- 19:10 The fork appended: government is one hypothesis, not the plan
+- 19:25 One file, one library, appended to the venture topic
+- 19:45 Correction: Tribeless material removed; sections not pages
+- 20:05 Playbook landed in the context pack; the rule is now in every brain
+- … 2 more source-backed items
+
+### Open Items
+- verify dashboard routes and scheduler persistence. (×10 today)
+- 15:05 Presenter lane: body cut-out + phone-to-mic study, compositor proved
+- 20:40 Correction accepted: the product is software as a service, not a file
+
+### Automation Changes
+- 19:45 Correction: Tribeless material removed; sections not pages
+- 00:00 Source Evidence: File modification evidence — 58 high-signal files
+
+### Browser Verification
+- 00:35 Her answer: "I'll wait for Ambi and his company… the notes idea won't get things done"
+- 00:40 Tested from Kenya: Mercor is open at $40–$75/hr, Outlier is a hard block
+- 12:10 Part 29 written: five speaking sources and the drill spec
+- 13:40 African phonetics: Meroitic cannot be translated, so its meanings cannot be claimed
+- 17:40 Ledger model: Howard's method rebuilt for CARICOM
+- 18:20 Three machines: Petrov reach, Howard rigour, Henderson's $28K decision
+- 17:55 Gallery built (20 items) and the Nomad funnel walked end to end
+- 19:10 The fork appended: government is one hypothesis, not the plan
+- 19:25 One file, one library, appended to the venture topic
+- 19:45 Correction: Tribeless material removed; sections not pages
+- 20:05 Playbook landed in the context pack; the rule is now in every brain
+- 20:40 Correction accepted: the product is software as a service, not a file
+
+### Disk Verification
+- 00:35 Her answer: "I'll wait for Ambi and his company… the notes idea won't get things done"
+- 15:05 Presenter lane: body cut-out + phone-to-mic study, compositor proved
+- 20:05 Playbook landed in the context pack; the rule is now in every brain
+
+### Cost Usage Notes
+- 00:40 Tested from Kenya: Mercor is open at $40–$75/hr, Outlier is a hard block
+- 17:40 Ledger model: Howard's method rebuilt for CARICOM
+- 18:20 Three machines: Petrov reach, Howard rigour, Henderson's $28K decision
+- 17:55 Gallery built (20 items) and the Nomad funnel walked end to end
+- 19:10 The fork appended: government is one hypothesis, not the plan
+- 19:25 One file, one library, appended to the venture topic
+- 19:45 Correction: Tribeless material removed; sections not pages
+- 20:05 Playbook landed in the context pack; the rule is now in every brain
+- 20:40 Correction accepted: the product is software as a service, not a file
+
+### User Instructions
+- 00:25 Message to her checked: Kenyaplex holds, Somovibe does not, and the 22nd is a promise
+- 00:35 Her answer: "I'll wait for Ambi and his company… the notes idea won't get things done"
+- 00:40 Tested from Kenya: Mercor is open at $40–$75/hr, Outlier is a hard block
+- 15:05 Presenter lane: body cut-out + phone-to-mic study, compositor proved
+- 17:40 Ledger model: Howard's method rebuilt for CARICOM
+- 18:20 Three machines: Petrov reach, Howard rigour, Henderson's $28K decision
+- 17:55 Gallery built (20 items) and the Nomad funnel walked end to end
+- 19:10 The fork appended: government is one hypothesis, not the plan
+- 19:45 Correction: Tribeless material removed; sections not pages
+- 20:40 Correction accepted: the product is software as a service, not a file
+
+### Final Verdicts
+- 00:25 Message to her checked: Kenyaplex holds, Somovibe does not, and the 22nd is a promise
+- 00:35 Her answer: "I'll wait for Ambi and his company… the notes idea won't get things done"
+- 00:40 Tested from Kenya: Mercor is open at $40–$75/hr, Outlier is a hard block
+- 12:10 Part 29 written: five speaking sources and the drill spec
+- 13:40 African phonetics: Meroitic cannot be translated, so its meanings cannot be claimed
+- 15:05 Presenter lane: body cut-out + phone-to-mic study, compositor proved
+- 17:40 Ledger model: Howard's method rebuilt for CARICOM
+- 18:20 Three machines: Petrov reach, Howard rigour, Henderson's $28K decision
+- 17:55 Gallery built (20 items) and the Nomad funnel walked end to end
+- 19:10 The fork appended: government is one hypothesis, not the plan
+- 19:25 One file, one library, appended to the venture topic
+- 19:45 Correction: Tribeless material removed; sections not pages
+- … 2 more source-backed items
+
+### Timeline
+- 00:04 — Daily journal generated for 2026-11-08; status=success; db_length=57949; source_hash=135968598845.
+- 00:04 — Exchange: Daily journal worker run for 2026-11-08
+- 00:10 — Daily journal generated for 2026-11-09; status=success; db_length=77062; source_hash=2a482716af31.
+- 00:10 — Exchange: Daily journal worker run for 2026-11-09
+- 00:15 — Daily journal generated for 2026-11-10; status=success; db_length=64341; source_hash=fef9d9c09c5e.
+- 00:15 — Exchange: Daily journal worker run for 2026-11-10
+- 00:21 — Daily journal generated for 2026-11-11; status=success; db_length=32639; source_hash=4199de27d62a.
+- 00:21 — Exchange: Daily journal worker run for 2026-11-11
+- 00:25 — Message to her checked: Kenyaplex holds, Somovibe does not, and the 22nd is a promise
+- 00:25 — Daily journal generated for 2026-11-12; status=success; db_length=34508; source_hash=af815ed7e819.
+- 00:25 — Exchange: Daily journal worker run for 2026-11-12
+- 00:26 — Daily journal generated for 2026-11-13; status=success; db_length=28807; source_hash=f189c57bf8bc.
+- … 33 more source-backed items
+
+---
+
+## RUN PROVENANCE
+
+- Source hash: `ad9f99b332d8961fbad9ee9d1b99d5e149f2bfb3415ca9039b35395348b4e1a2`.
+- Run mode: `scheduler`.
+- Generated at: 2026-11-19T00:25:03.
+- Alternate model fallback: disabled; failure leaves short-term logs untouched.
+
+<!-- auh_daily_journal: {"date": "2026-11-18", "generated_at": "2026-11-19T00:25:03", "mode": "scheduler", "model": "deepseek-flash", "model_display": "DeepSeek Flash 4.1", "provider": "deepseek", "reasoning": "medium", "source_hash": "ad9f99b332d8961fbad9ee9d1b99d5e149f2bfb3415ca9039b35395348b4e1a2", "status": "success"} -->
