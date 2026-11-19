@@ -3,7 +3,7 @@
 The working context for one project: **a private AI editing software that turns a channel pack into
 finished YouTube videos**, built by Ambi (MUNGURA / AUH).
 
-It is the only project in the business. LOT and AAY pay the rent while it is built. The software is the
+It is the only project in the business. LOT pays the rent while it is built. The software is the
 moat.
 
 **Read in this order:** `00-READ-FIRST.md` → `01-context.txt` → `02-the-software.md` →

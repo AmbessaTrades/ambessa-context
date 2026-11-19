@@ -10,7 +10,7 @@ finished YouTube videos**, so that opening a channel and running it costs almost
 Ambi (MUNGURA / AUH) and one builder agent, in Rust for at least 80% of the code, and it is the only
 project in the business — no more switching.
 
-LOT and AAY pay the rent while it is built. The software is the moat.
+LOT pays the rent while it is built. The software is the moat.
 
 ## Reading order
 

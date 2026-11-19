@@ -1,6 +1,6 @@
 Ambi, 31 — diasporic African (Jamaican-Guyanese, Canadian, in Kenya). Building one thing: a private AI
 editing software that turns a channel pack into finished videos, so any YouTube channel — his, his
 girlfriend's, the next fifty — costs almost nothing to open and almost nothing to run. Rust-first, 80% of
-the code at least, decided 19 Nov 2026. LOT and AAY pay the rent today; the software has not earned yet.
+the code at least, decided 19 Nov 2026. LOT pays the rent today; the software has not earned yet.
 Nothing in these documents is decided — they are hypotheses, hard questions and drafts, and Ambi
 outranks every line of them.
