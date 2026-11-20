@@ -1,29 +1,51 @@
 {
- "repo": "ambessa-context",
- "updated": "2026-11-19",
+ "name": "Ambessa Saul / AUH context pack",
+ "what": "A living context pack so any web agent can work on this business without asking.",
  "read_order": [
   "00-READ-FIRST.md",
-  "01-context.txt",
-  "02-the-software.md",
-  "03-reading-a-channel.md",
-  "04-evidence/README.md",
-  "05-the-record.md",
-  "06-how-we-work.md",
-  "07-start-here.md"
+  "01-who/identity.md",
+  "02-goals/mission.md",
+  "02-goals/money.md",
+  "04-market/pain-map.md",
+  "05-offers/offer-set.md"
  ],
- "library": {
-  "path": "09-assets/library/GALLERY.html",
-  "images": 104,
-  "rule": "one library, in perpetuity, numbered once"
- },
+ "rule": "Verified numbers only from 04-market/evidence/findings.csv. Everything else is context.",
  "files": [
   {
    "path": "00-READ-FIRST.md",
-   "bytes": 1650
+   "bytes": 1643
   },
   {
    "path": "01-context.txt",
-   "bytes": 547
+   "bytes": 5205
+  },
+  {
+   "path": "01-who/calm-room.md",
+   "bytes": 2600
+  },
+  {
+   "path": "01-who/founder-authority.md",
+   "bytes": 1233
+  },
+  {
+   "path": "01-who/mental-models-memoir.md",
+   "bytes": 3116
+  },
+  {
+   "path": "01-who/north-star.md",
+   "bytes": 2148
+  },
+  {
+   "path": "01-who/systems-thinking.md",
+   "bytes": 1318
+  },
+  {
+   "path": "02-findings.csv",
+   "bytes": 173488
+  },
+  {
+   "path": "02-goals/mission.md",
+   "bytes": 31815
   },
   {
    "path": "02-the-software.md",
@@ -32,6 +54,10 @@
   {
    "path": "03-reading-a-channel.md",
    "bytes": 1871
+  },
+  {
+   "path": "03-the-brief/the-brief.md",
+   "bytes": 68578
   },
   {
    "path": "04-evidence/README.md",
@@ -46,6 +72,22 @@
    "bytes": 10054
   },
   {
+   "path": "04-market/evidence/README.md",
+   "bytes": 648
+  },
+  {
+   "path": "04-market/evidence/confidence.md",
+   "bytes": 3134
+  },
+  {
+   "path": "04-market/evidence/findings.csv",
+   "bytes": 173488
+  },
+  {
+   "path": "04-market/thread-log.md",
+   "bytes": 60500
+  },
+  {
    "path": "05-the-record.md",
    "bytes": 1350
   },
@@ -54,12 +96,32 @@
    "bytes": 1210
   },
   {
+   "path": "07-agents/agents-and-harnesses.md",
+   "bytes": 60383
+  },
+  {
+   "path": "07-agents/bot-contract.md",
+   "bytes": 5791
+  },
+  {
+   "path": "07-agents/context-as-a-packet.md",
+   "bytes": 1263
+  },
+  {
+   "path": "07-start-here.md",
+   "bytes": 4415
+  },
+  {
    "path": "08-journal/recent.md",
-   "bytes": 116537
+   "bytes": 107310
   },
   {
    "path": "08-journal/summaries.md",
-   "bytes": 64008
+   "bytes": 62905
+  },
+  {
+   "path": "09-assets/.DS_Store",
+   "bytes": 8196
   },
   {
    "path": "09-assets/README.md",
@@ -70,24 +132,448 @@
    "bytes": 688113
   },
   {
+   "path": "09-assets/library/001-player-select.png",
+   "bytes": 240212
+  },
+  {
+   "path": "09-assets/library/002-main-menu.png",
+   "bytes": 209418
+  },
+  {
+   "path": "09-assets/library/003-shot-room.jpg",
+   "bytes": 292125
+  },
+  {
+   "path": "09-assets/library/004-room.jpg",
+   "bytes": 257873
+  },
+  {
+   "path": "09-assets/library/005-room.jpg",
+   "bytes": 254665
+  },
+  {
+   "path": "09-assets/library/006-room.jpg",
+   "bytes": 123267
+  },
+  {
+   "path": "09-assets/library/007-channel.jpg",
+   "bytes": 104774
+  },
+  {
+   "path": "09-assets/library/008-channel.jpg",
+   "bytes": 93161
+  },
+  {
+   "path": "09-assets/library/009-channel.jpg",
+   "bytes": 137109
+  },
+  {
+   "path": "09-assets/library/010-channel.jpg",
+   "bytes": 95048
+  },
+  {
+   "path": "09-assets/library/011-niche.jpg",
+   "bytes": 139629
+  },
+  {
+   "path": "09-assets/library/012-niche.jpg",
+   "bytes": 228171
+  },
+  {
+   "path": "09-assets/library/013-niche.jpg",
+   "bytes": 128614
+  },
+  {
+   "path": "09-assets/library/014-niche.jpg",
+   "bytes": 190026
+  },
+  {
+   "path": "09-assets/library/015-niche.jpg",
+   "bytes": 100447
+  },
+  {
+   "path": "09-assets/library/016-niche.jpg",
+   "bytes": 144763
+  },
+  {
+   "path": "09-assets/library/017-niche.jpg",
+   "bytes": 114992
+  },
+  {
+   "path": "09-assets/library/018-niche.jpg",
+   "bytes": 81775
+  },
+  {
+   "path": "09-assets/library/019-DaisfHDwPvc-packaging.jpg",
+   "bytes": 120026
+  },
+  {
+   "path": "09-assets/library/020-ESxYEHCQFRU-packaging.jpg",
+   "bytes": 101441
+  },
+  {
+   "path": "09-assets/library/021-LqvlFsTaZgE-packaging.jpg",
+   "bytes": 83475
+  },
+  {
+   "path": "09-assets/library/022-MVIwvywuQpQ-packaging.jpg",
+   "bytes": 74798
+  },
+  {
+   "path": "09-assets/library/023-PcHhptd6-p4-packaging.jpg",
+   "bytes": 72818
+  },
+  {
+   "path": "09-assets/library/024-ZFdf69VEo14-packaging.jpg",
+   "bytes": 53481
+  },
+  {
+   "path": "09-assets/library/025-aKxVZYL96bY-packaging.jpg",
+   "bytes": 53021
+  },
+  {
+   "path": "09-assets/library/026-aobeydG8Sd4-packaging.jpg",
+   "bytes": 59501
+  },
+  {
+   "path": "09-assets/library/027-cEkozf-zCkY-packaging.jpg",
+   "bytes": 36902
+  },
+  {
+   "path": "09-assets/library/028-fBXY_AyA0bo-packaging.jpg",
+   "bytes": 56061
+  },
+  {
+   "path": "09-assets/library/029-gY3F1AQpow0-packaging.jpg",
+   "bytes": 91625
+  },
+  {
+   "path": "09-assets/library/030-nuvZp7DIMTk-packaging.jpg",
+   "bytes": 51903
+  },
+  {
+   "path": "09-assets/library/031-pt7RDtHZQoU-packaging.jpg",
+   "bytes": 158999
+  },
+  {
+   "path": "09-assets/library/032-qxAIE8s9-NA-packaging.jpg",
+   "bytes": 42330
+  },
+  {
+   "path": "09-assets/library/033-sXyjakCgeVA-packaging.jpg",
+   "bytes": 60513
+  },
+  {
+   "path": "09-assets/library/034-sfY4TGB9sJY-packaging.jpg",
+   "bytes": 83560
+  },
+  {
+   "path": "09-assets/library/035-umstrUXqmRg-packaging.jpg",
+   "bytes": 55940
+  },
+  {
+   "path": "09-assets/library/036-uvNQGq4JEf4-packaging.jpg",
+   "bytes": 63296
+  },
+  {
+   "path": "09-assets/library/037-xfkfRfcs5DI-packaging.jpg",
+   "bytes": 52164
+  },
+  {
+   "path": "09-assets/library/038-ylnTesFVoOo-packaging.jpg",
+   "bytes": 62825
+  },
+  {
+   "path": "09-assets/library/039-UOhcAV4GyRA-outlier.jpg",
+   "bytes": 38080
+  },
+  {
+   "path": "09-assets/library/040-MVIwvywuQpQ-outlier.jpg",
+   "bytes": 212168
+  },
+  {
+   "path": "09-assets/library/041-hV988q6aT9E-outlier.jpg",
+   "bytes": 180391
+  },
+  {
+   "path": "09-assets/library/042-LqvlFsTaZgE-outlier.jpg",
+   "bytes": 207646
+  },
+  {
+   "path": "09-assets/library/043-wr4G4YSq7ws-outlier.jpg",
+   "bytes": 282680
+  },
+  {
+   "path": "09-assets/library/044-rST7kQtForw-outlier.jpg",
+   "bytes": 352263
+  },
+  {
+   "path": "09-assets/library/045-fBXY_AyA0bo-outlier.jpg",
+   "bytes": 29600
+  },
+  {
+   "path": "09-assets/library/046-SoyHBEdk8WQ-outlier.jpg",
+   "bytes": 321989
+  },
+  {
+   "path": "09-assets/library/047-F176VMxwc8s-outlier.jpg",
+   "bytes": 293365
+  },
+  {
+   "path": "09-assets/library/048-qxAIE8s9-NA-outlier.jpg",
+   "bytes": 123749
+  },
+  {
+   "path": "09-assets/library/049-sXyjakCgeVA-outlier.jpg",
+   "bytes": 152923
+  },
+  {
+   "path": "09-assets/library/050-x-qhTXWocxg-outlier.jpg",
+   "bytes": 146506
+  },
+  {
+   "path": "09-assets/library/051-LJSV8p8gbmw-outlier.jpg",
+   "bytes": 117841
+  },
+  {
+   "path": "09-assets/library/052-l086JClD1J0-outlier.jpg",
+   "bytes": 129522
+  },
+  {
+   "path": "09-assets/library/053-DyTNqZunWQk-outlier.jpg",
+   "bytes": 137980
+  },
+  {
+   "path": "09-assets/library/054-TeEbaaZvGiA-outlier.jpg",
+   "bytes": 156831
+  },
+  {
+   "path": "09-assets/library/055-xfkfRfcs5DI-outlier.jpg",
+   "bytes": 123951
+  },
+  {
+   "path": "09-assets/library/056-L0etjSHp3zg-outlier.jpg",
+   "bytes": 233827
+  },
+  {
+   "path": "09-assets/library/057-JueRHejb_xg-outlier.jpg",
+   "bytes": 144474
+  },
+  {
+   "path": "09-assets/library/058-ZFdf69VEo14-outlier.jpg",
+   "bytes": 130571
+  },
+  {
+   "path": "09-assets/library/059-umstrUXqmRg-outlier.jpg",
+   "bytes": 137679
+  },
+  {
+   "path": "09-assets/library/060-0Cy_iljthsE-outlier.jpg",
+   "bytes": 139718
+  },
+  {
+   "path": "09-assets/library/061-aKxVZYL96bY-outlier.jpg",
+   "bytes": 122284
+  },
+  {
+   "path": "09-assets/library/062-t1-hzEz-4mk-outlier.jpg",
+   "bytes": 119912
+  },
+  {
+   "path": "09-assets/library/063-cEkozf-zCkY-outlier.jpg",
+   "bytes": 86517
+  },
+  {
+   "path": "09-assets/library/064-jw7x2RoeGIY-outlier.jpg",
+   "bytes": 83234
+  },
+  {
+   "path": "09-assets/library/065-FE9KPlBoqa0-outlier.jpg",
+   "bytes": 217694
+  },
+  {
+   "path": "09-assets/library/066-eWu92oXtxsw-outlier.jpg",
+   "bytes": 114007
+  },
+  {
+   "path": "09-assets/library/067-fKizW6NlnoA-outlier.jpg",
+   "bytes": 125651
+  },
+  {
+   "path": "09-assets/library/068---srD8vlfFE-outlier.jpg",
+   "bytes": 160638
+  },
+  {
+   "path": "09-assets/library/069-4_lsxy5fsac-outlier.jpg",
+   "bytes": 237441
+  },
+  {
+   "path": "09-assets/library/070-vvLRZOHdNqA-outlier.jpg",
+   "bytes": 441173
+  },
+  {
+   "path": "09-assets/library/071-v90SZKGbMRo-outlier.jpg",
+   "bytes": 164283
+  },
+  {
+   "path": "09-assets/library/072-jP0D3gcqe5Q-outlier.jpg",
+   "bytes": 245675
+  },
+  {
+   "path": "09-assets/library/073-WbSkqFdLOxo-outlier.jpg",
+   "bytes": 213970
+  },
+  {
+   "path": "09-assets/library/074-uvNQGq4JEf4-outlier.jpg",
+   "bytes": 185099
+  },
+  {
+   "path": "09-assets/library/075-KJg1-FCweWI-outlier.jpg",
+   "bytes": 206515
+  },
+  {
+   "path": "09-assets/library/076-0Ei7uVIEfQg-outlier.jpg",
+   "bytes": 351944
+  },
+  {
+   "path": "09-assets/library/077-l10gi_U-6rQ-outlier.jpg",
+   "bytes": 240562
+  },
+  {
+   "path": "09-assets/library/078-seGAdDGd6cc-outlier.jpg",
+   "bytes": 346537
+  },
+  {
+   "path": "09-assets/library/079-TAsqnXcCqRI-outlier.jpg",
+   "bytes": 101867
+  },
+  {
+   "path": "09-assets/library/080-ahm5qX_DZNk-outlier.jpg",
+   "bytes": 188033
+  },
+  {
+   "path": "09-assets/library/081-iEz_FZzsk_k-outlier.jpg",
+   "bytes": 147662
+  },
+  {
+   "path": "09-assets/library/082-gpLC_ELulyg-outlier.jpg",
+   "bytes": 86672
+  },
+  {
+   "path": "09-assets/library/083-5gbgKYMEySI-outlier.jpg",
+   "bytes": 164753
+  },
+  {
+   "path": "09-assets/library/084-xxBeQuOn4vA-outlier.jpg",
+   "bytes": 120476
+  },
+  {
+   "path": "09-assets/library/085-YVjN6p0BxzM-outlier.jpg",
+   "bytes": 286080
+  },
+  {
+   "path": "09-assets/library/086-QmsfTvqr2Ic-outlier.jpg",
+   "bytes": 174205
+  },
+  {
+   "path": "09-assets/library/087-SctrE8px6pk-outlier.jpg",
+   "bytes": 178130
+  },
+  {
+   "path": "09-assets/library/088-xU60JQSjxLc-outlier.jpg",
+   "bytes": 203050
+  },
+  {
+   "path": "09-assets/library/089-7c_qUXqRZFo-outlier.jpg",
+   "bytes": 93124
+  },
+  {
+   "path": "09-assets/library/090-tcNxiPtd8G4-outlier.jpg",
+   "bytes": 206335
+  },
+  {
+   "path": "09-assets/library/091-51ZathOeW2E-outlier.jpg",
+   "bytes": 50524
+  },
+  {
+   "path": "09-assets/library/092-fc5zremCbsU-outlier.jpg",
+   "bytes": 153223
+  },
+  {
+   "path": "09-assets/library/093-VHHHH4N4Wqw-outlier.jpg",
+   "bytes": 40111
+  },
+  {
+   "path": "09-assets/library/094-BZrQiQJo2Ug-outlier.jpg",
+   "bytes": 63581
+  },
+  {
+   "path": "09-assets/library/095-gcQNBKYhuUo-outlier.jpg",
+   "bytes": 157359
+  },
+  {
+   "path": "09-assets/library/096-qkBoH5l-6EY-outlier.jpg",
+   "bytes": 173110
+  },
+  {
+   "path": "09-assets/library/097-5XgbLCJMSpE-outlier.jpg",
+   "bytes": 135129
+  },
+  {
+   "path": "09-assets/library/098-lyRHFOcNMTU-outlier.jpg",
+   "bytes": 188124
+  },
+  {
+   "path": "09-assets/library/099-bjEr7L2Rj9s-outlier.jpg",
+   "bytes": 225800
+  },
+  {
+   "path": "09-assets/library/100-ylnTesFVoOo-outlier.jpg",
+   "bytes": 171559
+  },
+  {
+   "path": "09-assets/library/101-1G3irYCux_k-outlier.jpg",
+   "bytes": 173185
+  },
+  {
+   "path": "09-assets/library/102-uYcWVAOV-bI-outlier.jpg",
+   "bytes": 268925
+  },
+  {
+   "path": "09-assets/library/103-p9MpxsDhAaQ-outlier.jpg",
+   "bytes": 86465
+  },
+  {
+   "path": "09-assets/library/104-ttlGbeAkwIE-outlier.jpg",
+   "bytes": 86805
+  },
+  {
+   "path": "09-assets/library/GALLERY.html",
+   "bytes": 28520
+  },
+  {
+   "path": "09-assets/library/LIBRARY.md",
+   "bytes": 28019
+  },
+  {
+   "path": "09-assets/library/library.json",
+   "bytes": 2580
+  },
+  {
+   "path": "09-assets/library/outliers.json",
+   "bytes": 12133
+  },
+  {
    "path": "09-assets/manifest.json",
    "bytes": 3288
   },
   {
    "path": "README.md",
-   "bytes": 808
+   "bytes": 801
   },
   {
    "path": "SYNC.md",
    "bytes": 2645
-  },
-  {
-   "path": "index.json",
-   "bytes": 10893
-  },
-  {
-   "path": "07-start-here.md",
-   "bytes": 4415
   }
  ]
 }

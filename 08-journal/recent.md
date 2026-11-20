@@ -4,361 +4,6 @@ Rolling window rebuilt on every sync. Newest day last. This is what was actually
 
 ---
 
-## 2026-11-13
-
-> Message-level context for this day. Auto-logged.
-
----
-
-## 2026-11-13 00:08 EAT — MUNGURA — Daily journal generated for 2026-11-12; status=success; db_length=34227; source_hash=7c6b3286ebd2.
-<!-- type: event -->
-**From:** MUNGURA
-
-Daily journal generated for 2026-11-12; status=success; db_length=34227; source_hash=7c6b3286ebd2.
-
----
-
-### [00:08] Exchange: Daily journal worker run for 2026-11-12
-
-**From:** MUNGURA
-**Context:** Permanent daily journal worker executed in `scheduler` mode.
-
-**Actions:**
-- Target date: `2026-11-12`.
-- Result status: `success`.
-- Daily path: `/Users/Mungura/debate-agent/memory/daily/2026-11-12.md`.
-- SUMMARY path: `/Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-12.md`.
-- DB row length: `34227`.
-- Status pointer: `/Users/Mungura/debate-agent/memory/daily/journal-status.json`.
-
-**Files Changed:** /Users/Mungura/debate-agent/memory/daily/2026-11-12.md, /Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-12.md, /Users/Mungura/debate-agent/memory/daily/evidence-digests/2026-11-12.json, /Users/Mungura/debate-agent/memory/daily/journal-status.json, /Users/Mungura/debate-agent/memory/memory.db.
-**Journal Dates Repaired:** 2026-11-12.
-**Scheduler Touched:** status pointer only.
-**Routes Touched:** dashboard API log attempted; status route verification handled separately.
-**Tests Run:** `scheduler`.
-**Verification Results:** files written, SUMMARY mirror written, DB length=34227, api_log_status=200.
-**Failures:** none.
-**Next Action:** verify dashboard routes and scheduler persistence.
-
-**Status:** complete.
-**Tags:** [memory, daily-journal, scheduler]
-
-## 2026-11-13 06:19 EAT — MUNGURA — VMake daily study: LOT thumbnails vs performance
-<!-- type: event -->
-**From:** MUNGURA
-
-- What happened: LOT 277,000 subs · last 21d 7 uploads · median 3,500 views · views/sub 0.0126
-- Style that wins now: S1 mean 1.09x best 1.26x — dark, high-contrast, saturated, warm, no face, split left/right, clean/simple
-- Own outliers: 14.29x “Your SEM3N Is SPIRIT You Can Spend”; 11.43x “Your SEM3N Is What Your AURA Is Made Of”; 4.57x “When You DON'T Ejaculate, Your Nerves Go QUI”
-- Competitor Beyond The Alchemy (84,000 subs, median 25,000): 27.2x “Why Women Sense Your Energy Instantly (A”; 4.24x “Escaping the Edging Trap: The Dopamine P”
-- Competitor Masculine Theory (122,000 subs, median 18,000): 18.0x “Semen retention is nervous system evolut”; 3.94x “It wasn't about semen retention. It was ”
-- Competitor The Aligned Men (16,200 subs, median 4,350): 46.9x “I Did PURE Semen Retention For 1 Year, H”; 28.28x “SEMEN RETENTION BENEFITS  | 13+ MIND BLO”
-- Competitor Captain Sinbad (554,000 subs, median 11,500): 4.61x “Act like a "hot girl" for success in lif”; 2.78x “You Can Have Everything You Want in 90 D”
-- Competitor Semen Retention Club (162,000 subs, median 15,000): 49.87x “Captain Picard - Semen Retention”; 9.6x “She Can't Seduce A Man IMMUNE TO TEMPTAT”
-- Competitor Sexual Kung Fu (196,000 subs, median 9,000): 26.67x “Angion Method For Penis Growth and Harde”; 25.89x “Orgasm Without Ejaculating By Retraining”
-- Competitor Astral Doorway (308,000 subs, median 3,700): 23.24x “How to Observe Yourself | Key I — 01 • T”; 21.08x “The Spiritual Future of Humanity & End T”
-- Competitor Regal Change (26,600 subs, median 3,500): 2.43x “Why You Give Hot Chicks PTSD On Semen Re”; 2.17x “I Couldn't Handle All The Female Attract”
-- Competitor Taylor Johnson - Integrative Sexual Health for Men (114,000 subs, median 5,150): 28.93x “Sex Transmutation Explained ✨🔥 (How-To G”; 21.17x “Multiple Ejaculations for Men (Technique”
-- Style to borrow: from Semen Retention Club best 49.87x — dark, high-contrast, muted, neutral, figure present, clean/simple
-- Errors: annel/UCboJ1avpnorCXLDU5UauVzg: yt-dlp failed for https://www.youtube.com/channel/UCboJ1avpnorCXLDU5UauVzg/video
-- Files changed: /Users/Mungura/AUH/VMake/out/study/study_c44deb7c.json, out/study/study_latest.json
-- Verification: 40 videos with real view counts; 40 thumbnails on disk; 3 style clusters
-- Catalog re-TN queue (views × ad slots × velocity; basis previous snapshot): #1 7.9% “THE 7 STAGES OF SEMEN RETENTION” TN DRAFT KEEP IT; #2 6.5% “The Reason Masturb*tion is Killing You” TN DRAFT DON'T SPILL; #3 5.5% “The Magic WITHIN YOU & How To ACTIVATE” TN DRAFT IT'S REAL
-- Fastest movers (v/day): 498 “You ARE The MONAD & Evolve BEYOND ”; 498 “Your SEM3N Is What Your AURA Is Ma”; 498 “How To ACTIVATE Your KUNDALINI FIR”
-- META (last 90d, 38 outliers): thumbs are cleaner / simpler · split left/right · flatter ; titles start with WHY ; outliers run 0–32 min
-- META shift vs last quarter: shorter titles (~8 words vs 9) -1.4→-0.9
-- LOT vs meta: winners are more muted · flatter · one field than LOT's last 12
-- Status: complete
-
-
-## 2026-11-13 13:18 EAT — TEHUTI — TubeLoop backup left out 7 file(s) that contain keys
-<!-- type: event -->
-**From:** TEHUTI
-
-TubeLoop backup left out 7 file(s) that contain keys
-- Left out (secret found, value not shown): home/AUH/Blacksite/data/lanes/2026-10-28T10-12-58-wedjat-fd34/backup/vendor/godseye-lite/dist/assets/studio-WGq3jXIg.js [a live key value]; home/AUH/Blacksite/data/lanes/2026-10-28T10-12-58-wedjat-fd34/backup/vendor/godseye-lite/src/wedjat/studio.js [a live key value]; home/AUH/Blacksite/data/lanes/2026-10-28T11-10-10-wedjat-e5a0/backup/vendor/godseye-lite/dist/assets/studio-WGq3jXIg.js [a live key value]; home/AUH/Blacksite/data/lanes/2026-10-28T11-10-10-wedjat-e5a0/backup/vendor/godseye-lite/src/wedjat/studio.js [a live key value]; home/AUH/Blacksite/research/study-1108/vidrush/pages/builtin.html [google api key]; home/AUH/Loop/jobs/verse/_config/active-hotkeys.json [a live key value]; home/AUH/Loop/src/components/AudioDashboard.tsx [a live key value]
-- Left out (over size cap): home/AUH/Loop/loop/revival/bygone/bygone-highest-state.webm (71 MB); home/AUH/Blacksite/data/packages/ep-mvfpm7ln-770d0be167.zip (104 MB); home/AUH/Blacksite/data/wedjat-adsb/2026-10-21.json (134 MB)
-- Fix: move the key into the folder's .env (the keys backup picks it up) or add the path to secret_allow in ~/.auh-git/projects/tubeloop/project.json if it is not a real key.
-- Status: blocked — needs an agent to look
-
----
-
-## 2026-11-13 13:18 EAT — TEHUTI — TubeLoop backup kept the last saved copy of a folder that shrank or vanished
-<!-- type: event -->
-**From:** TEHUTI
-
-TubeLoop backup kept the last saved copy of a folder that shrank or vanished
-- Kept last saved version (safety): home/AUH/CloneEngine — lost 174 of 175 files
-- Status: blocked — needs an agent to look
-
----
-
-## 2026-11-13 13:32 EAT — MUNGURA — AFRICORD plan: chat-video app for Ambi's fiancee
-<!-- type: event -->
-**From:** MUNGURA (harness: Hermes desktop, deepseek-flash, profile gericho-orchestrate)
-
-Ambi wants a phone app that makes 16:9 Discord-chat history videos, African perspective, daily, fully automatic.
-
-**Changed**
-- Recon written to `~/AUH/STUDY/discord-chat-videos-2026-11-13/` — 11 videos, metadata, audio (mono), frames, contact sheets, spectrograms, thumbnails, descriptions.
-- `sfx_probe.py` (onset census) + `sfx_identify.py` (event tiles, loop autocorrelation).
-- `~/AUH/SERVER/PLAN.md` v2 + `GRILL.md`.
-- Built a working deterministic renderer `~/AUH/SERVER/render/index.html`; capture via Chromium; `sfx/build.py` synthesises the whole UI sound palette from scratch.
-
-**Why-verdict**
-- Measured, not guessed: black ground, no Discord chrome, avatar 20% of frame height, body ~62px at 1080p, ~1 message/second, bed 117 BPM at −17 dBFS RMS, 114–139 transients/min, master −14 LUFS.
-- SFX palette confirmed from the creator's own description ("vine booms and zooms and meme effects").
-- Thumbnails are the joke printed in chat — a by-product of the script, not a design job.
-- Proof: 19.5 s 1080p30 mp4 + 3 thumbnails rendered from the same timeline file.
-- Renderer 14.7 fps → 39.5 fps after baking each message row to its own canvas (2.7×).
-
-**Status-open**
-- Round 2 grill timed out (phone model, daily writing budget, undo window, Shorts, channel). Proceeding on recommended defaults: measure the phone on first run, hybrid cheap-draft/expensive-punchline, 30-minute undo, long-form only, new channel.
-- Phone model still unknown — the one fact that decides 1080p vs 720p overnight render.
-- Nothing on this Mac has been deleted (1.9 GB free), per Ambi: use her phone's space.
-
-**Related**
-- `~/AUH/SERVER/PLAN.md` · `~/AUH/SERVER/GRILL.md` · `~/AUH/SERVER/out/proof.mp4`
-
-## 2026-11-13 13:55 EAT — MUNGURA — AFRICORD: 720p locked, 3 design directions drawn
-<!-- type: event -->
-**From:** MUNGURA (harness: Hermes desktop, deepseek-flash, profile gericho-orchestrate)
-
-**Changed**
-- Re-rendered the proof at **1280×720** (`~/AUH/SERVER/out/proof_720.mp4`, 1.9 MB, 19.5 s, 57 fps = 1.9× realtime on M1). Text still crisp at 2× zoom.
-- `PLAN.md` rewritten as v3 with Ambi's spoken decisions.
-- `GRILL.md` round 2 recorded; round 3 open.
-- Drew 3 phone design directions at 390×844: `~/AUH/SERVER/ui/dir_A|B|C.png` + `dirs.png`.
-
-**Why-verdict**
-- Ambi: 720p not 1080 ("their max thing is not 1080"); render on her phone, may take 90 min like CapCut; her own DeepSeek account with $10–20; save to her phone; GitHub → signed APK like AfriFluent; cute pink app that feels like hers; thumbnails made by the agent and shown as a simulated YouTube shelf with predicted views; Nigeria vs South Africa is the buzzy one; YouTube is click-and-watch so retention is the spec.
-- 20 min at 720p = ~112 MB. Overnight on the charger is the design.
-- Stack: Rust for renderer/encoder/muxer/audio/script/gates/model calls; Kotlin/Compose for five screens only.
-
-**Status-open**
-- Gate 1: Ambi + his fiancée must pick direction A, B or C before any app code.
-- Round 3 unanswered: app name, who uploads, Shorts, whose channel, offline behaviour.
-- Phone model still unknown — the app will benchmark itself on first run instead.
-
-**Related**
-- `~/AUH/SERVER/PLAN.md` · `GRILL.md` · `ui/dirs.png` · `out/proof_720.mp4`
-
-## 2026-11-13 14:20 EAT — MUNGURA — AFRICORD/Kitui: measured Discord spec, renderer v2, app screens
-<!-- type: event -->
-**From:** MUNGURA (harness: Hermes desktop, deepseek-flash, profile gericho-orchestrate)
-
-**Changed**
-- `~/AUH/SERVER/DISCORD-SPEC.md` — colours and geometry measured off Ambi's reference screenshots with `measure_refs.py`.
-- `~/AUH/SERVER/render/chat-v2.html` — rebuilt 720p-native; scroll, push, punch, shake, stat card, time card, pin. `timeline2.json` = Nigeria vs South Africa.
-- `~/AUH/SERVER/out/proof2.mp4` — 30.4 s, 1280×720, 2.9 MB, rendered at **119 fps** on the M1 (3.9× realtime).
-- `~/AUH/SERVER/ui/app.html` — 5 app screens drawn: Today, Steer, The Room, The Shelf, Ship. Screenshots `app_sheet1.png`, `app_sheet2.png`, dirs `dir_A|B|C.png`.
-
-**Why-verdict**
-- Their video palette is NOT Discord's: `#000` ground + `#1b1a1f` band, versus real Discord `#36393e`/`#2e3136`. The darkening is why it reads on a phone. Copy that, not Discord.
-- Avatar = 19.8 % of frame height, body cap 4.2 %, name cap 3.5 % → at 720p: avatar 143, name 35, body 42, text x 211.
-- Thumbnail = same chat at ~1.4× zoom, message text ≈1.8× the name. It must be re-rendered, never cropped.
-- Bug found and fixed: the punch-in zoom dragged the avatar column off the left edge. Now clamped so padL is never cropped.
-- 720p at 119 fps means a 20-minute video is ~5 min of render on this Mac; a phone at a quarter speed is ~20 min.
-
-**Status-open**
-- App name not confirmed (working name **Kitui**).
-- Design direction still unpicked by Ambi + his fiancée (A sticker book / B night market / C candy bar).
-- Upload path, Shorts, channel, offline behaviour — all still unanswered; defaults applied.
-- Real Discord SFX not yet received; palette is synthesised.
-
-**Related**
-- `~/AUH/SERVER/DISCORD-SPEC.md` · `render/chat-v2.html` · `out/proof2.mp4` · `ui/app.html`
-
-## 2026-11-13 14:30 EAT — MUNGURA — The writing engine works: gates pass, video rendered from the script
-<!-- type: event -->
-**From:** MUNGURA (harness: Hermes desktop, deepseek-flash, profile gericho-orchestrate)
-
-**Changed**
-- `~/AUH/SERVER/engine/voices.json` — 8 voice packs (nigeria, ghana, south africa, kenya, tanzania, ethiopia, egypt, morocco) with lexicon, syntax, character, never-list and few-shot samples.
-- `~/AUH/SERVER/engine/rivalries.json` — 6 rivalries, 30 sourced beats, `confidence: high|check` so the gate can strike unverified claims.
-- `~/AUH/SERVER/engine/prompt.md` — the writer skill: seven mechanics, retention laws, strict JSON schema.
-- `~/AUH/SERVER/engine/gates.py` — six deterministic gates (schema, voicelint, narrator ban, facts, shape, timing/density, tone/pin).
-- `~/AUH/SERVER/engine/generate.py` — prompt assembler + model call + gate loop with feedback retries (claude and deepseek drivers).
-- `~/AUH/SERVER/engine/render.py` — one command: script.json → mp4.
-- `~/AUH/SERVER/scripts/ng-za-a1.json` — 66 beats, 150.6 s, Nigeria vs South Africa, PASSES every gate.
-- `~/AUH/SERVER/out/ng-za-a1.mp4` — 1280×720, 13.2 MB, rendered in 42.6 s (106 fps).
-
-**Why-verdict**
-- Claude CLI returns "Credit balance is too low", so the automatic loop could not run. Per the no-fan-out-on-a-dead-account rule I wrote the script myself and let the gates judge it — which is the real test of the gates anyway.
-- The gates caught a genuine defect: a Nigerian line with three full stops ("fela made afrobeat. we made afrobeats after. two things.") failed voicelint as out of register. Rewritten to two stops, then PASS. That is the loop working.
-- No DeepSeek key is present in the environment or config, so the app's own model path is untested. This is the next blocker.
-
-**Status-open**
-- Needs a funded key (DeepSeek for her phone as decided) before `generate.py` can run unattended.
-- Rivalry graph is 6 pairs; the plan needs 120.
-- Thumbnail pass not yet wired into render.py.
-
-**Related**
-- `~/AUH/SERVER/engine/` · `out/ng-za-a1.mp4` · `scripts/ng-za-a1.json`
-
-## 2026-11-13 14:34 EAT — MUNGURA — The renderer now exists in Rust
-<!-- type: event -->
-**From:** MUNGURA (harness: Hermes desktop, deepseek-flash, profile gericho-orchestrate)
-
-**Changed**
-- `~/AUH/SERVER/rust/chatrender/` — Rust renderer: tiny-skia 0.11 + cosmic-text 0.12 + Inter variable font, 720p, outputs PNG per frame.
-- Verified against the JS renderer at t=8.0: **band edges identical to the pixel** (8/147/156/295/304/443/452/591 in both), 4 of 4 rows aligned.
-
-**Why-verdict**
-- This is the code that ships inside the APK. Proving it on this Mac removes the largest unknown in the whole phone plan.
-- Remaining pixel difference is font antialiasing plus the South Africa flag being simplified (no yellow wedge outline). Geometry is not the problem.
-- Baselines swept numerically (dy −30…+38.6): dy=0 is the closest match, so cosmic-text's line_y already carries the offset. Guessing was 20px wrong; measuring was right.
-
-**Status-open**
-- MediaCodec encoder not written — PNG now, H.264 next.
-- Five Compose screens not started; the HTML screens in `ui/app.html` are the design source.
-- No funded model key, so `generate.py` still cannot run unattended.
-
-**Related**
-- `~/AUH/SERVER/rust/chatrender/src/main.rs` · `out/rust_vs_js.png`
-
-## 2026-11-13 15:00 EAT — MUNGURA — Format fixed: ONE message at a time; agents re-tasked to build, not report
-<!-- type: event -->
-**From:** MUNGURA (harness: Hermes desktop, deepseek-flash, profile gericho-orchestrate)
-
-**Changed**
-- `render/chat-v4.html` — the whole format corrected. One message owns the frame, centred, band 162 px, previous slides out. `out/ds-ng-za-v4.mp4` (90.8 s) rebuilt from the DeepSeek script.
-- Real flag PNGs (flagcdn) stretched to fill the circle — centre-cropping a 2:1 flag left Nigeria as a white disc.
-- `engine/generate.py` now runs on DeepSeek with the MUTANU-APP-KEY; gate loop closed. 55-message script passed on round 1.
-- `render/thumb.html` + `thumbs.cjs` — composed 1280×720 thumbnails from the same data, never cropped.
-- Killed 5 report-shaped sub-agents; re-spawned 4 that must deliver running artifacts: `scan_reddit.py`+ideas.json, `devices.html`+device-schema.json, 46 square avatars+manifest, synthesised SFX bank+bank.json.
-
-**Why-verdict**
-- Ambi's correction that decided everything: **"it's usually one message at a time — you never really see more than one person on the screen at the same time."** My stacked scrolling log was the reason it read as fake. Measured against their 720p frame: band 162, avatar 136 at x=54, text x 244, name 50, body 53, band #19191c flat. Chasing colour through a re-encoded screenshot made it worse; the pixel measurements were right.
-- Gate rules were wrong twice before they were right: punctuation limit killed real lines ("fela. 70s. afrobeat."), and the timing target was set independently of message count. Fixed both; the writing was never the problem.
-
-**Status-open**
-- 4 sub-agents still running.
-- App UI (Compose screens) not yet rebuilt to match the new format.
-- Rust renderer still on the old stacked model — needs the one-message change + MediaCodec.
-
-**Related**
-- `render/chat-v4.html` · `out/ds-ng-za-v4.mp4` · `engine/generate.py` · `out/mine_vs_real.png`
-
-## 2026-11-13 15:05 EAT — MUNGURA — Thumbnails and app screens rebuilt; four agents building artifacts
-<!-- type: event -->
-**From:** MUNGURA (harness: Hermes desktop, deepseek-flash, profile gericho-orchestrate)
-
-**Changed**
-- `render/thumb.html` — composed 1280×720 thumbnails: inset panel, two messages, body 80px, duration chip, optional badge. `out/th_sheet.png`.
-- `ui/app-v2.html` — five screens rebuilt with real assets (real flags, real rendered thumbnails) instead of placeholders. `ui/app_final.png`.
-- Disk recovered 1.1 GB → 4.2 GB by deleting render intermediates and the old study videos.
-- Re-tasked four sub-agents to deliver artifacts, not reports: `scan_reddit.py`+ideas.json, `devices.html`+device-schema.json, 46 square avatars+manifest, synthesised SFX bank+bank.json.
-
-**Why-verdict**
-- Ambi: "your templates for the images look like trash" and "you're telling them to write MDs — is that really what we're trying to do?" Both were right. Thumbnails went from 66px body text (illegible at shelf size) to 80px with real flags.
-- Bug worth remembering: a CSS class `.p` (the phone frame, width 390px) collided with `.pl.p` on the meta pills, stretching one pill to full width. Namespacing collided, not layout.
-- Licence-clean research dropped per Ambi: synthesise or transform, do not restrict.
-
-**Status-open**
-- Sub-agents unreturned.
-- Rust renderer still on the stacked model; needs the one-message change and MediaCodec.
-- Screens are HTML design proof; Compose shell not started.
-
-**Related**
-- `ui/app-v2.html` · `render/thumb.html` · `out/th_sheet.png`
-
-## 2026-11-13 15:07 EAT — MUNGURA — Real people can now walk into the chat
-<!-- type: event -->
-**From:** MUNGURA (harness: Hermes desktop, deepseek-flash, profile gericho-orchestrate)
-
-**Changed**
-- `engine/celebrities.json` (32 real figures, 8 each for NG/ZA/GH/KE) wired into `generate.py` as a `{{CELEBS}}` prompt block, with `repair_cast()` so a script that puts "burna boy" in the room gets a cast entry and their flag instead of failing the schema gate.
-- Re-rendered `out/cast-ng-za.mp4` (44 messages, 79s).
-
-**Why-verdict**
-- The gag that proves it: **"don jazzy: make una no fight. i just dey look una. (i signed all of una sef)"** and **"black coffee: i'm in the studio"**. That is the human element Ambi asked for — a real person posting the way they actually post, not a country with a flag.
-- The schema gate rejected the first attempt three times because `by` was not in `cast`. The fix belongs in the pipeline (repair), not in the prompt (begging the model) — the writer was right and the schema was too rigid.
-
-**Status-open**
-- Celebrity avatars still render as their national flag; `discord_pfp` concepts exist in the data but nothing draws them yet.
-- 4 agents from the second batch still running.
-
-**Related**
-- `engine/celebrities.json` · `engine/generate.py` · `out/cast_sheet.png`
-
-## 2026-11-13 15:23 EAT — TEHUTI — TubeLoop backup run failed
-<!-- type: event -->
-**From:** TEHUTI
-
-TubeLoop backup run failed
-- Error: could not read /Users/Mungura/AUH/Blacksite: fatal: unable to stat 'research/signal/state/.hdr64518': No such file or directory
-- Status: blocked — needs an agent to look
-
----
-
-## 2026-11-13 15:22 EAT — MUNGURA — First APK exists: Africord v0.1
-<!-- type: event -->
-**From:** MUNGURA (harness: Hermes desktop, deepseek-flash, profile gericho-orchestrate)
-
-**Changed**
-- `~/AUH/SERVER/AFRICORD-v0.1.apk` — 8.8 MB, `com.auh.africord` 0.1.0, minSdk 26, targetSdk 34, signed, 47 flags and 3 thumbnails packaged.
-- User-space Android toolchain installed at `~/AUH/SERVER/toolchain` (Temurin 17 + cmdline-tools + platform-34 + build-tools 34 + Gradle 8.7). No Android Studio, no sudo, no system Java.
-- `android/app/src/main/java/com/auh/africord/` — MainActivity + Ui + Data, five screens with real content and real flags; `.github/workflows/build-apk.yml` builds and releases an APK on every push to main.
-- `engine/voices.json` v2 — the whole pack rewritten. South Africa is explicitly NOT pidgin: English base with eish/yoh/haibo/aweh. Added a `law` block: English base, two markers max, never joke about suffering, diaspora legible.
-
-**Why-verdict**
-- Ambi's correction: South Africans don't speak pidgin. He was right and the old pack said "South African English" but the samples drifted into pidgin. New output: "yoh. that is a lot of words", "haibo. ok", "sharp. thank you tyla".
-- Gradle had to run `--no-daemon` and took ~6 minutes on the first build downloading dependencies; disk fell to 2.0 GB free. Emulator not attempted — no room for a system image, so the APK is compile-verified and package-verified but NOT yet run on a device. Say so, do not claim otherwise.
-
-**Status-open**
-- APK never launched. Needs `adb install` on a device to prove the screens draw.
-- No model call, no renderer, no MediaCodec in the app yet.
-- 4 agents running: celebrity photos, historical flags/names, pacing, situations.
-
-**Related**
-- `~/AUH/SERVER/AFRICORD-v0.1.apk` · `android/` · `engine/voices.json`
-
-## 2026-11-13 16:25 EAT — TEHUTI — TubeLoop backup recovered: backup run working again
-<!-- type: event -->
-**From:** TEHUTI
-
-TubeLoop backup recovered: backup run working again
-- A complete backup run succeeded; push state is tracked separately.
-- Status: complete — the recorded backup fault is resolved
-
----
-
-## 2026-11-13 17:35 EAT — MUNGURA — Full 16-minute video renders; five agent artifacts wired
-<!-- type: event -->
-**From:** MUNGURA (harness: Hermes desktop, deepseek-flash, profile gericho-orchestrate)
-
-**Changed**
-- `out/full-ng-za.mp4` — **16 min 33 s, 1280×720 h264, 27.9 MB**, 528 messages, 6 acts written by DeepSeek and rendered end to end. Audio measured: mean −23.6 dB, peak −1.0 dB (not silent).
-- `render2.py` + `capture_pipe.cjs` — frames stream from Chromium straight into `ffmpeg -f image2pipe`. No frames on disk. This is the only reason a 17-minute video fits on 4 GB.
-- `generate.py` — `extract_json` now SALVAGES a truncated reply (cut at the last complete beat, close the structure) instead of failing the round; `hold` is computed from measured pacing `0.83 + 0.0194×chars`, clamped 0.75–1.75 s, not guessed by the model; timing gate demoted to a warning.
-- `chat-v4.html` — transition cut from 200 ms to 50 ms (measured: the reference cuts in ONE frame); clock now advances with beat time.
-- `sfx/palette/` — replaced with the agent's synthesised bank (27 WAVs, country stings + 7 UI sounds, level-matched).
-- `make_video.py` — duration-driven: `--minutes 16` computes messages and acts from 44 msg/min.
-
-**Why-verdict**
-- Both long-video failures were the same bug: DeepSeek returns truncated JSON at ~120 messages and the round was thrown away. The fix is salvage, not a bigger prompt.
-- The second failure was mine: asking the model for a duration it does not control. Duration is arithmetic, so it belongs in code.
-- Pacing measured off the reference: **median hold 1.23 s, hard cut 33 ms, 44 messages/min, flat**. Our 1.5 s default was 22 % too slow and the 200 ms rise was 7× too slow.
-
-**Status-open**
-- Clock fix is in `chat-v4` but the re-render (`full-ng-za-v2.mp4`) was still running at log time.
-- `devices.html` (8 devices: join, reaction, chip, typing, composer, pinpanel, seen, mention) works but is NOT yet merged into chat-v4.
-- Three agents re-dispatched for celebrity photos, history.json, situations.json.
-- APK still never launched on a device.
-
-**Related**
-- `out/full-ng-za.mp4` · `engine/render2.py` · `engine/pacing.json` · `skills/discord-chat-video-lane`
-
-## 2026-11-13 17:42 EAT — MUNGURA — Real faces in the chat; 12 voice packs; history + situations in
-<!-- type: event -->
-**From:** MUNGURA (harness: Hermes desktop, deepseek-flash, profile gericho-orchestrate)
-
-**Changed**
-- **Real celebrity photos now render as avatars.** 28 of 32 celebrities have an iden
-
-_[truncated in this pack; full day log stays on the machine]
-
 ## 2026-11-14
 
 > Message-level context for this day. Auto-logged.
@@ -1485,6 +1130,169 @@ Daily journal generated for 2026-11-18; status=success; db_length=45245; source_
 **Routes Touched:** dashboard API log attempted; status route verification handled separately.
 **Tests Run:** `scheduler`.
 **Verification Results:** files written, SUMMARY mirror written, DB length=45245, api_log_status=200.
+**Failures:** none.
+**Next Action:** verify dashboard routes and scheduler persistence.
+
+**Status:** complete.
+**Tags:** [memory, daily-journal, scheduler]
+
+## 2026-11-19 09:05 EAT — MUNGURA — Pivot: faceless YouTube pipeline, Loop becomes the product
+
+**Changed.** Ambi's decision after a night of deliberation, in his words: the face channel is dropped; the business is a really good YouTube pipeline leaning on ad revenue. Loop is stripped down and rebuilt as a standalone pipeline software that works for an upgraded video type — design-system led, scalable horizontally to other niches — with a mobile APK so his girlfriend can run a channel from her phone. Three channels from one codebase: two of his, one of hers. A ~$70 tier is a candidate, not a decision; 30 existing paying members prove people will pay for LOT. The Ambessa govcon/venture framing is parked and the context GitHub is to be revised before any SOUL.md is touched.
+
+**Why verdict.** Money now beats a long build: his words, "if we focus on making the software good, LOT will be good". The last four months of LOT quality are judged mid and the proof is that the channel underperformed while the same posting cadence used to earn.
+
+**Status open.** Everything below is unasked: what Loop is for (private tool vs product), which three faceless formats, what the IP actually is, whether LOT relaunches as itself, and what her daily loop looks like. `grill-with-docs` skill created; round 1 about to run. Notion reported not up.
+
+**Related.** `~/.hermes/skills/software-development/grill-with-docs`; Loop at `~/AUH/Loop`; context pack to be revised before SOULs.
+
+## 2026-11-19 12:22 EAT — MUNGURA — Loop gets its glossary and ADR 0001: private tool
+
+**Changed.** Two new files landed in `~/AUH/Loop` at 12:14: `GLOSSARY.md` (1,028 B, six terms — Loop, private tool, IP (address), faceless, spine, niche bend) and `docs/adr/0001-loop-is-a-private-tool.md` (1,041 B). The ADR is marked accepted 2026-11-19, decision: "Loop v1 is a private tool for three channels: two of Ambi's and one run by his girlfriend from her phone. It is not sold." Consequences: no tenancy, no billing, no onboarding, no marketing site, and any feature justified by "a customer would want it" is out of scope until the channels earn. Memoir ingested it as source `6ae6079a00981e74a6b33435` (captured 12:20:46) and the Loop topic's Sources index now carries the line at `~/debate-agent/memory/vault/10 Projects/Loop.md:134`.
+
+**Why verdict.** Ambi had already said it in chat — "it's definitely a private tool, bro." — so the round wrote it as accepted with his words quoted instead of asking again; the glossary terms are his own wording, one line each, no definition he has not used. This is the paper trail the day's 09:05 pivot needed before any build.
+
+**Status open.** No blocking open question, no spec, no channel pick and no build plan are on disk past these two files. Both are untracked (`?? GLOSSARY.md`, `?? docs/adr/`) and the Loop repo holds 327 dirty status lines, so nothing of today is committed.
+
+**Related.** `~/AUH/Loop/GLOSSARY.md`, `~/AUH/Loop/docs/adr/0001-loop-is-a-private-tool.md`, skill `~/.hermes/profiles/gericho-orchestrate/skills/software-development/grill-with-docs/SKILL.md` (modified 11:58), Loop topic `10 Projects/Loop.md`.
+
+## 2026-11-19 12:23 EAT — MUNGURA — Psyop study folder holds a 404, not the post
+
+**Changed.** `~/AUH/STUDY/psyop-2026-11-19/` was created at 12:13 and contains exactly one file: `tweet.html`, 51,770 B, whose `<title>` is `Post Not Found - X | 404 Error` and whose og metadata is X's own error shell. No notes, no images, no second capture in the folder.
+
+**Why verdict.** Logged as a defect, not a result: a folder named for the study looks like captured evidence but proves nothing about the post, and the size of the file would pass any check that counts bytes instead of reading the page.
+
+**Status open.** The source being studied is not captured — a live URL, an archived copy or a screenshot is needed before any claim is built on it.
+
+**Related.** `~/AUH/STUDY/psyop-2026-11-19/tweet.html`.
+
+## 2026-11-19 12:35 EAT — MUNGURA — Audit findings, fourth-pass skill, benchmark to log
+
+**Changed.** Fixed the two apps: Notion 7.11.0 in /Applications was owned by another user and below the minimum build; the 7.41.1 copy in ~/Applications would not launch through LaunchServices, so it was launched directly and a durable copy installed as `/Applications/Notion 7.41.app`. Obsidian was already open on `LOT revival board.excalidraw` in the LOT+AAY vault. Created the `fourth-pass` skill (six passes; first two are what a model produces by default). Audit measurements taken: Loop has 57 Rust files and **726 TypeScript files**; 42 skills, the same set copied into all three profiles and shared; Memoir 6.3 GB with 22 project pages; two Hermes crons and two launchd jobs, neither on the money path.
+
+**Why verdict.** The repeat failures are not model failures: the engine is small and contract-driven while the app around it is 726 files nobody can hold, and the skills are descriptions rather than gates — only a handful have scripts that fail closed.
+
+**Status open.** Ambi's benchmark prompt to be kept for reuse: pick the most-used and most token-heavy task, ask 3 questions in one batch, freeze it as one prompt plus files, run it per model in fresh sessions at equal effort, record cost/time/tokens, put results side by side on one page, save it for the next model release. No Opus 5.5 on this harness — upgrades that need Opus belong to T3/Claude Code.
+
+**Related.** `fourth-pass` skill; `~/AUH/Loop/GLOSSARY.md`; ADR 0001.
+
+## 2026-11-19 13:40 EAT — MUNGURA — Documents cannot assert what Ambi has not decided
+
+**Changed.** Ambi's rule for every document: it must carry a disclaimer at the top that it is subject to change through continued conversation and continued building, and that nothing in it is decided until he says so. Written as `staging/DISCLAIMER.md` and auto-stamped onto every staged section. He also corrected the money framing in the draft: "50k is an outcome, not a plan" is acceptable as a line, but no product, course or tier may be asserted. His order: all focus and tokens on the software so the videos get out and the views return; a moderately ticketed product is wanted but comes after, and reverse-engineering from a high ticket is a method he likes, not the current move.
+
+**Why verdict.** He is protecting the document from becoming a plan he never agreed to; the failure mode is an agent's assumption hardening into a requirement the builder then obeys.
+
+**Status open.** Not settled: the first paid thing and its timing; what happens to the ~30 existing members during the rebuild; whether ~$70 buys the app, a pack, or membership; what "moderately ticketed" means in numbers; and which product shape connects to the app later (SaaS, done-for-you, or teaching).
+
+**Related.** `staging/DISCLAIMER.md`; six section writers in flight (`deleg_154f5377`).
+
+## 2026-11-19 15:10 EAT — MUNGURA — Thirty niche references, six capability classes
+
+**Changed.** Both playlists sampled frame by frame: playlist one (15 videos, longform realistic story) and playlist two (15 videos, "creative new niches", unlisted). New brief section 13 maps all thirty to six capability classes — dated map simulation, game HUD over a plate, screen capture, game capture, CG scene, chat UI — with the render arithmetic: 36,000 frames for a 25-minute film, 20–60 minutes of machine time for a simple three.js scene, inside Ambi's six-hour ceiling. The gallery now carries three contact sheets for playlist one.
+
+**Why verdict.** The most expensive reference in the set is not the 3D — it is one CG interior reused across thirty minutes. The cheapest is Earthlore's screen-recorded Google Earth at 1.7M views. Throughput, not spectacle, is what three channels at ninety videos requires.
+
+**Status open.** Playlist two's frames are downloading. The Server History channel (Discord-chat format, 253K and 245K views) is a reference, not a failure — but the abandoned chat-lane software we built a spec for is a failed project and belongs in the project audit. Ambi's instruction: every success and failure goes into the brief and into the context repo.
+
+**Related.** `staging/master-brief/13-niche-map.md`; `meta/playlist1.txt`, `meta/playlist2.txt`; sheets `p1-1..3.jpg`.
+
+## 2026-11-19 18:25 EAT — TEHUTI — TubeLoop backup left out 7 file(s) that contain keys
+<!-- type: event -->
+**From:** TEHUTI
+
+TubeLoop backup left out 7 file(s) that contain keys
+- Left out (secret found, value not shown): home/AUH/Blacksite/data/lanes/2026-10-28T10-12-58-wedjat-fd34/backup/vendor/godseye-lite/dist/assets/studio-WGq3jXIg.js [a live key value]; home/AUH/Blacksite/data/lanes/2026-10-28T10-12-58-wedjat-fd34/backup/vendor/godseye-lite/src/wedjat/studio.js [a live key value]; home/AUH/Blacksite/data/lanes/2026-10-28T11-10-10-wedjat-e5a0/backup/vendor/godseye-lite/dist/assets/studio-WGq3jXIg.js [a live key value]; home/AUH/Blacksite/data/lanes/2026-10-28T11-10-10-wedjat-e5a0/backup/vendor/godseye-lite/src/wedjat/studio.js [a live key value]; home/AUH/Blacksite/research/study-1108/vidrush/pages/builtin.html [google api key]; home/AUH/Loop/jobs/verse/_config/active-hotkeys.json [a live key value]; home/AUH/Loop/src/components/AudioDashboard.tsx [a live key value]
+- Left out (over size cap): home/AUH/Loop/loop/revival/bygone/bygone-highest-state.webm (71 MB); home/Documents/Codex/2026-10-07/realtime-voice-chat/outputs/AUH-Studio-Research/START-HERE.html (70 MB); home/Documents/Codex/2026-10-07/realtime-voice-chat/outputs/AUH-Studio-Research/research.json (50 MB); home/Documents/Codex/2026-10-07/realtime-voice-chat/outputs/AUH-Studio-Research/research.sqlite (182 MB); home/AUH/Blacksite/data/packages/ep-mvfpm7ln-770d0be167.zip (104 MB); home/AUH/Blacksite/data/wedjat-adsb/2026-10-21.json (134 MB)
+- Fix: move the key into the folder's .env (the keys backup picks it up) or add the path to secret_allow in ~/.auh-git/projects/tubeloop/project.json if it is not a real key.
+- Status: blocked — needs an agent to look
+
+---
+
+## 2026-11-19 18:25 EAT — TEHUTI — TubeLoop backup kept the last saved copy of a folder that shrank or vanished
+<!-- type: event -->
+**From:** TEHUTI
+
+TubeLoop backup kept the last saved copy of a folder that shrank or vanished
+- Kept last saved version (safety): home/AUH/CloneEngine — lost 174 of 175 files; home/.codex/skills/auh-code-animation — folder missing; home/.codex/skills/auh-local-decisions — folder missing; home/.codex/skills/memoir — folder missing
+- Missing folders: /Users/Mungura/.codex/skills/auh-code-animation; /Users/Mungura/.codex/skills/auh-local-decisions; /Users/Mungura/.codex/skills/memoir
+- Status: blocked — needs an agent to look
+
+---
+
+## 2026-11-19 18:35 EAT — MUNGURA — Close-out before the build: everything saved, every agent armed
+
+**Changed.** Harness: Hermes (deepseek-flash). Brief now 25 sections / 91,330 words with two new sections: 23 the mental models (Kallaway depth + systems, Dalio consequences, Naval status/wealth, Lauren Tan deterministic foundations, the creator mistake, laziness, Wang perception, boldness/brains, Ambi's canon) and 24 Links (28 distinct reference videos, 26 channels, 102 outliers, 34 teacher videos, Psyop post, playlists, repo). The converter now linkifies bare URLs — 262 live links, 0 before. Section 16 completed to the Part-4 shape: 1.2's 25 Who's-winning cards, an index by channel, a builder's guide, and seven edit flags (store says 12 channels, cards come from 14; strength = log10(perSub+1)/2 where perSub runs 0.2–106.9; 10 of 25 have no shape; all from the refused niche; 1–66 min runtimes).
+**Also.** Claude Code given all 27 upstream skills (156 total in ~/.claude/skills) and a current-project block in ~/.claude/CLAUDE.md pointing at the brief, library, glossary, repo and ~/AUH/AMBESSA/BUILD/BUILD-BRIEF.md. Repo commits: context-repo c131b59 → 07-start-here; BOARD 5429a10; Loop c055d37 (107 files) and the auh-git backup 7854ec4354, "unsaved changes: none". Stale index.lock from 28 Oct removed.
+**Why-verdict.** Everything he named is saved and pointed at: brief, gallery, glossary, repo, Loop, BOARD, profiles (69 skill dirs each), Hex 3.4.0 listening, T3 Code installed, Claude Code armed. AAY is zero-occurrence across the project; the govcon frame is archived and named closed in every handoff file.
+**Status/open.** 220 untracked files in ~/AUH/Loop are media and job output (12 GB) — deliberately not committed; seven files hold live keys and are excluded by the backup script. The build itself starts in two days on the new model's tokens.
+**Related.** `~/AUH/AMBESSA/intel/THE-SOFTWARE-BRIEF.html`, `~/AUH/AMBESSA/BUILD/BUILD-BRIEF.md`, `~/AUH/AMBESSA/GLOSSARY.md`, `~/.claude/CLAUDE.md`, `~/debate-agent/memory/vault/10 Projects/`.
+
+## 2026-11-20
+
+> Message-level context for this day. Auto-logged.
+
+---
+
+## 2026-11-20 00:10 EAT — MUNGURA — Daily journal generated for 2026-11-19; status=success; db_length=19357; source_hash=4c8c1cdf47a7.
+<!-- type: event -->
+**From:** MUNGURA
+
+Daily journal generated for 2026-11-19; status=success; db_length=19357; source_hash=4c8c1cdf47a7.
+
+---
+
+### [00:10] Exchange: Daily journal worker run for 2026-11-19
+
+**From:** MUNGURA
+**Context:** Permanent daily journal worker executed in `scheduler` mode.
+
+**Actions:**
+- Target date: `2026-11-19`.
+- Result status: `success`.
+- Daily path: `/Users/Mungura/debate-agent/memory/daily/2026-11-19.md`.
+- SUMMARY path: `/Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-19.md`.
+- DB row length: `19357`.
+- Status pointer: `/Users/Mungura/debate-agent/memory/daily/journal-status.json`.
+
+**Files Changed:** /Users/Mungura/debate-agent/memory/daily/2026-11-19.md, /Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-19.md, /Users/Mungura/debate-agent/memory/daily/evidence-digests/2026-11-19.json, /Users/Mungura/debate-agent/memory/daily/journal-status.json, /Users/Mungura/debate-agent/memory/memory.db.
+**Journal Dates Repaired:** 2026-11-19.
+**Scheduler Touched:** status pointer only.
+**Routes Touched:** dashboard API log attempted; status route verification handled separately.
+**Tests Run:** `scheduler`.
+**Verification Results:** files written, SUMMARY mirror written, DB length=19357, api_log_status=200.
+**Failures:** none.
+**Next Action:** verify dashboard routes and scheduler persistence.
+
+**Status:** complete.
+**Tags:** [memory, daily-journal, scheduler]
+
+## 2026-11-20 00:27 EAT — MUNGURA — Daily journal generated for 2026-11-19; status=success; db_length=19399; source_hash=619534c76e33.
+<!-- type: event -->
+**From:** MUNGURA
+
+Daily journal generated for 2026-11-19; status=success; db_length=19399; source_hash=619534c76e33.
+
+---
+
+### [00:27] Exchange: Daily journal worker run for 2026-11-19
+
+**From:** MUNGURA
+**Context:** Permanent daily journal worker executed in `scheduler` mode.
+
+**Actions:**
+- Target date: `2026-11-19`.
+- Result status: `success`.
+- Daily path: `/Users/Mungura/debate-agent/memory/daily/2026-11-19.md`.
+- SUMMARY path: `/Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-19.md`.
+- DB row length: `19399`.
+- Status pointer: `/Users/Mungura/debate-agent/memory/daily/journal-status.json`.
+
+**Files Changed:** /Users/Mungura/debate-agent/memory/daily/2026-11-19.md, /Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-19.md, /Users/Mungura/debate-agent/memory/daily/evidence-digests/2026-11-19.json, /Users/Mungura/debate-agent/memory/daily/journal-status.json, /Users/Mungura/debate-agent/memory/memory.db, /Users/Mungura/debate-agent/memory/daily/_backups/2026-11-19.md.pre-sonnet5-repair-20261120_002046.bak, /Users/Mungura/debate-agent/memory/daily/_backups/SUMMARY-2026-11-19.md.pre-sonnet5-repair-20261120_002046.bak.
+**Journal Dates Repaired:** 2026-11-19.
+**Scheduler Touched:** status pointer only.
+**Routes Touched:** dashboard API log attempted; status route verification handled separately.
+**Tests Run:** `scheduler`.
+**Verification Results:** files written, SUMMARY mirror written, DB length=19399, api_log_status=200.
 **Failures:** none.
 **Next Action:** verify dashboard routes and scheduler persistence.
 

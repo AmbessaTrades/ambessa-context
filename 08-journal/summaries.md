@@ -4,328 +4,6 @@ Last three generated summaries. Use for trend, not for proof.
 
 ---
 
-## 2026-11-16
-
-# Daily Summary: 2026-11-16
-
-<!-- auh-journal-index:start -->
-## Index — the day
-
-> Linked brief of the original records. Verification labels describe what the source reports; they are not an independent audit.
-
-### Other meaningful work · index
-- **none. (×2 today)** — **Changed (logged):** Recorded under FAILURES / BLOCKERS. **Status/open:** none. (×2 today) [Logged detail](#failures-blockers)
-- **Alternate model fallback** — **Changed (logged):** Alternate model fallback: disabled; failure leaves short-term logs untouched. [Logged detail](#run-provenance)
-
-_Filtered 26 routine, duplicate, or low-signal entries from this index; the source text remains below._
-<!-- auh-journal-index:end -->
-
-
-## SOURCE INVENTORY
-
-- **Short-term log:** yes · chars=19375 · `/Users/Mungura/debate-agent/memory/shortterm/2026-11-16.md`
-- **Unified event stream:** eligible_for_daily rows=6 · `/Users/Mungura/debate-agent/events/events.db`
-- **Reports/artifacts:** 0 files from `/Users/Mungura/debate-agent/jobs/viz/_reports`
-- **Hermes session transcripts:** 0 files from `/Users/Mungura/.hermes/sessions`
-- **File modification evidence:** 140 high-signal files across debate-agent + TubeLoop roots
-- **Memory DB:** `/Users/Mungura/debate-agent/memory/memory.db`
-- **Event DB:** `/Users/Mungura/debate-agent/events/events.db`
-- **Noise policy:** heartbeat/scanner/scheduler/debate-chatter rows excluded unless they carry files, routes, tests, failures, or explicit user decisions.
-- **Representative file evidence:** `/Users/Mungura/debate-agent/memory/shortterm/2026-11-16.md`; `/Users/Mungura/debate-agent/memory/daily/2026-10-24.md`; `/Users/Mungura/debate-agent/memory/daily/2026-09-18.md`; `/Users/Mungura/debate-agent/memory/daily/2026-09-17.md`; `/Users/Mungura/debate-agent/memory/daily/2026-09-16.md`; `/Users/Mungura/debate-agent/memory/daily/2026-09-15.md`; `/Users/Mungura/debate-agent/memory/daily/2026-08-21.md`; `/Users/Mungura/debate-agent/memory/daily/2026-08-17.md`; `/Users/Mungura/debate-agent/memory/daily/2026-08-16.md`; `/Users/Mungura/debate-agent/memory/daily/2026-08-15.md`; `/Users/Mungura/debate-agent/memory/daily/2026-08-11.md`; `/Users/Mungura/debate-agent/memory/daily/2026-08-05.md`
-
----
-
----
-
-## EXECUTIVE SUMMARY
-
-- Source-backed operational summary generated from 20 signal entries and 0 excluded/noise entries. No unsupported facts were added by the deterministic validator.
-
----
-
-## TIMELINE
-
-- 00:08 — Daily journal generated for 2026-11-15; status=success; db_length=14799; source_hash=229981586cda.
-- 00:08 — Exchange: Daily journal worker run for 2026-11-15
-- 00:21 — Daily journal generated for 2026-11-15; status=success; db_length=14799; source_hash=dca0339b3248.
-- 00:21 — Exchange: Daily journal worker run for 2026-11-15
-- 06:51 — VMake daily study: LOT thumbnails vs performance
-- 10:49 — TubeLoop backup run failed
-- 15:33 — TubeLoop backup left out 7 file(s) that contain keys
-- 15:33 — TubeLoop backup kept the last saved copy of a folder that shrank or vanished
-- 15:34 — TubeLoop backup recovered: backup run working again
-- 18:55 — Africa-CARICOM pain base built and gated
-- 19:40 — Prep intel: East Africa, China, India, settlement, contracts
-- 20:20 — Startup layer: who is shipping into these markets
-- 21:17 — Ambessa venture registered as the North Star, context pack published
-- 00:08 — Unified Event: Daily journal generated for 2026-11-15; status=success; db_length=14799; source_hash=229981586cda.
-- 00:21 — Unified Event: Daily journal generated for 2026-11-15; status=success; db_length=14799; source_hash=dca0339b3248.
-- 10:49 — Unified Event: TubeLoop backup run failed
-- 15:33 — Unified Event: TubeLoop backup left out 7 file(s) that contain keys
-- 15:33 — Unified Event: TubeLoop backup kept the last saved copy of a folder that shrank or vanished
-- 15:34 — Unified Event: TubeLoop backup recovered: backup run working again
-- 00:00 — Source Evidence: File modification evidence — 140 high-signal files
-
----
-
-## MASSIVE KEY ACCOMPLISHMENTS
-
-- 06:51 — VMake daily study: LOT thumbnails vs performance
-- 10:49 — TubeLoop backup run failed
-- 15:33 — TubeLoop backup left out 7 file(s) that contain keys
-- 15:33 — TubeLoop backup kept the last saved copy of a folder that shrank or vanished
-- 15:34 — TubeLoop backup recovered: backup run working again
-- 18:55 — Africa-CARICOM pain base built and gated
-- 19:40 — Prep intel: East Africa, China, India, settlement, contracts
-- 20:20 — Startup layer: who is shipping into these markets
-- 21:17 — Ambessa venture registered as the North Star, context pack published
-
----
-
-## KEY DECISIONS WITH REASONING
-
-- 15:33 TubeLoop backup kept the last saved copy of a folder that shrank or vanished (×2 today)
-- 20:20 Startup layer: who is shipping into these markets
-- 21:17 Ambessa venture registered as the North Star, context pack published
-
----
-
-## FILES MODIFIED / CREATED / MATERIALIZED
-
-- See `SOURCE INVENTORY` representative file evidence and report paths above.
-
----
-
-## ROUTES TOUCHED / VERIFIED
-
-- dashboard API log attempted; status route verification handled separately. (×8 today)
-- 10:49 Unified Event: TubeLoop backup run failed
-- 15:33 Unified Event: TubeLoop backup left out 7 file(s) that contain keys
-- 15:33 Unified Event: TubeLoop backup kept the last saved copy of a folder that shrank or vanished
-- 15:34 Unified Event: TubeLoop backup recovered: backup run working again
-
----
-
-## TESTS RUN
-
-- `scheduler`. (×2 today)
-
----
-
-## VERIFICATION RESULTS
-
-- Journal quality validator confirmed required source inventory/provenance scaffolding after journal worker synthesis.
-
----
-
-## FAILURES / BLOCKERS
-
-- none. (×2 today)
-- 06:51 VMake daily study: LOT thumbnails vs performance (×2 today)
-- 10:49 TubeLoop backup run failed (×4 today)
-- 15:33 TubeLoop backup left out 7 file(s) that contain keys
-- 15:33 TubeLoop backup kept the last saved copy of a folder that shrank or vanished
-- 18:55 Africa-CARICOM pain base built and gated (×2 today)
-- 19:40 Prep intel: East Africa, China, India, settlement, contracts
-- 21:17 Ambessa venture registered as the North Star, context pack published (×2 today)
-
----
-
-## WHAT NOT TO DO
-
-- Do NOT accept empty category scaffolding on high-signal days when source inventory proves evidence exists.
-- Do NOT let global/stale UI state masquerade as job-specific backend truth.
-- Do NOT overwrite existing daily/weekly summaries without backups and validation.
-- Do NOT bypass the configured scheduled worker or silently fall back to another provider.
-- Do NOT hide failures such as stale processes, parser bugs, model/agent availability issues, or synthetic proof timeouts.
-
----
-
-## OPEN ITEMS / NEXT ACTIONS
-
-- verify dashboard routes and scheduler persistence. (×2 today)
-- 18:55 Africa-CARICOM pain base built and gated
-- 21:17 Ambessa venture registered as the North Star, context pack published
-
----
-
-## COST / USAGE NOTES
-
-- 18:55 Africa-CARICOM pain base built and gated
-- 19:40 Prep intel: East Africa, China, India, settlement, contracts
-- 20:20 Startup layer: who is shipping into these markets
-
----
-
-## ARTIFACTS / REPORTS WRITTEN
-
-- 18:55 Africa-CARICOM pain base built and gated
-- 19:40 Prep intel: East Africa, China, India, settlement, contracts
-- 20:20 Startup layer: who is shipping into these markets
-- 21:17 Ambessa venture registered as the North Star, context pack published
-- 00:00 Source Evidence: File modification evidence — 140 high-signal files
-
----
-
-## AGENT DISCOURSE / NOISE EXCLUSION
-
-- Excluded 0 low-signal entries from operational accomplishments. Agent/cron chatter is only retained when tied to files, routes, tests, failures, decisions, or user instructions.
-
----
-
-## DETERMINISTIC EVIDENCE DIGEST
-
-- **Date:** 2026-11-16
-- **Source hash:** `01b7fe121119f355ef8939f819a6691ce6c54e8982b9c87fa4f46b389f1323f3`
-- **Signal entries:** 20
-- **Noise entries excluded:** 0
-- **High-signal day:** True
-
-### Priority Source-Locked Highlights
-- Daily journal worker evidence
-
-### Source Inventory Counts
-- Shortterm chars: 19375
-- Eligible events: 6
-- Reports: 0
-- Sessions: 0
-- File evidence rows: 140
-
-### Accomplishments
-- 06:51 — VMake daily study: LOT thumbnails vs performance
-- 10:49 — TubeLoop backup run failed
-- 15:33 — TubeLoop backup left out 7 file(s) that contain keys
-- 15:33 — TubeLoop backup kept the last saved copy of a folder that shrank or vanished
-- 15:34 — TubeLoop backup recovered: backup run working again
-- 18:55 — Africa-CARICOM pain base built and gated
-- 19:40 — Prep intel: East Africa, China, India, settlement, contracts
-- 20:20 — Startup layer: who is shipping into these markets
-- 21:17 — Ambessa venture registered as the North Star, context pack published
-
-### Prompt Task Phases
-- Daily journal worker evidence
-
-### Files Modified
-- /Users/Mungura/debate-agent/memory/daily/2026-11-15.md, /Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-15.md, /Users/Mungura/debate-agent/memory/daily/evidence-digests/2026-11-15.json, /Users/Mungura/debate-agent/memory/daily/journal-status.json, /Users/Mungura/debate-agent/memory/memory.db. (×8 today)
-- 10 Projects/Ambessa Context Pack.md
-- 10 Projects/Ambessa Saul venture.md
-- memory_cli.py map ambessa
-- project-maps.json as one project
-- topics.json
-- ~/.hermes/SOUL.md
-- ~/AUH/AMBESSA/sync_context_repo.py
-- /Users/Mungura/debate-agent/memory/daily/2026-07-09.md (×2 today)
-- /Users/Mungura/debate-agent/memory/daily/2026-07-10.md (×2 today)
-- /Users/Mungura/debate-agent/memory/daily/2026-07-12.md (×2 today)
-- /Users/Mungura/debate-agent/memory/daily/2026-07-13.md (×2 today)
-- … 36 more source-backed items
-
-### Routes Touched
-- dashboard API log attempted; status route verification handled separately. (×8 today)
-- 10:49 Unified Event: TubeLoop backup run failed
-- 15:33 Unified Event: TubeLoop backup left out 7 file(s) that contain keys
-- 15:33 Unified Event: TubeLoop backup kept the last saved copy of a folder that shrank or vanished
-- 15:34 Unified Event: TubeLoop backup recovered: backup run working again
-
-### Jobs Tested
-- 10:49 TubeLoop backup run failed (×2 today)
-- 15:33 TubeLoop backup left out 7 file(s) that contain keys (×2 today)
-- 15:33 TubeLoop backup kept the last saved copy of a folder that shrank or vanished (×2 today)
-- 15:34 TubeLoop backup recovered: backup run working again (×2 today)
-
-### Tests Run
-- `scheduler`. (×2 today)
-
-### Verification Results
-- 18:55 Africa-CARICOM pain base built and gated
-- 19:40 Prep intel: East Africa, China, India, settlement, contracts
-- 20:20 Startup layer: who is shipping into these markets
-
-### Failures Blockers
-- none. (×2 today)
-- 06:51 VMake daily study: LOT thumbnails vs performance (×2 today)
-- 10:49 TubeLoop backup run failed (×4 today)
-- 15:33 TubeLoop backup left out 7 file(s) that contain keys
-- 15:33 TubeLoop backup kept the last saved copy of a folder that shrank or vanished
-- 18:55 Africa-CARICOM pain base built and gated (×2 today)
-- 19:40 Prep intel: East Africa, China, India, settlement, contracts
-- 21:17 Ambessa venture registered as the North Star, context pack published (×2 today)
-
-### Decisions
-- 15:33 TubeLoop backup kept the last saved copy of a folder that shrank or vanished (×2 today)
-- 20:20 Startup layer: who is shipping into these markets
-- 21:17 Ambessa venture registered as the North Star, context pack published
-
-### Reports Written
-- 18:55 Africa-CARICOM pain base built and gated
-- 19:40 Prep intel: East Africa, China, India, settlement, contracts
-- 20:20 Startup layer: who is shipping into these markets
-- 21:17 Ambessa venture registered as the North Star, context pack published
-- 00:00 Source Evidence: File modification evidence — 140 high-signal files
-
-### Open Items
-- verify dashboard routes and scheduler persistence. (×2 today)
-- 18:55 Africa-CARICOM pain base built and gated
-- 21:17 Ambessa venture registered as the North Star, context pack published
-
-### Automation Changes
-- 21:17 Ambessa venture registered as the North Star, context pack published
-
-### Browser Verification
-- 15:33 TubeLoop backup left out 7 file(s) that contain keys (×2 today)
-- 18:55 Africa-CARICOM pain base built and gated
-- 21:17 Ambessa venture registered as the North Star, context pack published
-
-### Disk Verification
-- 21:17 Ambessa venture registered as the North Star, context pack published
-
-### Cost Usage Notes
-- 18:55 Africa-CARICOM pain base built and gated
-- 19:40 Prep intel: East Africa, China, India, settlement, contracts
-- 20:20 Startup layer: who is shipping into these markets
-
-### User Instructions
-- 18:55 Africa-CARICOM pain base built and gated
-- 19:40 Prep intel: East Africa, China, India, settlement, contracts
-- 20:20 Startup layer: who is shipping into these markets
-- 21:17 Ambessa venture registered as the North Star, context pack published
-
-### Final Verdicts
-- 18:55 Africa-CARICOM pain base built and gated
-- 19:40 Prep intel: East Africa, China, India, settlement, contracts
-- 20:20 Startup layer: who is shipping into these markets
-- 21:17 Ambessa venture registered as the North Star, context pack published
-
-### Safety Statuses
-- 15:33 TubeLoop backup kept the last saved copy of a folder that shrank or vanished (×2 today)
-
-### Timeline
-- 00:08 — Daily journal generated for 2026-11-15; status=success; db_length=14799; source_hash=229981586cda.
-- 00:08 — Exchange: Daily journal worker run for 2026-11-15
-- 00:21 — Daily journal generated for 2026-11-15; status=success; db_length=14799; source_hash=dca0339b3248.
-- 00:21 — Exchange: Daily journal worker run for 2026-11-15
-- 06:51 — VMake daily study: LOT thumbnails vs performance
-- 10:49 — TubeLoop backup run failed
-- 15:33 — TubeLoop backup left out 7 file(s) that contain keys
-- 15:33 — TubeLoop backup kept the last saved copy of a folder that shrank or vanished
-- 15:34 — TubeLoop backup recovered: backup run working again
-- 18:55 — Africa-CARICOM pain base built and gated
-- 19:40 — Prep intel: East Africa, China, India, settlement, contracts
-- 20:20 — Startup layer: who is shipping into these markets
-- … 8 more source-backed items
-
----
-
-## RUN PROVENANCE
-
-- Source hash: `01b7fe121119f355ef8939f819a6691ce6c54e8982b9c87fa4f46b389f1323f3`.
-- Run mode: `catch-up`.
-- Generated at: 2026-11-18T00:35:05.
-- Alternate model fallback: disabled; failure leaves short-term logs untouched.
-
-<!-- auh_daily_journal: {"date": "2026-11-16", "generated_at": "2026-11-18T00:35:05", "mode": "catch-up", "model": "deepseek-flash", "model_display": "DeepSeek Flash 4.1", "provider": "deepseek", "reasoning": "medium", "source_hash": "01b7fe121119f355ef8939f819a6691ce6c54e8982b9c87fa4f46b389f1323f3", "status": "success"} -->
-
-
 ## 2026-11-17
 
 # Daily Summary: 2026-11-17
@@ -1173,3 +851,299 @@ _Filtered 35 routine, duplicate, or low-signal entries from this index; the sour
 - Alternate model fallback: disabled; failure leaves short-term logs untouched.
 
 <!-- auh_daily_journal: {"date": "2026-11-18", "generated_at": "2026-11-19T00:25:03", "mode": "scheduler", "model": "deepseek-flash", "model_display": "DeepSeek Flash 4.1", "provider": "deepseek", "reasoning": "medium", "source_hash": "ad9f99b332d8961fbad9ee9d1b99d5e149f2bfb3415ca9039b35395348b4e1a2", "status": "success"} -->
+
+
+## 2026-11-19
+
+# Daily Summary: 2026-11-19
+
+<!-- auh-journal-index:start -->
+## Index — the day
+
+> Linked brief of the original records. Verification labels describe what the source reports; they are not an independent audit.
+
+### Other meaningful work · index
+- **none. (×2 today)** — **Changed (logged):** Recorded under FAILURES / BLOCKERS. **Status/open:** none. (×2 today) [Logged detail](#failures-blockers)
+- **Alternate model fallback** — **Changed (logged):** Alternate model fallback: disabled; failure leaves short-term logs untouched. [Logged detail](#run-provenance)
+
+_Filtered 21 routine, duplicate, or low-signal entries from this index; the source text remains below._
+<!-- auh-journal-index:end -->
+
+## SOURCE INVENTORY
+
+- **Short-term log:** yes · chars=22266 · `/Users/Mungura/debate-agent/memory/shortterm/2026-11-19.md`
+- **Unified event stream:** eligible_for_daily rows=4 · `/Users/Mungura/debate-agent/events/events.db`
+- **Reports/artifacts:** 0 files from `/Users/Mungura/debate-agent/jobs/viz/_reports`
+- **Hermes session transcripts:** 0 files from `/Users/Mungura/.hermes/sessions`
+- **File modification evidence:** 69 high-signal files across debate-agent + TubeLoop roots
+- **Memory DB:** `/Users/Mungura/debate-agent/memory/memory.db`
+- **Event DB:** `/Users/Mungura/debate-agent/events/events.db`
+- **Noise policy:** heartbeat/scanner/scheduler/debate-chatter rows excluded unless they carry files, routes, tests, failures, or explicit user decisions.
+- **Representative file evidence:** `/Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-18.md`; `/Users/Mungura/AUH/Loop/data/loop/lot/studio/latest.json`; `/Users/Mungura/AUH/Loop/data/revenue-autopilot/notion/latest.json`; `/Users/Mungura/debate-agent/memory/shortterm/2026-11-19.md`; `/Users/Mungura/AUH/Loop/data/revenue-autopilot/public/latest.json`; `/Users/Mungura/debate-agent/memory/daily/evidence-digests/2026-11-18.json`; `/Users/Mungura/debate-agent/memory/daily/2026-11-18.md`; `/Users/Mungura/AUH/Loop/data/loop/lot/studio/collector-status.json`; `/Users/Mungura/AUH/Loop/data/loop/lot/studio/2026-11-19.json`; `/Users/Mungura/AUH/Loop/data/revenue-autopilot/notion/2026-11-19T16-50-46-163Z.json`; `/Users/Mungura/debate-agent/memory/vault/90 Sources/c35fa777106f5fee9db0b24b.md`; `/Users/Mungura/debate-agent/memory/vault/90 Sources/c26d5ba7a75fe7b876ab5dea.md`
+
+---
+
+---
+
+## EXECUTIVE SUMMARY
+
+- Source-backed operational summary generated from 16 signal entries and 2 excluded/noise entries. No unsupported facts were added by the deterministic validator.
+
+---
+
+## TIMELINE
+
+- 00:09 — Daily journal generated for 2026-11-18; status=success; db_length=45247; source_hash=96cbdd3c51c6.
+- 00:09 — Exchange: Daily journal worker run for 2026-11-18
+- 00:25 — Daily journal generated for 2026-11-18; status=success; db_length=45245; source_hash=ad9f99b332d8.
+- 00:25 — Exchange: Daily journal worker run for 2026-11-18
+- 12:23 — Psyop study folder holds a 404, not the post
+- 12:35 — Audit findings, fourth-pass skill, benchmark to log
+- 13:40 — Documents cannot assert what Ambi has not decided
+- 15:10 — Thirty niche references, six capability classes
+- 18:25 — TubeLoop backup left out 7 file(s) that contain keys
+- 18:25 — TubeLoop backup kept the last saved copy of a folder that shrank or vanished
+- 18:35 — Close-out before the build: everything saved, every agent armed
+- 00:09 — Unified Event: Daily journal generated for 2026-11-18; status=success; db_length=45247; source_hash=96cbdd3c51c6.
+- 00:25 — Unified Event: Daily journal generated for 2026-11-18; status=success; db_length=45245; source_hash=ad9f99b332d8.
+- 18:25 — Unified Event: TubeLoop backup left out 7 file(s) that contain keys
+- 18:25 — Unified Event: TubeLoop backup kept the last saved copy of a folder that shrank or vanished
+- 00:00 — Source Evidence: File modification evidence — 69 high-signal files
+
+---
+
+## MASSIVE KEY ACCOMPLISHMENTS
+
+- 12:23 — Psyop study folder holds a 404, not the post
+- 12:35 — Audit findings, fourth-pass skill, benchmark to log
+- 13:40 — Documents cannot assert what Ambi has not decided
+- 15:10 — Thirty niche references, six capability classes
+- 18:25 — TubeLoop backup left out 7 file(s) that contain keys
+- 18:25 — TubeLoop backup kept the last saved copy of a folder that shrank or vanished
+- 18:35 — Close-out before the build: everything saved, every agent armed
+
+---
+
+## KEY DECISIONS WITH REASONING
+
+- 12:35 Audit findings, fourth-pass skill, benchmark to log
+- 18:25 TubeLoop backup kept the last saved copy of a folder that shrank or vanished (×2 today)
+
+---
+
+## FILES MODIFIED / CREATED / MATERIALIZED
+
+- See `SOURCE INVENTORY` representative file evidence and report paths above.
+
+---
+
+## ROUTES TOUCHED / VERIFIED
+
+- dashboard API log attempted; status route verification handled separately. (×6 today)
+- 18:25 Unified Event: TubeLoop backup left out 7 file(s) that contain keys
+- 18:25 Unified Event: TubeLoop backup kept the last saved copy of a folder that shrank or vanished
+
+---
+
+## TESTS RUN
+
+- `scheduler`. (×2 today)
+
+---
+
+## VERIFICATION RESULTS
+
+- Journal quality validator confirmed required source inventory/provenance scaffolding after journal worker synthesis.
+
+---
+
+## FAILURES / BLOCKERS
+
+- none. (×2 today)
+- 12:23 Psyop study folder holds a 404, not the post
+- 12:35 Audit findings, fourth-pass skill, benchmark to log (×2 today)
+- 13:40 Documents cannot assert what Ambi has not decided
+- 15:10 Thirty niche references, six capability classes (×2 today)
+- 18:25 TubeLoop backup left out 7 file(s) that contain keys
+- 18:25 TubeLoop backup kept the last saved copy of a folder that shrank or vanished
+- 18:35 Close-out before the build: everything saved, every agent armed
+
+---
+
+## WHAT NOT TO DO
+
+- Do NOT accept empty category scaffolding on high-signal days when source inventory proves evidence exists.
+- Do NOT let global/stale UI state masquerade as job-specific backend truth.
+- Do NOT overwrite existing daily/weekly summaries without backups and validation.
+- Do NOT bypass the configured scheduled worker or silently fall back to another provider.
+- Do NOT hide failures such as stale processes, parser bugs, model/agent availability issues, or synthetic proof timeouts.
+
+---
+
+## OPEN ITEMS / NEXT ACTIONS
+
+- verify dashboard routes and scheduler persistence. (×2 today)
+
+---
+
+## COST / USAGE NOTES
+
+- 12:35 Audit findings, fourth-pass skill, benchmark to log
+- 13:40 Documents cannot assert what Ambi has not decided
+
+---
+
+## ARTIFACTS / REPORTS WRITTEN
+
+- 12:35 Audit findings, fourth-pass skill, benchmark to log
+- 13:40 Documents cannot assert what Ambi has not decided
+- 15:10 Thirty niche references, six capability classes
+- 18:35 Close-out before the build: everything saved, every agent armed
+- 00:00 Source Evidence: File modification evidence — 69 high-signal files
+
+---
+
+## AGENT DISCOURSE / NOISE EXCLUSION
+
+- Excluded 2 low-signal entries from operational accomplishments. Agent/cron chatter is only retained when tied to files, routes, tests, failures, decisions, or user instructions.
+
+---
+
+## DETERMINISTIC EVIDENCE DIGEST
+
+- **Date:** 2026-11-19
+- **Source hash:** `619534c76e3305b64c297b5483deffcfaac40a0288ea110a2a4eaf59f641c0b2`
+- **Signal entries:** 16
+- **Noise entries excluded:** 2
+- **High-signal day:** True
+
+### Priority Source-Locked Highlights
+- Daily journal worker evidence
+
+### Source Inventory Counts
+- Shortterm chars: 22266
+- Eligible events: 4
+- Reports: 0
+- Sessions: 0
+- File evidence rows: 69
+
+### Accomplishments
+- 12:23 — Psyop study folder holds a 404, not the post
+- 12:35 — Audit findings, fourth-pass skill, benchmark to log
+- 13:40 — Documents cannot assert what Ambi has not decided
+- 15:10 — Thirty niche references, six capability classes
+- 18:25 — TubeLoop backup left out 7 file(s) that contain keys
+- 18:25 — TubeLoop backup kept the last saved copy of a folder that shrank or vanished
+- 18:35 — Close-out before the build: everything saved, every agent armed
+
+### Prompt Task Phases
+- 12:35 Audit findings, fourth-pass skill, benchmark to log
+- Daily journal worker evidence
+
+### Files Modified
+- /Users/Mungura/debate-agent/memory/daily/2026-11-18.md, /Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-18.md, /Users/Mungura/debate-agent/memory/daily/evidence-digests/2026-11-18.json, /Users/Mungura/debate-agent/memory/daily/journal-status.json, /Users/Mungura/debate-agent/memory/memory.db. (×14 today)
+- ~/AUH/Loop/GLOSSARY.md (×2 today)
+- staging/DISCLAIMER.md
+- staging/master-brief/13-niche-map.md
+- ~/.claude/CLAUDE.md
+- ~/AUH/AMBESSA/BUILD/BUILD-BRIEF.md
+- ~/AUH/AMBESSA/GLOSSARY.md
+- /Users/Mungura/AUH/Loop/data/loop/lot/studio/2026-11-19.json (×2 today)
+- /Users/Mungura/AUH/Loop/data/loop/lot/studio/collector-status.json (×2 today)
+- /Users/Mungura/AUH/Loop/data/loop/lot/studio/latest.json (×2 today)
+- /Users/Mungura/AUH/Loop/data/revenue-autopilot/notion/2026-11-19T16-50-46-163Z.json (×2 today)
+- /Users/Mungura/AUH/Loop/data/revenue-autopilot/notion/latest.json (×2 today)
+- … 31 more source-backed items
+
+### Routes Touched
+- dashboard API log attempted; status route verification handled separately. (×6 today)
+- 18:25 Unified Event: TubeLoop backup left out 7 file(s) that contain keys
+- 18:25 Unified Event: TubeLoop backup kept the last saved copy of a folder that shrank or vanished
+
+### Jobs Tested
+- 18:25 TubeLoop backup left out 7 file(s) that contain keys (×2 today)
+- 18:25 TubeLoop backup kept the last saved copy of a folder that shrank or vanished (×2 today)
+
+### Tests Run
+- `scheduler`. (×2 today)
+
+### Failures Blockers
+- none. (×2 today)
+- 12:23 Psyop study folder holds a 404, not the post
+- 12:35 Audit findings, fourth-pass skill, benchmark to log (×2 today)
+- 13:40 Documents cannot assert what Ambi has not decided
+- 15:10 Thirty niche references, six capability classes (×2 today)
+- 18:25 TubeLoop backup left out 7 file(s) that contain keys
+- 18:25 TubeLoop backup kept the last saved copy of a folder that shrank or vanished
+- 18:35 Close-out before the build: everything saved, every agent armed
+
+### Decisions
+- 12:35 Audit findings, fourth-pass skill, benchmark to log
+- 18:25 TubeLoop backup kept the last saved copy of a folder that shrank or vanished (×2 today)
+
+### Reports Written
+- 12:35 Audit findings, fourth-pass skill, benchmark to log
+- 13:40 Documents cannot assert what Ambi has not decided
+- 15:10 Thirty niche references, six capability classes
+- 18:35 Close-out before the build: everything saved, every agent armed
+- 00:00 Source Evidence: File modification evidence — 69 high-signal files
+
+### Open Items
+- verify dashboard routes and scheduler persistence. (×2 today)
+
+### Automation Changes
+- 12:35 Audit findings, fourth-pass skill, benchmark to log
+
+### Browser Verification
+- 12:23 Psyop study folder holds a 404, not the post
+- 12:35 Audit findings, fourth-pass skill, benchmark to log
+- 13:40 Documents cannot assert what Ambi has not decided
+- 15:10 Thirty niche references, six capability classes
+- 18:25 TubeLoop backup left out 7 file(s) that contain keys (×2 today)
+- 18:35 Close-out before the build: everything saved, every agent armed
+
+### Cost Usage Notes
+- 12:35 Audit findings, fourth-pass skill, benchmark to log
+- 13:40 Documents cannot assert what Ambi has not decided
+
+### User Instructions
+- 12:35 Audit findings, fourth-pass skill, benchmark to log
+- 13:40 Documents cannot assert what Ambi has not decided
+- 15:10 Thirty niche references, six capability classes
+- 18:35 Close-out before the build: everything saved, every agent armed
+
+### Final Verdicts
+- 12:23 Psyop study folder holds a 404, not the post
+- 12:35 Audit findings, fourth-pass skill, benchmark to log
+- 13:40 Documents cannot assert what Ambi has not decided
+- 15:10 Thirty niche references, six capability classes
+- 18:35 Close-out before the build: everything saved, every agent armed
+
+### Safety Statuses
+- 18:25 TubeLoop backup kept the last saved copy of a folder that shrank or vanished (×2 today)
+
+### Timeline
+- 00:09 — Daily journal generated for 2026-11-18; status=success; db_length=45247; source_hash=96cbdd3c51c6.
+- 00:09 — Exchange: Daily journal worker run for 2026-11-18
+- 00:25 — Daily journal generated for 2026-11-18; status=success; db_length=45245; source_hash=ad9f99b332d8.
+- 00:25 — Exchange: Daily journal worker run for 2026-11-18
+- 12:23 — Psyop study folder holds a 404, not the post
+- 12:35 — Audit findings, fourth-pass skill, benchmark to log
+- 13:40 — Documents cannot assert what Ambi has not decided
+- 15:10 — Thirty niche references, six capability classes
+- 18:25 — TubeLoop backup left out 7 file(s) that contain keys
+- 18:25 — TubeLoop backup kept the last saved copy of a folder that shrank or vanished
+- 18:35 — Close-out before the build: everything saved, every agent armed
+- 00:09 — Unified Event: Daily journal generated for 2026-11-18; status=success; db_length=45247; source_hash=96cbdd3c51c6.
+- … 4 more source-backed items
+
+---
+
+## RUN PROVENANCE
+
+- Source hash: `619534c76e3305b64c297b5483deffcfaac40a0288ea110a2a4eaf59f641c0b2`.
+- Run mode: `scheduler`.
+- Generated at: 2026-11-20T00:27:15.
+- Alternate model fallback: disabled; failure leaves short-term logs untouched.
+
+<!-- auh_daily_journal: {"date": "2026-11-19", "generated_at": "2026-11-20T00:27:15", "mode": "scheduler", "model": "deepseek-flash", "model_display": "DeepSeek Flash 4.1", "provider": "deepseek", "reasoning": "medium", "source_hash": "619534c76e3305b64c297b5483deffcfaac40a0288ea110a2a4eaf59f641c0b2", "status": "success"} -->

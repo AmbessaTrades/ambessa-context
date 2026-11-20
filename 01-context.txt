@@ -1,6 +1,75 @@
-Ambi, 31 — diasporic African (Jamaican-Guyanese, Canadian, in Kenya). Building one thing: a private AI
-editing software that turns a channel pack into finished videos, so any YouTube channel — his, his
-girlfriend's, the next fifty — costs almost nothing to open and almost nothing to run. Rust-first, 80% of
-the code at least, decided 19 Nov 2026. LOT pays the rent today; the software has not earned yet.
-Nothing in these documents is decided — they are hypotheses, hard questions and drafts, and Ambi
-outranks every line of them.
+AUH / AMBESSA SAUL - CONTEXT PACK
+
+One-file read. The full pack is the numbered folders in this repo; index.json lists every file.
+
+WHO
+Ambi, 31. Diasporic African: Jamaican-Guyanese roots, Canadian, living in Kenya. Builds AUH -
+software and media businesses for Africa, the Caribbean and the Black diaspora. Personal brand:
+Ambessa Saul, on Africa-Caribbean trade, politics and economics. Speaks in voice notes, decides
+fast, wants pressure-testing rather than agreement.
+
+WHAT HE IS EXPLORING (nothing here is decided)
+High-ticket paid work, not advice, to two buyers: governments in Africa and the Caribbean, and
+companies doing $10M-$5B. $5k-$25k to onboard one client, plus $3k-$5k a month while live. Never
+consumer subscriptions. Deliverables are verification and deal files: who really owns a company,
+whether a government can sign and will pay, what paperwork actually clears a border. Target:
+first paying clients inside 60 days. Content and product run together - the content makes the
+market, the product takes the money. Prices, buyer types and deliverable shapes are working
+hypotheses being tested with real buyers, not settled strategy.
+
+THE FIVE WALLS (numbers verified in 02-findings.csv)
+1. Payment rails. Caribbean banks lost about 4 in 10 correspondent relationships in 15 years. No
+   local-currency settlement between CARICOM and Africa. Every African letter of credit is
+   confirmed by a bank outside the region. PAPSS is live in 30+ countries but Nigeria settled only
+   N5.6bn (~$3.6m) in H1 2025, down 53%.
+2. Trade finance. Africa's gap is $74bn. Bank intermediation fell to 23% of African merchandise
+   trade against ~80% globally. West Africa: $14bn gap, 21% of applications rejected.
+3. Logistics. 1,600 miles apart with no direct link. Caribbean importers pay 12-21% of goods
+   value in transport and insurance. Cargo sits ~3 weeks in African ports; Lagos over 20 days.
+4. State behaviour. Kenya: Sh511.75bn verified pending bills. Zambia and Ghana pay late as a
+   budgeting habit. Namibia cannot enforce a foreign arbitral award without a certificate.
+5. The unpublished gate. Caribbean SPS approval has no published risk assessment for most
+   products. CARICOM processed 192 tariff suspension requests. Rum faces an 88% tariff in African
+   markets. Africa-Caribbean trade has never exceeded 6% of bilateral exports.
+
+THE MARKET
+East Africa is politically engaged with the Caribbean and commercially absent. China buys the
+tender before it opens: over $2bn of financed surveillance across 11 countries, the vendor named
+inside the loan. India wins by being the non-Chinese option: Ghana bought a >$200m 5G stack to
+avoid Chinese vendors, NPCI licensed UPI to Namibia. The corridor is live but unserved: WapiPay is
+the only startup with a licensed live Africa-Caribbean corridor; Zeepay's Barbados arm was
+suspended by the central bank. Nobody operates the trusted middle for one mid-market deal.
+
+CANDIDATE OFFERS, SCORED OUT OF 50 - NONE CHOSEN
+1. The Second Opinion, 42 - verify the company before signature. $15k-$25k per deal.
+2. The Authority File, 41 - verify the state before a company signs: authority, budget line,
+   payment record, enforcement. $20k-$35k per deal. Also runs the other way, governments checking
+   bidders, because donor-funded procurement already requires it.
+3. The Border Desk, 39 - the document gate for a firm that ships. $8k-$12k a month.
+4. The Aftercare File, 39 - for investment promotion agencies, every commitment tracked to
+   execution. $60k-$150k a year.
+5. The Verified Room, 38 - one file both sides live in. $15k open plus $5k a month.
+Dead: power maps that assert who controls whom; landed-cost calculators; procurement lists;
+consumer-priced voice tools; a deal room as the first ask.
+
+VISUAL LIBRARY
+Fourteen direction images with a note on what to steal from each: 09-assets/library/ (LIBRARY.md, library.json). Read before designing a profile, hero, thumbnail system, chart, landing page or UI.
+
+DEAD GROUND - READ BEFORE PROPOSING
+Eleven idea rounds were already run and killed, with Ambi's verdict on each: the Authority File,
+the Kenya payable file, the Guyana checklist, the old-bills file, the Promise Scoreboard, the
+deal tracker, the single sample file, the Real Partner File, and the EU Forest-Rule set. They
+died because the state builds it itself, paperwork was never the blocker, nothing bad happens if
+the buyer does nothing, the market expires, or the buyer will not trust an unknown seller. See
+05-offers/explored-and-rejected.md. Re-propose one only with new evidence.
+
+HOW TO ANSWER
+Answer first. Number steps. Five items maximum. No preamble, no closers, no jargon. Run three to
+six logic passes before writing. Judge second and third consequences, not the first. Perception
+beats reality: a buyer judges his own risk, not the product. People move for money, status,
+promotion or entertainment - name which. A claim needs a source and a page, a label when it
+cannot be checked, and a split between what is said, what is inferred and what is unknown.
+
+READ NEXT, IN ORDER
+00-READ-FIRST.md, 01-who/identity.md, 02-goals/money.md, 04-market/pain-map.md,
+05-offers/offer-set.md, 05-offers/hypotheses.md
