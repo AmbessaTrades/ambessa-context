@@ -1,5 +1,5 @@
 {
- "as_of": "13:26 EAT, Tue 24 Nov 2026",
+ "as_of": "13:27 EAT, Tue 24 Nov 2026",
  "jobs": [
   {
    "job": "Engine",
@@ -34,7 +34,7 @@
    "running": [
     {
      "agent": "rooms:altar+2",
-     "step": ""
+     "step": "Wait for truth on the final files"
     },
     {
      "agent": "rooms:crossroads+2",
@@ -210,11 +210,11 @@
   }
  ],
  "ledger": {
-  "calls": 983,
-  "usd_total": 0.6736,
+  "calls": 991,
+  "usd_total": 0.6938,
   "usd_by_service": {
-   "deepseek": 0.2716,
-   "openrouter": 0.2198,
+   "deepseek": 0.2899,
+   "openrouter": 0.2217,
    "google": 0.1822
   }
  },
@@ -270,9 +270,9 @@
   "74942a3 24 Nov 08:44 Juju: first save. Master brief, 33 skills, juju-core and juju-skills crates, 19 mocked rooms with kit and gate, stage form, open risks."
  ],
  "load": [
-  40,
-  43,
-  71
+  35,
+  41,
+  69
  ],
- "sheet_written": false
+ "sheet_written": true
 }
