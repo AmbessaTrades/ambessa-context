@@ -4,170 +4,6 @@ Rolling window rebuilt on every sync. Newest day last. This is what was actually
 
 ---
 
-## 2026-11-14
-
-> Message-level context for this day. Auto-logged.
-
----
-
-## 2026-11-14 00:09 EAT — MUNGURA — Daily journal generated for 2026-11-13; status=success; db_length=28383; source_hash=dc3d24f63566.
-<!-- type: event -->
-**From:** MUNGURA
-
-Daily journal generated for 2026-11-13; status=success; db_length=28383; source_hash=dc3d24f63566.
-
----
-
-### [00:09] Exchange: Daily journal worker run for 2026-11-13
-
-**From:** MUNGURA
-**Context:** Permanent daily journal worker executed in `scheduler` mode.
-
-**Actions:**
-- Target date: `2026-11-13`.
-- Result status: `success`.
-- Daily path: `/Users/Mungura/debate-agent/memory/daily/2026-11-13.md`.
-- SUMMARY path: `/Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-13.md`.
-- DB row length: `28383`.
-- Status pointer: `/Users/Mungura/debate-agent/memory/daily/journal-status.json`.
-
-**Files Changed:** /Users/Mungura/debate-agent/memory/daily/2026-11-13.md, /Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-13.md, /Users/Mungura/debate-agent/memory/daily/evidence-digests/2026-11-13.json, /Users/Mungura/debate-agent/memory/daily/journal-status.json, /Users/Mungura/debate-agent/memory/memory.db, /Users/Mungura/debate-agent/memory/daily/_backups/2026-11-13.md.pre-sonnet5-repair-20261114_000709.bak.
-**Journal Dates Repaired:** 2026-11-13.
-**Scheduler Touched:** status pointer only.
-**Routes Touched:** dashboard API log attempted; status route verification handled separately.
-**Tests Run:** `scheduler`.
-**Verification Results:** files written, SUMMARY mirror written, DB length=28383, api_log_status=200.
-**Failures:** none.
-**Next Action:** verify dashboard routes and scheduler persistence.
-
-**Status:** complete.
-**Tags:** [memory, daily-journal, scheduler]
-
-## 2026-11-14 00:26 EAT — MUNGURA — Daily journal generated for 2026-11-13; status=success; db_length=28383; source_hash=d84ce803879e.
-<!-- type: event -->
-**From:** MUNGURA
-
-Daily journal generated for 2026-11-13; status=success; db_length=28383; source_hash=d84ce803879e.
-
----
-
-### [00:26] Exchange: Daily journal worker run for 2026-11-13
-
-**From:** MUNGURA
-**Context:** Permanent daily journal worker executed in `scheduler` mode.
-
-**Actions:**
-- Target date: `2026-11-13`.
-- Result status: `success`.
-- Daily path: `/Users/Mungura/debate-agent/memory/daily/2026-11-13.md`.
-- SUMMARY path: `/Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-13.md`.
-- DB row length: `28383`.
-- Status pointer: `/Users/Mungura/debate-agent/memory/daily/journal-status.json`.
-
-**Files Changed:** /Users/Mungura/debate-agent/memory/daily/2026-11-13.md, /Users/Mungura/debate-agent/memory/daily/SUMMARY-2026-11-13.md, /Users/Mungura/debate-agent/memory/daily/evidence-digests/2026-11-13.json, /Users/Mungura/debate-agent/memory/daily/journal-status.json, /Users/Mungura/debate-agent/memory/memory.db, /Users/Mungura/debate-agent/memory/daily/_backups/2026-11-13.md.pre-sonnet5-repair-20261114_002044.bak, /Users/Mungura/debate-agent/memory/daily/_backups/SUMMARY-2026-11-13.md.pre-sonnet5-repair-20261114_002044.bak.
-**Journal Dates Repaired:** 2026-11-13.
-**Scheduler Touched:** status pointer only.
-**Routes Touched:** dashboard API log attempted; status route verification handled separately.
-**Tests Run:** `scheduler`.
-**Verification Results:** files written, SUMMARY mirror written, DB length=28383, api_log_status=200.
-**Failures:** none.
-**Next Action:** verify dashboard routes and scheduler persistence.
-
-**Status:** complete.
-**Tags:** [memory, daily-journal, scheduler]
-
-## 2026-11-14 01:57 EAT — TEHUTI — TubeLoop backup left out 7 file(s) that contain keys
-<!-- type: event -->
-**From:** TEHUTI
-
-TubeLoop backup left out 7 file(s) that contain keys
-- Left out (secret found, value not shown): home/AUH/Blacksite/data/lanes/2026-10-28T10-12-58-wedjat-fd34/backup/vendor/godseye-lite/dist/assets/studio-WGq3jXIg.js [a live key value]; home/AUH/Blacksite/data/lanes/2026-10-28T10-12-58-wedjat-fd34/backup/vendor/godseye-lite/src/wedjat/studio.js [a live key value]; home/AUH/Blacksite/data/lanes/2026-10-28T11-10-10-wedjat-e5a0/backup/vendor/godseye-lite/dist/assets/studio-WGq3jXIg.js [a live key value]; home/AUH/Blacksite/data/lanes/2026-10-28T11-10-10-wedjat-e5a0/backup/vendor/godseye-lite/src/wedjat/studio.js [a live key value]; home/AUH/Blacksite/research/study-1108/vidrush/pages/builtin.html [google api key]; home/AUH/Loop/jobs/verse/_config/active-hotkeys.json [a live key value]; home/AUH/Loop/src/components/AudioDashboard.tsx [a live key value]
-- Left out (over size cap): home/AUH/Loop/loop/revival/bygone/bygone-highest-state.webm (71 MB); home/AUH/Blacksite/data/packages/ep-mvfpm7ln-770d0be167.zip (104 MB); home/AUH/Blacksite/data/wedjat-adsb/2026-10-21.json (134 MB)
-- Fix: move the key into the folder's .env (the keys backup picks it up) or add the path to secret_allow in ~/.auh-git/projects/tubeloop/project.json if it is not a real key.
-- Status: blocked — needs an agent to look
-
----
-
-## 2026-11-14 01:57 EAT — TEHUTI — TubeLoop backup kept the last saved copy of a folder that shrank or vanished
-<!-- type: event -->
-**From:** TEHUTI
-
-TubeLoop backup kept the last saved copy of a folder that shrank or vanished
-- Kept last saved version (safety): home/AUH/CloneEngine — lost 174 of 175 files
-- Status: blocked — needs an agent to look
-
----
-
-## 2026-11-14 06:10 EAT — MUNGURA — VMake daily study: LOT thumbnails vs performance
-<!-- type: event -->
-**From:** MUNGURA
-
-- What happened: LOT 277,000 subs · last 21d 6 uploads · median 3,700 views · views/sub 0.0134
-- Style that wins now: S1 mean 1.05x best 1.05x — dark, high-contrast, saturated, warm, no face, clean/simple
-- Own outliers: 13.51x “Your SEM3N Is SPIRIT You Can Spend”; 11.08x “Your SEM3N Is What Your AURA Is Made Of”; 4.32x “When You DON'T Ejaculate, Your Nerves Go QUI”
-- Competitor Beyond The Alchemy (84,000 subs, median 25,000): 27.2x “Why Women Sense Your Energy Instantly (A”; 4.24x “Escaping the Edging Trap: The Dopamine P”
-- Competitor Masculine Theory (122,000 subs, median 15,000): 21.6x “Semen retention is nervous system evolut”; 4.73x “It wasn't about semen retention. It was ”
-- Competitor The Aligned Men (16,200 subs, median 4,350): 46.9x “I Did PURE Semen Retention For 1 Year, H”; 28.28x “SEMEN RETENTION BENEFITS  | 13+ MIND BLO”
-- Competitor Captain Sinbad (554,000 subs, median 11,500): 4.61x “Act like a "hot girl" for success in lif”; 2.78x “You Can Have Everything You Want in 90 D”
-- Competitor Semen Retention Club (162,000 subs, median 15,000): 49.93x “Captain Picard - Semen Retention”; 9.6x “She Can't Seduce A Man IMMUNE TO TEMPTAT”
-- Competitor Sexual Kung Fu (196,000 subs, median 9,500): 25.26x “Angion Method For Penis Growth and Harde”; 24.63x “Orgasm Without Ejaculating By Retraining”
-- Competitor Astral Doorway (308,000 subs, median 3,800): 22.89x “How to Observe Yourself | Key I — 01 • T”; 20.53x “The Spiritual Future of Humanity & End T”
-- Competitor Regal Change (26,600 subs, median 3,200): 2.69x “Why You Give Hot Chicks PTSD On Semen Re”; 2.38x “I Couldn't Handle All The Female Attract”
-- Competitor Taylor Johnson - Integrative Sexual Health for Men (114,000 subs, median 5,150): 28.93x “Sex Transmutation Explained ✨🔥 (How-To G”; 21.17x “Multiple Ejaculations for Men (Technique”
-- Style to borrow: from Semen Retention Club best 49.93x — dark, high-contrast, muted, neutral, figure present, clean/simple
-- Errors: annel/UCboJ1avpnorCXLDU5UauVzg: yt-dlp failed for https://www.youtube.com/channel/UCboJ1avpnorCXLDU5UauVzg/video
-- Files changed: /Users/Mungura/AUH/VMake/out/study/study_c44deb7c.json, out/study/study_latest.json
-- Verification: 40 videos with real view counts; 40 thumbnails on disk; 3 style clusters
-- Catalog re-TN queue (views × ad slots × velocity; basis previous snapshot): #1 8.1% “THE 7 STAGES OF SEMEN RETENTION” TN DRAFT KEEP IT; #2 6.6% “The Reason Masturb*tion is Killing You” TN DRAFT DON'T SPILL; #3 5.6% “The Magic WITHIN YOU & How To ACTIVATE” TN DRAFT IT'S REAL
-- Fastest movers (v/day): 1006 “Your SEM3N Is What Your AURA Is Ma”; 1006 “YOUR SEM3N IS ACTUALLY SACRED FIRE”; 1006 “How NON-DUALITY is The ONLY Proof ”
-- META (last 90d, 39 outliers): thumbs are big text at bottom · split left/right · cleaner / simpler ; titles start with WHY ; outliers run 0–32 min
-- META shift vs last quarter: shorter titles (~8 words vs 9) -1.3→-0.8
-- LOT vs meta: winners are more muted · one field · flatter than LOT's last 12
-- Status: complete
-
-
-## 2026-11-14 08:11 EAT — TEHUTI — TubeLoop backup run failed
-<!-- type: event -->
-**From:** TEHUTI
-
-TubeLoop backup run failed
-- Error: could not read /Users/Mungura/AUH/Blacksite: fatal: unable to stat 'research/signal/state/.hdr35829': No such file or directory
-- Status: blocked — needs an agent to look
-
----
-
-## 2026-11-14 09:14 EAT — TEHUTI — TubeLoop backup recovered: backup run working again
-<!-- type: event -->
-**From:** TEHUTI
-
-TubeLoop backup recovered: backup run working again
-- A complete backup run succeeded; push state is tracked separately.
-- Status: complete — the recorded backup fault is resolved
-
----
-
-## 2026-11-14 18:07 EAT — TEHUTI — TubeLoop backup left out 7 file(s) that contain keys
-<!-- type: event -->
-**From:** TEHUTI
-
-TubeLoop backup left out 7 file(s) that contain keys
-- Left out (secret found, value not shown): home/AUH/Blacksite/data/lanes/2026-10-28T10-12-58-wedjat-fd34/backup/vendor/godseye-lite/dist/assets/studio-WGq3jXIg.js [a live key value]; home/AUH/Blacksite/data/lanes/2026-10-28T10-12-58-wedjat-fd34/backup/vendor/godseye-lite/src/wedjat/studio.js [a live key value]; home/AUH/Blacksite/data/lanes/2026-10-28T11-10-10-wedjat-e5a0/backup/vendor/godseye-lite/dist/assets/studio-WGq3jXIg.js [a live key value]; home/AUH/Blacksite/data/lanes/2026-10-28T11-10-10-wedjat-e5a0/backup/vendor/godseye-lite/src/wedjat/studio.js [a live key value]; home/AUH/Blacksite/research/study-1108/vidrush/pages/builtin.html [google api key]; home/AUH/Loop/jobs/verse/_config/active-hotkeys.json [a live key value]; home/AUH/Loop/src/components/AudioDashboard.tsx [a live key value]
-- Left out (over size cap): home/AUH/Loop/loop/revival/bygone/bygone-highest-state.webm (71 MB); home/AUH/Blacksite/data/packages/ep-mvfpm7ln-770d0be167.zip (104 MB); home/AUH/Blacksite/data/wedjat-adsb/2026-10-21.json (134 MB)
-- Fix: move the key into the folder's .env (the keys backup picks it up) or add the path to secret_allow in ~/.auh-git/projects/tubeloop/project.json if it is not a real key.
-- Status: blocked — needs an agent to look
-
----
-
-## 2026-11-14 18:07 EAT — TEHUTI — TubeLoop backup kept the last saved copy of a folder that shrank or vanished
-<!-- type: event -->
-**From:** TEHUTI
-
-TubeLoop backup kept the last saved copy of a folder that shrank or vanished
-- Kept last saved version (safety): home/AUH/CloneEngine — lost 174 of 175 files
-- Status: blocked — needs an agent to look
-
----
-
 ## 2026-11-15
 
 > Message-level context for this day. Auto-logged.
@@ -1298,3 +1134,44 @@ Daily journal generated for 2026-11-19; status=success; db_length=19399; source_
 
 **Status:** complete.
 **Tags:** [memory, daily-journal, scheduler]
+
+## 2026-11-24
+
+> Message-level context for this day. Auto-logged.
+
+---
+
+## 2026-11-24 06:40 EAT — MUNGURA — Juju master brief received: saved, checked against the Mac, screens read
+<!-- type: event -->
+**From:** MUNGURA
+
+Juju master brief received: saved, checked against the Mac, screens read
+- Harness: Claude Code (claude-fable-5-2)
+- What happened: Changed: Ambi pasted the Juju master brief (22 sections, 28,186 words) into T3 Code at 06:28. Saved byte-identical to ~/AUH/AMBESSA/intel/juju/JUJU-MASTER-BRIEF.md (sha256 8b8cdfc1…). Ran the boot it asks for, minus the steps that need his word. (1) Vendor docs: 19 of 19 saved to ~/AUH/AMBESSA/docs/stack-txt (the brief's harvester used bash 4 arrays; macOS has bash 3.2, so it was rewritten). (2) VidRush V2 walkthrough DlB0UABEawo: 1080p, 01:25 on, two ffmpeg passes, 639 frames on disk, 195 distinct screens with timed transcript. (3) Haiku 5.5 readers, one bounded unit each: 85 VidRush screenshots + the long homepage in 18 slices + 39 look references + 195 video screens, one JSON per unit in ~/AUH/AMBESSA/intel/juju/harvest/wave1/out, indexed in INDEX.json. (4) Juju added to the project map (find "Juju" now answers); topic = loop, where the software's history sits.
+
+Why/verdict: the brief is the first record of the name Juju on this Mac. No day log exists for 21 to 23 Nov and Memoir had zero hits, so its "said by Ambi 20 to 22 Nov" lines cannot be checked here; the paste itself is taken as his word for the name and the folder. Observations where the brief and the disk disagree: the Rust engines are at ~/AUH/Loop/loop/engine (47 files, 9,791 lines, confirmed), not ~/AUH/Loop/engine. The look folder holds 39 pictures, about 35 of them Hades II; no Thumbsy screen, no YouTube feed tester screens. Missing on this Mac: rustup, Android SDK/NDK, adb, Tauri, Typst, bun, wrangler, turso; disk 95% full (51 GB free). The brief puts LOT on Inworld TTS-2; Ambi's 1 Nov voice lock is ABV V9 on inworld-tts-1.5-max, 0.95, temperature 2.0. LOT has not uploaded since 2 Nov; lot-r01 (25.3 min script, voice about $0.46) was never voiced or rendered.
+
+Status/open: NOT done, waiting on Ambi: reading .env files to reuse keys (standing hard line), opening accounts and any payment, publishing the brief to the public ambessa-context repo (it carries his rent, debt and Mumu's details), installing Impeccable/Doop into the shared skill folders, the Android kit. No Juju code exists yet. Deadline named in the brief: first LOT film Wed 25 Nov 20:00 EAT.
+
+Related: brief sections 15 to 18 and 22; ~/AUH/Loop/loop/onefile/START-HERE.md; ~/AUH/AMBESSA/BUILD/BUILD-BRIEF.md (19 Nov handoff, before the name). Harness: Claude Code in T3 Code, Fable 5.2.
+- Files changed: ~/AUH/AMBESSA/intel/juju/JUJU-MASTER-BRIEF.md; ~/AUH/AMBESSA/intel/juju/scripts/stack-txt-harvester.sh; ~/AUH/AMBESSA/intel/juju/scripts/vidrush-v2-frame-rip.sh; ~/AUH/AMBESSA/intel/juju/scripts/dedupe_frames.py; ~/AUH/AMBESSA/intel/juju/scripts/harvest-index.py; ~/AUH/AMBESSA/intel/juju/harvest/wave1/INDEX.json; ~/AUH/AMBESSA/docs/stack-txt/; ~/debate-agent/memory/vault/project-maps.json
+- Verification: cp checksum matched; harvester printed saved 19 failed 0; frames.json lists 639 files and 195 distinct screens; harvest-index.py printed 0 failed records; one reader record compared by eye against its screenshot (home composer, 13-18-32) and matched word for word; map-check shows no juju failure (2 older failures: memoir skill not found).
+- Status: in-progress: boot audit and screen reading done; five decisions are Ambi's before the build starts
+
+---
+
+## 2026-11-24 06:41 EAT — MUNGURA — Juju brief read, 336 screens indexed, 19 vendor docs saved; waiting on Ambi's 5 calls
+<!-- type: event -->
+**From:** MUNGURA
+
+Juju brief read, 336 screens indexed, 19 vendor docs saved; waiting on Ambi's 5 calls
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 8c6b00a6)
+- Ambi pasted the Juju master brief. It is saved whole, and its claims were checked against this Mac. Juju is now registered in the shared project map.
+- Harvest done: 19 of 19 vendor docs saved; 336 VidRush and look-reference screens read with 0 failures, including 195 from the V2 walkthrough video.
+- Mac disagrees with the brief: no Juju memory or day log for 21-23 Nov; look folder has about 35 Hades II pictures, not the Thumbsy or feed screens; no Android kit; disk 95% full (51 GB free).
+- LOT has not uploaded since 2 Nov, and a 25-minute script has sat unvoiced since 10 Nov. Proposed Wednesday 20:00 target: one LOT film from one command, with thumbnail and publish text.
+- Cost $0 on paid services, about 2.2M tokens on 38 small reader agents. No Juju code built yet. Open: Ambi must reply 'defaults' or change the 5 calls before building starts.
+- Files changed: /Users/Mungura/AUH/AMBESSA/intel/juju/JUJU-MASTER-BRIEF.md; /Users/Mungura/AUH/AMBESSA/intel/juju/harvest/wave1/INDEX.json; /Users/Mungura/AUH/AMBESSA/intel/juju/harvest/wave1/V2VIDEO-READER-BRIEF.md; /Users/Mungura/AUH/AMBESSA/intel/juju/scripts/harvest-index.py; /Users/Mungura/AUH/AMBESSA/intel/juju/scripts/stack-txt-harvester.sh; /Users/Mungura/AUH/AMBESSA/intel/juju/scripts/dedupe_frames.py; /Users/Mungura/debate-agent/memory/vault/project-maps.json
+- Status: in-progress — research and intake complete, no Juju code built, awaiting Ambi's reply on the 5 calls
+
+---
