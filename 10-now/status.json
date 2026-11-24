@@ -1,5 +1,5 @@
 {
- "as_of": "13:25 EAT, Tue 24 Nov 2026",
+ "as_of": "13:26 EAT, Tue 24 Nov 2026",
  "jobs": [
   {
    "job": "Engine",
@@ -34,7 +34,7 @@
    "running": [
     {
      "agent": "rooms:altar+2",
-     "step": "Wait for the final batch and show truth lines"
+     "step": ""
     },
     {
      "agent": "rooms:crossroads+2",
@@ -61,7 +61,7 @@
    "running": [
     {
      "agent": "build:absorb",
-     "step": "Wait for tests and build, third window"
+     "step": "Keep waiting and view the queue"
     }
    ]
   },
@@ -84,7 +84,7 @@
     },
     {
      "agent": "teardown:G4w-a8NgnnQ",
-     "step": "Count distinct hedge footnotes and headers on code cards"
+     "step": "Wait up to nine minutes for lock jobs"
     },
     {
      "agent": "teardown:HmuQoak_IAg",
@@ -99,7 +99,7 @@
    "running": [
     {
      "agent": "board-fix",
-     "step": "Show where the placed ways out went, then start the final picture build and Doop push"
+     "step": "Wait for the final build and push"
     }
    ]
   },
@@ -210,11 +210,11 @@
   }
  ],
  "ledger": {
-  "calls": 940,
-  "usd_total": 0.6548,
+  "calls": 983,
+  "usd_total": 0.6736,
   "usd_by_service": {
-   "deepseek": 0.2627,
-   "openrouter": 0.2098,
+   "deepseek": 0.2716,
+   "openrouter": 0.2198,
    "google": 0.1822
   }
  },
@@ -270,9 +270,9 @@
   "74942a3 24 Nov 08:44 Juju: first save. Master brief, 33 skills, juju-core and juju-skills crates, 19 mocked rooms with kit and gate, stage form, open risks."
  ],
  "load": [
-  36,
+  40,
   43,
-  75
+  71
  ],
- "sheet_written": true
+ "sheet_written": false
 }

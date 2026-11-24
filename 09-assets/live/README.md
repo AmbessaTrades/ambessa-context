@@ -1,6 +1,6 @@
 # The rooms as they look now
 
-Checked 13:25 EAT, Tue 24 Nov 2026. One file per room, desktop beside phone, replaced when the room is redrawn. The numbered history is in `../library/`.
+Checked 13:26 EAT, Tue 24 Nov 2026. One file per room, desktop beside phone, replaced when the room is redrawn. The numbered history is in `../library/`.
 
 - [altar](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/live/altar.jpg)
 - [new-vessel](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/live/new-vessel.jpg)

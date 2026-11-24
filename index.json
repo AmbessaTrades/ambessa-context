@@ -1,7 +1,7 @@
 {
  "name": "ambessa-context",
  "what": "The working context of one project, Juju, for an AI that cannot see Ambi's computer.",
- "rebuilt": "13:25 EAT, Tue 24 Nov 2026",
+ "rebuilt": "13:26 EAT, Tue 24 Nov 2026",
  "read_order": [
   "00-READ-FIRST.md",
   "01-context.txt",
@@ -671,7 +671,7 @@
   },
   {
    "path": "09-assets/library/153-sheet-rooms-at-12-46-sheet-1.jpg",
-   "bytes": 295848
+   "bytes": 323400
   },
   {
    "path": "09-assets/library/154-sheet-rooms-at-12-46-sheet-2.jpg",
@@ -899,7 +899,7 @@
   },
   {
    "path": "09-assets/live/vessel.jpg",
-   "bytes": 80895
+   "bytes": 78037
   },
   {
    "path": "09-assets/live/voice.jpg",
@@ -923,7 +923,7 @@
   },
   {
    "path": "10-now/status.json",
-   "bytes": 5406
+   "bytes": 5284
   },
   {
    "path": "11-juju/README.md",
