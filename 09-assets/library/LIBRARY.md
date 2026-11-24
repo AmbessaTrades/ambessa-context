@@ -1,6 +1,6 @@
 # The library
 
-193 pictures, numbered once and never renumbered. Newest work first. Rebuilt 13:47 EAT, 24 Nov 2026.
+195 pictures, numbered once and never renumbered. Newest work first. Rebuilt 13:50 EAT, 24 Nov 2026.
 
 Raw link for any file: `https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/<file>`. Machine record: `items.json`. Page with pictures: `GALLERY.html`.
 
@@ -79,6 +79,7 @@ Our shared parts, the skins, and the three art directions that were judged.
 | 191 | nuance before after · 24 Nov 13:41 | [191-nuance-before-after-24-nov-13-41.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/191-nuance-before-after-24-nov-13-41.jpg) |
 | 192 | packaging feed · 24 Nov 13:44 | [192-packaging-feed-24-nov-13-44.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/192-packaging-feed-24-nov-13-44.jpg) |
 | 193 | storyboard ours vs cheap lift · 24 Nov 13:46 | [193-storyboard-ours-vs-cheap-lift-24-nov-13-46.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/193-storyboard-ours-vs-cheap-lift-24-nov-13-46.jpg) |
+| 194 | storyboard top · 24 Nov 13:46 | [194-storyboard-top-24-nov-13-46.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/194-storyboard-top-24-nov-13-46.jpg) |
 
 ## Juju — engine
 
@@ -99,6 +100,7 @@ Frames our own Rust engine drew. Round 1 was judged 3 to 5 of 10; round 5 is not
 | 166 | Engine · first cheap-model test, sheet 3 (judged 3 to 5 of 10: words used as the picture) | [166-engine-first-cheap-model-test-sheet-3-judged-3.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/166-engine-first-cheap-model-test-sheet-3-judged-3.jpg) |
 | 167 | Engine · the early hand-directed proof (retired material) | [167-engine-the-early-hand-directed-proof-retired-m.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/167-engine-the-early-hand-directed-proof-retired-m.jpg) |
 | 189 | stages sheet 7 · 24 Nov 13:29 | [189-stages-sheet-7-24-nov-13-29.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/189-stages-sheet-7-24-nov-13-29.jpg) |
+| 195 | stages sheet 8 · 24 Nov 13:46 | [195-stages-sheet-8-24-nov-13-46.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/195-stages-sheet-8-24-nov-13-46.jpg) |
 
 ## Juju — maps
 

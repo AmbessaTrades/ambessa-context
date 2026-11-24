@@ -1631,5 +1631,23 @@
   "source": "mockups/show/storyboard-ours-vs-cheap-lift.jpg",
   "sha": "4ff52042b011de81",
   "added": "2026-11-24 13:46 EAT"
+ },
+ {
+  "n": 194,
+  "file": "194-storyboard-top-24-nov-13-46.jpg",
+  "section": "Juju — parts and art",
+  "caption": "storyboard top · 24 Nov 13:46",
+  "source": "mockups/show/storyboard-top.jpg",
+  "sha": "409016667cadd168",
+  "added": "2026-11-24 13:50 EAT"
+ },
+ {
+  "n": 195,
+  "file": "195-stages-sheet-8-24-nov-13-46.jpg",
+  "section": "Juju — engine",
+  "caption": "stages sheet 8 · 24 Nov 13:46",
+  "source": "runs/stage-y/stages-sheet-8.jpg",
+  "sha": "f1538b16bfdb2e39",
+  "added": "2026-11-24 13:50 EAT"
  }
 ]

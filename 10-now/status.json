@@ -1,5 +1,5 @@
 {
- "as_of": "13:45 EAT, Tue 24 Nov 2026",
+ "as_of": "13:50 EAT, Tue 24 Nov 2026",
  "jobs": [
   {
    "job": "Engine",
@@ -42,7 +42,7 @@
     },
     {
      "agent": "rooms:new-vessel+3",
-     "step": "Wait for round five and truth output"
+     "step": "Wait for the truth check over every state"
     }
    ]
   },
@@ -64,7 +64,7 @@
    "running": [
     {
      "agent": "teardown:ZgpMtombn9A",
-     "step": "Correct the median and recheck queues"
+     "step": "Localise the strongest sound effects with Earshot sub-windows"
     },
     {
      "agent": "teardown:sJiaWNxYFUA",
@@ -76,11 +76,11 @@
     },
     {
      "agent": "teardown:G4w-a8NgnnQ",
-     "step": "Wait for caption fallback or Earshot"
+     "step": "Keep waiting for lock jobs"
     },
     {
      "agent": "teardown:HmuQoak_IAg",
-     "step": "Summarise all Earshot windows"
+     "step": "Rebuild and validate all JSON outputs"
     }
    ]
   },
@@ -91,27 +91,38 @@
    "running": [
     {
      "agent": "facts:wave",
-     "step": "List daily snapshots May-Aug 2026"
+     "step": "Get upload date and description of two creator videos"
     },
     {
      "agent": "pr-loop:build",
-     "step": "See PR 5's gate.yml change"
+     "step": "See a skill.json params change in PR 3"
     },
     {
      "agent": "teardown:sJiaWNxYFUA (again)",
-     "step": "Read the OCR function and find a Python with Vision"
+     "step": "Wait up to ten minutes for pass 1 frames"
     },
     {
      "agent": "build:fresh",
-     "step": "Check time, FACTS.md, load"
+     "step": "Write channels.json"
     },
     {
      "agent": "build:money",
-     "step": "Read Gemini Neon pricing section"
+     "step": "Adjust outline section targets to sum 2,800"
     },
     {
      "agent": "build:voice",
-     "step": "Find Earshot model cache and run doctor"
+     "step": "Inspect stock English voices"
+    }
+   ]
+  },
+  {
+   "job": "Fine comb",
+   "done": 0,
+   "of": 1,
+   "running": [
+    {
+     "agent": "build:comb",
+     "step": ""
     }
    ]
   }
@@ -249,7 +260,7 @@
   },
   "juju-conduct": {
    "files": 26,
-   "lines": 5076
+   "lines": 5116
   },
   "juju-core": {
    "files": 3,
@@ -272,15 +283,15 @@
    "lines": 2419
   }
  },
- "rust_lines": 12772,
+ "rust_lines": 12812,
  "rooms": 19,
  "decisions": 9,
  "apk_files": 0,
  "design_libraries": [],
  "teardowns": {
   "G4w-a8NgnnQ": 6,
-  "HmuQoak_IAg": 7,
-  "ZgpMtombn9A": 11,
+  "HmuQoak_IAg": 8,
+  "ZgpMtombn9A": 13,
   "oRBu7wYuOSo": 0,
   "sJiaWNxYFUA": 0
  },
@@ -293,9 +304,9 @@
   "74942a3 24 Nov 08:44 Juju: first save. Master brief, 33 skills, juju-core and juju-skills crates, 19 mocked rooms with kit and gate, stage form, open risks."
  ],
  "load": [
-  67,
-  60,
-  64
+  44,
+  53,
+  61
  ],
- "sheet_written": true
+ "sheet_written": false
 }
