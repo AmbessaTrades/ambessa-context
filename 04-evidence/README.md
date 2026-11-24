@@ -1,15 +1,11 @@
 # 04 — Evidence
 
-`outliers.csv` — every upload at 2x its channel's recent median or more, taken 19 Nov 2026 from each
-channel's most recent uploads (24, or 30 for two channels whose video tab exposes nothing). Columns:
-channel, the channel's median views, the title, the views, the ratio, the video id.
+Scan of 19 November 2026, checked against newer numbers on 24 November.
 
-102 outlier rows across 26 channels. `channels.jsonl` holds the full sets including non-outliers.
+`outliers.csv`: every upload at 2x its channel's recent median or more, from each channel's latest 24 to 30 uploads: channel, median views, title, views, ratio, video id. 102 rows, 26
+channels. `channels.jsonl`: the full sets. Thumbnails: library plates 039 to 104.
 
-Two caveats, stated because they change what the numbers mean:
-
-- A ratio is only as good as its median. A Shorts channel's median makes a longform hit look enormous.
-- Views are lifetime views at the moment of the scan, not views in the first week.
-
-The thumbnails for every row are in `09-assets/library/`, captioned with the channel, the views and the
-ratio.
+1. A ratio is only as good as its median. A channel of Shorts makes one long film look enormous.
+2. Views are lifetime views at the scan, not first-week views.
+3. Newer medians (Measured 24 Nov) differ: @Ethos-j7t 12,000; Server History 291,500; Jacopist 248,500. Rescan before relying on a row.
+4. Newer studies: five films in `../11-juju/teardowns.md`; 28 scout picks in `../11-juju/conductor-and-routes.md`.

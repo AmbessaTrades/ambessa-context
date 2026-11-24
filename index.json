@@ -1,67 +1,37 @@
 {
- "name": "Ambessa Saul / AUH context pack",
- "what": "A living context pack so any web agent can work on this business without asking.",
+ "name": "ambessa-context",
+ "what": "The working context of one project, Juju, for an AI that cannot see Ambi's computer.",
+ "rebuilt": "13:25 EAT, Tue 24 Nov 2026",
  "read_order": [
   "00-READ-FIRST.md",
-  "01-who/identity.md",
-  "02-goals/mission.md",
-  "02-goals/money.md",
-  "04-market/pain-map.md",
-  "05-offers/offer-set.md"
+  "01-context.txt",
+  "10-now/now.md",
+  "02-the-software.md",
+  "11-juju/README.md",
+  "11-juju/decisions/README.md",
+  "09-assets/library/LIBRARY.md"
  ],
- "rule": "Verified numbers only from 04-market/evidence/findings.csv. Everything else is context.",
+ "raw_base": "https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/",
  "files": [
   {
    "path": "00-READ-FIRST.md",
-   "bytes": 1643
+   "bytes": 2966
   },
   {
    "path": "01-context.txt",
-   "bytes": 5205
-  },
-  {
-   "path": "01-who/calm-room.md",
-   "bytes": 2600
-  },
-  {
-   "path": "01-who/founder-authority.md",
-   "bytes": 1233
-  },
-  {
-   "path": "01-who/mental-models-memoir.md",
-   "bytes": 3116
-  },
-  {
-   "path": "01-who/north-star.md",
-   "bytes": 2148
-  },
-  {
-   "path": "01-who/systems-thinking.md",
-   "bytes": 1318
-  },
-  {
-   "path": "02-findings.csv",
-   "bytes": 173488
-  },
-  {
-   "path": "02-goals/mission.md",
-   "bytes": 31815
+   "bytes": 9281
   },
   {
    "path": "02-the-software.md",
-   "bytes": 1681
+   "bytes": 4199
   },
   {
    "path": "03-reading-a-channel.md",
-   "bytes": 1871
-  },
-  {
-   "path": "03-the-brief/the-brief.md",
-   "bytes": 68578
+   "bytes": 2549
   },
   {
    "path": "04-evidence/README.md",
-   "bytes": 769
+   "bytes": 770
   },
   {
    "path": "04-evidence/channels.jsonl",
@@ -72,64 +42,24 @@
    "bytes": 10054
   },
   {
-   "path": "04-market/evidence/README.md",
-   "bytes": 648
-  },
-  {
-   "path": "04-market/evidence/confidence.md",
-   "bytes": 3134
-  },
-  {
-   "path": "04-market/evidence/findings.csv",
-   "bytes": 173488
-  },
-  {
-   "path": "04-market/thread-log.md",
-   "bytes": 60500
-  },
-  {
    "path": "05-the-record.md",
-   "bytes": 1350
+   "bytes": 4470
   },
   {
    "path": "06-how-we-work.md",
-   "bytes": 1210
-  },
-  {
-   "path": "07-agents/agents-and-harnesses.md",
-   "bytes": 60383
-  },
-  {
-   "path": "07-agents/bot-contract.md",
-   "bytes": 5791
-  },
-  {
-   "path": "07-agents/context-as-a-packet.md",
-   "bytes": 1263
+   "bytes": 2520
   },
   {
    "path": "07-start-here.md",
-   "bytes": 4415
+   "bytes": 2015
   },
   {
    "path": "08-journal/recent.md",
-   "bytes": 101628
-  },
-  {
-   "path": "08-journal/summaries.md",
-   "bytes": 62905
+   "bytes": 22567
   },
   {
    "path": "09-assets/.DS_Store",
    "bytes": 8196
-  },
-  {
-   "path": "09-assets/README.md",
-   "bytes": 453
-  },
-  {
-   "path": "09-assets/ambessa-saul-profile.png",
-   "bytes": 688113
   },
   {
    "path": "09-assets/library/001-player-select.png",
@@ -548,12 +478,352 @@
    "bytes": 86805
   },
   {
+   "path": "09-assets/library/105-room-the-altar-the-shelf-of-channels-a-lit-jar.jpg",
+   "bytes": 100537
+  },
+  {
+   "path": "09-assets/library/106-room-new-vessel-open-a-channel-paste-a-video-l.jpg",
+   "bytes": 93376
+  },
+  {
+   "path": "09-assets/library/107-room-the-vessel-one-channel-its-eight-design-l.jpg",
+   "bytes": 123758
+  },
+  {
+   "path": "09-assets/library/108-room-crossroads-dealt-title-cards-each-with-it.jpg",
+   "bytes": 131173
+  },
+  {
+   "path": "09-assets/library/109-room-mirror-bend-a-loved-thumbnail-becomes-thr.jpg",
+   "bytes": 125095
+  },
+  {
+   "path": "09-assets/library/110-room-feed-sight-our-thumbnail-among-real-compe.jpg",
+   "bytes": 155916
+  },
+  {
+   "path": "09-assets/library/111-room-the-cauldron-tell-juju-the-film.jpg",
+   "bytes": 106575
+  },
+  {
+   "path": "09-assets/library/112-room-the-arcana-ready-made-looks-none-finished.jpg",
+   "bytes": 103317
+  },
+  {
+   "path": "09-assets/library/113-room-the-pact-one-receipt-before-money-is-spen.jpg",
+   "bytes": 132519
+  },
+  {
+   "path": "09-assets/library/114-room-conjuring-the-film-being-made-safe-to-lea.jpg",
+   "bytes": 115133
+  },
+  {
+   "path": "09-assets/library/115-room-spell-strip-watch-the-film-fix-single-sce.jpg",
+   "bytes": 136442
+  },
+  {
+   "path": "09-assets/library/116-room-publish-kit-copy-title-description-pinned.jpg",
+   "bytes": 135374
+  },
+  {
+   "path": "09-assets/library/117-room-the-canopy-the-channel-as-a-tree-of-real-.jpg",
+   "bytes": 125933
+  },
+  {
+   "path": "09-assets/library/118-room-the-offering-the-channel-s-companion-prod.jpg",
+   "bytes": 110682
+  },
+  {
+   "path": "09-assets/library/119-room-the-sound-shelf-earshot-makes-and-hears-s.jpg",
+   "bytes": 78219
+  },
+  {
+   "path": "09-assets/library/120-room-the-voice-the-channel-s-voice.jpg",
+   "bytes": 90454
+  },
+  {
+   "path": "09-assets/library/121-room-the-reliquary-licensed-pictures-and-foota.jpg",
+   "bytes": 151430
+  },
+  {
+   "path": "09-assets/library/122-room-the-tank-wallets-by-juju-name-no-vendor-n.jpg",
+   "bytes": 93883
+  },
+  {
+   "path": "09-assets/library/123-room-the-gate-a-local-pin-opens-the-app-offlin.jpg",
+   "bytes": 66698
+  },
+  {
+   "path": "09-assets/library/124-state-altar-with-forty-channels-eleven-need-a-.jpg",
+   "bytes": 129949
+  },
+  {
+   "path": "09-assets/library/125-state-altar-while-a-film-is-being-drawn-act-3-.jpg",
+   "bytes": 87590
+  },
+  {
+   "path": "09-assets/library/126-state-altar-with-a-finished-film-sealed-in-its.jpg",
+   "bytes": 87528
+  },
+  {
+   "path": "09-assets/library/127-state-tank-with-one-wallet-low-drawn-state-not.jpg",
+   "bytes": 87522
+  },
+  {
+   "path": "09-assets/library/128-state-tank-with-spending-locked-drawn-state.jpg",
+   "bytes": 89513
+  },
+  {
+   "path": "09-assets/library/129-state-tank-the-75-cent-test-fuse-burnt-out.jpg",
+   "bytes": 47560
+  },
+  {
+   "path": "09-assets/library/130-state-new-vessel-reading-a-pasted-video.jpg",
+   "bytes": 86018
+  },
+  {
+   "path": "09-assets/library/131-state-mirror-bend-after-painting-three-version.jpg",
+   "bytes": 139649
+  },
+  {
+   "path": "09-assets/library/132-state-feed-sight-at-tv-size.jpg",
+   "bytes": 152953
+  },
+  {
+   "path": "09-assets/library/133-state-crossroads-dealt-with-our-own-layouts.jpg",
+   "bytes": 121066
+  },
+  {
+   "path": "09-assets/library/134-state-crossroads-echo-chain-90-70-50.jpg",
+   "bytes": 51638
+  },
+  {
+   "path": "09-assets/library/135-state-pact-sealed-the-practice-film-starts.jpg",
+   "bytes": 107440
+  },
+  {
+   "path": "09-assets/library/136-state-pact-blocked-because-one-wallet-is-short.jpg",
+   "bytes": 114922
+  },
+  {
+   "path": "09-assets/library/137-state-arcana-with-looks-learned-from-named-fil.jpg",
+   "bytes": 143228
+  },
+  {
+   "path": "09-assets/library/138-state-arcana-reading-a-new-look-from-a-video.jpg",
+   "bytes": 148348
+  },
+  {
+   "path": "09-assets/library/139-parts-parts-sheet-after-the-quiet-law-names-an.jpg",
+   "bytes": 95262
+  },
+  {
+   "path": "09-assets/library/140-parts-parts-sheet-in-the-codex-skin-before-the.jpg",
+   "bytes": 112293
+  },
+  {
+   "path": "09-assets/library/141-parts-parts-sheet-in-the-atelier-skin-before-t.jpg",
+   "bytes": 105518
+  },
+  {
+   "path": "09-assets/library/142-parts-parts-sheet-in-the-daylight-skin-before-.jpg",
+   "bytes": 148930
+  },
+  {
+   "path": "09-assets/library/143-parts-plates-and-the-dealt-hand-of-cards.jpg",
+   "bytes": 168583
+  },
+  {
+   "path": "09-assets/library/144-parts-effort-knob-dials-sound-and-voice-parts.jpg",
+   "bytes": 123361
+  },
+  {
+   "path": "09-assets/library/145-art-art-direction-carved-ink-won-17-of-30.jpg",
+   "bytes": 90663
+  },
+  {
+   "path": "09-assets/library/146-art-art-direction-night-light.jpg",
+   "bytes": 74153
+  },
+  {
+   "path": "09-assets/library/147-art-art-direction-framed-panels.jpg",
+   "bytes": 84206
+  },
+  {
+   "path": "09-assets/library/148-art-carved-direction-refined-the-altar.jpg",
+   "bytes": 113780
+  },
+  {
+   "path": "09-assets/library/149-art-carved-direction-refined-the-tank.jpg",
+   "bytes": 104344
+  },
+  {
+   "path": "09-assets/library/150-art-carved-direction-refined-the-object-sheet.jpg",
+   "bytes": 210363
+  },
+  {
+   "path": "09-assets/library/151-art-round-2-parts-with-the-subtext-ambi-reject.jpg",
+   "bytes": 130125
+  },
+  {
+   "path": "09-assets/library/152-art-round-2-parts-with-the-subtext-removed.jpg",
+   "bytes": 112029
+  },
+  {
+   "path": "09-assets/library/153-sheet-rooms-at-12-46-sheet-1.jpg",
+   "bytes": 295848
+  },
+  {
+   "path": "09-assets/library/154-sheet-rooms-at-12-46-sheet-2.jpg",
+   "bytes": 225055
+  },
+  {
+   "path": "09-assets/library/155-sheet-rooms-at-12-46-sheet-3.jpg",
+   "bytes": 188329
+  },
+  {
+   "path": "09-assets/library/156-engine-round-6-nine-kinds-of-world-beside-real.jpg",
+   "bytes": 362806
+  },
+  {
+   "path": "09-assets/library/157-engine-round-5-ours-left-real-films-right.jpg",
+   "bytes": 361437
+  },
+  {
+   "path": "09-assets/library/158-engine-round-1-of-the-worlds-for-comparison.jpg",
+   "bytes": 358402
+  },
+  {
+   "path": "09-assets/library/159-engine-one-test-film-sampled-every-5-seconds.jpg",
+   "bytes": 264543
+  },
+  {
+   "path": "09-assets/library/160-engine-still-instrument-view-the-trieste-at-0-.jpg",
+   "bytes": 115278
+  },
+  {
+   "path": "09-assets/library/161-engine-still-instrument-view-240-m-light-gone-.jpg",
+   "bytes": 98398
+  },
+  {
+   "path": "09-assets/library/162-engine-still-instrument-view-the-challenger-de.jpg",
+   "bytes": 104606
+  },
+  {
+   "path": "09-assets/library/163-engine-still-archive-footage-market-street-190.jpg",
+   "bytes": 212396
+  },
+  {
+   "path": "09-assets/library/164-engine-first-cheap-model-test-sheet-1-judged-3.jpg",
+   "bytes": 252591
+  },
+  {
+   "path": "09-assets/library/165-engine-first-cheap-model-test-sheet-2-judged-3.jpg",
+   "bytes": 287137
+  },
+  {
+   "path": "09-assets/library/166-engine-first-cheap-model-test-sheet-3-judged-3.jpg",
+   "bytes": 256601
+  },
+  {
+   "path": "09-assets/library/167-engine-the-early-hand-directed-proof-retired-m.jpg",
+   "bytes": 356387
+  },
+  {
+   "path": "09-assets/library/168-map-first-film-journey-drawn-as-a-line-through.jpg",
+   "bytes": 245501
+  },
+  {
+   "path": "09-assets/library/169-teardown-milky-stellar-something-is-strange-ab.jpg",
+   "bytes": 162500
+  },
+  {
+   "path": "09-assets/library/170-teardown-hands-ai-s-strange-obsession-with-enl.jpg",
+   "bytes": 212087
+  },
+  {
+   "path": "09-assets/library/171-teardown-ai-enlightenment-sheet-01-opening-one.jpg",
+   "bytes": 127792
+  },
+  {
+   "path": "09-assets/library/172-teardown-ai-enlightenment-sheet-07-document-be.jpg",
+   "bytes": 112271
+  },
+  {
+   "path": "09-assets/library/173-teardown-ai-enlightenment-sheet-13-quote-cards.jpg",
+   "bytes": 136496
+  },
+  {
+   "path": "09-assets/library/174-teardown-ai-enlightenment-sheet-19-painting-an.jpg",
+   "bytes": 231911
+  },
+  {
+   "path": "09-assets/library/175-teardown-ai-enlightenment-sheet-25-drawn-scene.jpg",
+   "bytes": 213709
+  },
+  {
+   "path": "09-assets/library/176-teardown-grand-canyon-ink-of-the-past-sheet-00.jpg",
+   "bytes": 123228
+  },
+  {
+   "path": "09-assets/library/177-teardown-grand-canyon-ink-of-the-past-sheet-00.jpg",
+   "bytes": 253478
+  },
+  {
+   "path": "09-assets/library/178-teardown-grand-canyon-ink-of-the-past-sheet-00.jpg",
+   "bytes": 222583
+  },
+  {
+   "path": "09-assets/library/179-teardown-grand-canyon-ink-of-the-past-sheet-01.jpg",
+   "bytes": 150120
+  },
+  {
+   "path": "09-assets/library/180-teardown-still-grand-canyon-the-official-accou.jpg",
+   "bytes": 43346
+  },
+  {
+   "path": "09-assets/library/181-teardown-still-grand-canyon-old-map-with-three.jpg",
+   "bytes": 270487
+  },
+  {
+   "path": "09-assets/library/182-teardown-atticus-king-galactic-empires-sheet-0.jpg",
+   "bytes": 143387
+  },
+  {
+   "path": "09-assets/library/183-teardown-atticus-king-galactic-empires-sheet-0.jpg",
+   "bytes": 138973
+  },
+  {
+   "path": "09-assets/library/184-teardown-atticus-king-galactic-empires-sheet-0.jpg",
+   "bytes": 245872
+  },
+  {
+   "path": "09-assets/library/185-scout-twenty-faceless-thumbnails-sheet-1.jpg",
+   "bytes": 362992
+  },
+  {
+   "path": "09-assets/library/186-scout-faceless-thumbnails-sheet-02.jpg",
+   "bytes": 356460
+  },
+  {
+   "path": "09-assets/library/187-scout-faceless-thumbnails-sheet-05.jpg",
+   "bytes": 414917
+  },
+  {
+   "path": "09-assets/library/188-scout-faceless-thumbnails-sheet-08.jpg",
+   "bytes": 353001
+  },
+  {
    "path": "09-assets/library/GALLERY.html",
-   "bytes": 28520
+   "bytes": 55001
   },
   {
    "path": "09-assets/library/LIBRARY.md",
-   "bytes": 28019
+   "bytes": 49956
+  },
+  {
+   "path": "09-assets/library/items.json",
+   "bytes": 53881
   },
   {
    "path": "09-assets/library/library.json",
@@ -564,16 +834,256 @@
    "bytes": 12133
   },
   {
-   "path": "09-assets/manifest.json",
-   "bytes": 3288
+   "path": "09-assets/live/README.md",
+   "bytes": 2068
+  },
+  {
+   "path": "09-assets/live/altar.jpg",
+   "bytes": 65880
+  },
+  {
+   "path": "09-assets/live/arcana.jpg",
+   "bytes": 65827
+  },
+  {
+   "path": "09-assets/live/canopy.jpg",
+   "bytes": 84067
+  },
+  {
+   "path": "09-assets/live/cauldron.jpg",
+   "bytes": 68754
+  },
+  {
+   "path": "09-assets/live/conjuring.jpg",
+   "bytes": 76591
+  },
+  {
+   "path": "09-assets/live/crossroads.jpg",
+   "bytes": 86023
+  },
+  {
+   "path": "09-assets/live/feed-sight.jpg",
+   "bytes": 101010
+  },
+  {
+   "path": "09-assets/live/mirror-bend.jpg",
+   "bytes": 79802
+  },
+  {
+   "path": "09-assets/live/new-vessel.jpg",
+   "bytes": 59214
+  },
+  {
+   "path": "09-assets/live/offering.jpg",
+   "bytes": 71203
+  },
+  {
+   "path": "09-assets/live/pact.jpg",
+   "bytes": 84889
+  },
+  {
+   "path": "09-assets/live/publish-kit.jpg",
+   "bytes": 89968
+  },
+  {
+   "path": "09-assets/live/reliquary.jpg",
+   "bytes": 98391
+  },
+  {
+   "path": "09-assets/live/sound.jpg",
+   "bytes": 47506
+  },
+  {
+   "path": "09-assets/live/spell-strip.jpg",
+   "bytes": 86867
+  },
+  {
+   "path": "09-assets/live/vessel.jpg",
+   "bytes": 80895
+  },
+  {
+   "path": "09-assets/live/voice.jpg",
+   "bytes": 55061
+  },
+  {
+   "path": "10-now/history.md",
+   "bytes": 4452
+  },
+  {
+   "path": "10-now/now.html",
+   "bytes": 6888
+  },
+  {
+   "path": "10-now/now.md",
+   "bytes": 5927
+  },
+  {
+   "path": "10-now/pull-requests.md",
+   "bytes": 11814
+  },
+  {
+   "path": "10-now/status.json",
+   "bytes": 5406
+  },
+  {
+   "path": "11-juju/README.md",
+   "bytes": 2513
+  },
+  {
+   "path": "11-juju/art-brief.md",
+   "bytes": 4863
+  },
+  {
+   "path": "11-juju/brief-sections-01-10.md",
+   "bytes": 14772
+  },
+  {
+   "path": "11-juju/brief-sections-11-22.md",
+   "bytes": 18150
+  },
+  {
+   "path": "11-juju/conductor-and-routes.md",
+   "bytes": 12953
+  },
+  {
+   "path": "11-juju/copy-rules.md",
+   "bytes": 7208
+  },
+  {
+   "path": "11-juju/coverage-and-attacks.md",
+   "bytes": 12209
+  },
+  {
+   "path": "11-juju/decisions/0001-earshot-listening-models-allowed.md",
+   "bytes": 2364
+  },
+  {
+   "path": "11-juju/decisions/0002-no-required-spoken-take.md",
+   "bytes": 1286
+  },
+  {
+   "path": "11-juju/decisions/0003-own-private-repo.md",
+   "bytes": 1061
+  },
+  {
+   "path": "11-juju/decisions/0004-lot-50-minutes-no-old-lot.md",
+   "bytes": 1018
+  },
+  {
+   "path": "11-juju/decisions/0005-tts2-pauses-in-the-edit.md",
+   "bytes": 818
+  },
+  {
+   "path": "11-juju/decisions/0006-seven-days-and-the-effort-knob.md",
+   "bytes": 1375
+  },
+  {
+   "path": "11-juju/decisions/0007-software-first.md",
+   "bytes": 1917
+  },
+  {
+   "path": "11-juju/decisions/0008-fixed-money-looks-taste.md",
+   "bytes": 3173
+  },
+  {
+   "path": "11-juju/decisions/0009-quiet-screens-quiet-frames.md",
+   "bytes": 2907
+  },
+  {
+   "path": "11-juju/decisions/README.md",
+   "bytes": 1127
+  },
+  {
+   "path": "11-juju/earshot-on-the-phone.md",
+   "bytes": 27095
+  },
+  {
+   "path": "11-juju/engine-stage-form.md",
+   "bytes": 4212
+  },
+  {
+   "path": "11-juju/engine-worlds.md",
+   "bytes": 11717
+  },
+  {
+   "path": "11-juju/film-engine.md",
+   "bytes": 10710
+  },
+  {
+   "path": "11-juju/lot-variety.md",
+   "bytes": 30642
+  },
+  {
+   "path": "11-juju/money-and-stack.md",
+   "bytes": 3608
+  },
+  {
+   "path": "11-juju/names-on-screen.md",
+   "bytes": 1519
+  },
+  {
+   "path": "11-juju/open-questions.md",
+   "bytes": 2652
+  },
+  {
+   "path": "11-juju/orchestration.md",
+   "bytes": 3065
+  },
+  {
+   "path": "11-juju/page-map.md",
+   "bytes": 12624
+  },
+  {
+   "path": "11-juju/parts.md",
+   "bytes": 9624
+  },
+  {
+   "path": "11-juju/screens-and-art.md",
+   "bytes": 11942
+  },
+  {
+   "path": "11-juju/script-gates.md",
+   "bytes": 11406
+  },
+  {
+   "path": "11-juju/skills.md",
+   "bytes": 8721
+  },
+  {
+   "path": "11-juju/stack-status.md",
+   "bytes": 8163
+  },
+  {
+   "path": "11-juju/surfaces.md",
+   "bytes": 2298
+  },
+  {
+   "path": "11-juju/teardowns.md",
+   "bytes": 13437
+  },
+  {
+   "path": "11-juju/test-film.md",
+   "bytes": 11561
+  },
+  {
+   "path": "11-juju/vocabulary.md",
+   "bytes": 2872
+  },
+  {
+   "path": "11-juju/what-ambi-said.md",
+   "bytes": 6227
   },
   {
    "path": "README.md",
-   "bytes": 801
+   "bytes": 1110
   },
   {
    "path": "SYNC.md",
-   "bytes": 2645
+   "bytes": 1137
+  },
+  {
+   "path": "_parts/context-head.md",
+   "bytes": 3181
   }
  ]
 }

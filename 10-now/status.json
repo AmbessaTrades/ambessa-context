@@ -1,0 +1,278 @@
+{
+ "as_of": "13:25 EAT, Tue 24 Nov 2026",
+ "jobs": [
+  {
+   "job": "Engine",
+   "done": 2,
+   "of": 4,
+   "running": [
+    {
+     "agent": "build:worlds",
+     "step": "Bash"
+    },
+    {
+     "agent": "build:speed",
+     "step": "Bash"
+    }
+   ]
+  },
+  {
+   "job": "Conductor",
+   "done": 10,
+   "of": 11,
+   "running": [
+    {
+     "agent": "fix:r2",
+     "step": "Bash"
+    }
+   ]
+  },
+  {
+   "job": "Rooms",
+   "done": 3,
+   "of": 8,
+   "running": [
+    {
+     "agent": "rooms:altar+2",
+     "step": "Wait for the final batch and show truth lines"
+    },
+    {
+     "agent": "rooms:crossroads+2",
+     "step": "Wait for full run a third time"
+    },
+    {
+     "agent": "rooms:cauldron+2",
+     "step": "Patch look undo and wait for renders"
+    },
+    {
+     "agent": "rooms:conjuring+2",
+     "step": "Collect faults from the sweep"
+    },
+    {
+     "agent": "rooms:new-vessel+3",
+     "step": "Wait for interaction renders"
+    }
+   ]
+  },
+  {
+   "job": "Film reader",
+   "done": 0,
+   "of": 1,
+   "running": [
+    {
+     "agent": "build:absorb",
+     "step": "Wait for tests and build, third window"
+    }
+   ]
+  },
+  {
+   "job": "Design systems",
+   "done": 0,
+   "of": 5,
+   "running": [
+    {
+     "agent": "teardown:ZgpMtombn9A",
+     "step": "Wait for bursts; show queue"
+    },
+    {
+     "agent": "teardown:sJiaWNxYFUA",
+     "step": ""
+    },
+    {
+     "agent": "teardown:oRBu7wYuOSo",
+     "step": "Wait for frames"
+    },
+    {
+     "agent": "teardown:G4w-a8NgnnQ",
+     "step": "Count distinct hedge footnotes and headers on code cards"
+    },
+    {
+     "agent": "teardown:HmuQoak_IAg",
+     "step": "Wait for dates to finish"
+    }
+   ]
+  },
+  {
+   "job": "Page map",
+   "done": 12,
+   "of": 13,
+   "running": [
+    {
+     "agent": "board-fix",
+     "step": "Show where the placed ways out went, then start the final picture build and Doop push"
+    }
+   ]
+  },
+  {
+   "job": "Keys and PRs",
+   "done": 3,
+   "of": 3,
+   "running": []
+  }
+ ],
+ "workshop": "up",
+ "pull_requests": [
+  {
+   "number": 8,
+   "title": "One command to see balances and models",
+   "state": "OPEN",
+   "checks": [
+    "SUCCESS"
+   ],
+   "opened": "2026-11-24T10:05:07Z",
+   "merged": null,
+   "added": 30,
+   "removed": 2
+  },
+  {
+   "number": 7,
+   "title": "The sample film the rooms are drawn from",
+   "state": "OPEN",
+   "checks": [
+    "SUCCESS"
+   ],
+   "opened": "2026-11-24T10:04:58Z",
+   "merged": null,
+   "added": 5951,
+   "removed": 2
+  },
+  {
+   "number": 6,
+   "title": "Library of Tehuti channel record and variety rules",
+   "state": "OPEN",
+   "checks": [
+    "SUCCESS"
+   ],
+   "opened": "2026-11-24T10:04:43Z",
+   "merged": null,
+   "added": 2519,
+   "removed": 2
+  },
+  {
+   "number": 5,
+   "title": "Reliquary: patient archives, fewer wrong refusals, tests compile again",
+   "state": "OPEN",
+   "checks": [
+    "SUCCESS"
+   ],
+   "opened": "2026-11-24T10:04:33Z",
+   "merged": null,
+   "added": 84,
+   "removed": 37
+  },
+  {
+   "number": 4,
+   "title": "Decision record: fixed money, looks, taste",
+   "state": "OPEN",
+   "checks": [
+    "SUCCESS"
+   ],
+   "opened": "2026-11-24T10:04:23Z",
+   "merged": null,
+   "added": 34,
+   "removed": 2
+  },
+  {
+   "number": 3,
+   "title": "Quiet screens: names and verbs only, checked by code",
+   "state": "OPEN",
+   "checks": [
+    "SUCCESS"
+   ],
+   "opened": "2026-11-24T10:04:13Z",
+   "merged": null,
+   "added": 1292,
+   "removed": 19
+  },
+  {
+   "number": 2,
+   "title": "Script gates, rounds 3 and 4",
+   "state": "OPEN",
+   "checks": [
+    "SUCCESS"
+   ],
+   "opened": "2026-11-24T10:04:03Z",
+   "merged": null,
+   "added": 4319,
+   "removed": 133
+  },
+  {
+   "number": 1,
+   "title": "Workspace list is a glob",
+   "state": "OPEN",
+   "checks": [
+    "SUCCESS"
+   ],
+   "opened": "2026-11-24T09:48:14Z",
+   "merged": null,
+   "added": 15,
+   "removed": 2
+  }
+ ],
+ "ledger": {
+  "calls": 940,
+  "usd_total": 0.6548,
+  "usd_by_service": {
+   "deepseek": 0.2627,
+   "openrouter": 0.2098,
+   "google": 0.1822
+  }
+ },
+ "skills": 44,
+ "rust": {
+  "juju-absorb": {
+   "files": 15,
+   "lines": 1288
+  },
+  "juju-conduct": {
+   "files": 24,
+   "lines": 3975
+  },
+  "juju-core": {
+   "files": 3,
+   "lines": 127
+  },
+  "juju-reliquary": {
+   "files": 10,
+   "lines": 922
+  },
+  "juju-script": {
+   "files": 11,
+   "lines": 2878
+  },
+  "juju-skills": {
+   "files": 1,
+   "lines": 62
+  },
+  "juju-stage": {
+   "files": 30,
+   "lines": 2418
+  }
+ },
+ "rust_lines": 11670,
+ "rooms": 19,
+ "decisions": 9,
+ "apk_files": 0,
+ "design_libraries": [],
+ "teardowns": {
+  "G4w-a8NgnnQ": 6,
+  "HmuQoak_IAg": 4,
+  "ZgpMtombn9A": 8,
+  "oRBu7wYuOSo": 0,
+  "sJiaWNxYFUA": 0
+ },
+ "main_commits": [
+  "e0115bd 24 Nov 10:33 Decision: the software first, no channel drives the build",
+  "ac48384 24 Nov 10:16 Test renders and fetched pictures leave the repo; latest crates, flow specs, names",
+  "a723ab9 24 Nov 10:12 LOT daily, effort knob, on-screen names",
+  "05d3a20 24 Nov 09:20 Speed skill, art studies, stage engine test 1 (cheap-model films scored about 4 of 10), gate and truth check",
+  "3e91606 24 Nov 08:46 Decisions of 24 Nov: own repo, LOT is 50 minute documentaries and old LOT is not a source, TTS-2 with pauses in the edit",
+  "74942a3 24 Nov 08:44 Juju: first save. Master brief, 33 skills, juju-core and juju-skills crates, 19 mocked rooms with kit and gate, stage form, open risks."
+ ],
+ "load": [
+  36,
+  43,
+  75
+ ],
+ "sheet_written": true
+}

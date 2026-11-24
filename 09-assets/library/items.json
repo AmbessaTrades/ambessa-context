@@ -1,0 +1,1590 @@
+[
+ {
+  "n": 1,
+  "file": "001-player-select.png",
+  "section": "The opening three",
+  "caption": "PLAYER SELECT — MAX POWERS card, three character chips, four empty slots",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 2,
+  "file": "002-main-menu.png",
+  "section": "The opening three",
+  "caption": "MAIN MENU — DNA / BUILD SCENE (lit) / GO FOR BROKE",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 3,
+  "file": "003-shot-room.jpg",
+  "section": "The opening three",
+  "caption": "SHOT — prompt, camera, character, one GENERATE SHOT button, scene tree",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 4,
+  "file": "004-room.jpg",
+  "section": "The rooms",
+  "caption": "Room sheet — PLAYER SELECT through STAGE, every two seconds",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 5,
+  "file": "005-room.jpg",
+  "section": "The rooms",
+  "caption": "Room sheet — SHOT, GENERATING!, then SEQUENCE 2305 playing back",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 6,
+  "file": "006-room.jpg",
+  "section": "The rooms",
+  "caption": "Room sheet — the editor: browser, preview, inspector, timeline",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 7,
+  "file": "007-channel.jpg",
+  "section": "The four channels",
+  "caption": "Milky Way trip · 25:06 · 218k — cockpit HUD, caption, ticker",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 8,
+  "file": "008-channel.jpg",
+  "section": "The four channels",
+  "caption": "Nearest Star · 16:16 · 2.8M — cockpit, FLIGHT SECONDS 10,000,000,000, a presenter at 897 s",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 9,
+  "file": "009-channel.jpg",
+  "section": "The four channels",
+  "caption": "Hyper Realistic Alien Invasion · 26:10 · 1.97M — orrery, world map, Mars stills, orbit diagram",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 10,
+  "file": "010-channel.jpg",
+  "section": "The four channels",
+  "caption": "What if WE Were The Aliens · 24:25 · 452k — date stamps, ship, orbit rings, ARRIVAL IN 68 YEARS",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 11,
+  "file": "011-niche.jpg",
+  "section": "The niche map",
+  "caption": "Niche sheet — Yellowstone / ISOTOPE WARS / 1984 Zombie / Earthlore",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 12,
+  "file": "012-niche.jpg",
+  "section": "The niche map",
+  "caption": "Niche sheet — POSSIBLE Future / Timeline of 2012 / Twice as Big / Fantasy Map Simulator",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 13,
+  "file": "013-niche.jpg",
+  "section": "The niche map",
+  "caption": "Niche sheet — HOI4 / Human Evolution / Got Heavier",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 14,
+  "file": "014-niche.jpg",
+  "section": "The niche map",
+  "caption": "Niche sheet — the HUD family, eight films",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 15,
+  "file": "015-niche.jpg",
+  "section": "The niche map",
+  "caption": "Niche sheet — cockpit / TON 618 / three Discord chats / black hole / India",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 16,
+  "file": "016-niche.jpg",
+  "section": "The niche map",
+  "caption": "Niche sheet — ExtinctZoo / Bygone Philosophy (Routine)",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 17,
+  "file": "017-niche.jpg",
+  "section": "The niche map",
+  "caption": "Niche sheet — Jade Rabbit Hole / the consciousness film",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 18,
+  "file": "018-niche.jpg",
+  "section": "The niche map",
+  "caption": "Niche sheet — Bygone Philosophy (Mind of a Genius)",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 19,
+  "file": "019-DaisfHDwPvc-packaging.jpg",
+  "section": "Packaging",
+  "caption": "1045HourVitality · 518,000 views — The Timeline Of 2012 (2009 - 0001)",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 20,
+  "file": "020-ESxYEHCQFRU-packaging.jpg",
+  "section": "Packaging",
+  "caption": "The Opening · 392,727 views — There’s a consciousness above you",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 21,
+  "file": "021-LqvlFsTaZgE-packaging.jpg",
+  "section": "Packaging",
+  "caption": "Mapocalypse · 391,000 views — I Simulated Yellowstone Erupting, Day by Day",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 22,
+  "file": "022-MVIwvywuQpQ-packaging.jpg",
+  "section": "Packaging",
+  "caption": "Jacopist · 1,900,000 views — A Hyper Realistic Alien Invasion",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 23,
+  "file": "023-PcHhptd6-p4-packaging.jpg",
+  "section": "Packaging",
+  "caption": "Thumbnail reference",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 24,
+  "file": "024-ZFdf69VEo14-packaging.jpg",
+  "section": "Packaging",
+  "caption": "GeoPanda · 598,000 views — 300,000 Years of People: Where humans lived, from the first Homo sapie",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 25,
+  "file": "025-aKxVZYL96bY-packaging.jpg",
+  "section": "Packaging",
+  "caption": "Minute Zero Extra · 430,000 views — What If You Got Heavier and Couldn't Stop?",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 26,
+  "file": "026-aobeydG8Sd4-packaging.jpg",
+  "section": "Packaging",
+  "caption": "Aprento · 705,000 views — 1,080 Years in Fantasy Map Simulator | Timelapse",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 27,
+  "file": "027-cEkozf-zCkY-packaging.jpg",
+  "section": "Packaging",
+  "caption": "Thumbnail reference",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 28,
+  "file": "028-fBXY_AyA0bo-packaging.jpg",
+  "section": "Packaging",
+  "caption": "GRIORSK · 956,000 views — ISOTOPE WARS - PART 0",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 29,
+  "file": "029-gY3F1AQpow0-packaging.jpg",
+  "section": "Packaging",
+  "caption": "1045HourVitality · 44,000 views — Black Hole Takeover Scenario (2268 - 2302)",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 30,
+  "file": "030-nuvZp7DIMTk-packaging.jpg",
+  "section": "Packaging",
+  "caption": "ExtinctZoo · 473,494 views — The Oldest Wars That We Know Happened",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 31,
+  "file": "031-pt7RDtHZQoU-packaging.jpg",
+  "section": "Packaging",
+  "caption": "Bygone Philosophy · 77,790 views — The Mind of a Genius",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 32,
+  "file": "032-qxAIE8s9-NA-packaging.jpg",
+  "section": "Packaging",
+  "caption": "Thumbnail reference",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 33,
+  "file": "033-sXyjakCgeVA-packaging.jpg",
+  "section": "Packaging",
+  "caption": "Icosahedron God · 260,000 views — \"POSSIBLE\" Future of the World (2025 - 3066)",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 34,
+  "file": "034-sfY4TGB9sJY-packaging.jpg",
+  "section": "Packaging",
+  "caption": "Bygone Philosophy · 38,128 views — The Masculine Routine",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 35,
+  "file": "035-umstrUXqmRg-packaging.jpg",
+  "section": "Packaging",
+  "caption": "GeoPanda · 248,000 views — Human Evolution: 2 Million Years of Human Species on One Map",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 36,
+  "file": "036-uvNQGq4JEf4-packaging.jpg",
+  "section": "Packaging",
+  "caption": "Jade Rabbit Hole · 362,210 views — The ENTIRE Hindu Afterlife Walkthrough in 12 Minutes",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 37,
+  "file": "037-xfkfRfcs5DI-packaging.jpg",
+  "section": "Packaging",
+  "caption": "Jir Mirza  · 89,000 views — 2026 USA vs 1945 World | Hearts of Iron IV (HOI4) Timelapse",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 38,
+  "file": "038-ylnTesFVoOo-packaging.jpg",
+  "section": "Packaging",
+  "caption": "AFTER THE DOOR · 2,600,000 views — What If Every Step Made You Twice as Big?",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 39,
+  "file": "039-UOhcAV4GyRA-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 8.49× · Jacopist · 3,600,000 views (median 424,000) — 100 Ways To Kill Pagan Min - Part 2 - Far Cry 4 Map Editor",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 40,
+  "file": "040-MVIwvywuQpQ-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 4.48× · Jacopist · 1,900,000 views (median 424,000) — A Hyper Realistic Alien Invasion",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 41,
+  "file": "041-hV988q6aT9E-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 2.59× · Jacopist · 1,100,000 views (median 424,000) — 100 Ways To Kill Pagan Min - Part 1 - Far Cry 4 Map Editor",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 42,
+  "file": "042-LqvlFsTaZgE-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 8.0× · Mapocalypse · 392,000 views (median 49,000) — I Simulated Yellowstone Erupting, Day by Day",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 43,
+  "file": "043-wr4G4YSq7ws-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 6.33× · Mapocalypse · 310,000 views (median 49,000) — I Simulated a War Between NATO and the USSR — Who Wins?",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 44,
+  "file": "044-rST7kQtForw-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 3.65× · Mapocalypse · 179,000 views (median 49,000) — I Simulated World War III Until It Went Nuclear",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 45,
+  "file": "045-fBXY_AyA0bo-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 11.33× · GRIORSK · 957,000 views (median 84,500) — ISOTOPE WARS - PART 0",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 46,
+  "file": "046-SoyHBEdk8WQ-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 3.1× · 1045HourVitality · 175,000 views (median 56,500) — World Peace Scenario (2026 - 2100)",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 47,
+  "file": "047-F176VMxwc8s-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 2.35× · 1045HourVitality · 133,000 views (median 56,500) — EU Federalization Scenario (2030 - 2063)",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 48,
+  "file": "048-qxAIE8s9-NA-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "Thumbnail reference",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 49,
+  "file": "049-sXyjakCgeVA-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 91.23× · Icosahedron God · 260,000 views (median 2,850) — \"POSSIBLE\" Future of the World (2025 - 3066)",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 50,
+  "file": "050-x-qhTXWocxg-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "Thumbnail reference",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 51,
+  "file": "051-LJSV8p8gbmw-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 3.3× · Icosahedron God · 9,400 views (median 2,850) — Alternate History of India (in USA)",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 52,
+  "file": "052-l086JClD1J0-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 11.3× · Aprento · 8,100 views (median 717) — 1,060 Years in Fantasy Map Simulator | Timelapse",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 53,
+  "file": "053-DyTNqZunWQk-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 8.09× · Aprento · 5,800 views (median 717) — 4,300 Years in Fantasy Map Simulator | Timelapse",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 54,
+  "file": "054-TeEbaaZvGiA-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 5.44× · Aprento · 3,900 views (median 717) — 1,111 Years in Fantasy Map Simulator | Timelapse",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 55,
+  "file": "055-xfkfRfcs5DI-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 10.34× · Jir Mirza  · 90,000 views (median 8,700) — 2026 USA vs 1945 World | Hearts of Iron IV (HOI4) Timelapse",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 56,
+  "file": "056-L0etjSHp3zg-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 7.13× · Jir Mirza  · 62,000 views (median 8,700) — 2026 China vs 1939 World | Hearts of Iron IV (HOI4) Timelapse",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 57,
+  "file": "057-JueRHejb_xg-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 5.4× · Jir Mirza  · 47,000 views (median 8,700) — 2000s Modern Africa vs 1939 WW2 Europe! | Hearts of Iron IV (HOI4) Timelapse",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 58,
+  "file": "058-ZFdf69VEo14-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 66.56× · GeoPanda · 599,000 views (median 9,000) — 300,000 Years of People: Where humans lived, from the first Homo sapiens to 8 billion (4K) 🌍",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 59,
+  "file": "059-umstrUXqmRg-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 27.78× · GeoPanda · 250,000 views (median 9,000) — Human Evolution: 2 Million Years of Human Species on One Map",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 60,
+  "file": "060-0Cy_iljthsE-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 14.11× · GeoPanda · 127,000 views (median 9,000) — The Rise and Fall of the Neanderthals (430,000–38,000 years ago) (4K)",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 61,
+  "file": "061-aKxVZYL96bY-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 8.43× · Minute Zero Extra · 430,000 views (median 51,000) — What If You Got Heavier and Couldn't Stop?",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 62,
+  "file": "062-t1-hzEz-4mk-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "Thumbnail reference",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 63,
+  "file": "063-cEkozf-zCkY-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "Thumbnail reference",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 64,
+  "file": "064-jw7x2RoeGIY-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 20.9× · Physics - problems and solutions · 878,000 views (median 42,000) — What If You Removed Every Electron From 1kg of Metal? (And Placed it on Earth)",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 65,
+  "file": "065-FE9KPlBoqa0-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 17.55× · Physics - problems and solutions · 737,000 views (median 42,000) — What Happens If You Never Stop Accelerating?",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 66,
+  "file": "066-eWu92oXtxsw-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 4.09× · ExtinctZoo  · 3,400,000 views (median 832,000) — The Deadliest Sea Animal From Every Single Period",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 67,
+  "file": "067-fKizW6NlnoA-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 3.12× · ExtinctZoo  · 2,600,000 views (median 832,000) — Earth's Deadliest Predator From Every Single Period",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 68,
+  "file": "068---srD8vlfFE-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "Thumbnail reference",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 69,
+  "file": "069-4_lsxy5fsac-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 17.08× · Bygone Philosophy · 709,000 views (median 41,500) — The Highest State a Human Can Reach",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 70,
+  "file": "070-vvLRZOHdNqA-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 8.41× · Bygone Philosophy · 349,000 views (median 41,500) — The Art of Not Trying",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 71,
+  "file": "071-v90SZKGbMRo-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 7.45× · Bygone Philosophy · 309,000 views (median 41,500) — You Will Never Procrastinate Again After Watching This Video",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 72,
+  "file": "072-jP0D3gcqe5Q-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 6.4× · Jade Rabbit Hole · 1,100,000 views (median 172,000) — The ENTIRE Chinese Hell Walkthrough in 10 Minutes",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 73,
+  "file": "073-WbSkqFdLOxo-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 2.33× · Jade Rabbit Hole · 401,000 views (median 172,000) — The ENTIRE Japanese Hell Walkthrough in 11 Minutes",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 74,
+  "file": "074-uvNQGq4JEf4-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 2.1× · Jade Rabbit Hole · 362,000 views (median 172,000) — The ENTIRE Hindu Afterlife Walkthrough in 12 Minutes",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 75,
+  "file": "075-KJg1-FCweWI-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "Thumbnail reference",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 76,
+  "file": "076-0Ei7uVIEfQg-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 48.47× · Δ Delta · 921,000 views (median 19,000) — What If the Human Population Kept Growing and Couldn't Stop?",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 77,
+  "file": "077-l10gi_U-6rQ-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "Thumbnail reference",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 78,
+  "file": "078-seGAdDGd6cc-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 3.95× · Δ Delta · 75,000 views (median 19,000) — What If GTA 6 Kept Getting Delayed?",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 79,
+  "file": "079-TAsqnXcCqRI-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 81.67× · WhatIfAnimations · 441,000 views (median 5,400) — What If Light Kept Getting Slower and Couldn’t Stop?",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 80,
+  "file": "080-ahm5qX_DZNk-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 11.11× · WhatIfAnimations · 60,000 views (median 5,400) — What If The Speed Of Light Increased And Couldn't Stop?",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 81,
+  "file": "081-iEz_FZzsk_k-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 9.44× · WhatIfAnimations · 51,000 views (median 5,400) — What If Friction Disappeared For 10 Seconds?",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 82,
+  "file": "082-gpLC_ELulyg-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 48.0× · Minute Zero · 2,400,000 views (median 50,000) — What If You Sped Up and Couldn’t Stop?",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 83,
+  "file": "083-5gbgKYMEySI-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 42.0× · Minute Zero · 2,100,000 views (median 50,000) — What If Time Sped Up and Couldn't Stop?",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 84,
+  "file": "084-xxBeQuOn4vA-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 12.46× · Minute Zero · 623,000 views (median 50,000) — What if Your Car Couldn't Stop Speeding Up?",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 85,
+  "file": "085-YVjN6p0BxzM-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 25.15× · The Cosmic Witness · 83,000 views (median 3,300) — We Replaced Our Sun With 12 Real Stars, Smallest to Biggest (Simulation)",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 86,
+  "file": "086-QmsfTvqr2Ic-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 11.82× · The Cosmic Witness · 39,000 views (median 3,300) — What If the Moon Opened Its Eye... and Came for Us?",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 87,
+  "file": "087-SctrE8px6pk-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 5.76× · The Cosmic Witness · 19,000 views (median 3,300) — What If a Rogue Planet Hit Earth? (30-Day Countdown Simulation)",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 88,
+  "file": "088-xU60JQSjxLc-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 81.3× · Universe Dimensions · 10,000,000 views (median 123,000) — What TON 618 Would Look Like at Different Distances",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 89,
+  "file": "089-7c_qUXqRZFo-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 10.57× · Universe Dimensions · 1,300,000 views (median 123,000) — The Night Sky When BETELGEUSE Goes SUPERNOVA (Simulation)",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 90,
+  "file": "090-tcNxiPtd8G4-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 3.0× · Universe Dimensions · 369,000 views (median 123,000) — The Red Giant Sun Seen From Every Planet in the Solar System",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 91,
+  "file": "091-51ZathOeW2E-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 10.88× · Server History · 3,100,000 views (median 285,000) — IF WW2 WAS A DISCORD CHAT (HISTORICALLY ACCURATE)",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 92,
+  "file": "092-fc5zremCbsU-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 2.58× · Server History · 736,000 views (median 285,000) — IF JULIUS CAESAR HAD A GROUP CHAT (HISTORICALLY ACCURATE)",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 93,
+  "file": "093-VHHHH4N4Wqw-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 2.51× · History Is Online · 98,000 views (median 39,000) — IF COVID WAS A GROUP CHAT (HISTORICALLY ACCURATE)",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 94,
+  "file": "094-BZrQiQJo2Ug-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 2.18× · History Is Online · 85,000 views (median 39,000) — IF THE SPACE RACE WAS A GROUP CHAT (HISTORICALLY ACCURATE)",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 95,
+  "file": "095-gcQNBKYhuUo-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 8.63× · Stargaze · 4,800,000 views (median 556,500) — What If a Black Hole Entered Our Solar System? (Simulation)",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 96,
+  "file": "096-qkBoH5l-6EY-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "Thumbnail reference",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 97,
+  "file": "097-5XgbLCJMSpE-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 2.88× · Stargaze · 1,600,000 views (median 556,500) — Falling Into the Most Dangerous Planet We Know (Simulation)",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 98,
+  "file": "098-lyRHFOcNMTU-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 20.24× · Planet B · 1,700,000 views (median 84,000) — Why Scientists Fear the Great Himalayan Earthquake",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 99,
+  "file": "099-bjEr7L2Rj9s-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 6.62× · Planet B · 556,000 views (median 84,000) — Why India's Geography Is Too Perfect",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 100,
+  "file": "100-ylnTesFVoOo-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 60.47× · AFTER THE DOOR · 2,600,000 views (median 43,000) — What If Every Step Made You Twice as Big?",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 101,
+  "file": "101-1G3irYCux_k-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 8.58× · AFTER THE DOOR · 369,000 views (median 43,000) — What If Every Blink Skipped 10x More Time",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 102,
+  "file": "102-uYcWVAOV-bI-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "Thumbnail reference",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 103,
+  "file": "103-p9MpxsDhAaQ-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 2.61× · Whatfinity · 4,700 views (median 1,800) — POV: Knocked Out, Back Twice as Strong #shorts",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 104,
+  "file": "104-ttlGbeAkwIE-outlier.jpg",
+  "section": "Outliers — the last four months",
+  "caption": "OUTLIER 2.11× · Whatfinity · 3,800 views (median 1,800) — POV: You Can’t Stop Running… and There’s a Wall (Part 2) #shorts",
+  "source": "library of 19 Nov 2026",
+  "added": "2026-11-19"
+ },
+ {
+  "n": 105,
+  "file": "105-room-the-altar-the-shelf-of-channels-a-lit-jar.jpg",
+  "section": "Juju — rooms",
+  "caption": "Room · The Altar: the shelf of channels; a lit jar needs you",
+  "source": "mockups/r2/shots/altar@1440.png",
+  "sha": "d0e19f51da287ed0",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 106,
+  "file": "106-room-new-vessel-open-a-channel-paste-a-video-l.jpg",
+  "section": "Juju — rooms",
+  "caption": "Room · New Vessel: open a channel; paste a video link to absorb it",
+  "source": "mockups/r2/shots/new-vessel@1440.png",
+  "sha": "827ec632bfdfabd6",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 107,
+  "file": "107-room-the-vessel-one-channel-its-eight-design-l.jpg",
+  "section": "Juju — rooms",
+  "caption": "Room · The Vessel: one channel, its eight design layers",
+  "source": "mockups/r2/shots/vessel@1440.png",
+  "sha": "59e5a0f5321f546a",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 108,
+  "file": "108-room-crossroads-dealt-title-cards-each-with-it.jpg",
+  "section": "Juju — rooms",
+  "caption": "Room · Crossroads: dealt title cards, each with its proof",
+  "source": "mockups/r2/shots/crossroads@1440.png",
+  "sha": "361f7bad485b921f",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 109,
+  "file": "109-room-mirror-bend-a-loved-thumbnail-becomes-thr.jpg",
+  "section": "Juju — rooms",
+  "caption": "Room · Mirror Bend: a loved thumbnail becomes three of ours",
+  "source": "mockups/r2/shots/mirror-bend@1440.png",
+  "sha": "b4a02db1c56ea257",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 110,
+  "file": "110-room-feed-sight-our-thumbnail-among-real-compe.jpg",
+  "section": "Juju — rooms",
+  "caption": "Room · Feed Sight: our thumbnail among real competitors",
+  "source": "mockups/r2/shots/feed-sight@1440.png",
+  "sha": "6b604cb921337f01",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 111,
+  "file": "111-room-the-cauldron-tell-juju-the-film.jpg",
+  "section": "Juju — rooms",
+  "caption": "Room · The Cauldron: tell Juju the film",
+  "source": "mockups/r2/shots/cauldron@1440.png",
+  "sha": "941276c80e55a7e2",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 112,
+  "file": "112-room-the-arcana-ready-made-looks-none-finished.jpg",
+  "section": "Juju — rooms",
+  "caption": "Room · The Arcana: ready-made looks (none finished yet)",
+  "source": "mockups/r2/shots/arcana@1440.png",
+  "sha": "5ead8c31f9f6fdd8",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 113,
+  "file": "113-room-the-pact-one-receipt-before-money-is-spen.jpg",
+  "section": "Juju — rooms",
+  "caption": "Room · The Pact: one receipt before money is spent",
+  "source": "mockups/r2/shots/pact@1440.png",
+  "sha": "619be5235c2f1d14",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 114,
+  "file": "114-room-conjuring-the-film-being-made-safe-to-lea.jpg",
+  "section": "Juju — rooms",
+  "caption": "Room · Conjuring: the film being made; safe to leave",
+  "source": "mockups/r2/shots/conjuring@1440.png",
+  "sha": "e3968b5661c77fc9",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 115,
+  "file": "115-room-spell-strip-watch-the-film-fix-single-sce.jpg",
+  "section": "Juju — rooms",
+  "caption": "Room · Spell Strip: watch the film, fix single scenes; no timeline",
+  "source": "mockups/r2/shots/spell-strip@1440.png",
+  "sha": "6ce924f55c592053",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 116,
+  "file": "116-room-publish-kit-copy-title-description-pinned.jpg",
+  "section": "Juju — rooms",
+  "caption": "Room · Publish Kit: copy title, description, pinned comment",
+  "source": "mockups/r2/shots/publish-kit@1440.png",
+  "sha": "5b7d5a83b61936d5",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 117,
+  "file": "117-room-the-canopy-the-channel-as-a-tree-of-real-.jpg",
+  "section": "Juju — rooms",
+  "caption": "Room · The Canopy: the channel as a tree of real numbers",
+  "source": "mockups/r2/shots/canopy@1440.png",
+  "sha": "c9f51ad9f06bec2e",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 118,
+  "file": "118-room-the-offering-the-channel-s-companion-prod.jpg",
+  "section": "Juju — rooms",
+  "caption": "Room · The Offering: the channel's companion product",
+  "source": "mockups/r2/shots/offering@1440.png",
+  "sha": "52f65dca2c7a060b",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 119,
+  "file": "119-room-the-sound-shelf-earshot-makes-and-hears-s.jpg",
+  "section": "Juju — rooms",
+  "caption": "Room · The Sound Shelf: Earshot makes and hears sounds",
+  "source": "mockups/r2/shots/sound@1440.png",
+  "sha": "a81a8a6b478e091f",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 120,
+  "file": "120-room-the-voice-the-channel-s-voice.jpg",
+  "section": "Juju — rooms",
+  "caption": "Room · The Voice: the channel's voice",
+  "source": "mockups/r2/shots/voice@1440.png",
+  "sha": "8ff7fc2e03e1b90f",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 121,
+  "file": "121-room-the-reliquary-licensed-pictures-and-foota.jpg",
+  "section": "Juju — rooms",
+  "caption": "Room · The Reliquary: licensed pictures and footage",
+  "source": "mockups/r2/shots/reliquary@1440.png",
+  "sha": "f52f0067ced95e14",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 122,
+  "file": "122-room-the-tank-wallets-by-juju-name-no-vendor-n.jpg",
+  "section": "Juju — rooms",
+  "caption": "Room · The Tank: wallets by Juju name, no vendor names",
+  "source": "mockups/r2/shots/tank@1440.png",
+  "sha": "219b4954f77d442c",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 123,
+  "file": "123-room-the-gate-a-local-pin-opens-the-app-offlin.jpg",
+  "section": "Juju — rooms",
+  "caption": "Room · The Gate: a local PIN opens the app offline (second name covered)",
+  "source": "mockups/r2/shots/gate@1440.png",
+  "sha": "9d6e30b7347b338c",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 124,
+  "file": "124-state-altar-with-forty-channels-eleven-need-a-.jpg",
+  "section": "Juju — states",
+  "caption": "State · Altar with forty channels: eleven need a hand",
+  "source": "mockups/r2/shots/altar.html?state=many@1440.png",
+  "sha": "e2b63ba59156da1e",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 125,
+  "file": "125-state-altar-while-a-film-is-being-drawn-act-3-.jpg",
+  "section": "Juju — states",
+  "caption": "State · Altar while a film is being drawn, act 3 of 9",
+  "source": "mockups/r2/shots/altar.html?state=working@1440.png",
+  "sha": "a602b8ca857722fa",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 126,
+  "file": "126-state-altar-with-a-finished-film-sealed-in-its.jpg",
+  "section": "Juju — states",
+  "caption": "State · Altar with a finished film sealed in its jar",
+  "source": "mockups/r2/shots/altar.html?state=ready@1440.png",
+  "sha": "5724c6e2425b50cb",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 127,
+  "file": "127-state-tank-with-one-wallet-low-drawn-state-not.jpg",
+  "section": "Juju — states",
+  "caption": "State · Tank with one wallet low (drawn state, not a real balance)",
+  "source": "mockups/r2/shots/tank.html?state=low@1440.png",
+  "sha": "a4fa57f2a73b9361",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 128,
+  "file": "128-state-tank-with-spending-locked-drawn-state.jpg",
+  "section": "Juju — states",
+  "caption": "State · Tank with spending locked (drawn state)",
+  "source": "mockups/r2/shots/tank.html?state=locked@1440.png",
+  "sha": "479e7c6620c15aa0",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 129,
+  "file": "129-state-tank-the-75-cent-test-fuse-burnt-out.jpg",
+  "section": "Juju — states",
+  "caption": "State · Tank: the 75 cent test fuse burnt out",
+  "source": "mockups/r2/shots/tank.html?state=fuse-burnt@1440.png",
+  "sha": "af83f96e4215dec6",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 130,
+  "file": "130-state-new-vessel-reading-a-pasted-video.jpg",
+  "section": "Juju — states",
+  "caption": "State · New Vessel reading a pasted video",
+  "source": "mockups/r2/shots/new-vessel.html?state=reading@1440.png",
+  "sha": "44c71a67fcc15149",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 131,
+  "file": "131-state-mirror-bend-after-painting-three-version.jpg",
+  "section": "Juju — states",
+  "caption": "State · Mirror Bend after painting three versions",
+  "source": "mockups/r2/shots/mirror-bend.html?state=painted@1440.png",
+  "sha": "c24e720563ddf5fa",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 132,
+  "file": "132-state-feed-sight-at-tv-size.jpg",
+  "section": "Juju — states",
+  "caption": "State · Feed Sight at TV size",
+  "source": "mockups/r2/shots/feed-sight.html?state=tv@1440.png",
+  "sha": "155111f0e9004397",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 133,
+  "file": "133-state-crossroads-dealt-with-our-own-layouts.jpg",
+  "section": "Juju — states",
+  "caption": "State · Crossroads dealt with our own layouts",
+  "source": "mockups/r2/shots/crossroads.html?state=dealt@1440.png",
+  "sha": "2fcb789719f41a94",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 134,
+  "file": "134-state-crossroads-echo-chain-90-70-50.jpg",
+  "section": "Juju — states",
+  "caption": "State · Crossroads echo chain: 90, 70, 50",
+  "source": "mockups/r2/shots/crossroads.html?state=echo-sheet@1440.png",
+  "sha": "2d1d72feccd607e4",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 135,
+  "file": "135-state-pact-sealed-the-practice-film-starts.jpg",
+  "section": "Juju — states",
+  "caption": "State · Pact sealed: the practice film starts",
+  "source": "mockups/r2/shots/pact.html?state=sealed@1440.png",
+  "sha": "b0b9d0f45fb1065a",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 136,
+  "file": "136-state-pact-blocked-because-one-wallet-is-short.jpg",
+  "section": "Juju — states",
+  "caption": "State · Pact blocked because one wallet is short",
+  "source": "mockups/r2/shots/pact.html?state=blocked_money@1440.png",
+  "sha": "020f2604485c9711",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 137,
+  "file": "137-state-arcana-with-looks-learned-from-named-fil.jpg",
+  "section": "Juju — states",
+  "caption": "State · Arcana with looks learned from named films",
+  "source": "mockups/r2/shots/arcana.html?state=at_rest@1440.png",
+  "sha": "faf3940b5d110861",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 138,
+  "file": "138-state-arcana-reading-a-new-look-from-a-video.jpg",
+  "section": "Juju — states",
+  "caption": "State · Arcana reading a new look from a video",
+  "source": "mockups/r2/shots/arcana.html?state=reading_video@1440.png",
+  "sha": "9a67db63a19621b7",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 139,
+  "file": "139-parts-parts-sheet-after-the-quiet-law-names-an.jpg",
+  "section": "Juju — parts and art",
+  "caption": "Parts · Parts sheet after the quiet law: names and one-word states only",
+  "source": "mockups/r2/shots/kit-sheet@1440.png",
+  "sha": "696230d7ea1e5b84",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 140,
+  "file": "140-parts-parts-sheet-in-the-codex-skin-before-the.jpg",
+  "section": "Juju — parts and art",
+  "caption": "Parts · Parts sheet in the Codex skin (before the quiet law)",
+  "source": "mockups/r2/shots/kit-sheet-pab-codex@1440.png",
+  "sha": "46fa84144d669b55",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 141,
+  "file": "141-parts-parts-sheet-in-the-atelier-skin-before-t.jpg",
+  "section": "Juju — parts and art",
+  "caption": "Parts · Parts sheet in the Atelier skin (before the quiet law)",
+  "source": "mockups/r2/shots/kit-sheet-pa-atelier@1440.png",
+  "sha": "7ff27445250728ef",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 142,
+  "file": "142-parts-parts-sheet-in-the-daylight-skin-before-.jpg",
+  "section": "Juju — parts and art",
+  "caption": "Parts · Parts sheet in the Daylight skin (before the quiet law)",
+  "source": "mockups/r2/shots/kit-sheet-pab-daylight@1440.png",
+  "sha": "8325ba6b29c20358",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 143,
+  "file": "143-parts-plates-and-the-dealt-hand-of-cards.jpg",
+  "section": "Juju — parts and art",
+  "caption": "Parts · Plates and the dealt hand of cards",
+  "source": "mockups/r2/shots/kit-sheet-pc@1440.png",
+  "sha": "04346762a96a3080",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 144,
+  "file": "144-parts-effort-knob-dials-sound-and-voice-parts.jpg",
+  "section": "Juju — parts and art",
+  "caption": "Parts · Effort knob, dials, sound and voice parts",
+  "source": "mockups/r2/shots/kit-sheet-pd-motion@1440.png",
+  "sha": "297d6012b6a9258e",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 145,
+  "file": "145-art-art-direction-carved-ink-won-17-of-30.jpg",
+  "section": "Juju — parts and art",
+  "caption": "Art · Art direction: carved ink (won 17 of 30)",
+  "source": "mockups/show/art-carved.jpg",
+  "sha": "dd2becadc051eafa",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 146,
+  "file": "146-art-art-direction-night-light.jpg",
+  "section": "Juju — parts and art",
+  "caption": "Art · Art direction: night light",
+  "source": "mockups/show/art-nightlit.jpg",
+  "sha": "1c3a35a0de7aec4f",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 147,
+  "file": "147-art-art-direction-framed-panels.jpg",
+  "section": "Juju — parts and art",
+  "caption": "Art · Art direction: framed panels",
+  "source": "mockups/show/art-panels.jpg",
+  "sha": "e632e1f170ae9edb",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 148,
+  "file": "148-art-carved-direction-refined-the-altar.jpg",
+  "section": "Juju — parts and art",
+  "caption": "Art · Carved direction refined: the Altar",
+  "source": "mockups/show/carved-altar-r2.jpg",
+  "sha": "209d698c19ff9635",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 149,
+  "file": "149-art-carved-direction-refined-the-tank.jpg",
+  "section": "Juju — parts and art",
+  "caption": "Art · Carved direction refined: the Tank",
+  "source": "mockups/show/carved-tank-r2.jpg",
+  "sha": "d011eb9e00b8db91",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 150,
+  "file": "150-art-carved-direction-refined-the-object-sheet.jpg",
+  "section": "Juju — parts and art",
+  "caption": "Art · Carved direction refined: the object sheet",
+  "source": "mockups/show/carved-sheet-r2.jpg",
+  "sha": "132622acef9f2fe6",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 151,
+  "file": "151-art-round-2-parts-with-the-subtext-ambi-reject.jpg",
+  "section": "Juju — parts and art",
+  "caption": "Art · Round 2 parts with the subtext Ambi rejected",
+  "source": "mockups/show/r2-parts-twin.jpg",
+  "sha": "3fe6951886f24c17",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 152,
+  "file": "152-art-round-2-parts-with-the-subtext-removed.jpg",
+  "section": "Juju — parts and art",
+  "caption": "Art · Round 2 parts with the subtext removed",
+  "source": "mockups/show/r2-parts-quiet.jpg",
+  "sha": "873b0e7cfbb88e0c",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 153,
+  "file": "153-sheet-rooms-at-12-46-sheet-1.jpg",
+  "section": "Juju — rooms",
+  "caption": "Sheet · Rooms at 12:46, sheet 1",
+  "source": "mockups/show/rooms-now-1.jpg",
+  "sha": "855063b47adbcd1a",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 154,
+  "file": "154-sheet-rooms-at-12-46-sheet-2.jpg",
+  "section": "Juju — rooms",
+  "caption": "Sheet · Rooms at 12:46, sheet 2",
+  "source": "mockups/show/rooms-now-2.jpg",
+  "sha": "fd6cf96b89423097",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 155,
+  "file": "155-sheet-rooms-at-12-46-sheet-3.jpg",
+  "section": "Juju — rooms",
+  "caption": "Sheet · Rooms at 12:46, sheet 3",
+  "source": "mockups/show/rooms-now-3.jpg",
+  "sha": "0415b1f9466be3ba",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 156,
+  "file": "156-engine-round-6-nine-kinds-of-world-beside-real.jpg",
+  "section": "Juju — engine",
+  "caption": "Engine · round 6: nine kinds of world beside real films (ours left)",
+  "source": "runs/stage-y/stages-sheet-6.jpg",
+  "sha": "c4a048f7bcbd1e27",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 157,
+  "file": "157-engine-round-5-ours-left-real-films-right.jpg",
+  "section": "Juju — engine",
+  "caption": "Engine · round 5: ours left, real films right",
+  "source": "runs/stage-y/stages-sheet-5.jpg",
+  "sha": "545c5ec110cdb785",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 158,
+  "file": "158-engine-round-1-of-the-worlds-for-comparison.jpg",
+  "section": "Juju — engine",
+  "caption": "Engine · round 1 of the worlds, for comparison",
+  "source": "runs/stage-y/stages-sheet-1.jpg",
+  "sha": "518dcedf97b1e92e",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 159,
+  "file": "159-engine-one-test-film-sampled-every-5-seconds.jpg",
+  "section": "Juju — engine",
+  "caption": "Engine · one test film sampled every 5 seconds",
+  "source": "mockups/show/engine-film-5s.jpg",
+  "sha": "94429919277c41f1",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 160,
+  "file": "160-engine-still-instrument-view-the-trieste-at-0-.jpg",
+  "section": "Juju — engine",
+  "caption": "Engine still · Instrument view: the Trieste at 0 m",
+  "source": "runs/stage-y/rounds/6/still-154.06.jpg",
+  "sha": "a995e729988b09aa",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 161,
+  "file": "161-engine-still-instrument-view-240-m-light-gone-.jpg",
+  "section": "Juju — engine",
+  "caption": "Engine still · Instrument view: 240 m, light gone, gauges fed from one table",
+  "source": "runs/stage-y/rounds/6/still-164.79.jpg",
+  "sha": "89fb57edc23dc5bc",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 162,
+  "file": "162-engine-still-instrument-view-the-challenger-de.jpg",
+  "section": "Juju — engine",
+  "caption": "Engine still · Instrument view: the Challenger Deep",
+  "source": "runs/stage-y/rounds/6/still-174.91.jpg",
+  "sha": "5f88f688a21a4c35",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 163,
+  "file": "163-engine-still-archive-footage-market-street-190.jpg",
+  "section": "Juju — engine",
+  "caption": "Engine still · Archive footage: Market Street 1906 with a caption lane",
+  "source": "runs/stage-y/rounds/6/still-181.54.jpg",
+  "sha": "90087c80ec64fa24",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 164,
+  "file": "164-engine-first-cheap-model-test-sheet-1-judged-3.jpg",
+  "section": "Juju — engine",
+  "caption": "Engine · first cheap-model test, sheet 1 (judged 3 to 5 of 10: words used as the picture)",
+  "source": "runs/stage-x/fill-1/contact-5s.jpg",
+  "sha": "4c277b690aaf0840",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 165,
+  "file": "165-engine-first-cheap-model-test-sheet-2-judged-3.jpg",
+  "section": "Juju — engine",
+  "caption": "Engine · first cheap-model test, sheet 2 (judged 3 to 5 of 10: words used as the picture)",
+  "source": "runs/stage-x/fill-2/contact-5s.jpg",
+  "sha": "6c06364115414457",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 166,
+  "file": "166-engine-first-cheap-model-test-sheet-3-judged-3.jpg",
+  "section": "Juju — engine",
+  "caption": "Engine · first cheap-model test, sheet 3 (judged 3 to 5 of 10: words used as the picture)",
+  "source": "runs/stage-x/fill-3/contact-5s.jpg",
+  "sha": "bdfdc39c584d68ce",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 167,
+  "file": "167-engine-the-early-hand-directed-proof-retired-m.jpg",
+  "section": "Juju — engine",
+  "caption": "Engine · the early hand-directed proof (retired material)",
+  "source": "runs/lot-r01-proof/contact-5s.jpg",
+  "sha": "f0261e9cede6d0bd",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 168,
+  "file": "168-map-first-film-journey-drawn-as-a-line-through.jpg",
+  "section": "Juju — maps",
+  "caption": "Map · first-film journey drawn as a line through the rooms",
+  "source": "mockups/show/journey-1-top.jpg",
+  "sha": "e902a9b363cdb426",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 169,
+  "file": "169-teardown-milky-stellar-something-is-strange-ab.jpg",
+  "section": "Teardowns",
+  "caption": "Teardown · Milky Stellar, Something Is Strange About Where We Live: sixteen devices",
+  "source": "runs/teardown/../../mockups/show/teardown-G4w-a8NgnnQ.jpg",
+  "sha": "00527096c41547c0",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 170,
+  "file": "170-teardown-hands-ai-s-strange-obsession-with-enl.jpg",
+  "section": "Teardowns",
+  "caption": "Teardown · hands, AI's Strange Obsession with Enlightenment: quote, flat waveform, quote",
+  "source": "mockups/show/teardown-enlightenment-mid.jpg",
+  "sha": "177f92693eb5b9fc",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 171,
+  "file": "171-teardown-ai-enlightenment-sheet-01-opening-one.jpg",
+  "section": "Teardowns",
+  "caption": "Teardown · AI Enlightenment sheet 01, opening: one blue room, counters",
+  "source": "runs/teardown/ZgpMtombn9A/sheets/sheet-01.jpg",
+  "sha": "2d52c5581f789929",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 172,
+  "file": "172-teardown-ai-enlightenment-sheet-07-document-be.jpg",
+  "section": "Teardowns",
+  "caption": "Teardown · AI Enlightenment sheet 07, document beats on cream",
+  "source": "runs/teardown/ZgpMtombn9A/sheets/sheet-07.jpg",
+  "sha": "02f802b2a0e913cc",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 173,
+  "file": "173-teardown-ai-enlightenment-sheet-13-quote-cards.jpg",
+  "section": "Teardowns",
+  "caption": "Teardown · AI Enlightenment sheet 13, quote cards on dark",
+  "source": "runs/teardown/ZgpMtombn9A/sheets/sheet-13.jpg",
+  "sha": "350c103c377c63cc",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 174,
+  "file": "174-teardown-ai-enlightenment-sheet-19-painting-an.jpg",
+  "section": "Teardowns",
+  "caption": "Teardown · AI Enlightenment sheet 19, painting and orange drawn scene",
+  "source": "runs/teardown/ZgpMtombn9A/sheets/sheet-19.jpg",
+  "sha": "0f4726cd78880189",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 175,
+  "file": "175-teardown-ai-enlightenment-sheet-25-drawn-scene.jpg",
+  "section": "Teardowns",
+  "caption": "Teardown · AI Enlightenment sheet 25, drawn scenes that build",
+  "source": "runs/teardown/ZgpMtombn9A/sheets/sheet-25.jpg",
+  "sha": "e33332ef8fad93e5",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 176,
+  "file": "176-teardown-grand-canyon-ink-of-the-past-sheet-00.jpg",
+  "section": "Teardowns",
+  "caption": "Teardown · Grand Canyon (Ink Of The Past) sheet 001, cold open on the canyon",
+  "source": "runs/teardown/HmuQoak_IAg/sheets/sheet-001.jpg",
+  "sha": "3f1022509d3518dc",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 177,
+  "file": "177-teardown-grand-canyon-ink-of-the-past-sheet-00.jpg",
+  "section": "Teardowns",
+  "caption": "Teardown · Grand Canyon (Ink Of The Past) sheet 004, old maps and source cards",
+  "source": "runs/teardown/HmuQoak_IAg/sheets/sheet-004.jpg",
+  "sha": "f1ed77b80ccadc1d",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 178,
+  "file": "178-teardown-grand-canyon-ink-of-the-past-sheet-00.jpg",
+  "section": "Teardowns",
+  "caption": "Teardown · Grand Canyon (Ink Of The Past) sheet 007, map, painting, rival thumbnails",
+  "source": "runs/teardown/HmuQoak_IAg/sheets/sheet-007.jpg",
+  "sha": "a12f922000987c91",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 179,
+  "file": "179-teardown-grand-canyon-ink-of-the-past-sheet-01.jpg",
+  "section": "Teardowns",
+  "caption": "Teardown · Grand Canyon (Ink Of The Past) sheet 010, rings, counters and timeline",
+  "source": "runs/teardown/HmuQoak_IAg/sheets/sheet-010.jpg",
+  "sha": "fa48f0d3dc8e9ae8",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 180,
+  "file": "180-teardown-still-grand-canyon-the-official-accou.jpg",
+  "section": "Teardowns",
+  "caption": "Teardown still · Grand Canyon, the official account as a paper card",
+  "source": "runs/teardown/HmuQoak_IAg/stills/s_108.0.jpg",
+  "sha": "c22e6a97c30d8cff",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 181,
+  "file": "181-teardown-still-grand-canyon-old-map-with-three.jpg",
+  "section": "Teardowns",
+  "caption": "Teardown still · Grand Canyon, old map with three label colours",
+  "source": "runs/teardown/HmuQoak_IAg/stills/s_145.5.jpg",
+  "sha": "b7326a12dfc88325",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 182,
+  "file": "182-teardown-atticus-king-galactic-empires-sheet-0.jpg",
+  "section": "Teardowns",
+  "caption": "Teardown · Atticus King, galactic empires, sheet 01",
+  "source": "runs/scout/atticus/sheets/sheet_01.jpg",
+  "sha": "ac0618f52010947e",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 183,
+  "file": "183-teardown-atticus-king-galactic-empires-sheet-0.jpg",
+  "section": "Teardowns",
+  "caption": "Teardown · Atticus King, galactic empires, sheet 02",
+  "source": "runs/scout/atticus/sheets/sheet_02.jpg",
+  "sha": "612d558d2110eca9",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 184,
+  "file": "184-teardown-atticus-king-galactic-empires-sheet-0.jpg",
+  "section": "Teardowns",
+  "caption": "Teardown · Atticus King, galactic empires, sheet 03",
+  "source": "runs/scout/atticus/sheets/sheet_03.jpg",
+  "sha": "9bc8ad5c8e3c26ce",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 185,
+  "file": "185-scout-twenty-faceless-thumbnails-sheet-1.jpg",
+  "section": "Taste scout",
+  "caption": "Scout · twenty faceless thumbnails, sheet 1",
+  "source": "mockups/show/scout-feed-01.jpg",
+  "sha": "a6ecca5226fad67a",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 186,
+  "file": "186-scout-faceless-thumbnails-sheet-02.jpg",
+  "section": "Taste scout",
+  "caption": "Scout · faceless thumbnails, sheet 02",
+  "source": "runs/scout/sheets/sheet_02.jpg",
+  "sha": "3fb0c667ac64a5cf",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 187,
+  "file": "187-scout-faceless-thumbnails-sheet-05.jpg",
+  "section": "Taste scout",
+  "caption": "Scout · faceless thumbnails, sheet 05",
+  "source": "runs/scout/sheets/sheet_05.jpg",
+  "sha": "8bed2d847b6d155a",
+  "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 188,
+  "file": "188-scout-faceless-thumbnails-sheet-08.jpg",
+  "section": "Taste scout",
+  "caption": "Scout · faceless thumbnails, sheet 08",
+  "source": "runs/scout/sheets/sheet_08.jpg",
+  "sha": "db606c1e36adf28f",
+  "added": "2026-11-24 13:16 EAT"
+ }
+]

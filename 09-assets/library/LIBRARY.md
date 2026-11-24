@@ -1,196 +1,284 @@
-# Visual reference library
+# The library
 
-A permanent shelf of pictures Ambi sent as direction. Not decoration — each one is a decision about
-how the brand should look, sound or be structured. An agent asked to design a profile, a hero, a
-thumbnail system, a chart, a landing page or a piece of software UI reads this folder first.
+188 pictures, numbered once and never renumbered. Newest work first. Rebuilt 13:25 EAT, 24 Nov 2026.
 
-Raw files: `https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/<file>`
-Machine index: `library.json` in this folder.
+Raw link for any file: `https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/<file>`. Machine record: `items.json`. Page with pictures: `GALLERY.html`.
 
-## X brand and profile architecture
+## Juju — rooms
 
-| File | What it is | What to steal |
+Our app. Round 2, 24 Nov 2026, desktop 1440 beside phone 390. Mock-ups in HTML: the buttons work, no real film or wallet is behind them.
+
+| No. | What it shows | File |
 |---|---|---|
-| `16-split-panel-talking-head-1.png` | Two devices from one talk: a two-tone comparison panel (sage green vs coral red) with hand-drawn geometry, and the same speaker keyed over a deep blue gradient with a translucent mark behind him | The split panel does the argument with no words; the keying lets a mark sit BEHIND the subject; black hoodie on saturated ground separates with zero effort |
-| `17-split-panel-talking-head-2.png` | Two devices from one talk: a two-tone comparison panel (sage green vs coral red) with hand-drawn geometry, and the same speaker keyed over a deep blue gradient with a translucent mark behind him | The split panel does the argument with no words; the keying lets a mark sit BEHIND the subject; black hoodie on saturated ground separates with zero effort |
-| `06-greg-isenberg-x-profile-frontrun.png` | A polished X profile: portrait, one-line bio, a product panel underneath. | Same face, same handle, same banner across X and YouTube. The profile sells the products without a sales sentence. |
-| `05-greg-isenberg-pinned-content-strategy.png` | A pinned post that states the entire content strategy in a few lines. | The pin is a table of contents for the account. A decision-maker lands and knows what they will get. |
-| `04-ideabrowser-pinned-signal-in-noise.png` | A pinned post carrying a graphic instead of an argument. | Branded artwork in the pin; the words do less work than the image. |
-| `03-greg-isenberg-youtube-channel.png` | YouTube banner: one line, one promise, one accent colour. | One promise in the banner, no feature list. Reads at thumbnail size. |
-| `08-x-following-political-list.png` | The Ambessa_Saul following list: Traoré, Naval, Navalism, Diana Atwine. | The follow graph is the editorial brief. It shows which politics this account enters. |
+| 105 | Room · The Altar: the shelf of channels; a lit jar needs you | [105-room-the-altar-the-shelf-of-channels-a-lit-jar.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/105-room-the-altar-the-shelf-of-channels-a-lit-jar.jpg) |
+| 106 | Room · New Vessel: open a channel; paste a video link to absorb it | [106-room-new-vessel-open-a-channel-paste-a-video-l.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/106-room-new-vessel-open-a-channel-paste-a-video-l.jpg) |
+| 107 | Room · The Vessel: one channel, its eight design layers | [107-room-the-vessel-one-channel-its-eight-design-l.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/107-room-the-vessel-one-channel-its-eight-design-l.jpg) |
+| 108 | Room · Crossroads: dealt title cards, each with its proof | [108-room-crossroads-dealt-title-cards-each-with-it.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/108-room-crossroads-dealt-title-cards-each-with-it.jpg) |
+| 109 | Room · Mirror Bend: a loved thumbnail becomes three of ours | [109-room-mirror-bend-a-loved-thumbnail-becomes-thr.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/109-room-mirror-bend-a-loved-thumbnail-becomes-thr.jpg) |
+| 110 | Room · Feed Sight: our thumbnail among real competitors | [110-room-feed-sight-our-thumbnail-among-real-compe.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/110-room-feed-sight-our-thumbnail-among-real-compe.jpg) |
+| 111 | Room · The Cauldron: tell Juju the film | [111-room-the-cauldron-tell-juju-the-film.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/111-room-the-cauldron-tell-juju-the-film.jpg) |
+| 112 | Room · The Arcana: ready-made looks (none finished yet) | [112-room-the-arcana-ready-made-looks-none-finished.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/112-room-the-arcana-ready-made-looks-none-finished.jpg) |
+| 113 | Room · The Pact: one receipt before money is spent | [113-room-the-pact-one-receipt-before-money-is-spen.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/113-room-the-pact-one-receipt-before-money-is-spen.jpg) |
+| 114 | Room · Conjuring: the film being made; safe to leave | [114-room-conjuring-the-film-being-made-safe-to-lea.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/114-room-conjuring-the-film-being-made-safe-to-lea.jpg) |
+| 115 | Room · Spell Strip: watch the film, fix single scenes; no timeline | [115-room-spell-strip-watch-the-film-fix-single-sce.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/115-room-spell-strip-watch-the-film-fix-single-sce.jpg) |
+| 116 | Room · Publish Kit: copy title, description, pinned comment | [116-room-publish-kit-copy-title-description-pinned.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/116-room-publish-kit-copy-title-description-pinned.jpg) |
+| 117 | Room · The Canopy: the channel as a tree of real numbers | [117-room-the-canopy-the-channel-as-a-tree-of-real-.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/117-room-the-canopy-the-channel-as-a-tree-of-real-.jpg) |
+| 118 | Room · The Offering: the channel's companion product | [118-room-the-offering-the-channel-s-companion-prod.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/118-room-the-offering-the-channel-s-companion-prod.jpg) |
+| 119 | Room · The Sound Shelf: Earshot makes and hears sounds | [119-room-the-sound-shelf-earshot-makes-and-hears-s.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/119-room-the-sound-shelf-earshot-makes-and-hears-s.jpg) |
+| 120 | Room · The Voice: the channel's voice | [120-room-the-voice-the-channel-s-voice.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/120-room-the-voice-the-channel-s-voice.jpg) |
+| 121 | Room · The Reliquary: licensed pictures and footage | [121-room-the-reliquary-licensed-pictures-and-foota.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/121-room-the-reliquary-licensed-pictures-and-foota.jpg) |
+| 122 | Room · The Tank: wallets by Juju name, no vendor names | [122-room-the-tank-wallets-by-juju-name-no-vendor-n.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/122-room-the-tank-wallets-by-juju-name-no-vendor-n.jpg) |
+| 123 | Room · The Gate: a local PIN opens the app offline (second name covered) | [123-room-the-gate-a-local-pin-opens-the-app-offlin.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/123-room-the-gate-a-local-pin-opens-the-app-offlin.jpg) |
+| 153 | Sheet · Rooms at 12:46, sheet 1 | [153-sheet-rooms-at-12-46-sheet-1.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/153-sheet-rooms-at-12-46-sheet-1.jpg) |
+| 154 | Sheet · Rooms at 12:46, sheet 2 | [154-sheet-rooms-at-12-46-sheet-2.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/154-sheet-rooms-at-12-46-sheet-2.jpg) |
+| 155 | Sheet · Rooms at 12:46, sheet 3 | [155-sheet-rooms-at-12-46-sheet-3.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/155-sheet-rooms-at-12-46-sheet-3.jpg) |
 
-## Copy craft
+## Juju — states
 
-| File | What it is | What to steal |
+Our app in states other than rest. Money shown here is a drawn state, not a real balance.
+
+| No. | What it shows | File |
 |---|---|---|
-| `13-llm-writing-ticks-42.png` | Forty-two named AI writing tells with examples — negation-first reveal, rule of three, em-dash addiction, "not just X but Y", tidy symmetry, false-precision stat, "imagine a world where". | The anti-rule sheet. Every script, post and thread is checked against these before publishing. This is the single most usable file here. |
-| `01-ideabrowser-everyone-is-lazy.png` | Idea Browser quoting Alex Kwon: everyone is lazy. | The purchase test: does it make money, lift status, win a promotion, or entertain? If none, nobody moves. |
-| `02-alex-kwon-laziest-person.png` | The longer version of the same argument, aimed at product design. | Design for the laziest possible user. One obvious action on the first screen. |
+| 124 | State · Altar with forty channels: eleven need a hand | [124-state-altar-with-forty-channels-eleven-need-a-.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/124-state-altar-with-forty-channels-eleven-need-a-.jpg) |
+| 125 | State · Altar while a film is being drawn, act 3 of 9 | [125-state-altar-while-a-film-is-being-drawn-act-3-.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/125-state-altar-while-a-film-is-being-drawn-act-3-.jpg) |
+| 126 | State · Altar with a finished film sealed in its jar | [126-state-altar-with-a-finished-film-sealed-in-its.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/126-state-altar-with-a-finished-film-sealed-in-its.jpg) |
+| 127 | State · Tank with one wallet low (drawn state, not a real balance) | [127-state-tank-with-one-wallet-low-drawn-state-not.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/127-state-tank-with-one-wallet-low-drawn-state-not.jpg) |
+| 128 | State · Tank with spending locked (drawn state) | [128-state-tank-with-spending-locked-drawn-state.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/128-state-tank-with-spending-locked-drawn-state.jpg) |
+| 129 | State · Tank: the 75 cent test fuse burnt out | [129-state-tank-the-75-cent-test-fuse-burnt-out.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/129-state-tank-the-75-cent-test-fuse-burnt-out.jpg) |
+| 130 | State · New Vessel reading a pasted video | [130-state-new-vessel-reading-a-pasted-video.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/130-state-new-vessel-reading-a-pasted-video.jpg) |
+| 131 | State · Mirror Bend after painting three versions | [131-state-mirror-bend-after-painting-three-version.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/131-state-mirror-bend-after-painting-three-version.jpg) |
+| 132 | State · Feed Sight at TV size | [132-state-feed-sight-at-tv-size.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/132-state-feed-sight-at-tv-size.jpg) |
+| 133 | State · Crossroads dealt with our own layouts | [133-state-crossroads-dealt-with-our-own-layouts.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/133-state-crossroads-dealt-with-our-own-layouts.jpg) |
+| 134 | State · Crossroads echo chain: 90, 70, 50 | [134-state-crossroads-echo-chain-90-70-50.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/134-state-crossroads-echo-chain-90-70-50.jpg) |
+| 135 | State · Pact sealed: the practice film starts | [135-state-pact-sealed-the-practice-film-starts.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/135-state-pact-sealed-the-practice-film-starts.jpg) |
+| 136 | State · Pact blocked because one wallet is short | [136-state-pact-blocked-because-one-wallet-is-short.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/136-state-pact-blocked-because-one-wallet-is-short.jpg) |
+| 137 | State · Arcana with looks learned from named films | [137-state-arcana-with-looks-learned-from-named-fil.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/137-state-arcana-with-looks-learned-from-named-fil.jpg) |
+| 138 | State · Arcana reading a new look from a video | [138-state-arcana-reading-a-new-look-from-a-video.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/138-state-arcana-reading-a-new-look-from-a-video.jpg) |
 
-## How the stack should be built
+## Juju — parts and art
 
-| File | What it is | What to steal |
+Our shared parts, the skins, and the three art directions that were judged.
+
+| No. | What it shows | File |
 |---|---|---|
-| `11-skills-model-designsystem.png` | Isometric diagram: skills block, raw model block, design system block, all on one platform. | The three-legged model. Skills carry procedure, the model carries judgement, the design system carries consistency. Break one leg and output drifts. |
-| `10-hermes-bot-roster.png` | ORCHESTRATE, ELECTRIKA, TITUS in one column. | Names carry the job. Anyone reading the roster knows which bot to call. |
+| 139 | Parts · Parts sheet after the quiet law: names and one-word states only | [139-parts-parts-sheet-after-the-quiet-law-names-an.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/139-parts-parts-sheet-after-the-quiet-law-names-an.jpg) |
+| 140 | Parts · Parts sheet in the Codex skin (before the quiet law) | [140-parts-parts-sheet-in-the-codex-skin-before-the.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/140-parts-parts-sheet-in-the-codex-skin-before-the.jpg) |
+| 141 | Parts · Parts sheet in the Atelier skin (before the quiet law) | [141-parts-parts-sheet-in-the-atelier-skin-before-t.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/141-parts-parts-sheet-in-the-atelier-skin-before-t.jpg) |
+| 142 | Parts · Parts sheet in the Daylight skin (before the quiet law) | [142-parts-parts-sheet-in-the-daylight-skin-before-.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/142-parts-parts-sheet-in-the-daylight-skin-before-.jpg) |
+| 143 | Parts · Plates and the dealt hand of cards | [143-parts-plates-and-the-dealt-hand-of-cards.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/143-parts-plates-and-the-dealt-hand-of-cards.jpg) |
+| 144 | Parts · Effort knob, dials, sound and voice parts | [144-parts-effort-knob-dials-sound-and-voice-parts.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/144-parts-effort-knob-dials-sound-and-voice-parts.jpg) |
+| 145 | Art · Art direction: carved ink (won 17 of 30) | [145-art-art-direction-carved-ink-won-17-of-30.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/145-art-art-direction-carved-ink-won-17-of-30.jpg) |
+| 146 | Art · Art direction: night light | [146-art-art-direction-night-light.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/146-art-art-direction-night-light.jpg) |
+| 147 | Art · Art direction: framed panels | [147-art-art-direction-framed-panels.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/147-art-art-direction-framed-panels.jpg) |
+| 148 | Art · Carved direction refined: the Altar | [148-art-carved-direction-refined-the-altar.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/148-art-carved-direction-refined-the-altar.jpg) |
+| 149 | Art · Carved direction refined: the Tank | [149-art-carved-direction-refined-the-tank.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/149-art-carved-direction-refined-the-tank.jpg) |
+| 150 | Art · Carved direction refined: the object sheet | [150-art-carved-direction-refined-the-object-sheet.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/150-art-carved-direction-refined-the-object-sheet.jpg) |
+| 151 | Art · Round 2 parts with the subtext Ambi rejected | [151-art-round-2-parts-with-the-subtext-ambi-reject.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/151-art-round-2-parts-with-the-subtext-ambi-reject.jpg) |
+| 152 | Art · Round 2 parts with the subtext removed | [152-art-round-2-parts-with-the-subtext-removed.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/152-art-round-2-parts-with-the-subtext-removed.jpg) |
 
-## Product and interface references
+## Juju — engine
 
-| File | What it is | What to steal |
+Frames our own Rust engine drew. Round 1 was judged 3 to 5 of 10; round 5 is not judged yet.
+
+| No. | What it shows | File |
 |---|---|---|
-| `14-zlusd-private-transfer-deck.png` | A payments demo: a six-step flow beside a phone showing public and confidential transfer states. | The exact UX for a private deal room: show the six steps, show public versus confidential with a lock, show the last transaction. Proof of privacy made visible. |
-| `09-frontrun-pro-trending-panel.png` | A trending panel with accounts and tokens across 1h to 7d windows. | The pattern for a decision-maker panel: who is moving, in what window, with what strength. Our version tracks decision-makers, not tokens. |
-| `12-email-list-hero-serif.png` | Dark dotted background, a serif headline with one italic phrase, one grey supporting line, one white button. | Hero discipline: one headline, one italic emphasis, one line of proof, one action. No carousel, no feature grid. |
+| 156 | Engine · round 6: nine kinds of world beside real films (ours left) | [156-engine-round-6-nine-kinds-of-world-beside-real.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/156-engine-round-6-nine-kinds-of-world-beside-real.jpg) |
+| 157 | Engine · round 5: ours left, real films right | [157-engine-round-5-ours-left-real-films-right.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/157-engine-round-5-ours-left-real-films-right.jpg) |
+| 158 | Engine · round 1 of the worlds, for comparison | [158-engine-round-1-of-the-worlds-for-comparison.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/158-engine-round-1-of-the-worlds-for-comparison.jpg) |
+| 159 | Engine · one test film sampled every 5 seconds | [159-engine-one-test-film-sampled-every-5-seconds.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/159-engine-one-test-film-sampled-every-5-seconds.jpg) |
+| 160 | Engine still · Instrument view: the Trieste at 0 m | [160-engine-still-instrument-view-the-trieste-at-0-.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/160-engine-still-instrument-view-the-trieste-at-0-.jpg) |
+| 161 | Engine still · Instrument view: 240 m, light gone, gauges fed from one table | [161-engine-still-instrument-view-240-m-light-gone-.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/161-engine-still-instrument-view-240-m-light-gone-.jpg) |
+| 162 | Engine still · Instrument view: the Challenger Deep | [162-engine-still-instrument-view-the-challenger-de.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/162-engine-still-instrument-view-the-challenger-de.jpg) |
+| 163 | Engine still · Archive footage: Market Street 1906 with a caption lane | [163-engine-still-archive-footage-market-street-190.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/163-engine-still-archive-footage-market-street-190.jpg) |
+| 164 | Engine · first cheap-model test, sheet 1 (judged 3 to 5 of 10: words used as the picture) | [164-engine-first-cheap-model-test-sheet-1-judged-3.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/164-engine-first-cheap-model-test-sheet-1-judged-3.jpg) |
+| 165 | Engine · first cheap-model test, sheet 2 (judged 3 to 5 of 10: words used as the picture) | [165-engine-first-cheap-model-test-sheet-2-judged-3.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/165-engine-first-cheap-model-test-sheet-2-judged-3.jpg) |
+| 166 | Engine · first cheap-model test, sheet 3 (judged 3 to 5 of 10: words used as the picture) | [166-engine-first-cheap-model-test-sheet-3-judged-3.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/166-engine-first-cheap-model-test-sheet-3-judged-3.jpg) |
+| 167 | Engine · the early hand-directed proof (retired material) | [167-engine-the-early-hand-directed-proof-retired-m.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/167-engine-the-early-hand-directed-proof-retired-m.jpg) |
 
-## Positioning
+## Juju — maps
 
-| File | What it is | What to steal |
+How a person walks through the app.
+
+| No. | What it shows | File |
 |---|---|---|
-| `07-boldness-to-brains-ratio.png` | A two-axis chart mapping founders by boldness and brains. | The axis idea, not the joke: two variables, four quadrants, one honest placing. Use for any "where do we sit" argument. |
+| 168 | Map · first-film journey drawn as a line through the rooms | [168-map-first-film-journey-drawn-as-a-line-through.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/168-map-first-film-journey-drawn-as-a-line-through.jpg) |
 
-## Infrastructure
+## Teardowns
 
-| File | What it is | What to steal |
+Sheets of films Ambi named, sampled for study. Other people's work: study it, never reuse it.
+
+| No. | What it shows | File |
 |---|---|---|
-| `15-nord-dedicated-ip-plans.png` | Nord's dedicated-IP checkout: $4.19/mo on two years, $5.89 on one, $8.99 monthly. | The price anchor for a stable Canadian address. It is the zero-setup option; a small VPS with WireGuard is the cheaper durable one. |
+| 169 | Teardown · Milky Stellar, Something Is Strange About Where We Live: sixteen devices | [169-teardown-milky-stellar-something-is-strange-ab.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/169-teardown-milky-stellar-something-is-strange-ab.jpg) |
+| 170 | Teardown · hands, AI's Strange Obsession with Enlightenment: quote, flat waveform, quote | [170-teardown-hands-ai-s-strange-obsession-with-enl.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/170-teardown-hands-ai-s-strange-obsession-with-enl.jpg) |
+| 171 | Teardown · AI Enlightenment sheet 01, opening: one blue room, counters | [171-teardown-ai-enlightenment-sheet-01-opening-one.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/171-teardown-ai-enlightenment-sheet-01-opening-one.jpg) |
+| 172 | Teardown · AI Enlightenment sheet 07, document beats on cream | [172-teardown-ai-enlightenment-sheet-07-document-be.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/172-teardown-ai-enlightenment-sheet-07-document-be.jpg) |
+| 173 | Teardown · AI Enlightenment sheet 13, quote cards on dark | [173-teardown-ai-enlightenment-sheet-13-quote-cards.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/173-teardown-ai-enlightenment-sheet-13-quote-cards.jpg) |
+| 174 | Teardown · AI Enlightenment sheet 19, painting and orange drawn scene | [174-teardown-ai-enlightenment-sheet-19-painting-an.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/174-teardown-ai-enlightenment-sheet-19-painting-an.jpg) |
+| 175 | Teardown · AI Enlightenment sheet 25, drawn scenes that build | [175-teardown-ai-enlightenment-sheet-25-drawn-scene.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/175-teardown-ai-enlightenment-sheet-25-drawn-scene.jpg) |
+| 176 | Teardown · Grand Canyon (Ink Of The Past) sheet 001, cold open on the canyon | [176-teardown-grand-canyon-ink-of-the-past-sheet-00.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/176-teardown-grand-canyon-ink-of-the-past-sheet-00.jpg) |
+| 177 | Teardown · Grand Canyon (Ink Of The Past) sheet 004, old maps and source cards | [177-teardown-grand-canyon-ink-of-the-past-sheet-00.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/177-teardown-grand-canyon-ink-of-the-past-sheet-00.jpg) |
+| 178 | Teardown · Grand Canyon (Ink Of The Past) sheet 007, map, painting, rival thumbnails | [178-teardown-grand-canyon-ink-of-the-past-sheet-00.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/178-teardown-grand-canyon-ink-of-the-past-sheet-00.jpg) |
+| 179 | Teardown · Grand Canyon (Ink Of The Past) sheet 010, rings, counters and timeline | [179-teardown-grand-canyon-ink-of-the-past-sheet-01.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/179-teardown-grand-canyon-ink-of-the-past-sheet-01.jpg) |
+| 180 | Teardown still · Grand Canyon, the official account as a paper card | [180-teardown-still-grand-canyon-the-official-accou.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/180-teardown-still-grand-canyon-the-official-accou.jpg) |
+| 181 | Teardown still · Grand Canyon, old map with three label colours | [181-teardown-still-grand-canyon-old-map-with-three.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/181-teardown-still-grand-canyon-old-map-with-three.jpg) |
+| 182 | Teardown · Atticus King, galactic empires, sheet 01 | [182-teardown-atticus-king-galactic-empires-sheet-0.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/182-teardown-atticus-king-galactic-empires-sheet-0.jpg) |
+| 183 | Teardown · Atticus King, galactic empires, sheet 02 | [183-teardown-atticus-king-galactic-empires-sheet-0.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/183-teardown-atticus-king-galactic-empires-sheet-0.jpg) |
+| 184 | Teardown · Atticus King, galactic empires, sheet 03 | [184-teardown-atticus-king-galactic-empires-sheet-0.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/184-teardown-atticus-king-galactic-empires-sheet-0.jpg) |
 
-## Brand assets
+## Taste scout
 
-The portrait lives one level up, at `09-assets/ambessa-saul-profile.png`. Use it, never a
-generated face.
+Public thumbnails found by reading faceless channels. Study only.
 
-## Added references
-
-| File | What it is | What to steal |
+| No. | What it shows | File |
 |---|---|---|
+| 185 | Scout · twenty faceless thumbnails, sheet 1 | [185-scout-twenty-faceless-thumbnails-sheet-1.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/185-scout-twenty-faceless-thumbnails-sheet-1.jpg) |
+| 186 | Scout · faceless thumbnails, sheet 02 | [186-scout-faceless-thumbnails-sheet-02.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/186-scout-faceless-thumbnails-sheet-02.jpg) |
+| 187 | Scout · faceless thumbnails, sheet 05 | [187-scout-faceless-thumbnails-sheet-05.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/187-scout-faceless-thumbnails-sheet-05.jpg) |
+| 188 | Scout · faceless thumbnails, sheet 08 | [188-scout-faceless-thumbnails-sheet-08.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/188-scout-faceless-thumbnails-sheet-08.jpg) |
 
+## The opening three
 
-## Jay E / RoboNuggets — the frame system
+Reference UI frames. Learn structure from them, reuse nothing.
 
-Frames pulled from two videos: Claude 2.0 (`youtu.be/yMnFHFf43Qg`) and Grok Bot (`youtu.be/P_hvEpI0twQ`). Stills show layout; the motion is only visible in the videos.
-
-| File | What it is | What to steal |
+| No. | What it shows | File |
 |---|---|---|
-| `18-dark-thread-canvas.png` | Three task columns floating on near-black, the subject inset bottom-left in a rounded window, three pill bars turning green as work completes. | The ground is a product UI, not a backdrop: the interface IS the set. Subject never larger than a fifth of the frame. Green carries progress, never decoration. |
-| `19-serif-claim-pill-scale.png` | A serif headline ('Your brain's context window') over a row of ten rounded bars grading green to red. | One serif sentence carries the whole idea; a single row of shapes proves it. This is the house move: claim in serif, evidence as geometry. |
-| `20-annotation-arrows.png` | A screenshot of a real post, with orange marker highlights and hand-drawn white arrows labelled 'Works' and 'Looks'. | Annotation as argument: two arrows and two words explain a product decision. Orange only on the two phrases that matter. |
-| `21-dashboard-half.png` | Subject in a rounded window on the left third; a full dark dashboard mock on the right with an orange sun mark above it. | The most reusable layout in the set: person left, live-looking artefact right, dotted texture in the lower third to stop the black going flat. |
-| `22-icon-diagram.png` | 'Personal intelligence agents' in serif, subtitle in sans, a monitor outline with three check-marked rows and a white circle with a pause glyph. | Thin white line icons at one weight, one green tick repeated three times. The pause circle is a character, not an icon — a small mascot earns warmth. |
-| `23-orange-badge.png` | The same dashboard again, now carrying an orange 'AI-powered' badge, an ask bar and the words 'LLM-powered' set huge under it. | Repeat the artefact and add one element: the difference between the two frames IS the explanation. Accent used once per frame. |
-| `24-cloud-diagram.png` | 'Projects' in serif over a cloud outline containing an orange sun mark, three crab-glyph nodes and a laptop outline below. | A diagram is allowed to be friendly. Two stroke weights (blue cloud, white laptop), orange kept for the brand mark only. |
-| `25-paper-collage.png` | A mock handwritten note showing HTML/CSS next to a torn-paper 'Video model' card with a red X, plus a green check on 'Much cheaper'. | When the argument is a comparison, leave the interface entirely: paper, marker, torn edge. Tactile beats polished for one beat, then back. |
-| `26-app-icon-grid.png` | Six app icons in a 3×2 grid with names under them, on black, subject still at left. | Icons as evidence in a taxonomy frame. Nothing else on screen: no paragraph, no bullet, no arrow. The grid is the sentence. |
-| `27-full-room-honest.png` | The subject alone, full frame, real room, real window, hands moving, no graphics at all. | The reset shot. After five designed frames, one honest one buys back trust — and it is free to produce. |
+| 001 | PLAYER SELECT — MAX POWERS card, three character chips, four empty slots | [001-player-select.png](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/001-player-select.png) |
+| 002 | MAIN MENU — DNA / BUILD SCENE (lit) / GO FOR BROKE | [002-main-menu.png](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/002-main-menu.png) |
+| 003 | SHOT — prompt, camera, character, one GENERATE SHOT button, scene tree | [003-shot-room.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/003-shot-room.jpg) |
 
+## The rooms
 
-### Second batch — the devices, named
+Reference UI: named rooms, one action each.
 
-| `28-simulated-product-phone.png` | Subject fills the left half in a rounded window; an iPhone mock sits right with a green call button and three pill buttons — Delivery, Supplier, Booking. | Simulate the product and footnote it (*live demo simulation). Green means 'capability', orange means 'attention' — never the same colour twice. |
-| `29-paper-diorama-offline-vs-web.png` | Two cut-paper buildings: a cream shopfront with an 'Offline' sign and one clerk, facing a blue-awning storefront with a browser window and four customers. | The comparison IS the picture: two buildings, two eras, two palettes. Faceless paper figures sidestep casting entirely — the model village argues better than a chart. |
-| `30-route-on-3d-map.png` | Dark isometric city block with an orange glowing route from a blue RoboLabs pin to a yellow building; a floating card reads 'Stripe Pay — SENT $500, Transfer fee $0, Just announced 27 Oct'. | An invisible transaction becomes physical as a line on a map. The numbers live in a floating card; the motion is the line drawing itself. |
-| `31-real-shop-mock.png` | Subject large left; right, a browser mock of a real-looking Shopify store with product photo, price and a 'Buy with Shop Pay' button. | Evidence is allowed brand colour: the real logo earns trust a drawn one cannot. Crop the mock like a screenshot, keep one button hot. |
-| `32-ui-as-the-diagram.png` | Full desktop app on screen — mascot avatars in the sidebar, a pink chat bubble asking for a gift under $50, three product cards as the answer, settings toggles right; subject inset bottom-left. | The interface carries the story: bubbles for conversation, cards for the answer, chips for labels. The person shrinks to an inset so the product can be the star. |
-| `33-two-plinths.png` | Isometric: a phone stand carrying a card labelled 'you', a blue shop building labelled 'the shop', Apple Pay and G Pay marks, and a stand-in card number. | Two plinths, two parties, one abstract idea made concrete. Lowercase labels under objects — no arrows needed. |
-| `34-vault-and-secrets.png` | Orange vault icon, a white bot face, dotted connector lines running to 'Sign in' and 'Checkout' cards filled with orange dots standing in for passwords. | Security explained as objects joined by dotted lines. Orange only on the vault and the secrets, so the eye learns what matters in one frame. |
-| `35-paper-title-card.png` | Serif 'Agentic payments' on a black plate taped to the wall, an orange cut-paper credit card, a blue paper bag and a white bot face; torn newspaper scraps in the corners. | Paper collage says 'concept, not screenshot'. A taped serif plate is the cheapest chapter title there is. |
-| `36-token-board-lit.png` | '10 Updates' in white bold; three cards lit with an orange outline under a 'Business' label in serif, then six unlit cards, then the tenth below. Each card carries a mascot glyph and a number. | A chapter menu as a board of tokens: shape instead of icon, number instead of word. The first three glow because they are the ones that matter to a business owner. |
-| `37-token-board-unlit.png` | The same board without the glow, the Business label or the emphasis — every card equal. | The lit/unlit pair is the motion. One frame gains emphasis and the eye follows without a single arrow; build the pair, not the animation. |
-
-The devices this batch adds to the system:
-
-1. **Simulation footnote.** Fake product screens carry `*live demo simulation` in the corner. Honesty is part of the look.
-2. **Paper diorama.** Two cut-paper buildings argue a before/after better than a chart, and faceless figures dodge casting.
-3. **Route on a map.** An invisible transaction becomes a glowing line between two pins; the numbers sit in a floating card.
-4. **UI as diagram.** Bubbles, cards and chips carry the story; the presenter shrinks to an inset.
-5. **Two plinths.** Two parties, two objects, lowercase labels — no arrows.
-6. **Dotted connectors.** Security or flow shown as objects joined by dashed lines, accent only on the secret parts.
-7. **Taped serif plate.** The chapter title is paper on a wall, not a lower third.
-8. **Token board + its unlit pair.** Shape-and-number chapters; the lit/unlit pair is the animation.
-
-
-### Third batch — composition and emphasis
-
-| `38-three-plinth-circuit.png` | 'One memory, one context' in serif; three isometric plinths — Claude on yellow, ChatGPT on green, Grok Bot on blue — wired by dotted orange lines to a central stack of orange plates. | The circuit board: outer nodes wear the other people's brand colours, the accent is spent only on the thing being added. Dotted wires, no arrows. |
-| `39-blur-in-title.png` | A title caught mid-arrival, soft and out of focus behind the bot face; subject large in a rounded window. | Titles move. A still from a transition shows text arriving blurred and resolving — stop designing static title cards and design the 400ms that lands them. |
-| `40-highlight-travels.png` | The 10 Updates board with 07 lifted, tilted in 3D and ringed in orange while the rest sit flat. | Position without a cursor: one card rotates and gains a ring, and the eye knows exactly where we are. No arrow, no highlight bar. |
-| `41-lit-trio.png` | Same 10 Updates board, first three cards glowing amber under a Business label; the rest sit equal and flat. | Emphasis is a property of the frame, not an effect added on top — the lit trio and the flat six are the same component with one flag. |
-| `42-prompt-as-artefact.png` | A dark card headed PROMPT holding a monospace prompt, orange COPY and outlined FULLSCREEN; beside it an iPhone showing the same words as a bubble; Calendar and Reminders icons wearing green ticks; an orange 'Take a screenshot!' pill. | Show the actual prompt as a copyable artefact — proof instead of paraphrase. Green ticks on the app icons do the 'it worked' job. |
-| `43-icons-as-props.png` | Subject large left; a Home icon and a Location icon floating at label size; the phone mock empty beside them. | App icons are allowed to be props: unboxed, large, label underneath. The phone stays the hero. |
-| `44-squiggle-wireframe.png` | 'Chat' in serif, a wireframe chat window drawn in squiggle lines with an orange border and an orange circular X badge; subject on the right. | Squiggles mean 'text, not readable' and cost nothing — no lorem ipsum, no fake copy. One orange badge is all the UI furniture needed. |
-| `45-light-artefact-dark-ground.png` | A bright white dashboard and share sheet floating on black, cursor included; the subject reduced to a small inset bottom-left. | Contrast does the framing: a white artefact on black needs no border. The presenter can shrink to thumbnail when the modal is the point. |
-| `46-checked-title.png` | 'Page' in serif with a solid green circle tick beside it; a white page mock below showing weekly sales, three stat cards and one bar picked out in blue. | A serif noun plus one green tick reads as 'done, real, shipped'. One coloured bar proves the chart without a caption. |
-| `47-mascot-roster.png` | Full white app UI: a sidebar of coloured blob mascots with two eyes — GROKO, SHOPO, TRAVO, FITO, GIFTO, MAILO — a client list, and a weekly checklist with green ticks and a black GROKO pill on the row it touched. | Each agent is a colour and a shape, not an icon — the roster becomes the navigation. A named pill marks the row the agent acted on. |
-
-What this batch adds, beyond the earlier devices:
-
-1. **The circuit board.** Three branded plinths wired by dotted lines to a central stack; the accent is spent only on the new thing, brand colours stay on the outside nodes.
-2. **Titles in motion.** A still from a transition shows type arriving blurred and resolving. Design the 400ms, not the card.
-3. **The highlight travels.** One card tilts in 3D and gains a ring — position shown without a cursor or arrow.
-4. **Prompt as artefact.** The real prompt on a dark card with copy and fullscreen buttons; proof instead of paraphrase.
-5. **Icons as props.** Unboxed app icons at label size; the phone stays the hero.
-6. **Squiggle wireframes.** Wavy lines mean "text" and cost nothing — no lorem, no fake copy.
-7. **Light artefact on dark ground.** A white UI on black frames itself; the presenter shrinks to a thumbnail.
-8. **Checked title.** A serif noun plus one solid green tick reads as shipped; one coloured bar proves a chart.
-9. **Mascot roster.** Agents as coloured blobs with two eyes become the navigation; a named pill marks the row that was touched.
-
-
-### Fourth batch — the frame inside the frame
-
-| `48-footage-plate.png` | Real jungle footage reduced to a centred plate with blurred edges, the presenter cut out bottom-left and overlapping the plate's border. | The plate is a frame inside the frame, and the subject crossing its edge is what makes it feel shot rather than assembled. Blur does the letterboxing for free. |
-| `49-plate-full-bleed.png` | The same composition with the footage filling the frame: tiger in the trees, presenter small in the corner. | When the footage earns it, let it run full bleed and keep the presenter small. One size of subject per beat, never two heroes. |
-| `50-honest-room-shot.png` | Jay in his own room, full frame, window light, wallpaper and a picture behind him, hands in shot. No graphic at all. | The reset again: after a run of designed frames, one unadorned room shot buys back trust. Cheapest frame in the film and the one people remember. |
-| `51-arc-source-icon.png` | A single product mark on the black field with a dotted orange arc curving away from it and ending in a filled dot. | An arrow without an arrowhead: dotted curve, filled circle at the head. It reads as motion even frozen, which is why it survives as a still. |
-| `52-container-before-content.png` | The panel arrives as an empty rounded outline with one film glyph and a title; nothing inside it yet. | Draw the container before the contents. Half a second of empty frame tells the viewer where to look, so nothing has to be announced. |
-| `53-tiles-land.png` | Vendor tiles land inside the panel, each a rounded square with a label under it, spaced evenly on a dotted grid. | Tiles are evidence: real product marks in their own colours, one label each, equal size. No badges, no borders, no glow. |
-| `54-grid-completes.png` | The panel fills to five tiles; the composition does not change, only the count. | Keep the frame and change one number. Every added tile is a beat, and the viewer reads growth with no voice-over needed. |
-| `55-reference-card-arrives.png` | A rounded card flies in over the panel's top-right corner — orange label MY EARLIER VIDEO, a still from that video, and its title. | Cross-reference without leaving the frame: a small card carries the older video, labelled in the accent so it is read as a pointer, not a graphic. |
-| `56-tweet-plus-diagram.png` | A real post on a black card with orange highlight bars behind the key sentences; on the right, squiggle bars routing along dotted lines to a bolt icon and a brain icon. | Quote with a highlighter, then draw the mechanism beside it. The post carries the authority, the diagram carries the explanation, and each is useless alone. |
-| `57-skeuomorphic-dial.png` | Developer mode drawn as a machined panel: serif title, a metal dial ringed with orange LEDs labelled EFFORT low-to-max, a row of model tiles with one lit, tiny screws and a halftone grid. | One physical object explains a settings screen better than the settings screen. Screws, LEDs and a serif title cost nothing and read as craft. |
-
-The two devices this batch settles:
-
-1. **The plate.** Real footage reduced to a centred rectangle with blurred edges, the presenter cut out and overlapping its border. The overlap is what makes it look shot rather than assembled.
-2. **Build-up as documentation.** Five consecutive frames of one composition — arc and source mark, empty container, then tiles landing one beat at a time — prove that motion can be specified in stills. That is how the timeline editor should be briefed: as a sequence with a fixed frame and a changing count, not as a description of an animation.
-
-
-### Frames 58 to 71 — the production systems
-
-| File | What it is | What to steal |
+| No. | What it shows | File |
 |---|---|---|
-| `58-anton-thumbnail-grid-1.png` | Twelve recent thumbnails of one channel: the same man, the same orange tee, the same neutral expression — a different science image and a different three-word phrase each time. | Repeatable packaging: the face and the shirt never change, so only the headline and the object are invented per video. That is a system, not a style. |
-| `59-anton-thumbnail-grid-2.png` | The same grid continued: identical pose, identical crop, new phrase, new object. | Count the words — never more than four, always heavy condensed caps with a hard shadow. The phrase names the surprise; the image carries the proof. |
-| `60-anton-a-shot.png` | Anton cut out in the same waist-up pose as every episode, with the episode's subject photo — the Chernobyl plant — behind him. | The background is the episode, not the room. One lighting setup, one camera, one shirt; the subject swaps the plate behind him. |
-| `61-anton-aerial.png` | A full-frame aerial of the exclusion zone, forest regrowing around the reactor. | When the place is the story, the place fills the frame and he disappears entirely rather than sitting in a corner. |
-| `62-anton-microscopy.png` | A microscopy plate of nematodes, full frame, unannotated. | Figures stay whole: no boxes, no arrows, no zoom unless the paper needed one. |
-| `63-anton-paper.png` | A published paper as a page — journal masthead, title, authors, abstract — legible at frame size. | Show the source as a source. The masthead is the credibility, so it is never cropped off. |
-| `64-anton-body-diagram.png` | A dark anatomical diagram of the calf and venous valves glowing red on near-black. | One diagram, one idea, dark ground. Accent lives inside the diagram, not on top of it. |
-| `65-anton-wolf-bg.png` | Anton in the same pose with a wolf standing behind him in snow. | The plate can be alive — a subject photo with depth beats a flat colour and costs one image search. |
-| `66-primetv-a-shot.png` | The PrimeTime cut out against a flat blue gradient with a wireframe mark; grey tee, headphones, mic. No room in any of the 54 frames sampled. | A permanent set built once. The whole video is made by swapping what appears beside him. |
-| `67-primetv-artefact.png` | A social post fills the frame; he shrinks to a small inset in the corner, still cut out. | The artefact takes the frame and the presenter becomes a thumbnail. Never two equal subjects side by side. |
-| `68-primetv-formula.png` | A mathematical statement set large on a dark card, him small in the corner. | Set the proof as type rather than a screenshot of a PDF. |
-| `69-primetv-article.png` | An article page at readable size with him inset — the source is the picture. | Cite on screen, not in the description: the viewer sees the page they would have had to find. |
-| `70-anton-prop.png` | Same pose, same tee, a tablet with a blue screen held at chest height, heart imagery behind him. | The prop. A tablet or a folded paper gives the hands a job and makes a static shot read as work rather than a pose. |
-| `71-anton-diagram-annotated.png` | A grey anatomical plate with soleus and gastrocnemius lettered and arrowed, white ground, red labels. | When a diagram must be annotated, annotate the source image rather than redrawing it — the letters are the argument. |
+| 004 | Room sheet — PLAYER SELECT through STAGE, every two seconds | [004-room.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/004-room.jpg) |
+| 005 | Room sheet — SHOT, GENERATING!, then SEQUENCE 2305 playing back | [005-room.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/005-room.jpg) |
+| 006 | Room sheet — the editor: browser, preview, inspector, timeline | [006-room.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/006-room.jpg) |
 
-## Nomad Capitalist and GovClose
+## The four channels
 
-The Nomad Capitalist application walked step by step with mock data and never submitted, plus GovClose's field-guide
-format and proof tables.
+Eight frames per film. What carries each film is a state, not a picture.
 
-| File | What it is | What to steal |
+| No. | What it shows | File |
 |---|---|---|
-| `72-nomad-apply-step-1-personal.png` | Nomad Capitalist application, step 1 of 5 — Personal Information: title, name, email, phone, contact preference (Email / Phone Call / WhatsApp) and time zone. | Seven fields before a single question about money. The form is an intake, not a brochure. |
-| `73-nomad-apply-step-2-eligibility.png` | Step 2 of 5 — Eligibility: nationality, country of residence, age band, criminal record. | A lawyer's questions, asked before a human is involved: eligibility first, intent later. |
-| `74-nomad-apply-step-3-goals-financial.png` | Step 3 of 5 — Goals & Financial: goal, statement, interests, structure and complexity, then the gate — income US$500K+ / net worth US$1M+ / both / neither — then a net-worth band to US$30M+. | It never asks a price. It asks a band and a structure, and that is what lets them price the deal. |
-| `75-nomad-apply-step-4-readiness.png` | Step 4 of 5 — Planning & Readiness: how long they have been thinking about it, what stopped them, which advisory stage they are at. | The sales script is written by the applicant before anyone speaks. |
-| `76-nomad-apply-step-5-confirmation.png` | Step 5 of 5 — Confirmation: 'I'm ready to proceed / later / do not wish', referral code, accuracy confirmation. Walking it for research, nothing was submitted. | A self-declared buying signal logged before the call, plus a referral-code field that quietly measures word of mouth. |
-| `77-nomad-home-hero.png` | Home page hero — 'Go Where You Are Treated Best', one action in the header. | One promise, one button, no feature list. |
-| `78-nomad-holistic-plan-process.png` | Holistic Plan — the process: application (6–7 min), intro call (45 min), plan creation (8–12 weeks), presentation (2 hours), implementation. | The eight-week gap is the product; the two-hour presentation is a handover, not a pitch. |
-| `79-nomad-research-indexes.png` | Research hub — six proprietary indexes, each with EXPLORE NOW. | Free tools, not posts: each index ranks, proves expertise and gives a reason to return. The blueprint for the Ledger. |
-| `80-nomad-live-cancun-hero.png` | Nomad Capitalist Live: Cancun — the event. | The second product: monetises the audience that is not ready for US$28,000 and builds the network that makes it credible. |
-| `81-govclose-field-guide-tree.png` | GovClose field guide — Tree Maintenance: market size with the proxy named, top three customers, map, four steps. | The atom to copy: number, customers, map, steps, and footnotes that confess what is estimated. |
-| `82-govclose-agencies-offers-table.png` | Top five agencies by obligations with offers received — Defense $132.41M at 1.80 offers (5/8 reported), HHS 1.86, Commerce 7.33. | The denominator printed beside the money is what makes the claim checkable. |
-| `83-govclose-setaside-table.png` | Set-asides against full and open: 47 full and open, 10 small-business set-aside, 2 8(a), 1 SDVOSB. | Certification is not the door — most small-business money was won without one. |
-| `84-govclose-average-vs-median.png` | Average against median: $3.76M average, $642.7K median. | The headline is a whale; the business is the median. |
-| `85-govclose-laundry-spend-chart.png` | Laundry and dry cleaning spend by fiscal year — a boring service with real money. | Boring categories have thin competition, which is exactly where a small firm can win. |
-| `86-govclose-pipeline-roadmap.png` | Roadmap → pipeline → output: the only diagram he uses. | One diagram, three words per box — the whole method in a single frame. |
+| 007 | Milky Way trip · 25:06 · 218k — cockpit HUD, caption, ticker | [007-channel.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/007-channel.jpg) |
+| 008 | Nearest Star · 16:16 · 2.8M — cockpit, FLIGHT SECONDS 10,000,000,000, a presenter at 897 s | [008-channel.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/008-channel.jpg) |
+| 009 | Hyper Realistic Alien Invasion · 26:10 · 1.97M — orrery, world map, Mars stills, orbit diagram | [009-channel.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/009-channel.jpg) |
+| 010 | What if WE Were The Aliens · 24:25 · 452k — date stamps, ship, orbit rings, ARRIVAL IN 68 YEARS | [010-channel.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/010-channel.jpg) |
+
+## The niche map
+
+Reference channels, sampled 19 Nov 2026.
+
+| No. | What it shows | File |
+|---|---|---|
+| 011 | Niche sheet — Yellowstone / ISOTOPE WARS / 1984 Zombie / Earthlore | [011-niche.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/011-niche.jpg) |
+| 012 | Niche sheet — POSSIBLE Future / Timeline of 2012 / Twice as Big / Fantasy Map Simulator | [012-niche.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/012-niche.jpg) |
+| 013 | Niche sheet — HOI4 / Human Evolution / Got Heavier | [013-niche.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/013-niche.jpg) |
+| 014 | Niche sheet — the HUD family, eight films | [014-niche.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/014-niche.jpg) |
+| 015 | Niche sheet — cockpit / TON 618 / three Discord chats / black hole / India | [015-niche.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/015-niche.jpg) |
+| 016 | Niche sheet — ExtinctZoo / Bygone Philosophy (Routine) | [016-niche.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/016-niche.jpg) |
+| 017 | Niche sheet — Jade Rabbit Hole / the consciousness film | [017-niche.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/017-niche.jpg) |
+| 018 | Niche sheet — Bygone Philosophy (Mind of a Genius) | [018-niche.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/018-niche.jpg) |
+
+## Outliers — the last four months
+
+Public thumbnails at 2x their channel's median or more, 19 Nov 2026.
+
+| No. | What it shows | File |
+|---|---|---|
+| 039 | OUTLIER 8.49× · Jacopist · 3,600,000 views (median 424,000) — 100 Ways To Kill Pagan Min - Part 2 - Far Cry 4 Map Editor | [039-UOhcAV4GyRA-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/039-UOhcAV4GyRA-outlier.jpg) |
+| 040 | OUTLIER 4.48× · Jacopist · 1,900,000 views (median 424,000) — A Hyper Realistic Alien Invasion | [040-MVIwvywuQpQ-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/040-MVIwvywuQpQ-outlier.jpg) |
+| 041 | OUTLIER 2.59× · Jacopist · 1,100,000 views (median 424,000) — 100 Ways To Kill Pagan Min - Part 1 - Far Cry 4 Map Editor | [041-hV988q6aT9E-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/041-hV988q6aT9E-outlier.jpg) |
+| 042 | OUTLIER 8.0× · Mapocalypse · 392,000 views (median 49,000) — I Simulated Yellowstone Erupting, Day by Day | [042-LqvlFsTaZgE-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/042-LqvlFsTaZgE-outlier.jpg) |
+| 043 | OUTLIER 6.33× · Mapocalypse · 310,000 views (median 49,000) — I Simulated a War Between NATO and the USSR — Who Wins? | [043-wr4G4YSq7ws-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/043-wr4G4YSq7ws-outlier.jpg) |
+| 044 | OUTLIER 3.65× · Mapocalypse · 179,000 views (median 49,000) — I Simulated World War III Until It Went Nuclear | [044-rST7kQtForw-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/044-rST7kQtForw-outlier.jpg) |
+| 045 | OUTLIER 11.33× · GRIORSK · 957,000 views (median 84,500) — ISOTOPE WARS - PART 0 | [045-fBXY_AyA0bo-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/045-fBXY_AyA0bo-outlier.jpg) |
+| 046 | OUTLIER 3.1× · 1045HourVitality · 175,000 views (median 56,500) — World Peace Scenario (2026 - 2100) | [046-SoyHBEdk8WQ-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/046-SoyHBEdk8WQ-outlier.jpg) |
+| 047 | OUTLIER 2.35× · 1045HourVitality · 133,000 views (median 56,500) — EU Federalization Scenario (2030 - 2063) | [047-F176VMxwc8s-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/047-F176VMxwc8s-outlier.jpg) |
+| 048 | Thumbnail reference | [048-qxAIE8s9-NA-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/048-qxAIE8s9-NA-outlier.jpg) |
+| 049 | OUTLIER 91.23× · Icosahedron God · 260,000 views (median 2,850) — "POSSIBLE" Future of the World (2025 - 3066) | [049-sXyjakCgeVA-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/049-sXyjakCgeVA-outlier.jpg) |
+| 050 | Thumbnail reference | [050-x-qhTXWocxg-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/050-x-qhTXWocxg-outlier.jpg) |
+| 051 | OUTLIER 3.3× · Icosahedron God · 9,400 views (median 2,850) — Alternate History of India (in USA) | [051-LJSV8p8gbmw-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/051-LJSV8p8gbmw-outlier.jpg) |
+| 052 | OUTLIER 11.3× · Aprento · 8,100 views (median 717) — 1,060 Years in Fantasy Map Simulator / Timelapse | [052-l086JClD1J0-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/052-l086JClD1J0-outlier.jpg) |
+| 053 | OUTLIER 8.09× · Aprento · 5,800 views (median 717) — 4,300 Years in Fantasy Map Simulator / Timelapse | [053-DyTNqZunWQk-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/053-DyTNqZunWQk-outlier.jpg) |
+| 054 | OUTLIER 5.44× · Aprento · 3,900 views (median 717) — 1,111 Years in Fantasy Map Simulator / Timelapse | [054-TeEbaaZvGiA-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/054-TeEbaaZvGiA-outlier.jpg) |
+| 055 | OUTLIER 10.34× · Jir Mirza  · 90,000 views (median 8,700) — 2026 USA vs 1945 World / Hearts of Iron IV (HOI4) Timelapse | [055-xfkfRfcs5DI-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/055-xfkfRfcs5DI-outlier.jpg) |
+| 056 | OUTLIER 7.13× · Jir Mirza  · 62,000 views (median 8,700) — 2026 China vs 1939 World / Hearts of Iron IV (HOI4) Timelapse | [056-L0etjSHp3zg-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/056-L0etjSHp3zg-outlier.jpg) |
+| 057 | OUTLIER 5.4× · Jir Mirza  · 47,000 views (median 8,700) — 2000s Modern Africa vs 1939 WW2 Europe! / Hearts of Iron IV (HOI4) Timelapse | [057-JueRHejb_xg-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/057-JueRHejb_xg-outlier.jpg) |
+| 058 | OUTLIER 66.56× · GeoPanda · 599,000 views (median 9,000) — 300,000 Years of People: Where humans lived, from the first Homo sapiens to 8 billion (4K) 🌍 | [058-ZFdf69VEo14-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/058-ZFdf69VEo14-outlier.jpg) |
+| 059 | OUTLIER 27.78× · GeoPanda · 250,000 views (median 9,000) — Human Evolution: 2 Million Years of Human Species on One Map | [059-umstrUXqmRg-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/059-umstrUXqmRg-outlier.jpg) |
+| 060 | OUTLIER 14.11× · GeoPanda · 127,000 views (median 9,000) — The Rise and Fall of the Neanderthals (430,000–38,000 years ago) (4K) | [060-0Cy_iljthsE-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/060-0Cy_iljthsE-outlier.jpg) |
+| 061 | OUTLIER 8.43× · Minute Zero Extra · 430,000 views (median 51,000) — What If You Got Heavier and Couldn't Stop? | [061-aKxVZYL96bY-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/061-aKxVZYL96bY-outlier.jpg) |
+| 062 | Thumbnail reference | [062-t1-hzEz-4mk-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/062-t1-hzEz-4mk-outlier.jpg) |
+| 063 | Thumbnail reference | [063-cEkozf-zCkY-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/063-cEkozf-zCkY-outlier.jpg) |
+| 064 | OUTLIER 20.9× · Physics - problems and solutions · 878,000 views (median 42,000) — What If You Removed Every Electron From 1kg of Metal? (And Placed it on Earth) | [064-jw7x2RoeGIY-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/064-jw7x2RoeGIY-outlier.jpg) |
+| 065 | OUTLIER 17.55× · Physics - problems and solutions · 737,000 views (median 42,000) — What Happens If You Never Stop Accelerating? | [065-FE9KPlBoqa0-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/065-FE9KPlBoqa0-outlier.jpg) |
+| 066 | OUTLIER 4.09× · ExtinctZoo  · 3,400,000 views (median 832,000) — The Deadliest Sea Animal From Every Single Period | [066-eWu92oXtxsw-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/066-eWu92oXtxsw-outlier.jpg) |
+| 067 | OUTLIER 3.12× · ExtinctZoo  · 2,600,000 views (median 832,000) — Earth's Deadliest Predator From Every Single Period | [067-fKizW6NlnoA-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/067-fKizW6NlnoA-outlier.jpg) |
+| 068 | Thumbnail reference | [068---srD8vlfFE-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/068---srD8vlfFE-outlier.jpg) |
+| 069 | OUTLIER 17.08× · Bygone Philosophy · 709,000 views (median 41,500) — The Highest State a Human Can Reach | [069-4_lsxy5fsac-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/069-4_lsxy5fsac-outlier.jpg) |
+| 070 | OUTLIER 8.41× · Bygone Philosophy · 349,000 views (median 41,500) — The Art of Not Trying | [070-vvLRZOHdNqA-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/070-vvLRZOHdNqA-outlier.jpg) |
+| 071 | OUTLIER 7.45× · Bygone Philosophy · 309,000 views (median 41,500) — You Will Never Procrastinate Again After Watching This Video | [071-v90SZKGbMRo-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/071-v90SZKGbMRo-outlier.jpg) |
+| 072 | OUTLIER 6.4× · Jade Rabbit Hole · 1,100,000 views (median 172,000) — The ENTIRE Chinese Hell Walkthrough in 10 Minutes | [072-jP0D3gcqe5Q-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/072-jP0D3gcqe5Q-outlier.jpg) |
+| 073 | OUTLIER 2.33× · Jade Rabbit Hole · 401,000 views (median 172,000) — The ENTIRE Japanese Hell Walkthrough in 11 Minutes | [073-WbSkqFdLOxo-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/073-WbSkqFdLOxo-outlier.jpg) |
+| 074 | OUTLIER 2.1× · Jade Rabbit Hole · 362,000 views (median 172,000) — The ENTIRE Hindu Afterlife Walkthrough in 12 Minutes | [074-uvNQGq4JEf4-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/074-uvNQGq4JEf4-outlier.jpg) |
+| 075 | Thumbnail reference | [075-KJg1-FCweWI-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/075-KJg1-FCweWI-outlier.jpg) |
+| 076 | OUTLIER 48.47× · Δ Delta · 921,000 views (median 19,000) — What If the Human Population Kept Growing and Couldn't Stop? | [076-0Ei7uVIEfQg-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/076-0Ei7uVIEfQg-outlier.jpg) |
+| 077 | Thumbnail reference | [077-l10gi_U-6rQ-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/077-l10gi_U-6rQ-outlier.jpg) |
+| 078 | OUTLIER 3.95× · Δ Delta · 75,000 views (median 19,000) — What If GTA 6 Kept Getting Delayed? | [078-seGAdDGd6cc-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/078-seGAdDGd6cc-outlier.jpg) |
+| 079 | OUTLIER 81.67× · WhatIfAnimations · 441,000 views (median 5,400) — What If Light Kept Getting Slower and Couldn’t Stop? | [079-TAsqnXcCqRI-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/079-TAsqnXcCqRI-outlier.jpg) |
+| 080 | OUTLIER 11.11× · WhatIfAnimations · 60,000 views (median 5,400) — What If The Speed Of Light Increased And Couldn't Stop? | [080-ahm5qX_DZNk-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/080-ahm5qX_DZNk-outlier.jpg) |
+| 081 | OUTLIER 9.44× · WhatIfAnimations · 51,000 views (median 5,400) — What If Friction Disappeared For 10 Seconds? | [081-iEz_FZzsk_k-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/081-iEz_FZzsk_k-outlier.jpg) |
+| 082 | OUTLIER 48.0× · Minute Zero · 2,400,000 views (median 50,000) — What If You Sped Up and Couldn’t Stop? | [082-gpLC_ELulyg-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/082-gpLC_ELulyg-outlier.jpg) |
+| 083 | OUTLIER 42.0× · Minute Zero · 2,100,000 views (median 50,000) — What If Time Sped Up and Couldn't Stop? | [083-5gbgKYMEySI-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/083-5gbgKYMEySI-outlier.jpg) |
+| 084 | OUTLIER 12.46× · Minute Zero · 623,000 views (median 50,000) — What if Your Car Couldn't Stop Speeding Up? | [084-xxBeQuOn4vA-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/084-xxBeQuOn4vA-outlier.jpg) |
+| 085 | OUTLIER 25.15× · The Cosmic Witness · 83,000 views (median 3,300) — We Replaced Our Sun With 12 Real Stars, Smallest to Biggest (Simulation) | [085-YVjN6p0BxzM-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/085-YVjN6p0BxzM-outlier.jpg) |
+| 086 | OUTLIER 11.82× · The Cosmic Witness · 39,000 views (median 3,300) — What If the Moon Opened Its Eye... and Came for Us? | [086-QmsfTvqr2Ic-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/086-QmsfTvqr2Ic-outlier.jpg) |
+| 087 | OUTLIER 5.76× · The Cosmic Witness · 19,000 views (median 3,300) — What If a Rogue Planet Hit Earth? (30-Day Countdown Simulation) | [087-SctrE8px6pk-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/087-SctrE8px6pk-outlier.jpg) |
+| 088 | OUTLIER 81.3× · Universe Dimensions · 10,000,000 views (median 123,000) — What TON 618 Would Look Like at Different Distances | [088-xU60JQSjxLc-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/088-xU60JQSjxLc-outlier.jpg) |
+| 089 | OUTLIER 10.57× · Universe Dimensions · 1,300,000 views (median 123,000) — The Night Sky When BETELGEUSE Goes SUPERNOVA (Simulation) | [089-7c_qUXqRZFo-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/089-7c_qUXqRZFo-outlier.jpg) |
+| 090 | OUTLIER 3.0× · Universe Dimensions · 369,000 views (median 123,000) — The Red Giant Sun Seen From Every Planet in the Solar System | [090-tcNxiPtd8G4-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/090-tcNxiPtd8G4-outlier.jpg) |
+| 091 | OUTLIER 10.88× · Server History · 3,100,000 views (median 285,000) — IF WW2 WAS A DISCORD CHAT (HISTORICALLY ACCURATE) | [091-51ZathOeW2E-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/091-51ZathOeW2E-outlier.jpg) |
+| 092 | OUTLIER 2.58× · Server History · 736,000 views (median 285,000) — IF JULIUS CAESAR HAD A GROUP CHAT (HISTORICALLY ACCURATE) | [092-fc5zremCbsU-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/092-fc5zremCbsU-outlier.jpg) |
+| 093 | OUTLIER 2.51× · History Is Online · 98,000 views (median 39,000) — IF COVID WAS A GROUP CHAT (HISTORICALLY ACCURATE) | [093-VHHHH4N4Wqw-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/093-VHHHH4N4Wqw-outlier.jpg) |
+| 094 | OUTLIER 2.18× · History Is Online · 85,000 views (median 39,000) — IF THE SPACE RACE WAS A GROUP CHAT (HISTORICALLY ACCURATE) | [094-BZrQiQJo2Ug-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/094-BZrQiQJo2Ug-outlier.jpg) |
+| 095 | OUTLIER 8.63× · Stargaze · 4,800,000 views (median 556,500) — What If a Black Hole Entered Our Solar System? (Simulation) | [095-gcQNBKYhuUo-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/095-gcQNBKYhuUo-outlier.jpg) |
+| 096 | Thumbnail reference | [096-qkBoH5l-6EY-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/096-qkBoH5l-6EY-outlier.jpg) |
+| 097 | OUTLIER 2.88× · Stargaze · 1,600,000 views (median 556,500) — Falling Into the Most Dangerous Planet We Know (Simulation) | [097-5XgbLCJMSpE-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/097-5XgbLCJMSpE-outlier.jpg) |
+| 098 | OUTLIER 20.24× · Planet B · 1,700,000 views (median 84,000) — Why Scientists Fear the Great Himalayan Earthquake | [098-lyRHFOcNMTU-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/098-lyRHFOcNMTU-outlier.jpg) |
+| 099 | OUTLIER 6.62× · Planet B · 556,000 views (median 84,000) — Why India's Geography Is Too Perfect | [099-bjEr7L2Rj9s-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/099-bjEr7L2Rj9s-outlier.jpg) |
+| 100 | OUTLIER 60.47× · AFTER THE DOOR · 2,600,000 views (median 43,000) — What If Every Step Made You Twice as Big? | [100-ylnTesFVoOo-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/100-ylnTesFVoOo-outlier.jpg) |
+| 101 | OUTLIER 8.58× · AFTER THE DOOR · 369,000 views (median 43,000) — What If Every Blink Skipped 10x More Time | [101-1G3irYCux_k-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/101-1G3irYCux_k-outlier.jpg) |
+| 102 | Thumbnail reference | [102-uYcWVAOV-bI-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/102-uYcWVAOV-bI-outlier.jpg) |
+| 103 | OUTLIER 2.61× · Whatfinity · 4,700 views (median 1,800) — POV: Knocked Out, Back Twice as Strong #shorts | [103-p9MpxsDhAaQ-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/103-p9MpxsDhAaQ-outlier.jpg) |
+| 104 | OUTLIER 2.11× · Whatfinity · 3,800 views (median 1,800) — POV: You Can’t Stop Running… and There’s a Wall (Part 2) #shorts | [104-ttlGbeAkwIE-outlier.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/104-ttlGbeAkwIE-outlier.jpg) |
+
+## Packaging
+
+Thumbnail and title pairs, 19 Nov 2026.
+
+| No. | What it shows | File |
+|---|---|---|
+| 019 | 1045HourVitality · 518,000 views — The Timeline Of 2012 (2009 - 0001) | [019-DaisfHDwPvc-packaging.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/019-DaisfHDwPvc-packaging.jpg) |
+| 020 | The Opening · 392,727 views — There’s a consciousness above you | [020-ESxYEHCQFRU-packaging.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/020-ESxYEHCQFRU-packaging.jpg) |
+| 021 | Mapocalypse · 391,000 views — I Simulated Yellowstone Erupting, Day by Day | [021-LqvlFsTaZgE-packaging.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/021-LqvlFsTaZgE-packaging.jpg) |
+| 022 | Jacopist · 1,900,000 views — A Hyper Realistic Alien Invasion | [022-MVIwvywuQpQ-packaging.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/022-MVIwvywuQpQ-packaging.jpg) |
+| 023 | Thumbnail reference | [023-PcHhptd6-p4-packaging.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/023-PcHhptd6-p4-packaging.jpg) |
+| 024 | GeoPanda · 598,000 views — 300,000 Years of People: Where humans lived, from the first Homo sapie | [024-ZFdf69VEo14-packaging.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/024-ZFdf69VEo14-packaging.jpg) |
+| 025 | Minute Zero Extra · 430,000 views — What If You Got Heavier and Couldn't Stop? | [025-aKxVZYL96bY-packaging.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/025-aKxVZYL96bY-packaging.jpg) |
+| 026 | Aprento · 705,000 views — 1,080 Years in Fantasy Map Simulator / Timelapse | [026-aobeydG8Sd4-packaging.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/026-aobeydG8Sd4-packaging.jpg) |
+| 027 | Thumbnail reference | [027-cEkozf-zCkY-packaging.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/027-cEkozf-zCkY-packaging.jpg) |
+| 028 | GRIORSK · 956,000 views — ISOTOPE WARS - PART 0 | [028-fBXY_AyA0bo-packaging.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/028-fBXY_AyA0bo-packaging.jpg) |
+| 029 | 1045HourVitality · 44,000 views — Black Hole Takeover Scenario (2268 - 2302) | [029-gY3F1AQpow0-packaging.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/029-gY3F1AQpow0-packaging.jpg) |
+| 030 | ExtinctZoo · 473,494 views — The Oldest Wars That We Know Happened | [030-nuvZp7DIMTk-packaging.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/030-nuvZp7DIMTk-packaging.jpg) |
+| 031 | Bygone Philosophy · 77,790 views — The Mind of a Genius | [031-pt7RDtHZQoU-packaging.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/031-pt7RDtHZQoU-packaging.jpg) |
+| 032 | Thumbnail reference | [032-qxAIE8s9-NA-packaging.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/032-qxAIE8s9-NA-packaging.jpg) |
+| 033 | Icosahedron God · 260,000 views — "POSSIBLE" Future of the World (2025 - 3066) | [033-sXyjakCgeVA-packaging.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/033-sXyjakCgeVA-packaging.jpg) |
+| 034 | Bygone Philosophy · 38,128 views — The Masculine Routine | [034-sfY4TGB9sJY-packaging.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/034-sfY4TGB9sJY-packaging.jpg) |
+| 035 | GeoPanda · 248,000 views — Human Evolution: 2 Million Years of Human Species on One Map | [035-umstrUXqmRg-packaging.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/035-umstrUXqmRg-packaging.jpg) |
+| 036 | Jade Rabbit Hole · 362,210 views — The ENTIRE Hindu Afterlife Walkthrough in 12 Minutes | [036-uvNQGq4JEf4-packaging.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/036-uvNQGq4JEf4-packaging.jpg) |
+| 037 | Jir Mirza  · 89,000 views — 2026 USA vs 1945 World / Hearts of Iron IV (HOI4) Timelapse | [037-xfkfRfcs5DI-packaging.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/037-xfkfRfcs5DI-packaging.jpg) |
+| 038 | AFTER THE DOOR · 2,600,000 views — What If Every Step Made You Twice as Big? | [038-ylnTesFVoOo-packaging.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/038-ylnTesFVoOo-packaging.jpg) |

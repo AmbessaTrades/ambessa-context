@@ -1,57 +1,15 @@
-# How this pack is kept current
+# How this repo stays true
 
-Generated and pushed by `~/AUH/AMBESSA/sync_context_repo.py`, on a schedule. Every run rebuilds
-the generated files, rewrites `index.json`, and commits only when something actually changed.
+`com.auh.juju-context`, a job on Ambi's Mac, runs every two hours: `sync_context_repo.py --haiku`.
 
-## Generated on every sync (do not edit these by hand)
+1. **Code collects**: jobs and agents from the live workshop page, pull requests, commits, the paid-call ledger, crate and room counts, new
+   decisions, changed design pages, Juju entries of the day log, new pictures.
+2. **Haiku 5.5 (medium)** gets those facts and the lead agent's own messages, and writes the sheet in `10-now/`. It has no tools and reads nothing else.
+   Ambi's messages are never read by this job.
+3. **Code cleans and checks**: private lines are dropped, then every text file in the repo is read. One key, email, private detail or local path
+   and the push is refused.
+4. It commits and pushes. If the Mac sleeps, the next sheet is late: check the stamp.
 
-| Path | Comes from |
+| Rebuilt by the job | Written by hand |
 |---|---|
-| `02-goals/mission.md` | Memoir topic `mission` |
-| `01-who/north-star.md`, `founder-authority.md`, `calm-room.md` | Memoir topics of the same names |
-| `01-who/mental-models-memoir.md` | Memoir topic `mental-models` |
-| `01-who/systems-thinking.md` | Memoir topic `causal-thinking` |
-| `04-market/evidence/confidence.md` | Memoir topic `evidence` |
-| `04-market/thread-log.md` | Memoir topic `afribbean` — the running Africa-Caribbean log |
-| `07-agents/agents-and-harnesses.md`, `bot-contract.md`, `context-as-a-packet.md` | Memoir topics |
-| `03-the-brief/the-brief.md` | Ambi's founding brief, verbatim, contact details removed |
-| `04-market/evidence/findings.csv` | the verified pain base, from `pains.db` |
-| `04-market/evidence/README.md` | row count and the rules for using it |
-| `08-journal/recent.md` | last 21 days of the day log |
-| `08-journal/summaries.md` | last three generated summaries |
-| `09-assets/manifest.json` | image slots in the brief, plus whatever was dropped in `incoming/` |
-| `index.json` | machine index of every file |
-
-## Written once, kept by hand
-
-`README.md`, `00-READ-FIRST.md`, `01-who/identity.md`, `01-who/mental-models.md`,
-`02-goals/money.md`, `03-the-brief/directives.md`, `04-market/pain-map.md`,
-`04-market/market-answers.md`, `04-market/competitive-map.md`, `05-offers/offer-set.md`,
-`05-offers/hypotheses.md`, `06-playbook/search.md`, `06-playbook/content.md`, this file.
-
-The sync never overwrites these.
-
-## Deliberately left out
-
-- Every project that is not this business: the language app, the studio, the video tools, the
-  maps, the old channels. They are history, not context.
-- Credentials, keys, tokens, and any file containing them. A file that fails the secret check
-  is skipped rather than redacted.
-- Email addresses and phone numbers, which are stripped from every file on the way in.
-- Private personal details and family connections, which stay on the machine.
-
-## Run it by hand
-
-```
-python3 ~/AUH/AMBESSA/sync_context_repo.py            # rebuild, commit, push
-python3 ~/AUH/AMBESSA/sync_context_repo.py --dry      # show what would change
-python3 ~/AUH/AMBESSA/sync_context_repo.py --no-push  # commit locally only
-```
-
-## Read it from anywhere
-
-Raw file, no account needed:
-
-```
-https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/<path>
-```
+| `01-context.txt`, `10-now/*`, `08-journal/recent.md`, `11-juju/decisions/*`, `11-juju/skills.md`, the copied design pages (each says so in line 1), `09-assets/live/*`, `GALLERY.html`, `LIBRARY.md`, `index.json` | Everything else. Each hand-written page carries its own time. |

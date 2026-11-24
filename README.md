@@ -1,16 +1,18 @@
 # ambessa-context
 
-The working context for one project: **a private AI editing software that turns a channel pack into
-finished YouTube videos**, built by Ambi (MUNGURA / AUH).
+Everything a web agent needs to work on **Juju** without seeing Ambi's computer.
 
-It is the only project in the business. LOT pays the rent while it is built. The software is the
-moat.
+Juju is private software that turns a channel profile (a Vessel) into finished faceless YouTube films. Rust engine,
+Mac app, web app, Android APK. It is the only project. The build started on 24 November 2026.
 
-**Read in this order:** `00-READ-FIRST.md` → `01-context.txt` → `02-the-software.md` →
-`03-reading-a-channel.md` → `04-evidence/` → `05-the-record.md` → `06-how-we-work.md`.
+| Read | What it is |
+|---|---|
+| [00-READ-FIRST.md](00-READ-FIRST.md) | Two-minute orientation, truth labels, what is not here |
+| [10-now/now.md](10-now/now.md) · [plain page](10-now/now.html) | What is happening, rewritten every two hours |
+| [01-context.txt](01-context.txt) | One fetch: who, what, decisions, money, and the newest sheet |
+| [11-juju/](11-juju/README.md) | The whole build, page by page |
+| [11-juju/decisions/](11-juju/decisions/README.md) | What Ambi decided, with his words |
+| [09-assets/library/LIBRARY.md](09-assets/library/LIBRARY.md) | Every picture, numbered, with a raw link |
+| [09-assets/live/](09-assets/live/README.md) | Each room as it looks now |
 
-**Nothing here is decided.** Every number carries a source; every price and offer is a hypothesis; Ambi
-outranks every line in this repo.
-
-The long form of the same picture is `THE-SOFTWARE-BRIEF.html` in the private working folder, 23
-sections. The image library is `09-assets/library/GALLERY.html` — one library, in perpetuity.
+Raw base: `https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/`. Machine index: `index.json`.
