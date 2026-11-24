@@ -1,7 +1,7 @@
 {
  "name": "ambessa-context",
  "what": "The working context of one project, Juju, for an AI that cannot see Ambi's computer.",
- "rebuilt": "13:27 EAT, Tue 24 Nov 2026",
+ "rebuilt": "13:45 EAT, Tue 24 Nov 2026",
  "read_order": [
   "00-READ-FIRST.md",
   "01-context.txt",
@@ -19,7 +19,7 @@
   },
   {
    "path": "01-context.txt",
-   "bytes": 8272
+   "bytes": 12102
   },
   {
    "path": "02-the-software.md",
@@ -55,7 +55,7 @@
   },
   {
    "path": "08-journal/recent.md",
-   "bytes": 22567
+   "bytes": 24125
   },
   {
    "path": "09-assets/.DS_Store",
@@ -814,16 +814,36 @@
    "bytes": 353001
   },
   {
+   "path": "09-assets/library/189-stages-sheet-7-24-nov-13-29.jpg",
+   "bytes": 362411
+  },
+  {
+   "path": "09-assets/library/190-packaging-feed-24-nov-13-36.jpg",
+   "bytes": 309407
+  },
+  {
+   "path": "09-assets/library/191-nuance-before-after-24-nov-13-41.jpg",
+   "bytes": 450728
+  },
+  {
+   "path": "09-assets/library/192-packaging-feed-24-nov-13-44.jpg",
+   "bytes": 309617
+  },
+  {
+   "path": "09-assets/library/193-storyboard-ours-vs-cheap-lift-24-nov-13-46.jpg",
+   "bytes": 768241
+  },
+  {
    "path": "09-assets/library/GALLERY.html",
-   "bytes": 55001
+   "bytes": 56146
   },
   {
    "path": "09-assets/library/LIBRARY.md",
-   "bytes": 49956
+   "bytes": 51041
   },
   {
    "path": "09-assets/library/items.json",
-   "bytes": 53881
+   "bytes": 55254
   },
   {
    "path": "09-assets/library/library.json",
@@ -843,7 +863,7 @@
   },
   {
    "path": "09-assets/live/arcana.jpg",
-   "bytes": 65827
+   "bytes": 65844
   },
   {
    "path": "09-assets/live/canopy.jpg",
@@ -851,27 +871,27 @@
   },
   {
    "path": "09-assets/live/cauldron.jpg",
-   "bytes": 68754
+   "bytes": 68171
   },
   {
    "path": "09-assets/live/conjuring.jpg",
-   "bytes": 76591
+   "bytes": 77691
   },
   {
    "path": "09-assets/live/crossroads.jpg",
-   "bytes": 86023
+   "bytes": 86035
   },
   {
    "path": "09-assets/live/feed-sight.jpg",
-   "bytes": 101010
+   "bytes": 101015
   },
   {
    "path": "09-assets/live/mirror-bend.jpg",
-   "bytes": 79802
+   "bytes": 79703
   },
   {
    "path": "09-assets/live/new-vessel.jpg",
-   "bytes": 59214
+   "bytes": 58629
   },
   {
    "path": "09-assets/live/offering.jpg",
@@ -879,7 +899,7 @@
   },
   {
    "path": "09-assets/live/pact.jpg",
-   "bytes": 84889
+   "bytes": 85399
   },
   {
    "path": "09-assets/live/publish-kit.jpg",
@@ -891,7 +911,7 @@
   },
   {
    "path": "09-assets/live/sound.jpg",
-   "bytes": 47506
+   "bytes": 47535
   },
   {
    "path": "09-assets/live/spell-strip.jpg",
@@ -899,23 +919,23 @@
   },
   {
    "path": "09-assets/live/vessel.jpg",
-   "bytes": 78037
+   "bytes": 78020
   },
   {
    "path": "09-assets/live/voice.jpg",
-   "bytes": 55061
+   "bytes": 53737
   },
   {
    "path": "10-now/history.md",
-   "bytes": 7874
+   "bytes": 20377
   },
   {
    "path": "10-now/now.html",
-   "bytes": 5842
+   "bytes": 9832
   },
   {
    "path": "10-now/now.md",
-   "bytes": 4918
+   "bytes": 8748
   },
   {
    "path": "10-now/pull-requests.md",
@@ -923,7 +943,7 @@
   },
   {
    "path": "10-now/status.json",
-   "bytes": 5316
+   "bytes": 5928
   },
   {
    "path": "11-juju/README.md",
@@ -943,7 +963,7 @@
   },
   {
    "path": "11-juju/conductor-and-routes.md",
-   "bytes": 12953
+   "bytes": 13168
   },
   {
    "path": "11-juju/copy-rules.md",
@@ -1047,7 +1067,7 @@
   },
   {
    "path": "11-juju/skills.md",
-   "bytes": 8721
+   "bytes": 9150
   },
   {
    "path": "11-juju/stack-status.md",

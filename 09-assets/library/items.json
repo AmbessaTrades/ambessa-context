@@ -1586,5 +1586,50 @@
   "source": "runs/scout/sheets/sheet_08.jpg",
   "sha": "db606c1e36adf28f",
   "added": "2026-11-24 13:16 EAT"
+ },
+ {
+  "n": 189,
+  "file": "189-stages-sheet-7-24-nov-13-29.jpg",
+  "section": "Juju — engine",
+  "caption": "stages sheet 7 · 24 Nov 13:29",
+  "source": "runs/stage-y/stages-sheet-7.jpg",
+  "sha": "682562b65b971863",
+  "added": "2026-11-24 13:32 EAT"
+ },
+ {
+  "n": 190,
+  "file": "190-packaging-feed-24-nov-13-36.jpg",
+  "section": "Juju — parts and art",
+  "caption": "packaging feed · 24 Nov 13:36",
+  "source": "mockups/show/packaging-feed.jpg",
+  "sha": "b5fbaea4f2ecc765",
+  "added": "2026-11-24 13:42 EAT"
+ },
+ {
+  "n": 191,
+  "file": "191-nuance-before-after-24-nov-13-41.jpg",
+  "section": "Juju — parts and art",
+  "caption": "nuance before after · 24 Nov 13:41",
+  "source": "mockups/show/nuance-before-after.jpg",
+  "sha": "36a7678fca81c40c",
+  "added": "2026-11-24 13:44 EAT"
+ },
+ {
+  "n": 192,
+  "file": "192-packaging-feed-24-nov-13-44.jpg",
+  "section": "Juju — parts and art",
+  "caption": "packaging feed · 24 Nov 13:44",
+  "source": "mockups/show/packaging-feed.jpg",
+  "sha": "3e2e0b6941baa66b",
+  "added": "2026-11-24 13:46 EAT"
+ },
+ {
+  "n": 193,
+  "file": "193-storyboard-ours-vs-cheap-lift-24-nov-13-46.jpg",
+  "section": "Juju — parts and art",
+  "caption": "storyboard ours vs cheap lift · 24 Nov 13:46",
+  "source": "mockups/show/storyboard-ours-vs-cheap-lift.jpg",
+  "sha": "4ff52042b011de81",
+  "added": "2026-11-24 13:46 EAT"
  }
 ]

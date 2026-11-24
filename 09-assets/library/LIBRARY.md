@@ -1,6 +1,6 @@
 # The library
 
-188 pictures, numbered once and never renumbered. Newest work first. Rebuilt 13:27 EAT, 24 Nov 2026.
+193 pictures, numbered once and never renumbered. Newest work first. Rebuilt 13:47 EAT, 24 Nov 2026.
 
 Raw link for any file: `https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/<file>`. Machine record: `items.json`. Page with pictures: `GALLERY.html`.
 
@@ -75,6 +75,10 @@ Our shared parts, the skins, and the three art directions that were judged.
 | 150 | Art · Carved direction refined: the object sheet | [150-art-carved-direction-refined-the-object-sheet.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/150-art-carved-direction-refined-the-object-sheet.jpg) |
 | 151 | Art · Round 2 parts with the subtext Ambi rejected | [151-art-round-2-parts-with-the-subtext-ambi-reject.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/151-art-round-2-parts-with-the-subtext-ambi-reject.jpg) |
 | 152 | Art · Round 2 parts with the subtext removed | [152-art-round-2-parts-with-the-subtext-removed.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/152-art-round-2-parts-with-the-subtext-removed.jpg) |
+| 190 | packaging feed · 24 Nov 13:36 | [190-packaging-feed-24-nov-13-36.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/190-packaging-feed-24-nov-13-36.jpg) |
+| 191 | nuance before after · 24 Nov 13:41 | [191-nuance-before-after-24-nov-13-41.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/191-nuance-before-after-24-nov-13-41.jpg) |
+| 192 | packaging feed · 24 Nov 13:44 | [192-packaging-feed-24-nov-13-44.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/192-packaging-feed-24-nov-13-44.jpg) |
+| 193 | storyboard ours vs cheap lift · 24 Nov 13:46 | [193-storyboard-ours-vs-cheap-lift-24-nov-13-46.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/193-storyboard-ours-vs-cheap-lift-24-nov-13-46.jpg) |
 
 ## Juju — engine
 
@@ -94,6 +98,7 @@ Frames our own Rust engine drew. Round 1 was judged 3 to 5 of 10; round 5 is not
 | 165 | Engine · first cheap-model test, sheet 2 (judged 3 to 5 of 10: words used as the picture) | [165-engine-first-cheap-model-test-sheet-2-judged-3.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/165-engine-first-cheap-model-test-sheet-2-judged-3.jpg) |
 | 166 | Engine · first cheap-model test, sheet 3 (judged 3 to 5 of 10: words used as the picture) | [166-engine-first-cheap-model-test-sheet-3-judged-3.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/166-engine-first-cheap-model-test-sheet-3-judged-3.jpg) |
 | 167 | Engine · the early hand-directed proof (retired material) | [167-engine-the-early-hand-directed-proof-retired-m.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/167-engine-the-early-hand-directed-proof-retired-m.jpg) |
+| 189 | stages sheet 7 · 24 Nov 13:29 | [189-stages-sheet-7-24-nov-13-29.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/189-stages-sheet-7-24-nov-13-29.jpg) |
 
 ## Juju — maps
 

@@ -1,17 +1,13 @@
 {
- "as_of": "13:27 EAT, Tue 24 Nov 2026",
+ "as_of": "13:45 EAT, Tue 24 Nov 2026",
  "jobs": [
   {
    "job": "Engine",
-   "done": 2,
+   "done": 3,
    "of": 4,
    "running": [
     {
      "agent": "build:worlds",
-     "step": "Bash"
-    },
-    {
-     "agent": "build:speed",
      "step": "Bash"
     }
    ]
@@ -29,28 +25,24 @@
   },
   {
    "job": "Rooms",
-   "done": 3,
+   "done": 4,
    "of": 8,
    "running": [
-    {
-     "agent": "rooms:altar+2",
-     "step": "Wait for truth on the final files"
-    },
     {
      "agent": "rooms:crossroads+2",
      "step": "Wait for full run a third time"
     },
     {
      "agent": "rooms:cauldron+2",
-     "step": "Patch look undo and wait for renders"
+     "step": "Wait again for round 6 renders"
     },
     {
      "agent": "rooms:conjuring+2",
-     "step": "Collect faults from the sweep"
+     "step": "Read the spell strip and publish kit sweep"
     },
     {
      "agent": "rooms:new-vessel+3",
-     "step": "Wait for interaction renders"
+     "step": "Wait for round five and truth output"
     }
    ]
   },
@@ -61,7 +53,7 @@
    "running": [
     {
      "agent": "build:absorb",
-     "step": "Keep waiting and view the queue"
+     "step": "Wait for tests, build and the first clip"
     }
    ]
   },
@@ -72,7 +64,7 @@
    "running": [
     {
      "agent": "teardown:ZgpMtombn9A",
-     "step": "Wait for bursts; show queue"
+     "step": "Correct the median and recheck queues"
     },
     {
      "agent": "teardown:sJiaWNxYFUA",
@@ -84,30 +76,44 @@
     },
     {
      "agent": "teardown:G4w-a8NgnnQ",
-     "step": "Wait up to nine minutes for lock jobs"
+     "step": "Wait for caption fallback or Earshot"
     },
     {
      "agent": "teardown:HmuQoak_IAg",
-     "step": "Wait for dates to finish"
+     "step": "Summarise all Earshot windows"
     }
    ]
   },
   {
-   "job": "Page map",
-   "done": 12,
-   "of": 13,
+   "job": "Guard, voice, 3D, PR loop",
+   "done": 0,
+   "of": 6,
    "running": [
     {
-     "agent": "board-fix",
-     "step": "Wait for the final build and push"
+     "agent": "facts:wave",
+     "step": "List daily snapshots May-Aug 2026"
+    },
+    {
+     "agent": "pr-loop:build",
+     "step": "See PR 5's gate.yml change"
+    },
+    {
+     "agent": "teardown:sJiaWNxYFUA (again)",
+     "step": "Read the OCR function and find a Python with Vision"
+    },
+    {
+     "agent": "build:fresh",
+     "step": "Check time, FACTS.md, load"
+    },
+    {
+     "agent": "build:money",
+     "step": "Read Gemini Neon pricing section"
+    },
+    {
+     "agent": "build:voice",
+     "step": "Find Earshot model cache and run doctor"
     }
    ]
-  },
-  {
-   "job": "Keys and PRs",
-   "done": 3,
-   "of": 3,
-   "running": []
   }
  ],
  "workshop": "up",
@@ -210,23 +216,40 @@
   }
  ],
  "ledger": {
-  "calls": 991,
-  "usd_total": 0.6938,
+  "calls": 1188,
+  "usd_total": 0.8778,
   "usd_by_service": {
-   "deepseek": 0.2899,
-   "openrouter": 0.2217,
+   "deepseek": 0.4004,
+   "openrouter": 0.2951,
    "google": 0.1822
   }
  },
- "skills": 44,
+ "service_calls": {
+  "deepseek": {
+   "ok": 824,
+   "refused_or_failed": 1,
+   "last_ok": "24 Nov 13:43 EAT"
+  },
+  "openrouter": {
+   "ok": 351,
+   "refused_or_failed": 1,
+   "last_ok": "24 Nov 13:40 EAT"
+  },
+  "google": {
+   "ok": 7,
+   "refused_or_failed": 4,
+   "last_ok": "24 Nov 13:13 EAT"
+  }
+ },
+ "skills": 46,
  "rust": {
   "juju-absorb": {
    "files": 15,
    "lines": 1288
   },
   "juju-conduct": {
-   "files": 24,
-   "lines": 3975
+   "files": 26,
+   "lines": 5076
   },
   "juju-core": {
    "files": 3,
@@ -246,18 +269,18 @@
   },
   "juju-stage": {
    "files": 30,
-   "lines": 2418
+   "lines": 2419
   }
  },
- "rust_lines": 11670,
+ "rust_lines": 12772,
  "rooms": 19,
  "decisions": 9,
  "apk_files": 0,
  "design_libraries": [],
  "teardowns": {
   "G4w-a8NgnnQ": 6,
-  "HmuQoak_IAg": 4,
-  "ZgpMtombn9A": 8,
+  "HmuQoak_IAg": 7,
+  "ZgpMtombn9A": 11,
   "oRBu7wYuOSo": 0,
   "sJiaWNxYFUA": 0
  },
@@ -270,9 +293,9 @@
   "74942a3 24 Nov 08:44 Juju: first save. Master brief, 33 skills, juju-core and juju-skills crates, 19 mocked rooms with kit and gate, stage form, open risks."
  ],
  "load": [
-  35,
-  41,
-  69
+  67,
+  60,
+  64
  ],
  "sheet_written": true
 }

@@ -1,87 +1,107 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Juju now</title><style>body{background:#fff;color:#111;font:18px/1.6 Georgia,serif;max-width:44em;margin:0 auto;padding:40px 20px 80px}h1{font-size:30px}h2{font-size:21px;margin:34px 0 6px}li{margin:4px 0}code{font-size:.85em}</style></head><body>
 <h1>Juju now</h1>
-<p>As of 13:27 EAT, Tue 24 Nov 2026. Written every two hours by claude-haiku-5-5 (medium) from facts collected by code and the lead agent's own messages. Reports are not proof.</p>
+<p>As of 13:45 EAT, Tue 24 Nov 2026. Written every two hours by claude-haiku-5-5 (medium) from facts collected by code and the lead agent's own messages. Reports are not proof.</p>
 <h2>Changed since the last sheet</h2>
 <ul>
-<li>Paid calls rose from 940 to 991. Spend rose from $0.6548 to $0.6938.</li>
-<li>Mac load (1, 5, 15 min) went from [36, 43, 75] to [35, 41, 69].</li>
-<li>Several running tasks have new notes. Details are in the agent sections below.</li>
-<li>Newest commit on main: e0115bd, 24 Nov 10:33, "Decision: the software first, no channel drives the build."</li>
-<li>Pull requests, Rust size, skills, rooms drawn, decisions, APK count and design-system libraries: No change reported.</li>
+<li>Paid calls in the test ledger: 1,188, $0.8778 (last sheet: 1,055, $0.7310). DeepSeek $0.4004, OpenRouter $0.2951, Google $0.1822.</li>
+<li>Direct Google key: the lead reports it works (13:42). This corrects the 13:21 report that only the OpenRouter route worked. The ledger shows 4 refused Google calls, last success 13:13.</li>
+<li>One spend meter now covers all paid tests, cap $2.25 for today (lead, 13:42). The ledger is at about 39% of it. The earlier $0.60 cap in one script is replaced.</li>
+<li>Mac load (1, 5, 15 min): 67, 60, 64 (last sheet: 45, 42, 61).</li>
+<li>Rust: 12,772 lines in 7 crates (last sheet: 12,109). Skills: 46 (last sheet: 44).</li>
+<li>Engine: 3 of 4 agents finished (last sheet: 2).</li>
+<li>Model measurements (lead, 13:42): DeepSeek on low thinking filled the film form validly 2 of 2 times. Thinking off was invalid. GLM low returned nothing for $0.06. Gemini cache: 0 of 3 repeats saved.</li>
+<li>Nuance test done (13:43): 21 of 24 risky instruction lines were misread by cheap models. 8 are fully cured on fresh material.</li>
+<li>Packaging test (13:46): 6 title and thumbnail packages drawn. The skill-ordered ranking got 48% of pairs right; random got 50%.</li>
+<li>ADR 0009 (quiet screens) accepted (13:00). ADR 0010 (20-minute plan) is a candidate.</li>
+<li>Ancient Logos teardown: silent since 13:14. The lead's 13:42 workflow includes a restart. Not reported running.</li>
+<li>Commits on main: none reported since e0115bd (10:33).</li>
 </ul>
 <h2>App engine and films</h2>
 <ul>
-<li>Job Engine: 2 of 4 agents finished. Running: build:worlds and build:speed, both Bash.</li>
-<li>Skills: 44. Decisions: 9.</li>
-<li>Commit 05d3a20 (24 Nov 09:20) reports stage engine test 1. Cheap-model films scored about 4 of 10. This is from the commit message, not a test shown in FACTS.</li>
-<li>Commit 3e91606 records the decision that LOT is 50-minute documentaries and old LOT is not a source.</li>
-<li>Film reader: 0 of 1 agents finished. Running: build:absorb. Its note now reads "Keep waiting and view the queue." Before, it read "Wait for tests and build, third window."</li>
-<li>Pull request #7, the sample film the rooms are drawn from, is open with checks SUCCESS.</li>
+<li>Engine: 3 of 4 finished. build:worlds running.</li>
+<li>Round 5 picture sheet (12:48): not scored by judges. Lead says it looks better than round 1. Earlier scores were 4 to 6 of 10.</li>
+<li>Subtitles and small labels are too wordy (12:48). Not confirmed fixed.</li>
+<li>Test render, 187 seconds (12:10): 1080p, 0 fallback scenes, safe-box check passed, no voice track, one act. A picture test, not a full film.</li>
+<li>Film reader: 0 of 1 finished. build:absorb running (tests, build, first clip).</li>
+<li>Design systems: 0 of 5 finished. Five teardowns running. No design-system library on disk.</li>
+<li>Milky Stellar teardown (lead, 13:17): 16 devices with times. Its job waits up to nine minutes for shared-lock jobs.</li>
+<li>Film cost (lead, 13:17): about $0.55 per 50-minute film on DeepSeek and $2.14 on GLM, at high or max thinking. Not shown to fit the budget.</li>
+<li>20-minute plan (lead, 13:42): the lead's estimate says it fits. Voice is the tight part. Voice cost is not measured. Filling the film form is measured at about 5 cents per film.</li>
+<li>Freshness answer to the YouTube demonetisation wave (lead, 13:42): locked stance, voice and type; slow changes; new argument, opening, worlds and title per film; length 16 to 24 minutes. A sameness meter is planned, not built. The lead rejects random shuffling to fool a detector.</li>
 </ul>
 <h2>Web app and rooms</h2>
 <ul>
-<li>No web app facts were reported.</li>
-<li>Rooms drawn: 19.</li>
-<li>Job Rooms: 3 of 8 agents finished. Five are running:</li>
-<li>rooms:altar+2. Note changed to "Wait for truth on the final files."</li>
-<li>rooms:crossroads+2. "Wait for full run a third time."</li>
-<li>rooms:cauldron+2. "Patch look undo and wait for renders."</li>
-<li>rooms:conjuring+2. "Collect faults from the sweep."</li>
-<li>rooms:new-vessel+3. "Wait for interaction renders."</li>
+<li>All 19 rooms have a first build. 4 of 8 room builders finished.</li>
+<li>Still running: crossroads, cauldron, conjuring, new-vessel.</li>
+<li>Cauldron: price overlaps the list on the phone screen (lead, 12:48). Round 6 renders running. No fix confirmed.</li>
+<li>Board (13:00): 329 room states at two sizes on one canvas. Desktop frames were empty at 12:48. A 13:00 log lists them as rendered. No judge check reported.</li>
+<li>Page map: board-fix was 12 of 13 finished, waiting for the final build and push. It is not in the 13:45 job list, so its end is not reported.</li>
+<li>ADR 0009: 30 interface words at desktop, 24 at phone, no text of 5 words or more, one 1 to 2 word status per object. Quiet-screen rules are in PR 3, open.</li>
+<li>Outside critics have not reviewed the rooms.</li>
 </ul>
 <h2>Mac app and APK</h2>
 <ul>
-<li>APK files built: 0.</li>
-<li>Mac load now [35, 41, 69]. It was [36, 43, 75].</li>
-<li>No Mac app facts were reported. Not tested.</li>
+<li>APK files built: 0. APK not tested.</li>
+<li>Mac app: nothing reported. Not tested.</li>
+<li>Earshot runs in full, phone included (Ambi, 08:16). Phone spike measured 08:48. No later result. build:voice is finding the Earshot model cache and running a check.</li>
+<li>Video work runs one job at a time (lead, 12:37). Load is still high.</li>
 </ul>
 <h2>Agents running now</h2>
 <ul>
-<li>Job Engine: build:worlds, build:speed (2 of 4 finished).</li>
-<li>Job Conductor: fix:r2 (10 of 11 finished).</li>
-<li>Job Rooms: five running, listed above (3 of 8 finished).</li>
-<li>Job Film reader: build:absorb (0 of 1 finished).</li>
-<li>Job Design systems: five teardown tasks running (0 of 5 finished). Notes:</li>
-<li>teardown:ZgpMtombn9A: "Wait for bursts; show queue."</li>
-<li>teardown:sJiaWNxYFUA: no note.</li>
-<li>teardown:oRBu7wYuOSo: "Wait for frames."</li>
-<li>teardown:G4w-a8NgnnQ: changed to "Wait up to nine minutes for lock jobs." Before, it was "Count distinct hedge footnotes and headers on code cards."</li>
-<li>teardown:HmuQoak_IAg: "Wait for dates to finish."</li>
-<li>Job Page map: board-fix running (12 of 13 finished). Note changed to "Wait for the final build and push." Before, it was "Show where the placed ways out went, then start the final picture build and Doop push."</li>
-<li>Job Keys and PRs: 3 of 3 finished. None running.</li>
+<li>Engine: build:worlds (3 of 4 finished)</li>
+<li>Conductor: fix:r2 (10 of 11 finished)</li>
+<li>Rooms: crossroads, cauldron, conjuring, new-vessel (4 of 8 finished)</li>
+<li>Film reader: build:absorb (0 of 1 finished)</li>
+<li>Design systems: five teardown jobs (0 of 5 finished)</li>
+<li>Guard, voice, 3D, PR loop: six jobs (0 of 6 finished): wave facts, PR review loop, one teardown, freshness build, money build, voice build</li>
+<li>Page map: board-fix, not in the 13:45 list</li>
 </ul>
 <h2>Money spent on services</h2>
 <ul>
-<li>Paid calls in the test ledger: 991. Total $0.6938.</li>
-<li>deepseek $0.2899 (was $0.2627). openrouter $0.2217 (was $0.2098). google $0.1822 (no change).</li>
-<li>Wallet balances: not reported.</li>
+<li>Ledger: $0.8778 over 1,188 calls. Successful answers: DeepSeek 824 (1 refused or failed), OpenRouter 351 (1), Google 7 (4).</li>
+<li>Balances at 12:37 (lead): OpenRouter $18.82, DeepSeek $16.96, WaveSpeed $12.00. Not rechecked since.</li>
+<li>Google: billing linked; direct key works (lead, 13:42). Prepaid balance not in the facts.</li>
+<li>Inworld: key works, 403 stock voices (lead, 13:42; earlier 407). No charge seen. Making speech not tested.</li>
+<li>Budget: 135 CAD agreed (ADR 0008). The 10:52 split was Inworld 55, OpenRouter 23, DeepSeek 22, Google 21, WaveSpeed 14. Film costs above are not shown to fit.</li>
+<li>Gemini cache: 0 of 3 repeats saved (lead, 13:17; earlier figure of 5 corrected).</li>
+<li>Spend guard: one meter, cap $2.25 for today (13:42). The earlier worst case of $1.25 is superseded.</li>
 </ul>
 <h2>Broken, blocked or open</h2>
 <ul>
-<li>Design-system libraries: none on disk yet.</li>
-<li>Film reader and Design systems jobs are still running with no finished agents.</li>
-<li>Cheap-model film score about 4 of 10 (from commit 05d3a20). Newer tests not shown.</li>
-<li>Rooms still waiting on final truth files, a look patch, fault collection and interaction renders.</li>
-<li>Pull requests: 8 open, 0 merged, 0 closed. All checks SUCCESS.</li>
-<li>Lead has sent no messages and no day log entries.</li>
+<li>Engine drawing tests do not compile on main. PR 5 fixed the picture finder (26 of 26 pass). Lead says the main tests for juju-stage do not compile (13:42).</li>
+<li>PR 1 loosened the checks, so green status is partial. The 8 PRs were tested alone, not together. None merged.</li>
+<li>Conductor room list: a worker says two entries must be added, or the conductor refuses to start on its next build (13:41). Not reported done.</li>
+<li>Cauldron price overlap, board desktop frames, subtitles: not confirmed fixed.</li>
+<li>Art direction: not judged (earlier 5 to 6 of 10).</li>
+<li>Voice: no voice track. Inworld speech not tested.</li>
+<li>Film costs and the 20-minute plan: not measured end to end. Not shown to fit.</li>
+<li>Nuance: 6 new rules are written but no code enforces them. 3 repairs are better, not cured. 4 cannot be fixed by wording.</li>
+<li>Packaging: 4 of 6 packages are below the winners' median contrast, on hold. Foil is rated weak. The skill-ordered ranking did no better than random. The 90/70/50 rule could not be tested.</li>
+<li>Thinking level: the packaging flow runs with thinking off, which departs from ADR 0006. The lead found thinking off invalid for the film form.</li>
+<li>Full run from script to finished film on your keys: not tested.</li>
+<li>Repo: uncommitted changes (205 files at 12:10). ADRs 0008 and 0009 are untracked (13:00).</li>
+<li>Ancient Logos teardown: status unknown since 13:14.</li>
 </ul>
 <h2>Waiting on Ambi</h2>
 <ul>
-<li>No request to Ambi is stated in the messages or facts.</li>
+<li>No item is marked as waiting on Ambi at 13:42 or 13:45.</li>
+<li>ADR 0010 (20-minute plan) is a candidate. Acceptance not reported.</li>
+<li>Replacement 90/70/50 wording is a candidate for Ambi (packaging worker, 13:46).</li>
+<li>Standing advice (lead, 12:48): keep Inworld permissions on Read only.</li>
 </ul>
 <h2>Counted by code</h2>
 <ul>
 <li>Pull requests: 8 open, 0 merged, 0 closed</li>
-<li>Paid calls in the test ledger: 991, $0.6938 in all {deepseek: 0.2899, openrouter: 0.2217, google: 0.1822}</li>
-<li>Rust: 11,670 lines in 7 crates. Skills: 44. Rooms drawn: 19. Decisions: 9. APK files built: 0</li>
+<li>Paid calls in the test ledger: 1188, $0.8778 in all {deepseek: 0.4004, openrouter: 0.2951, google: 0.1822}</li>
+<li>Paid services answering: deepseek 824 ok, 1 refused or failed, last ok 24 Nov 13:43 EAT; openrouter 351 ok, 1 refused or failed, last ok 24 Nov 13:40 EAT; google 7 ok, 4 refused or failed, last ok 24 Nov 13:13 EAT</li>
+<li>Rust: 12,772 lines in 7 crates. Skills: 46. Rooms drawn: 19. Decisions: 9. APK files built: 0</li>
 <li>Design-system libraries on disk: none yet</li>
-<li>Mac load (1, 5, 15 min): [35, 41, 69]</li>
-<li>Job Engine: 2 of 4 agents finished; running: build:worlds (Bash); build:speed (Bash)</li>
+<li>Mac load (1, 5, 15 min): [67, 60, 64]</li>
+<li>Job Engine: 3 of 4 agents finished; running: build:worlds (Bash)</li>
 <li>Job Conductor: 10 of 11 agents finished; running: fix:r2 (Bash)</li>
-<li>Job Rooms: 3 of 8 agents finished; running: rooms:altar+2 (Wait for truth on the final files); rooms:crossroads+2 (Wait for full run a third time); rooms:cauldron+2 (Patch look undo and wait for renders); rooms:conjuring+2 (Collect faults from the sweep); rooms:new-vessel+3 (Wait for interaction renders)</li>
-<li>Job Film reader: 0 of 1 agents finished; running: build:absorb (Keep waiting and view the queue)</li>
-<li>Job Design systems: 0 of 5 agents finished; running: teardown:ZgpMtombn9A (Wait for bursts; show queue); teardown:sJiaWNxYFUA (); teardown:oRBu7wYuOSo (Wait for frames); teardown:G4w-a8NgnnQ (Wait up to nine minutes for lock jobs); teardown:HmuQoak_IAg (Wait for dates to finish)</li>
-<li>Job Page map: 12 of 13 agents finished; running: board-fix (Wait for the final build and push)</li>
-<li>Job Keys and PRs: 3 of 3 agents finished; none running</li>
+<li>Job Rooms: 4 of 8 agents finished; running: rooms:crossroads+2 (Wait for full run a third time); rooms:cauldron+2 (Wait again for round 6 renders); rooms:conjuring+2 (Read the spell strip and publish kit sweep); rooms:new-vessel+3 (Wait for round five and truth output)</li>
+<li>Job Film reader: 0 of 1 agents finished; running: build:absorb (Wait for tests, build and the first clip)</li>
+<li>Job Design systems: 0 of 5 agents finished; running: teardown:ZgpMtombn9A (Correct the median and recheck queues); teardown:sJiaWNxYFUA (); teardown:oRBu7wYuOSo (Wait for frames); teardown:G4w-a8NgnnQ (Wait for caption fallback or Earshot); teardown:HmuQoak_IAg (Summarise all Earshot windows)</li>
+<li>Job Guard, voice, 3D, PR loop: 0 of 6 agents finished; running: facts:wave (List daily snapshots May-Aug 2026); pr-loop:build (See PR 5's gate.yml change); teardown:sJiaWNxYFUA (again) (Read the OCR function and find a Python with Vision); build:fresh (Check time, FACTS.md, load); build:money (Read Gemini Neon pricing section); build:voice (Find Earshot model cache and run doctor)</li>
 </ul>
 </body></html>

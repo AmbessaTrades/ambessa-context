@@ -1,6 +1,6 @@
 # Pull requests on the private Juju repo
 
-As of 13:27 EAT, Tue 24 Nov 2026. The repo is private: the links need access, so each request's own description is copied here.
+As of 13:45 EAT, Tue 24 Nov 2026. The repo is private: the links need access, so each request's own description is copied here.
 Nothing merges by itself yet. The lead merges after the gate is open and fresh reviewers find nothing that matters (ADR 0003).
 
 | No. | State | Checks | Title | Lines |

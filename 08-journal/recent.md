@@ -1,6 +1,25 @@
 # Juju day log, newest first
 
-Rebuilt 13:27 EAT, Tue 24 Nov 2026. Only entries whose title names Juju. Times are EAT (UTC+3). Logged by agents: evidence of what they report, not proof. Where two entries disagree, the later one wins and the older stays.
+Rebuilt 13:45 EAT, Tue 24 Nov 2026. Only entries whose title names Juju. Times are EAT (UTC+3). Logged by agents: evidence of what they report, not proof. Where two entries disagree, the later one wins and the older stays.
+
+---
+
+## 2026-11-24 13:42 EAT — MUNGURA — Juju: wave answered by real freshness, 20-minute plan being costed, PR review loop and merge train started
+
+**Changed**
+- Harness: Claude Code (Fable 5.2 lead, Opus 5.5 workers). Read the VidRush CEO post on the demonetisation wave (saved runs/guard/tweet-noahmorris-2026-11-24.txt). Ambi: no talking head, no real voices; wants Juju fresh from film 1 to 357 without losing the brand; asks if 20-minute films with one silent channel fit the money; wants three suggested voices by ear; better 3D; PRs reviewed in loops before they reach him.
+- Workflow wiy2d48rc: wave facts, freshness model + 60-film simulation, 20-minute money plan (ADR 0010 candidate), voice by ear, sound by ear, 3D grammar + prototype, Ancient Logos teardown restart, PR review loop over PRs 1-8 + merge train.
+- One spending door scripts/meter.py (lock, one cap 2.25 US for all tests); route_proof.py uses it. Gemini billing linked by Ambi; direct key works.
+
+**Why/verdict**
+- Measured: DeepSeek thinking low fills the film form validly (2 of 2) and a 426-word span cost 0.0079 US; thinking off is invalid and repair did not converge (5 of 6). GLM low returned nothing for 0.06 US. Gemini implicit cache: 0 of 3 repeats hit.
+- Lead judgement recorded: no shuffling built only to fool a detector; variety must come from each film own material.
+
+**Status/open**
+- 8 PRs open, none merged; main tests for juju-stage do not compile. Ledger about 0.87 US.
+
+**Related**
+- docs/STACK-STATUS.md, docs/adr/0009; topic loop.
 
 ---
 
@@ -197,7 +216,7 @@ Juju brief read, 336 screens indexed, 19 vendor docs saved; waiting on Ambi's 5 
 - Mac disagrees with the brief: no Juju memory or day log for 21-23 Nov; look folder has about 35 Hades II pictures, not the Thumbsy or feed screens; no Android kit; disk 95% full (51 GB free).
 - LOT has not uploaded since 2 Nov, and a 25-minute script has sat unvoiced since 10 Nov. Proposed Wednesday 20:00 target: one LOT film from one command, with thumbnail and publish text.
 - Cost $0 on paid services, about 2.2M tokens on 38 small reader agents. No Juju code built yet. Open: Ambi must reply 'defaults' or change the 5 calls before building starts.
-- Files changed: JUJU-MASTER-BRIEF.md; [redacted].json; harvest/wave1/V2VIDEO-READER-BRIEF.md; scripts/harvest-index.py; scripts/stack-txt-harvester.sh; scripts/dedupe_frames.py; ~/debate-agent/memory/vault/project-maps.json
+- Files changed: JUJU-MASTER-BRIEF.md; harvest/wave1/INDEX.json; harvest/wave1/V2VIDEO-READER-BRIEF.md; scripts/harvest-index.py; scripts/stack-txt-harvester.sh; scripts/dedupe_frames.py; ~/debate-agent/memory/vault/project-maps.json
 - Status: in-progress — research and intake complete, no Juju code built, awaiting Ambi's reply on the 5 calls
 
 ---
@@ -208,12 +227,12 @@ Juju brief read, 336 screens indexed, 19 vendor docs saved; waiting on Ambi's 5 
 
 Juju master brief received: saved, checked against the Mac, screens read
 - Harness: Claude Code (claude-fable-5-2)
-- What happened: Changed: Ambi pasted the Juju master brief (22 sections, 28,186 words) into T3 Code at 06:28. Saved byte-identical to JUJU-MASTER-BRIEF.md (sha256 8b8cdfc1…). Ran the boot it asks for, minus the steps that need his word. (1) Vendor docs: 19 of 19 saved to ~/AUH/AMBESSA/docs/stack-txt (the brief's harvester used bash 4 arrays; macOS has bash 3.2, so it was rewritten). (2) VidRush V2 walkthrough DlB0UABEawo: 1080p, 01:25 on, two ffmpeg passes, 639 frames on disk, 195 distinct screens with timed transcript. (3) Haiku 5.5 readers, one bounded unit each: 85 VidRush screenshots + the long homepage in 18 slices + 39 look references + 195 video screens, one JSON per unit in ~[redacted], indexed in INDEX.json. (4) Juju added to the project map (find "Juju" now answers); topic = loop, where the software's history sits.
+- What happened: Changed: Ambi pasted the Juju master brief (22 sections, 28,186 words) into T3 Code at 06:28. Saved byte-identical to JUJU-MASTER-BRIEF.md (sha256 8b8cdfc1…). Ran the boot it asks for, minus the steps that need his word. (1) Vendor docs: 19 of 19 saved to ~/AUH/AMBESSA/docs/stack-txt (the brief's harvester used bash 4 arrays; macOS has bash 3.2, so it was rewritten). (2) VidRush V2 walkthrough DlB0UABEawo: 1080p, 01:25 on, two ffmpeg passes, 639 frames on disk, 195 distinct screens with timed transcript. (3) Haiku 5.5 readers, one bounded unit each: 85 VidRush screenshots + the long homepage in 18 slices + 39 look references + 195 video screens, one JSON per unit in harvest/wave1/out, indexed in INDEX.json. (4) Juju added to the project map (find "Juju" now answers); topic = loop, where the software's history sits.
 
 Why/verdict: the brief is the first record of the name Juju on this Mac. No day log exists for 21 to 23 Nov and Memoir had zero hits, so its "said by Ambi 20 to 22 Nov" lines cannot be checked here; the paste itself is taken as his word for the name and the folder. Observations where the brief and the disk disagree: the Rust engines are at ~/AUH/Loop/loop/engine (47 files, 9,791 lines, confirmed), not ~/AUH/Loop/engine. The look folder holds 39 pictures, about 35 of them Hades II; no Thumbsy screen, no YouTube feed tester screens. Missing on this Mac: rustup, Android SDK/NDK, adb, Tauri, Typst, bun, wrangler, turso; disk 95% full (51 GB free). The brief puts LOT on Inworld TTS-2; Ambi's 1 Nov voice lock is ABV V9 on inworld-tts-1.5-max, 0.95, temperature 2.0. LOT has not uploaded since 2 Nov; lot-r01 (25.3 min script, voice about $0.46) was never voiced or rendered.
 
 
 Related: brief sections 15 to 18 and 22; ~/AUH/Loop/loop/onefile/START-HERE.md; ~/AUH/AMBESSA/BUILD/BUILD-BRIEF.md (19 Nov handoff, before the name). Harness: Claude Code in T3 Code, Fable 5.2.
-- Files changed: JUJU-MASTER-BRIEF.md; scripts/stack-txt-harvester.sh; scripts/vidrush-v2-frame-rip.sh; scripts/dedupe_frames.py; scripts/harvest-index.py; ~[redacted].json; ~/AUH/AMBESSA/docs/stack-txt/; ~/debate-agent/memory/vault/project-maps.json
+- Files changed: JUJU-MASTER-BRIEF.md; scripts/stack-txt-harvester.sh; scripts/vidrush-v2-frame-rip.sh; scripts/dedupe_frames.py; scripts/harvest-index.py; harvest/wave1/INDEX.json; ~/AUH/AMBESSA/docs/stack-txt/; ~/debate-agent/memory/vault/project-maps.json
 - Verification: cp checksum matched; harvester printed saved 19 failed 0; frames.json lists 639 files and 195 distinct screens; harvest-index.py printed 0 failed records; one reader record compared by eye against its screenshot (home composer, 13-18-32) and matched word for word; map-check shows no juju failure (2 older failures: memoir skill not found).
 - Status: in-progress: boot audit and screen reading done; five decisions are Ambi's before the build starts

@@ -2,7 +2,7 @@
 
 As of 13:10 EAT, 24 Nov 2026. Source: workflows a workflow (conductor build, two attack rounds, fix round), a workflow (paid routes), a workflow (YouTube-taste scout).
 
-> **Read with this:** the second attack round was still running at 13:10. Money lines are in `money-and-stack.md`.
+> **Read with this:** the second attack round was still running at 13:10. Google billing was linked at 13:10 and Gemini answers directly since; lines below that say Google refuses or that billing waits on Ambi are out of date. Its cache was then tested and saved nothing in three repeats. Money lines are in `money-and-stack.md`.
 
 ## In short
 - Built `crates/juju-conduct`, the runtime that makes each skill of a stage act: make, check, critique, repair, learn. Every stage ends in PASS or HOLD, with a receipt.
