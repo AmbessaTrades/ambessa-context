@@ -1,6 +1,194 @@
 # Juju day log, newest first
 
-Rebuilt 18:36 EAT, Wed 25 Nov 2026. Only entries whose title names Juju. Times are EAT (UTC+3). Logged by agents: evidence of what they report, not proof. Where two entries disagree, the later one wins and the older stays.
+Rebuilt 20:37 EAT, Wed 25 Nov 2026. Only entries whose title names Juju. Times are EAT (UTC+3). Logged by agents: evidence of what they report, not proof. Where two entries disagree, the later one wins and the older stays.
+
+---
+
+## 2026-11-25 20:32 EAT — TEHUTI — Juju Maps: Neon put back in the thinking seats, taste ledger, voice shelf of 20, flat coloured land
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** routes.json (Neon: ladder, script, editor, judge, speak, direct, package, birth pick; DeepSeek small work), spine.py on Neon (29 s, 0.06 US), board7 one Neon cut then cheap repairs, taste.json read by the cutter, gl.js flat fills and solid lines, pre-fetch (4x faster drawing), geo.py places first, hero never a chain of towns, churn.sh; code snapshot runs/map-snap-1125-1945.
+- **Why/verdict:** Ambi: film 4 cheesy, shiny border, fat arrow, "scores four" meaningless; likely culprit the model switches. Ledger agreed: kivu2, dam4, kokaral, mekong all ran Neon in those seats, film 4 none. Po film ("mud") is the new baseline, sent.
+- **Status/open:** land below sea level painted as sea and square mazes on near coasts (powers B on it); ranked scripts need a baseline on Neon; Neon cache still 0 hits; about 5 US left under the 30 cap; churn of 2 films running.
+- **Related:** films/mud, films/undertow, data/VOICES.md, refs/4NeoQMOIDGU.md, arcs/ranked.json
+
+---
+
+## 2026-11-25 20:22 EAT — TEHUTI — Juju Maps: the coast file decides the sea
+<!-- type: event -->
+**From:** TEHUTI
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** juju-maps/tiles.js, film.js (world tiles may take 30 s), new data/land10.json (9 MB, Natural Earth 10 m land and minor islands). Nothing committed.
+- **Why-verdict:** land below sea level was painted as sea; now the coast decides and heights only add land.
+- **Status-open:** no whole film drawn after the change; drains deeper than 12 m keep the height rule.
+- **Related:** juju-maps/films/_data/sheets/coast-before-after.png
+
+---
+
+## 2026-11-25 20:14 EAT — TEHUTI — Juju Maps: smooth near shore
+<!-- type: event -->
+**From:** TEHUTI
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** juju-maps/tiles.js only. Nothing committed.
+- **Why-verdict:** height tiles ring by a few metres round nought near coasts and drew square mazes; water is now softened height plus the drawn coast.
+- **Status-open:** coast detail near is about 600 m; Lake Pontchartrain causeway no longer drawn; mississippi has no scene to reshoot.
+- **Related:** juju-maps/films/_data/sheets/near-shore-before-after.png
+
+---
+
+## 2026-11-25 19:55 EAT — TEHUTI — Juju voice shelf: 19 newest Inworld voices auditioned, five sent to Ambi for ear test
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju voice shelf: 19 newest Inworld voices auditioned, five sent to Ambi for ear test
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 64c674b0)
+- Ambi asked for the newest, best Inworld narration voices on our pay-as-you-go plan, and only those. Docs show inworld-tts-2 is the flagship and 1.5 is deprecated.
+- Built the shelf of 19 voices (10 men, 9 women) and cast only from it. 56 paid calls cost about 0.288 US. Casting rotation was fixed so the whole shelf gets turns, not just 8 of 19.
+- Verified by measurement only: 18 of 19 voices hit the target rate (155 to 170). Graham is blacklisted. Warren is off the shelf. Machines cannot judge accent or warmth.
+- Five candidates are rendered for Ambi to hear: Gavin, Tonya, Russell, Marek, Kristen (films/audition/line2/rate). Not yet tested: ABV V9 routing for LOT, and the St. Bernard pause fix, which the lead owns.
+- Files changed: juju-maps/castvoice.py; juju-maps/audition.py; juju-maps/voice.py; juju-maps/data/voices.json; juju-maps/data/voice-traits.json
+- Status: in-progress — shelf and rotation built and measured; waiting on Ambi's ear test of five voices, ABV V9 LOT routing unconfirmed.
+
+---
+
+## 2026-11-25 19:55 EAT — TEHUTI — Juju Maps: voice shelf of 19 newest Inworld voices; casting only from the shelf
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju Maps: voice shelf of 19 newest Inworld voices; casting only from the shelf
+- Harness: Claude Code (claude-opus-5-5)
+- What happened: Changed: juju-maps data/voices.json (shelf of 19, profiles.lot = ABV V9), data/voice-traits.json, data/VOICES.md, audition.py (speak, hear, measure), castvoice.py (shelf only, rest rule kept and lengthened), voice.py (row's model and rate). 
+Why/verdict: Ambi said the last films' voice was weak and not one of the new ones. inworld-tts-2 is the flagship (docs). Graham is on the old 1.5 lists, the shelf voices are not (Inferred newest). 56 takes, 0.288 US (Measured). Machine listeners rate Graham near the top, so they only reject faults; nobody has listened.
+Status/open: Ambi hears five (Gavin, Tonya, Russell, Marek, Kristen). door.py cannot speak ABV V9 (no price for 1.5-max, no temperature); mend.py still voices from kits.json; channels digger keeps Ambrose, griot Beatrice, pilot Cordelia, but surveyor Harold and witness Tristan are off the shelf.
+Related: juju-maps/data/VOICES.md
+- Verification: 60 dry casts in a temp folder: 14 voices used, none off the shelf, none repeated within 3 films. voice.py's row line run with VOICE=Graham, VOICE=Marek, LOT and ABV on griot: all gave the right voice. No film was voiced.
+- Status: complete; waits for Ambi's ear and for the lead on door.py
+
+---
+
+## 2026-11-25 19:54 EAT — TEHUTI — Juju maps: borders now flat colour, not light; arrow is a flat band; proven by stills, no full film drawn
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju maps: borders now flat colour, not light; arrow is a flat band; proven by stills, no full film drawn
+- Harness: Claude Code (auto-log by claude-haiku-5-5, SessionEnd, session 01f0bfee)
+- Ambi asked for night area borders at 40% with no bloom, and an arrow capped at 1.6% width. He then corrected it: no glowing borders anywhere, countries filled flat like the Moko Dusk look.
+- Changed juju-maps/gl.js: area is a flat fill (.42 day, .5 night) that wipes in over 0.6 s; edge is one solid 2 px line; arrow is a flat tapering band on the ground, 2.2% wide, max 45% of the picture.
+- Fixed a double fill where Turkey was painted twice, and the glowing yellow line in faultsnorthana and ghosts, which was the river line. Hero lines now have a dark casing.
+- Verified by stills only (old beside new in juju-maps/films/_data/sheets/flat-fill-old-new.png, plus wipe-in-day.jpg). No whole film has been drawn on this engine yet.
+- Files changed: juju-maps/gl.js; juju-maps/films/_data/sheets/flat-fill-old-new.png; juju-maps/films/_data/sheets/wipe-in-day.jpg
+- Status: in-progress — changes installed and proven by stills; whole-film render still pending, nothing committed
+
+---
+
+## 2026-11-25 19:53 EAT — TEHUTI — Juju Maps: borders are coloured now, never lit
+<!-- type: event -->
+**From:** TEHUTI
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** juju-maps/gl.js: area, region, overlay, edge, arrow, hero, river. Nothing committed.
+- **Why-verdict:** Ambi: why is it shining instead of it being colored. Flat fills like Moko Dusk, solid lines, painted band, cased hot hero; stills old beside new.
+- **Status-open:** overlay, 240p line width and a whole film not drawn; Kigali thread in kivu3 stays thin at 24 s.
+- **Related:** juju-maps/films/_data/sheets/flat-fill-old-new.png
+
+---
+
+## 2026-11-25 19:44 EAT — TEHUTI — Juju Maps: night borders quiet, arrows sized on the picture
+<!-- type: event -->
+**From:** TEHUTI
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** juju-maps/gl.js (area by night, arrow). Nothing committed.
+- **Why-verdict:** faultsnorthana border was blown out and arrows were beams; stills now clean.
+- **Status-open:** no whole film drawn after the change.
+- **Related:** juju-maps/films/_data/sheets/area-arrow-night.png
+
+---
+
+## 2026-11-25 19:38 EAT — TEHUTI — Juju maps: sea squares fixed, pre-fetch added, labels de-boxed, thread and landing fixed (not yet full-film verified)
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju maps: sea squares fixed, pre-fetch added, labels de-boxed, thread and landing fixed (not yet full-film verified)
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 01f0bfee)
+- Ambi asked for five juju-maps fixes: teal sea squares, a tile pre-fetch so pieces never wait, no black plates on labels, a faded thread, and an ease-out globe landing.
+- Teal squares: the cause was flat zero height tiles from zoom 11. Those spots now use the zoom 9 depth. Before/after still: films/_data/sheets/sea-squares-before-after.png.
+- Pre-fetch: 8 s cold landings went from 64.5 s with 40 late to 40.2 s and 58.5 s with 0 late. The bar of under 10 late in a cold 140 s film is not measured yet.
+- Black plates removed from tag, cuttag, reach and height labels; checked on halves at 43 s and 100 s. All five edits are installed and seen in stills, but no whole film has been drawn on the new engine.
+- Open: Ambi must restart the server on port 4720 to get the faster pre-fetch; the old server still works, just slower.
+- Files changed: juju-maps/server.mjs; juju-maps/tiles.js; juju-maps/record.mjs; juju-maps/film.js; juju-maps/gl.js; juju-maps/motion.js
+- Status: in-progress — five fixes installed and seen in stills; full-film pre-fetch bar unmeasured and server restart on 4720 pending
+
+---
+
+## 2026-11-25 19:36 EAT — TEHUTI — Juju Maps: sea squares, tile pre-fetch, plain labels, thread and landing fixed
+<!-- type: event -->
+**From:** TEHUTI
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** juju-maps film.js, gl.js, tiles.js, server.mjs, record.mjs. Originals in films/_data/before2. Nothing committed.
+- **Why-verdict:** flat zero heights from z 11 drew light squares on open sea; now the z 9 depth. Cold landing late 40 to 0. Seen in stills.
+- **Status-open:** server 4720 needs a restart for /raw and /th; no whole film drawn after the install.
+- **Related:** juju-maps/films/_data/sheets, runs/decision.tsv lane maps-data
+
+---
+
+## 2026-11-25 19:30 EAT — TEHUTI — Juju Maps: ranked films, real-speech skeletons, draw what is said, thumbnails from the film's own frame
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** juju-maps: formats.json, rank.py (counted table, code scores), pocket.py, spine.py + skeleton.py + skeletons/ (studied films' sentences as fill-in lines, Kivu as gold, banned rows in front; tell.py and rankstory.py retired), draws.py + storyboard3 (every sentence's marks), geo.py (places asked once with the film's ground), look.py (instant bare check), castvoice.py, package.py + thumb.py (thumbnail = frame of the film), seo.py, slate.py/next.sh/two.sh/post.sh/film.sh, seek.py 8 s, mix.py loudness without loudnorm, states and provinces borders, plates, cards of 1 to 3 words; cap 30 US by Ambi's order; Mac freed from 0.6 to about 24 GB.
+- **Why/verdict:** Ambi: scripts with "character" are bad, copy real speakers' skeletons and the Kivu spine; draw far more; views in different ways; fast; best voices; Tunde disliked (blacklisted).
+- **Status/open:** films sent: mississippi (Wales bug), kivu3, ghosts. Cutter crash (REF name clash, old engine fallback) made fossil, lagos, halves bad; fixed, being recut. Delegates running: ranked film reverse study, voice shelf of 20, powers B (sea squares, prefetch, plates off labels).
+- **Related:** runs/meter/cap.json, docs/FILM20.md, refs/4NeoQMOIDGU*, refs/Zz9AtnxOU6U*
+
+---
+
+## 2026-11-25 18:57 EAT — TEHUTI — Juju map: one fixed ground per film; kokaral worst dance second cut from 12.15% to 2.42%
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju map: one fixed ground per film; kokaral worst dance second cut from 12.15% to 2.42%
+- Harness: Claude Code (auto-log by claude-haiku-5-5, SessionEnd, session 07e035bd)
+- Ambi asked for one ground: the same place must show the same facets, colours and light in every view, with no level swap seen on kokaral (11 s vs 22-25 s).
+- Built ground-dance.mjs: renders frames 1/24 s apart through each move, undoes the camera, and measures per-second ground change.
+- Built one.js and a world-fixed lattice in poly.js. Measured worst second on kokaral scene-b: 12.15% before, 2.42% after. Mountain film: about 18% down to 1.3%.
+- Rivers, borders and town lights redrawn as lines on the fixed ground (lines.js). Sea colours and doubled borders still being fixed.
+- Side effect: a newer Rogun cut overwrote the low-poly cut. A restore from Juju's printed cut was written by restore_rogun.py; not yet confirmed.
+- Files changed: juju-lowpoly/poly.js; juju-lowpoly/one.js; juju-lowpoly/lines.js; juju-lowpoly/ground-dance.mjs; juju-lowpoly/moko.py; juju-lowpoly/film.js
+- Status: in-progress — fixed ground and dance check work and measure; stopped by Ambi's interrupt before the terrain sweep and Rogun cut restore were confirmed.
+
+---
+
+## 2026-11-25 18:52 EAT — TEHUTI — Juju Maps: mountain films read by day, ranked-film and fault tools built
+<!-- type: event -->
+**From:** TEHUTI
+
+- **Changed:** juju-maps film.js, gl.js, motion.js: rogun2 faults fixed by cause; new ops board, score, sum, set, fault, rupture. Nothing committed.
+- **Why-verdict:** rogun2 a.mp4 went black in mountains, with blown glow and white beams by day. New stills show neither. Night area curtain still glows at low wide views; the lead decides.
+- **Status-open:** there is no data op in film.js or gl.js; the neon was the satellite picture. Not wired into the cutter.
+- **Related:** runs/map-day-1125. Harness: Claude Code (claude-opus-5-5).
+
+---
+
+## 2026-11-25 18:43 EAT — TEHUTI — Took apart a 28:38 map film frame by frame and wrote its grammar and ranked arc files for Juju
+<!-- type: event -->
+**From:** TEHUTI
+
+Took apart a 28:38 map film frame by frame and wrote its grammar and ranked arc files for Juju
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session d7b9db85)
+- Ambi asked: "use reverse engineer video on this, on this entire vid ... go through every frame", for 4NeoQMOIDGU (28:38, 613K views, 9K-sub channel), so Juju can make 20-30 min ranked map films.
+- Read 860 grid frames and about 260 near frames by eye; machine-read on-screen text on 3,437 frames; scanned all 51,548 frames for colour-swap faults. No paid calls.
+- Found 40 one-frame flashes (21:40 to 26:15). Checked 15 by eye: 14 land/sea colour swaps, 1 card fade. On-screen text averaged 59 words/min over 179 spoken words/min.
+- Wrote the study note and the arc files; arcs.py ranked builds at 2 min (23 slots) and 25 min (279 slots, 3,540 words). 31 devices still lack drawing plans; the 10 words/min text law is proposed, not tested.
+- Frame deletion and the final output check were not confirmed in the transcript; the closing summary is cut off mid-line.
+- Files changed: juju-maps/refs/4NeoQMOIDGU.md
+- Status: complete — own predicate printed TRUE (five files written, JSON parses, arcs.py ranked builds); 31 missing device plans and frame cleanup still open
+
+---
+
+## 2026-11-25 18:42 EAT — TEHUTI — Juju Maps: a 28 minute ranked map film read frame by frame
+<!-- type: event -->
+**From:** TEHUTI
+
+- **Changed:** juju-maps/refs/4NeoQMOIDGU.json and .md and 12 stills, juju-maps/depict-ranked.json, juju-maps/text-law.json, juju-maps/arcs/ranked.json. No other file, no paid call, nothing committed.
+- **Why-verdict:** Ambi, 25 Nov: reverse engineer this whole film. It holds by 40 scores, one each 26 s (Measured), a famous second contestant that stays in front until the last, and a property planted at 2:38 and paid at 27:35. Weak: 59 words a minute on screen, 97 of 111 captions repeat the voice, land and sea swap colour for single frames 21:40 to 26:15.
+- **Status-open:** no device built, no film judged; arcs.py ranked builds at 2 and 25 minutes, but a 2 minute cut holds no contestant (arcs.py is another lane's). Ambi's eye decides.
+- **Related:** juju-maps/refs/4NeoQMOIDGU.md. Harness: Claude Code (claude-opus-5-5). Next: build 'four scores arriving' and 'source fan' from juju-maps/depict-ranked.json.
 
 ---
 
