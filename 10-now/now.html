@@ -1,112 +1,119 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Juju now</title><style>body{background:#fff;color:#111;font:18px/1.6 Georgia,serif;max-width:44em;margin:0 auto;padding:40px 20px 80px}h1{font-size:30px}h2{font-size:21px;margin:34px 0 6px}li{margin:4px 0}code{font-size:.85em}</style></head><body>
 <h1>Juju now</h1>
-<p>As of 10:27 EAT, Wed 25 Nov 2026. Written every two hours by claude-haiku-5-5 (medium) from facts collected by code and the lead agent's own messages. Reports are not proof.</p>
+<p>As of 12:29 EAT, Wed 25 Nov 2026. Written every two hours by claude-haiku-5-5 (medium) from facts collected by code and the lead agent's own messages. Reports are not proof.</p>
 <h2>Changed since the last sheet</h2>
 <ul>
-<li>Covers 08:23 to 10:27 EAT, Wed 25 Nov 2026.</li>
-<li>Paid calls: 6,029 calls, $8.0822 in the ledger (was 5,825, $6.0073).</li>
-<li>Mac load (1, 5, 15 min): 14, 14, 17 (was 89, 84, 75). 0 agent transcripts written in the last 10 minutes.</li>
-<li>Ambi ruled: Juju only; the old Loop and Milarepa threads are out (10:02 log). He ordered single-builder mode, no swarms (09:47 log).</li>
-<li>Lead stopped otto-chron-3 himself at 08:32. Line 2 was cut before "of the Roman empire", which made it false. It is back at Outline.</li>
-<li>Finished runs: strip-japan DONE 08:34 (60 s, 0.008751 US). Whole-film runs on disk: 4 DONE, 4 FAILED, 23 HOLD.</li>
-<li>Newest runs: proof12c FAILED 09:47 (stopped at Render and mix); proof12 HOLD 09:16; proof75b HOLD 09:06; proof75a HOLD 08:59 (Publish kit); strip-planets HOLD 08:41; strip-pluto HOLD 08:40.</li>
-<li>Juju commits on this Mac's main: newest 04788e9 (10:12), then cbbffcb (09:46). The builder reports the work is committed here but not on GitHub.</li>
-<li>Rooms drawn: 20 (was 19). Rust: 33,969 lines in 14 crates (was 32,716).</li>
-<li>Logged attempts: 241 kept, 35 reverted, 47 inconclusive.</li>
+<li>Covers 10:27 to 12:29 EAT, Wed 25 Nov 2026.</li>
+<li><b>Scope cut to maps (ADR 0022, recorded by Mungura, 12:04).</b> Ambi decided Juju makes map films only: empires, wars and borders. The record quotes him: "do this one niche really well", "I hate parchment paper", "having hard gates prevents a vid from rendering". The map engine is forked as Juju Maps from an MIT open project. Checks now report. Only the money cap, an unsourced sentence, picture rights and Ambi's publish clicks stop a render. This replaces the HOLD rule for these films.</li>
+<li>Ambi's single-builder order (09:47) still stands.</li>
+<li>Paid calls: 6,135, $8.8670 (was 6,029, $8.0822).</li>
+<li>Mac load (1, 5, 15 min): 4, 6, 9 (was 14, 14, 17). 0 agent transcripts in the 10 minutes before 12:29.</li>
+<li>Whole-film runs on disk: 4 DONE, 4 FAILED, 24 HOLD. New: ottoman12f HOLD 11:25, stopped at Pictures and form.</li>
+<li>Main has a new commit, 4dba4d9 (11:13): app from press to watched film, music bed, export settings, closing-line check.</li>
+<li>Juju Maps first take, 1 minute 58 seconds, 480p (12:14).</li>
+<li>Make-a-film room walked (11:05). Live app restarted (11:40 log).</li>
+<li>Rust: 34,532 lines (was 33,969). Decisions: 20 (was 19). Logged attempts: 246 kept, 35 reverted, 47 inconclusive.</li>
 <li>Finish check: still 2 of 23 clauses true.</li>
 </ul>
 <h2>What worked and what failed</h2>
 <p><b>Worked</b> (as reported; no one has judged any of it good)</p>
 <ul>
-<li>otto-chron-2: DONE, silent, Juju's own lines, -14.9 LUFS, 0.0019 US (lead, 08:32).</li>
-<li>strip-japan: DONE (facts, 08:34). No judgement of its look is reported.</li>
-<li>First voiced 75 s film, proof75a: voice bought, 0.015 US, 4.6 minutes machine time (builder, 09:00). It stopped at the thumbnail check (0.69 against a 0.68 limit).</li>
-<li>The builder's first 60 s of the new Ottoman strip, reviewed by a video model: verdict "fix". Worst fault: about 10 s with nothing new on Constantinople (builder, 10:12). Still stillness went from 6.2 s to 2.2 s (builder, 10:02).</li>
-<li>Script quote check: 148 sentences each matched to an exact quote in a source (builder, 09:46).</li>
-<li>Date and map position alone found the event for 23 of 26 beats (builder, 10:06).</li>
+<li>Make-a-film room: subject or pasted link, look, silent or voice, length, one action. Web and phone walks, 71 steps each, 0 bad. A kept silent film plays to the end (worker, 11:05).</li>
+<li>Music beds: the proof75a and Pluto copies pass with the bed heard. 46 of 46 sound tests pass (worker, 11:11). No person has listened.</li>
+<li>Script quotes: 148 sentences each matched to an exact quote (builder, 09:46).</li>
+<li>Export: a 12-minute film projects to about 390 MB, down from 1.9 GB (builder, 10:35, estimate).</li>
+<li>Juju Maps take 1 (12:14): 854×480, -15.1 LUFS, picture cards with no blank tiles in the frames checked. Its maker calls it a look test.</li>
 </ul>
 <p><b>Failed</b></p>
 <ul>
-<li>proof12 (voiced, 12 min requested): first draft 1,483 words, cut to 800 by Juju's own checks. Spent 0.46 US and 353 s on one attempt (read-only audit by Mungura, 09:28, from the job files).</li>
-<li>Mungura's comparison: VerseBatch wrote 10 scripts averaging 6,905 words in 55 minutes (10 Oct). Juju wrote 0 usable scripts. This is Mungura's reading, not judged by Ambi.</li>
-<li>proof75b: the renderer's laws refused it (builder, 09:06). proof12c FAILED at Render and mix (facts, 09:47).</li>
-<li>Ambi on a sound run, 08:44: interrupted before any fix landed. Three sound asks remain open.</li>
+<li>proof12 (voiced, 12 minutes asked): first draft 1,483 words, cut to 800 by Juju's own checks. Cost $0.46 and 353 s (Mungura, 09:28).</li>
+<li>Mungura's comparison: VerseBatch wrote 10 scripts averaging 6,905 words in 55 minutes. Juju wrote no usable script. This is Mungura's reading.</li>
+<li>Of 29 ended runs, 25 were stopped by Juju's own checks (Mungura, 10:50). This is why ADR 0022 changes the stop rules.</li>
+<li>ottoman12f take 1, full voice and music. A video model reviewed it (11:40): flat delivery, a treaty stretch, a 1908 ending, a thumbnail word, an empty Paris map at 8:00. Take 1 was set aside.</li>
+<li>Picture search: bare country names gave people (Venice gave a doge, Russia gave Nicholas II), black-and-white copies, every tile upside down (11:36 to 12:08). Fixes reported; not rechecked.</li>
+<li>Ambi's refusal, as recorded in ADR 0022: the parchment look is refused.</li>
 </ul>
 <h2>App engine and films</h2>
 <ul>
-<li><b>Ottoman Empire, 9.5 min, 26 events, voiced:</b> the builder says the full film was drawn and rendered. No run for it appears in FACTS. The builder has not watched it whole. The builder reports it ends in 1908. A longer script with an ending is being written (10:12).</li>
-<li><b>Voice:</b> the builder moved from the cheap "flash" voice to the real TTS-2. Two samples await Ambi's choice. Delivery was called flat by the video model.</li>
-<li><b>Limits:</b> the builder removed the 0.30 US voice gate. No ruling by Ambi is recorded. The builder also says a test clip no longer blocks a real film's thumbnail.</li>
-<li><b>Story skills:</b> 52 skills exist. <code>juju make</code> does not link to them. The 10:02 diagnosis says no fix was applied. Crossroads Chain is not tested on a real film.</li>
-<li><b>Render speed:</b> about 2.3 machine seconds per film second while the Mac was busy (builder, 10:12). Target 1.0 not met.</li>
-<li><b>Picture:</b> the engine draws 12 of the 40 picture moves in the 60 reference films (study, 03:39). The builder is adding painting cutaways (10:12). Not in the film yet.</li>
-<li><b>Harvest:</b> 11 of 12 films have notes. The rest is not reported.</li>
-<li><b>Day log, undated:</b> a draw check found 3 wrong of 100 in two subjects. Rules fixed. Fresh draws 0 wrong (judged).</li>
+<li>Whole runs: 4 DONE, 4 FAILED, 24 HOLD. Take 2 of Ottoman was drawing at 11:40. No result reported.</li>
+<li>DONE, as reported: otto-chron-2 (silent, 60 s, Juju's own dated lines, -14.9 LUFS; lead, 08:32). strip-japan (60 s, facts only; no look judged; 08:34). strip-mughal (16 min, faults open; lead, 08:44 log).</li>
+<li>Voice: TTS-2 in use. Two samples await Ambi's choice. Without an answer the builder uses Graham (10:03).</li>
+<li>Stops: a 0.30 US voice limit is in code (10:35). The price test was set to 0.30 (worker, 11:06, asks for confirmation).</li>
+<li>Script: Ottoman draft about 1,750 words (builder, 10:35). Make still does not link to the 52 skills (10:02). No fix is reported applied.</li>
+<li>Speed: 2.3 machine seconds per film second under load (builder, 10:12). Target 1.0 not met.</li>
+<li>Pictures: the engine draws 12 of the 40 picture moves in the 60 studied films (study, 03:39). The worker reports 19 search pictures (11:46), not reviewed.</li>
+<li>Juju Maps: only the obsidian look is rendered. Terra is not (12:14). No verdict from Ambi.</li>
+<li>Harvest: 11 of 12 films have notes (older report).</li>
 </ul>
 <h2>Web app and rooms</h2>
 <ul>
-<li>Pressed 24 Nov 01:22: 61 screens. Gate, Altar, Crossroads, Cauldron, Pact, Conjuring, Spell Strip and Publish Kit work on the main path. The five cards are placeholders. Mirror Bend and Feed Sight show broken or empty pictures.</li>
-<li>"Make a film" still makes practice clips (log, 08:44). A builder is wiring the film path into the 10, 20, 30 and 50 minute choices (09:43). Not reported done.</li>
-<li>An earlier worker's rooms in the film path never landed (10:01).</li>
+<li>Make-a-film room finished. Altar, Cauldron and Pact run through it instead of dead-ending (11:05). Lengths 30 and 50 and voice were walked with a test list only.</li>
+<li>Film room: plays with sound to the end, chapters, thumbnail, download identical to the master (worker, Measured).</li>
+<li>Live app restarted; its film room answers (11:40 log).</li>
+<li>Pinned programs are from 08:24, before the voiced build. A new pin is due when a film passes (11:06).</li>
+<li>Not pressed since 24 Nov: five cards are placeholders; Mirror Bend and Feed Sight show broken pictures.</li>
 <li>Census (24 Nov 20:00): 573 controls; 112 real, 160 sample, 131 dead.</li>
 </ul>
 <h2>Mac app and APK</h2>
 <ul>
 <li>APK files built: 0. Nothing has run on a phone.</li>
-<li>Phone job: an emulator run had 19 checks pass and 3 fail (lead, 24 Nov 23:14). Paused. Needs the Galaxy plugged in.</li>
-<li>Mac app: no release build reported. Not tested.</li>
+<li>Phone job: emulator run (lead, 24 Nov 23:14) had 19 checks pass and 3 fail. Paused. Needs the Galaxy plugged in.</li>
+<li>Phone walks are a browser at phone size, not an installed app.</li>
+<li>Mac shell still bundles the old rooms (worker, 11:06). No release build reported. Not tested.</li>
 </ul>
 <h2>Agents running now</h2>
 <ul>
-<li>Live agent page did not answer. Running agents: unknown.</li>
-<li>Last reported, not confirmed live:</li>
-<li>builder (10:12): three helpers, one per lane: app press-to-film path, a music bed, and painting cutaways. No film renders.</li>
-<li>builder (10:15): auditioning space beds, then a <code>watch.py</code> fix.</li>
-<li>a library test fails (lead, 08:37); no later report.</li>
-<li>Reviewers: all finished, last at 08:03.</li>
+<li>The live agent page did not answer. Running agents: unknown.</li>
+<li>Last reported: a worker (12:22 to 12:25) changed course to two short rough films and is writing Juju Motion, the on-map graphics, and scripts on real sources.</li>
+<li>Mungura made the Juju Maps take (12:14).</li>
+<li>Film room, sound and picture workers each reported finished, the picture fix at 12:08.</li>
+<li>Lead: last report 08:37, a library test failing. No later lead report.</li>
 </ul>
 <h2>Money spent on services</h2>
 <ul>
-<li>Ledger: $8.0822 over 6,029 calls. DeepSeek $2.1902, OpenRouter $4.3318, Google $0.834, Inworld $0.4198, WaveSpeed $0.171, unsettled $0.1355.</li>
-<li>Answered calls: DeepSeek 2,898 (13 refused); OpenRouter 2,949 (45); Google 14 (7); Inworld 87 (1); WaveSpeed 5 (0).</li>
-<li>Builder (10:12): 7.52 of 9.50 US spent. Lead: film lane 0.482 of 0.50 (08:32). Working limit 10.00 US (lead, earlier). The ledger is the record.</li>
+<li>Ledger: 6,135 calls, $8.8670. DeepSeek $2.2314, OpenRouter $4.4468, Google $1.1165, Inworld $0.7389, WaveSpeed $0.198, unsettled $0.1355.</li>
+<li>Answered: DeepSeek 2,958 (13 refused); OpenRouter 2,981 (45); Google 15 (7); Inworld 99 (1); WaveSpeed 6 (0).</li>
+<li>Builder (11:40): 8.69 of 9.50 US cap spent. Film lane 0.482 of 0.50 (lead, 08:32). About $2.57 of test cap left (worker, 09:31). The ledger is the record.</li>
+<li>Cost of the Juju Maps take: not reported.</li>
 </ul>
 <h2>Broken, blocked or open</h2>
 <ul>
-<li><b>GitHub billing blocks the merge</b> of seven pull requests (21 to 27 open). Nothing merged (lead, 08:16; no later report).</li>
-<li><b>PR 26, sound:</b> the watcher reserves 0.000336 per call; main prices it at 0.001344; main refuses the call. Not reported fixed. Ambi said not to push to PR 26 (08:44).</li>
-<li><b>PR 26</b> still holds two test frames pushed by mistake; they are Juju's own map film.</li>
-<li><b>Two older tests fail</b> in files the builder has not touched (10:01).</li>
-<li><b>Missing prices:</b> two models have no price in main; PRs 24 and 25 refuse their calls (07:49). Not rechecked.</li>
-<li><b>Sound:</b> the 1.28 s hush rule on silent films awaits a ruling.</li>
-<li><b>Vault:</b> LINE-RULE items 7 to 20 await countersign. No film made from a slot.</li>
-<li><b>Pacing:</b> the Ottoman film is not watched whole. Its stillness and cutaway gaps are not yet measured after the cutaways.</li>
-<li><b>Ending:</b> the Ottoman script stops at 1908; the longer ending is not written yet.</li>
-<li><b>Not proven:</b> a voiced film over ten minutes; Crossroads Chain on any film; anything on a phone.</li>
+<li>GitHub billing blocks the merge of seven pull requests (21 to 27 open). Lead, 08:16; no later report.</li>
+<li>The 11:13 commit on main is not reported pushed to GitHub.</li>
+<li>Sound: the watcher now reserves what the price gate charges (worker, 11:11). PR 26 not rechecked. Ambi said not to push to it (08:44).</li>
+<li>Silent-film music bed sits near -37 to -40 LUFS. The 1.28 s hush rule awaits a ruling.</li>
+<li>Missing prices: two models have none in main; PRs 24 and 25 refuse their calls (07:49). Not rechecked.</li>
+<li>Tests: 61 passing (lead, 07:58); final full run unconfirmed (08:44). One test did not run at head (11:07). Two older tests fail (10:01). A library test failed at 08:37.</li>
+<li>Juju Maps: terra not rendered. Files are untracked; no commit and no push remote (12:14). Not tested: a 30-minute film. How a film gets made with the Mac closed is unresolved (ADR 0022).</li>
+<li>Music: no person has listened. The player of Op. 18 No. 6 is inferred. A Naxos Bach cello and a Mussorgsky piece are refused on rights (worker, 11:11).</li>
+<li>Vault: LINE-RULE 7 to 20 await countersign (08:12).</li>
+<li>Not proven: a voiced film over ten minutes; Crossroads Chain on any film; anything on a phone.</li>
 </ul>
 <h2>Waiting on Ambi</h2>
 <ul>
-<li><b>Fix GitHub billing</b> so the lead can merge the seven pull requests.</li>
-<li><b>Choose the voice:</b> say "Graham" or "Winston". Without an answer the builder uses Graham (10:03).</li>
-<li><b>Watch the first 100 seconds</b> of the Ottoman strip (10:01), then the full film when it is ready. Name the worst thing in it.</li>
-<li><b>Answer four questions</b> the builder put (scope, who writes, what may stop a film, pictures). Each has the builder's proposed "yes". No ruling by Ambi is recorded (Mungura, 09:28).</li>
-<li><b>Sound:</b> rule on the 1.28 s hush, and say whether the three sound fixes wait for the watcher fix.</li>
-<li><b>Plug in the Galaxy</b> for the phone job.</li>
-<li><b>Personal check-in:</b> a worker asked Ambi a personal question at 09:28 and 09:31. No reply is recorded.</li>
+<li>Fix GitHub billing so the seven pull requests can merge.</li>
+<li>Choose the voice: "Graham" or "Winston". No answer is recorded.</li>
+<li>Rule on the silent-film bed level and the 1.28 s hush.</li>
+<li>Countersign the new music bars (11:11) and LINE-RULE 7 to 20.</li>
+<li>Juju Maps: pick the look, and judge the two-minute take's pictures and voice. No verdict yet.</li>
+<li>Watch Ottoman take 2 when it lands. Name the worst thing in it.</li>
+<li>Who writes the scripts, and which pictures are allowed: no recorded answer. ADR 0022 covers scope and stop rules.</li>
+<li>Plug in the Galaxy for the phone job.</li>
+<li>A worker's check-in of 09:31 has no recorded reply.</li>
 </ul>
 <h2>Counted by code</h2>
 <ul>
 <li>Pull requests: 7 open, 19 merged, 1 closed</li>
-<li>Paid calls in the test ledger: 6029, $8.0822 in all {deepseek: 2.1902, openrouter: 4.3318, google: 0.834, inworld: 0.4198, unsettled: 0.1355, lead-test: 0.0, wavespeed: 0.171}</li>
-<li>Paid services answering: deepseek 2898 ok, 13 refused or failed, last ok 25 Nov 10:27 EAT; openrouter 2949 ok, 45 refused or failed, last ok 25 Nov 10:22 EAT; google 14 ok, 7 refused or failed, last ok 25 Nov 10:01 EAT; inworld 87 ok, 1 refused or failed, last ok 25 Nov 10:02 EAT; unsettled 0 ok, 7 refused or failed, last ok None; lead-test 0 ok, 3 refused or failed, last ok None; wavespeed 5 ok, 0 refused or failed, last ok 25 Nov 00:37 EAT</li>
-<li>Rust: 33,969 lines in 14 crates. Skills: 52. Rooms drawn: 20. Decisions: 19. APK files built: 0</li>
+<li>Paid calls in the test ledger: 6135, $8.8670 in all {deepseek: 2.2314, openrouter: 4.4468, google: 1.1165, inworld: 0.7389, unsettled: 0.1355, lead-test: 0.0, wavespeed: 0.198}</li>
+<li>Paid services answering: deepseek 2958 ok, 13 refused or failed, last ok 25 Nov 12:27 EAT; openrouter 2981 ok, 45 refused or failed, last ok 25 Nov 12:25 EAT; google 15 ok, 7 refused or failed, last ok 25 Nov 11:24 EAT; inworld 99 ok, 1 refused or failed, last ok 25 Nov 12:26 EAT; unsettled 0 ok, 7 refused or failed, last ok None; lead-test 0 ok, 3 refused or failed, last ok None; wavespeed 6 ok, 0 refused or failed, last ok 25 Nov 11:24 EAT</li>
+<li>Rust: 34,532 lines in 14 crates. Skills: 52. Rooms drawn: 20. Decisions: 20. APK files built: 0</li>
 <li>Design-system libraries on disk: camera_motion.json, fonts, house, kits, looks, palettes.json, proof, proto, work-camera_motion, work-palettes, work-quotes, work-surfaces_light, work-typography</li>
 <li>Finish check: 2 of 23 clauses true, so not done</li>
-<li>Whole-film runs of <code>juju make</code> on disk: 4 DONE, 4 FAILED, 23 HOLD</li>
-<li>Newest film runs: proof12c FAILED 25 Nov 09:47 (stopped at Render and mix); proof12 HOLD 25 Nov 09:16 (stopped at Script and heal); proof75b HOLD 25 Nov 09:06 (stopped at Render and mix); proof75a HOLD 25 Nov 08:59 (stopped at Publish kit); strip-planets HOLD 25 Nov 08:41 (stopped at Deal and package); strip-pluto HOLD 25 Nov 08:40 (stopped at Render and mix); 20261125-083722-131d HOLD 25 Nov 08:37 (stopped at Deal and package); strip-japan DONE 25 Nov 08:34 (60 s, 0.008751 US); strip-bulgaria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-austria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-manchuria HOLD 25 Nov 08:11 (stopped at Deal and package); thru-mughal HOLD 25 Nov 08:06 (stopped at Pictures and form)</li>
+<li>Whole-film runs of <code>juju make</code> on disk: 4 DONE, 4 FAILED, 24 HOLD</li>
+<li>Newest film runs: ottoman12f HOLD 25 Nov 11:25 (stopped at Pictures and form); proof12c FAILED 25 Nov 09:47 (stopped at Render and mix); proof12 HOLD 25 Nov 09:16 (stopped at Script and heal); proof75b HOLD 25 Nov 09:06 (stopped at Render and mix); proof75a HOLD 25 Nov 08:59 (stopped at Publish kit); strip-planets HOLD 25 Nov 08:41 (stopped at Deal and package); strip-pluto HOLD 25 Nov 08:40 (stopped at Render and mix); 20261125-083722-131d HOLD 25 Nov 08:37 (stopped at Deal and package); strip-japan DONE 25 Nov 08:34 (60 s, 0.008751 US); strip-bulgaria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-austria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-manchuria HOLD 25 Nov 08:11 (stopped at Deal and package)</li>
 <li>Agent transcripts written to in the last 10 minutes (all Claude work on this Mac, mostly Juju): 0</li>
-<li>Logged attempts: 241 kept, 35 reverted, 47 inconclusive</li>
-<li>Mac load (1, 5, 15 min): [14, 14, 17]</li>
+<li>Logged attempts: 246 kept, 35 reverted, 47 inconclusive</li>
+<li>Mac load (1, 5, 15 min): [4, 6, 9]</li>
 <li>The live agent page did not answer, so running agents are unknown</li>
 </ul>
 </body></html>

@@ -1,6 +1,6 @@
 # Decisions (ADRs)
 
-As of 10:27 EAT, Wed 25 Nov 2026. Copied from the Juju repo. These outrank the master brief and every page here except a newer sentence from Ambi.
+As of 12:29 EAT, Wed 25 Nov 2026. Copied from the Juju repo. These outrank the master brief and every page here except a newer sentence from Ambi.
 A line marked candidate, inferred or "the lead's" is not Ambi's.
 
 | No. | Decision |
@@ -24,3 +24,4 @@ A line marked candidate, inferred or "the lead's" is not Ambi's.
 | 0019 | [What ready means, 25 Nov 2026 16:00 EAT](0019-ready-at-four.md) |
 | 0020 | [# ADR 0020: one unit, one pull request, one round](0020-small-prs-one-round.md) |
 | 0021 | [# ADR 0021: harvest first, then cheap models execute](0021-harvest-first.md) |
+| 0022 | [# ADR 0022: Juju makes map films, and only map films, for now](0022-juju-maps.md) |

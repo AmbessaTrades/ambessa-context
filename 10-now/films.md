@@ -1,9 +1,10 @@
 # Films made by Juju, every run
 
-As of 10:27 EAT, Wed 25 Nov 2026, read by code from each run's own report. A run is one `juju make`: a card or an idea goes in, eleven stages follow. **DONE** means the file exists and every stage passed its own check; it does not mean the film is good. **HOLD** means one of Juju's checks refused it. **FAILED** means a stage broke.
+As of 12:29 EAT, Wed 25 Nov 2026, read by code from each run's own report. A run is one `juju make`: a card or an idea goes in, eleven stages follow. **DONE** means the file exists and every stage passed its own check; it does not mean the film is good. **HOLD** means one of Juju's checks refused it. **FAILED** means a stage broke.
 
 | When (EAT) | Run | Asked length | Result | Stages that worked | Cost US | Machine minutes | Where it stopped |
 |---|---|---|---|---|---|---|---|
+| 25 Nov 11:25 | ottoman12f | 720 s | HOLD | 10 of 11 | 0.888257 | 36.68 | Pictures and form: real pictures of what is told: NOT BUILT (no finder of pictures answered; the film stays on its map) |
 | 25 Nov 09:47 | proof12c | 720 s | FAILED | 7 of 11 | 0.41858 | 8.33 | Render and mix: draw the film: fails (juju-stage (exit 2) gave no JSON:   piece 1 of 5: 0.0 to 120.0 s / 117 pixels of type fall outside the safe box or off the frame; set JUJU_EDGE_DEBUG=1 to see which words) |
 | 25 Nov 09:16 | proof12 | 720 s | HOLD | 4 of 11 | 0.462396 | 6.81 | Script and heal: story: fails (HOLD_WITH_EXACT_DEFECT: story: "HOLD_WITH_EXACT_DEFECT" ["seed_planted_then_paid","links_causal"]); length: fails (1 wrong, 800 words: length: the words take 327 s; they must take 485 to 698 s. Add about 700 words); numbers: fails (2 wrong: numbe |
 | 25 Nov 09:06 | proof75b | 75 s | HOLD | 7 of 11 | 0.075695 | 3.71 | Render and mix: draw the film: fails (juju-stage: drawn, and the laws of a film refuse it: numbers: 3 faults, first at 6.2 s the voice says "1326." (1326) and the date on screen reads [1327.0]; type: 8 faults, first "now Turkey" is 19 px; the sofa size is 34.6 px); HOLD, juju |

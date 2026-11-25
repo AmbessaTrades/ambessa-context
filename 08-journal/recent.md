@@ -1,6 +1,137 @@
 # Juju day log, newest first
 
-Rebuilt 10:27 EAT, Wed 25 Nov 2026. Only entries whose title names Juju. Times are EAT (UTC+3). Logged by agents: evidence of what they report, not proof. Where two entries disagree, the later one wins and the older stays.
+Rebuilt 12:29 EAT, Wed 25 Nov 2026. Only entries whose title names Juju. Times are EAT (UTC+3). Logged by agents: evidence of what they report, not proof. Where two entries disagree, the later one wins and the older stays.
+
+---
+
+## 2026-11-25 12:14 EAT — MUNGURA — Juju Maps: engine scripts written and first 480p obsidian take of the Ottoman film rendered
+
+**Changed.** New engine files under `juju-maps/`: compile.py, mix.py, story.py, pics.py, ideate.py, tiles.js, film.js, film.css, film.html, record.mjs, server.mjs, and looks/obsidian.json + looks/terra.json. First take built in `films/ottoman2/`: scene.json (576 KB — 19 camera stops, 7 picture cards, 15 labels), pics.json (23 pictures), cards.json, mix.wav, `take1-obsidian.mp4` and t1.jpg (2,400×1,620 contact sheet of 30 frames).
+
+**Why verdict.** ADR 0022 wants looks judged on fast 480p takes of one voice before any full export, so this is that test: full map skeleton and picture cards for a 1:58 cut instead of a full-priced draw.
+
+**Status open.** Only the obsidian look was rendered (terra not); the take is 1:58, not the ~30-minute film. All juju-maps work is untracked — no commit, no push remote. `out/` is empty. No verdict from Ambi yet on voice, look or pictures.
+
+**Related.** Verified with `ffprobe`: h264+aac, 854×480, 24 fps, 118.6 s, 40,592,307 bytes; `ffmpeg ebur128`: −15.1 LUFS, LRA 3.2. Frames pulled at 9, 12, 30 and 45 s show the relief map, year counter, empire fill and a captioned picture card (Sultan Bayezid I) with no blank tiles. Paths: `juju-maps/films/ottoman2/{scene.json,take1-obsidian.mp4,t1.jpg}`.
+
+---
+
+## 2026-11-25 12:04 EAT — MUNGURA — ADR 0022: Juju goes map-only; drawing engine forked as Juju Maps
+
+**Changed.** `docs/adr/0022-juju-maps.md` written (1,882 bytes, 12:04), recording Ambi's decision of about 11:30–12:10: one niche only (empires, wars and borders), drawing engine forked as Juju Maps (`juju-maps/`) from bilawalsidhu/gods-eye-view (MIT, upstream 92fcccb), Wedjat untouched, juju-stage stops drawing map films; two looks held as data, no parchment; checks report and no longer stop a render except the money cap, an unsourced sentence, picture rights and Ambi's publish clicks; supersedes the HOLD law for these films. The fork exists on disk with its own `.git` at 92fcccb, an `upstream` remote set `no_push`, plus LICENSE, THIRD_PARTY_NOTICES.md and DATA_SOURCES.md (245 KB).
+
+**Why verdict.** Ambi's own words are quoted in the ADR ("Juju just only [does] maps for now … do this one niche really well", "fork it again … so we won't use Wedjat", "I hate parchment paper", "having hard gates prevents a vid from rendering"). The fork keeps gods-eye-view's director maths and drops its name and marks; Wedjat is not modified.
+
+**Status open.** The ADR leaves unsolved how a film is made with the Mac closed (keys and model calls need an always-on host) and money above the 9.50 USD cap for a 30-minute voice.
+
+**Related.** `docs/adr/0022-juju-maps.md`; `juju-maps/DATA_SOURCES.md`; `juju-maps/THIRD_PARTY_NOTICES.md`; upstream commit 92fcccb.
+
+---
+
+## 2026-11-25 11:40 EAT — TEHUTI — Juju: film room and sound bed done on the copies; Ottoman film take 1 reviewed, take 2 drawing
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju: film room and sound bed done on the copies; Ottoman film take 1 reviewed, take 2 drawing
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 31bfe4d9)
+- Ambi's ask: press to film, smooth. Walks passed 71 steps on web and phone, 0 bad, on the practice copy. Live app on 4701 restarted; its film room program answers. Film room tested on a silent film only.
+- Ambi's ask: a bed and cues a history film deserves. proof75a and Pluto both PASS with the bed heard; 46 of 46 juju-sound tests pass, per the delegated report. Voiced proof12c bed: 37 of 37 stretches pass.
+- Ottoman12f full draw with voice and music finished take 1. Review flagged flat delivery, treaty stretch, 1908 ending, thumbnail word, and an empty Paris map at 8:00. Take 1 moved aside; take 2 drawing with map and painting fixes.
+- My mistake: a forced add committed about 1,000 ignored files from the rooms folder. Local only, never pushed; removed from the commit. About 1 GB of git data remains. Disk recovered from 0.7 GB to 1.9 GB.
+- Spend: 8.69 of 9.50 US cap. Open: take 2 review, compare with take 1, thumbnail, and the flat voice. Ambi has not yet said what he hated most in take 1.
+- Files changed: crates/juju-stage/src/worlds/map.rs; crates/juju-cli/src/stages/shots.rs; runs/spine/ottoman12f/master.mp4; runs/spine/ottoman12f/bin/juju-sound; runs/sound/proof/proof12c-bed/bed.json
+- Status: in-progress — take 2 of the Ottoman12f film is drawing; its review and thumbnail are still open
+
+---
+
+## 2026-11-25 11:11 EAT — TEHUTI — juju-sound: real music beds and cues for voiced map films; Watcher reservation fixed
+<!-- type: event -->
+**From:** TEHUTI
+
+juju-sound: real music beds and cues for voiced map films; Watcher reservation fixed
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 24e67170)
+- Ambi asked that every voiced map film come out of juju-sound with a real, fitting bed and cues, after a video model flagged birdsong over historical narration on proof75a.
+- Built a history bed from real string recordings in place of the birdsong, and a space bed (half-speed strings or tambura). Changes come at chapter points, ducked under the voice.
+- Verified on copies only: proof75a -14.1 LUFS, peak -1.8 dB, bed 14.0 dB under the words, 1 cue heard. strip-pluto -14.5 LUFS, peak -1.8 dB, 4 of 4 cues heard. make-mongols now passes; it failed before.
+- Fixed scripts/sound/watch.py so the Watcher reserves what the gate prices. 46 of 46 juju-sound tests pass. Open: Ambi must countersign the new bars, which the transcript cuts off before stating.
+- Files changed: crates/juju-sound/src/music.rs; scripts/sound/watch.py; runs/sound/proof/proof75a-music/sound/strip.mp4; runs/sound/proof/strip-pluto-music/sound/strip.mp4; runs/sound/proof/proof12c-bed/bed.json
+- Status: complete — the predicate is TRUE on the copies; new bars await Ambi's countersign
+
+---
+
+## 2026-11-25 11:10 EAT — TEHUTI — Juju sound: real music beds, both copied films pass
+- **Changed:** crates/juju-sound (music.rs new), scripts/sound/watch.py reservation, profile map-music.json, 11 licensed music pieces on the shelf (6 history, 5 space). Harness: Claude Code (Opus 5.5 sub-agent).
+- **Why/verdict:** birdsong bed replaced by real string quartets 14 dB under the voice, heard whole; proof75a and strip-pluto copies pass, 4 silent films pass, 46+ tests pass. Nothing committed.
+- **Status/open:** kits.json needs the profile line (lead); silent-film bed is near -37 LUFS, a ruling is owed; no person has listened.
+- **Related:** runs/sound/auto/HANDOFF.md 13-15, runs/sound/proof, topic juju.
+
+---
+
+## 2026-11-25 11:07 EAT — TEHUTI — Make-a-film room finished and walked end to end in the Juju app; server restart still needed
+<!-- type: event -->
+**From:** TEHUTI
+
+Make-a-film room finished and walked end to end in the Juju app; server restart still needed
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 6553c74e)
+- Ambi asked that a person pick a subject or pasted link, a look, voice or silent, a length (10/20/30/50), and get a real MP4 that flows 'exceptionally well'.
+- Finished the Make a film room and added the /api/make path in juju-serve real.rs; the Altar, Cauldron and Pact rooms now run through it instead of dead-ending.
+- Verified: web and phone walks at 71 steps each, other doors at 20, all 0 bad; 7 rooms pressed at 390 and 1440 px with 0 dead ends. The film room plays to the end with thumbnail and download matching master.mp4.
+- 30, 50 and voice were checked only with a test list; make.json was left unchanged (voice off, lengths 1/10/20). The Estimated minutes figure only fell during the wait.
+- Open: server on port 4700 must be restarted (scripts/serve/start) before anyone opens it. One test (a_real_film_survives_kill_9_and_two_tabs) did not run at head after a full cargo test began drawing a practice film by mistake; that scratch folder was deleted.
+- Files changed: crates/juju-serve/src/real.rs; crates/juju-serve/tests/real.rs; runs/app/real-film/rooms/altar.html; runs/app/real-film/rooms/cauldron.html; runs/app/real-film/walk.py; runs/app/API.md; runs/app/api.json
+- Status: complete — walks pass and the film path plays; server 4700 restart and one unrun test remain open
+
+---
+
+## 2026-11-25 11:05 EAT — TEHUTI — Juju app: Make a film to a watched film, walked on web and phone
+
+- Harness: Claude Code (Opus 5.5), sub-agent, app lane. Topics: juju
+- **Changed:** crates/juju-serve (links go to juju make --link, one look, one plain line and minutes left, one sentence and one action at a stop, the review's worst thing), mockups/r2 rooms landed, new film room, runs/app/API.md and api.json.
+- **Why-verdict:** web walk 71 steps 0 bad, phone walk 71 steps 0 bad, 7 rooms pressed at both sizes with 0 dead controls and 0 layout faults; all on 4701 with a kept run played back, nothing paid.
+- **Status-open:** 4700 needs the lead's restart (its old program has no /api/make); new films need a fresh pin; --link proved only against the stand-in; one test run began to draw the practice film and was stopped.
+- **Related:** runs/app/real-film, runs/decision.tsv lane app-flow
+
+---
+
+## 2026-11-25 10:51 EAT — TEHUTI — Juju film pipeline: diagnosed why films stop, proposed a design-system-file approach
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju film pipeline: diagnosed why films stop, proposed a design-system-file approach
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 2aeafab7)
+- Ambi asked what can actually be done about Juju choking, with VidRush reverse-engineered and only the design-system feature needed, full stack, no minimising.
+- Read all 33 recorded Juju film runs: 4 finished, 25 of 29 ended were stopped by Juju's own checks (sound too quiet, 14.3 s hold vs 14 s limit, thumbnail 0.69 vs 0.68).
+- Proposed three changes: nothing kills a film (repair or backup shot, note for Ambi); one shot kind per spoken line like VidRush; a design system as one file filled by measuring a pasted video.
+- Open: Ambi's question 'A film always finishes, yes or no?' is unanswered; no code changed; the proposal is not yet built or tested.
+- Files changed: JUJU-MASTER-BRIEF.md; ~/.hermes/profiles/default/memory/shortterm/2026-11-25.md
+- Status: in-progress — diagnosis and proposal delivered; awaiting Ambi's yes/no and a go to build.
+
+---
+
+## 2026-11-25 10:50 EAT — MUNGURA — Juju: 25 of 29 film runs were stopped by our own checks; assemble-not-draw proposed
+<!-- type: event -->
+**From:** MUNGURA
+
+- **Changed:** nothing in Juju; read only. Harness: Claude Code (Opus 5.5).
+- **Why/verdict:** Measured from runs/spine/*/live.json (33 runs): 4 done, 21 hold, 4 failed, 4 marked working. The 25 stops by stage: deal and package 8, script 8, pictures and form 2, render and mix 6, publish kit 1. Small misses stopped whole films (14.3 s against 14; -17.0 LUFS against -14; thumbnail 0.69; 117 type pixels outside the safe box after 196 s of drawing). Two of the 25 were test runs with a 0.00 budget. VidRush assembles each clause from seven footage kinds by a channel's share (harvest/wave1/out/vidrush-10.json); Juju draws one kind of world per film.
+- **Status/open:** candidate, not decided: a film always finishes (repair, fall back, or note), one shot assembler over mixed footage kinds, a design system is one data file. It changes the never-loosen-a-gate law, so Ambi must say it. Session 31bfe4d9 is the live builder (ottoman12f).
+- **Related:** juju, runs/spine, docs/adr/0012, docs/adr/0021
+
+---
+
+## 2026-11-25 10:35 EAT — TEHUTI — Juju film: export moved to 720p 24fps H.264, script ending restored, closing-line checker added
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju film: export moved to 720p 24fps H.264, script ending restored, closing-line checker added
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 31bfe4d9)
+- Ambi asked that Juju produce films itself, export the way CapCut and Resolve do, and never crash the computer. Films should be reviewed before he sees them.
+- Done: export now draws once and encodes once at 720p, 24 fps, H.264 on the Mac's video chip. An 8-second sample projects to about 390 MB for a 12-minute film, down from about 1.9 GB.
+- Done: script rebuilt to about 1,750 words with the Vienna, Candia and Belgrade endings restored. Closing lines now go through a checker (up to 3 tries) and are dropped if none pass. Voice switched from flash to TTS-2.
+- Verified: on the first-60-second strip the longest still stretch fell from 6.2 s to 2.2 s, and the review returned 'fix'. Drawing ran at 1.6 s per film-second, down from 2.3, not yet measured on a quiet Mac.
+- Open: no full film has been rendered. Painting cutaways, the music bed and the review step are not yet proven end to end. Spend is about 8.1 of 9.50 USD.
+- Files changed: crates/juju-stage/src/encode.rs; crates/juju-cli/src/stages/words.rs; crates/juju-stage/src/worlds/map.rs; crates/juju-stage/src/worlds/ink.rs; scripts/video_eye.py; crates/juju-cli/practice/kits.json
+- Status: in-progress — export and script fixes are built and partly checked; the full film with paintings, music and review has not been rendered.
 
 ---
 

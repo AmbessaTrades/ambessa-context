@@ -1,7 +1,7 @@
 {
  "name": "ambessa-context",
  "what": "The working context of one project, Juju, for an AI that cannot see Ambi's computer.",
- "rebuilt": "10:27 EAT, Wed 25 Nov 2026",
+ "rebuilt": "12:29 EAT, Wed 25 Nov 2026",
  "read_order": [
   "00-READ-FIRST.md",
   "01-context.txt",
@@ -20,7 +20,7 @@
   },
   {
    "path": "01-context.txt",
-   "bytes": 14127
+   "bytes": 14581
   },
   {
    "path": "02-the-software.md",
@@ -56,7 +56,7 @@
   },
   {
    "path": "08-journal/recent.md",
-   "bytes": 101919
+   "bytes": 115125
   },
   {
    "path": "09-assets/.DS_Store",
@@ -1168,23 +1168,23 @@
   },
   {
    "path": "10-now/attempts.md",
-   "bytes": 46769
+   "bytes": 46958
   },
   {
    "path": "10-now/films.md",
-   "bytes": 9138
+   "bytes": 9335
   },
   {
    "path": "10-now/history.md",
-   "bytes": 63321
+   "bytes": 71118
   },
   {
    "path": "10-now/now.html",
-   "bytes": 10799
+   "bytes": 11212
   },
   {
    "path": "10-now/now.md",
-   "bytes": 9588
+   "bytes": 10042
   },
   {
    "path": "10-now/pull-requests.md",
@@ -1192,7 +1192,7 @@
   },
   {
    "path": "10-now/status.json",
-   "bytes": 15268
+   "bytes": 15343
   },
   {
    "path": "11-juju/README.md",
@@ -1315,8 +1315,12 @@
    "bytes": 3041
   },
   {
+   "path": "11-juju/decisions/0022-juju-maps.md",
+   "bytes": 1882
+  },
+  {
    "path": "11-juju/decisions/README.md",
-   "bytes": 1962
+   "bytes": 2056
   },
   {
    "path": "11-juju/earshot-on-the-phone.md",

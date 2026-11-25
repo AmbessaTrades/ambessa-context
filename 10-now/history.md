@@ -4,6 +4,98 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 
 ---
 
+# Sheet of 12:29 EAT, Wed 25 Nov 2026
+
+## Changed since the last sheet
+- Covers 10:27 to 12:29 EAT, Wed 25 Nov 2026.
+- **Scope cut to maps (ADR 0022, recorded by Mungura, 12:04).** Ambi decided Juju makes map films only: empires, wars and borders. The record quotes him: "do this one niche really well", "I hate parchment paper", "having hard gates prevents a vid from rendering". The map engine is forked as Juju Maps from an MIT open project. Checks now report. Only the money cap, an unsourced sentence, picture rights and Ambi's publish clicks stop a render. This replaces the HOLD rule for these films.
+- Ambi's single-builder order (09:47) still stands.
+- Paid calls: 6,135, $8.8670 (was 6,029, $8.0822).
+- Mac load (1, 5, 15 min): 4, 6, 9 (was 14, 14, 17). 0 agent transcripts in the 10 minutes before 12:29.
+- Whole-film runs on disk: 4 DONE, 4 FAILED, 24 HOLD. New: ottoman12f HOLD 11:25, stopped at Pictures and form.
+- Main has a new commit, 4dba4d9 (11:13): app from press to watched film, music bed, export settings, closing-line check.
+- Juju Maps first take, 1 minute 58 seconds, 480p (12:14).
+- Make-a-film room walked (11:05). Live app restarted (11:40 log).
+- Rust: 34,532 lines (was 33,969). Decisions: 20 (was 19). Logged attempts: 246 kept, 35 reverted, 47 inconclusive.
+- Finish check: still 2 of 23 clauses true.
+
+## What worked and what failed
+**Worked** (as reported; no one has judged any of it good)
+- Make-a-film room: subject or pasted link, look, silent or voice, length, one action. Web and phone walks, 71 steps each, 0 bad. A kept silent film plays to the end (worker, 11:05).
+- Music beds: the proof75a and Pluto copies pass with the bed heard. 46 of 46 sound tests pass (worker, 11:11). No person has listened.
+- Script quotes: 148 sentences each matched to an exact quote (builder, 09:46).
+- Export: a 12-minute film projects to about 390 MB, down from 1.9 GB (builder, 10:35, estimate).
+- Juju Maps take 1 (12:14): 854×480, -15.1 LUFS, picture cards with no blank tiles in the frames checked. Its maker calls it a look test.
+
+**Failed**
+- proof12 (voiced, 12 minutes asked): first draft 1,483 words, cut to 800 by Juju's own checks. Cost $0.46 and 353 s (Mungura, 09:28).
+- Mungura's comparison: VerseBatch wrote 10 scripts averaging 6,905 words in 55 minutes. Juju wrote no usable script. This is Mungura's reading.
+- Of 29 ended runs, 25 were stopped by Juju's own checks (Mungura, 10:50). This is why ADR 0022 changes the stop rules.
+- ottoman12f take 1, full voice and music. A video model reviewed it (11:40): flat delivery, a treaty stretch, a 1908 ending, a thumbnail word, an empty Paris map at 8:00. Take 1 was set aside.
+- Picture search: bare country names gave people (Venice gave a doge, Russia gave Nicholas II), black-and-white copies, every tile upside down (11:36 to 12:08). Fixes reported; not rechecked.
+- Ambi's refusal, as recorded in ADR 0022: the parchment look is refused.
+
+## App engine and films
+- Whole runs: 4 DONE, 4 FAILED, 24 HOLD. Take 2 of Ottoman was drawing at 11:40. No result reported.
+- DONE, as reported: otto-chron-2 (silent, 60 s, Juju's own dated lines, -14.9 LUFS; lead, 08:32). strip-japan (60 s, facts only; no look judged; 08:34). strip-mughal (16 min, faults open; lead, 08:44 log).
+- Voice: TTS-2 in use. Two samples await Ambi's choice. Without an answer the builder uses Graham (10:03).
+- Stops: a 0.30 US voice limit is in code (10:35). The price test was set to 0.30 (worker, 11:06, asks for confirmation).
+- Script: Ottoman draft about 1,750 words (builder, 10:35). Make still does not link to the 52 skills (10:02). No fix is reported applied.
+- Speed: 2.3 machine seconds per film second under load (builder, 10:12). Target 1.0 not met.
+- Pictures: the engine draws 12 of the 40 picture moves in the 60 studied films (study, 03:39). The worker reports 19 search pictures (11:46), not reviewed.
+- Juju Maps: only the obsidian look is rendered. Terra is not (12:14). No verdict from Ambi.
+- Harvest: 11 of 12 films have notes (older report).
+
+## Web app and rooms
+- Make-a-film room finished. Altar, Cauldron and Pact run through it instead of dead-ending (11:05). Lengths 30 and 50 and voice were walked with a test list only.
+- Film room: plays with sound to the end, chapters, thumbnail, download identical to the master (worker, Measured).
+- Live app restarted; its film room answers (11:40 log).
+- Pinned programs are from 08:24, before the voiced build. A new pin is due when a film passes (11:06).
+- Not pressed since 24 Nov: five cards are placeholders; Mirror Bend and Feed Sight show broken pictures.
+- Census (24 Nov 20:00): 573 controls; 112 real, 160 sample, 131 dead.
+
+## Mac app and APK
+- APK files built: 0. Nothing has run on a phone.
+- Phone job: emulator run (lead, 24 Nov 23:14) had 19 checks pass and 3 fail. Paused. Needs the Galaxy plugged in.
+- Phone walks are a browser at phone size, not an installed app.
+- Mac shell still bundles the old rooms (worker, 11:06). No release build reported. Not tested.
+
+## Agents running now
+- The live agent page did not answer. Running agents: unknown.
+- Last reported: a worker (12:22 to 12:25) changed course to two short rough films and is writing Juju Motion, the on-map graphics, and scripts on real sources.
+- Mungura made the Juju Maps take (12:14).
+- Film room, sound and picture workers each reported finished, the picture fix at 12:08.
+- Lead: last report 08:37, a library test failing. No later lead report.
+
+## Money spent on services
+- Ledger: 6,135 calls, $8.8670. DeepSeek $2.2314, OpenRouter $4.4468, Google $1.1165, Inworld $0.7389, WaveSpeed $0.198, unsettled $0.1355.
+- Answered: DeepSeek 2,958 (13 refused); OpenRouter 2,981 (45); Google 15 (7); Inworld 99 (1); WaveSpeed 6 (0).
+- Builder (11:40): 8.69 of 9.50 US cap spent. Film lane 0.482 of 0.50 (lead, 08:32). About $2.57 of test cap left (worker, 09:31). The ledger is the record.
+- Cost of the Juju Maps take: not reported.
+
+## Broken, blocked or open
+- GitHub billing blocks the merge of seven pull requests (21 to 27 open). Lead, 08:16; no later report.
+- The 11:13 commit on main is not reported pushed to GitHub.
+- Sound: the watcher now reserves what the price gate charges (worker, 11:11). PR 26 not rechecked. Ambi said not to push to it (08:44).
+- Silent-film music bed sits near -37 to -40 LUFS. The 1.28 s hush rule awaits a ruling.
+- Missing prices: two models have none in main; PRs 24 and 25 refuse their calls (07:49). Not rechecked.
+- Tests: 61 passing (lead, 07:58); final full run unconfirmed (08:44). One test did not run at head (11:07). Two older tests fail (10:01). A library test failed at 08:37.
+- Juju Maps: terra not rendered. Files are untracked; no commit and no push remote (12:14). Not tested: a 30-minute film. How a film gets made with the Mac closed is unresolved (ADR 0022).
+- Music: no person has listened. The player of Op. 18 No. 6 is inferred. A Naxos Bach cello and a Mussorgsky piece are refused on rights (worker, 11:11).
+- Vault: LINE-RULE 7 to 20 await countersign (08:12).
+- Not proven: a voiced film over ten minutes; Crossroads Chain on any film; anything on a phone.
+
+## Waiting on Ambi
+1. Fix GitHub billing so the seven pull requests can merge.
+2. Choose the voice: "Graham" or "Winston". No answer is recorded.
+3. Rule on the silent-film bed level and the 1.28 s hush.
+4. Countersign the new music bars (11:11) and LINE-RULE 7 to 20.
+5. Juju Maps: pick the look, and judge the two-minute take's pictures and voice. No verdict yet.
+6. Watch Ottoman take 2 when it lands. Name the worst thing in it.
+7. Who writes the scripts, and which pictures are allowed: no recorded answer. ADR 0022 covers scope and stop rules.
+8. Plug in the Galaxy for the phone job.
+9. A worker's check-in of 09:31 has no recorded reply.
+
 # Sheet of 10:27 EAT, Wed 25 Nov 2026
 
 ## Changed since the last sheet
@@ -88,6 +180,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 5. **Sound:** rule on the 1.28 s hush, and say whether the three sound fixes wait for the watcher fix.
 6. **Plug in the Galaxy** for the phone job.
 7. **Personal check-in:** a worker asked Ambi a personal question at 09:28 and 09:31. No reply is recorded.
+
 
 # Sheet of 08:23 EAT, Wed 25 Nov 2026
 
@@ -182,6 +275,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 - **Ear table:** holds one refused line; the script checker needs about five.
 - **Packaging:** his eye and ear decide. Bend facts still unopened.
 - **Phone:** plug in the Galaxy.
+
 
 
 # Sheet of 08:18 EAT, Wed 25 Nov 2026
@@ -282,6 +376,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 
 
 
+
 # Sheet of 08:16 EAT, Wed 25 Nov 2026
 
 ## Changed since the last sheet
@@ -374,6 +469,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 - **LINE-RULE items 7 to 20** (vault): awaiting countersign.
 - **Phone job:** plug in the Galaxy.
 - **Standing advice** (lead, 12:48 Tue): keep Inworld permissions read-only.
+
 
 
 
@@ -480,6 +576,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 
 
 
+
 # Sheet of 13:45 EAT, Tue 24 Nov 2026
 
 ## Changed since the last sheet
@@ -561,6 +658,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 - ADR 0010 (20-minute plan) is a candidate. Acceptance not reported.
 - Replacement 90/70/50 wording is a candidate for Ambi (packaging worker, 13:46).
 - Standing advice (lead, 12:48): keep Inworld permissions on Read only.
+
 
 
 
@@ -652,6 +750,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 
 
 
+
 # Sheet of 13:27 EAT, Tue 24 Nov 2026
 
 ## Changed since the last sheet
@@ -713,6 +812,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 
 ## Waiting on Ambi
 - No request to Ambi is stated in the messages or facts.
+
 
 
 
