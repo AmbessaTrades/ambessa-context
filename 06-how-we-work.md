@@ -1,6 +1,6 @@
 # 06 — How we work
 
-Updated 24 November 2026.
+Updated 25 November 2026, 08:15 EAT.
 
 ## Talking to Ambi
 
@@ -20,8 +20,10 @@ minimal" feedback and images as work moves. He speaks by voice: read through gar
 5. `truth.py` fails any screen that claims what is not real. `shot.py` fails words (quiet) and layout faults. `gate.sh` runs all of it.
 6. Every defect becomes a rule, so it cannot come back.
 
-Goal, in his words: a pull request reaches him and "it can just auto merge". Nothing auto-merges yet. The lead switches it on after 20 merges
-in a row that needed no fix (the number is the lead's).
+Since 24 Nov 18:07 a contract (ADR 0018) sits over this: a 23-clause exit check, one change and one measurement, proof on the live thing, no loosened gate. Since 22:03 one unit is one pull request with one round of two fresh reviewers (ADR 0020).
+Films count only when they come out of Juju with its own models.
+
+Goal, in his words: a pull request reaches him and "it can just auto merge". Nothing auto-merges; the lead merges through one door after both reviews and green checks.
 
 The same loop is being built **inside the app** (`juju-conduct`): make, check, critique, repair, learn, with a receipt that says which rules were enforced.
 
@@ -39,5 +41,5 @@ The same loop is being built **inside the app** (`juju-conduct`): make, check, c
 
 ## Models
 
-Building: Opus 5.5 workers, a lead that orchestrates, Haiku 5.5 readers for bulk text, Fable 5.2 as adviser at times. **Running the app:** no Claude model. Gemini 4
+Building: Opus 5.5 at medium, a lead that orchestrates (high only for taking films apart, ADR 0021), Haiku 5.5 readers for bulk text, Fable 5.2 as adviser at times. **Running the app:** no Claude model. Gemini 4
 Neon, GLM 5.3, DeepSeek Flash, Jev 1.14, Inworld TTS-2, GPT Image 2.6 for thumbnails only.

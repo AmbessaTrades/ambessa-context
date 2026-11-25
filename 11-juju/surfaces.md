@@ -1,6 +1,13 @@
 # The app on three surfaces
 
-As of 13:20 EAT, 24 November 2026. "Exists" means a file was seen on the Mac by the writer of this page.
+## Now (08:15 EAT, 25 Nov)
+
+- **Web, pressed for real at 01:22:** 61 screens, 32 desktop and 29 phone. Gate, Altar, Crossroads (five cards), Cauldron (type an idea, 10 or 20 minutes), Pact, Conjuring, Spell Strip, Publish Kit work. Library section "Juju — the app, pressed for real".
+- **Wrong today:** every path ends at the practice minute; the five cards are placeholders on that copy; Mirror Bend and Feed Sight show broken or empty pictures; New Vessel and the Tank are drawings; the sound room sends you back to the Altar.
+- **Census:** 573 controls; 112 real, 160 sample, 131 dead; decision remove 378, keep 98, wire 79, build 18 (Measured, 24 Nov 20:00).
+- **Phone:** the real job runs on an Android emulator, 19 checks pass and 3 fail (the lead, 24 Nov 23:14). Paused since. Must export with no connection (Said).
+
+The rest of this page is 13:20 EAT, 24 November 2026. "Exists" means a file was seen on the Mac by the writer of this page.
 
 | | Web rooms | Mac app | Android APK |
 |---|---|---|---|

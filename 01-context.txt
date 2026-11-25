@@ -1,5 +1,5 @@
 JUJU - CONTEXT FOR A WEB AGENT, ONE FETCH
-Repo: https://github.com/AmbessaTrades/ambessa-context (public). Hand-written part: 24 November 2026. The last part is rebuilt every two hours.
+Repo: https://github.com/AmbessaTrades/ambessa-context (public). Hand-written part: 25 November 2026, 08:15 EAT. The last part is rebuilt every two hours.
 
 WHAT
 Juju is private software, Rust first, on a Mac app, a web app and an Android APK. A channel profile (a Vessel) goes in; finished faceless
@@ -7,10 +7,10 @@ YouTube films come out, 52-minute TV-style at best, in any niche, from any paste
 It is the only project. Everything about selling research to governments or companies is closed.
 
 WHO DECIDES
-Ambi, the founder. A newer sentence from Ambi beats the nine decisions, which beat what code shows, which beats the master brief, which beats any agent's summary.
+Ambi, the founder. A newer sentence from Ambi beats the decisions, which beat what code shows, which beats the master brief, which beats any agent's summary.
 Mark things Said, Measured, Listed, Judged, Estimated or Candidate.
 
-THE NINE DECISIONS (24 Nov 2026)
+THE FIRST NINE DECISIONS (24 Nov 2026)
 1. Earshot is the whole sound engine, its listening models allowed, on the phone too without the Mac.
 2. A film needs no spoken take from Ambi. Confidence comes from the system reviewing its own work.
 3. Juju has its own private repo for good. Pull requests; auto-merge only after a run of clean merges.
@@ -21,11 +21,19 @@ THE NINE DECISIONS (24 Nov 2026)
 8. 135 CAD, fixed. WaveSpeed is thumbnails only. 24 looks, four spiritual. Everything is design systems: libraries of data.
 9. Quiet screens: names and verbs only. Words in a film only when the words are the content.
 
-WHERE IT STANDS (13:30 EAT, 24 Nov)
-19 rooms drawn and clickable with nothing real behind them. Nine film worlds drawn; first cheap-model films judged 3 to 5 of 10, later rounds not judged. Script gates
-attacked four times. The conductor passes a good film on mock models and critics still break it. 44 skills on disk and in the app. Five services
-funded and answering; DeepSeek, GLM and Gemini Neon each filled the same 60-second form; Gemini's cache saved nothing so far. $0.57 spent on tests by 13:22. Eight pull
-requests open, each green alone, never tested together. No finished film, no APK, nothing run on a phone.
+LATER DECISIONS (24 Nov 13:45 to 25 Nov 01:00)
+10/14. Daily films about 20 minutes, 2,400 words; two voiced channels, one silent. Locks on type, maps, numbers equal the spoken word.
+12. No stand-in drawings. Lean on what we draw well. 15. One running world. 16. Rip-any-video: withdrawn. 17. Test the app by pressing it.
+18. Run until a 23-clause exit check is true; one change, one measurement, keep or revert. 19. Ready = one tap to a full MP4 with sound, voice, thumbnail, kit, 10 to 50 minutes; phone stands alone; 10 US test limit.
+20. One unit, one pull request, one review round. 21. Harvest first: strong models take 12 key films apart once; cheap models then only choose and fill.
+
+WHERE IT STANDS (08:15 EAT, 25 Nov)
+Juju makes a one-minute silent map film by itself (first 06:45 on 25 Nov; second 07:40; first new subject, the Mughals, 08:08). None is good: tiny words, dull colour, some wrong years and places. No voice in a real film, nothing over a minute,
+no APK handed over. The app works when pressed but every path makes a practice minute. The engine draws 12 of the 40 picture moves good films use. 11 of 12 key films are read whole; no recipes yet. Seven pull requests open, 19 merged.
+5.98 of 10.00 US test money spent. Exit check 2 of 23. The lead does not expect 16:00 today to be fully met.
+
+REFUSED BY AMBI (do not repeat): shapes drawn by code as pictures; 36 palettes like slides; dots and clip-art infographics; poetic script lines ("the sun gave nothing"); narrator line at the bottom; inflated counts.
+LIKED BY AMBI: the map and space clips; galactic-empires film's storyboarding; the idea of the AI-and-enlightenment film; silent map stories; the app's look.
 
 LAWS
 Cheap models fill a closed form, code decides and draws. A stage holds and one thing changes; never a slideshow or a picture count. One art hand. Nothing unreal on
@@ -35,10 +43,10 @@ HOW TO ANSWER AMBI
 Answer first, numbered, five items at most, plain words, no preamble or closer. Improve what exists: "No different directions, just making things better and better."
 
 PICTURES
-https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/LIBRARY.md (numbers 105 and up are Juju). Rooms now: 09-assets/live/.
+https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/LIBRARY.md (196 and up: newest, with what worked and what was refused; 105 to 195: 24 Nov morning). Rooms now: 09-assets/live/.
 
 MORE
-00-READ-FIRST.md, 02-the-software.md, 11-juju/README.md, 11-juju/open-questions.md, 10-now/history.md
+00-READ-FIRST.md, 11-juju/worked-and-failed.md, 10-now/films.md, 02-the-software.md, 11-juju/README.md, 11-juju/open-questions.md, 10-now/history.md
 
 
 ============================================================
@@ -47,99 +55,113 @@ WHAT IS HAPPENING NOW (rebuilt every two hours)
 
 # Juju now
 
-As of 13:45 EAT, Tue 24 Nov 2026. Written every two hours by claude-haiku-5-5 (medium) from facts collected by code and the lead agent's own messages. Reports are not proof.
+As of 08:18 EAT, Wed 25 Nov 2026. Written every two hours by claude-haiku-5-5 (medium) from facts collected by code and the lead agent's own messages. Reports are not proof.
 
 ## Changed since the last sheet
-- Paid calls in the test ledger: 1,188, $0.8778 (last sheet: 1,055, $0.7310). DeepSeek $0.4004, OpenRouter $0.2951, Google $0.1822.
-- Direct Google key: the lead reports it works (13:42). This corrects the 13:21 report that only the OpenRouter route worked. The ledger shows 4 refused Google calls, last success 13:13.
-- One spend meter now covers all paid tests, cap $2.25 for today (lead, 13:42). The ledger is at about 39% of it. The earlier $0.60 cap in one script is replaced.
-- Mac load (1, 5, 15 min): 67, 60, 64 (last sheet: 45, 42, 61).
-- Rust: 12,772 lines in 7 crates (last sheet: 12,109). Skills: 46 (last sheet: 44).
-- Engine: 3 of 4 agents finished (last sheet: 2).
-- Model measurements (lead, 13:42): DeepSeek on low thinking filled the film form validly 2 of 2 times. Thinking off was invalid. GLM low returned nothing for $0.06. Gemini cache: 0 of 3 repeats saved.
-- Nuance test done (13:43): 21 of 24 risky instruction lines were misread by cheap models. 8 are fully cured on fresh material.
-- Packaging test (13:46): 6 title and thumbnail packages drawn. The skill-ordered ranking got 48% of pairs right; random got 50%.
-- ADR 0009 (quiet screens) accepted (13:00). ADR 0010 (20-minute plan) is a candidate.
-- Ancient Logos teardown: silent since 13:14. The lead's 13:42 workflow includes a restart. Not reported running.
-- Commits on main: none reported since e0115bd (10:33).
+- Covers 08:16 to 08:18 EAT, Wed 25 Nov 2026, against the last sheet (08:16).
+- **Mughal Empire film is DONE:** `strip-mughal`, 60 s, 0.008507 US, finished 07:59. The lead watched it one frame every 3 seconds. He has not judged it good. Lead says it is the first of ten new subjects to finish.
+- **GitHub is blocked (lead, 08:16):** GitHub stopped running jobs. It says the account is at its limit or the spending limit must rise. All seven pull requests passed their combined test with 0 failures. The final step that records the pass could not run. Nothing is merged.
+- **Pull requests:** 7 open (21 to 27), 19 merged, 1 closed (15). Unchanged. Each of the seven has two CLEAN reviews (worker, 08:03).
+- **Paid calls:** 5,824 calls, $6.0071 (last sheet: 5,822, $6.0065). OpenRouter now 2,901 ok and last ok 08:18.
+- **Whole-film runs on disk:** 3 DONE, 3 FAILED, 19 HOLD. The list shows strip-mughal DONE, so the count and the list agree now.
+- **Logged attempts:** 236 kept, 33 reverted, 40 inconclusive (unchanged).
+- **Mac load (1, 5, 15 min):** 87, 71, 69 (last sheet 69, 63, 66). Load is rising.
+- **Running agents:** unknown. The live agent page did not answer. Nine transcripts were written in the last 10 minutes.
+- **Worker at 08:15:** the Ottoman film with a second rebuild is being run through the whole chain with the same binary.
+
+## What worked and what failed
+**Worked**
+- `juju make` produced one-minute films with no test switch: otto-silent-2 (06:45, silent, 0.068 US), otto-chron-2 (07:39, 0.001904 US, words on the map), strip-mughal (07:59, 0.008507 US, from one typed sentence). The lead reports all three work but are not good.
+- Mughal is the first subject Juju had never seen to reach a finished file.
+- Title checks: 0 of 15 planted false titles pass (before: 15 of 15). Worker, 05:26.
+- Vault review: 7 blocking faults, each red before the fix and green after. Simulation: 21,182 dealt, 238 refused, 0 faults on re-read (worker, 08:12).
+- Film-study tool: same answers as plain decoding; kill and resume give the same answers.
+- Review of PRs 21 to 27: all six reviewed CLEAN by opus-ship-c (08:03). Planted tests named on GitHub. Reviews are mechanical and deeper; not a judgment of films.
+
+**Failed**
+- Ambi, 24 Nov 23:17, on the dot strip the lead had praised: "the worst looking thing ive ever seen." He asked for Juju's own house worlds.
+- Ambi, 24 Nov 20:57, on the script line "the sun gave nothing": "What kind of slop is that?" The lead and two Claude listeners had praised it.
+- Nine of ten new subjects did not reach a file (Japan, Pluto, Manchuria, Bulgaria, Austria, Jerusalem, Venice, Sweden, Space). Causes listed in the workers: title and thumbnail rules, too few dated events with a place, lines no fact supports, camera moves.
+- Harvest fast runner: about 1.2 times faster, not the 3 times target. Lead, 04:15.
+- Facts lane: 2 of 15 opened facts wrong, 6 pins misplaced (lead, 06:47). Later: two more bad pins found (Sarai beside Baku, Borodino in Siberia), lead, 04:30.
 
 ## App engine and films
-- Engine: 3 of 4 finished. build:worlds running.
-- Round 5 picture sheet (12:48): not scored by judges. Lead says it looks better than round 1. Earlier scores were 4 to 6 of 10.
-- Subtitles and small labels are too wordy (12:48). Not confirmed fixed.
-- Test render, 187 seconds (12:10): 1080p, 0 fallback scenes, safe-box check passed, no voice track, one act. A picture test, not a full film.
-- Film reader: 0 of 1 finished. build:absorb running (tests, build, first clip).
-- Design systems: 0 of 5 finished. Five teardowns running. No design-system library on disk.
-- Milky Stellar teardown (lead, 13:17): 16 devices with times. Its job waits up to nine minutes for shared-lock jobs.
-- Film cost (lead, 13:17): about $0.55 per 50-minute film on DeepSeek and $2.14 on GLM, at high or max thinking. Not shown to fit the budget.
-- 20-minute plan (lead, 13:42): the lead's estimate says it fits. Voice is the tight part. Voice cost is not measured. Filling the film form is measured at about 5 cents per film.
-- Freshness answer to the YouTube demonetisation wave (lead, 13:42): locked stance, voice and type; slow changes; new argument, opening, worlds and title per film; length 16 to 24 minutes. A sameness meter is planned, not built. The lead rejects random shuffling to fool a detector.
+- **Mughal film `strip-mughal` (lead, 08:16):** DONE, 60 s, 0.008507 US. Mountains real, edges smooth, land lights up as it changes hands. Still wrong: words too small for a phone; Mughal land first shows in 1539 though the film starts in 1525; it stops at 1659 though the idea said 1707; some lines weak ("But the Mughal Empire grew and took land").
+- **Ottoman films (lead, 07:40):** words tiny, coasts blocky, one colour on grey; "Belgrade was captured" shows at 1497; "invaded Syria" sits on Istanbul. The silent one has no words.
+- **Rebuilt Ottoman film (worker, 08:15):** every line sits at its place, after its year, readable, clean coasts, almost no inner borders. Running through the whole chain. Not yet judged by the lead.
+- **Engine gap (60-film study, 03:39):** the engine draws 12 of 40 picture moves in the reference films, and 0 of 20 skeleton and house pairs whole. Ten missing primitives ranked. The builder is still coding; no new result reported.
+- **House strips:** Egypt, Orion and lungs repaired at 08:05. Code check passes, 31 unit tests. Looks judged only by their maker. Need fresh eyes. No sound. Render 7 to 19 seconds per film second at load 57 to 95 (target 1.0 missed).
+- **Sound:** silent film at -14.6 LUFS, 4 of 4 cues heard (worker). A 20-minute film took 912 s. The 1.28 s hush rule on silent films needs a ruling.
+- **Voice:** no voice in any real film. Nothing made at 10, 20, 30 or 50 minutes.
+- **Harvest:** 11 of 12 films have notes (lead). Motion language covers 64 of 64 hand-marked rows, held out on one film only. Our eye found 35 of 35 drawn events against rea-video's 10 of 35, on the windows it was built on. No pack is built.
+- **Packaging:** 9 frames and 45 bends. Check passes; 145 of 145 planted faults refused. 9 bend sources unconfirmed. No blind judge yet.
+- **Vault:** stage 0 built. Sameness across niches is 2.2%, against 0.9% for published films. No film is made from a slot yet.
+- **Facts:** stage is valid with 0 fallbacks on 8 tables. Second reader 0 of 100. No cold run.
 
 ## Web app and rooms
-- All 19 rooms have a first build. 4 of 8 room builders finished.
-- Still running: crossroads, cauldron, conjuring, new-vessel.
-- Cauldron: price overlaps the list on the phone screen (lead, 12:48). Round 6 renders running. No fix confirmed.
-- Board (13:00): 329 room states at two sizes on one canvas. Desktop frames were empty at 12:48. A 13:00 log lists them as rendered. No judge check reported.
-- Page map: board-fix was 12 of 13 finished, waiting for the final build and push. It is not in the 13:45 job list, so its end is not reported.
-- ADR 0009: 30 interface words at desktop, 24 at phone, no text of 5 words or more, one 1 to 2 word status per object. Quiet-screen rules are in PR 3, open.
-- Outside critics have not reviewed the rooms.
+- Pressed 24 Nov 01:22 (lead): 61 screens, 32 desktop and 29 phone. Gate, Altar, Crossroads, Cauldron, Pact, Conjuring, Spell Strip and Publish Kit work.
+- "Make a film" is being wired to the real film by a worker started 08:06 (lead). Not reported done.
+- Every path ended at the practice minute as of 01:22. The Roman roads idea queued the practice film, not a Roman roads film. Not re-tested since.
+- The five cards are placeholders. Mirror Bend and Feed Sight show broken or empty pictures. New Vessel and the Tank are drawings. The sound room sends you back to the Altar.
+- Census: 573 controls; 112 real, 160 sample, 131 dead (measured, 24 Nov 20:00).
+- Cauldron price overlaps the list on phone. Not confirmed fixed. Outside critics have not reviewed the rooms.
 
 ## Mac app and APK
-- APK files built: 0. APK not tested.
-- Mac app: nothing reported. Not tested.
-- Earshot runs in full, phone included (Ambi, 08:16). Phone spike measured 08:48. No later result. build:voice is finding the Earshot model cache and running a check.
-- Video work runs one job at a time (lead, 12:37). Load is still high.
+- APK files built: 0. APK tested: no. Nothing has run on a phone.
+- Phone job: an Android emulator run had 19 checks pass and 3 fail (lead, 24 Nov 23:14). Paused since. Needs the Galaxy plugged in.
+- Mac app: no release build reported. Not tested.
+- Disk: 3.9 GB free at 08:05, then 9.6 GB after old build leftovers were cleared.
 
 ## Agents running now
-- Engine: build:worlds (3 of 4 finished)
-- Conductor: fix:r2 (10 of 11 finished)
-- Rooms: crossroads, cauldron, conjuring, new-vessel (4 of 8 finished)
-- Film reader: build:absorb (0 of 1 finished)
-- Design systems: five teardown jobs (0 of 5 finished)
-- Guard, voice, 3D, PR loop: six jobs (0 of 6 finished): wave facts, PR review loop, one teardown, freshness build, money build, voice build
-- Page map: board-fix, not in the 13:45 list
+- Unknown. The live agent page did not answer. Last reported, not confirmed live:
+  - a film worker running the rebuilt Ottoman film and Mughal through the whole chain (08:15);
+  - an app worker wiring "Make a film" (08:06);
+  - sound, vault and facts repairs;
+  - the engine builder on the ten missing primitives.
+- All PR reviewers reported finished, last at 08:03.
 
 ## Money spent on services
-- Ledger: $0.8778 over 1,188 calls. Successful answers: DeepSeek 824 (1 refused or failed), OpenRouter 351 (1), Google 7 (4).
-- Balances at 12:37 (lead): OpenRouter $18.82, DeepSeek $16.96, WaveSpeed $12.00. Not rechecked since.
-- Google: billing linked; direct key works (lead, 13:42). Prepaid balance not in the facts.
-- Inworld: key works, 403 stock voices (lead, 13:42; earlier 407). No charge seen. Making speech not tested.
-- Budget: 135 CAD agreed (ADR 0008). The 10:52 split was Inworld 55, OpenRouter 23, DeepSeek 22, Google 21, WaveSpeed 14. Film costs above are not shown to fit.
-- Gemini cache: 0 of 3 repeats saved (lead, 13:17; earlier figure of 5 corrected).
-- Spend guard: one meter, cap $2.25 for today (13:42). The earlier worst case of $1.25 is superseded.
+- Ledger: $6.0071 over 5,824 calls. OpenRouter $2.997, DeepSeek $1.9606, Google $0.5074, Inworld $0.2357, WaveSpeed $0.171, unsettled $0.1355.
+- Answered calls: DeepSeek 2,753 (13 refused or failed); OpenRouter 2,901 (45); Google 11 (7); Inworld 78 (1); WaveSpeed 5 (0).
+- Balances last checked 12:37 Tue (lead), not rechecked: OpenRouter $18.82, DeepSeek $16.96, WaveSpeed $12.00.
+- Budget: 135 CAD agreed (ADR 0008). Working limit 10.00 US (lead). Spent 5.97 US by the lead's count (07:40); the ledger is the record.
+- Google: paid access works; prepaid balance not in the facts. Inworld: stock voices answer. No speech in a film reported.
 
 ## Broken, blocked or open
-- Engine drawing tests do not compile on main. PR 5 fixed the picture finder (26 of 26 pass). Lead says the main tests for juju-stage do not compile (13:42).
-- PR 1 loosened the checks, so green status is partial. The 8 PRs were tested alone, not together. None merged.
-- Conductor room list: a worker says two entries must be added, or the conductor refuses to start on its next build (13:41). Not reported done.
-- Cauldron price overlap, board desktop frames, subtitles: not confirmed fixed.
-- Art direction: not judged (earlier 5 to 6 of 10).
-- Voice: no voice track. Inworld speech not tested.
-- Film costs and the 20-minute plan: not measured end to end. Not shown to fit.
-- Nuance: 6 new rules are written but no code enforces them. 3 repairs are better, not cured. 4 cannot be fixed by wording.
-- Packaging: 4 of 6 packages are below the winners' median contrast, on hold. Foil is rated weak. The skill-ordered ranking did no better than random. The 90/70/50 rule could not be tested.
-- Thinking level: the packaging flow runs with thinking off, which departs from ADR 0006. The lead found thinking off invalid for the film form.
-- Full run from script to finished film on your keys: not tested.
-- Repo: uncommitted changes (205 files at 12:10). ADRs 0008 and 0009 are untracked (13:00).
-- Ancient Logos teardown: status unknown since 13:14.
+- **GitHub billing blocks the merge** (lead, 08:16). Nothing merges until fixed.
+- **PR 26, sound:** the watcher reserves 0.000336 per call, but main prices it at 0.001344, so main refuses every such call. A film with no kept answer gets no sound. It fails closed. Fix needed; the reservation also has no lock (worker, 08:03).
+- **Two frames of our own test film** were pushed to GitHub on PR 26 by mistake. The branch stays (worker, 07:49).
+- **Prices missing:** main's price list has no price for two models, so the gate refuses their calls in PRs 24 and 25 (worker, 07:49).
+- **PR 21 and 22 faults** were repaired and reviewed CLEAN (08:03).
+- Lead (13:42 Tue): main's juju-stage tests do not compile. No later report.
+- Finish check: 2 of 23 clauses true. Not done.
+- The full chain for a 10-minute or voiced film is not made.
+- Cauldron, board frames and subtitles: not confirmed fixed. Art direction: not judged.
+- Mac load is rising (87 at 1 min) while the film chain and builds run.
+- Nuance: 21 of 24 risky instruction lines misread by cheap models (13:43 Tue).
 
 ## Waiting on Ambi
-- No item is marked as waiting on Ambi at 13:42 or 13:45.
-- ADR 0010 (20-minute plan) is a candidate. Acceptance not reported.
-- Replacement 90/70/50 wording is a candidate for Ambi (packaging worker, 13:46).
-- Standing advice (lead, 12:48): keep Inworld permissions on Read only.
+- **Fix GitHub billing:** open Settings, then Billing and plans. Fix the payment or raise the spending limit. The lead then restarts the last step and merges the seven (lead, 08:16).
+- **Watch the Mughal film** (`strip-mughal`) and name the worst thing in it.
+- **Decide on a one-minute voice take** (lead asked 06:50 and 07:40). Any voiced ten-minute take needs his yes (lead, 05:24).
+- **ADR 0010** (20-minute plan): candidate, not accepted.
+- **Ear table:** holds one refused line; the script checker needs about five.
+- **Packaging:** his eye and ear decide. Bend facts still unopened.
+- **LINE-RULE items 7 to 20** (vault): awaiting countersign.
+- **Phone job:** plug in the Galaxy.
+- **Standing advice** (lead, 12:48 Tue): keep Inworld permissions read-only.
 
 ## Counted by code
 
-- Pull requests: 8 open, 0 merged, 0 closed
-- Paid calls in the test ledger: 1188, $0.8778 in all {deepseek: 0.4004, openrouter: 0.2951, google: 0.1822}
-- Paid services answering: deepseek 824 ok, 1 refused or failed, last ok 24 Nov 13:43 EAT; openrouter 351 ok, 1 refused or failed, last ok 24 Nov 13:40 EAT; google 7 ok, 4 refused or failed, last ok 24 Nov 13:13 EAT
-- Rust: 12,772 lines in 7 crates. Skills: 46. Rooms drawn: 19. Decisions: 9. APK files built: 0
-- Design-system libraries on disk: none yet
-- Mac load (1, 5, 15 min): [67, 60, 64]
-- Job Engine: 3 of 4 agents finished; running: build:worlds (Bash)
-- Job Conductor: 10 of 11 agents finished; running: fix:r2 (Bash)
-- Job Rooms: 4 of 8 agents finished; running: rooms:crossroads+2 (Wait for full run a third time); rooms:cauldron+2 (Wait again for round 6 renders); rooms:conjuring+2 (Read the spell strip and publish kit sweep); rooms:new-vessel+3 (Wait for round five and truth output)
-- Job Film reader: 0 of 1 agents finished; running: build:absorb (Wait for tests, build and the first clip)
-- Job Design systems: 0 of 5 agents finished; running: teardown:ZgpMtombn9A (Correct the median and recheck queues); teardown:sJiaWNxYFUA (); teardown:oRBu7wYuOSo (Wait for frames); teardown:G4w-a8NgnnQ (Wait for caption fallback or Earshot); teardown:HmuQoak_IAg (Summarise all Earshot windows)
-- Job Guard, voice, 3D, PR loop: 0 of 6 agents finished; running: facts:wave (List daily snapshots May-Aug 2026); pr-loop:build (See PR 5's gate.yml change); teardown:sJiaWNxYFUA (again) (Read the OCR function and find a Python with Vision); build:fresh (Check time, FACTS.md, load); build:money (Read Gemini Neon pricing section); build:voice (Find Earshot model cache and run doctor)
+- Pull requests: 7 open, 19 merged, 1 closed
+- Paid calls in the test ledger: 5824, $6.0071 in all {deepseek: 1.9606, openrouter: 2.997, google: 0.5074, inworld: 0.2357, unsettled: 0.1355, lead-test: 0.0, wavespeed: 0.171}
+- Paid services answering: deepseek 2753 ok, 13 refused or failed, last ok 25 Nov 08:11 EAT; openrouter 2901 ok, 45 refused or failed, last ok 25 Nov 08:18 EAT; google 11 ok, 7 refused or failed, last ok 24 Nov 14:25 EAT; inworld 78 ok, 1 refused or failed, last ok 24 Nov 17:43 EAT; unsettled 0 ok, 7 refused or failed, last ok None; lead-test 0 ok, 3 refused or failed, last ok None; wavespeed 5 ok, 0 refused or failed, last ok 25 Nov 00:37 EAT
+- Rust: 32,715 lines in 14 crates. Skills: 52. Rooms drawn: 19. Decisions: 19. APK files built: 0
+- Design-system libraries on disk: camera_motion.json, fonts, house, kits, looks, palettes.json, proof, proto, work-camera_motion, work-palettes, work-quotes, work-surfaces_light, work-typography
+- Finish check: 2 of 23 clauses true, so not done
+- Whole-film runs of `juju make` on disk: 3 DONE, 3 FAILED, 19 HOLD
+- Newest film runs: strip-bulgaria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-austria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-manchuria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-pluto HOLD 25 Nov 08:08 (stopped at Render and mix); thru-mughal HOLD 25 Nov 08:06 (stopped at Pictures and form); otto-chron-3 HOLD 25 Nov 08:06 (stopped at Pictures and form); strip-mughal DONE 25 Nov 07:59 (60 s, 0.008507 US); thru-japan HOLD 25 Nov 07:46 (stopped at Pictures and form); thru-space HOLD 25 Nov 07:46 (stopped at Pictures and form); strip-japan HOLD 25 Nov 07:43 (stopped at Pictures and form); otto-chron-2 DONE 25 Nov 07:39 (60 s, 0.001904 US); strip-jerusalem FAILED 25 Nov 07:36 (stopped at Script and heal)
+- Agent transcripts written to in the last 10 minutes (all Claude work on this Mac, mostly Juju): 9
+- Logged attempts: 236 kept, 33 reverted, 40 inconclusive
+- Mac load (1, 5, 15 min): [87, 71, 69]
+- The live agent page did not answer, so running agents are unknown

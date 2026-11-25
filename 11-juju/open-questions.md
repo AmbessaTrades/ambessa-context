@@ -1,42 +1,42 @@
 # Open: where help is worth most
 
-As of 13:30 EAT, 24 November 2026. Ranked inside each part.
+As of 08:15 EAT, 25 November 2026. Ranked inside each part. The finish check: 2 of 23 true (app server answers; money inside the cap).
 
-## Blocked, waiting on Ambi
+## Waiting on Ambi
 
-1. Plug in the Galaxy. Every phone claim is untested until then.
-2. Nothing else is blocked on him. Google billing was linked at 13:10. Pull requests wait on the lead: all eight together, in a throwaway branch, after the engine builder finishes.
+1. Watch a one-minute film and name the worst thing in it (the lead's ask, 07:40 and 07:52).
+2. More lines he refuses, for the ear table: it has one and the script checker needs about five.
+3. Plug in the Galaxy. The phone job has run on an emulator only (the lead, 23:14: 19 checks pass, 3 fail; then paused).
+
+## What stands between today and a good film
+
+1. **The engine cannot say enough.** 12 of 40 moves. Ten missing primitives, ranked: [engine-gaps](engine-gaps.md). Egypt, Orion and lungs strips are the first tries.
+2. **New subjects stop.** Of nine tried, one reached a file. Causes: title and thumbnail words break their own rule; script lines no fact supports; too few dated events with a place; camera moves the engine refuses.
+3. **The films that finish are dull and hard to read**: tiny words, blocky coasts, one colour on grey, years and places wrong.
+4. **No voice in any real film**, so no pacing, no word clock on speech, no ducked sound. Voice is gated: 0.30 US in all before the lead passes a film.
+5. **No film over one minute.** Only a 10 minute arc is measured; 20, 30 and 50 have none.
+6. **"Make a film" in the app makes the practice minute.** A worker was set on it at about 08:00.
+7. **Harvest is half done**: 11 of 12 films have notes; no pack, no blind rebuild, no recipe, no system poured from them yet.
+8. **Taste**: the panel catches broken strips, not dull ones. It tied a repetitive voiced strip of ours.
+9. **Render speed**: about 3.2 machine seconds a film second in a full run; 7 to 19 on the new depth strips under load. Target 1.0.
+10. **Sound on main** sets aside too little money per call, so a film with no saved answer gets no sound (the lead, 08:06).
 
 ## Not proven
 
-1. A whole film from script to file on the paid services, and that the cache makes scripts cheap.
-2. A cheap-model film above 5 of 10. Engine rounds 5 and 6 look better and are **not judged**.
-3. Render speed and memory, on the Mac and the phone.
-4. That a critic inside the app finds a planted defect.
-5. That an absorbed channel profile predicts unseen films.
-6. Whether a perspective written once in the channel's profile is enough for YouTube's "original, authentic insights" wording (ADR 0002 says no per-film take is required).
-
-## Candidate numbers nobody has confirmed
-
-- 30 and 24 words a room; 20 clean merges before auto-merge; 12 pictures a minute for painting worlds; the 90% capability line; every price per film.
-- The split of 135 CAD between services.
-- Names on screen (Tongue, Pigment, Elder, Griot, Scribe, Watcher).
+1. That cheap models fill harvested recipes at 95% legal first answers. 2. That a pasted link becomes a blend a person would call family. 3. The 95 of 100 taste bar (19 of 20 strips). 4. Anything on a real phone. 5. That 135 CAD carries 60 days.
 
 ## Conflicts between documents
 
-1. Film length: brief 13 to 17 minutes against ADR 0004's about 50. The ADR wins.
-2. Resting cooldown: 10 uploads in brief §07, 15 in §09. Open.
-3. A new channel's first 12 uploads lean on proven outliers (brief) against "Library of Tehuti blooms at once" (§19.2). Open.
-4. Sound mode set once for a channel's life, or changed per film. Open.
-5. DeepSeek "always max" (Said) against the first bill, where thinking is 92 to 98% of cost. The rule stands; the measurement is new. Open.
-6. Redraw one scene or one act after a fix: the speed skill and the room specs differ. Open.
-7. Daily Library of Tehuti needs nine kinds of film to keep every variety rule; five can be made with today's worlds.
+1. Length: brief 13 to 17 minutes, ADR 0004 about 50, ADR 0010 and 0014 a daily 20, ADR 0019 ten first, then 20, 30, 50. The newest wins.
+2. One heavy job at a time (17:44) against "remove 1 job at a time limit" (20:07). The newest wins.
+3. Rip any video (ADR 0016, withdrawn at 15:00) against harvest first (ADR 0021). The newest wins.
+4. DeepSeek "always max" (10:10) against bills where thinking is 92 to 98% of cost. Open.
+5. Resting cooldown: 10 uploads in brief section 07, 15 in section 09; the vault built 15. Open.
 
 ## Good problems to think about from the web
 
-1. **Quotes**: structures for a quotation on screen that are not a card in the middle, each as data (timing, type, source, entry, hold, exit).
-2. **Type and palette libraries** that map onto each other, and the measurement that assigns a pasted film to an entry.
-3. **A picture checker** that knows whether the line is on the page shown.
-4. **What makes a 50 minute film hold**: state that moves, questions opened and paid, air. Testable rules, not advice.
-5. **A map look as alive as the galactic-empires film** (library: "Atticus King").
-6. **Judging films without flattering ourselves**: a blind test a small model can run and a person would trust.
+1. **A silent map story that a person cannot leave**: what must change every 7 seconds that is not a border?
+2. **Plain talk**: a "but" between sentences. Published films have 2 to 16 "but" per 100 sentences; our refused script had none.
+3. **Family without theft**: four to six design systems that visibly descend from the galactic-empires film ([films-seen](films-seen/README.md)) on unrelated subjects.
+4. **A judge that refuses dull.** What can be measured in 60 seconds that separates kept-watching from fine?
+5. **Title and thumbnail as one idea**, in closed choices a cheap model fills.

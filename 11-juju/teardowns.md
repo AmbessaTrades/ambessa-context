@@ -1,3 +1,5 @@
+> **State of 24 Nov, 13:10.** Later facts win: [worked-and-failed](worked-and-failed.md), [../10-now/now.md](../10-now/now.md).
+
 # Teardown of five films: pacing, palette, quotes, motion, sound, thumbnails, hit pattern
 
 As of 13:11 EAT, 24 Nov 2026. Source: teardown job, `runs/teardown` (five film folders). The job is still running.

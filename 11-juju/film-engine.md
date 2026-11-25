@@ -1,3 +1,5 @@
+> **Older page (24 Nov, 13:10).** Since then: rounds were judged blind and failed (53 of 53 caught), map and space engines were chosen, the first films came out. Read [worked-and-failed](worked-and-failed.md) and [engine-gaps](engine-gaps.md).
+
 # The film engine: stage experiment 1 and engine round 2
 
 As of 13:10 EAT, 24 Nov 2026. Source: workflow runs a workflow (reference study, engine build, three cheap-model fills, judges) and a workflow (round 2: diagnosis and picture supply).

@@ -1,11 +1,12 @@
 {
  "name": "ambessa-context",
  "what": "The working context of one project, Juju, for an AI that cannot see Ambi's computer.",
- "rebuilt": "13:50 EAT, Tue 24 Nov 2026",
+ "rebuilt": "08:22 EAT, Wed 25 Nov 2026",
  "read_order": [
   "00-READ-FIRST.md",
   "01-context.txt",
   "10-now/now.md",
+  "10-now/films.md",
   "02-the-software.md",
   "11-juju/README.md",
   "11-juju/decisions/README.md",
@@ -15,15 +16,15 @@
  "files": [
   {
    "path": "00-READ-FIRST.md",
-   "bytes": 2966
+   "bytes": 3409
   },
   {
    "path": "01-context.txt",
-   "bytes": 12102
+   "bytes": 16041
   },
   {
    "path": "02-the-software.md",
-   "bytes": 4199
+   "bytes": 4976
   },
   {
    "path": "03-reading-a-channel.md",
@@ -43,19 +44,19 @@
   },
   {
    "path": "05-the-record.md",
-   "bytes": 4470
+   "bytes": 8098
   },
   {
    "path": "06-how-we-work.md",
-   "bytes": 2520
+   "bytes": 2861
   },
   {
    "path": "07-start-here.md",
-   "bytes": 2015
+   "bytes": 2449
   },
   {
    "path": "08-journal/recent.md",
-   "bytes": 24125
+   "bytes": 92411
   },
   {
    "path": "09-assets/.DS_Store",
@@ -842,16 +843,244 @@
    "bytes": 362400
   },
   {
+   "path": "09-assets/library/196-looks-six-24-nov-19-32.jpg",
+   "bytes": 137313
+  },
+  {
+   "path": "09-assets/library/197-palettes-36-24-nov-14-29.jpg",
+   "bytes": 409201
+  },
+  {
+   "path": "09-assets/library/198-teardown-zgpmtombn9a-24-nov-13-54.jpg",
+   "bytes": 217122
+  },
+  {
+   "path": "09-assets/library/199-otto-chron-2-done-by-its-own-checks-60-s-asked.jpg",
+   "bytes": 238875
+  },
+  {
+   "path": "09-assets/library/200-otto-silent-2-done-by-its-own-checks-60-s-aske.jpg",
+   "bytes": 232642
+  },
+  {
+   "path": "09-assets/library/201-make-mongols-how-the-mongol-empire-grew-1-min-.jpg",
+   "bytes": 241479
+  },
+  {
+   "path": "09-assets/library/202-thumbnail-juju-made-for-otto-chron-2-shifting-.jpg",
+   "bytes": 98986
+  },
+  {
+   "path": "09-assets/library/203-thumbnail-juju-made-for-otto-silent-2-no-words.jpg",
+   "bytes": 81784
+  },
+  {
+   "path": "09-assets/library/204-thumbnail-juju-made-for-make-mongols-thin-one-.jpg",
+   "bytes": 53113
+  },
+  {
+   "path": "09-assets/library/205-test-film-of-20-29-24-nov-africa-1956-to-1960-.jpg",
+   "bytes": 169229
+  },
+  {
+   "path": "09-assets/library/206-map-engine-clip-20-frames-ambi-15-24-24-nov-on.jpg",
+   "bytes": 205593
+  },
+  {
+   "path": "09-assets/library/207-space-engine-clip-20-frames-ambi-15-24-24-nov-.jpg",
+   "bytes": 138094
+  },
+  {
+   "path": "09-assets/library/208-map-clip-third-cut-with-three-looks-as-data-25.jpg",
+   "bytes": 205185
+  },
+  {
+   "path": "09-assets/library/209-space-clip-third-cut-with-three-looks-as-data-.jpg",
+   "bytes": 121213
+  },
+  {
+   "path": "09-assets/library/210-look-one-ink-on-the-map-engine-merged-to-main-.jpg",
+   "bytes": 154091
+  },
+  {
+   "path": "09-assets/library/211-look-downlink-on-the-space-engine-merged-to-ma.jpg",
+   "bytes": 78271
+  },
+  {
+   "path": "09-assets/library/212-look-bartholomew-1875-on-the-map-engine-candid.jpg",
+   "bytes": 134126
+  },
+  {
+   "path": "09-assets/library/213-look-survey-file-on-the-map-engine-candidate-2.jpg",
+   "bytes": 177874
+  },
+  {
+   "path": "09-assets/library/214-look-ledger-on-the-space-engine-candidate-25-n.jpg",
+   "bytes": 97820
+  },
+  {
+   "path": "09-assets/library/215-look-signal-on-the-space-engine-candidate-25-n.jpg",
+   "bytes": 116066
+  },
+  {
+   "path": "09-assets/library/216-thumbnail-crate-after-repair-maps-no-longer-cu.jpg",
+   "bytes": 330558
+  },
+  {
+   "path": "09-assets/library/217-thumbnail-crate-after-repair-real-letters-in-c.jpg",
+   "bytes": 282348
+  },
+  {
+   "path": "09-assets/library/218-free-code-drawn-thumbnail-hour-14-beat-the-pai.jpg",
+   "bytes": 74884
+  },
+  {
+   "path": "09-assets/library/219-thumbnail-from-a-real-photograph-autumn-passed.jpg",
+   "bytes": 142066
+  },
+  {
+   "path": "09-assets/library/220-thumbnail-from-real-pictures-one-storm-passed-.jpg",
+   "bytes": 58105
+  },
+  {
+   "path": "09-assets/library/221-the-ten-minute-film-s-thumbnail-in-a-feed-besi.jpg",
+   "bytes": 506956
+  },
+  {
+   "path": "09-assets/library/222-house-strip-the-lungs-before-repair-family-wit.jpg",
+   "bytes": 147358
+  },
+  {
+   "path": "09-assets/library/223-house-strip-the-lungs-after-repair-real-scans-.jpg",
+   "bytes": 189489
+  },
+  {
+   "path": "09-assets/library/224-house-strip-egypt-and-the-nile-before-repair-b.jpg",
+   "bytes": 204758
+  },
+  {
+   "path": "09-assets/library/225-house-strip-egypt-and-the-nile-after-repair-ho.jpg",
+   "bytes": 241636
+  },
+  {
+   "path": "09-assets/library/226-looks-beside-published-frames-planets-and-star.jpg",
+   "bytes": 121527
+  },
+  {
+   "path": "09-assets/library/227-ideas-ladder-twenty-titles-the-ticked-ones-pas.jpg",
+   "bytes": 172987
+  },
+  {
+   "path": "09-assets/library/228-twenty-four-title-and-thumbnail-packages-drawn.jpg",
+   "bytes": 230229
+  },
+  {
+   "path": "09-assets/library/229-sixty-film-variety-before-and-after-repeats-sp.jpg",
+   "bytes": 84867
+  },
+  {
+   "path": "09-assets/library/230-script-flow-of-published-films-beside-ours-by-.jpg",
+   "bytes": 144212
+  },
+  {
+   "path": "09-assets/library/231-refused-by-ambi-23-17-the-mcdonald-s-dot-strip.jpg",
+   "bytes": 261305
+  },
+  {
+   "path": "09-assets/library/232-blind-sheet-3-ours-026-027-030-032-034-035-036.jpg",
+   "bytes": 169813
+  },
+  {
+   "path": "09-assets/library/233-the-tells-found-in-our-frames-type-on-type-wro.jpg",
+   "bytes": 192547
+  },
+  {
+   "path": "09-assets/library/234-the-20-minute-money-plan-of-14-10-inworld-runs.jpg",
+   "bytes": 48209
+  },
+  {
+   "path": "09-assets/library/235-house-strip-refused-by-all-four-judges-orion-a.jpg",
+   "bytes": 329891
+  },
+  {
+   "path": "09-assets/library/236-orion-strip-after-one-repair-now-a-dark-line-c.jpg",
+   "bytes": 111560
+  },
+  {
+   "path": "09-assets/library/237-thumbnail-faults-a-reviewer-found-maps-cut-at-.jpg",
+   "bytes": 274737
+  },
+  {
+   "path": "09-assets/library/238-thumbnail-faults-a-reviewer-found-empty-boxes-.jpg",
+   "bytes": 286582
+  },
+  {
+   "path": "09-assets/library/239-paid-wavespeed-picture-for-the-ten-minute-film.jpg",
+   "bytes": 171645
+  },
+  {
+   "path": "09-assets/library/240-gather-lane-check-ottoman-map-frames-a-number-.jpg",
+   "bytes": 194854
+  },
+  {
+   "path": "09-assets/library/241-otto-silent-2-stretches-where-nothing-changes-.jpg",
+   "bytes": 216242
+  },
+  {
+   "path": "09-assets/library/242-looks-beside-the-hero-film-ours-and-theirs-thr.jpg",
+   "bytes": 114836
+  },
+  {
+   "path": "09-assets/library/243-nine-kinds-of-stage-drawn-in-a-probe-the-old-s.jpg",
+   "bytes": 277625
+  },
+  {
+   "path": "09-assets/library/244-desktop-altar-crossroads-card-proof-pact-cauld.jpg",
+   "bytes": 248927
+  },
+  {
+   "path": "09-assets/library/245-desktop-what-is-missing-conjuring-spell-strip-.jpg",
+   "bytes": 204690
+  },
+  {
+   "path": "09-assets/library/246-desktop-not-finished-new-vessel-mirror-bend-br.jpg",
+   "bytes": 153624
+  },
+  {
+   "path": "09-assets/library/247-phone-size-altar-crossroads-proof-pact-conjuri.jpg",
+   "bytes": 140427
+  },
+  {
+   "path": "09-assets/library/248-phone-size-pact-spell-strip-publish-kit-films-.jpg",
+   "bytes": 121882
+  },
+  {
+   "path": "09-assets/library/249-phone-size-not-finished-new-vessel-mirror-bend.jpg",
+   "bytes": 136334
+  },
+  {
+   "path": "09-assets/library/250-others-thumbnails-the-ai-and-enlightenment-fil.jpg",
+   "bytes": 190987
+  },
+  {
+   "path": "09-assets/library/251-milky-stellar-and-atticus-king-packages-and-th.jpg",
+   "bytes": 246070
+  },
+  {
+   "path": "09-assets/library/252-strip-mughal-done-by-its-own-checks-60-s-asked.jpg",
+   "bytes": 224050
+  },
+  {
    "path": "09-assets/library/GALLERY.html",
-   "bytes": 56580
+   "bytes": 77102
   },
   {
    "path": "09-assets/library/LIBRARY.md",
-   "bytes": 51451
+   "bytes": 70690
   },
   {
    "path": "09-assets/library/items.json",
-   "bytes": 55775
+   "bytes": 76590
   },
   {
    "path": "09-assets/library/library.json",
@@ -863,11 +1092,11 @@
   },
   {
    "path": "09-assets/live/README.md",
-   "bytes": 2068
+   "bytes": 2399
   },
   {
    "path": "09-assets/live/altar.jpg",
-   "bytes": 65880
+   "bytes": 57427
   },
   {
    "path": "09-assets/live/arcana.jpg",
@@ -879,27 +1108,27 @@
   },
   {
    "path": "09-assets/live/cauldron.jpg",
-   "bytes": 68171
+   "bytes": 63584
   },
   {
    "path": "09-assets/live/conjuring.jpg",
-   "bytes": 77691
+   "bytes": 53784
   },
   {
    "path": "09-assets/live/crossroads.jpg",
-   "bytes": 86035
+   "bytes": 76794
   },
   {
    "path": "09-assets/live/feed-sight.jpg",
-   "bytes": 101015
+   "bytes": 63771
   },
   {
    "path": "09-assets/live/mirror-bend.jpg",
-   "bytes": 79703
+   "bytes": 73870
   },
   {
    "path": "09-assets/live/new-vessel.jpg",
-   "bytes": 58629
+   "bytes": 58069
   },
   {
    "path": "09-assets/live/offering.jpg",
@@ -911,7 +1140,7 @@
   },
   {
    "path": "09-assets/live/publish-kit.jpg",
-   "bytes": 89968
+   "bytes": 84759
   },
   {
    "path": "09-assets/live/reliquary.jpg",
@@ -919,11 +1148,11 @@
   },
   {
    "path": "09-assets/live/sound.jpg",
-   "bytes": 47535
+   "bytes": 47506
   },
   {
    "path": "09-assets/live/spell-strip.jpg",
-   "bytes": 86867
+   "bytes": 80549
   },
   {
    "path": "09-assets/live/vessel.jpg",
@@ -934,32 +1163,52 @@
    "bytes": 53737
   },
   {
+   "path": "10-now/attempts.md",
+   "bytes": 45898
+  },
+  {
+   "path": "10-now/films.md",
+   "bytes": 7330
+  },
+  {
    "path": "10-now/history.md",
-   "bytes": 20377
+   "bytes": 46834
   },
   {
    "path": "10-now/now.html",
-   "bytes": 9832
+   "bytes": 12844
   },
   {
    "path": "10-now/now.md",
-   "bytes": 8748
+   "bytes": 11502
   },
   {
    "path": "10-now/pull-requests.md",
-   "bytes": 11814
+   "bytes": 73120
   },
   {
    "path": "10-now/status.json",
-   "bytes": 6105
+   "bytes": 15223
   },
   {
    "path": "11-juju/README.md",
-   "bytes": 2513
+   "bytes": 3599
+  },
+  {
+   "path": "11-juju/ambi-ear.md",
+   "bytes": 2211
+  },
+  {
+   "path": "11-juju/ambi-eye.md",
+   "bytes": 2858
   },
   {
    "path": "11-juju/art-brief.md",
    "bytes": 4863
+  },
+  {
+   "path": "11-juju/audit-2026-11-24.md",
+   "bytes": 3172
   },
   {
    "path": "11-juju/brief-sections-01-10.md",
@@ -970,8 +1219,12 @@
    "bytes": 18150
   },
   {
+   "path": "11-juju/buttons.md",
+   "bytes": 6417
+  },
+  {
    "path": "11-juju/conductor-and-routes.md",
-   "bytes": 13168
+   "bytes": 13297
   },
   {
    "path": "11-juju/copy-rules.md",
@@ -979,7 +1232,7 @@
   },
   {
    "path": "11-juju/coverage-and-attacks.md",
-   "bytes": 12209
+   "bytes": 12338
   },
   {
    "path": "11-juju/decisions/0001-earshot-listening-models-allowed.md",
@@ -1018,12 +1271,56 @@
    "bytes": 2907
   },
   {
+   "path": "11-juju/decisions/0010-twenty-minute-films.md",
+   "bytes": 4510
+  },
+  {
+   "path": "11-juju/decisions/0012-strengths-only-no-stand-in-drawings.md",
+   "bytes": 5348
+  },
+  {
+   "path": "11-juju/decisions/0014-locks-24-nov-afternoon.md",
+   "bytes": 5325
+  },
+  {
+   "path": "11-juju/decisions/0015-one-running-world.md",
+   "bytes": 2909
+  },
+  {
+   "path": "11-juju/decisions/0016-rip-and-replay.md",
+   "bytes": 3975
+  },
+  {
+   "path": "11-juju/decisions/0017-fleets.md",
+   "bytes": 3150
+  },
+  {
+   "path": "11-juju/decisions/0018-poteto-constitution.md",
+   "bytes": 7648
+  },
+  {
+   "path": "11-juju/decisions/0019-ready-at-four.md",
+   "bytes": 3423
+  },
+  {
+   "path": "11-juju/decisions/0020-small-prs-one-round.md",
+   "bytes": 1735
+  },
+  {
+   "path": "11-juju/decisions/0021-harvest-first.md",
+   "bytes": 3041
+  },
+  {
    "path": "11-juju/decisions/README.md",
-   "bytes": 1127
+   "bytes": 1962
   },
   {
    "path": "11-juju/earshot-on-the-phone.md",
    "bytes": 27095
+  },
+  {
+   "path": "11-juju/engine-gaps.md",
+   "bytes": 10481
   },
   {
    "path": "11-juju/engine-stage-form.md",
@@ -1035,7 +1332,71 @@
   },
   {
    "path": "11-juju/film-engine.md",
-   "bytes": 10710
+   "bytes": 10955
+  },
+  {
+   "path": "11-juju/films-seen/36J1tL9ulGA.md",
+   "bytes": 9777
+  },
+  {
+   "path": "11-juju/films-seen/3KkQGTa1YjM.md",
+   "bytes": 6720
+  },
+  {
+   "path": "11-juju/films-seen/51ZathOeW2E.md",
+   "bytes": 7071
+  },
+  {
+   "path": "11-juju/films-seen/HmuQoak_IAg.md",
+   "bytes": 6818
+  },
+  {
+   "path": "11-juju/films-seen/IEWMpPs0M-M.md",
+   "bytes": 6872
+  },
+  {
+   "path": "11-juju/films-seen/J0wWNytEXS4.md",
+   "bytes": 7152
+  },
+  {
+   "path": "11-juju/films-seen/JzFisAkHx1k.md",
+   "bytes": 8947
+  },
+  {
+   "path": "11-juju/films-seen/MVIwvywuQpQ.md",
+   "bytes": 6335
+  },
+  {
+   "path": "11-juju/films-seen/R3_scuMyqUg.md",
+   "bytes": 6696
+  },
+  {
+   "path": "11-juju/films-seen/README.md",
+   "bytes": 1609
+  },
+  {
+   "path": "11-juju/films-seen/ZgpMtombn9A.md",
+   "bytes": 5938
+  },
+  {
+   "path": "11-juju/films-seen/gpLC_ELulyg.md",
+   "bytes": 6877
+  },
+  {
+   "path": "11-juju/harvest-language.md",
+   "bytes": 21509
+  },
+  {
+   "path": "11-juju/harvest-score.md",
+   "bytes": 11028
+  },
+  {
+   "path": "11-juju/hillclimb.md",
+   "bytes": 2521
+  },
+  {
+   "path": "11-juju/live-proof.md",
+   "bytes": 4040
   },
   {
    "path": "11-juju/lot-variety.md",
@@ -1043,7 +1404,7 @@
   },
   {
    "path": "11-juju/money-and-stack.md",
-   "bytes": 3608
+   "bytes": 5063
   },
   {
    "path": "11-juju/names-on-screen.md",
@@ -1051,47 +1412,55 @@
   },
   {
    "path": "11-juju/open-questions.md",
-   "bytes": 2652
+   "bytes": 3346
   },
   {
    "path": "11-juju/orchestration.md",
-   "bytes": 3065
+   "bytes": 2332
   },
   {
    "path": "11-juju/page-map.md",
-   "bytes": 12624
+   "bytes": 12753
   },
   {
    "path": "11-juju/parts.md",
    "bytes": 9624
   },
   {
+   "path": "11-juju/runtime-loop.md",
+   "bytes": 3693
+  },
+  {
    "path": "11-juju/screens-and-art.md",
-   "bytes": 11942
+   "bytes": 12071
   },
   {
    "path": "11-juju/script-gates.md",
-   "bytes": 11406
+   "bytes": 11535
   },
   {
    "path": "11-juju/skills.md",
-   "bytes": 9150
+   "bytes": 10528
   },
   {
    "path": "11-juju/stack-status.md",
-   "bytes": 8163
+   "bytes": 11695
   },
   {
    "path": "11-juju/surfaces.md",
-   "bytes": 2298
+   "bytes": 3143
+  },
+  {
+   "path": "11-juju/taste-panel.md",
+   "bytes": 11023
   },
   {
    "path": "11-juju/teardowns.md",
-   "bytes": 13437
+   "bytes": 13566
   },
   {
    "path": "11-juju/test-film.md",
-   "bytes": 11561
+   "bytes": 11690
   },
   {
    "path": "11-juju/vocabulary.md",
@@ -1099,19 +1468,23 @@
   },
   {
    "path": "11-juju/what-ambi-said.md",
-   "bytes": 6227
+   "bytes": 11661
+  },
+  {
+   "path": "11-juju/worked-and-failed.md",
+   "bytes": 6193
   },
   {
    "path": "README.md",
-   "bytes": 1110
+   "bytes": 1358
   },
   {
    "path": "SYNC.md",
-   "bytes": 1137
+   "bytes": 1326
   },
   {
    "path": "_parts/context-head.md",
-   "bytes": 3181
+   "bytes": 4366
   }
  ]
 }

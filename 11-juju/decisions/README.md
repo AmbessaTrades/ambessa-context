@@ -1,6 +1,6 @@
 # Decisions (ADRs)
 
-As of 13:50 EAT, Tue 24 Nov 2026. Copied from the Juju repo. These outrank the master brief and every page here except a newer sentence from Ambi.
+As of 08:18 EAT, Wed 25 Nov 2026. Copied from the Juju repo. These outrank the master brief and every page here except a newer sentence from Ambi.
 A line marked candidate, inferred or "the lead's" is not Ambi's.
 
 | No. | Decision |
@@ -14,3 +14,13 @@ A line marked candidate, inferred or "the lead's" is not Ambi's.
 | 0007 | [The software first: no channel is the goal of the build](0007-software-first.md) |
 | 0008 | [Money is fixed at 135 CAD; looks; where taste comes from](0008-fixed-money-looks-taste.md) |
 | 0009 | [Quiet screens, quiet frames](0009-quiet-screens-quiet-frames.md) |
+| 0010 | [Twenty minute films on three channels: does the money work?](0010-twenty-minute-films.md) |
+| 0012 | [Strengths only; no stand-in drawings](0012-strengths-only-no-stand-in-drawings.md) |
+| 0014 | [Locks of 24 Nov, afternoon](0014-locks-24-nov-afternoon.md) |
+| 0015 | [One running world, not arranged pages](0015-one-running-world.md) |
+| 0016 | [Rip and replay: measure the pasted film, play the measurements](0016-rip-and-replay.md) |
+| 0017 | [Five fleets, one owner each](0017-fleets.md) |
+| 0018 | [The run-until-done constitution](0018-poteto-constitution.md) |
+| 0019 | [What ready means, 25 Nov 2026 16:00 EAT](0019-ready-at-four.md) |
+| 0020 | [# ADR 0020: one unit, one pull request, one round](0020-small-prs-one-round.md) |
+| 0021 | [# ADR 0021: harvest first, then cheap models execute](0021-harvest-first.md) |

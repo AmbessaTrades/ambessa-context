@@ -1,8 +1,91 @@
 # The library
 
-195 pictures, numbered once and never renumbered. Newest work first. Rebuilt 13:50 EAT, 24 Nov 2026.
+252 pictures, numbered once and never renumbered. Newest work first. Rebuilt 08:20 EAT, 25 Nov 2026.
 
 Raw link for any file: `https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/<file>`. Machine record: `items.json`. Page with pictures: `GALLERY.html`.
+
+## Juju — films it made by itself
+
+Films that came out of one command, `juju make`, with Juju's own models. A finished run is not a good film: read each verdict.
+
+| No. | What it shows | File |
+|---|---|---|
+| 199 | otto-chron-2, DONE by its own checks, 60 s, sound, kit; 0.002 US new, 14.4 min. Lead: not good. Tiny words, blocky coasts, one colour on grey, Belgrade captured shown at 1499, invaded Syria sits on Istanbul · 25 Nov 07:40 | [199-otto-chron-2-done-by-its-own-checks-60-s-asked.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/199-otto-chron-2-done-by-its-own-checks-60-s-asked.jpg) |
+| 200 | otto-silent-2, the FIRST real film out of juju make, 60 s, 11 of 11 stages, 0.068 US, 17.2 min. Lead: works, not good. No words, stretches where nothing changes, modern country names, a doubtful number · 25 Nov 06:45 | [200-otto-silent-2-done-by-its-own-checks-60-s-aske.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/200-otto-silent-2-done-by-its-own-checks-60-s-aske.jpg) |
+| 201 | make-mongols: How the Mongol Empire grew. 1 min silent. FAILED, 9 of 11 stages worked (no slot, no sound). 9.2 machine minutes, 0.063 US. First near-whole film · 25 Nov 00:54 | [201-make-mongols-how-the-mongol-empire-grew-1-min-.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/201-make-mongols-how-the-mongol-empire-grew-1-min-.jpg) |
+| 202 | Thumbnail Juju made for otto-chron-2, Shifting Frontier. Passed its code checks; not judged by a person · 25 Nov | [202-thumbnail-juju-made-for-otto-chron-2-shifting-.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/202-thumbnail-juju-made-for-otto-chron-2-shifting-.jpg) |
+| 203 | Thumbnail Juju made for otto-silent-2. No words, a pink blob on a map: thin · 25 Nov | [203-thumbnail-juju-made-for-otto-silent-2-no-words.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/203-thumbnail-juju-made-for-otto-silent-2-no-words.jpg) |
+| 204 | Thumbnail Juju made for make-mongols. Thin: one shape, no idea · 25 Nov | [204-thumbnail-juju-made-for-make-mongols-thin-one-.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/204-thumbnail-juju-made-for-make-mongols-thin-one-.jpg) |
+| 205 | Test film of 20:29, 24 Nov: Africa 1956 to 1960. Silent and from a fixed test script, so it is not a Juju film | [205-test-film-of-20-29-24-nov-africa-1956-to-1960-.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/205-test-film-of-20-29-24-nov-africa-1956-to-1960-.jpg) |
+| 252 | strip-mughal, DONE by its own checks: the first new subject to reach a file. 60 s silent, 0.009 US, 15.8 machine minutes. Seen by the writer of this repo: tiny words, 14 s of bare land before colour, dull · 25 Nov 08:08 | [252-strip-mughal-done-by-its-own-checks-60-s-asked.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/252-strip-mughal-done-by-its-own-checks-60-s-asked.jpg) |
+
+## Juju — worked
+
+Things that passed a real check or that Ambi liked, 24 to 25 Nov 2026. Each caption says who judged it.
+
+| No. | What it shows | File |
+|---|---|---|
+| 196 | Six looks as data (One Ink, Survey File, Bartholomew, Signal, Ledger, Downlink), composite stills. Two merged; four are candidates · 24 Nov 19:32 | [196-looks-six-24-nov-19-32.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/196-looks-six-24-nov-19-32.jpg) |
+| 206 | Map engine clip, 20 frames. Ambi 15:24 24 Nov on the first cut: both great. Faults he named: jump cuts, plain type, text habit. This is the re-cut of 16:09 | [206-map-engine-clip-20-frames-ambi-15-24-24-nov-on.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/206-map-engine-clip-20-frames-ambi-15-24-24-nov-on.jpg) |
+| 207 | Space engine clip, 20 frames. Ambi 15:24 24 Nov on the first cut: both great. This is the re-cut of 16:10 | [207-space-engine-clip-20-frames-ambi-15-24-24-nov-.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/207-space-engine-clip-20-frames-ambi-15-24-24-nov-.jpg) |
+| 208 | Map clip, third cut, with three looks as data · 25 Nov 00:02. Not judged by Ambi | [208-map-clip-third-cut-with-three-looks-as-data-25.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/208-map-clip-third-cut-with-three-looks-as-data-25.jpg) |
+| 209 | Space clip, third cut, with three looks as data · 25 Nov 00:02. Not judged by Ambi | [209-space-clip-third-cut-with-three-looks-as-data-.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/209-space-clip-third-cut-with-three-looks-as-data-.jpg) |
+| 210 | Look One Ink on the map engine. Merged to main as PR 19 · 25 Nov | [210-look-one-ink-on-the-map-engine-merged-to-main-.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/210-look-one-ink-on-the-map-engine-merged-to-main-.jpg) |
+| 211 | Look Downlink on the space engine. Merged to main as PR 19 · 25 Nov | [211-look-downlink-on-the-space-engine-merged-to-ma.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/211-look-downlink-on-the-space-engine-merged-to-ma.jpg) |
+| 212 | Look Bartholomew 1875 on the map engine. Candidate · 25 Nov | [212-look-bartholomew-1875-on-the-map-engine-candid.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/212-look-bartholomew-1875-on-the-map-engine-candid.jpg) |
+| 213 | Look Survey File on the map engine. Candidate · 25 Nov | [213-look-survey-file-on-the-map-engine-candidate-2.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/213-look-survey-file-on-the-map-engine-candidate-2.jpg) |
+| 214 | Look Ledger on the space engine. Candidate · 25 Nov | [214-look-ledger-on-the-space-engine-candidate-25-n.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/214-look-ledger-on-the-space-engine-candidate-25-n.jpg) |
+| 215 | Look Signal on the space engine. Candidate · 25 Nov | [215-look-signal-on-the-space-engine-candidate-25-n.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/215-look-signal-on-the-space-engine-candidate-25-n.jpg) |
+| 216 | Thumbnail crate after repair: maps no longer cut off. 29 of 29 code checks · 25 Nov 03:03 | [216-thumbnail-crate-after-repair-maps-no-longer-cu.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/216-thumbnail-crate-after-repair-maps-no-longer-cu.jpg) |
+| 217 | Thumbnail crate after repair: real letters in Cyrillic and Vietnamese, whole subjects · 25 Nov 03:03 | [217-thumbnail-crate-after-repair-real-letters-in-c.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/217-thumbnail-crate-after-repair-real-letters-in-c.jpg) |
+| 218 | Free code-drawn thumbnail, Hour 14. Beat the paid one in blind votes (WaveSpeed run 0.117 US) · 24 Nov | [218-free-code-drawn-thumbnail-hour-14-beat-the-pai.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/218-free-code-drawn-thumbnail-hour-14-beat-the-pai.jpg) |
+| 219 | Thumbnail from a real photograph, Autumn. Passed code checks, no person has judged it · 25 Nov | [219-thumbnail-from-a-real-photograph-autumn-passed.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/219-thumbnail-from-a-real-photograph-autumn-passed.jpg) |
+| 220 | Thumbnail from real pictures, One Storm. Passed code checks, no person has judged it · 25 Nov | [220-thumbnail-from-real-pictures-one-storm-passed-.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/220-thumbnail-from-real-pictures-one-storm-passed-.jpg) |
+| 221 | The ten-minute film's thumbnail in a feed beside published ones (others' thumbnails are theirs) · 24 Nov 18:08 | [221-the-ten-minute-film-s-thumbnail-in-a-feed-besi.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/221-the-ten-minute-film-s-thumbnail-in-a-feed-besi.jpg) |
+| 222 | House strip, the lungs, before repair: family with the galactic-empires film, liked by the lead and judges in part; flat paper blobs read as clip-art · 25 Nov | [222-house-strip-the-lungs-before-repair-family-wit.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/222-house-strip-the-lungs-before-repair-family-wit.jpg) |
+| 223 | House strip, the lungs, after repair: real scans and solid lungs in a wire box. Awaiting its judges · 25 Nov | [223-house-strip-the-lungs-after-repair-real-scans-.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/223-house-strip-the-lungs-after-repair-real-scans-.jpg) |
+| 224 | House strip, Egypt and the Nile, before repair: best single pictures of the night, but modern lakes under 1400 BCE · 25 Nov 05:51 | [224-house-strip-egypt-and-the-nile-before-repair-b.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/224-house-strip-egypt-and-the-nile-before-repair-b.jpg) |
+| 225 | House strip, Egypt and the Nile, after repair: honest satellite dates, relief lifted off the map. Awaiting its judges · 25 Nov | [225-house-strip-egypt-and-the-nile-after-repair-ho.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/225-house-strip-egypt-and-the-nile-after-repair-ho.jpg) |
+| 226 | Looks beside published frames, Planets and Stars and Maps That Move; three empty seats wait for harvested systems · 25 Nov 00:49 | [226-looks-beside-published-frames-planets-and-star.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/226-looks-beside-published-frames-planets-and-star.jpg) |
+| 227 | Ideas ladder: twenty titles, the ticked ones passed the idea check (a model judged) · 24 Nov 15:56 | [227-ideas-ladder-twenty-titles-the-ticked-ones-pas.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/227-ideas-ladder-twenty-titles-the-ticked-ones-pas.jpg) |
+| 228 | Twenty-four title and thumbnail packages drawn by code from map and space kits. Candidates · 24 Nov 18:02 | [228-twenty-four-title-and-thumbnail-packages-drawn.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/228-twenty-four-title-and-thumbnail-packages-drawn.jpg) |
+| 229 | Sixty-film variety before and after: repeats spread out. A simulation, not films · 24 Nov 14:59 | [229-sixty-film-variety-before-and-after-repeats-sp.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/229-sixty-film-variety-before-and-after-repeats-sp.jpg) |
+| 230 | Script flow of published films beside ours, by kind of sentence. Ours miss turns · 24 Nov 14:58 | [230-script-flow-of-published-films-beside-ours-by-.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/230-script-flow-of-published-films-beside-ours-by-.jpg) |
+
+## Juju — refused or failed
+
+Kept on purpose. What Ambi refused, what judges caught, what broke, and why. Do not repeat these.
+
+| No. | What it shows | File |
+|---|---|---|
+| 194 | REFUSED by Ambi 13:51: storyboard pictures drawn as shapes by code, ours beside the cheap model's. garbage, and Claude made this · 24 Nov 13:46 | [194-storyboard-top-24-nov-13-46.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/194-storyboard-top-24-nov-13-46.jpg) |
+| 197 | REFUSED by Ambi 14:33: 36 palettes, terrible, just like some slideshows, 2017. Cut to 11 · 24 Nov 14:29 | [197-palettes-36-24-nov-14-29.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/197-palettes-36-24-nov-14-29.jpg) |
+| 231 | REFUSED by Ambi 23:17: the McDonald's dot strip, the worst looking thing ive ever seen. The lead had praised it. No trace of the film it was meant to learn from · 24 Nov | [231-refused-by-ambi-23-17-the-mcdonald-s-dot-strip.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/231-refused-by-ambi-23-17-the-mcdonald-s-dot-strip.jpg) |
+| 232 | Blind sheet 3. Ours: 026 027 030 032 034 035 036 (028 is published). Judges caught 53 of 53 of our frames. Ambi liked 036 · 24 Nov 14:20 | [232-blind-sheet-3-ours-026-027-030-032-034-035-036.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/232-blind-sheet-3-ours-026-027-030-032-034-035-036.jpg) |
+| 233 | The tells found in our frames: type on type, wrong name, highlight cut, map that stops, added light · 24 Nov 14:57 | [233-the-tells-found-in-our-frames-type-on-type-wro.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/233-the-tells-found-in-our-frames-type-on-type-wro.jpg) |
+| 234 | The 20-minute money plan of 14:10: Inworld runs out, minus 2.80, at day 56 of 60. An estimate, superseded by the 2,400-word cap · 24 Nov | [234-the-20-minute-money-plan-of-14-10-inworld-runs.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/234-the-20-minute-money-plan-of-14-10-inworld-runs.jpg) |
+| 235 | House strip REFUSED by all four judges: Orion as a brown wedge, a broken chart · 25 Nov 06:45 | [235-house-strip-refused-by-all-four-judges-orion-a.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/235-house-strip-refused-by-all-four-judges-orion-a.jpg) |
+| 236 | Orion strip after one repair: now a dark line chart. Film drawn whole, not judged yet · 25 Nov 07:40 | [236-orion-strip-after-one-repair-now-a-dark-line-c.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/236-orion-strip-after-one-repair-now-a-dark-line-c.jpg) |
+| 237 | Thumbnail faults a reviewer found: maps cut at the edge · 25 Nov 01:37 | [237-thumbnail-faults-a-reviewer-found-maps-cut-at-.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/237-thumbnail-faults-a-reviewer-found-maps-cut-at-.jpg) |
+| 238 | Thumbnail faults a reviewer found: empty boxes for letters it had no font for, a grey blob, half bees · 25 Nov 01:37 | [238-thumbnail-faults-a-reviewer-found-empty-boxes-.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/238-thumbnail-faults-a-reviewer-found-empty-boxes-.jpg) |
+| 239 | Paid WaveSpeed picture for the ten-minute film (medium). Not used: the free drawing won · 24 Nov 17:53 | [239-paid-wavespeed-picture-for-the-ten-minute-film.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/239-paid-wavespeed-picture-for-the-ten-minute-film.jpg) |
+| 240 | Gather lane check, Ottoman map frames: a number that shrinks and grows wrongly, modern lands · 25 Nov 05:32 | [240-gather-lane-check-ottoman-map-frames-a-number-.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/240-gather-lane-check-ottoman-map-frames-a-number-.jpg) |
+| 241 | otto-silent-2 stretches where nothing changes for 4 to 12 seconds · 25 Nov 06:26 | [241-otto-silent-2-stretches-where-nothing-changes-.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/241-otto-silent-2-stretches-where-nothing-changes-.jpg) |
+| 242 | Looks beside the hero film: ours and theirs. Three rows still empty: nothing harvested yet · 25 Nov 03:01 | [242-looks-beside-the-hero-film-ours-and-theirs-thr.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/242-looks-beside-the-hero-film-ours-and-theirs-thr.jpg) |
+| 243 | Nine kinds of stage drawn in a probe: the old sepia sameness · 24 Nov 20:32 | [243-nine-kinds-of-stage-drawn-in-a-probe-the-old-s.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/243-nine-kinds-of-stage-drawn-in-a-probe-the-old-s.jpg) |
+
+## Juju — the app, pressed for real
+
+The live app server pressed button by button at 01:22 to 01:28 on 25 Nov 2026, on a copy that cannot spend. Not mock-ups.
+
+| No. | What it shows | File |
+|---|---|---|
+| 244 | Desktop: altar, crossroads, card proof, pact, cauldron, pact from a typed idea · 25 Nov 01:23 | [244-desktop-altar-crossroads-card-proof-pact-cauld.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/244-desktop-altar-crossroads-card-proof-pact-cauld.jpg) |
+| 245 | Desktop: what is missing, conjuring, spell strip, publish kit, films. Every path ends at the same practice minute · 25 Nov 01:24 | [245-desktop-what-is-missing-conjuring-spell-strip-.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/245-desktop-what-is-missing-conjuring-spell-strip-.jpg) |
+| 246 | Desktop, NOT FINISHED: new vessel, mirror bend (broken picture), feed sight (empty), tank (drawn jars) · 25 Nov | [246-desktop-not-finished-new-vessel-mirror-bend-br.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/246-desktop-not-finished-new-vessel-mirror-bend-br.jpg) |
+| 247 | Phone size: altar, crossroads, proof, pact, conjuring, cauldron · 25 Nov 01:26 | [247-phone-size-altar-crossroads-proof-pact-conjuri.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/247-phone-size-altar-crossroads-proof-pact-conjuri.jpg) |
+| 248 | Phone size: pact, spell strip, publish kit, films, length, missing · 25 Nov 01:27 | [248-phone-size-pact-spell-strip-publish-kit-films-.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/248-phone-size-pact-spell-strip-publish-kit-films-.jpg) |
+| 249 | Phone size, NOT FINISHED: new vessel, mirror bend (broken picture), feed sight, tank · 25 Nov | [249-phone-size-not-finished-new-vessel-mirror-bend.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/249-phone-size-not-finished-new-vessel-mirror-bend.jpg) |
 
 ## Juju — rooms
 
@@ -79,11 +162,10 @@ Our shared parts, the skins, and the three art directions that were judged.
 | 191 | nuance before after · 24 Nov 13:41 | [191-nuance-before-after-24-nov-13-41.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/191-nuance-before-after-24-nov-13-41.jpg) |
 | 192 | packaging feed · 24 Nov 13:44 | [192-packaging-feed-24-nov-13-44.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/192-packaging-feed-24-nov-13-44.jpg) |
 | 193 | storyboard ours vs cheap lift · 24 Nov 13:46 | [193-storyboard-ours-vs-cheap-lift-24-nov-13-46.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/193-storyboard-ours-vs-cheap-lift-24-nov-13-46.jpg) |
-| 194 | storyboard top · 24 Nov 13:46 | [194-storyboard-top-24-nov-13-46.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/194-storyboard-top-24-nov-13-46.jpg) |
 
 ## Juju — engine
 
-Frames our own Rust engine drew. Round 1 was judged 3 to 5 of 10; round 5 is not judged yet.
+Frames our own Rust engine drew. Round 1 was judged 3 to 5 of 10; on 24 Nov two blind judges called 53 of 53 of our frames machine-made and 0 of 40 published ones.
 
 | No. | What it shows | File |
 |---|---|---|
@@ -132,6 +214,9 @@ Sheets of films Ambi named, sampled for study. Other people's work: study it, ne
 | 182 | Teardown · Atticus King, galactic empires, sheet 01 | [182-teardown-atticus-king-galactic-empires-sheet-0.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/182-teardown-atticus-king-galactic-empires-sheet-0.jpg) |
 | 183 | Teardown · Atticus King, galactic empires, sheet 02 | [183-teardown-atticus-king-galactic-empires-sheet-0.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/183-teardown-atticus-king-galactic-empires-sheet-0.jpg) |
 | 184 | Teardown · Atticus King, galactic empires, sheet 03 | [184-teardown-atticus-king-galactic-empires-sheet-0.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/184-teardown-atticus-king-galactic-empires-sheet-0.jpg) |
+| 198 | hands, AI's Strange Obsession with Enlightenment, 16 moments. Another maker's film, for study: Ambi calls its idea excellent, its visuals not that interesting · 24 Nov 13:54 | [198-teardown-zgpmtombn9a-24-nov-13-54.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/198-teardown-zgpmtombn9a-24-nov-13-54.jpg) |
+| 250 | Others' thumbnails: the AI-and-enlightenment film beside what else its feed held. Study only · 24 Nov 15:29 | [250-others-thumbnails-the-ai-and-enlightenment-fil.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/250-others-thumbnails-the-ai-and-enlightenment-fil.jpg) |
+| 251 | Milky Stellar and Atticus King packages and the feed around them. Study only · 24 Nov 15:27 | [251-milky-stellar-and-atticus-king-packages-and-th.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/251-milky-stellar-and-atticus-king-packages-and-th.jpg) |
 
 ## Taste scout
 

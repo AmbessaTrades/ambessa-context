@@ -1,3 +1,5 @@
+> **State of 24 Nov, 13:10.** Later facts win: [worked-and-failed](worked-and-failed.md), [../10-now/now.md](../10-now/now.md).
+
 # Juju screens and art: three directions, quiet copy, round-2 rooms, and the Library of Tehuti variety
 
 As of 13:10 EAT, 24 Nov 2026. Source: design jobs a workflow (art directions), a workflow (quiet copy and parts sheet), a workflow (round-2 base, rooms and variety).

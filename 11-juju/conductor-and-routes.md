@@ -1,3 +1,5 @@
+> **State of 24 Nov, 13:10.** Later facts win: [worked-and-failed](worked-and-failed.md), [../10-now/now.md](../10-now/now.md).
+
 # Juju conductor, its critics, the paid-route proof, and the taste scout
 
 As of 13:10 EAT, 24 Nov 2026. Source: workflows a workflow (conductor build, two attack rounds, fix round), a workflow (paid routes), a workflow (YouTube-taste scout).

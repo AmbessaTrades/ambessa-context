@@ -1,270 +1,450 @@
 {
- "as_of": "13:50 EAT, Tue 24 Nov 2026",
- "jobs": [
-  {
-   "job": "Engine",
-   "done": 3,
-   "of": 4,
-   "running": [
-    {
-     "agent": "build:worlds",
-     "step": "Bash"
-    }
-   ]
-  },
-  {
-   "job": "Conductor",
-   "done": 10,
-   "of": 11,
-   "running": [
-    {
-     "agent": "fix:r2",
-     "step": "Bash"
-    }
-   ]
-  },
-  {
-   "job": "Rooms",
-   "done": 4,
-   "of": 8,
-   "running": [
-    {
-     "agent": "rooms:crossroads+2",
-     "step": "Wait for full run a third time"
-    },
-    {
-     "agent": "rooms:cauldron+2",
-     "step": "Wait again for round 6 renders"
-    },
-    {
-     "agent": "rooms:conjuring+2",
-     "step": "Read the spell strip and publish kit sweep"
-    },
-    {
-     "agent": "rooms:new-vessel+3",
-     "step": "Wait for the truth check over every state"
-    }
-   ]
-  },
-  {
-   "job": "Film reader",
-   "done": 0,
-   "of": 1,
-   "running": [
-    {
-     "agent": "build:absorb",
-     "step": "Wait for tests, build and the first clip"
-    }
-   ]
-  },
-  {
-   "job": "Design systems",
-   "done": 0,
-   "of": 5,
-   "running": [
-    {
-     "agent": "teardown:ZgpMtombn9A",
-     "step": "Localise the strongest sound effects with Earshot sub-windows"
-    },
-    {
-     "agent": "teardown:sJiaWNxYFUA",
-     "step": ""
-    },
-    {
-     "agent": "teardown:oRBu7wYuOSo",
-     "step": "Wait for frames"
-    },
-    {
-     "agent": "teardown:G4w-a8NgnnQ",
-     "step": "Keep waiting for lock jobs"
-    },
-    {
-     "agent": "teardown:HmuQoak_IAg",
-     "step": "Rebuild and validate all JSON outputs"
-    }
-   ]
-  },
-  {
-   "job": "Guard, voice, 3D, PR loop",
-   "done": 0,
-   "of": 6,
-   "running": [
-    {
-     "agent": "facts:wave",
-     "step": "Get upload date and description of two creator videos"
-    },
-    {
-     "agent": "pr-loop:build",
-     "step": "See a skill.json params change in PR 3"
-    },
-    {
-     "agent": "teardown:sJiaWNxYFUA (again)",
-     "step": "Wait up to ten minutes for pass 1 frames"
-    },
-    {
-     "agent": "build:fresh",
-     "step": "Write channels.json"
-    },
-    {
-     "agent": "build:money",
-     "step": "Adjust outline section targets to sum 2,800"
-    },
-    {
-     "agent": "build:voice",
-     "step": "Inspect stock English voices"
-    }
-   ]
-  },
-  {
-   "job": "Fine comb",
-   "done": 0,
-   "of": 1,
-   "running": [
-    {
-     "agent": "build:comb",
-     "step": ""
-    }
-   ]
-  }
- ],
- "workshop": "up",
+ "as_of": "08:18 EAT, Wed 25 Nov 2026",
+ "workshop": "down",
+ "jobs": [],
  "pull_requests": [
+  {
+   "number": 27,
+   "title": "Rules agents read: WORKER.md, Ambi's eye, the film-harvest row",
+   "state": "OPEN",
+   "checks": [
+    "",
+    "SUCCESS"
+   ],
+   "opened": "2026-11-25T04:48:35Z",
+   "merged": null,
+   "added": 21,
+   "removed": 0
+  },
+  {
+   "number": 26,
+   "title": "juju-sound: a film's sound, heard by Earshot",
+   "state": "OPEN",
+   "checks": [
+    "",
+    "FAILURE",
+    "SKIPPED",
+    "SUCCESS"
+   ],
+   "opened": "2026-11-25T04:20:03Z",
+   "merged": null,
+   "added": 1240,
+   "removed": 0
+  },
+  {
+   "number": 25,
+   "title": "juju-gather: a bare card to sourced facts, tables, pictures",
+   "state": "OPEN",
+   "checks": [
+    "",
+    "SUCCESS"
+   ],
+   "opened": "2026-11-25T04:18:42Z",
+   "merged": null,
+   "added": 2503,
+   "removed": 0
+  },
+  {
+   "number": 24,
+   "title": "juju-next: grounded cards, two sealed readers, one journal",
+   "state": "OPEN",
+   "checks": [
+    "",
+    "SUCCESS"
+   ],
+   "opened": "2026-11-25T04:18:29Z",
+   "merged": null,
+   "added": 8100,
+   "removed": 854
+  },
+  {
+   "number": 23,
+   "title": "Style kits and their checker, as they are",
+   "state": "OPEN",
+   "checks": [
+    "",
+    "SUCCESS"
+   ],
+   "opened": "2026-11-25T04:17:42Z",
+   "merged": null,
+   "added": 5284,
+   "removed": 0
+  },
+  {
+   "number": 22,
+   "title": "scripts/harvest and ADR 0021: take a film apart",
+   "state": "OPEN",
+   "checks": [
+    "",
+    "SUCCESS"
+   ],
+   "opened": "2026-11-25T04:17:36Z",
+   "merged": null,
+   "added": 2153,
+   "removed": 0
+  },
+  {
+   "number": 21,
+   "title": "juju-sigil: thumbnails from a film's own data, gates in code",
+   "state": "OPEN",
+   "checks": [
+    "",
+    "SUCCESS"
+   ],
+   "opened": "2026-11-25T04:15:12Z",
+   "merged": null,
+   "added": 1378,
+   "removed": 0
+  },
+  {
+   "number": 20,
+   "title": "Skill film-harvest: take a film apart, with its rows and pins",
+   "state": "MERGED",
+   "checks": [
+    "",
+    "SKIPPED",
+    "SUCCESS"
+   ],
+   "opened": "2026-11-24T23:33:38Z",
+   "merged": "2026-11-25T00:14:22Z",
+   "added": 5730,
+   "removed": 0
+  },
+  {
+   "number": 19,
+   "title": "Six looks: One Ink and Downlink in, with their fonts and tools",
+   "state": "MERGED",
+   "checks": [
+    "",
+    "SKIPPED",
+    "SUCCESS"
+   ],
+   "opened": "2026-11-24T20:57:39Z",
+   "merged": "2026-11-24T21:14:07Z",
+   "added": 1305,
+   "removed": 560
+  },
+  {
+   "number": 18,
+   "title": "Pack spirit-tongue 0.3.0: numbers, event times, needs, facts told",
+   "state": "MERGED",
+   "checks": [
+    "",
+    "SKIPPED",
+    "SUCCESS"
+   ],
+   "opened": "2026-11-24T20:15:31Z",
+   "merged": "2026-11-24T23:46:56Z",
+   "added": 104,
+   "removed": 43
+  },
+  {
+   "number": 17,
+   "title": "ADR 0017: Ambi's gates of 16:48",
+   "state": "MERGED",
+   "checks": [
+    "",
+    "SKIPPED",
+    "SUCCESS"
+   ],
+   "opened": "2026-11-24T19:53:01Z",
+   "merged": "2026-11-24T20:12:34Z",
+   "added": 7,
+   "removed": 0
+  },
+  {
+   "number": 16,
+   "title": "The job queue: eight side by side, the load is not asked",
+   "state": "MERGED",
+   "checks": [
+    "",
+    "SUCCESS"
+   ],
+   "opened": "2026-11-24T19:49:40Z",
+   "merged": "2026-11-24T20:11:58Z",
+   "added": 7,
+   "removed": 7
+  },
+  {
+   "number": 15,
+   "title": "A head keeps its train light while a later train runs",
+   "state": "CLOSED",
+   "checks": [
+    "SKIPPED",
+    "SUCCESS"
+   ],
+   "opened": "2026-11-24T19:49:32Z",
+   "merged": null,
+   "added": 23,
+   "removed": 6
+  },
+  {
+   "number": 14,
+   "title": "ADR 0020: one unit, one pull request, one round",
+   "state": "MERGED",
+   "checks": [
+    "",
+    "SKIPPED",
+    "SUCCESS"
+   ],
+   "opened": "2026-11-24T19:30:23Z",
+   "merged": "2026-11-24T19:59:07Z",
+   "added": 23,
+   "removed": 3
+  },
+  {
+   "number": 13,
+   "title": "Ambi's ear table and the script lessons, under docs",
+   "state": "MERGED",
+   "checks": [
+    "",
+    "SUCCESS"
+   ],
+   "opened": "2026-11-24T19:22:17Z",
+   "merged": "2026-11-24T19:59:02Z",
+   "added": 41,
+   "removed": 0
+  },
+  {
+   "number": 12,
+   "title": "Conductor: keep or revert, one step up, Earshot hears the mix",
+   "state": "MERGED",
+   "checks": [
+    "",
+    "SKIPPED",
+    "SUCCESS"
+   ],
+   "opened": "2026-11-24T17:34:34Z",
+   "merged": "2026-11-24T19:48:46Z",
+   "added": 542,
+   "removed": 51
+  },
+  {
+   "number": 11,
+   "title": "Run-until-done contract: worker contract, exit predicate, attempt log",
+   "state": "MERGED",
+   "checks": [
+    "",
+    "SKIPPED",
+    "SUCCESS"
+   ],
+   "opened": "2026-11-24T15:03:40Z",
+   "merged": "2026-11-24T19:02:25Z",
+   "added": 1283,
+   "removed": 8
+  },
+  {
+   "number": 10,
+   "title": "Integration 24 Nov",
+   "state": "MERGED",
+   "checks": [
+    "",
+    "SKIPPED",
+    "SUCCESS"
+   ],
+   "opened": "2026-11-24T13:59:06Z",
+   "merged": "2026-11-24T19:48:07Z",
+   "added": 64252,
+   "removed": 1698
+  },
+  {
+   "number": 9,
+   "title": "PR gauntlet: merge train, gate checks without a model, review states",
+   "state": "MERGED",
+   "checks": [
+    "",
+    "FAILURE",
+    "SUCCESS"
+   ],
+   "opened": "2026-11-24T11:05:30Z",
+   "merged": "2026-11-24T19:48:10Z",
+   "added": 1284,
+   "removed": 2
+  },
   {
    "number": 8,
    "title": "One command to see balances and models",
-   "state": "OPEN",
+   "state": "MERGED",
    "checks": [
+    "",
     "SUCCESS"
    ],
    "opened": "2026-11-24T10:05:07Z",
-   "merged": null,
+   "merged": "2026-11-24T19:48:09Z",
    "added": 30,
    "removed": 2
   },
   {
    "number": 7,
    "title": "The sample film the rooms are drawn from",
-   "state": "OPEN",
+   "state": "MERGED",
    "checks": [
+    "",
     "SUCCESS"
    ],
    "opened": "2026-11-24T10:04:58Z",
-   "merged": null,
+   "merged": "2026-11-24T19:48:09Z",
    "added": 5951,
    "removed": 2
   },
   {
    "number": 6,
    "title": "Library of Tehuti channel record and variety rules",
-   "state": "OPEN",
+   "state": "MERGED",
    "checks": [
+    "",
     "SUCCESS"
    ],
    "opened": "2026-11-24T10:04:43Z",
-   "merged": null,
+   "merged": "2026-11-24T19:48:10Z",
    "added": 2519,
    "removed": 2
   },
   {
    "number": 5,
    "title": "Reliquary: patient archives, fewer wrong refusals, tests compile again",
-   "state": "OPEN",
+   "state": "MERGED",
    "checks": [
+    "",
     "SUCCESS"
    ],
    "opened": "2026-11-24T10:04:33Z",
-   "merged": null,
+   "merged": "2026-11-24T19:48:09Z",
    "added": 84,
    "removed": 37
   },
   {
    "number": 4,
    "title": "Decision record: fixed money, looks, taste",
-   "state": "OPEN",
+   "state": "MERGED",
    "checks": [
+    "",
     "SUCCESS"
    ],
    "opened": "2026-11-24T10:04:23Z",
-   "merged": null,
+   "merged": "2026-11-24T19:48:10Z",
    "added": 34,
    "removed": 2
   },
   {
    "number": 3,
    "title": "Quiet screens: names and verbs only, checked by code",
-   "state": "OPEN",
+   "state": "MERGED",
    "checks": [
+    "",
     "SUCCESS"
    ],
    "opened": "2026-11-24T10:04:13Z",
-   "merged": null,
+   "merged": "2026-11-24T19:48:10Z",
    "added": 1292,
    "removed": 19
   },
   {
    "number": 2,
    "title": "Script gates, rounds 3 and 4",
-   "state": "OPEN",
+   "state": "MERGED",
    "checks": [
+    "",
     "SUCCESS"
    ],
    "opened": "2026-11-24T10:04:03Z",
-   "merged": null,
+   "merged": "2026-11-24T19:48:10Z",
    "added": 4319,
    "removed": 133
   },
   {
    "number": 1,
    "title": "Workspace list is a glob",
-   "state": "OPEN",
+   "state": "MERGED",
    "checks": [
+    "",
     "SUCCESS"
    ],
    "opened": "2026-11-24T09:48:14Z",
-   "merged": null,
+   "merged": "2026-11-24T19:48:09Z",
    "added": 15,
    "removed": 2
   }
  ],
  "ledger": {
-  "calls": 1188,
-  "usd_total": 0.8778,
+  "calls": 5824,
+  "usd_total": 6.0071,
   "usd_by_service": {
-   "deepseek": 0.4004,
-   "openrouter": 0.2951,
-   "google": 0.1822
+   "deepseek": 1.9606,
+   "openrouter": 2.997,
+   "google": 0.5074,
+   "inworld": 0.2357,
+   "unsettled": 0.1355,
+   "lead-test": 0.0,
+   "wavespeed": 0.171
   }
  },
  "service_calls": {
   "deepseek": {
-   "ok": 824,
-   "refused_or_failed": 1,
-   "last_ok": "24 Nov 13:43 EAT"
+   "ok": 2753,
+   "refused_or_failed": 13,
+   "last_ok": "25 Nov 08:11 EAT"
   },
   "openrouter": {
-   "ok": 351,
-   "refused_or_failed": 1,
-   "last_ok": "24 Nov 13:40 EAT"
+   "ok": 2901,
+   "refused_or_failed": 45,
+   "last_ok": "25 Nov 08:18 EAT"
   },
   "google": {
-   "ok": 7,
-   "refused_or_failed": 4,
-   "last_ok": "24 Nov 13:13 EAT"
+   "ok": 11,
+   "refused_or_failed": 7,
+   "last_ok": "24 Nov 14:25 EAT"
+  },
+  "inworld": {
+   "ok": 78,
+   "refused_or_failed": 1,
+   "last_ok": "24 Nov 17:43 EAT"
+  },
+  "unsettled": {
+   "ok": 0,
+   "refused_or_failed": 7,
+   "last_ok": null
+  },
+  "lead-test": {
+   "ok": 0,
+   "refused_or_failed": 3,
+   "last_ok": null
+  },
+  "wavespeed": {
+   "ok": 5,
+   "refused_or_failed": 0,
+   "last_ok": "25 Nov 00:37 EAT"
   }
  },
- "skills": 46,
+ "skills": 52,
  "rust": {
   "juju-absorb": {
    "files": 15,
    "lines": 1288
   },
+  "juju-cli": {
+   "files": 24,
+   "lines": 3367
+  },
   "juju-conduct": {
    "files": 26,
-   "lines": 5116
+   "lines": 5165
   },
   "juju-core": {
    "files": 3,
    "lines": 127
+  },
+  "juju-db": {
+   "files": 16,
+   "lines": 2095
+  },
+  "juju-gather": {
+   "files": 23,
+   "lines": 2821
+  },
+  "juju-next": {
+   "files": 14,
+   "lines": 5150
   },
   "juju-reliquary": {
    "files": 10,
@@ -274,39 +454,193 @@
    "files": 11,
    "lines": 2878
   },
+  "juju-serve": {
+   "files": 22,
+   "lines": 3236
+  },
+  "juju-sigil": {
+   "files": 13,
+   "lines": 1287
+  },
   "juju-skills": {
    "files": 1,
    "lines": 62
   },
+  "juju-sound": {
+   "files": 11,
+   "lines": 1098
+  },
   "juju-stage": {
-   "files": 30,
-   "lines": 2419
+   "files": 35,
+   "lines": 3219
   }
  },
- "rust_lines": 12812,
+ "rust_lines": 32715,
  "rooms": 19,
- "decisions": 9,
+ "decisions": 19,
  "apk_files": 0,
- "design_libraries": [],
+ "design_libraries": [
+  "camera_motion.json",
+  "fonts",
+  "house",
+  "kits",
+  "looks",
+  "palettes.json",
+  "proof",
+  "proto",
+  "work-camera_motion",
+  "work-palettes",
+  "work-quotes",
+  "work-surfaces_light",
+  "work-typography"
+ ],
  "teardowns": {
-  "G4w-a8NgnnQ": 6,
+  "G4w-a8NgnnQ": 7,
   "HmuQoak_IAg": 8,
-  "ZgpMtombn9A": 13,
+  "ZgpMtombn9A": 17,
   "oRBu7wYuOSo": 0,
-  "sJiaWNxYFUA": 0
+  "sJiaWNxYFUA": 2
  },
  "main_commits": [
-  "e0115bd 24 Nov 10:33 Decision: the software first, no channel drives the build",
-  "ac48384 24 Nov 10:16 Test renders and fetched pictures leave the repo; latest crates, flow specs, names",
-  "a723ab9 24 Nov 10:12 LOT daily, effort knob, on-screen names",
-  "05d3a20 24 Nov 09:20 Speed skill, art studies, stage engine test 1 (cheap-model films scored about 4 of 10), gate and truth check",
-  "3e91606 24 Nov 08:46 Decisions of 24 Nov: own repo, LOT is 50 minute documentaries and old LOT is not a source, TTS-2 with pauses in the edit",
-  "74942a3 24 Nov 08:44 Juju: first save. Master brief, 33 skills, juju-core and juju-skills crates, 19 mocked rooms with kit and gate, stage form, open risks."
+  "3aec0e3 25 Nov 08:12 juju-db: simulation and receipt of the binary",
+  "2bc945b 25 Nov 08:04 juju-db: the package line tells and does not hold; a killed writer hides no film; rules and counts brought up to date",
+  "13b8a06 25 Nov 07:22 juju-db: receipt of the binary",
+  "b6dfdd8 25 Nov 07:22 juju-db: every blocking fault of the review fixed, the simulation over the whole vault",
+  "cf2a0e5 25 Nov 06:50 juju-db: no film more alike one of another niche than unrelated published films are; title and silhouette apart; the run folder fills the record",
+  "62e5ec7 25 Nov 05:57 juju-db: the review of 25 Nov, WIP: one lock for a deal, killed runs, film numbers, the story of every film, spoken words only, brands across the vault",
+  "d0f07e1 25 Nov 05:26 juju-next: receipt",
+  "9e42859 25 Nov 05:26 juju-next: subjects tried are only those judged, readers see 340 words back, no writing without room for both readings",
+  "a3dfd48 25 Nov 05:09 juju-next 0.5.0: truth held word by word and sealed to two readings, pictures from their own records, bends on the donor's shape, one journal; no hand is dealt yet",
+  "9be3910 25 Nov 04:16 juju-db: receipt of the binary",
+  "a966d48 25 Nov 04:16 juju-db: every refusal listed, the window rule's sources, the report of 25 November",
+  "1815e3d 25 Nov 03:52 juju-db: receipt of the binary"
  ],
+ "finish_check": "2 of 23 clauses true, so not done",
+ "film_runs": "3 DONE, 3 FAILED, 19 HOLD",
+ "attempts": "236 kept, 33 reverted, 40 inconclusive",
+ "clauses": [
+  {
+   "clause": "trunk.no_open_prs",
+   "ok": false,
+   "detail": "7 open pull requests"
+  },
+  {
+   "clause": "trunk.main_is_origin_and_clean",
+   "ok": false,
+   "detail": "branch main, ahead 16, behind 77, uncommitted files outside runs/ 229"
+  },
+  {
+   "clause": "trunk.gate_open_at_head",
+   "ok": false,
+   "detail": "no receipt; make it: scripts/exit-predicate gate"
+  },
+  {
+   "clause": "app.server_answers",
+   "ok": true,
+   "detail": "/api/health (local page) gave {\"ok\":true} 200"
+  },
+  {
+   "clause": "app.core_rooms_walked_live_both_sizes",
+   "ok": false,
+   "detail": "0 of 22 room and size pairs pressed; no walk yet; make it: scripts/exit-predicate walk"
+  },
+  {
+   "clause": "app.zero_dead_controls",
+   "ok": false,
+   "detail": "not known: 0 of 22 room and size pairs were pressed"
+  },
+  {
+   "clause": "app.zero_layout_faults",
+   "ok": false,
+   "detail": "not known: 0 of 22 room and size pairs were pressed"
+  },
+  {
+   "clause": "app.zero_page_errors",
+   "ok": false,
+   "detail": "not known: 0 of 22 room and size pairs were pressed"
+  },
+  {
+   "clause": "app.soon_marks_at_most_two",
+   "ok": false,
+   "detail": "could not be read: ValueError: not known: 0 of 22 room and size pairs were pressed"
+  },
+  {
+   "clause": "app.zero_sample_tags",
+   "ok": false,
+   "detail": "could not be read: ValueError: not known: 0 of 22 room and size pairs were pressed"
+  },
+  {
+   "clause": "app.receipt_is_of_this_head",
+   "ok": false,
+   "detail": "walk made at None with None uncommitted files, now 3aec0e3 with 229, no-paid None"
+  },
+  {
+   "clause": "film.exists_10_to_20_min_with_picture_and_sound",
+   "ok": false,
+   "detail": "could not be read: ValueError: ffprobe: runs/films/ten/final.mp4: No such file or directory"
+  },
+  {
+   "clause": "film.loudness_minus_14_lufs",
+   "ok": false,
+   "detail": "could not be read: ValueError: ffprobe: runs/films/ten/final.mp4: No such file or directory"
+  },
+  {
+   "clause": "money.ledger_within_cap",
+   "ok": true,
+   "detail": "6.0071 spent and 0.0000 held of 10.00 US over 5824 rows (cap file 10.0, Ambi's ceiling 10.0)"
+  },
+  {
+   "clause": "film.voice_is_inworld_real_calls",
+   "ok": false,
+   "detail": "could not be read: ValueError: FINAL.json names no ledger_times for the voice"
+  },
+  {
+   "clause": "film.wavespeed_thumbnail_real",
+   "ok": false,
+   "detail": "could not be read: ValueError: FINAL.json names no ledger_times for the thumbnail"
+  },
+  {
+   "clause": "film.render_at_most_1_0_s_per_film_s",
+   "ok": false,
+   "detail": "could not be read: ValueError: render.json is missing or empty"
+  },
+  {
+   "clause": "film.earshot_heard_it_real_sound",
+   "ok": false,
+   "detail": "could not be read: ValueError: earshot.json is missing or empty"
+  },
+  {
+   "clause": "film.timing_laws_measured",
+   "ok": false,
+   "detail": "could not be read: ValueError: timing.json is missing or empty"
+  },
+  {
+   "clause": "film.zero_visual_faults_by_code",
+   "ok": false,
+   "detail": "could not be read: ValueError: faults.json is missing or empty"
+  },
+  {
+   "clause": "film.blind_sheet_passes",
+   "ok": false,
+   "detail": "could not be read: ValueError: blind.json is missing or empty"
+  },
+  {
+   "clause": "film.lead_pass",
+   "ok": false,
+   "detail": "could not be read: ValueError: LEAD-PASS.json is missing or empty"
+  },
+  {
+   "clause": "film.root_countersign",
+   "ok": false,
+   "detail": "could not be read: ValueError: ROOT-PASS.json is missing or empty"
+  }
+ ],
+ "newest_runs": "strip-bulgaria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-austria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-manchuria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-pluto HOLD 25 Nov 08:08 (stopped at Render and mix); thru-mughal HOLD 25 Nov 08:06 (stopped at Pictures and form); otto-chron-3 HOLD 25 Nov 08:06 (stopped at Pictures and form); strip-mughal DONE 25 Nov 07:59 (60 s, 0.008507 US); thru-japan HOLD 25 Nov 07:46 (stopped at Pictures and form); thru-space HOLD 25 Nov 07:46 (stopped at Pictures and form); strip-japan HOLD 25 Nov 07:43 (stopped at Pictures and form); otto-chron-2 DONE 25 Nov 07:39 (60 s, 0.001904 US); strip-jerusalem FAILED 25 Nov 07:36 (stopped at Script and heal)",
+ "live_agents": 9,
  "load": [
-  44,
-  53,
-  61
+  87,
+  71,
+  69
  ],
- "sheet_written": false
+ "sheet_written": true
 }

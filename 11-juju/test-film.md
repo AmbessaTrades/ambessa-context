@@ -1,3 +1,5 @@
+> **State of 24 Nov, 13:10.** Later facts win: [worked-and-failed](worked-and-failed.md), [../10-now/now.md](../10-now/now.md).
+
 # Test film run: minting, voting, research and script writing
 
 As of 13:10 EAT, 24 Nov 2026. Source: test-film workflow e65c58b0 (mint, vote, research, outline, outline critics, act writing), file G.

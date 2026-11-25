@@ -1,3 +1,5 @@
+> **State of 24 Nov, 13:10.** Later facts win: [worked-and-failed](worked-and-failed.md), [../10-now/now.md](../10-now/now.md).
+
 # Juju script gates: lint, story, claims, and four attack rounds
 
 As of 13:10 EAT, 24 Nov 2026. Source: workflow a workflow (juju-script build, then attack and fix rounds 1 to 4).

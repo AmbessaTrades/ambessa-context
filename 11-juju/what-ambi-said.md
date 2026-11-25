@@ -1,6 +1,46 @@
-# What Ambi said, 24 November 2026
+# What Ambi said, 24 and 25 November 2026
 
 His own words, lightly trimmed, voice-to-text slips kept out. Newest of two that conflict wins. Times are EAT. Private remarks are left out.
+
+## Since 13:45 on 24 November (newest direction; this part wins over the older one below)
+
+**The goal**
+- "remember thr main goal is good, complete videos." (23:03) "remember the videos come through the juju." (23:08) "make the best possible app that produces videos we need." (23:10)
+- Ready means "a full MP4 with sound voice thumbnail publish kit an excellent superhero quality"; "it could be 10 minutes could be 20 minutes could be 30 minutes could be 50 minutes and well architectured, it's well ideated, game changer. Right whether I pick or paste a subject one tap." (18:45)
+- "We need to have a video out by an hour. So whether it's a 20 minute, 15 minute, 30 minute, 50 minute video. Like one hour render times, max [...] an hour and a half max." Close the app, reopen it, see the progress. (15:53)
+- "Why can't we make 20 minute videos, 30 minute videos, 50 minute videos that are just good?" (23:43) "You're stuck on like 10 seconds, 20 second clips [...] You don't understand pacing [...] you don't have the script skeletons." (23:56)
+
+**Strengths and looks**
+- "Why don't we play to our strengths? World maps. And science channels are excellent bro." Three to six niches, nine at most, or bring it down to three or four, "all with different design systems slightly altered", refined "30 million times". (14:53)
+- On the two engine clips: "they're both great [...] quite professional"; "the font systems are a little bit basic"; "there's nothing that unique about it"; more personality; different voices. (15:24)
+- "That style of video can only work for Claude [...] our software won't be running on what you're running on. So we should drop that." "We need extreme amounts of leverage with the quality." (13:54)
+- "I hate the obvious stuff. Whenever something is obvious I'd rather just choose another niche." (13:51)
+- The dot strip: "the worst looking thing ive ever seen. lean into our strengths in terms of design systems our software biases towards and uses as options." (23:17) "the galactic empires vid can do more, its just the burger thing looked nothing like it whatsoever, in no way at all, derived." (23:23)
+
+**Learning from films**
+- "It seems like you're still not able to reverse engineer a video [...] they're not able to harvest design systems. And it seems like you don't have the right mental models or frameworks for the type of language that will translate into motion graphics." (23:43)
+- The plan, in his words: strong models reverse engineer "9 to 12 key videos", "extract their systems", "a bunch of layers of different systems that were visually verified", then "give it to the lesser models so they don't have to think that much about the processes, they just have to execute, with different mixing and matching". A pasted video becomes "an amalgamation of design systems that are similar to that", or is reverse engineered. "This is the gold right here." (23:56)
+- "475K in 15 hrs dude on a new channel [...] Supreme storyboarding." "Can our software make that video? [...] our software can create four different styles", "four to six design systems that have all studied and evolved from" it. The AI-and-enlightenment film: ideation "excellent", visuals "not that interesting". (21:08)
+- Silent map films: "there's a lot of ideation in storyboarding that exists in the videos [...] that don't have a transcript." (21:03)
+
+**Scripts**
+- "The sun gave nothing. What kind of slop is that? [...] take scriptwriting skeletons from scripts of videos you watched [...] Understand the skeleton behind them and then you can multiply and use different bends and structures." "Not say weird random poetic words that doesn't connect to anyone, no matter the niche." (20:57)
+- "How does the script and story writing have character? How could we make the flow feel unrobotic if we're doing a daily post?" Think to the fifth, sixth, seventh layer. (15:24)
+- "I don't think checks are enough [...] that video should never feel robotic [...] how do we improve our taste metrics?" "95 can be proven by 4 p.m and it must be." (18:45)
+
+**The app and the phone**
+- "We don't want any sections of this app that's like not in use [...] coming soon." One or two at most. (15:53)
+- "There's a whole host of buttons that just are unconfigured and all messy and don't work and not wired in properly [...] they need like their own fleets." (18:45)
+- The phone app exports by itself: "kind of like how CapCut does it [...] if the Wi-Fi or the data cut out it wouldn't really make that much of a difference"; the two apps "are in isolation"; "That should not be the build after 4 p.m." (18:45)
+- "gimmie some new snapshots of the app and its flow button clicks etc... full" (01:15)
+
+**How to work**
+- "Never inflate agent counts to please me." Live against queued, plainly; "7 to 10 tight lanes" over "40 noisy workers". (16:49)
+- "Prove on the live surface." "One change, one measurement, keep or revert." No mid-run essays; run until the exit check is true. (17:44)
+- "use your judgement": take his taste notes "with a grain of salt". (14:27)
+- "I feel we used too many tokens today with too little output." (about 18:20) "With the same amount of tokens [...] people are doing those things." (23:56)
+- "remove 1 job at a time limit." (20:07) Test money: "10 total through tomorrow, that works." (18:45)
+- 25 Nov 07:39: "any good news at all i just woke up hows the software, give me report bullet point simple".
 
 ## What the software must be
 

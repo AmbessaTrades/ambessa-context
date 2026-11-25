@@ -1,11 +1,18 @@
 # Juju, page by page
 
-Built 24 November 2026, 13:30 EAT. "Copied" pages follow the Juju repo by themselves. "Reader" pages were written by Haiku readers from the agents' raw
+Updated 25 November 2026, 08:15 EAT. Pages marked reader were written 24 Nov 13:10 and keep that date: for anything that moves, [worked-and-failed](worked-and-failed.md) and the newest sheet win. "Copied" pages follow the Juju repo by themselves. "Reader" pages were written by Haiku readers from the agents' raw
 results at 13:10 and edited by the lead of this repo: they report what agents claim. Read the newest sheet in `../10-now/now.md` beside them.
 
 | Page | What you get | Kind |
 |---|---|---|
-| [decisions/](decisions/README.md) | Nine decisions with Ambi's words and what each replaces | copied |
+| [worked-and-failed.md](worked-and-failed.md) | Breakthroughs, refusals, causes, laws, 24 to 25 Nov | hand |
+| [ambi-eye.md](ambi-eye.md) · [ambi-ear.md](ambi-ear.md) | What he refused and praised, word for word: the bar for every judge | copied |
+| [engine-gaps.md](engine-gaps.md) | The ten drawing abilities the engine lacks, ranked | copied |
+| [harvest-score.md](harvest-score.md) · [harvest-language.md](harvest-language.md) · [films-seen/](films-seen/README.md) | How well each tool sees a film; the closed film language; key films read whole | copied |
+| [buttons.md](buttons.md) | Every control in the app and its state | copied |
+| [taste-panel.md](taste-panel.md) · [runtime-loop.md](runtime-loop.md) · [hillclimb.md](hillclimb.md) · [live-proof.md](live-proof.md) | How work is judged, improved and proven | copied |
+| [audit-2026-11-24.md](audit-2026-11-24.md) | Where a day of tokens went | copied |
+| [decisions/](decisions/README.md) | Nineteen decisions with Ambi's words and what each replaces | copied |
 | [what-ambi-said.md](what-ambi-said.md) | His direction of 24 Nov, by subject | hand |
 | [open-questions.md](open-questions.md) | What is unsettled, unproven or blocked | hand |
 | [money-and-stack.md](money-and-stack.md) | The 135 CAD, balances, what each service does and cost so far | hand |

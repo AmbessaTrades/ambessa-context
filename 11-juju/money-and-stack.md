@@ -1,5 +1,26 @@
 # Money and the paid stack
 
+## Now (08:15 EAT, 25 Nov)
+
+**About 5.98 US of the 10.00 US test limit is spent** (Measured by the ledger at 07:46; the limit is Ambi's, through 25 Nov 16:00). 5,712 ledger rows. The live figure is in [../10-now/now.md](../10-now/now.md).
+
+| Model | Calls | US | Used for |
+|---|---|---|---|
+| DeepSeek Flash, direct | 2,712 | 1.94 | scripts, forms, checks, most tests |
+| Gemini 4 Neon, through OpenRouter | 56 | 1.17 | whole drafts |
+| GLM 5.3 | 902 | 0.90 | judging and drafts |
+| Gemini 4 Neon, direct | 18 | 0.51 | first route proofs |
+| Jev 1.14 | 1,165 | 0.20 | picture checks |
+| GLM 5.3 Flash, Qwen, Luna, Gemini Flash-Lite, others | about 780 | 0.75 | blind judges of other families |
+| Inworld voice (two models) | 79 | 0.24 | test voice only; no film is voiced |
+| WaveSpeed thumbnails | 5 | 0.17 | the free code-drawn thumbnail won the blind vote |
+| Unsettled holds | 7 | 0.14 | booked at worst price |
+
+One finished one-minute silent film: 0.068 US the first time, 0.002 to 0.009 when earlier paid work is reused (Measured). Voice before the lead passes a film is gated to 0.30 US; about 0.15 is left. 50 minute voice is refused until a 10 minute film passes.
+**The cost of building** is a different number: 24 Nov used 2.44 billion model tokens, about 2,600 US at assumed list prices (Estimated), on Ambi's subscription, against 3.26 US on Juju's own models that day. [audit](audit-2026-11-24.md)
+
+The rest of this page is 24 Nov, 13:30.
+
 As of 13:30 EAT, 24 November 2026. Live spend: [../10-now/status.json](../10-now/status.json). Measured detail: [stack-status.md](stack-status.md).
 
 ## The sum

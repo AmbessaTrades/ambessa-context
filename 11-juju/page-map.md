@@ -1,3 +1,5 @@
+> **State of 24 Nov, 13:10.** Later facts win: [worked-and-failed](worked-and-failed.md), [../10-now/now.md](../10-now/now.md).
+
 # Juju page map: the 19 rooms
 
 As of 13:10 EAT, 24 Nov 2026. Source: flow specs in `mockups/flow` (journeys.json, order.json) and the walk, repair and board-judge jobs of the same pass.

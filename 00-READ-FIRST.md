@@ -1,23 +1,25 @@
 # 00 — Read first
 
-Rewritten 24 November 2026, 13:30 EAT. For the newest state read [10-now/now.md](10-now/now.md), rewritten every two hours.
+Rewritten 25 November 2026, 08:15 EAT. For the newest state read [10-now/now.md](10-now/now.md), rewritten every two hours.
 
-## In five lines
+## In six lines
 
 1. **The one project is Juju**: paste a channel or a video, and it makes films of that kind, in our own way, from script to finished file.
 2. It is private: two people use it. No customers, no subscriptions. The channels it runs earn the money.
 3. The build began on 24 Nov 2026 from a long master brief by Ambi. One lead agent directs many workers on one Mac.
-4. **There is no finished film and no APK yet.** Screens are drawn, the engine draws test scenes, five paid services are funded and have keys.
-5. Ambi's rule for the build: "start trying to figure out how to make the software good."
+4. **Juju makes a one-minute silent film by itself since 25 Nov 06:45. None is good yet.** No voice in a real film, nothing at 10 minutes or longer, no APK handed over. The finish check is 2 of 23.
+5. Ambi's order on the night of 24 Nov: "remember thr main goal is good, complete videos" and "remember the videos come through the juju".
+6. The working idea since midnight (ADR 0021): strong models take 12 key films apart once; cheap models then only choose and fill.
 
 ## Reading order
 
 1. [10-now/now.md](10-now/now.md): what changed in the last two hours, what is broken, what waits on Ambi.
 2. [02-the-software.md](02-the-software.md): what Juju is and what exists today.
-3. [11-juju/decisions/](11-juju/decisions/README.md): nine decisions. They outrank the brief.
+3. [11-juju/worked-and-failed.md](11-juju/worked-and-failed.md): every breakthrough and refusal, with pictures. Then [10-now/films.md](10-now/films.md): every film run.
+   [11-juju/decisions/](11-juju/decisions/README.md): nineteen decisions. They outrank the brief.
 4. [11-juju/what-ambi-said.md](11-juju/what-ambi-said.md): his words, dated.
 5. [11-juju/open-questions.md](11-juju/open-questions.md): what is not settled. Help is most useful here.
-6. [09-assets/library/LIBRARY.md](09-assets/library/LIBRARY.md): look at pictures 105 onward before saying anything about the look.
+6. [09-assets/library/LIBRARY.md](09-assets/library/LIBRARY.md): look at pictures 196 onward first (worked, refused, films, the app pressed for real), then 105 to 195.
 
 Then the page for your task: [11-juju/README.md](11-juju/README.md) lists them all.
 

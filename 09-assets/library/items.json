@@ -1635,8 +1635,8 @@
  {
   "n": 194,
   "file": "194-storyboard-top-24-nov-13-46.jpg",
-  "section": "Juju — parts and art",
-  "caption": "storyboard top · 24 Nov 13:46",
+  "section": "Juju — refused or failed",
+  "caption": "REFUSED by Ambi 13:51: storyboard pictures drawn as shapes by code, ours beside the cheap model's. garbage, and Claude made this · 24 Nov 13:46",
   "source": "mockups/show/storyboard-top.jpg",
   "sha": "409016667cadd168",
   "added": "2026-11-24 13:50 EAT"
@@ -1649,5 +1649,518 @@
   "source": "runs/stage-y/stages-sheet-8.jpg",
   "sha": "f1538b16bfdb2e39",
   "added": "2026-11-24 13:50 EAT"
+ },
+ {
+  "n": 196,
+  "file": "196-looks-six-24-nov-19-32.jpg",
+  "section": "Juju — worked",
+  "caption": "Six looks as data (One Ink, Survey File, Bartholomew, Signal, Ledger, Downlink), composite stills. Two merged; four are candidates · 24 Nov 19:32",
+  "source": "mockups/show/looks-six.jpg",
+  "sha": "b5c3170844c5fba6",
+  "added": "2026-11-25 07:55 EAT"
+ },
+ {
+  "n": 197,
+  "file": "197-palettes-36-24-nov-14-29.jpg",
+  "section": "Juju — refused or failed",
+  "caption": "REFUSED by Ambi 14:33: 36 palettes, terrible, just like some slideshows, 2017. Cut to 11 · 24 Nov 14:29",
+  "source": "mockups/show/palettes-36.jpg",
+  "sha": "a15d465649a8af32",
+  "added": "2026-11-25 07:55 EAT"
+ },
+ {
+  "n": 198,
+  "file": "198-teardown-zgpmtombn9a-24-nov-13-54.jpg",
+  "section": "Teardowns",
+  "caption": "hands, AI's Strange Obsession with Enlightenment, 16 moments. Another maker's film, for study: Ambi calls its idea excellent, its visuals not that interesting · 24 Nov 13:54",
+  "source": "mockups/show/teardown-ZgpMtombn9A.jpg",
+  "sha": "3dc8b9eee2962495",
+  "added": "2026-11-25 07:59 EAT"
+ },
+ {
+  "n": 199,
+  "file": "199-otto-chron-2-done-by-its-own-checks-60-s-asked.jpg",
+  "section": "Juju — films it made by itself",
+  "caption": "otto-chron-2, DONE by its own checks, 60 s, sound, kit; 0.002 US new, 14.4 min. Lead: not good. Tiny words, blocky coasts, one colour on grey, Belgrade captured shown at 1499, invaded Syria sits on Istanbul · 25 Nov 07:40",
+  "source": "film:otto-chron-2",
+  "sha": "81f3845c1a240e72",
+  "added": "2026-11-25 07:59 EAT"
+ },
+ {
+  "n": 200,
+  "file": "200-otto-silent-2-done-by-its-own-checks-60-s-aske.jpg",
+  "section": "Juju — films it made by itself",
+  "caption": "otto-silent-2, the FIRST real film out of juju make, 60 s, 11 of 11 stages, 0.068 US, 17.2 min. Lead: works, not good. No words, stretches where nothing changes, modern country names, a doubtful number · 25 Nov 06:45",
+  "source": "film:otto-silent-2",
+  "sha": "352f5031cd2ec7f2",
+  "added": "2026-11-25 08:00 EAT"
+ },
+ {
+  "n": 201,
+  "file": "201-make-mongols-how-the-mongol-empire-grew-1-min-.jpg",
+  "section": "Juju — films it made by itself",
+  "caption": "make-mongols: How the Mongol Empire grew. 1 min silent. FAILED, 9 of 11 stages worked (no slot, no sound). 9.2 machine minutes, 0.063 US. First near-whole film · 25 Nov 00:54",
+  "source": "made here: film-make-mongols.jpg",
+  "sha": "69a9ce105bffb9c1",
+  "added": "2026-11-25 08:02 EAT"
+ },
+ {
+  "n": 202,
+  "file": "202-thumbnail-juju-made-for-otto-chron-2-shifting-.jpg",
+  "section": "Juju — films it made by itself",
+  "caption": "Thumbnail Juju made for otto-chron-2, Shifting Frontier. Passed its code checks; not judged by a person · 25 Nov",
+  "source": "runs/spine/otto-chron-2/thumbnail.jpg",
+  "sha": "6cf500700e34aa65",
+  "added": "2026-11-25 08:02 EAT"
+ },
+ {
+  "n": 203,
+  "file": "203-thumbnail-juju-made-for-otto-silent-2-no-words.jpg",
+  "section": "Juju — films it made by itself",
+  "caption": "Thumbnail Juju made for otto-silent-2. No words, a pink blob on a map: thin · 25 Nov",
+  "source": "runs/spine/otto-silent-2/thumbnail.jpg",
+  "sha": "af7c2726012aff33",
+  "added": "2026-11-25 08:02 EAT"
+ },
+ {
+  "n": 204,
+  "file": "204-thumbnail-juju-made-for-make-mongols-thin-one-.jpg",
+  "section": "Juju — films it made by itself",
+  "caption": "Thumbnail Juju made for make-mongols. Thin: one shape, no idea · 25 Nov",
+  "source": "runs/spine/make-mongols/thumbnail.jpg",
+  "sha": "25e69b4b7a966d41",
+  "added": "2026-11-25 08:02 EAT"
+ },
+ {
+  "n": 205,
+  "file": "205-test-film-of-20-29-24-nov-africa-1956-to-1960-.jpg",
+  "section": "Juju — films it made by itself",
+  "caption": "Test film of 20:29, 24 Nov: Africa 1956 to 1960. Silent and from a fixed test script, so it is not a Juju film",
+  "source": "runs/spine/20261124-202922-5d8e/review-1.jpg",
+  "sha": "126f6949c49f64e9",
+  "added": "2026-11-25 08:02 EAT"
+ },
+ {
+  "n": 206,
+  "file": "206-map-engine-clip-20-frames-ambi-15-24-24-nov-on.jpg",
+  "section": "Juju — worked",
+  "caption": "Map engine clip, 20 frames. Ambi 15:24 24 Nov on the first cut: both great. Faults he named: jump cuts, plain type, text habit. This is the re-cut of 16:09",
+  "source": "made here: clip-map-2.jpg",
+  "sha": "a31efd3104467841",
+  "added": "2026-11-25 08:02 EAT"
+ },
+ {
+  "n": 207,
+  "file": "207-space-engine-clip-20-frames-ambi-15-24-24-nov-.jpg",
+  "section": "Juju — worked",
+  "caption": "Space engine clip, 20 frames. Ambi 15:24 24 Nov on the first cut: both great. This is the re-cut of 16:10",
+  "source": "made here: clip-space-2.jpg",
+  "sha": "b3812ff1e87d911d",
+  "added": "2026-11-25 08:02 EAT"
+ },
+ {
+  "n": 208,
+  "file": "208-map-clip-third-cut-with-three-looks-as-data-25.jpg",
+  "section": "Juju — worked",
+  "caption": "Map clip, third cut, with three looks as data · 25 Nov 00:02. Not judged by Ambi",
+  "source": "made here: clip-map-3.jpg",
+  "sha": "8bab8e3328412115",
+  "added": "2026-11-25 08:02 EAT"
+ },
+ {
+  "n": 209,
+  "file": "209-space-clip-third-cut-with-three-looks-as-data-.jpg",
+  "section": "Juju — worked",
+  "caption": "Space clip, third cut, with three looks as data · 25 Nov 00:02. Not judged by Ambi",
+  "source": "made here: clip-space-3.jpg",
+  "sha": "faf50317fe41572d",
+  "added": "2026-11-25 08:02 EAT"
+ },
+ {
+  "n": 210,
+  "file": "210-look-one-ink-on-the-map-engine-merged-to-main-.jpg",
+  "section": "Juju — worked",
+  "caption": "Look One Ink on the map engine. Merged to main as PR 19 · 25 Nov",
+  "source": "runs/engines/next/look-map-one-ink.jpg",
+  "sha": "75929eab00b119e8",
+  "added": "2026-11-25 08:02 EAT"
+ },
+ {
+  "n": 211,
+  "file": "211-look-downlink-on-the-space-engine-merged-to-ma.jpg",
+  "section": "Juju — worked",
+  "caption": "Look Downlink on the space engine. Merged to main as PR 19 · 25 Nov",
+  "source": "runs/engines/next/look-space-downlink.jpg",
+  "sha": "62de29f37a0cee69",
+  "added": "2026-11-25 08:02 EAT"
+ },
+ {
+  "n": 212,
+  "file": "212-look-bartholomew-1875-on-the-map-engine-candid.jpg",
+  "section": "Juju — worked",
+  "caption": "Look Bartholomew 1875 on the map engine. Candidate · 25 Nov",
+  "source": "runs/engines/next/look-map-bartholomew-1875.jpg",
+  "sha": "326d689b6e8c9b76",
+  "added": "2026-11-25 08:02 EAT"
+ },
+ {
+  "n": 213,
+  "file": "213-look-survey-file-on-the-map-engine-candidate-2.jpg",
+  "section": "Juju — worked",
+  "caption": "Look Survey File on the map engine. Candidate · 25 Nov",
+  "source": "runs/engines/next/look-map-survey-file.jpg",
+  "sha": "d0d5a87a9aa3ddf3",
+  "added": "2026-11-25 08:02 EAT"
+ },
+ {
+  "n": 214,
+  "file": "214-look-ledger-on-the-space-engine-candidate-25-n.jpg",
+  "section": "Juju — worked",
+  "caption": "Look Ledger on the space engine. Candidate · 25 Nov",
+  "source": "runs/engines/next/look-space-ledger.jpg",
+  "sha": "20c162cdd4b6d051",
+  "added": "2026-11-25 08:02 EAT"
+ },
+ {
+  "n": 215,
+  "file": "215-look-signal-on-the-space-engine-candidate-25-n.jpg",
+  "section": "Juju — worked",
+  "caption": "Look Signal on the space engine. Candidate · 25 Nov",
+  "source": "runs/engines/next/look-space-signal.jpg",
+  "sha": "805ec98e306d49ed",
+  "added": "2026-11-25 08:02 EAT"
+ },
+ {
+  "n": 216,
+  "file": "216-thumbnail-crate-after-repair-maps-no-longer-cu.jpg",
+  "section": "Juju — worked",
+  "caption": "Thumbnail crate after repair: maps no longer cut off. 29 of 29 code checks · 25 Nov 03:03",
+  "source": "runs/sigil/faults/after-maps.jpg",
+  "sha": "65560cc130fb1af5",
+  "added": "2026-11-25 08:03 EAT"
+ },
+ {
+  "n": 217,
+  "file": "217-thumbnail-crate-after-repair-real-letters-in-c.jpg",
+  "section": "Juju — worked",
+  "caption": "Thumbnail crate after repair: real letters in Cyrillic and Vietnamese, whole subjects · 25 Nov 03:03",
+  "source": "runs/sigil/faults/after-finals.jpg",
+  "sha": "7cb2d0814753efda",
+  "added": "2026-11-25 08:03 EAT"
+ },
+ {
+  "n": 218,
+  "file": "218-free-code-drawn-thumbnail-hour-14-beat-the-pai.jpg",
+  "section": "Juju — worked",
+  "caption": "Free code-drawn thumbnail, Hour 14. Beat the paid one in blind votes (WaveSpeed run 0.117 US) · 24 Nov",
+  "source": "runs/sigil/ten/thumb/final.jpg",
+  "sha": "186540b763e5a322",
+  "added": "2026-11-25 08:03 EAT"
+ },
+ {
+  "n": 219,
+  "file": "219-thumbnail-from-a-real-photograph-autumn-passed.jpg",
+  "section": "Juju — worked",
+  "caption": "Thumbnail from a real photograph, Autumn. Passed code checks, no person has judged it · 25 Nov",
+  "source": "runs/sigil/bees-p5/thumb/final.jpg",
+  "sha": "33d68f929aa7446a",
+  "added": "2026-11-25 08:03 EAT"
+ },
+ {
+  "n": 220,
+  "file": "220-thumbnail-from-real-pictures-one-storm-passed-.jpg",
+  "section": "Juju — worked",
+  "caption": "Thumbnail from real pictures, One Storm. Passed code checks, no person has judged it · 25 Nov",
+  "source": "runs/sigil/extra-scale/thumb/final.jpg",
+  "sha": "cdf0124866afef0d",
+  "added": "2026-11-25 08:03 EAT"
+ },
+ {
+  "n": 221,
+  "file": "221-the-ten-minute-film-s-thumbnail-in-a-feed-besi.jpg",
+  "section": "Juju — worked",
+  "caption": "The ten-minute film's thumbnail in a feed beside published ones (others' thumbnails are theirs) · 24 Nov 18:08",
+  "source": "runs/films/ten/thumb/feed.jpg",
+  "sha": "dab933437ef1089a",
+  "added": "2026-11-25 08:03 EAT"
+ },
+ {
+  "n": 222,
+  "file": "222-house-strip-the-lungs-before-repair-family-wit.jpg",
+  "section": "Juju — worked",
+  "caption": "House strip, the lungs, before repair: family with the galactic-empires film, liked by the lead and judges in part; flat paper blobs read as clip-art · 25 Nov",
+  "source": "runs/house/evidence/before-strip-3.jpg",
+  "sha": "f629642a23df52bd",
+  "added": "2026-11-25 08:03 EAT"
+ },
+ {
+  "n": 223,
+  "file": "223-house-strip-the-lungs-after-repair-real-scans-.jpg",
+  "section": "Juju — worked",
+  "caption": "House strip, the lungs, after repair: real scans and solid lungs in a wire box. Awaiting its judges · 25 Nov",
+  "source": "runs/house/evidence/frames-strip-3.jpg",
+  "sha": "08a1cf0a6e2a432a",
+  "added": "2026-11-25 08:03 EAT"
+ },
+ {
+  "n": 224,
+  "file": "224-house-strip-egypt-and-the-nile-before-repair-b.jpg",
+  "section": "Juju — worked",
+  "caption": "House strip, Egypt and the Nile, before repair: best single pictures of the night, but modern lakes under 1400 BCE · 25 Nov 05:51",
+  "source": "runs/house/evidence/before-strip-1.jpg",
+  "sha": "b62c5b2fe25b6826",
+  "added": "2026-11-25 08:03 EAT"
+ },
+ {
+  "n": 225,
+  "file": "225-house-strip-egypt-and-the-nile-after-repair-ho.jpg",
+  "section": "Juju — worked",
+  "caption": "House strip, Egypt and the Nile, after repair: honest satellite dates, relief lifted off the map. Awaiting its judges · 25 Nov",
+  "source": "runs/house/evidence/stills-strip-1.jpg",
+  "sha": "9c738f8f1c7ea996",
+  "added": "2026-11-25 08:04 EAT"
+ },
+ {
+  "n": 226,
+  "file": "226-looks-beside-published-frames-planets-and-star.jpg",
+  "section": "Juju — worked",
+  "caption": "Looks beside published frames, Planets and Stars and Maps That Move; three empty seats wait for harvested systems · 25 Nov 00:49",
+  "source": "design/house/SHEET.jpg",
+  "sha": "30af76385f3d5d43",
+  "added": "2026-11-25 08:04 EAT"
+ },
+ {
+  "n": 227,
+  "file": "227-ideas-ladder-twenty-titles-the-ticked-ones-pas.jpg",
+  "section": "Juju — worked",
+  "caption": "Ideas ladder: twenty titles, the ticked ones passed the idea check (a model judged) · 24 Nov 15:56",
+  "source": "runs/character/ladder/ladder-20.jpg",
+  "sha": "84513ffb3438c9f3",
+  "added": "2026-11-25 08:04 EAT"
+ },
+ {
+  "n": 228,
+  "file": "228-twenty-four-title-and-thumbnail-packages-drawn.jpg",
+  "section": "Juju — worked",
+  "caption": "Twenty-four title and thumbnail packages drawn by code from map and space kits. Candidates · 24 Nov 18:02",
+  "source": "mockups/show/packages-24.jpg",
+  "sha": "344e761e6973d2d3",
+  "added": "2026-11-25 08:04 EAT"
+ },
+ {
+  "n": 229,
+  "file": "229-sixty-film-variety-before-and-after-repeats-sp.jpg",
+  "section": "Juju — worked",
+  "caption": "Sixty-film variety before and after: repeats spread out. A simulation, not films · 24 Nov 14:59",
+  "source": "mockups/show/fresh-sixty.jpg",
+  "sha": "e2fb3415d6ad92eb",
+  "added": "2026-11-25 08:05 EAT"
+ },
+ {
+  "n": 230,
+  "file": "230-script-flow-of-published-films-beside-ours-by-.jpg",
+  "section": "Juju — worked",
+  "caption": "Script flow of published films beside ours, by kind of sentence. Ours miss turns · 24 Nov 14:58",
+  "source": "mockups/show/skeleton-flow.jpg",
+  "sha": "0b318526f123d632",
+  "added": "2026-11-25 08:05 EAT"
+ },
+ {
+  "n": 231,
+  "file": "231-refused-by-ambi-23-17-the-mcdonald-s-dot-strip.jpg",
+  "section": "Juju — refused or failed",
+  "caption": "REFUSED by Ambi 23:17: the McDonald's dot strip, the worst looking thing ive ever seen. The lead had praised it. No trace of the film it was meant to learn from · 24 Nov",
+  "source": "runs/hero/first-look-strip-4.jpg",
+  "sha": "f6e9a99e6568c7b5",
+  "added": "2026-11-25 08:05 EAT"
+ },
+ {
+  "n": 232,
+  "file": "232-blind-sheet-3-ours-026-027-030-032-034-035-036.jpg",
+  "section": "Juju — refused or failed",
+  "caption": "Blind sheet 3. Ours: 026 027 030 032 034 035 036 (028 is published). Judges caught 53 of 53 of our frames. Ambi liked 036 · 24 Nov 14:20",
+  "source": "mockups/show/eye-sheet-03.jpg",
+  "sha": "63ab0c636ea7adee",
+  "added": "2026-11-25 08:05 EAT"
+ },
+ {
+  "n": 233,
+  "file": "233-the-tells-found-in-our-frames-type-on-type-wro.jpg",
+  "section": "Juju — refused or failed",
+  "caption": "The tells found in our frames: type on type, wrong name, highlight cut, map that stops, added light · 24 Nov 14:57",
+  "source": "mockups/show/tells-found.jpg",
+  "sha": "5e409eb2fe9a2495",
+  "added": "2026-11-25 08:05 EAT"
+ },
+ {
+  "n": 234,
+  "file": "234-the-20-minute-money-plan-of-14-10-inworld-runs.jpg",
+  "section": "Juju — refused or failed",
+  "caption": "The 20-minute money plan of 14:10: Inworld runs out, minus 2.80, at day 56 of 60. An estimate, superseded by the 2,400-word cap · 24 Nov",
+  "source": "mockups/show/money-20.jpg",
+  "sha": "638c301cf032b073",
+  "added": "2026-11-25 08:05 EAT"
+ },
+ {
+  "n": 235,
+  "file": "235-house-strip-refused-by-all-four-judges-orion-a.jpg",
+  "section": "Juju — refused or failed",
+  "caption": "House strip REFUSED by all four judges: Orion as a brown wedge, a broken chart · 25 Nov 06:45",
+  "source": "runs/house/evidence/before-strip-2.jpg",
+  "sha": "b951a8766b954e93",
+  "added": "2026-11-25 08:05 EAT"
+ },
+ {
+  "n": 236,
+  "file": "236-orion-strip-after-one-repair-now-a-dark-line-c.jpg",
+  "section": "Juju — refused or failed",
+  "caption": "Orion strip after one repair: now a dark line chart. Film drawn whole, not judged yet · 25 Nov 07:40",
+  "source": "made here: film-house-strip-2.jpg",
+  "sha": "7bd9049f749a0faf",
+  "added": "2026-11-25 08:05 EAT"
+ },
+ {
+  "n": 237,
+  "file": "237-thumbnail-faults-a-reviewer-found-maps-cut-at-.jpg",
+  "section": "Juju — refused or failed",
+  "caption": "Thumbnail faults a reviewer found: maps cut at the edge · 25 Nov 01:37",
+  "source": "runs/sigil/faults/before-maps.jpg",
+  "sha": "bf0d8ccd6773424d",
+  "added": "2026-11-25 08:05 EAT"
+ },
+ {
+  "n": 238,
+  "file": "238-thumbnail-faults-a-reviewer-found-empty-boxes-.jpg",
+  "section": "Juju — refused or failed",
+  "caption": "Thumbnail faults a reviewer found: empty boxes for letters it had no font for, a grey blob, half bees · 25 Nov 01:37",
+  "source": "runs/sigil/faults/before-words-half-bees.jpg",
+  "sha": "a1d2317078330843",
+  "added": "2026-11-25 08:06 EAT"
+ },
+ {
+  "n": 239,
+  "file": "239-paid-wavespeed-picture-for-the-ten-minute-film.jpg",
+  "section": "Juju — refused or failed",
+  "caption": "Paid WaveSpeed picture for the ten-minute film (medium). Not used: the free drawing won · 24 Nov 17:53",
+  "source": "runs/films/ten/thumb/buys/p2-sea-medium.jpg",
+  "sha": "9d89ae56ad7128fa",
+  "added": "2026-11-25 08:06 EAT"
+ },
+ {
+  "n": 240,
+  "file": "240-gather-lane-check-ottoman-map-frames-a-number-.jpg",
+  "section": "Juju — refused or failed",
+  "caption": "Gather lane check, Ottoman map frames: a number that shrinks and grows wrongly, modern lands · 25 Nov 05:32",
+  "source": "runs/through/probe/gather-otto.jpg",
+  "sha": "cc7e39bec2b614b8",
+  "added": "2026-11-25 08:06 EAT"
+ },
+ {
+  "n": 241,
+  "file": "241-otto-silent-2-stretches-where-nothing-changes-.jpg",
+  "section": "Juju — refused or failed",
+  "caption": "otto-silent-2 stretches where nothing changes for 4 to 12 seconds · 25 Nov 06:26",
+  "source": "runs/through/look2/three.jpg",
+  "sha": "ff083c86a8abf493",
+  "added": "2026-11-25 08:06 EAT"
+ },
+ {
+  "n": 242,
+  "file": "242-looks-beside-the-hero-film-ours-and-theirs-thr.jpg",
+  "section": "Juju — refused or failed",
+  "caption": "Looks beside the hero film: ours and theirs. Three rows still empty: nothing harvested yet · 25 Nov 03:01",
+  "source": "runs/scriptlab/looks/SIDE.jpg",
+  "sha": "cf8193d396aa1443",
+  "added": "2026-11-25 08:06 EAT"
+ },
+ {
+  "n": 243,
+  "file": "243-nine-kinds-of-stage-drawn-in-a-probe-the-old-s.jpg",
+  "section": "Juju — refused or failed",
+  "caption": "Nine kinds of stage drawn in a probe: the old sepia sameness · 24 Nov 20:32",
+  "source": "runs/kits/probe/nine-sheet.jpg",
+  "sha": "6d2be5f472a323e7",
+  "added": "2026-11-25 08:06 EAT"
+ },
+ {
+  "n": 244,
+  "file": "244-desktop-altar-crossroads-card-proof-pact-cauld.jpg",
+  "section": "Juju — the app, pressed for real",
+  "caption": "Desktop: altar, crossroads, card proof, pact, cauldron, pact from a typed idea · 25 Nov 01:23",
+  "source": "made here: app-web-1.jpg",
+  "sha": "4d05931dbcd94c97",
+  "added": "2026-11-25 08:06 EAT"
+ },
+ {
+  "n": 245,
+  "file": "245-desktop-what-is-missing-conjuring-spell-strip-.jpg",
+  "section": "Juju — the app, pressed for real",
+  "caption": "Desktop: what is missing, conjuring, spell strip, publish kit, films. Every path ends at the same practice minute · 25 Nov 01:24",
+  "source": "made here: app-web-2.jpg",
+  "sha": "61bfd8e8ba703de2",
+  "added": "2026-11-25 08:06 EAT"
+ },
+ {
+  "n": 246,
+  "file": "246-desktop-not-finished-new-vessel-mirror-bend-br.jpg",
+  "section": "Juju — the app, pressed for real",
+  "caption": "Desktop, NOT FINISHED: new vessel, mirror bend (broken picture), feed sight (empty), tank (drawn jars) · 25 Nov",
+  "source": "made here: app-web-3-unfinished.jpg",
+  "sha": "a6ef48e9236b8c44",
+  "added": "2026-11-25 08:06 EAT"
+ },
+ {
+  "n": 247,
+  "file": "247-phone-size-altar-crossroads-proof-pact-conjuri.jpg",
+  "section": "Juju — the app, pressed for real",
+  "caption": "Phone size: altar, crossroads, proof, pact, conjuring, cauldron · 25 Nov 01:26",
+  "source": "made here: app-phone-1.jpg",
+  "sha": "c34807879556c9e1",
+  "added": "2026-11-25 08:06 EAT"
+ },
+ {
+  "n": 248,
+  "file": "248-phone-size-pact-spell-strip-publish-kit-films-.jpg",
+  "section": "Juju — the app, pressed for real",
+  "caption": "Phone size: pact, spell strip, publish kit, films, length, missing · 25 Nov 01:27",
+  "source": "made here: app-phone-2.jpg",
+  "sha": "b37f3eec191d3dae",
+  "added": "2026-11-25 08:07 EAT"
+ },
+ {
+  "n": 249,
+  "file": "249-phone-size-not-finished-new-vessel-mirror-bend.jpg",
+  "section": "Juju — the app, pressed for real",
+  "caption": "Phone size, NOT FINISHED: new vessel, mirror bend (broken picture), feed sight, tank · 25 Nov",
+  "source": "made here: app-phone-3-unfinished.jpg",
+  "sha": "21f812207e754ed8",
+  "added": "2026-11-25 08:07 EAT"
+ },
+ {
+  "n": 250,
+  "file": "250-others-thumbnails-the-ai-and-enlightenment-fil.jpg",
+  "section": "Teardowns",
+  "caption": "Others' thumbnails: the AI-and-enlightenment film beside what else its feed held. Study only · 24 Nov 15:29",
+  "source": "mockups/show/package-ZgpMtombn9A-vs-rest.jpg",
+  "sha": "3365c21a4435e220",
+  "added": "2026-11-25 08:07 EAT"
+ },
+ {
+  "n": 251,
+  "file": "251-milky-stellar-and-atticus-king-packages-and-th.jpg",
+  "section": "Teardowns",
+  "caption": "Milky Stellar and Atticus King packages and the feed around them. Study only · 24 Nov 15:27",
+  "source": "mockups/show/expand-G4w-a8NgnnQ.jpg",
+  "sha": "71486385a9e5464a",
+  "added": "2026-11-25 08:07 EAT"
+ },
+ {
+  "n": 252,
+  "file": "252-strip-mughal-done-by-its-own-checks-60-s-asked.jpg",
+  "section": "Juju — films it made by itself",
+  "caption": "strip-mughal, DONE by its own checks: the first new subject to reach a file. 60 s silent, 0.009 US, 15.8 machine minutes. Seen by the writer of this repo: tiny words, 14 s of bare land before colour, dull · 25 Nov 08:08",
+  "source": "film:strip-mughal",
+  "sha": "648c9ac28411a9d3",
+  "added": "2026-11-25 08:09 EAT"
  }
 ]

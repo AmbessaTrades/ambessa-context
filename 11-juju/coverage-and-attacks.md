@@ -1,3 +1,5 @@
+> **State of 24 Nov, 13:10.** Later facts win: [worked-and-failed](worked-and-failed.md), [../10-now/now.md](../10-now/now.md).
+
 # Juju: ability coverage, three skeptic attacks, and the round-1 room review
 
 As of 13:10 EAT, 24 Nov 2026. Source: workflow outputs a workflow (ability map, merge and three attacks) and a workflow (five room reviews).
