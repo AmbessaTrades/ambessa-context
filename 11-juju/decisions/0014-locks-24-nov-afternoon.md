@@ -1,5 +1,7 @@
 # 0014 Locks of 24 Nov, afternoon
 
+> **25 Nov 2026 (ADR 0022):** for map films item 1's 20 minutes is about 30, item 6's cream parchment is out, item 11's timing is `juju-maps/grammar.json`, and item 8's frame-failing check reports instead. Item 4 (no subtitle) is open: the map engine draws one line of subtitle (`docs/STACK-MOVE.md`).
+
 > Working document. Subject to change through continued conversation. Nothing here is a requirement until Ambi says so.
 
 **Status:** accepted (Ambi, 24 Nov 2026, about 14:30 EAT: "Lock these decisions and visual fixes in right now"). Binding for every worker. Where an older file differs, this one wins.

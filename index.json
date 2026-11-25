@@ -1,7 +1,7 @@
 {
  "name": "ambessa-context",
  "what": "The working context of one project, Juju, for an AI that cannot see Ambi's computer.",
- "rebuilt": "12:29 EAT, Wed 25 Nov 2026",
+ "rebuilt": "14:31 EAT, Wed 25 Nov 2026",
  "read_order": [
   "00-READ-FIRST.md",
   "01-context.txt",
@@ -20,7 +20,7 @@
   },
   {
    "path": "01-context.txt",
-   "bytes": 14581
+   "bytes": 15362
   },
   {
    "path": "02-the-software.md",
@@ -56,7 +56,7 @@
   },
   {
    "path": "08-journal/recent.md",
-   "bytes": 115125
+   "bytes": 118912
   },
   {
    "path": "09-assets/.DS_Store",
@@ -1168,7 +1168,7 @@
   },
   {
    "path": "10-now/attempts.md",
-   "bytes": 46958
+   "bytes": 45974
   },
   {
    "path": "10-now/films.md",
@@ -1176,15 +1176,15 @@
   },
   {
    "path": "10-now/history.md",
-   "bytes": 71118
+   "bytes": 79694
   },
   {
    "path": "10-now/now.html",
-   "bytes": 11212
+   "bytes": 12010
   },
   {
    "path": "10-now/now.md",
-   "bytes": 10042
+   "bytes": 10823
   },
   {
    "path": "10-now/pull-requests.md",
@@ -1192,7 +1192,7 @@
   },
   {
    "path": "10-now/status.json",
-   "bytes": 15343
+   "bytes": 15346
   },
   {
    "path": "11-juju/README.md",
@@ -1252,7 +1252,7 @@
   },
   {
    "path": "11-juju/decisions/0004-lot-50-minutes-no-old-lot.md",
-   "bytes": 1018
+   "bytes": 1130
   },
   {
    "path": "11-juju/decisions/0005-tts2-pauses-in-the-edit.md",
@@ -1276,7 +1276,7 @@
   },
   {
    "path": "11-juju/decisions/0010-twenty-minute-films.md",
-   "bytes": 4510
+   "bytes": 4620
   },
   {
    "path": "11-juju/decisions/0012-strengths-only-no-stand-in-drawings.md",
@@ -1284,7 +1284,7 @@
   },
   {
    "path": "11-juju/decisions/0014-locks-24-nov-afternoon.md",
-   "bytes": 5325
+   "bytes": 5628
   },
   {
    "path": "11-juju/decisions/0015-one-running-world.md",
@@ -1292,11 +1292,11 @@
   },
   {
    "path": "11-juju/decisions/0016-rip-and-replay.md",
-   "bytes": 3975
+   "bytes": 4159
   },
   {
    "path": "11-juju/decisions/0017-fleets.md",
-   "bytes": 3150
+   "bytes": 3281
   },
   {
    "path": "11-juju/decisions/0018-poteto-constitution.md",
@@ -1304,7 +1304,7 @@
   },
   {
    "path": "11-juju/decisions/0019-ready-at-four.md",
-   "bytes": 3423
+   "bytes": 3619
   },
   {
    "path": "11-juju/decisions/0020-small-prs-one-round.md",
@@ -1316,7 +1316,7 @@
   },
   {
    "path": "11-juju/decisions/0022-juju-maps.md",
-   "bytes": 1882
+   "bytes": 1948
   },
   {
    "path": "11-juju/decisions/README.md",
@@ -1332,11 +1332,11 @@
   },
   {
    "path": "11-juju/engine-stage-form.md",
-   "bytes": 4212
+   "bytes": 4422
   },
   {
    "path": "11-juju/engine-worlds.md",
-   "bytes": 11717
+   "bytes": 11872
   },
   {
    "path": "11-juju/film-engine.md",
@@ -1404,7 +1404,7 @@
   },
   {
    "path": "11-juju/live-proof.md",
-   "bytes": 4040
+   "bytes": 4283
   },
   {
    "path": "11-juju/lot-variety.md",
@@ -1436,7 +1436,7 @@
   },
   {
    "path": "11-juju/runtime-loop.md",
-   "bytes": 3693
+   "bytes": 3977
   },
   {
    "path": "11-juju/screens-and-art.md",
@@ -1448,11 +1448,11 @@
   },
   {
    "path": "11-juju/skills.md",
-   "bytes": 10528
+   "bytes": 11607
   },
   {
    "path": "11-juju/stack-status.md",
-   "bytes": 11695
+   "bytes": 11924
   },
   {
    "path": "11-juju/surfaces.md",

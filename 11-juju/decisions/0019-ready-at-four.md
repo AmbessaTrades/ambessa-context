@@ -1,5 +1,7 @@
 # 0019 What ready means, 25 Nov 2026 16:00 EAT
 
+> **25 Nov 2026:** the test cap in item 5 is 15.00 US in all since 13:55 (Ambi: "go over if you need to, dont worry. we can redo have a 15$ budget instead"); `runs/meter/cap.json` is the number.
+
 > Working document. Subject to change through continued conversation. Nothing here is a requirement until Ambi says so.
 
 **Status:** Ambi's answers to interview round 1, 24 Nov 2026 about 18:48 EAT. His words are quoted; the rest is the lead's reading.

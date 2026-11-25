@@ -1,5 +1,7 @@
-<!-- copied from the Juju repo: docs/STACK-STATUS.md, last changed 14:10 EAT, 24 Nov 2026. Private lines removed. Do not edit here. -->
+<!-- copied from the Juju repo: docs/STACK-STATUS.md, last changed 14:15 EAT, 25 Nov 2026. Private lines removed. Do not edit here. -->
 # Stack status: what each paid route really does and costs
+
+> **Prices and routes of 24 Nov 2026. Map films since 25 Nov:** `docs/COSTS-MAPS.md` (measured), routes in `docs/STACK-MOVE.md`. The wallets and the route proofs below are still the record; GLM and Jev are not in the map chain.
 
 > Working document. Subject to change through continued conversation. Nothing here is a requirement until Ambi says so.
 > 24 Nov 2026, 09:50 to 10:03 UTC. **Measured** = a call made today, in `runs/meter/ledger.jsonl`. **Listed** = a vendor page or price list. **Said** = Ambi's word. **Assumed** = neither.

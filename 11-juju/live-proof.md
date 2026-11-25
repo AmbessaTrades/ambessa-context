@@ -1,5 +1,7 @@
-<!-- copied from the Juju repo: docs/poteto/live-proof.md, last changed 19:38 EAT, 24 Nov 2026. Private lines removed. Do not edit here. -->
+<!-- copied from the Juju repo: docs/poteto/live-proof.md, last changed 14:15 EAT, 25 Nov 2026. Private lines removed. Do not edit here. -->
 # Live proof: what counts as finished
+
+> **Map films (25 Nov 2026, ADR 0022):** the film is in `juju-maps/films/<name>`; read its frames with `scripts/opon.py` on every take. The receipts and pass lines below are unchanged and still name `runs/films` (open: `docs/STACK-MOVE.md`).
 
 A thing is finished when the real thing was run and a receipt on disk shows it. `scripts/exit-predicate` reads the
 receipts below. The maker writes the receipt with the tool named. A verifier who did not make it reruns the tool.

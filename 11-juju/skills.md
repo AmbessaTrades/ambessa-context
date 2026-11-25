@@ -1,6 +1,6 @@
 # The Juju skills
 
-As of 12:29 EAT, Wed 25 Nov 2026. One folder per skill in the private repo (`crates/juju-skills/packs`), each a page for agents plus a JSON the app embeds. Agents use them while building; the app must act on them while making a film. Bodies stay private; this is the map.
+As of 14:31 EAT, Wed 25 Nov 2026. One folder per skill in the private repo (`crates/juju-skills/packs`), each a page for agents plus a JSON the app embeds. Agents use them while building; the app must act on them while making a film. Bodies stay private; this is the map.
 
 | Skill | What it does, and when |
 |---|---|
@@ -32,9 +32,12 @@ As of 12:29 EAT, Wed 25 Nov 2026. One folder per skill in the private repo (`cra
 | `machete-razor` | Machete Razor: cut the extra part, and undecided means no. Use when a change adds a part, two working designs compete, or a writing model's instructions grow. |
 | `memoir-swarm-handoff` | Memoir receipts around Juju agent waves. Use when starting, closing or handing over a wave of Juju sub-agents, or when picking up Juju work mid-way. |
 | `mirror-bend-thumbsy-transmuter` | Mirror Bend: measure the layout of a winning thumbnail and redraw it as 3 variants in a Vessel's own dialect. Use when a donor picture or video link becomes our thumbnail. |
+| `moko-and-duppy` | Moko and Duppy: the map film's three looks as closed systems, dark satellite (Duppy Night) and low poly (Moko Day, Moko Dusk). Use when a look is chosen for a map film, when a sentence needs its act, or when someone asks which model, if any, may stand on the land. |
 | `no-tell-frames` | No-tell frames: find and remove the signs that give a film still away as machine-made, from three blind judges' own words. Use when a still is drawn, before a blind sheet, or when a judge catches a frame. |
 | `nuance-forge` | Nuance Forge: find the instruction lines a cheap model misreads, prove it with runs, repair them. Use when a pack's model text is new or changed, or answers to one line disagree. |
+| `nyansapo-ladder` | Nyansapo Ladder: think ten layers down before a word is written or a picture chosen; no first-layer line, no label that repeats the voice. Use when a script, a storyboard, a title or a beat is made, or when one feels obvious, machine-made, or like an explainer. |
 | `offering-o1-o6-typst-forge` | The Offering: choose, build and describe a companion product (codex, wall chart, sim, world bible, case vault, limited relic). Use when demand appears or a product needs checking. |
+| `opon-sight` | Opon Sight: read the frames of any film while it is being made, measure its motion against its words, find the faults with their seconds, fix, draw again. Use on every render of every film, and on every film that is studied. |
 | `reliquary-jev-archival-hunter` | Reliquary: find, licence-check and score real archive pictures and footage for a film's beats. Use when a beat needs a real still or clip, or a picture's rights are in doubt. |
 | `resting-shelf-15video-guard` | Rest used material and keep the film clock. Use before an outline, when a script seals, or when voice, sparse radio, silent or dry-run timing is built. |
 | `ripple-sight` | Ripple Sight: prove each consequence follows from the last, in scripts and in spending. Use when a drafted script's stakes feel vague, or a paid call or paid habit is planned. |
@@ -51,6 +54,7 @@ As of 12:29 EAT, Wed 25 Nov 2026. One folder per skill in the private repo (`cra
 | `title-thumb-twin` | Title-thumb twin: fill one closed form that holds the title and the thumbnail together, then check it in code. Use when a title needs its picture, a package is rejected, or a thumbnail repeats its title. |
 | `v0-cohort-desync-solver` | V0 rotation: deal (S, O, R, T, P) under H1 to H6. Use when a run starts, a sibling channel joins a niche, a thumbnail repeats, or a script seals. |
 | `value-alchemy` | Value Alchemy: judge an offer by outcome, certainty, delay and effort, each from a counted fact, and compute channel eRPM. Use when an offer is chosen, compared or forecast. |
+| `veve-gait` | Vèvè Gait: cut a map film as one drawing on the ground: one hero, held views, one new thing for each clause, moves made in the pauses. Use when a map or geography film is storyboarded, paced or recut, or an edit feels jumpy, empty or corny. |
 | `voice-vm01-elder-brother` | Write as the elder brother of Library of Tehuti. Use when a vessel's voice is VM_01, a Library of Tehuti script is written or edited, or its voice call is set. |
 | `voice-vm02-jacopist-dispatch` | Write a dated world-log dispatch. Use when a vessel's voice is VM_02, or a hard-science scenario, investigation or disaster chronicle is scripted. |
 | `voice-vm03-polyphonic-stage` | Write scenes as rival speakers. Use when a vessel's voice is VM_03, a two-voice map debate is scripted, or a history group chat is written. |

@@ -1,5 +1,7 @@
 # 0016 Rip and replay: measure the pasted film, play the measurements
 
+> **25 Nov 2026 (ADR 0022):** the engine for maps is now `juju-maps/`, and its edit is measured on one donor (`grammar.json`). Cloning a film's words, drawings or marks is still out.
+
 > Working document. Subject to change through continued conversation. Nothing here is a requirement until Ambi says so.
 
 **Status:** the product's core as Ambi restated it, 24 Nov 2026: "Again, this is about Juju being able to rip design

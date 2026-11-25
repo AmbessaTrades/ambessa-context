@@ -1,5 +1,7 @@
-<!-- copied from the Juju repo: docs/poteto/runtime-loop.md, last changed 19:38 EAT, 24 Nov 2026. Private lines removed. Do not edit here. -->
+<!-- copied from the Juju repo: docs/poteto/runtime-loop.md, last changed 14:15 EAT, 25 Nov 2026. Private lines removed. Do not edit here. -->
 # The loop inside Juju
+
+> **Map films (25 Nov 2026, ADR 0022 item 7):** in `juju-maps/` a check reports and the render goes on. What stops: the money cap; a sentence with no source (left out); a picture without rights (left out); Ambi's click to publish. The loop below is `crates/juju-conduct`, unchanged.
 
 How Juju's own models make a film with nobody watching, on the Mac or the phone. This is the same discipline the
 builders follow, held by `crates/juju-conduct` in code. A rule here that is only prose is a defect: move it into the

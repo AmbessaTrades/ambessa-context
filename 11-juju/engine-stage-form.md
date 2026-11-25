@@ -1,5 +1,7 @@
-<!-- copied from the Juju repo: docs/STAGE-FORM.md, last changed 08:08 EAT, 24 Nov 2026. Private lines removed. Do not edit here. -->
+<!-- copied from the Juju repo: docs/STAGE-FORM.md, last changed 14:15 EAT, 25 Nov 2026. Private lines removed. Do not edit here. -->
 # The stage form: how a weak model makes a strong film
+
+> **Retired for map films 25 Nov 2026 (ADR 0022):** replaced by the hero, sets and beats of `juju-maps/` (`docs/STACK-MOVE.md`, pack `veve-gait`). Still the form of the app's older chain, `crates/juju-stage`.
 
 > Working document. Subject to change through continued conversation. Nothing here is a requirement until Ambi says so.
 > Status: candidate design by the lead, 24 Nov 2026. Being tested, not decided.

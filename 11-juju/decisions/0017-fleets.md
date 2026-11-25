@@ -1,5 +1,7 @@
 # 0017 Five fleets, one owner each
 
+> **25 Nov 2026 (ADR 0022):** the Films lane is `juju-maps/` and `juju-maps/films`; `crates/juju-stage` is the app's older chain.
+
 > Working document. Subject to change through continued conversation. Nothing here is a requirement until Ambi says so.
 
 **Status:** Ambi's order, 24 Nov about 16:25 ("while one fleet is testing, the others should be doing the vids and design

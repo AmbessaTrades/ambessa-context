@@ -1,5 +1,7 @@
-<!-- copied from the Juju repo: docs/ENGINE-2.md, last changed 09:28 EAT, 24 Nov 2026. Private lines removed. Do not edit here. -->
+<!-- copied from the Juju repo: docs/ENGINE-2.md, last changed 14:15 EAT, 25 Nov 2026. Private lines removed. Do not edit here. -->
 # Engine 2: worlds, not text layouts
+
+> **Retired for map films 25 Nov 2026 (ADR 0022):** the Map theatre row is now Juju Maps (`docs/STACK-MOVE.md`). The other worlds wait with their niches.
 
 > Working document. Subject to change through continued conversation. Nothing here is a requirement until Ambi says so.
 > Candidate design, 24 Nov 2026. "Measured" was run on this Mac today. "Candidate" is a guess to be tested. `lot-r01` is retired (ADR 0004): the next test uses new material.

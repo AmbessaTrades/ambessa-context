@@ -2,6 +2,8 @@
 
 # 0010. Twenty minute films on three channels: does the money work?
 
+> **25 Nov 2026:** map films are about 30 minutes and cost what `docs/COSTS-MAPS.md` says (ADR 0022 item 6).
+
 **Status:** NOT decided. Ambi's question plus the lead's recommendation. If accepted it would replace the 50 minutes in 0004 and, for forms, "DeepSeek on max" in 0006 (priced here at low). It keeps TTS-2 and pauses in the edit (0005) and the fixed 135 CAD (0008).
 
 **Asked, 24 Nov 2026:** "if we were to move all of our channels to like 20 minutes of video, and have one that has no audio, would the payment work? [...] no more than 25, or we can even do 15 [...] three channels posting every day and one of them doesn't have audio."

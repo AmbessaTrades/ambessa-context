@@ -1,6 +1,55 @@
 # Juju day log, newest first
 
-Rebuilt 12:29 EAT, Wed 25 Nov 2026. Only entries whose title names Juju. Times are EAT (UTC+3). Logged by agents: evidence of what they report, not proof. Where two entries disagree, the later one wins and the older stays.
+Rebuilt 14:31 EAT, Wed 25 Nov 2026. Only entries whose title names Juju. Times are EAT (UTC+3). Logged by agents: evidence of what they report, not proof. Where two entries disagree, the later one wins and the older stays.
+
+---
+
+## 2026-11-25 14:32 EAT — TEHUTI — Juju Maps: three looks written as closed systems (Duppy Night, Moko Day, Moko Dusk) with pick.py
+<!-- type: event -->
+
+**Changed.** juju-maps/systems/ (build.py, three machine files, three pages, pick.py, tests) and a draft pack crates/juju-skills/packs/moko-and-duppy. No engine file touched, no paid call.
+
+**Why-verdict.** Ambi 25 Nov 13:55: low poly and dark are each a design system, operated by lower-thinking models over hundreds of films. Measured: 27 of 30 test sentences right on the first run, 30 after mending; 30 of 45 unseen sentences right on first runs; 204 of 255 hand-cut gold beats offered.
+
+**Status-open.** No film boarded from pick.py; storyboard3.py does not call it; names, voice, thumbnails not chosen by Ambi; reach.rs and pins.txt rows owed. Harness: Claude Code (claude-opus-5-5).
+
+**Related.** veve-gait, opon-sight, juju-lowpoly/EDIT-RULES.md, topic juju.
+
+---
+
+## 2026-11-25 14:21 EAT — TEHUTI — Juju docs and skills moved to the map-film stack
+
+**Changed.** docs/STACK-MOVE.md (the stack now, 71 file verdicts, pins and reach rows for countersign, 9 handoffs). AGENTS.md, WORKER.md, ask-juju, 20 other skill files, 14 docs and ADR notes, kits. No skill.json, gate, pins.txt or reach.rs edited.
+
+**Why-verdict.** Ambi 25 Nov 13:55: upgrade the skills and every MD that names the old stack. Checked: gates section of WORKER.md identical, skill.json identical, pins unchanged for existing packs.
+
+**Status-open.** Eight packs have a when with no row in reach.rs; the app's one tap still draws with juju-stage; subtitle conflict with ADR 0014 item 4. Harness: Claude Code (Opus 5.5).
+
+**Related.** [[juju]] docs/adr/0022-juju-maps.md
+
+---
+
+## 2026-11-25 14:10 EAT — TEHUTI — Juju Maps: Juju cut its own film for under a cent; panels, board4, cap 15
+
+**Changed.** Cap 15 US (Ambi, about 13:55, runs/meter/cap.json). juju-maps/board4.py + shots2.json (structure in code, one small form a view), panels.js (Juju Motion facts panels, 12 kinds) + motion-timing.json (bjEr7L2Rj9s read whole), storyboard3 anchor(), views sized to the hero, auto cut. docs/COSTS-MAPS.md. Delegates: skills and stack docs, long films, app 0.2, design systems (Duppy Night, Moko Day, Moko Dusk), low-poly 2-8, editor by skill.
+
+**Why-verdict.** Ambi: 7.5 of 10; Juju Motion timing is what takes it to high 8; spend more on breakthroughs; poly looks great. films/kivu-machine/a.mp4 shown. The low-effort editor taught by veve-gait made a better cut than the cheap model.
+
+**Status-open.** kivu take b and the agent cut drawing; dam low-poly film not yet out; rift take 3 broken by a full disk, redraw when the Mac is quiet. Harness: Claude Code (Opus 5.5).
+
+**Related.** [[juju]]
+
+---
+
+## 2026-11-25 13:51 EAT — TEHUTI — Juju Maps: measured edit grammar, dark take 2 approved in feel, low-poly style running, two new stories spoken
+
+**Changed.** juju-maps: grammar.json, pace.py, storyboard3.py (sets, hero, in-view law, donor shot per sentence, self-mend, automatic cut), gl.js (fixed LAYERS, block cut that acts, lake water and gas, flood), record.mjs (4 s piece cache), mend.py, voice.py, beds/ (6 music moods). scripts/opon.py. Skills veve-gait and opon-sight (linked, not pinned in juju-conduct). juju-lowpoly/ + juju-poly-assets/ (polyfork shelf, 8 delegates). Films: rift2 take 2, kivu (Juju script), dam (script by Claude as a test).
+
+**Why-verdict.** Ambi: "this is really good ... actually felt like I was learning"; dark look kept; spoken place must be in view; no stickling over accuracy.
+
+**Status-open.** Purse 9.45 of 9.50. Disk and memory tight; Mac load over 100 with nine agents. kivu-machine (cheapest model, own cut) drawing. Harness: Claude Code (Opus 5.5).
+
+**Related.** [[juju]] docs/adr/0022-juju-maps.md
 
 ---
 

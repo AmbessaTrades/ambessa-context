@@ -1,5 +1,5 @@
 {
- "as_of": "12:29 EAT, Wed 25 Nov 2026",
+ "as_of": "14:31 EAT, Wed 25 Nov 2026",
  "workshop": "down",
  "jobs": [],
  "pull_requests": [
@@ -367,13 +367,13 @@
   }
  ],
  "ledger": {
-  "calls": 6135,
-  "usd_total": 8.867,
+  "calls": 6384,
+  "usd_total": 9.9,
   "usd_by_service": {
-   "deepseek": 2.2314,
-   "openrouter": 4.4468,
+   "deepseek": 2.3606,
+   "openrouter": 5.064,
    "google": 1.1165,
-   "inworld": 0.7389,
+   "inworld": 1.0254,
    "unsettled": 0.1355,
    "lead-test": 0.0,
    "wavespeed": 0.198
@@ -381,14 +381,14 @@
  },
  "service_calls": {
   "deepseek": {
-   "ok": 2958,
+   "ok": 3159,
    "refused_or_failed": 13,
-   "last_ok": "25 Nov 12:27 EAT"
+   "last_ok": "25 Nov 14:27 EAT"
   },
   "openrouter": {
-   "ok": 2981,
+   "ok": 3001,
    "refused_or_failed": 45,
-   "last_ok": "25 Nov 12:25 EAT"
+   "last_ok": "25 Nov 14:26 EAT"
   },
   "google": {
    "ok": 15,
@@ -396,9 +396,9 @@
    "last_ok": "25 Nov 11:24 EAT"
   },
   "inworld": {
-   "ok": 99,
+   "ok": 127,
    "refused_or_failed": 1,
-   "last_ok": "25 Nov 12:26 EAT"
+   "last_ok": "25 Nov 14:25 EAT"
   },
   "unsettled": {
    "ok": 0,
@@ -416,7 +416,7 @@
    "last_ok": "25 Nov 11:24 EAT"
   }
  },
- "skills": 52,
+ "skills": 56,
  "rust": {
   "juju-absorb": {
    "files": 15,
@@ -517,7 +517,7 @@
  ],
  "finish_check": "2 of 23 clauses true, so not done",
  "film_runs": "4 DONE, 4 FAILED, 24 HOLD",
- "attempts": "246 kept, 35 reverted, 47 inconclusive",
+ "attempts": "255 kept, 39 reverted, 47 inconclusive",
  "clauses": [
   {
    "clause": "trunk.no_open_prs",
@@ -527,7 +527,7 @@
   {
    "clause": "trunk.main_is_origin_and_clean",
    "ok": false,
-   "detail": "branch main, ahead 19, behind 77, uncommitted files outside runs/ 199"
+   "detail": "branch main, ahead 19, behind 77, uncommitted files outside runs/ 227"
   },
   {
    "clause": "trunk.gate_open_at_head",
@@ -572,7 +572,7 @@
   {
    "clause": "app.receipt_is_of_this_head",
    "ok": false,
-   "detail": "walk made at None with None uncommitted files, now 4dba4d9 with 199, no-paid None"
+   "detail": "walk made at None with None uncommitted files, now 4dba4d9 with 227, no-paid None"
   },
   {
    "clause": "film.exists_10_to_20_min_with_picture_and_sound",
@@ -587,7 +587,7 @@
   {
    "clause": "money.ledger_within_cap",
    "ok": true,
-   "detail": "8.8670 spent and 0.0000 held of 9.50 US over 6135 rows (cap file 9.5, Ambi's ceiling 10.0)"
+   "detail": "9.9000 spent and 0.0000 held of 10.00 US over 6384 rows (cap file 15.0, Ambi's ceiling 10.0)"
   },
   {
    "clause": "film.voice_is_inworld_real_calls",
@@ -638,9 +638,9 @@
  "newest_runs": "ottoman12f HOLD 25 Nov 11:25 (stopped at Pictures and form); proof12c FAILED 25 Nov 09:47 (stopped at Render and mix); proof12 HOLD 25 Nov 09:16 (stopped at Script and heal); proof75b HOLD 25 Nov 09:06 (stopped at Render and mix); proof75a HOLD 25 Nov 08:59 (stopped at Publish kit); strip-planets HOLD 25 Nov 08:41 (stopped at Deal and package); strip-pluto HOLD 25 Nov 08:40 (stopped at Render and mix); 20261125-083722-131d HOLD 25 Nov 08:37 (stopped at Deal and package); strip-japan DONE 25 Nov 08:34 (60 s, 0.008751 US); strip-bulgaria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-austria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-manchuria HOLD 25 Nov 08:11 (stopped at Deal and package)",
  "live_agents": 0,
  "load": [
-  4,
-  6,
-  9
+  77,
+  71,
+  80
  ],
  "sheet_written": true
 }

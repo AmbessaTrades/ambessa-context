@@ -10,4 +10,4 @@ Working document, changes with conversation. Decided 25 Nov 2026, about 11:30 to
 6. Length: about 30 minutes, about 5,000 words.
 7. Checks report; they do not stop a render. What still stops: the money cap, a sentence with no source (it is left out, the film goes on), rights of a picture (it is left out), Ambi's clicks for publishing. Supersedes the HOLD law for these films.
 8. Looks are judged on fast 480p takes of one voice before a full export. Export target: 20 minutes of work for a film.
-9. Open: how a film is made with the Mac closed (keys and model calls need a place that is always on); money above the 9.50 cap for a 30 minute voice.
+9. Open: how a film is made with the Mac closed (keys and model calls need a place that is always on); money above the 9.50 cap for a 30 minute voice (the test cap is 15.00 since 25 Nov 13:55, `runs/meter/cap.json`).
