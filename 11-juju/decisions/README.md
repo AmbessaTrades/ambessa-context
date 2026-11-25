@@ -1,6 +1,6 @@
 # Decisions (ADRs)
 
-As of 00:41 EAT, Thu 26 Nov 2026. Copied from the Juju repo. These outrank the master brief and every page here except a newer sentence from Ambi.
+As of 02:43 EAT, Thu 26 Nov 2026. Copied from the Juju repo. These outrank the master brief and every page here except a newer sentence from Ambi.
 A line marked candidate, inferred or "the lead's" is not Ambi's.
 
 | No. | Decision |
@@ -30,3 +30,5 @@ A line marked candidate, inferred or "the lead's" is not Ambi's.
 | 0025 | [# ADR 0025: Juju Poly lives on every map](0025-juju-poly-on-every-map.md) |
 | 0026 | [# ADR 0026: the pots are for sixty days of films; Juju learns kinds of story; DeepSeek writes at its deepest thinking](0026-sixty-day-pots-and-zero-shot.md) |
 | 0027 | [# ADR 0027: time maps, a channel type of their own](0027-time-maps.md) |
+| 0028 | [# ADR 0028: a people's own account first, and how sure we are is shown](0028-own-account-first.md) |
+| 0029 | [# ADR 0029: the world book is built ahead, so films are fast and true](0029-world-book.md) |

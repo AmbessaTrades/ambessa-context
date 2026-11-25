@@ -1,6 +1,233 @@
 # Juju day log, newest first
 
-Rebuilt 00:41 EAT, Thu 26 Nov 2026. Only entries whose title names Juju. Times are EAT (UTC+3). Logged by agents: evidence of what they report, not proof. Where two entries disagree, the later one wins and the older stays.
+Rebuilt 02:43 EAT, Thu 26 Nov 2026. Only entries whose title names Juju. Times are EAT (UTC+3). Logged by agents: evidence of what they report, not proof. Where two entries disagree, the later one wins and the older stays.
+
+---
+
+## 2026-11-26 02:43 EAT — TEHUTI — Juju time maps: turn stops worded from inside, titles picked blind, Asia pocket, fix rows for the engine
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju time maps: turn stops worded from inside, titles picked blind, Asia pocket, fix rows for the engine
+- Harness: Claude Code (claude-opus-5-5)
+- What happened: Harness: Claude Code (claude-opus-5-5). Topics: juju.
+**Changed:** timestory.py (word_turns, titles, feed). Turn stops of tm-africa now carry the pen's words: 21 have a second line held to a quote, 7 are title only, and 7 the pen showed wrong are marked argued. Example: 402 BC Egypt ends Persian rule / Amyrtaios organizes revolt. Six films have a title under 58 letters chosen by a blind feed test. tm-asia/story.json is new (14 stops, 210 s). data/timesets-fixes.json holds 11 rows: corrections plus turn years moved to the page's year, read by both this lane and the engine.
+**Why-verdict:** the engine drew 26 of 36 flips because the fixes lived only in this lane's code; now they are one data file. The feed test passed on 4 of 5 films, but the real titles are generic, so the test is easy.
+**Status-open:** 5 of 6 stories pass check; tm-output fails one gap (39 s with a single stop). South America waits for Roots; the states draft and gold film were not made. Spend: DeepSeek 0.673 (0.084 of the new 0.30), GLM 0.040.
+**Related:** ADR 0027, ADR 0028.
+- Status: in-progress: 5 of 6 stories pass check; engine redraws with the fix rows
+
+---
+
+## 2026-11-26 02:41 EAT — TEHUTI — Juju Roots: sourced shelf, Africa world book, and a check that catches coverage gaps
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju Roots: sourced shelf, Africa world book, and a check that catches coverage gaps
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 627f03d6)
+- Ambi asked for open sources the time maps can cite: 'rarely told', 'the oldest known record', and 'within a few minutes' per region. Built a machine-readable shelf of 80 open sources across 13 regions.
+- Each shelf source was fetched by code, saved with a receipt (link, time, fingerprint), and holds its passage word for word. 12 were refused with reasons; Native Land is out on its licence terms.
+- Built an Africa-first world book: 435 rows from ten readers of UNESCO General History of Africa vols II to IV, plus sourced rows. 188 dated, 207 placed. Before 1000 BC it holds Kemet, Ta-Seti, Kerma and Punt.
+- Coverage check (check.py) prints TRUE. It fires on both planted faults (South America opening at 1188 despite Caral and Aspero on the shelf, and 'X of Y sources agree' counts). Writer step measured at 0.18 US cents.
+- Still open: the time map engine cannot draw the new data yet; that is with the engine lane. Hand-off notes for the Stories, Worlds and Engine lanes are in HANDOFF.md.
+- Files changed: juju-maps/roots/shelf.json; juju-maps/roots/roots.py; juju-maps/roots/check.py; juju-maps/roots/book/africa/book.json; juju-maps/roots/book/places.json; juju-maps/roots/book/READER-BRIEF.md; juju-maps/roots/HANDOFF.md; juju-maps/roots/shelf_src.py
+- Status: in-progress — shelf, Africa book and checker are built and check.py passes; the engine must still draw the data and the other regions are not yet built
+
+---
+
+## 2026-11-26 02:39 EAT — TEHUTI — Juju Roots: corrections after review
+<!-- type: event -->
+**From:** TEHUTI
+
+- Harness: Claude Code (claude-opus-5-5)
+- Changed: book years now follow the ladder rule (a source counts once; a period claim shows as "within" its period); notes are short ladder forms, not clipped quotes; check.py now fails on a year that stands on no page (planted fault fired).
+- Why-verdict: correcting the 02:5x entry: Napata is 800 BC, not before 1000 BC; Punt now dates from the Old Kingdom (-2750), not 2900 BC; Kerma stays -2000 to -1580. check.py TRUE again.
+- Status-open: 26 rows rest on sentences picked by code (Aksum unit mostly); 8 reader disputes were paraphrased and dropped; paper licences were typed from the page, not compared; engine does not yet read draw/.
+- Related: juju-maps/roots/HANDOFF.md
+
+---
+
+## 2026-11-26 02:34 EAT — TEHUTI — Juju Night round two: shelf gate, dated shapes, numbers from the sentence, changes read from pixels
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** juju-maps/shots/ shelf.py (gate, 20 subjects a shelf: borders, quakes, plague, battles), table2.py (rows by code from the shelf), night.py + night_film.py (short menu, frame in the clear window, figure copied from its sentence, years without commas), seen.py (before and after stills, threshold from Istanbul 0.0445), pick.py.
+- **Why-verdict:** three first takes: scar (quakes, seen 7 of 8), bristol (Black Death, seen 4 of 13), khovd (Xiongnu borders, seen 6 of 9); planted Aral fault fails as it must. A fresh Haiku reader: what the scripts claim about people (merchants, herders, Silk Road) is never drawn.
+- **Status-open:** time-type system card is over the 26,000 limit (not this lane); bristol towns faint and whole view thin; scar claims a stretch unbroken since 1992 (false, not checked by GLM).
+- **Related:** juju-maps/films/{scar,bristol,khovd}/a.mp4, films/_data/kinds/fresh-read.json, shots/data/subjects.json
+
+---
+
+## 2026-11-26 02:32 EAT — TEHUTI — Built juju-dates crate: dates as printed, calibrated ranges, Africa land-by-year (in progress)
+<!-- type: event -->
+**From:** TEHUTI
+
+Built juju-dates crate: dates as printed, calibrated ranges, Africa land-by-year (in progress)
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session a97dabc6)
+- Ambi asked for a Rust crate in juju-maps/dates that turns source-printed dates into honest ranges, with 68 and 95 percent bounds, and maps land by year.
+- Built the crate (date, curve, source, show, ground, reach modules) and a Python door; it builds. Calibration was checked against published SHCal20 dates in the Cajamarca and Great Zimbabwe sources.
+- Wrote 19 law tests on the shape-by-year rules; all 19 pass. Planted-fault mutant checks were started, results not yet reported.
+- Africa 20-row fixture built from passages found word for word in the Roots pages. Two disputes are flagged (Carthage, Garamantes) rather than resolved.
+- Still open: the film render was running in the background, and the camera first framed the wrong area; the door was changed to aim at live land. Frames not yet viewed or verified.
+- Files changed: juju-maps/dates/src/reach.rs; juju-maps/dates/src/date.rs; juju-maps/dates/src/show.rs; juju-maps/dates/tests/laws.rs; juju-maps/dates/door.py; juju-maps/dates/rules.json; juju-maps/dates/README.md; juju-maps/dates/src/lib.rs
+- Status: in-progress — crate builds and 19 tests pass; film render and camera framing not yet verified in frames
+
+---
+
+## 2026-11-26 02:30 EAT — TEHUTI — Juju Roots: sourced shelf, world book for Africa, coverage check that catches missing ancient states
+<!-- type: event -->
+**From:** TEHUTI
+
+- Harness: Claude Code (claude-opus-5-5)
+- Changed: juju-maps/roots/ (shelf.json 80 open sources by region with receipts and picture licences; ladder.json; roots.py; check.py; book/africa/book.json 435 rows from 10 Haiku readers of UNESCO GHA II-IV; places/andes,kemet,indus + draw/*.geojson; FACTS.md, HOW-TO-DIRECT.md, SKILL.draft.md, REQUESTS-roots.md, HANDOFF.md).
+- Why-verdict: Ambi (ADR 0028, 0029) wants own accounts first, no count odds, a book built ahead. check.py TRUE; cover fires on tm3-south (Caral, Chavin) and tm3-world; Africa before 1000 BC now holds Kemet, Ta-Seti, Punt with its sea route, Kerma, Kush, Napata. Writer pick (DeepSeek off) 7.3 s, 0 invented rows; spend 0.63 US cents.
+- Corrections: Mehrgarh date disputed (5200 BC new vs 8000 BC old); Turin papyrus gives 13,420 and 23,200 years, the 36,620 total is a readers sum; Native Land refused by its own treaty (no commercial use).
+- Status-open: engine must accept FINDS/ACCOUNT types (REQUESTS-roots.md); GHA V-VIII unread; 379 queue items; nothing committed.
+- Related: juju, juju-maps, ADR 0027-0029
+
+---
+
+## 2026-11-26 02:19 EAT — TEHUTI — Juju time maps: Africa film re-cut from proved sources, audit of two old films, pockets still open
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju time maps: Africa film re-cut from proved sources, audit of two old films, pockets still open
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 2589b416)
+- Ambi asked for accuracy first and for slower pacing: "pacing was quite poor", "you just kind of rushed to the two-minute mark". Built timestory.py to make each card's year and quote checkable.
+- Audit of tm-africa and tm-output: 6 of 13 Africa cards were wrong and 4 were loose. Causes: unrelated rows glued by short name, grid years, and a 96% claim that counted only drawn states. Card table in AUDIT.md.
+- Africa story rebuilt as 43 stops over about 490 s, with turning points on their own stops and Persia-Egypt flips shown. Each card's quote was found in a saved open page. Africa's stories are in place and the engine worker is drawing them.
+- Sahara roads and Mansa Musa story built in code. Ambi's new rule (ADR 0028) is noted and the four new 2 to 3 minute pockets (Asia, South America, North America, one more wealth) are not done.
+- Money ran out at $0.586 of $0.60, so the North America and wealth pockets and the feed test were not finished. The exit predicate prints FALSE.
+- Files changed: juju-maps/timestory.py; juju-maps/timemap/STORY-NOTE.md; juju-maps/timemap/STORYBOARD.md; juju-maps/films/_data/time-stories/AUDIT.md; juju-maps/films/_data/time-stories/briefs/tm-africa.json; juju-maps/films/_data/time-stories/briefs/tm-output.json; juju-maps/films/_data/time-stories/briefs/tm-sahara.json; juju-maps/films/_data/time-stories/facts/africa.json
+- Status: in-progress — Africa, Sahara and the audit are done; four new pockets, North America and the feed test are open, and the exit predicate is FALSE because the DeepSeek budget ran out.
+
+---
+
+## 2026-11-26 02:18 EAT — TEHUTI — Juju time maps: story lane, proved cards, turns of each land, Sahara roads by rule
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju time maps: story lane, proved cards, turns of each land, Sahara roads by rule
+- Harness: Claude Code (claude-opus-5-5)
+- What happened: Harness: Claude Code (claude-opus-5-5). Topics: juju.
+**Changed:** juju-maps/timestory.py (source shelf of about 140 open pages in SQLite full text; hunt, facts with verbatim quotes, pen story, ear, GLM doubt, mend, frame; code checks; turns of each core land with chains; turncheck). New story.json for tm-africa (68 stops, 729 s, 36 of 36 turns on screen), tm-africa-long (the first ~7 minutes of the 20 minute film), tm-sahara (roads drawn by a stated rule: 34 km a day, 26 day stretch, cost d^1.5; it reproduces Ibn Battuta's 25 and 10 days), tm-musa, tm-output (new credits and the original papers). Also films/_data/time-stories/AUDIT.md, africa-rule.json (honest counter: 79 percent of Africa not ruled from outside in 1880, 5 in 1914; GHA VII says 80 percent ruled by its own), data/timesets.json (+14 sets), data/timesets-chains.json, stack/formats/timemap-long.json (laws and two 20 minute plans), stack/timeideas.json (84 hand-made ideas, unranked), timemap/STORYBOARD.md and STORY-NOTE.md.
+**Why-verdict:** the first Africa film had 6 wrong cards out of 13 (renamed rows told as ends, keyframe years, the base of the 96 percent). Every card now stands word for word in a saved page, its year is beside its quote or in a second page, and every change of holder of a core land is a stop.
+**Status-open:** DeepSeek 0.589 of 0.60 spent and GLM 0.040 of 0.05, so no more pen work. Not done: Asia (facts only), states (a draft with 222 faults, marked stories-draft), gold (series only), and South America, which waits on Roots. The feed test was never run. Five film titles are over 58 letters. Turn stops carry the rule's words; the pen should reword them.
+**Related:** ADR 0027, ADR 0028; engine worker told by message.
+- Status: in-progress: five stories stand; four new pockets and the feed test need money
+
+---
+
+## 2026-11-26 01:41 EAT — TEHUTI — Juju: Africa remake seven minutes, clear-map and own-account rules, Night shots round two
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju: Africa remake seven minutes, clear-map and own-account rules, Night shots round two
+- Harness: Claude Code (claude-opus-5-5)
+- What happened: Changed: ADR 0027 items 10 to 16 and ADR 0028 (own account first, sureness shown) from Ambi's words; GLOSSARY own account; lanes sent: clear-map page for six themes (Type), camera that fits its subject (Engine), slower and inside-told stories (Stories), new lane Juju Roots (source shelf, marks, coverage check). Why-verdict: time maps work because the picture is the data; Night picture-first films came out 4.5 to 6.5 by the builder, 4.5 for Bolivia by the lead (wrong land filled, figures that differ from the voice). Status-open: round two of Night shots with a subject gate and dated shapes; five questions put to Ambi (odds in counts, hatched own record, outside dating, banners, Night keeps the globe). Test spend 31.76 of 35 US.
+- Status: in-progress; waiting for lanes and Ambi's answers
+
+---
+
+## 2026-11-26 01:41 EAT — TEHUTI — Juju taught seven story kinds and a shot-first film builder; first takes still below bar
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju taught seven story kinds and a shot-first film builder; first takes still below bar
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 9019894e)
+- Ambi asked: teach Juju seven kinds so a new film is good on its first take. Seven kinds are written in juju-maps/kinds/, hooked into storyboard3 with one hook. Istanbul's scene is unchanged to the byte.
+- Verified: kinds check passes, stack/test_kit.py runs, and golden.py check shows Istanbul and po3 gold unmoved. The blind six-film comparison was built but never judged.
+- Built juju-maps/shots/ (menu of 17 shots, table, write, run.sh) per Ambi's 'picture first' rule. First takes: trench 5, suez2 4.5, aral 4.5, shrinking 6.5 by the agent's own eye. Not shown to Ambi.
+- Still open: no fresh-eye judgement of the takes, the 25-minute pocket was only tested on a short fixture, and the 'one person carries the film' thread is not yet proven.
+- Files changed: juju-maps/kinds/moves.py; juju-maps/kinds/water.py; juju-maps/kinds/border.py; juju-maps/kinds/route.py; juju-maps/kinds/steps.py; juju-maps/shots/menu.py; juju-maps/shots/write.py; juju-maps/shots/run.sh
+- Status: in-progress — kinds and shot builder exist; bar not met (best first take 6.5 by agent's eye, no fresh judge yet)
+
+---
+
+## 2026-11-26 01:39 EAT — TEHUTI — Juju Maps: seven kinds of story in code, then Juju Shots, films written as pictures first
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** juju-maps/kinds/ (seven kinds, rules, steps, choose, born, plan; one hook in storyboard3; kit.py carries the kind; birth.py and spine.py one line each); juju-maps/shots/ (title, table, menu, write, check, make, run.sh).
+- **Why-verdict:** three kind-driven first takes came out about 3 (tengiz, ore, niger). Juju Shots first takes: trench 5, suez2 4.5, aral 5.5, shrinking (Bolivia) 6.5 by the builder's own eye; every name on screen, no unchanged return, 4.6 to 5.6 new things per 10 s.
+- **Status-open:** no blind eye has compared them; 12 minute list came out 9.4 minutes; people, except, bars and years shots weak; border fills need old borders. Spent about 1.00 US (kinds) and 0.52 US (shots).
+- **Related:** juju-maps/films/shrinking/a.mp4, juju-maps/films/_data/shots/menu.jpg, runs/decision.tsv
+
+---
+
+## 2026-11-26 01:34 EAT — TEHUTI — Juju: models only in close views after a lost blind test; time-map pages redesigned
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju: models only in close views after a lost blind test; time-map pages redesigned
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 31bfe4d9)
+- Blind test: films with Poly models won 2, without won 4, tied 2. The set Ambi rated 8 was restored, and models now appear only in views closer than about 250 km.
+- Jakarta test used a 25 Nov cut with the banned Harold voice and repeated camera angles. A Neon cut cost $0.53 and was poor. Ambi's 'sounds AI-ish' note was confirmed.
+- Four more time-map films drawn for critique (Asia 7, World 4 by Ambi's scale). Five two-minute films cost 3.1 US cents. Seven-minute Africa redrawn for 1.6 cents, mark 7.
+- Time-type page redrawn: 8 to 22 words on screen against about 45 before. Blind readers scored it 5.4 and 5.1 against 4 for the old films. Nobody has seen it move yet.
+- Open: the picture-first Night film has a script but no film yet. Testing spend is $30.41 of $35, with DeepSeek at $10.56 left. Juju Roots builder is new and unverified.
+- Files changed: juju-maps/stack/bodies.json; juju-maps/data/voices.json; juju-maps/timemap-v03/churn.sh; juju-maps/stack/systems/time-type.json; docs/adr/0027-time-maps.md
+- Status: in-progress — builders still working on the Africa remake, Atlantis and the first picture-first Night film.
+
+---
+
+## 2026-11-26 01:11 EAT — TEHUTI — Juju time maps: four more films drawn for critique, faults handed to the builders
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju time maps: four more films drawn for critique, faults handed to the builders
+- Harness: Claude Code (claude-opus-5-5)
+- What happened: Changed: the first time-map engine (commit a3010f5) frozen in juju-maps/timemap-v03 (opens just before the first state); drew Asia, South America, North America, Europe, World from one sentence each. Why-verdict: Ambi asked for more videos to critique and for scale; Asia is the best (lead mark 7), South America 6, Europe 5 (cut Russia, set dates wrong), North America held back (camera leaves to Siberia). Status-open: new engine, type, stories, worlds and shots lanes running; faults sent to engine and stories lanes. Decisions added to ADR 0027 items 7 to 9 (low thinking is fine; Night and Day stay but need extreme consistency; testing is for scale).
+- Verification: frame sheets read for south, asia, north, europe; all decode to 125 s; under 1 US cent each in run.json
+- Status: in-progress; films sent to Ambi for critique
+
+---
+
+## 2026-11-26 00:52 EAT — TEHUTI — Juju Writer lane closed: short scripts good, long form 3 of 10
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** stack/write (truth.py, pages.py, long.py, list rule); nothing in the live default.
+- **Why-verdict:** DeepSeek two minute chain 6 of 8 films, 18 of 24 votes (seven films reuse v4 drafts); max 7 of 12 votes for twice the time and money; 19 minute script from true pages 3 of 10: pockets planned one by one, no person carrying it.
+- **Status-open:** hard read wired but off (0.023 US); lessons handed to Juju Shots; no more money on long scripts until shots prove.
+- **Related:** juju-maps/films/_data/writer
+
+---
+
+## 2026-11-26 00:51 EAT — TEHUTI — Juju: why the voiced films fail, and the shot-first lane
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** voice Harold banned; bodies only under 250 km; taste; Juju Kinds worker turned to Juju Shots (picture first), beside everything, golden check required.
+- **Why-verdict:** Ambi on Jakarta (25 Nov 19:51, before the upgrades): "terribly bad", voice "AI-ish"; measured over nine films: 2 to 7 of 6 to 32 named places off screen, 6 to 12 views on seen spots; Jakarta was cut by Neon for 0.53, so the model is not the cause; time maps one-shot because picture is the data.
+- **Status-open:** exploring, not decided by Ambi: shot-first for Night and Day; narrated time maps.
+- **Related:** juju-maps/films/jakarta
+
+---
+
+## 2026-11-26 00:49 EAT — TEHUTI — Juju Writer: numbers of the last round, one line put right
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** PEN_HARD is off by default (the two minute Neon read costs 0.023, over the 0.02 bar).
+- **Why-verdict:** the wired chain won 6 of 8 films, 18 of 24 votes; lost Istanbul 0 of 3 and Congo 1 of 3. Correction to the entry before: the words about a wrong sentence shape mean nothing; Neon gave three usable sentences on dam4 and three on kivu2.
+- **Status-open:** as in the entry before.
+- **Related:** juju-maps/films/_data/writer/votes/9-0.json
+
+---
+
+## 2026-11-26 00:48 EAT — TEHUTI — Juju Writer: max measured, facts first works for sheets, the long script still fails
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** juju-maps/stack/write (truth.py, pages.py, idea.py, long.py facts first, hardread.py, list rule in pen.py); spine.py WRITER=deepseek makes a true sheet when there is none and takes one Neon read; the default path asks the same bytes.
+- **Why-verdict:** max 7 of 12 votes at twice the price and time: low stays. Sheets now hold quoted, dated steps. 25 minute script 3 of 10: true pages, no story carried by people. Neon read of two minutes costs 0.023 to 0.024, over the 0.02 bar, and put one wrong sentence shape in nothing.
+- **Status-open:** DeepSeek went 0.02 over its 0.70; the list rule is unheard; the Neon read ran on two films only.
+- **Related:** juju-maps/films/_data/writer/long6-heard.md, votes/
+
+---
+
+## 2026-11-26 00:43 EAT — TEHUTI — Juju time maps: new channel type, voices wired, safety net and read-only front door added
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju time maps: new channel type, voices wired, safety net and read-only front door added
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 31bfe4d9)
+- Ambi asked for better time-map fonts, smaller text, zooms and map tricks, and Africa pacing that slows at turning points. Work was split across type, engine, stories and worlds builders.
+- Ambi said 'don't mess up' what works. Gold Istanbul and a Day film are locked as golden tests, restore points are marked, and ./ju doctor reported 10 of 10 OK. A planted fault was caught.
+- All 19 shelf voices passed the hard-name check on the cheap model (0.91 or better) and are wired in as Àṣẹ Regular V 0.3. Àṣẹ High V 0.3 is the dear option.
+- CPU fell from 73 to about 41 after the 100k-tile map cache was moved out of the builders' scan path to ~/AUH/.juju-store. Only one Night or Day film draws at a time.
+- Still open: time maps are not yet in the golden test. The Atlantis, Sahara and Mansa Musa films and the Africa re-make are still in production and not yet checked by Ambi.
+- Files changed: docs/adr/0027-time-maps.md; juju-maps/ju; juju-maps/stack/golden.py; juju-maps/data/voices.json; juju-maps/stack/golden/istanbul/scene.json; ~/AUH/.juju-store
+- Status: in-progress — safety net and voices are done; new time-map films are still rendering and not yet reviewed
 
 ---
 
