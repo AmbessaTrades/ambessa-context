@@ -1,7 +1,7 @@
 {
  "name": "ambessa-context",
  "what": "The working context of one project, Juju, for an AI that cannot see Ambi's computer.",
- "rebuilt": "08:22 EAT, Wed 25 Nov 2026",
+ "rebuilt": "08:23 EAT, Wed 25 Nov 2026",
  "read_order": [
   "00-READ-FIRST.md",
   "01-context.txt",
@@ -20,7 +20,7 @@
   },
   {
    "path": "01-context.txt",
-   "bytes": 16041
+   "bytes": 15948
   },
   {
    "path": "02-the-software.md",
@@ -1172,15 +1172,15 @@
   },
   {
    "path": "10-now/history.md",
-   "bytes": 46834
+   "bytes": 55982
   },
   {
    "path": "10-now/now.html",
-   "bytes": 12844
+   "bytes": 12671
   },
   {
    "path": "10-now/now.md",
-   "bytes": 11502
+   "bytes": 11409
   },
   {
    "path": "10-now/pull-requests.md",
@@ -1188,7 +1188,7 @@
   },
   {
    "path": "10-now/status.json",
-   "bytes": 15223
+   "bytes": 15224
   },
   {
    "path": "11-juju/README.md",

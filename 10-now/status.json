@@ -1,5 +1,5 @@
 {
- "as_of": "08:18 EAT, Wed 25 Nov 2026",
+ "as_of": "08:23 EAT, Wed 25 Nov 2026",
  "workshop": "down",
  "jobs": [],
  "pull_requests": [
@@ -367,11 +367,11 @@
   }
  ],
  "ledger": {
-  "calls": 5824,
-  "usd_total": 6.0071,
+  "calls": 5825,
+  "usd_total": 6.0073,
   "usd_by_service": {
    "deepseek": 1.9606,
-   "openrouter": 2.997,
+   "openrouter": 2.9972,
    "google": 0.5074,
    "inworld": 0.2357,
    "unsettled": 0.1355,
@@ -386,9 +386,9 @@
    "last_ok": "25 Nov 08:11 EAT"
   },
   "openrouter": {
-   "ok": 2901,
+   "ok": 2902,
    "refused_or_failed": 45,
-   "last_ok": "25 Nov 08:18 EAT"
+   "last_ok": "25 Nov 08:21 EAT"
   },
   "google": {
    "ok": 11,
@@ -424,7 +424,7 @@
   },
   "juju-cli": {
    "files": 24,
-   "lines": 3367
+   "lines": 3368
   },
   "juju-conduct": {
    "files": 26,
@@ -475,7 +475,7 @@
    "lines": 3219
   }
  },
- "rust_lines": 32715,
+ "rust_lines": 32716,
  "rooms": 19,
  "decisions": 19,
  "apk_files": 0,
@@ -587,7 +587,7 @@
   {
    "clause": "money.ledger_within_cap",
    "ok": true,
-   "detail": "6.0071 spent and 0.0000 held of 10.00 US over 5824 rows (cap file 10.0, Ambi's ceiling 10.0)"
+   "detail": "6.0073 spent and 0.0000 held of 10.00 US over 5826 rows (cap file 10.0, Ambi's ceiling 10.0)"
   },
   {
    "clause": "film.voice_is_inworld_real_calls",
@@ -636,11 +636,11 @@
   }
  ],
  "newest_runs": "strip-bulgaria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-austria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-manchuria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-pluto HOLD 25 Nov 08:08 (stopped at Render and mix); thru-mughal HOLD 25 Nov 08:06 (stopped at Pictures and form); otto-chron-3 HOLD 25 Nov 08:06 (stopped at Pictures and form); strip-mughal DONE 25 Nov 07:59 (60 s, 0.008507 US); thru-japan HOLD 25 Nov 07:46 (stopped at Pictures and form); thru-space HOLD 25 Nov 07:46 (stopped at Pictures and form); strip-japan HOLD 25 Nov 07:43 (stopped at Pictures and form); otto-chron-2 DONE 25 Nov 07:39 (60 s, 0.001904 US); strip-jerusalem FAILED 25 Nov 07:36 (stopped at Script and heal)",
- "live_agents": 9,
+ "live_agents": 7,
  "load": [
-  87,
-  71,
-  69
+  89,
+  84,
+  75
  ],
  "sheet_written": true
 }
