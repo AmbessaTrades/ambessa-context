@@ -1,6 +1,6 @@
 # Decisions (ADRs)
 
-As of 20:37 EAT, Wed 25 Nov 2026. Copied from the Juju repo. These outrank the master brief and every page here except a newer sentence from Ambi.
+As of 22:39 EAT, Wed 25 Nov 2026. Copied from the Juju repo. These outrank the master brief and every page here except a newer sentence from Ambi.
 A line marked candidate, inferred or "the lead's" is not Ambi's.
 
 | No. | Decision |
@@ -25,3 +25,5 @@ A line marked candidate, inferred or "the lead's" is not Ambi's.
 | 0020 | [# ADR 0020: one unit, one pull request, one round](0020-small-prs-one-round.md) |
 | 0021 | [# ADR 0021: harvest first, then cheap models execute](0021-harvest-first.md) |
 | 0022 | [# ADR 0022: Juju makes map films, and only map films, for now](0022-juju-maps.md) |
+| 0023 | [# ADR 0023: any niche a map can carry; two night-and-day systems first; under $1.50 a film](0023-any-niche-on-a-map.md) |
+| 0024 | [# ADR 0024: every move is heard, quietly, and a channel owns its sounds](0024-every-move-is-heard.md) |

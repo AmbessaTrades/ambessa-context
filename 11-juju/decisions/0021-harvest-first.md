@@ -5,7 +5,7 @@ Decided 24 Nov 2026, about 23:55 (Ambi): "use Opus 5.5 high ultracode or Fable 5
 1. Strong models once, offline: 12 key films taken apart whole (picture, motion, words, pacing, sound, packaging) into packs of data. Proven by a blind rebuild: a builder who never saw the film rebuilds a stretch from the pack alone.
 2. Layers, each checked by looking: pack (one film) -> grammar (rules with counts) -> system (tokens, materials, operators, timing laws) -> recipe (a 20 to 60 s movement with slots that compiles to an engine form) -> film plan (a 10, 20, 30 or 50 minute order of recipes with its script skeleton, pacing curve and sound).
 3. A recipe ships only when it was drawn on three unrelated subjects and eyes calibrated on AMBI-EYE.md passed all three.
-4. Cheap models execute: they choose from closed menus and fill slots. Target: 95 percent legal at the first answer with DeepSeek Flash, and no strong model in a film.
+4. Cheap models execute: they choose from closed menus and fill slots. Target: 95 percent legal at the first answer with DeepSeek Flash, and no strong model in a film. ("No strong model in a film" is superseded by ADR 0023 item 5, 25 Nov 21:20.)
 5. A pasted link: Juju measures the film, finds the nearest systems and blends them by named traits, or harvests it into a new pack with its own models. A blend says what it took from where.
 6. The unit of proof is a whole film of 10 minutes or more with a voice, never a clip.
 

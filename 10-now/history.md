@@ -4,6 +4,104 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 
 ---
 
+# Sheet of 22:39 EAT, Wed 25 Nov 2026
+
+## Changed since the last sheet
+- Covers 20:37 to 22:39 EAT, Wed 25 Nov 2026. Current time 22:39.
+- Spend rose from $24.90 to $27.13 over 7,884 to 8,274 paid calls. DeepSeek +$0.58, OpenRouter +$0.09, Google +$4.86, Inworld +$0.21.
+- Cap: 30 US (Ambi's order). The lead reports $26.75 at 22:25 and "about 26.8" at 22:27 (Tehuti). The ledger shows $27.13 now, so the lead's figures are behind the ledger.
+- Finish check: 1 of 23 clauses true, unchanged.
+- Pull requests: 7 open, 19 merged, 1 closed, unchanged. Main's newest commit is still 11:13.
+- Whole-film runs: 4 DONE, 4 FAILED, 24 HOLD, unchanged. No new `juju make` run appears in FACTS.
+- Decisions: 22 (was 20). Rust 34,793 lines, 56 skills, 20 rooms, 0 APK files, unchanged.
+- Logged attempts: 302 kept (was 293), 42 reverted (was 41), 50 inconclusive (was 48).
+- Mac load 58, 47, 37 (was 4, 5, 6). One transcript written in the last 10 minutes (was 0).
+- The live agent page did not answer, so running agents are still unknown.
+- Built since 20:37 (lead, Tehuti, Mungura, workers; judged only where stated): ADR 0023 (any niche, Night and Day lead, 28 min under 1.50) and ADR 0024 (every move heard, channel sound packs). Juju Maps: DeepSeek thinking fixed, cheap cut for a 100 s film at about $0.03; Neon cache understood (hits only in a continued conversation); flat coloured land; 19-voice shelf; living land painted into the ground tiles, off by default; a changes layer of 18 kinds, 53 niches; a depict card that did not prove better (8 of 12, below 10).
+- Ambi's rulings since 20:37, as relayed: no glowing borders anywhere; countries flat, like Moko Dusk. Film 4 "cheesy, shiny border, fat arrow, 'scores four' meaningless" (20:32, relayed). Ambi's best film so far is the Istanbul quakes film with Gavin (21:15, Tehuti relays "best vid thus far tho, and good voice").
+
+## What worked and what failed
+**Worked** (as reported)
+- Istanbul take 3: the lead marks it about 7 from its frames. Ambi has not marked it. Relayed as Ambi's best so far (21:15).
+- Cheap cut: the lead reports a 100 s film cut in about 48 s for $0.006 (DeepSeek thinking, low). Not judged for quality. The lead's own view: first cut was as good as Neon's to about 60 s, then too still (22:03).
+- Neon cache: hits in 3 of 3 test calls in a continued conversation (lead, 22:03). Not a shared prefix.
+- Ground check on the lowpoly b film: 0.44% worst from the ground itself (Measured, 21:24).
+- Timeline: each op's draw times read from the engine, 0 pops on six films (Measured, 22:35).
+- Recorder refuses a film that does not play; a planted broken piece is caught (Tehuti, 21:15, 22:03).
+- Juju Eye blind test on marmara: eye 4.8, count 5.6 (Tehuti, 21:15; Mungura, 21:21 agrees). Count is 0.8 too kind.
+- Changes trial: 8 of 12 twice, inconclusive, below the 10 needed. Judged by one blind judge.
+- Coast fix (Po, Dutch polders, New Orleans and others): judged by builder from stills (20:23, earlier).
+- Lowpoly lake: place bug found and fixed; 22 places checked, none swapped (lead, 22:09).
+
+**Failed or refused**
+- Film 4 (North Anatolian ranked film): Ambi's words above, relayed at 20:32. Not re-judged.
+- Economics film (Juju's own idea, "Why a Sack of Cement Costs Twice as Much Up the Congo"): lead eye about 3.5. Filled the wrong Congo. Fact fix started (lead, 22:37).
+- Marmara: fault line never drawn; 1999 Izmit quake drawn over Istanbul at 52 s (eye, Tehuti 21:15). Istanbul take 3 fixes some of this.
+- Depict card: 8 of 12 twice, reverted (Tehuti, 22:09).
+- Sarygamysh lowpoly b: the critic says it suits Day, not low poly. Moko fit test returns "not fit" (worker, 21:24). The lead's mark about 5 from frames (22:09).
+- Villages: the lead turned them off (22:25); the day villages at 1.6 degrees are faint (Tehuti, 22:34).
+- Living land: lead does not meet the bar yet; left off (worker, 22:35).
+- Ambi's older refusals still hold: stand-in drawings, the "slop" script line, the dot strip, the 36-palette sheet, parchment, Moko Day, Jenny ring (unjudged).
+- Neon cache earlier: 0 hits (Tehuti 20:32). Cache now understood (above).
+
+## App engine and films
+- Juju make: newest DONE is still strip-japan (60 s, 08:34).
+- Juju Maps films (not `juju make`): Istanbul take 3 (about 7, lead's eye; Ambi not yet). Istanbul seven-breaks (about 6.8, lead's eye; replaced by take 3). Economics Congo film (about 3.5, lead). Lowpoly Sarygamysh b (about 5, lead; critic says not low poly). Marmara (eye 4.8, Tehuti). Po3 (Tehuti mark 7.5; Juju Eye count 6.0). Film 4 (Ambi refused). Kazakhstan, Mississippi, kivu3 and ghosts were sent earlier; no new verdict.
+- Congo: running end to end (Tehuti, 22:27). Not reported done.
+- Long films: the 28-minute cost estimate is $1.40 to $1.75 (lead, 22:09). Not built.
+- Voices: the 19-voice shelf is built; 56 dry casts, 14 voices used, none off the shelf (Tehuti, 19:55). Ambi asked to choose from five (Gavin, Tonya, Russell, Marek, Kristen). Ambi's best so far uses Gavin (21:15).
+- Sound: the lead reports a 100 s film's sound at -14.0 LUFS, peak -0.7 dB, measured, not heard. Sound packs per channel are being built; no film has a new sound mix yet.
+- Speed: a whole cut at low thinking is about 48 s (lead, 22:03). Render target 1.0 still not reported as met.
+
+## Web app and rooms
+- Not reported this window. Last reported state (20:37): Juju 0.2 presses on the test copy; no paid press run; app price button still says $0.60 a film; films over 2 minutes not built.
+- Census (24 Nov): 573 controls; 112 real, 160 sample, 131 dead.
+- Make-a-film room: 71 steps, 0 bad, on the practice copy (11:07). Not checked on a real film.
+
+## Mac app and APK
+- APK files built: 0. Nothing has run on a phone.
+- Mac shell still bundles the old rooms (11:06). No release build. Not tested.
+- ADR 0022: Juju is map films only; the drawing engine is forked as Juju Maps. Making a film with the Mac closed is unresolved.
+- Juju Maps has its own git repository. Its last commit is a merge from another project. A reset or checkout could overwrite files (16:12). Not reported since.
+- Mac load 58, 47, 37 at 22:39. Heavy runs are active.
+
+## Agents running now
+- The live agent page did not answer at 22:39. Running agents are unknown.
+- Last reports: lead 22:37 (economics film fact fix); worker 22:35 (living land and timeline); Tehuti 22:34 (villages off by default, one engine per film); Mungura 21:21.
+- Reported running: Congo film end to end (Tehuti 22:27); sound, motion and time-map workers (Tehuti 22:27 and lead 22:09); Neon T2 for plan and script (Tehuti 22:03); Geopanda-type film and niche list (lead 22:09).
+- Reported done: stack checks (test_changes and test_kit pass, 22:14); recorder safe kill (22:35); voice shelf and dry casts (19:55).
+
+## Money spent on services
+- Ledger: 8,274 calls, $27.1299 in all.
+- DeepSeek $3.9136 (4,436 answered, 17 refused or failed; last 22:38). OpenRouter $11.9831 (3,301, 45; last 22:31). Google $7.4717 (95, 13; last 22:36). Inworld $3.338 (348, 1; last 22:29). WaveSpeed $0.288 (6, 2; last 11:24). Unsettled $0.1355 (7 failed).
+- Cap: 30 US (Ambi's order). Ledger shows $27.13 used, about $2.87 left. The lead reports "about $26.75" at 22:25 and Tehuti "about 26.8" at 22:27; both are behind the ledger.
+- Neon rules (lead, 17:33, earlier): Google credit, at most $0.16 a film; otherwise GLM and DeepSeek. Cut at about $0.03 plus $0.05 for Neon's plan (lead, 22:03). Neon spent $0.32 on the whole 100 s film before (lead).
+- Inworld voice is the largest production cost: $25 per million characters (Tehuti, 17:30, earlier).
+
+## Broken, blocked or open
+- GitHub billing blocks merge of seven pull requests (lead, 08:16). No later report. PR 26 has one failed check.
+- Main has no new commit since 11:13. Juju Maps work is uncommitted.
+- Istanbul take 3: the crack is a fat black blob; the sound is the old mix; year labels crowd near Izmit at 53 s; the close sea view at 66 s is plain (lead, 22:25).
+- Economics film: wrong Congo filled; a fact fix is in progress (lead, 22:37).
+- Recorder: the 12-window day scene never got ready in 240 s; cause unknown (worker, 22:23 in the changes trial).
+- Storyboard3 line 387 sends sweep a bare name ("Iraq" lit the wrong place). Fix proposed: country=1 or rings (Tehuti, 22:14).
+- Two old film files were unreadable (mississippi, gB). Cause not proven (Tehuti, 21:15).
+- Marmara: the count is 0.8 too kind (Tehuti, 21:15). The count fell from 6.3 to 5.6 after score.py changed; likely cause, not verified (Mungura, 21:21).
+- Sarygamysh lowpoly: the lake's place rows are swapped in the atlas file; a fix exists in one file, not in the writer (worker, 21:24).
+- Villages and life are off by default; day villages faint at 1.6 degrees; no daytime air photo compared (Tehuti, 22:34).
+- Sound packs and the motion and time-map layers are not yet joined into a whole film (lead 22:09, worker 22:35).
+- Not proven: a voiced film over 10 minutes; a 20-minute film; anything on a phone; the 95 of 100 taste bar; the depict card (8 of 12, under 10); niche facts (marked checked:false); the 0.4 s wipe-out; a Neon shared-prefix cache.
+
+## Waiting on Ambi
+1. Mark Istanbul take 3 out of 10 (the lead's ask, 22:25). Ambi's best so far, relayed at 21:15.
+2. Watch the Congo economics film when it is fixed. Its wrong-place fact was found at 22:37.
+3. Choose a voice from five auditioned (Gavin, Tonya, Russell, Marek, Kristen).
+4. Judge the sarygamysh b film against his taste (lead's mark about 5).
+5. Judge the Juju Maps films: Marmara, Po3, Istanbul take 3, Congo.
+6. Decide whether to lift the cap above 30 US. About $2.87 is left.
+7. Fix GitHub billing so seven pull requests can merge.
+8. Plug in the Galaxy.
+
 # Sheet of 20:37 EAT, Wed 25 Nov 2026
 
 ## Changed since the last sheet
@@ -111,6 +209,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 8. Fix GitHub billing so the seven pull requests can merge.
 9. Plug in the Galaxy.
 
+
 # Sheet of 18:36 EAT, Wed 25 Nov 2026
 
 ## Changed since the last sheet
@@ -217,6 +316,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 8. Decide the 0.2 questions: raise the cap from the app, length per channel, and where niches go.
 
 
+
 # Sheet of 16:34 EAT, Wed 25 Nov 2026
 
 ## Changed since the last sheet
@@ -301,6 +401,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 6. Answer whether a film always finishes (10:50).
 7. Plug in the Galaxy.
 8. Decide the 0.2 questions: raise the cap from the app, length per channel, and where niches go.
+
 
 
 
@@ -396,6 +497,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 5. Juju Maps: judge the kivu take and the dam film, pick the look, judge the pictures and voice of the Ottoman take. No verdict yet on terra.
 6. Answer whether a film always finishes (Mungura, 10:50; Tehuti, 10:51). No answer recorded.
 7. Plug in the Galaxy for the phone job.
+
 
 
 
@@ -496,6 +598,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 
 
 
+
 # Sheet of 10:27 EAT, Wed 25 Nov 2026
 
 ## Changed since the last sheet
@@ -580,6 +683,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 5. **Sound:** rule on the 1.28 s hush, and say whether the three sound fixes wait for the watcher fix.
 6. **Plug in the Galaxy** for the phone job.
 7. **Personal check-in:** a worker asked Ambi a personal question at 09:28 and 09:31. No reply is recorded.
+
 
 
 
@@ -679,6 +783,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 - **Ear table:** holds one refused line; the script checker needs about five.
 - **Packaging:** his eye and ear decide. Bend facts still unopened.
 - **Phone:** plug in the Galaxy.
+
 
 
 
@@ -789,6 +894,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 
 
 
+
 # Sheet of 08:16 EAT, Wed 25 Nov 2026
 
 ## Changed since the last sheet
@@ -881,6 +987,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 - **LINE-RULE items 7 to 20** (vault): awaiting countersign.
 - **Phone job:** plug in the Galaxy.
 - **Standing advice** (lead, 12:48 Tue): keep Inworld permissions read-only.
+
 
 
 
@@ -997,6 +1104,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 
 
 
+
 # Sheet of 13:45 EAT, Tue 24 Nov 2026
 
 ## Changed since the last sheet
@@ -1078,6 +1186,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 - ADR 0010 (20-minute plan) is a candidate. Acceptance not reported.
 - Replacement 90/70/50 wording is a candidate for Ambi (packaging worker, 13:46).
 - Standing advice (lead, 12:48): keep Inworld permissions on Read only.
+
 
 
 
@@ -1179,6 +1288,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 
 
 
+
 # Sheet of 13:27 EAT, Tue 24 Nov 2026
 
 ## Changed since the last sheet
@@ -1240,6 +1350,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 
 ## Waiting on Ambi
 - No request to Ambi is stated in the messages or facts.
+
 
 
 

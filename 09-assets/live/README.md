@@ -1,6 +1,6 @@
 # The rooms as they look now
 
-Checked 20:37 EAT, Wed 25 Nov 2026. One file per room, desktop beside phone, replaced when the room is redrawn. The numbered history is in `../library/`.
+Checked 22:39 EAT, Wed 25 Nov 2026. One file per room, desktop beside phone, replaced when the room is redrawn. The numbered history is in `../library/`.
 
 **Pressed** means a picture of the running app on a copy that cannot spend. **Drawn** means an older picture of the room with sample content.
 

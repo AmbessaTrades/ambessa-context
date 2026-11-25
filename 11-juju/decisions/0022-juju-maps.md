@@ -2,7 +2,7 @@
 
 Working document, changes with conversation. Decided 25 Nov 2026, about 11:30 to 12:10 (Ambi): "Juju just only [does] maps for now ... do this one niche really well", "fork it again ... so we won't use Wedjat", "literally called juju maps", "I hate parchment paper", "two design systems is fine", "having hard gates prevents a vid from rendering", "360p or 480p dozens of times rapidly ... on only 1 voiceover", "COPY THAT EXACT SCRIPT TEMPLATE and fill in our own stuff per video", "let's build on top of this", "run on my mac and ... the phone".
 
-1. One niche: empires, wars and borders, anything a map can show. The other niches wait; nothing is deleted.
+1. (Superseded by ADR 0023 items 1 and 2, 25 Nov 21:20.) One niche: empires, wars and borders, anything a map can show. The other niches wait; nothing is deleted.
 2. The drawing engine is **Juju Maps** (`juju-maps/`): a fork of bilawalsidhu/gods-eye-view (MIT, upstream 92fcccb), shrunk to its director maths; their name and marks are not used. Wedjat is untouched. `juju-stage` draws no map film once Juju Maps is wired in.
 3. The order of work in a film: script, voice, word times, storyboard, maps and motion, pictures, quotes and numbers, sound effects, music.
 4. Two looks, as data. No parchment.

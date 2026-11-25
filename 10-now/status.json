@@ -1,5 +1,5 @@
 {
- "as_of": "20:37 EAT, Wed 25 Nov 2026",
+ "as_of": "22:39 EAT, Wed 25 Nov 2026",
  "workshop": "down",
  "jobs": [],
  "pull_requests": [
@@ -367,13 +367,13 @@
   }
  ],
  "ledger": {
-  "calls": 7884,
-  "usd_total": 24.8961,
+  "calls": 8274,
+  "usd_total": 27.1299,
   "usd_by_service": {
-   "deepseek": 3.3445,
-   "openrouter": 11.9351,
-   "google": 6.0613,
-   "inworld": 3.1317,
+   "deepseek": 3.9136,
+   "openrouter": 11.9831,
+   "google": 7.4717,
+   "inworld": 3.338,
    "unsettled": 0.1355,
    "lead-test": 0.0,
    "wavespeed": 0.288
@@ -381,24 +381,24 @@
  },
  "service_calls": {
   "deepseek": {
-   "ok": 4110,
+   "ok": 4436,
    "refused_or_failed": 17,
-   "last_ok": "25 Nov 20:37 EAT"
+   "last_ok": "25 Nov 22:38 EAT"
   },
   "openrouter": {
-   "ok": 3289,
+   "ok": 3301,
    "refused_or_failed": 45,
-   "last_ok": "25 Nov 20:36 EAT"
+   "last_ok": "25 Nov 22:31 EAT"
   },
   "google": {
-   "ok": 61,
+   "ok": 95,
    "refused_or_failed": 13,
-   "last_ok": "25 Nov 20:37 EAT"
+   "last_ok": "25 Nov 22:36 EAT"
   },
   "inworld": {
-   "ok": 330,
+   "ok": 348,
    "refused_or_failed": 1,
-   "last_ok": "25 Nov 20:35 EAT"
+   "last_ok": "25 Nov 22:29 EAT"
   },
   "unsettled": {
    "ok": 0,
@@ -477,7 +477,7 @@
  },
  "rust_lines": 34793,
  "rooms": 20,
- "decisions": 20,
+ "decisions": 22,
  "apk_files": 0,
  "design_libraries": [
   "camera_motion.json",
@@ -517,7 +517,7 @@
  ],
  "finish_check": "1 of 23 clauses true, so not done",
  "film_runs": "4 DONE, 4 FAILED, 24 HOLD",
- "attempts": "293 kept, 41 reverted, 48 inconclusive",
+ "attempts": "302 kept, 42 reverted, 50 inconclusive",
  "clauses": [
   {
    "clause": "trunk.no_open_prs",
@@ -527,7 +527,7 @@
   {
    "clause": "trunk.main_is_origin_and_clean",
    "ok": false,
-   "detail": "branch main, ahead 19, behind 77, uncommitted files outside runs/ 234"
+   "detail": "branch main, ahead 19, behind 77, uncommitted files outside runs/ 236"
   },
   {
    "clause": "trunk.gate_open_at_head",
@@ -572,7 +572,7 @@
   {
    "clause": "app.receipt_is_of_this_head",
    "ok": false,
-   "detail": "walk made at None with None uncommitted files, now 4dba4d9 with 234, no-paid None"
+   "detail": "walk made at None with None uncommitted files, now 4dba4d9 with 236, no-paid None"
   },
   {
    "clause": "film.exists_10_to_20_min_with_picture_and_sound",
@@ -587,7 +587,7 @@
   {
    "clause": "money.ledger_within_cap",
    "ok": false,
-   "detail": "24.8961 spent and 0.0000 held of 10.00 US over 7884 rows (cap file 30.0, Ambi's ceiling 10.0)"
+   "detail": "27.1299 spent and 0.0000 held of 10.00 US over 8274 rows (cap file 30.0, Ambi's ceiling 10.0)"
   },
   {
    "clause": "film.voice_is_inworld_real_calls",
@@ -636,11 +636,11 @@
   }
  ],
  "newest_runs": "ottoman12f HOLD 25 Nov 11:25 (stopped at Pictures and form); proof12c FAILED 25 Nov 09:47 (stopped at Render and mix); proof12 HOLD 25 Nov 09:16 (stopped at Script and heal); proof75b HOLD 25 Nov 09:06 (stopped at Render and mix); proof75a HOLD 25 Nov 08:59 (stopped at Publish kit); strip-planets HOLD 25 Nov 08:41 (stopped at Deal and package); strip-pluto HOLD 25 Nov 08:40 (stopped at Render and mix); 20261125-083722-131d HOLD 25 Nov 08:37 (stopped at Deal and package); strip-japan DONE 25 Nov 08:34 (60 s, 0.008751 US); strip-bulgaria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-austria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-manchuria HOLD 25 Nov 08:11 (stopped at Deal and package)",
- "live_agents": 0,
+ "live_agents": 1,
  "load": [
-  4,
-  5,
-  6
+  58,
+  47,
+  37
  ],
  "sheet_written": true
 }

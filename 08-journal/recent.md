@@ -1,6 +1,179 @@
 # Juju day log, newest first
 
-Rebuilt 20:37 EAT, Wed 25 Nov 2026. Only entries whose title names Juju. Times are EAT (UTC+3). Logged by agents: evidence of what they report, not proof. Where two entries disagree, the later one wins and the older stays.
+Rebuilt 22:39 EAT, Wed 25 Nov 2026. Only entries whose title names Juju. Times are EAT (UTC+3). Logged by agents: evidence of what they report, not proof. Where two entries disagree, the later one wins and the older stays.
+
+---
+
+## 2026-11-25 22:34 EAT — TEHUTI — Juju Maps: villages painted in the ground at true size, off by default; fills bloom; one engine per film
+<!-- type: event -->
+**From:** TEHUTI
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** juju-maps film.js, gl.js, tiles.js, record.mjs, data/roads10.bin, stack/cards. Nothing committed.
+- **Why-verdict:** lead and Ambi: clumps read as pox. Standing bodies removed; towns, roads, parcels and lights are in the tiles.
+- **Status-open:** life stays off; day villages at 1.6 degrees are faint; no air photo compared by day.
+- **Related:** juju-maps/films/_data/sheets/life-true-size-240p.png, bloom-rupture-240p.png
+
+---
+
+## 2026-11-25 22:27 EAT — TEHUTI — Juju Maps: niches wired into the idea stage; first economics film started
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** birth.py takes NICHE=<id> (53 in stack/niches.json); geo.py asks for lat and lon by name (swapped rows fixed); storyboard3: named is seen, breaks and follow the break, cuts of a fault get their crack, joined dots no longer a river, sweep by country; life off until it reads.
+- **Why-verdict:** Juju Changes trial 8 of 12 twice, inconclusive, so depict.md is only used when a niche is named; Istanbul take 3 about 7 by the lead's eye, Ambi has not marked it.
+- **Status-open:** films/congo running end to end; sound, motion and time-map workers running; spent about 26.8 of 30.
+- **Related:** juju-maps/films/istanbul/take3.mp4, stack/changes.json
+
+---
+
+## 2026-11-25 22:15 EAT — TEHUTI — Built the changes-kit data layer for Juju maps and tested it; the depict card did not prove better
+<!-- type: event -->
+**From:** TEHUTI
+
+Built the changes-kit data layer for Juju maps and tested it; the depict card did not prove better
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 939c60ba)
+- Ambi asked for 12 to 18 kinds of map change, as closed data a cheap model can pick from. Built stack/changes.json with 18 kinds (9 drawn, 9 partly drawn, 0 with no op), plus 53 niches and 159 ideas.
+- Checked stills at 240p on port 4720 by eye: 28 windows, each with a bare twin. stack/test_changes.py and test_kit.py pass, so the predicate printed TRUE.
+- Blind trial of the depict card: first version won 8 of 12 (below the 10 needed to call a win); second version also 8 of 12, so it was reverted. Total spend $0.0848, 49 calls.
+- Open: idea facts are from memory and marked checked:false; level, border, gate, split, swallow, pile, allegiance, ring and years cannot be drawn in full; storyboard3.py:387 sends sweep a bare name, so 'Iraq' lit the wrong place.
+- Files changed: juju-maps/stack/changes.json; juju-maps/stack/niches.json; juju-maps/stack/cards/depict.md; juju-maps/stack/test_changes.py; juju-maps/films/_data/changes-trial/stills.py
+- Status: complete — changes layer built and tests pass; depict card unproven (trial 8 of 12, below the 10 needed) and idea facts unchecked
+
+---
+
+## 2026-11-25 22:14 EAT — TEHUTI — Juju Maps: kinds of change corrected, sweep by country name goes to the wrong land
+<!-- type: event -->
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** stack/changes.json (9 drawn, 9 partly with what is missing), stack/niches.json (18 ideas lifted from street size to map size), stack/test_changes.py.
+- **Why-verdict:** sweep given only "Iraq" lit a small place elsewhere (films/_data/changes-trial/o-sweepname); regions by name work (Sahel, Sahara). The trial ran on the lists before these edits.
+- **Status-open:** storyboard3.py:387 needs country:1 or rings (another lane's file).
+- **Related:** sheet-e.jpg
+
+---
+
+## 2026-11-25 22:09 EAT — TEHUTI — Juju Maps: 18 kinds of change, 53 niche families, depict card, blind trial 8 of 12
+<!-- type: event -->
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** juju-maps/stack/changes.json (18 kinds, 10 drawn, 8 partly), stack/niches.json (53 families, 159 ideas, checked:false), stack/cards/depict.md (1,344 characters), stack/test_changes.py, films/_data/changes-trial/ (stills, scenes, trial, verdicts). No other file edited.
+- **Why-verdict:** blind judge, 12 titles, DeepSeek medium: the card and lists win 8, lose 4; 5 clear wins, 0 clear losses; under the 10 that would be past noise, so inconclusive. A second version of the card gave 8 of 12 again and was reverted. Spend under 0.10 US.
+- **Status-open:** nothing is wired: kit.py and seats are other lanes; the niches' facts are unchecked; pulled edge cases listed in changes.json notes.
+- **Related:** films/_data/changes-trial/verdict.json, sheet-chain.jpg, sheet-b.jpg, sheet-c.jpg
+
+---
+
+## 2026-11-25 22:03 EAT — TEHUTI — Juju Maps: DeepSeek thinking works, Gemini cache understood, the fault is drawn, every move to be heard
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** docs/adr/0023 (any niche, Night and Day lead, 28 min under 1.50), docs/adr/0024 (every move heard, channel sound packs); faults.py (PB2002 seam names + GEM traces); storyboard3 (real fault, ruler = voice, shake at its place, named is seen, breaks by rupture, follow the break); talk.py + plan.py (one Neon conversation per film); board7 DIRECT7=fill; routes: fill low 64000, sound low; spine sheet lists the changing thing's steps; record.mjs refuses a film that does not play.
+- **Why-verdict:** DeepSeek gave nothing because max_tokens cut its thinking (14-16k; its own default is 64k) and medium is served as high: 48 s, 0.0056 US for a whole 100 s cut at low. Gemini 4 has no manual cache; automatic cache hits only a continued conversation (3 of 3), not a shared prefix. Cut cost 0.03 against 0.18-0.32 (Neon). Ambi's best film missed its fault because "Eurasian plate" was not found.
+- **Status-open:** Neon T2 missed after ~5 min (plan now asked straight after script); cheap cut weaker in the last third than Neon's (Judged); time map, changes, sound, motion workers running; spent about 26.4 of 30.
+- **Related:** juju-maps/films/istanbul, marmara2, marmara4
+
+---
+
+## 2026-11-25 21:57 EAT — TEHUTI — Juju Maps: the engine tells its own moves; stretch op; marmara2 faults fixed
+<!-- type: event -->
+**From:** TEHUTI
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** juju-maps film.js, gl.js, record.mjs, stack/cards/marks.md. Nothing committed.
+- **Why-verdict:** ADR 0024: picture and sound read one timeline. The half fill was the mask box, not tiles.
+- **Status-open:** no whole film redrawn; sum op still starts at once.
+- **Related:** juju-maps/films/_data/sheets/marmara-fixed-stretch.png, timeline-marmara2.json
+
+---
+
+## 2026-11-25 21:37 EAT — TEHUTI — Juju Maps: the living land
+<!-- type: event -->
+**From:** TEHUTI
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** juju-maps film.js, gl.js, tiles.js, server.mjs, record.mjs, data/places500.bin, stack/cards views.md and marks.md. Nothing committed.
+- **Why-verdict:** Ambi: a village everywhere on the planet. Real GeoNames settlements, trees, field grain, standing views; po3 redrawn as life.mp4.
+- **Status-open:** OSM hamlets never answered, no smoke, boats or trains, cutter not told to use stand.
+- **Related:** juju-maps/films/po3/life.mp4, juju-maps/films/_data/sheets/life-*.png
+
+---
+
+## 2026-11-25 21:21 EAT — MUNGURA — Juju Eye blind test on marmara: eye 4.8 vs count 5.6, count 0.8 too kind
+<!-- type: event -->
+**From:** MUNGURA
+
+Juju Eye blind test on marmara: eye 4.8 vs count 5.6, count 0.8 too kind
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session c42a65bd)
+- Ambi asked for a blind test: mark films/marmara/a.mp4 by eye before reading the count. eye.json was written before score.py ran (eye 4.8 D, count 5.6).
+- Gaps (count minus eye): opening +4.2, views +1.4, script +1.3. Largest miss: Izmit's 1999 quake drawn over Istanbul at 52 s because the hero fell back to a circle.
+- Eye faults the count misses: fault line never drawn at 20 s, ruler reads 74 km while the voice says 20 at 9 s, Turkey half filled for about 20 s at 18 s.
+- Count fell from 6.3 to 5.6 after score.py changed at 21:04; likely cause, not verified. Its 507 km distance compares the cut with a mid-point, so it is unreliable.
+- Not judged: sound (measured, not heard). Only eye.json, score.json, the marmara SCOREBOARD line and scores.jsonl were touched; no code, rubric or gate changed.
+- Files changed: juju-maps/films/marmara/eye.json; juju-maps/films/marmara/score.json; juju-maps/SCOREBOARD.md
+- Status: complete — eye.json and score run done, marmara SCOREBOARD row rewritten; no code changed.
+
+---
+
+## 2026-11-25 21:15 EAT — TEHUTI — Juju Maps: Ambi's best film so far is Istanbul quakes with Gavin; a film that does not play can no longer land
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** juju-maps/taste.json (verdict and voice kept, film inferred as marmara, the last sent), juju-maps/record.mjs (joins beside the film, decodes, counts frames, removes broken pieces, then swaps).
+- **Why-verdict:** Ambi: "best vid thus far tho, and good voice." Two files, mississippi and gB, were unreadable; first check (decode only) passed a planted broken piece, so frames are counted too. Planted fault: exit 7, old film kept, piece redrawn, plays.
+- **Status-open:** cause of the two old broken files not proven (two writers on one file suspected); blind marmara critic running; grilling round 1 unanswered.
+- **Related:** SCOREBOARD.md, data/voices.json
+
+---
+
+## 2026-11-25 21:15 EAT — TEHUTI — Juju Eye blind test on marmara: eye 4.8, count 5.6
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju Eye blind test on marmara: eye 4.8, count 5.6
+- Harness: Claude Code (claude-opus-5-5)
+- What happened: Changed: films/marmara/eye.json, score.json, one scores.jsonl row, marmara row plus its stale clause in SCOREBOARD.md. Why/verdict: eye 4.8 D, count 5.6, blended 5.0 D; the count is 0.8 too kind, worst on opening (+4.2), clutter vs marks (+4.0), stillness vs motion (+3.6). Film fault: the fault line is never drawn, and the 1999 Izmit quake is drawn over Istanbul. Related: juju-maps/eye-rubric.md.
+- Verification: eye.json mtime 21:14:26 before score.json 21:14:40; eye.json sha unchanged across the score run
+- Status: complete; sound measured, not heard; amazon not looked at
+
+---
+
+## 2026-11-25 21:05 EAT — TEHUTI — Juju's own agent stack built (after pstack), taste and scoreboard, standing improvers
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** juju-maps/stack (PRINCIPLES, 10 seats, cards, 3 systems, 3 formats, 4 bracket skeletons, kit.py, test_kit.py), docs/JUJU-STACK.md, spine/draws/board7/package/birth call it; storyboard3 mappings (opening, sweeps, counts, names, rings leave), regions.json, taste.json rows, score.py, times, film.sh voice beside places.
+- **Why/verdict:** Ambi: reverse engineer Poteto's system for Juju's own agents per design system; "best one in a while" for the Po film. po3 = first film on the stack, my mark 7.5 (Judged).
+- **Status/open:** counted score is not trusted (kivu2 6.2, fault film 8.6): Juju Eye delegate calibrating; Low Poly, Ear, Maps delegates standing; churn of 2 running; about 4.8 US left under the 30 cap.
+- **Related:** docs/JUJU-STACK.md, juju-maps/taste.json, juju-maps/SCOREBOARD.md (coming)
+
+---
+
+## 2026-11-25 21:05 EAT — TEHUTI — Juju Eye calibrated against Ambi's eight film verdicts; rubric and score.py written, four causes named
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju Eye calibrated against Ambi's eight film verdicts; rubric and score.py written, four causes named
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 86ab7fd0)
+- Ambi asked the Juju Eye critic to mark films blind and order them to match his verdicts, with the reasons in the pictures written as a 30-line rubric.
+- Eye scores (Judged) for Ambi's eight: kivu2 9.1, dam4 9.1, kokaral 8.5, mud 7.3, yellow 7.2, mississippi 5.7, ghosts 4.9, faultsnorthana 3.0. Order matches Ambi.
+- score.py --test matched 7 of 7 of Ambi's pairs on the five films it can fully count. The agent notes this is a fit to known verdicts, not a blind test.
+- Four causes named from the code: nothing changes state, a country is used as hero (wrong ground), known script holes are drawn anyway, and borders and fills are coarse or run off-frame. Fixes are proposed, not shown applied.
+- Six new films all score below B (gB 6.1, po3 6.0, undertow 5.4, podelta 5.3, yamal 4.1, sarygamysh 3.3). Sarygamysh's atlas lat/lon came out reversed, which puts the lake in Russia.
+- Files changed: juju-maps/eye-rubric.md; juju-maps/score.py
+- Status: complete — calibration, rubric and scoring written; the four cause fixes are proposed and not applied in this part.
+
+---
+
+## 2026-11-25 21:04 EAT — TEHUTI — Juju Eye: films marked, scoreboard made, count put in order
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** juju-maps/eye-rubric.md, SCOREBOARD.md, score.py, 14 films/*/eye.json, scores.jsonl. Nothing committed.
+- **Why-verdict:** of six new films none passes B: po3 6.0, gB 6.1, undertow 5.4, podelta 5.3, yamal 4.1, sarygamysh 3.2 (eye). The count had been reversed; now 7 of 7 of Ambi pairs between fully counted films, fitted, not blind.
+- **Status-open:** marmara and amazon not looked at; sound measured, not heard; mississippi mp4 reads black; three scenes of judged takes are gone.
+- **Related:** juju-maps/SCOREBOARD.md, runs/decision.tsv lane maps-score
+
+---
+
+## 2026-11-25 20:46 EAT — TEHUTI — Juju Maps: built Juju's own agent stack, a voice audition tool, and fixed the cutter crash
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju Maps: built Juju's own agent stack, a voice audition tool, and fixed the cutter crash
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 31bfe4d9)
+- Ambi asked for Juju Maps to render cleanly (no dancing polygons), better voices, a blacklist for the Moko Dusk voice (mispronounces Kazakhstan), and a Juju agent stack modelled on poteto's pstack.
+- Built: audition.py (same text through each voice), kit.py (each thinking seat gets its rules and skeleton), score.py (power-by-power scoreboard), and docs/JUJU-STACK.md. Cutter crash fixed per the agent.
+- Juju's own stack made film po3 alone. Podelta, po3, undertow, yamal and gB were queued for the Juju Eye critic. Those renders are still running and not yet checked by Ambi.
+- Ambi's verdicts: too slow to churn concepts, too sparse on drawing (draw the border, don't assume knowledge), '40 deltas' unexplained, and no map context (world, then region, then river).
+- Open: the Moko Dusk blacklist is requested but not confirmed applied in the transcript. Film quality is still below his bar, with the goofy look and corny openings flagged.
+- Files changed: juju-maps/audition.py; juju-maps/kit.py; juju-maps/score.py; juju-maps/storyboard3.py; juju-maps/board7.py; juju-maps/thumb.py; docs/JUJU-STACK.md
+- Status: in-progress — Juju's own stack and first film exist; more films are rendering and the quality bar is not yet met
 
 ---
 
