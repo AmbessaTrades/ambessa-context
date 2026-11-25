@@ -1,6 +1,212 @@
 # Juju day log, newest first
 
-Rebuilt 22:39 EAT, Wed 25 Nov 2026. Only entries whose title names Juju. Times are EAT (UTC+3). Logged by agents: evidence of what they report, not proof. Where two entries disagree, the later one wins and the older stays.
+Rebuilt 00:41 EAT, Thu 26 Nov 2026. Only entries whose title names Juju. Times are EAT (UTC+3). Logged by agents: evidence of what they report, not proof. Where two entries disagree, the later one wins and the older stays.
+
+---
+
+## 2026-11-26 00:42 EAT — TEHUTI — Juju: safety net round the gold films, read-only front door, cache moved, voices cheap, worlds lane
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** stack/golden.py (istanbul, po3), stack/stack.json, ju (doctor, where, seats, systems, films); tile cache and .toolchain moved to ~/AUH/.juju-store behind links; record.mjs one drawing at a time; data/voices.json 19 of 19 on Ase Regular V 0.3; GitHub tags gold-istanbul-25nov, safe-26nov-0055; ADR 0027 items 4 to 6; Juju Worlds lane.
+- **Why-verdict:** Ambi: "don't break what's working"; net proven with a planted fault; load 73 to 24; all 19 voices say the hard names at 0.91 or better on the cheap model (machine listener).
+- **Status-open:** time engine remaking Africa, kinds, writer, poly report, worlds, stories, type running.
+- **Related:** docs/adr/0027-time-maps.md
+
+---
+
+## 2026-11-26 00:40 EAT — TEHUTI — Juju bodies: new engine and casts built, blind test lost, live set restored
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju bodies: new engine and casts built, blind test lost, live set restored
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 867c3ea9)
+- Ambi's ask: Juju Poly bodies on Duppy Night and Day, fitting each map; he rated Istanbul an 8 and said the placing "just fit everything very well". Istanbul is frozen, so proofs use kivu2, po3 and jakarta.
+- Built: night lit windows and ground light, day relief-matched roofs, sizes 12 to 30 px, acts in stack/bodies.json (24 verbs; burn weakest; open, unload, leave, wait have no still), 28 own models.
+- Verified: blind A/B on 8 ten-second pairs gave with bodies 2 wins, without 4, equal 2. New against old was never tested. The live models.js is byte-identical to the set Ambi gave an 8.
+- Cast: 11 films read, $0.182 for 52 calls. Not tried on a 25-minute script; kivu2 views are thin; the last seat changes were not re-assessed. Sound brief left at stack/sounds/BODIES-NOTE.md.
+- Stopped drawing on the lead's order (load 73); no draws running.
+- Files changed: juju-maps/models.js; juju-maps/bodies.py; juju-maps/stack/cards/bodies.md; juju-maps/stack/bodies.json; juju-maps/stack/sounds/BODIES-NOTE.md; juju-poly-assets/own.json
+- Status: in-progress — the bar is not met (blind test lost); live set restored, no draws running, the seat is not re-tested on a full script
+
+---
+
+## 2026-11-26 00:39 EAT — TEHUTI — Juju bodies: new engine, cast and 28 own models built; lost the blind test, live set restored
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju bodies: new engine, cast and 28 own models built; lost the blind test, live set restored
+- Harness: Claude Code (claude-opus-5-5)
+- What happened: Changed: juju-maps/bench/new (models.js, bodies.py, card, block), stack/bodies.json (closed shelf, 25 verbs, tweaks), 28 own models in juju-poly-assets (own_bodies.mjs, own.json), bench still tool, notes to Ear and Maps+Motion. Live is the old set (Ambi's 8 on Istanbul); bench/swap.py new switches. Why-verdict: blind agent on 8 ten-second pairs: with bodies 2, without 4, equal 2; only strong win is the Jakarta sea wall rising. Status-open: houses that flood and small day boats lose; verbs must show change in the words' own place; test again new against old when the Mac is free. Related: Istanbul frozen by Ambi.
+- Verification: 240p stills and films looked at; blind agent; swap.py old verified byte-identical to the 23:00 engine
+- Status: complete, reverted live; new set waits for a second test
+
+---
+
+## 2026-11-26 00:02 EAT — TEHUTI — Juju time maps become a channel type; three lanes started
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** docs/adr/0027-time-maps.md, GLOSSARY (time map), taste.json; lanes: engine (motion, clock, camera, Juju Poly in Rust, themes), Time Type (fonts, page, six themes), Time Stories (accuracy audit, data, pockets, 60 ideas).
+- **Why-verdict:** Ambi: Africa film "absolutely beautiful ... almost perfect"; wanted less and smaller text, better fonts, no glitches, calmer clock, placed assets, 20 minute pockets.
+- **Status-open:** films to be remade; names and grouping of the two systems open; kinds, writer, poly lanes also running (six workers, Mac load about 30).
+- **Related:** juju-maps/films/tm-africa/a.mp4
+
+---
+
+## 2026-11-25 23:58 EAT — TEHUTI — Juju: money window built, Juju Maps fixes shipped, writer stop rule failed, GitHub save set up
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju: money window built, Juju Maps fixes shipped, writer stop rule failed, GitHub save set up
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 31bfe4d9)
+- Ambi asked for a live money window and a GitHub save. The window is at runs/pots/window.png: DeepSeek, WaveSpeed and OpenRouter refresh live, Inworld and Google are estimates. The film guard is built but off.
+- Juju Maps: marmara2 half-fill and dashed sea lines fixed, 0 pops on seven test films, shore ring and thin crack drawn. Every move has a sound by program count (120 of 120), but nobody has listened yet.
+- Juju Writer stop rule FALSE: DeepSeek beat Neon on 2-minute scripts (21 of 24 AI votes) but lost Istanbul, and its 25-minute script scored 3.5 of 10. Version 4 kept; 25-minute writing is still unproven.
+- Tic fixer was silently skipping 26 of 125 rules; all now run. A rule I added made it invent people, so I removed it. Time-map films tm-africa and tm-output drew in 26-34 s; the agent's marks are 7 and 6.5.
+- Juju GitHub save: merged a separate copy with the private main and pushed; a half-hour LaunchAgent plist was written. Open: voice choice, seven old pull requests, money window at login, Ambi's listening test.
+- Files changed: juju-maps/film.js; juju-maps/calabash.py; runs/pots/window.png; docs/adr/0026-sixty-day-pots-and-zero-shot.md; juju-maps/films/istanbul/gold6.mp4; juju-maps/films/tm-africa/a.mp4; scripts/juju-save.py; juju-maps/films/istanbul/gold-ear.mp4
+- Status: in-progress — money window, map fixes and tic fixer done; listening test, 25-minute scripts and voice choice still open
+
+---
+
+## 2026-11-25 23:57 EAT — TEHUTI — Juju Writer: DeepSeek wins most two minute scripts blind; GitHub saved; time maps landed
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** routes.json pen rows (max, high, low); tics-maps.json without the nobody rule and calabash.heal told to add nothing; private main a3010f5 by juju-save (half-hourly launchd loaded); films/tm-africa, tm-output.
+- **Why-verdict:** the nobody rule made the healer invent people (found by the writer); DeepSeek v4 chosen 21 of 24 by three Haiku listeners and 14 of 16 by two Opus, lost Istanbul 2 of 5, 25 minute script 3.5 of 10 (no sourced sheets). Ambi on the time maps: "you finally use reverse engineer video like excellently".
+- **Status-open:** one max call unmeasured; long form sheets; hard read not wired; Ambi's pair reading, voices, pull requests.
+- **Related:** juju-maps/films/_data/writer/read-me.md
+
+---
+
+## 2026-11-25 23:56 EAT — TEHUTI — Juju Maps: correction, the writer stop rule is FALSE
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** nothing in code; read-me.md now shows the Istanbul, Bosphorus and Kivu pairs.
+- **Why-verdict:** 8 of 8 was the Haiku round; under the strict listeners version 4 lost Istanbul 0 of 2; mississippi was written by GLM and mud last by GLM; the shipped chain adds a GLM doubt no listener heard; one version won one round only. calabash.heal is not wired: 2 of its 3 rewrites made up a person. Congo sheet asked again twice, failed (every step stamped 2025).
+- **Status-open:** one more full bench round, about 0.17 US; Istanbul run of places; level max.
+- **Related:** juju-maps/films/_data/writer/rows.md, long-heard.md
+
+---
+
+## 2026-11-25 23:53 EAT — TEHUTI — Juju Maps: DeepSeek writes the two minute script as well as Neon; the long script is not there
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** juju-maps/stack/write/ (craft, ear, mend, doubt, pen.py, bench.py, blind.py, long.py, hardread.py); spine.py WRITER=deepseek (default path asks byte for byte the same).
+- **Why-verdict:** blind listeners chose DeepSeek on 8 of 8 films (version 4, kept) and 6 of 8 (version 7, reverted); Istanbul lost to Neon under the strict listeners. The 25 minute script got 3.5 of 10: false facts, repeats. Neon hard read cost 0.051 and found the false facts GLM missed. All at level low: no max row in routes.json yet.
+- **Status-open:** rows in films/_data/writer/rows.md; max unmeasured; the long form needs a sourced sheet per pocket.
+- **Related:** juju-maps/films/_data/writer/read-me.md, rows.md, long-heard.md
+
+---
+
+## 2026-11-25 23:45 EAT — TEHUTI — Juju Pots: live balances in a tiny window, the app row and a guard
+<!-- type: event -->
+**From:** TEHUTI
+
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** crates/juju-pots, ~/Applications/Juju Pots.app (open), crates/juju-serve pots.rs + one route, live.js row, juju-maps/pots.py, runs/meter/pots-said.json.
+- **Why-verdict:** Ambi (ADR 0026) wants the money seen without a browser. Live read works; fail-open proved with a dead gate. At 60 films of 22.5 min the pots are short about 71 US (Estimated); 70 CAD is 49.
+- **Status-open:** server not swapped, login not loaded, guard not wired, LOT's money unknown.
+- **Related:** AMBESSA/intel/juju/crates/juju-pots/HANDOFF.md, runs/pots/window.png
+
+---
+
+## 2026-11-25 23:44 EAT — TEHUTI — Juju: Mac load fixed, tic linter repaired, date and name one mark, GitHub save started
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** record.mjs queue (two drawings, nice 12), mix.py nice; calabash.py (26 of 125 rows were skipped in silence; heal()), tics-maps.json +5, test_calabash.py; film.js joins year and place; scripts/juju-save.py, ~/.juju-save/repo (merge e2856b1 of live and 77 GitHub commits), LaunchAgent com.auh.juju-save written, not loaded; ADR 0026 items 7 to 14; voice pair films/audition/pair.
+- **Why-verdict:** load 150 to 13; Congo script 8 flagged to 0 for 0.0012 US in 8 s; stills only of the new marks, Istanbul not remade on Ambi's word. Push to private main running.
+- **Status-open:** push result, merged crates not compiled, 7 old pull requests open, voice choice, pots and kinds and writer and poly and time-map workers running.
+- **Related:** docs/adr/0026-sixty-day-pots-and-zero-shot.md
+
+---
+
+## 2026-11-25 23:42 EAT — TEHUTI — Juju Maps: wordless time maps from one command, two pockets
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** juju-maps/timemap (Rust drawer), timemap.py, data/timesets.json, stack/systems/duppy-time.json, stack/formats/timemap.json, refs/umstrUXqmRg.*; films tm-africa, tm-output.
+- **Why-verdict:** Ambi 25 Nov: a film with no script is a niche of its own. Study film measured (31 cards, median hold 4.0 s, clock 39 percent slower under a card); blind rebuild 0.43 against 0.35 unrelated and 1.00 itself, 58 gaps listed. Bugs found by looking: 1500 to 1803 was never sampled (fixed, asserted), shadows drew squares (fixed), dates of early states are sampled and now say about.
+- **Status-open:** drawer capped at 4 threads, nice 12, one draw at a time on the lead's order; world film is 34 s at that cap (bar 30). Clip export works, not wired. Third pocket stopped. $0.038 spent.
+- **Related:** juju-maps/timemap/README.md
+
+---
+
+## 2026-11-25 23:24 EAT — TEHUTI — Juju Maps: shore ring, thin crack, painted night land and five new kinds landed; gold film redrawn with all of it
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** storyboard3 emits shore inside a named sea and no longer forces life off; worker added area lists, turn, level, gate, part; films/istanbul/gold6.mp4.
+- **Why-verdict:** 93 s to draw at load 55 to 75, 120 of 120 moves heard by the count, plays; seen by the lead in stills of the worker's two takes, gold6 itself not read frame by frame.
+- **Status-open:** round 3 unanswered; poly, kinds, writer, pots, time-map workers running.
+- **Related:** juju-maps/films/_data/sheets/istanbul-shore-life.png
+
+---
+
+## 2026-11-25 23:20 EAT — TEHUTI — Juju Ear: every on-screen move now gets its own quiet sound, built and checked on marmara2, not yet listened to
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju Ear: every on-screen move now gets its own quiet sound, built and checked on marmara2, not yet listened to
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 64feae74)
+- Ambi's ask (ADR 0024): "every little element... can be subtle, it can be quiet, but it has to be there." Camera whooshes, diagram in/out, and number jingles. Never 8-bit or game-like.
+- Built: timeline.mjs reads each move from the engine's own numbers with no hook needed; chooser.py picks sounds per film; mix.py lays voice first at about -14 LUFS from 51 roles in 5 packs.
+- Agent's own checks on marmara2, po3 and kivu2: moves heard 96/96, 96/99 and 80/80; timing within 40 ms on most; the check fails when moves are removed or dropped 12 dB.
+- Open: no person has listened yet. Timeline page load took 8-11 s against a 5 s target. The timeline bar, one kivu2 fault and low-poly are not done. Watch file: films/marmara2/ear.mp4 (matches b.mp4).
+- Files changed: juju-maps/mix.py; juju-maps/timeline.mjs; juju-maps/stack/sounds/chooser.py; juju-maps/stack/cards/sound-map.json; juju-maps/stack/sounds/roles.json; juju-maps/ear.py; juju-lowpoly/mix-poly.py; juju-maps/films/marmara2/ear.mp4
+- Status: in-progress — system built and self-checked; predicate not fully TRUE, awaiting human listen and open items
+
+---
+
+## 2026-11-25 23:20 EAT — TEHUTI — Juju Ear: every move heard, chooser fixed, sound put on the gold film
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** chooser.py (16000 room, 45 s), mix.py join 45, routes sound row; films/istanbul/gold-ear.mp4 (q.mp4 picture, new mix); cap.json 35 on Ambi's order; ADR 0026; taste (8 gold, polygon 5); delegates Juju Writer, Juju Kinds, Juju Pots.
+- **Why-verdict:** 117 of 117 moves heard by the count, 4 of 4 pockets by DeepSeek low for 0.0047 US in 13 s (0 before: the stage allowed 0.02 and the call was held at 0.077). Nobody has listened yet.
+- **Status-open:** grilling round 3 unanswered (films in 60 days, Neon's jobs, top-up, cheaper voice, GitHub save).
+- **Related:** runs/sound/ear-1125/HANDOFF.md
+
+---
+
+## 2026-11-25 23:18 EAT — TEHUTI — Juju Maps: shore ring, thin fault, five kinds of change, painted land on at night
+<!-- type: event -->
+**From:** TEHUTI
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** juju-maps film.js, gl.js, tiles.js, record.mjs, stack/changes.json, stack/cards. Nothing committed.
+- **Why-verdict:** Ambi: ring the surrounding water; crack was a blob; five kinds had no act. Istanbul drawn whole twice, 0 late; blind eye took the painted land 8 of 8.
+- **Status-open:** day painted land off; gate at most .11 of the view; dam wall not proven; order_to_build next.
+- **Related:** juju-maps/films/istanbul/shore.mp4, life.mp4, films/_data/sheets
+
+---
+
+## 2026-11-25 23:17 EAT — TEHUTI — Juju Ear: every move on the map films is heard, from the engine own clock
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** juju-maps/timeline.mjs, mix.py, ear.py, stack/sounds/ (51 roles, 5 packs, chooser), stack/cards/sound-map.json and sound.md, beds/ (things, airs, small, six public domain beds), channels/*.json sounds row, juju-lowpoly/mix-poly.py.
+- **Why-verdict:** Ambi 21:40 (ADR 0024): marmara2 had two sounds in 100 s. Now 96 of 96 moves heard by the check, ambience 15 percent, -14.2 LUFS; the check fails planted faults. Nobody has listened yet.
+- **Status-open:** kivu2 one sound 1.5 dB over its law; low poly uses scene seconds; DeepSeek low answers under half the pockets, code stands. Chooser spend 0.057 US in all.
+- **Related:** juju-maps/films/marmara2/ear.mp4, ear.json, ear-list.md; runs/sound/ear-1125/HANDOFF.md
+
+---
+
+## 2026-11-25 22:55 EAT — TEHUTI — Juju Maps: motion lane reported, next five jobs sent
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** nothing by the lead; worker added window.timeline, bloom fills, upright ruler, painted land (off), one engine version per film.
+- **Why-verdict:** a whole Istanbul film on tonight's engine plays; night plain and close day fields read, po3 villages at 1.6 degrees too faint.
+- **Status-open:** shore ring, crack shape, missing kinds, painted land default; sound, poly and time-map workers running.
+- **Related:** juju-maps/films/_data/sheets/life-true-size-240p.png
+
+---
+
+## 2026-11-25 22:53 EAT — TEHUTI — Juju Maps: DeepSeek thinking fixed, Istanbul film redrawn with Juju Poly models, sound rules written down
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju Maps: DeepSeek thinking fixed, Istanbul film redrawn with Juju Poly models, sound rules written down
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 31bfe4d9)
+- Ambi asked: 'Get DeepSeek working... It must work.' DeepSeek thinking now returns an answer on the Istanbul cut that returned nothing before. It left 7 faults, against 15 to 18 for the weaker tries, for about 3 cents.
+- Redrew the Istanbul film as take3 (ten views, land cut restored) and take5-poly (Juju Poly models: flats that shake and fall, a ferry and boats with wakes). Self-marked about 7.3; sound is still the old mix.
+- Wrote ADR 0024 (every move is heard, a channel owns its sound) and ADR 0025 (Juju Poly casts every Night and Day film). Found and fixed a latitude/longitude swap in the place finder.
+- Congo economics film judged about 3.5 and not sent: it filled the wrong Congo. Rules changed, not redrawn, so the fix is unproven. Villages were turned off because they read as red spots on grass.
+- Spend was $26.75 of $30 at last check. Open: sound packs, motion with sound, a blind test for Juju Poly against the same film without models, and the Congo redraw.
+- Files changed: juju-maps/storyboard3.py; juju-maps/board7.py; juju-maps/models.js; juju-maps/geo.py; juju-maps/server.mjs; docs/adr/0024-every-move-is-heard.md; juju-maps/films/istanbul/take5-poly.mp4; juju-maps/films/istanbul/take3.mp4
+- Status: in-progress — Istanbul film is at about 7.3 and awaiting Ambi's watch; sound, Juju Poly blind test and Congo redraw are still open
+
+---
+
+## 2026-11-25 22:52 EAT — TEHUTI — Juju Maps: Juju Poly put on the Night and Day maps, with a casting seat
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** juju-maps/models.js, states.js, film.js hook, server.mjs serves models, bodies.py, stack/cards/bodies.md, storyboard3 BODIES block and the locked stretch, make.sh; ADR 0025; two Congos fixed; board7 still-stretch pass; Juju Poly delegate started.
+- **Why-verdict:** Ambi marked Istanbul take 3 a 7 ("after one minute it just stops doing things") and asked for Juju Poly on everything. First stills worked at once; night windows, shake and fall, boats under way drawn in films/istanbul/poly.mp4 (50 s to draw). Congo economics film about 3.5 by the lead (headings for sentences, wrong Congo filled): rules fixed, not redrawn.
+- **Status-open:** Juju Poly, sound, motion, time-map workers running; still-stretch pass kept 0 of 3 on its only run.
+- **Related:** juju-maps/films/istanbul/poly.mp4, films/congo
 
 ---
 

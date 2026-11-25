@@ -1,125 +1,133 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Juju now</title><style>body{background:#fff;color:#111;font:18px/1.6 Georgia,serif;max-width:44em;margin:0 auto;padding:40px 20px 80px}h1{font-size:30px}h2{font-size:21px;margin:34px 0 6px}li{margin:4px 0}code{font-size:.85em}</style></head><body>
 <h1>Juju now</h1>
-<p>As of 22:39 EAT, Wed 25 Nov 2026. Written every two hours by claude-haiku-5-5 (medium) from facts collected by code and the lead agent's own messages. Reports are not proof.</p>
+<p>As of 00:41 EAT, Thu 26 Nov 2026. Written every two hours by claude-haiku-5-5 (medium) from facts collected by code and the lead agent's own messages. Reports are not proof.</p>
 <h2>Changed since the last sheet</h2>
 <ul>
-<li>Covers 20:37 to 22:39 EAT, Wed 25 Nov 2026. Current time 22:39.</li>
-<li>Spend rose from $24.90 to $27.13 over 7,884 to 8,274 paid calls. DeepSeek +$0.58, OpenRouter +$0.09, Google +$4.86, Inworld +$0.21.</li>
-<li>Cap: 30 US (Ambi's order). The lead reports $26.75 at 22:25 and "about 26.8" at 22:27 (Tehuti). The ledger shows $27.13 now, so the lead's figures are behind the ledger.</li>
+<li>Covers 22:39 EAT Wed 25 Nov to 00:41 EAT Thu 26 Nov 2026. Current time 00:41.</li>
+<li>Spend rose from $27.13 to $29.91 over 8,274 to 9,048 paid calls. DeepSeek +$2.05, OpenRouter +$0.11, Google +$0.42, Inworld +$0.20.</li>
+<li>Lead's own figure at 00:15 was $28.18 of $35; worker's at 00:42 was $29.97 of $35. The ledger shows $29.91. Cap now $35 (was $30). The lead says Ambi's order is 35; the ledger's cap file reads 35 (Tehuti, 23:20).</li>
 <li>Finish check: 1 of 23 clauses true, unchanged.</li>
-<li>Pull requests: 7 open, 19 merged, 1 closed, unchanged. Main's newest commit is still 11:13.</li>
-<li>Whole-film runs: 4 DONE, 4 FAILED, 24 HOLD, unchanged. No new <code>juju make</code> run appears in FACTS.</li>
-<li>Decisions: 22 (was 20). Rust 34,793 lines, 56 skills, 20 rooms, 0 APK files, unchanged.</li>
-<li>Logged attempts: 302 kept (was 293), 42 reverted (was 41), 50 inconclusive (was 48).</li>
-<li>Mac load 58, 47, 37 (was 4, 5, 6). One transcript written in the last 10 minutes (was 0).</li>
-<li>The live agent page did not answer, so running agents are still unknown.</li>
-<li>Built since 20:37 (lead, Tehuti, Mungura, workers; judged only where stated): ADR 0023 (any niche, Night and Day lead, 28 min under 1.50) and ADR 0024 (every move heard, channel sound packs). Juju Maps: DeepSeek thinking fixed, cheap cut for a 100 s film at about $0.03; Neon cache understood (hits only in a continued conversation); flat coloured land; 19-voice shelf; living land painted into the ground tiles, off by default; a changes layer of 18 kinds, 53 niches; a depict card that did not prove better (8 of 12, below 10).</li>
-<li>Ambi's rulings since 20:37, as relayed: no glowing borders anywhere; countries flat, like Moko Dusk. Film 4 "cheesy, shiny border, fat arrow, 'scores four' meaningless" (20:32, relayed). Ambi's best film so far is the Istanbul quakes film with Gavin (21:15, Tehuti relays "best vid thus far tho, and good voice").</li>
+<li>Pull requests: 7 open, 19 merged, 1 closed, unchanged. Main's newest commit is still 11:13 on 25 Nov. Tehuti reports a private main save at 23:57 (a3010f5), not on the public list.</li>
+<li>Whole-film runs: 4 DONE, 4 FAILED, 24 HOLD, unchanged. No new <code>juju make</code> run in FACTS.</li>
+<li>Rust: 35,232 lines in 15 crates (was 34,793 in 14). Decisions: 25 (was 22). Skills 56, rooms 20, APK 0, unchanged.</li>
+<li>Logged attempts: 313 kept (was 302), 45 reverted (was 42), 50 inconclusive, unchanged.</li>
+<li>Mac load 42, 47, 58 (was 58, 47, 37). Two transcripts written in the last 10 minutes.</li>
+<li>The live agent page did not answer, so running agents are unknown. Workers report six lanes running at 00:02 (engine, type, stories, kinds, writer, poly).</li>
+<li>Built since 22:39 (self-reported, judged only where stated):</li>
+<li>Writer: DeepSeek wins most two-minute scripts blind. Haiku listeners chose it 21 of 24, stricter Opus 14 of 16 (lead, 23:56). Istanbul lost (2 of 5). Its 25-minute script scored 3.5 of 10 with false facts. The lead's stop rule was declared FALSE at 23:56. Max thinking not measured.</li>
+<li>Juju Poly (ADR 0025): 28 own models, casting. Blind test on 8 ten-second pairs: with bodies 2, without 4, equal 2. Lost. Live set restored (worker, 00:39). Istanbul is frozen by Ambi (rated 8).</li>
+<li>Time maps (ADR 0027): tm-africa and tm-output drawn in 26 to 34 s. Ambi on Africa: "absolutely beautiful ... almost perfect" (relayed 00:02). Wanted: less text, better fonts, no glitches, calmer clock, placed assets, 20-minute pockets.</li>
+<li>Juju Ear: every move heard by count (120 of 120 on gold6); nobody has listened.</li>
+<li>Juju Pots window at runs/pots/window.png; guard built but off.</li>
+<li>Safety net: golden.py locks istanbul and po3; <code>./ju doctor</code> 10 of 10 OK at the worker's run.</li>
+<li>Voices: 19 of 19 pass the hard-name check at 0.91 or better on the cheap model (machine listener). Wired as Àṣẹ Regular V 0.3 and Àṣẹ High V 0.3. Voice choice from Ambi still open.</li>
+<li>Juju Maps: ground rules, shore ring, thin crack, painted night land on, villages off by default.</li>
 </ul>
 <h2>What worked and what failed</h2>
 <p><b>Worked</b> (as reported)</p>
 <ul>
-<li>Istanbul take 3: the lead marks it about 7 from its frames. Ambi has not marked it. Relayed as Ambi's best so far (21:15).</li>
-<li>Cheap cut: the lead reports a 100 s film cut in about 48 s for $0.006 (DeepSeek thinking, low). Not judged for quality. The lead's own view: first cut was as good as Neon's to about 60 s, then too still (22:03).</li>
-<li>Neon cache: hits in 3 of 3 test calls in a continued conversation (lead, 22:03). Not a shared prefix.</li>
-<li>Ground check on the lowpoly b film: 0.44% worst from the ground itself (Measured, 21:24).</li>
-<li>Timeline: each op's draw times read from the engine, 0 pops on six films (Measured, 22:35).</li>
-<li>Recorder refuses a film that does not play; a planted broken piece is caught (Tehuti, 21:15, 22:03).</li>
-<li>Juju Eye blind test on marmara: eye 4.8, count 5.6 (Tehuti, 21:15; Mungura, 21:21 agrees). Count is 0.8 too kind.</li>
-<li>Changes trial: 8 of 12 twice, inconclusive, below the 10 needed. Judged by one blind judge.</li>
-<li>Coast fix (Po, Dutch polders, New Orleans and others): judged by builder from stills (20:23, earlier).</li>
-<li>Lowpoly lake: place bug found and fixed; 22 places checked, none swapped (lead, 22:09).</li>
+<li>DeepSeek writer, two-minute scripts: 21 of 24 blind votes from Haiku listeners; 14 of 16 from stricter Opus (lead, 23:56). Cost about 1.7 cents a script (lead).</li>
+<li>Istanbul gold: Ambi marked it 7 ("after one minute it just stops doing things", relayed 22:53). Frozen since.</li>
+<li>Africa time map: Ambi "absolutely beautiful ... almost perfect" (relayed 00:02).</li>
+<li>Safety net: planted fault caught (worker, 00:42).</li>
+<li>Voices: all 19 pass the hard-name check (machine listener, 00:42).</li>
+<li>Money window and GitHub save built (Tehuti, 23:58).</li>
+<li>Tic fixer: now runs all 125 rules; was silently skipping 26 (Tehuti, 23:44).</li>
+<li>Time-map study: blind rebuild 0.43 against 0.35 unrelated (Tehuti, 23:42).</li>
+<li>Mac load: 150 down to 13 (Tehuti, 23:44); later 73 down to 24 (worker, 00:42).</li>
 </ul>
 <p><b>Failed or refused</b></p>
 <ul>
-<li>Film 4 (North Anatolian ranked film): Ambi's words above, relayed at 20:32. Not re-judged.</li>
-<li>Economics film (Juju's own idea, "Why a Sack of Cement Costs Twice as Much Up the Congo"): lead eye about 3.5. Filled the wrong Congo. Fact fix started (lead, 22:37).</li>
-<li>Marmara: fault line never drawn; 1999 Izmit quake drawn over Istanbul at 52 s (eye, Tehuti 21:15). Istanbul take 3 fixes some of this.</li>
-<li>Depict card: 8 of 12 twice, reverted (Tehuti, 22:09).</li>
-<li>Sarygamysh lowpoly b: the critic says it suits Day, not low poly. Moko fit test returns "not fit" (worker, 21:24). The lead's mark about 5 from frames (22:09).</li>
-<li>Villages: the lead turned them off (22:25); the day villages at 1.6 degrees are faint (Tehuti, 22:34).</li>
-<li>Living land: lead does not meet the bar yet; left off (worker, 22:35).</li>
-<li>Ambi's older refusals still hold: stand-in drawings, the "slop" script line, the dot strip, the 36-palette sheet, parchment, Moko Day, Jenny ring (unjudged).</li>
-<li>Neon cache earlier: 0 hits (Tehuti 20:32). Cache now understood (above).</li>
+<li>Istanbul under strict writer listeners: DeepSeek lost 0 of 2 (lead, 23:56), 2 of 5 (Tehuti, 23:57).</li>
+<li>25-minute writer script: 3.5 of 10, false facts, repeats (lead, 23:56). Not sourced. Unproven.</li>
+<li>calabash.heal: 2 of 3 rewrites invented a person; not wired. The rule that caused it was removed (Tehuti, 23:57).</li>
+<li>Juju Poly bodies, blind: with bodies 2, without 4, equal 2 (worker, 00:39). Houses that flood and small day boats lost. Bar not met.</li>
+<li>Congo economics film: wrong Congo filled; about 3.5 by lead; redraw not done (Tehuti, 22:53).</li>
+<li>Writer's Congo sheet: asked twice, failed (lead 23:56).</li>
+<li>Ambi's refusals still stand: stand-in drawings, "slop" line, dot strip, 36-palette sheet, parchment, Moko Day, Jenny ring (unjudged), and the glowing border and cheesy arrow of film 4 (relayed 20:32).</li>
+<li>Ambi's 8 on Istanbul gold: kept as the live set.</li>
 </ul>
 <h2>App engine and films</h2>
 <ul>
-<li>Juju make: newest DONE is still strip-japan (60 s, 08:34).</li>
-<li>Juju Maps films (not <code>juju make</code>): Istanbul take 3 (about 7, lead's eye; Ambi not yet). Istanbul seven-breaks (about 6.8, lead's eye; replaced by take 3). Economics Congo film (about 3.5, lead). Lowpoly Sarygamysh b (about 5, lead; critic says not low poly). Marmara (eye 4.8, Tehuti). Po3 (Tehuti mark 7.5; Juju Eye count 6.0). Film 4 (Ambi refused). Kazakhstan, Mississippi, kivu3 and ghosts were sent earlier; no new verdict.</li>
-<li>Congo: running end to end (Tehuti, 22:27). Not reported done.</li>
-<li>Long films: the 28-minute cost estimate is $1.40 to $1.75 (lead, 22:09). Not built.</li>
-<li>Voices: the 19-voice shelf is built; 56 dry casts, 14 voices used, none off the shelf (Tehuti, 19:55). Ambi asked to choose from five (Gavin, Tonya, Russell, Marek, Kristen). Ambi's best so far uses Gavin (21:15).</li>
-<li>Sound: the lead reports a 100 s film's sound at -14.0 LUFS, peak -0.7 dB, measured, not heard. Sound packs per channel are being built; no film has a new sound mix yet.</li>
-<li>Speed: a whole cut at low thinking is about 48 s (lead, 22:03). Render target 1.0 still not reported as met.</li>
+<li>Juju make: newest DONE is still strip-japan (60 s, 08:34, 25 Nov).</li>
+<li>Juju Maps films, newest:</li>
+<li>Istanbul gold, gold6 and gold-ear: Istanbul frozen by Ambi. Mark 7 (Ambi, relayed 22:53).</li>
+<li>tm-africa and tm-output (time maps): drawn 26 to 34 s; marks 7 and 6.5 (agent, 23:57). Ambi: "almost perfect" on Africa.</li>
+<li>Juju Poly tests: po3 with/without; kivu2 with/without; jakarta with/without (worker, 00:15). Jakarta sea wall win.</li>
+<li>marmara2 with ear sound; Congo economics film (about 3.5 by lead, not sent).</li>
+<li>Long films: 25-minute script not working; no sourced sheets per pocket. Not built.</li>
+<li>Voices: 19 on the shelf; cheap voices Àṣẹ Regular V 0.3 and dear Àṣẹ High V 0.3 wired. Ambi still has to choose (A or B, C or D).</li>
+<li>Sound: every move heard by count (120 of 120 on gold6); no person has listened. Ear mix about -14 LUFS (measured).</li>
+<li>Speed: draw 93 s for gold6 at load 55 to 75 (Tehuti, 23:24). Time-map drawer capped at 4 threads.</li>
 </ul>
 <h2>Web app and rooms</h2>
 <ul>
-<li>Not reported this window. Last reported state (20:37): Juju 0.2 presses on the test copy; no paid press run; app price button still says $0.60 a film; films over 2 minutes not built.</li>
-<li>Census (24 Nov): 573 controls; 112 real, 160 sample, 131 dead.</li>
-<li>Make-a-film room: 71 steps, 0 bad, on the practice copy (11:07). Not checked on a real film.</li>
+<li>Not reported in this window. Last reported state (22:39 sheet): Juju 0.2 presses on the test copy; every path ends at the practice minute; census 573 controls, 112 real, 160 sample, 131 dead.</li>
+<li>No new web app report since 22:39.</li>
 </ul>
 <h2>Mac app and APK</h2>
 <ul>
-<li>APK files built: 0. Nothing has run on a phone.</li>
-<li>Mac shell still bundles the old rooms (11:06). No release build. Not tested.</li>
-<li>ADR 0022: Juju is map films only; the drawing engine is forked as Juju Maps. Making a film with the Mac closed is unresolved.</li>
-<li>Juju Maps has its own git repository. Its last commit is a merge from another project. A reset or checkout could overwrite files (16:12). Not reported since.</li>
-<li>Mac load 58, 47, 37 at 22:39. Heavy runs are active.</li>
+<li>APK files built: 0. Nothing has run on a phone. Not tested.</li>
+<li>Mac shell still bundles the old rooms (11:06 25 Nov). No release build. Not tested.</li>
+<li>Juju Pots app at ~/Applications/Juju Pots.app (Tehuti, 23:45): live balances, not swapped into the server; login not loaded.</li>
+<li>Juju Maps has its own git repository; a private GitHub save runs every half hour (Tehuti, 23:57, launchd loaded).</li>
+<li>Mac load 42, 47, 58 at 00:41.</li>
 </ul>
 <h2>Agents running now</h2>
 <ul>
-<li>The live agent page did not answer at 22:39. Running agents are unknown.</li>
-<li>Last reports: lead 22:37 (economics film fact fix); worker 22:35 (living land and timeline); Tehuti 22:34 (villages off by default, one engine per film); Mungura 21:21.</li>
-<li>Reported running: Congo film end to end (Tehuti 22:27); sound, motion and time-map workers (Tehuti 22:27 and lead 22:09); Neon T2 for plan and script (Tehuti 22:03); Geopanda-type film and niche list (lead 22:09).</li>
-<li>Reported done: stack checks (test_changes and test_kit pass, 22:14); recorder safe kill (22:35); voice shelf and dry casts (19:55).</li>
+<li>The live agent page did not answer; running agents are unknown.</li>
+<li>Lead: writer and long-form sheets (23:56, 00:15, 00:16).</li>
+<li>Worker (00:42): six lanes, time engine remaking Africa, kinds, writer, poly report, worlds, stories, type.</li>
+<li>Tehuti (00:02): engine, type and stories lanes started; writer, kinds and poly lanes also running.</li>
+<li>Last reports: worker 00:42 (safety net, voices); Tehuti 00:40 (bodies lost; live set restored).</li>
 </ul>
 <h2>Money spent on services</h2>
 <ul>
-<li>Ledger: 8,274 calls, $27.1299 in all.</li>
-<li>DeepSeek $3.9136 (4,436 answered, 17 refused or failed; last 22:38). OpenRouter $11.9831 (3,301, 45; last 22:31). Google $7.4717 (95, 13; last 22:36). Inworld $3.338 (348, 1; last 22:29). WaveSpeed $0.288 (6, 2; last 11:24). Unsettled $0.1355 (7 failed).</li>
-<li>Cap: 30 US (Ambi's order). Ledger shows $27.13 used, about $2.87 left. The lead reports "about $26.75" at 22:25 and Tehuti "about 26.8" at 22:27; both are behind the ledger.</li>
-<li>Neon rules (lead, 17:33, earlier): Google credit, at most $0.16 a film; otherwise GLM and DeepSeek. Cut at about $0.03 plus $0.05 for Neon's plan (lead, 22:03). Neon spent $0.32 on the whole 100 s film before (lead).</li>
-<li>Inworld voice is the largest production cost: $25 per million characters (Tehuti, 17:30, earlier).</li>
+<li>Ledger: 9,048 calls, $29.91 in all.</li>
+<li>DeepSeek $5.96 (5,138 answered, 17 refused or failed; last 00:41). OpenRouter $12.09 (3,333, 45; last 00:30). Google $7.89 (102, 13; last 00:39). Inworld $3.54 (381, 1; last 00:17). WaveSpeed $0.288 (6, 2; last 25 Nov 11:24). Unsettled $0.14 (7 failed).</li>
+<li>Cap: $35 (Ambi's order). Ledger shows about $5.09 left.</li>
+<li>Writer cost: about 1.7 cents a script (lead); bench round about $0.17 (lead, 23:56). Chooser spend $0.057 (Tehuti, 23:17). Bodies cast $0.182 for 52 calls (worker, 00:39).</li>
+<li>Neon cost on a hard read: $0.051 (lead, 23:52). Neon writer is no longer the default path.</li>
+<li>Inworld voice is the largest production cost per call; cheap voices now wired.</li>
 </ul>
 <h2>Broken, blocked or open</h2>
 <ul>
-<li>GitHub billing blocks merge of seven pull requests (lead, 08:16). No later report. PR 26 has one failed check.</li>
-<li>Main has no new commit since 11:13. Juju Maps work is uncommitted.</li>
-<li>Istanbul take 3: the crack is a fat black blob; the sound is the old mix; year labels crowd near Izmit at 53 s; the close sea view at 66 s is plain (lead, 22:25).</li>
-<li>Economics film: wrong Congo filled; a fact fix is in progress (lead, 22:37).</li>
-<li>Recorder: the 12-window day scene never got ready in 240 s; cause unknown (worker, 22:23 in the changes trial).</li>
-<li>Storyboard3 line 387 sends sweep a bare name ("Iraq" lit the wrong place). Fix proposed: country=1 or rings (Tehuti, 22:14).</li>
-<li>Two old film files were unreadable (mississippi, gB). Cause not proven (Tehuti, 21:15).</li>
-<li>Marmara: the count is 0.8 too kind (Tehuti, 21:15). The count fell from 6.3 to 5.6 after score.py changed; likely cause, not verified (Mungura, 21:21).</li>
-<li>Sarygamysh lowpoly: the lake's place rows are swapped in the atlas file; a fix exists in one file, not in the writer (worker, 21:24).</li>
-<li>Villages and life are off by default; day villages faint at 1.6 degrees; no daytime air photo compared (Tehuti, 22:34).</li>
-<li>Sound packs and the motion and time-map layers are not yet joined into a whole film (lead 22:09, worker 22:35).</li>
-<li>Not proven: a voiced film over 10 minutes; a 20-minute film; anything on a phone; the 95 of 100 taste bar; the depict card (8 of 12, under 10); niche facts (marked checked:false); the 0.4 s wipe-out; a Neon shared-prefix cache.</li>
+<li>GitHub billing blocks merge of seven pull requests (lead, 08:16 25 Nov). No later report. PR 26 has one failed check.</li>
+<li>Main has no new public commit since 11:13 25 Nov. Juju Maps work is uncommitted; a private save is running.</li>
+<li>Writer: 25-minute script 3.5 of 10; long form needs a sourced sheet per pocket; hard read not wired; max thinking not measured.</li>
+<li>Istanbul under the writer: lost to Neon on the strict round.</li>
+<li>Juju Poly: lost blind test; houses that flood, small day boats, verbs in the words' own place; four verbs lack a still (open, unload, leave, wait); burn is weakest.</li>
+<li>Congo economics film wrong; redraw not done.</li>
+<li>Tic fixer: now runs; invented-people rule removed.</li>
+<li>Sound: nobody has listened to the Ear mix.</li>
+<li>Time-map worlds film: 34 s draw at the cap (bar 30).</li>
+<li>Pots: at 60 films of 22.5 min, pots short about $71 (Estimated). 70 CAD is $49.</li>
+<li>Not proven: a voiced film over 10 minutes; a 20- or 25-minute film; anything on a phone; the 95 of 100 taste bar; the depict card (8 of 12, under 10); niche facts (marked checked:false); a Neon shared-prefix cache.</li>
 </ul>
 <h2>Waiting on Ambi</h2>
 <ul>
-<li>Mark Istanbul take 3 out of 10 (the lead's ask, 22:25). Ambi's best so far, relayed at 21:15.</li>
-<li>Watch the Congo economics film when it is fixed. Its wrong-place fact was found at 22:37.</li>
-<li>Choose a voice from five auditioned (Gavin, Tonya, Russell, Marek, Kristen).</li>
-<li>Judge the sarygamysh b film against his taste (lead's mark about 5).</li>
-<li>Judge the Juju Maps films: Marmara, Po3, Istanbul take 3, Congo.</li>
-<li>Decide whether to lift the cap above 30 US. About $2.87 is left.</li>
-<li>Fix GitHub billing so seven pull requests can merge.</li>
+<li>Choose a voice: A or B, C or D (the worker's ask, 00:03 and 00:42).</li>
+<li>Close the seven old pull requests, or fix GitHub billing so they merge.</li>
+<li>The money window at login: say yes or no.</li>
+<li>Name the two film systems or accept "kingdoms" and "wealth" (worker, 00:03).</li>
+<li>Pick a name for the voice toggle: Nommo 1 and Nommo 2, or Àṣẹ Tongue, or Anansi Tongue (worker, 00:24).</li>
+<li>Listen to the Ear mix on gold6 or marmara2.</li>
+<li>Decide whether to lift the cap above $35. About $5 is left on the ledger.</li>
 <li>Plug in the Galaxy.</li>
 </ul>
 <h2>Counted by code</h2>
 <ul>
 <li>Pull requests: 7 open, 19 merged, 1 closed</li>
-<li>Paid calls in the test ledger: 8274, $27.1299 in all {deepseek: 3.9136, openrouter: 11.9831, google: 7.4717, inworld: 3.338, unsettled: 0.1355, lead-test: 0.0, wavespeed: 0.288}</li>
-<li>Paid services answering: deepseek 4436 ok, 17 refused or failed, last ok 25 Nov 22:38 EAT; openrouter 3301 ok, 45 refused or failed, last ok 25 Nov 22:31 EAT; google 95 ok, 13 refused or failed, last ok 25 Nov 22:36 EAT; inworld 348 ok, 1 refused or failed, last ok 25 Nov 22:29 EAT; unsettled 0 ok, 7 refused or failed, last ok None; lead-test 0 ok, 3 refused or failed, last ok None; wavespeed 6 ok, 2 refused or failed, last ok 25 Nov 11:24 EAT</li>
-<li>Rust: 34,793 lines in 14 crates. Skills: 56. Rooms drawn: 20. Decisions: 22. APK files built: 0</li>
+<li>Paid calls in the test ledger: 9048, $29.9064 in all {deepseek: 5.9602, openrouter: 12.0932, google: 7.8885, inworld: 3.541, unsettled: 0.1355, lead-test: 0.0, wavespeed: 0.288}</li>
+<li>Paid services answering: deepseek 5138 ok, 17 refused or failed, last ok 26 Nov 00:41 EAT; openrouter 3333 ok, 45 refused or failed, last ok 26 Nov 00:30 EAT; google 102 ok, 13 refused or failed, last ok 26 Nov 00:39 EAT; inworld 381 ok, 1 refused or failed, last ok 26 Nov 00:17 EAT; unsettled 0 ok, 7 refused or failed, last ok None; lead-test 0 ok, 3 refused or failed, last ok None; wavespeed 6 ok, 2 refused or failed, last ok 25 Nov 11:24 EAT</li>
+<li>Rust: 35,232 lines in 15 crates. Skills: 56. Rooms drawn: 20. Decisions: 25. APK files built: 0</li>
 <li>Design-system libraries on disk: camera_motion.json, fonts, house, kits, looks, palettes.json, proof, proto, work-camera_motion, work-palettes, work-quotes, work-surfaces_light, work-typography</li>
 <li>Finish check: 1 of 23 clauses true, so not done</li>
 <li>Whole-film runs of <code>juju make</code> on disk: 4 DONE, 4 FAILED, 24 HOLD</li>
 <li>Newest film runs: ottoman12f HOLD 25 Nov 11:25 (stopped at Pictures and form); proof12c FAILED 25 Nov 09:47 (stopped at Render and mix); proof12 HOLD 25 Nov 09:16 (stopped at Script and heal); proof75b HOLD 25 Nov 09:06 (stopped at Render and mix); proof75a HOLD 25 Nov 08:59 (stopped at Publish kit); strip-planets HOLD 25 Nov 08:41 (stopped at Deal and package); strip-pluto HOLD 25 Nov 08:40 (stopped at Render and mix); 20261125-083722-131d HOLD 25 Nov 08:37 (stopped at Deal and package); strip-japan DONE 25 Nov 08:34 (60 s, 0.008751 US); strip-bulgaria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-austria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-manchuria HOLD 25 Nov 08:11 (stopped at Deal and package)</li>
-<li>Agent transcripts written to in the last 10 minutes (all Claude work on this Mac, mostly Juju): 1</li>
-<li>Logged attempts: 302 kept, 42 reverted, 50 inconclusive</li>
-<li>Mac load (1, 5, 15 min): [58, 47, 37]</li>
+<li>Agent transcripts written to in the last 10 minutes (all Claude work on this Mac, mostly Juju): 2</li>
+<li>Logged attempts: 313 kept, 45 reverted, 50 inconclusive</li>
+<li>Mac load (1, 5, 15 min): [42, 47, 58]</li>
 <li>The live agent page did not answer, so running agents are unknown</li>
 </ul>
 </body></html>

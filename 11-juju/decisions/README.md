@@ -1,6 +1,6 @@
 # Decisions (ADRs)
 
-As of 22:39 EAT, Wed 25 Nov 2026. Copied from the Juju repo. These outrank the master brief and every page here except a newer sentence from Ambi.
+As of 00:41 EAT, Thu 26 Nov 2026. Copied from the Juju repo. These outrank the master brief and every page here except a newer sentence from Ambi.
 A line marked candidate, inferred or "the lead's" is not Ambi's.
 
 | No. | Decision |
@@ -27,3 +27,6 @@ A line marked candidate, inferred or "the lead's" is not Ambi's.
 | 0022 | [# ADR 0022: Juju makes map films, and only map films, for now](0022-juju-maps.md) |
 | 0023 | [# ADR 0023: any niche a map can carry; two night-and-day systems first; under $1.50 a film](0023-any-niche-on-a-map.md) |
 | 0024 | [# ADR 0024: every move is heard, quietly, and a channel owns its sounds](0024-every-move-is-heard.md) |
+| 0025 | [# ADR 0025: Juju Poly lives on every map](0025-juju-poly-on-every-map.md) |
+| 0026 | [# ADR 0026: the pots are for sixty days of films; Juju learns kinds of story; DeepSeek writes at its deepest thinking](0026-sixty-day-pots-and-zero-shot.md) |
+| 0027 | [# ADR 0027: time maps, a channel type of their own](0027-time-maps.md) |
