@@ -1,121 +1,112 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Juju now</title><style>body{background:#fff;color:#111;font:18px/1.6 Georgia,serif;max-width:44em;margin:0 auto;padding:40px 20px 80px}h1{font-size:30px}h2{font-size:21px;margin:34px 0 6px}li{margin:4px 0}code{font-size:.85em}</style></head><body>
 <h1>Juju now</h1>
-<p>As of 08:23 EAT, Wed 25 Nov 2026. Written every two hours by claude-haiku-5-5 (medium) from facts collected by code and the lead agent's own messages. Reports are not proof.</p>
+<p>As of 10:27 EAT, Wed 25 Nov 2026. Written every two hours by claude-haiku-5-5 (medium) from facts collected by code and the lead agent's own messages. Reports are not proof.</p>
 <h2>Changed since the last sheet</h2>
 <ul>
-<li>Covers 08:18 to 08:23 EAT, Wed 25 Nov 2026.</li>
-<li>Paid calls: 5,825 calls, $6.0073 in the ledger (was 5,824, $6.0071). OpenRouter: 2,902 answered ok, last at 08:21.</li>
-<li>Mac load (1, 5, 15 min): 89, 84, 75 (was 87, 71, 69). Still rising.</li>
-<li>Agent transcripts written in the last 10 minutes: 7 (was 9).</li>
-<li>Worker, 08:21: the rebuilt Ottoman film is drawn. It is being checked against its rules, and looked at every 2 seconds. Not judged.</li>
-<li>Worker, 08:22: the main server pieces compile and the first unit tests pass. A playback stand-in has a fault, being found by hand.</li>
-<li>Still true from 08:16: GitHub is blocked, nothing is merged, seven pull requests are open. The Mughal film is finished.</li>
+<li>Covers 08:23 to 10:27 EAT, Wed 25 Nov 2026.</li>
+<li>Paid calls: 6,029 calls, $8.0822 in the ledger (was 5,825, $6.0073).</li>
+<li>Mac load (1, 5, 15 min): 14, 14, 17 (was 89, 84, 75). 0 agent transcripts written in the last 10 minutes.</li>
+<li>Ambi ruled: Juju only; the old Loop and Milarepa threads are out (10:02 log). He ordered single-builder mode, no swarms (09:47 log).</li>
+<li>Lead stopped otto-chron-3 himself at 08:32. Line 2 was cut before "of the Roman empire", which made it false. It is back at Outline.</li>
+<li>Finished runs: strip-japan DONE 08:34 (60 s, 0.008751 US). Whole-film runs on disk: 4 DONE, 4 FAILED, 23 HOLD.</li>
+<li>Newest runs: proof12c FAILED 09:47 (stopped at Render and mix); proof12 HOLD 09:16; proof75b HOLD 09:06; proof75a HOLD 08:59 (Publish kit); strip-planets HOLD 08:41; strip-pluto HOLD 08:40.</li>
+<li>Juju commits on this Mac's main: newest 04788e9 (10:12), then cbbffcb (09:46). The builder reports the work is committed here but not on GitHub.</li>
+<li>Rooms drawn: 20 (was 19). Rust: 33,969 lines in 14 crates (was 32,716).</li>
+<li>Logged attempts: 241 kept, 35 reverted, 47 inconclusive.</li>
+<li>Finish check: still 2 of 23 clauses true.</li>
 </ul>
 <h2>What worked and what failed</h2>
 <p><b>Worked</b> (as reported; no one has judged any of it good)</p>
 <ul>
-<li><code>juju make</code> produced three one-minute films with no test switch: otto-silent-2 (silent, 0.068 US), otto-chron-2 (words on the map, 0.001904 US), strip-mughal (from one typed sentence, 0.008507 US). The lead reports all three work and none is good.</li>
-<li>Mughal is the first subject Juju had never seen to reach a finished file.</li>
-<li>Vault review: 7 blocking faults, each red before the fix and green after. Simulation: 21,182 dealt, 238 refused, 0 faults on re-read (worker, 08:12). 54 tests.</li>
-<li>Title checks: 0 of 15 planted false titles pass, down from 15 of 15 (worker, 05:26).</li>
-<li>Film-harvest skill is in main (PR 20). Its self test scored 6 of 6, scored by its maker.</li>
-<li>Seven pull requests have CLEAN reviews: 23 from opus-ship-a (07:33), 21, 22 and 24 to 27 from opus-ship-c (08:03). These reviews check code and planted faults. They do not judge films.</li>
+<li>otto-chron-2: DONE, silent, Juju's own lines, -14.9 LUFS, 0.0019 US (lead, 08:32).</li>
+<li>strip-japan: DONE (facts, 08:34). No judgement of its look is reported.</li>
+<li>First voiced 75 s film, proof75a: voice bought, 0.015 US, 4.6 minutes machine time (builder, 09:00). It stopped at the thumbnail check (0.69 against a 0.68 limit).</li>
+<li>The builder's first 60 s of the new Ottoman strip, reviewed by a video model: verdict "fix". Worst fault: about 10 s with nothing new on Constantinople (builder, 10:12). Still stillness went from 6.2 s to 2.2 s (builder, 10:02).</li>
+<li>Script quote check: 148 sentences each matched to an exact quote in a source (builder, 09:46).</li>
+<li>Date and map position alone found the event for 23 of 26 beats (builder, 10:06).</li>
 </ul>
 <p><b>Failed</b></p>
 <ul>
-<li>Ambi, 24 Nov 23:17, on the dot strip the lead had praised: "the worst looking thing ive ever seen." He asked for Juju's own house worlds.</li>
-<li>Ambi, 24 Nov 20:57, on the script line "the sun gave nothing": "What kind of slop is that?" The lead and two Claude listeners had praised it.</li>
-<li>Ambi, 24 Nov 13:51: stand-in drawings, "Both of them are garbage." Refused.</li>
-<li>Ambi, 24 Nov 13:54: the Jade Rabbit style. He said only Claude could make it, and the software runs on cheap models. Dropped.</li>
-<li>Ambi, 24 Nov 14:33, on a 36-palette sheet: "Just like some slideshows. 2017." Cut to 11.</li>
-<li>Of ten new subjects, nine have not reached a file: Japan, Pluto, Manchuria, Bulgaria, Austria, Jerusalem, Venice, Sweden, Space.</li>
-<li>Fast runner: about 1.2 times faster, not the 3 times target (lead, 04:15).</li>
-<li>Facts lane: 2 of 15 opened facts wrong, 6 pins misplaced (lead, 02:35). Later, two more bad pins: Sarai beside Baku, and Borodino in Siberia (lead, 04:30). Not reported fixed.</li>
-<li>Engine: draws 12 of 40 picture moves in the 60 reference films, and 0 of 20 skeleton and house pairs whole (study, 03:39).</li>
+<li>proof12 (voiced, 12 min requested): first draft 1,483 words, cut to 800 by Juju's own checks. Spent 0.46 US and 353 s on one attempt (read-only audit by Mungura, 09:28, from the job files).</li>
+<li>Mungura's comparison: VerseBatch wrote 10 scripts averaging 6,905 words in 55 minutes (10 Oct). Juju wrote 0 usable scripts. This is Mungura's reading, not judged by Ambi.</li>
+<li>proof75b: the renderer's laws refused it (builder, 09:06). proof12c FAILED at Render and mix (facts, 09:47).</li>
+<li>Ambi on a sound run, 08:44: interrupted before any fix landed. Three sound asks remain open.</li>
 </ul>
 <h2>App engine and films</h2>
 <ul>
-<li><b>strip-mughal:</b> DONE, 60 s, finished 07:59. The lead watched one frame every 3 seconds (08:16). Mountains real, edges smooth, land lights as it changes hands. Still wrong: words too small for a phone; Mughal land first shows in 1539 though the film starts in 1525; it stops at 1659 though the idea said 1707; the line "But the Mughal Empire grew and took land" is weak.</li>
-<li><b>otto-chron-2</b> (lead, 07:40): words tiny, coasts blocky, one colour on grey. "Belgrade was captured" shows at 1497. "Invaded Syria" sits on Istanbul.</li>
-<li><b>otto-silent-2</b> (lead, 06:45): no words, stretches with no change, modern "now Turkey" labels, a doubtful area figure.</li>
-<li><b>Rebuilt Ottoman film</b> (worker, 08:15): each line at its place after its year, readable, clean coasts, almost no inner borders. Being drawn at 08:21. Not judged by the lead.</li>
-<li><b>Whole-film runs on disk:</b> 3 DONE, 3 FAILED, 19 HOLD. Newest: strip-bulgaria, strip-austria and strip-manchuria HOLD at 08:11 (stopped at Deal and package). strip-pluto HOLD at 08:08 (Render and mix). thru-mughal and otto-chron-3 HOLD at 08:06 (Pictures and form). strip-jerusalem FAILED at 07:36 (Script and heal). A worker reports both the Mughal and Ottoman forms legal at 08:10. The run list does not show that yet.</li>
-<li><b>Sound:</b> silent film at -14.6 LUFS, 4 of 4 cues heard (worker). A 20-minute film took 912 s (worker, 05:43). Main sets aside too little money per call, so a film with no kept answer gets no sound. It fails closed (worker, 08:03).</li>
-<li><b>Voice:</b> none in any real film. Nothing made at 10, 20, 30 or 50 minutes.</li>
-<li><b>House strips:</b> Orion was refused by four judges (06:45). Egypt, Orion and lungs repaired at 08:05 (worker): check passes, 31 unit tests. Looks judged only by their maker. Render 7 to 19 seconds per film second at load 57 to 95; target 1.0 missed.</li>
-<li><b>Harvest:</b> 11 of 12 films have notes (lead). Motion language: 64 of 64 truth rows expressible, held out on one film only. Our eye found 35 of 35 drawn events, rea-video 10 of 35, on the windows the eye was built on (03:41). The language measure gave 32 of 35 (05:18). No pack built, no blind rebuild.</li>
-<li><b>Packaging:</b> 9 frames, 45 bends. Check passes, 145 of 145 planted faults refused. 9 bend sources unconfirmed. No blind judge.</li>
-<li><b>Vault:</b> stage 0 built. Sameness across niches 2.2%, against 0.9% for published films. No film made from a slot yet.</li>
-<li><b>Facts:</b> stage valid, 0 fallbacks on 8 tables. Second reader 0 of 100. No cold run.</li>
+<li><b>Ottoman Empire, 9.5 min, 26 events, voiced:</b> the builder says the full film was drawn and rendered. No run for it appears in FACTS. The builder has not watched it whole. The builder reports it ends in 1908. A longer script with an ending is being written (10:12).</li>
+<li><b>Voice:</b> the builder moved from the cheap "flash" voice to the real TTS-2. Two samples await Ambi's choice. Delivery was called flat by the video model.</li>
+<li><b>Limits:</b> the builder removed the 0.30 US voice gate. No ruling by Ambi is recorded. The builder also says a test clip no longer blocks a real film's thumbnail.</li>
+<li><b>Story skills:</b> 52 skills exist. <code>juju make</code> does not link to them. The 10:02 diagnosis says no fix was applied. Crossroads Chain is not tested on a real film.</li>
+<li><b>Render speed:</b> about 2.3 machine seconds per film second while the Mac was busy (builder, 10:12). Target 1.0 not met.</li>
+<li><b>Picture:</b> the engine draws 12 of the 40 picture moves in the 60 reference films (study, 03:39). The builder is adding painting cutaways (10:12). Not in the film yet.</li>
+<li><b>Harvest:</b> 11 of 12 films have notes. The rest is not reported.</li>
+<li><b>Day log, undated:</b> a draw check found 3 wrong of 100 in two subjects. Rules fixed. Fresh draws 0 wrong (judged).</li>
 </ul>
 <h2>Web app and rooms</h2>
 <ul>
-<li>Pressed 24 Nov 01:22 (lead): 61 screens, 32 desktop, 29 phone. Gate, Altar, Crossroads, Cauldron, Pact, Conjuring, Spell Strip and Publish Kit work on the main path. Not every button checked.</li>
-<li>"Make a film" still only makes the practice minute (lead, 07:40). A worker started at 08:06 to make it start the real film, on web and phone. Not reported done.</li>
-<li>Five cards are placeholders on the test copy. Mirror Bend and Feed Sight show broken or empty pictures. New Vessel and the Tank are drawings. The sound room sends you back to the Altar.</li>
-<li>Cauldron price overlaps the list on phone. Not confirmed fixed.</li>
-<li>Census: 573 controls; 112 real, 160 sample, 131 dead (measured, 24 Nov 20:00). Decisions: remove 378, keep 98, wire 79, build 18.</li>
-<li>Outside critics have not reviewed the rooms.</li>
+<li>Pressed 24 Nov 01:22: 61 screens. Gate, Altar, Crossroads, Cauldron, Pact, Conjuring, Spell Strip and Publish Kit work on the main path. The five cards are placeholders. Mirror Bend and Feed Sight show broken or empty pictures.</li>
+<li>"Make a film" still makes practice clips (log, 08:44). A builder is wiring the film path into the 10, 20, 30 and 50 minute choices (09:43). Not reported done.</li>
+<li>An earlier worker's rooms in the film path never landed (10:01).</li>
+<li>Census (24 Nov 20:00): 573 controls; 112 real, 160 sample, 131 dead.</li>
 </ul>
 <h2>Mac app and APK</h2>
 <ul>
-<li>APK files built: 0. APK tested: no. Nothing has run on a phone.</li>
-<li>Phone job: an Android emulator run had 19 checks pass and 3 fail (lead, 24 Nov 23:14). Paused. Needs the Galaxy plugged in. Must export with no connection.</li>
+<li>APK files built: 0. Nothing has run on a phone.</li>
+<li>Phone job: an emulator run had 19 checks pass and 3 fail (lead, 24 Nov 23:14). Paused. Needs the Galaxy plugged in.</li>
 <li>Mac app: no release build reported. Not tested.</li>
-<li>Disk: 9.6 GB free after old build leftovers were cleared (lead, 08:06).</li>
 </ul>
 <h2>Agents running now</h2>
 <ul>
-<li>Unknown. The live agent page did not answer. Seven transcripts were written in the last 10 minutes.</li>
+<li>Live agent page did not answer. Running agents: unknown.</li>
 <li>Last reported, not confirmed live:</li>
-<li>film worker: rebuilt Ottoman film and Mughal through the whole chain (08:21);</li>
-<li>app worker: "Make a film" server pieces (08:22);</li>
-<li>sound, vault and facts repairs;</li>
-<li>engine builder on the ten missing primitives.</li>
-<li>All reviewers reported finished, last at 08:03.</li>
+<li>builder (10:12): three helpers, one per lane: app press-to-film path, a music bed, and painting cutaways. No film renders.</li>
+<li>builder (10:15): auditioning space beds, then a <code>watch.py</code> fix.</li>
+<li>a library test fails (lead, 08:37); no later report.</li>
+<li>Reviewers: all finished, last at 08:03.</li>
 </ul>
 <h2>Money spent on services</h2>
 <ul>
-<li>Ledger: $6.0073 over 5,825 calls. OpenRouter $2.9972, DeepSeek $1.9606, Google $0.5074, Inworld $0.2357, WaveSpeed $0.171, unsettled $0.1355.</li>
-<li>Answered calls: DeepSeek 2,753 (13 refused or failed); OpenRouter 2,902 (45); Google 11 (7); Inworld 78 (1); WaveSpeed 5 (0).</li>
-<li>Working limit: 10.00 US (lead). Budget: 135 CAD agreed (ADR 0008). The ledger is the record.</li>
-<li>Provider balances: no current check. Google's prepaid balance is not in the facts.</li>
-<li>Inworld: stock voices answer. No speech in a film reported.</li>
+<li>Ledger: $8.0822 over 6,029 calls. DeepSeek $2.1902, OpenRouter $4.3318, Google $0.834, Inworld $0.4198, WaveSpeed $0.171, unsettled $0.1355.</li>
+<li>Answered calls: DeepSeek 2,898 (13 refused); OpenRouter 2,949 (45); Google 14 (7); Inworld 87 (1); WaveSpeed 5 (0).</li>
+<li>Builder (10:12): 7.52 of 9.50 US spent. Lead: film lane 0.482 of 0.50 (08:32). Working limit 10.00 US (lead, earlier). The ledger is the record.</li>
 </ul>
 <h2>Broken, blocked or open</h2>
 <ul>
-<li><b>GitHub billing blocks the merge</b> (lead, 08:16). All seven passed their combined test with 0 failures. The final step that records the pass could not run. Nothing is merged.</li>
-<li><b>PR 26, sound:</b> the watcher reserves 0.000336 per call, but main prices the call at 0.001344, so main refuses every such call (worker, 08:03). Fails closed. The reservation also has no lock. Not reported fixed.</li>
-<li><b>Missing prices:</b> main's price list has no price for two models, so the gate refuses their calls in PRs 24 and 25 (worker, 07:49). Not rechecked.</li>
-<li><b>Two test frames</b> of our own were pushed on PR 26 by mistake. The branch stays (worker, 07:49).</li>
-<li><b>Pending rulings:</b> the 1.28 s hush rule on silent films (sound worker). Vault LINE-RULE items 7 to 20 await countersign. ADR 0010 (20-minute plan) is a candidate, not accepted.</li>
-<li>Finish check: 2 of 23 clauses true. Not done.</li>
-<li>The full chain for a 10-minute or voiced film is not made.</li>
-<li>Cauldron, board frames and subtitles: not confirmed fixed. Art direction: not judged.</li>
-<li>Mac load is rising while the film chain and builds run.</li>
+<li><b>GitHub billing blocks the merge</b> of seven pull requests (21 to 27 open). Nothing merged (lead, 08:16; no later report).</li>
+<li><b>PR 26, sound:</b> the watcher reserves 0.000336 per call; main prices it at 0.001344; main refuses the call. Not reported fixed. Ambi said not to push to PR 26 (08:44).</li>
+<li><b>PR 26</b> still holds two test frames pushed by mistake; they are Juju's own map film.</li>
+<li><b>Two older tests fail</b> in files the builder has not touched (10:01).</li>
+<li><b>Missing prices:</b> two models have no price in main; PRs 24 and 25 refuse their calls (07:49). Not rechecked.</li>
+<li><b>Sound:</b> the 1.28 s hush rule on silent films awaits a ruling.</li>
+<li><b>Vault:</b> LINE-RULE items 7 to 20 await countersign. No film made from a slot.</li>
+<li><b>Pacing:</b> the Ottoman film is not watched whole. Its stillness and cutaway gaps are not yet measured after the cutaways.</li>
+<li><b>Ending:</b> the Ottoman script stops at 1908; the longer ending is not written yet.</li>
+<li><b>Not proven:</b> a voiced film over ten minutes; Crossroads Chain on any film; anything on a phone.</li>
 </ul>
 <h2>Waiting on Ambi</h2>
 <ul>
-<li><b>Fix GitHub billing:</b> open Settings, then Billing and plans. Fix the payment or raise the spending limit. The lead then restarts the last step and merges the seven (lead, 08:16).</li>
-<li><b>Watch the Mughal film</b> (strip-mughal) and name the worst thing in it.</li>
-<li><b>Decide on a one-minute voice take.</b> The lead asked at 06:50 and 07:40. Any voiced ten-minute take needs his yes (lead, 05:24).</li>
-<li><b>Ear table:</b> holds one refused line; the script checker needs about five.</li>
-<li><b>Packaging:</b> his eye and ear decide. Bend facts still unopened.</li>
-<li><b>Phone:</b> plug in the Galaxy.</li>
+<li><b>Fix GitHub billing</b> so the lead can merge the seven pull requests.</li>
+<li><b>Choose the voice:</b> say "Graham" or "Winston". Without an answer the builder uses Graham (10:03).</li>
+<li><b>Watch the first 100 seconds</b> of the Ottoman strip (10:01), then the full film when it is ready. Name the worst thing in it.</li>
+<li><b>Answer four questions</b> the builder put (scope, who writes, what may stop a film, pictures). Each has the builder's proposed "yes". No ruling by Ambi is recorded (Mungura, 09:28).</li>
+<li><b>Sound:</b> rule on the 1.28 s hush, and say whether the three sound fixes wait for the watcher fix.</li>
+<li><b>Plug in the Galaxy</b> for the phone job.</li>
+<li><b>Personal check-in:</b> a worker asked Ambi a personal question at 09:28 and 09:31. No reply is recorded.</li>
 </ul>
 <h2>Counted by code</h2>
 <ul>
 <li>Pull requests: 7 open, 19 merged, 1 closed</li>
-<li>Paid calls in the test ledger: 5825, $6.0073 in all {deepseek: 1.9606, openrouter: 2.9972, google: 0.5074, inworld: 0.2357, unsettled: 0.1355, lead-test: 0.0, wavespeed: 0.171}</li>
-<li>Paid services answering: deepseek 2753 ok, 13 refused or failed, last ok 25 Nov 08:11 EAT; openrouter 2902 ok, 45 refused or failed, last ok 25 Nov 08:21 EAT; google 11 ok, 7 refused or failed, last ok 24 Nov 14:25 EAT; inworld 78 ok, 1 refused or failed, last ok 24 Nov 17:43 EAT; unsettled 0 ok, 7 refused or failed, last ok None; lead-test 0 ok, 3 refused or failed, last ok None; wavespeed 5 ok, 0 refused or failed, last ok 25 Nov 00:37 EAT</li>
-<li>Rust: 32,716 lines in 14 crates. Skills: 52. Rooms drawn: 19. Decisions: 19. APK files built: 0</li>
+<li>Paid calls in the test ledger: 6029, $8.0822 in all {deepseek: 2.1902, openrouter: 4.3318, google: 0.834, inworld: 0.4198, unsettled: 0.1355, lead-test: 0.0, wavespeed: 0.171}</li>
+<li>Paid services answering: deepseek 2898 ok, 13 refused or failed, last ok 25 Nov 10:27 EAT; openrouter 2949 ok, 45 refused or failed, last ok 25 Nov 10:22 EAT; google 14 ok, 7 refused or failed, last ok 25 Nov 10:01 EAT; inworld 87 ok, 1 refused or failed, last ok 25 Nov 10:02 EAT; unsettled 0 ok, 7 refused or failed, last ok None; lead-test 0 ok, 3 refused or failed, last ok None; wavespeed 5 ok, 0 refused or failed, last ok 25 Nov 00:37 EAT</li>
+<li>Rust: 33,969 lines in 14 crates. Skills: 52. Rooms drawn: 20. Decisions: 19. APK files built: 0</li>
 <li>Design-system libraries on disk: camera_motion.json, fonts, house, kits, looks, palettes.json, proof, proto, work-camera_motion, work-palettes, work-quotes, work-surfaces_light, work-typography</li>
 <li>Finish check: 2 of 23 clauses true, so not done</li>
-<li>Whole-film runs of <code>juju make</code> on disk: 3 DONE, 3 FAILED, 19 HOLD</li>
-<li>Newest film runs: strip-bulgaria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-austria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-manchuria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-pluto HOLD 25 Nov 08:08 (stopped at Render and mix); thru-mughal HOLD 25 Nov 08:06 (stopped at Pictures and form); otto-chron-3 HOLD 25 Nov 08:06 (stopped at Pictures and form); strip-mughal DONE 25 Nov 07:59 (60 s, 0.008507 US); thru-japan HOLD 25 Nov 07:46 (stopped at Pictures and form); thru-space HOLD 25 Nov 07:46 (stopped at Pictures and form); strip-japan HOLD 25 Nov 07:43 (stopped at Pictures and form); otto-chron-2 DONE 25 Nov 07:39 (60 s, 0.001904 US); strip-jerusalem FAILED 25 Nov 07:36 (stopped at Script and heal)</li>
-<li>Agent transcripts written to in the last 10 minutes (all Claude work on this Mac, mostly Juju): 7</li>
-<li>Logged attempts: 236 kept, 33 reverted, 40 inconclusive</li>
-<li>Mac load (1, 5, 15 min): [89, 84, 75]</li>
+<li>Whole-film runs of <code>juju make</code> on disk: 4 DONE, 4 FAILED, 23 HOLD</li>
+<li>Newest film runs: proof12c FAILED 25 Nov 09:47 (stopped at Render and mix); proof12 HOLD 25 Nov 09:16 (stopped at Script and heal); proof75b HOLD 25 Nov 09:06 (stopped at Render and mix); proof75a HOLD 25 Nov 08:59 (stopped at Publish kit); strip-planets HOLD 25 Nov 08:41 (stopped at Deal and package); strip-pluto HOLD 25 Nov 08:40 (stopped at Render and mix); 20261125-083722-131d HOLD 25 Nov 08:37 (stopped at Deal and package); strip-japan DONE 25 Nov 08:34 (60 s, 0.008751 US); strip-bulgaria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-austria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-manchuria HOLD 25 Nov 08:11 (stopped at Deal and package); thru-mughal HOLD 25 Nov 08:06 (stopped at Pictures and form)</li>
+<li>Agent transcripts written to in the last 10 minutes (all Claude work on this Mac, mostly Juju): 0</li>
+<li>Logged attempts: 241 kept, 35 reverted, 47 inconclusive</li>
+<li>Mac load (1, 5, 15 min): [14, 14, 17]</li>
 <li>The live agent page did not answer, so running agents are unknown</li>
 </ul>
 </body></html>

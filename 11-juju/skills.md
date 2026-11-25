@@ -1,6 +1,6 @@
 # The Juju skills
 
-As of 08:23 EAT, Wed 25 Nov 2026. One folder per skill in the private repo (`crates/juju-skills/packs`), each a page for agents plus a JSON the app embeds. Agents use them while building; the app must act on them while making a film. Bodies stay private; this is the map.
+As of 10:27 EAT, Wed 25 Nov 2026. One folder per skill in the private repo (`crates/juju-skills/packs`), each a page for agents plus a JSON the app embeds. Agents use them while building; the app must act on them while making a film. Bodies stay private; this is the map.
 
 | Skill | What it does, and when |
 |---|---|

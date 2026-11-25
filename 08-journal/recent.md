@@ -1,6 +1,120 @@
 # Juju day log, newest first
 
-Rebuilt 08:23 EAT, Wed 25 Nov 2026. Only entries whose title names Juju. Times are EAT (UTC+3). Logged by agents: evidence of what they report, not proof. Where two entries disagree, the later one wins and the older stays.
+Rebuilt 10:27 EAT, Wed 25 Nov 2026. Only entries whose title names Juju. Times are EAT (UTC+3). Logged by agents: evidence of what they report, not proof. Where two entries disagree, the later one wins and the older stays.
+
+---
+
+## 2026-11-25 10:02 EAT — TEHUTI — Juju: diagnosed why make ignores the story skills; fixes proposed, none applied yet
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju: diagnosed why make ignores the story skills; fixes proposed, none applied yet
+- Harness: Claude Code (auto-log by claude-haiku-5-5, SessionEnd, session c34719fe)
+- Ambi asked for Juju only: "Juju Juju is what we're working on". Agent confirmed Juju scope and dropped the old Loop and Milarepa threads.
+- Found 52 skills exist, but `juju make` has no link to them or to the conductor. The outline prompt tells it to invent causes the facts do not give.
+- The 12-minute script failed: first draft 1,483 words, 16 repairs to 1,373, then a fallback cut to 800 words. Cost $0.46.
+- A third try at 1,802 words was live at the script check at 9:31. Its proposed fixes are wiring `juju make` to the skills and building the outline with Crossroads Chain.
+- Not proven: whether Crossroads Chain improves the script. Nothing was changed in the repo during this session.
+- Status: in-progress — diagnosis and fix plan delivered; no code changed or verified yet
+
+---
+
+## 2026-11-25 09:47 EAT — TEHUTI — Juju: one builder, voiced Ottoman film rendering, new map look and quote-checked script
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju: one builder, voiced Ottoman film rendering, new map look and quote-checked script
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 31bfe4d9)
+- Ambi ordered single-builder mode, no swarms. Background jobs were stopped and Mac load fell from 92 to 3, then the tree was checked to build.
+- Voiced path fixed: the 0.30 voice limit is in, the word-matching truth check was replaced by an exact-quote check (148 sentences matched), and a resume-hash rounding bug was fixed.
+- New One Ink map look and measured arrival motion added. The first long voiced film (Ottoman, 9.5 min, 26 events) was still rendering, about 15 minutes left, and had not been watched yet.
+- Not done: the film came out 9.5 min, not the 12 requested. Seven PRs (21 to 26) passed their combined test but are unmerged because GitHub billing blocked the final step. Ambi must fix billing.
+- Files changed: crates/juju-cli/src/stages/words.rs; crates/juju-cli/src/stages/shots.rs; crates/juju-cli/src/stages/deal.rs; crates/juju-stage/src/worlds/map.rs; crates/juju-stage/src/worlds/ink.rs; crates/juju-stage/src/motion.rs; scripts/purse.py; scripts/video_eye.py
+- Status: in-progress — Ottoman voiced film still rendering and unwatched; seven PRs unmerged pending GitHub billing fix
+
+---
+
+## 2026-11-25 09:46 EAT — TEHUTI — Juju: single builder; first long voiced film rendering
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju: single builder; first long voiced film rendering
+- Harness: Claude Code
+- What happened: undefined
+- Status: undefined
+
+---
+
+## 2026-11-25 09:29 EAT — MUNGURA — Juju diagnosis: order of work was wrong; VerseBatch made 10 long scripts in 55 min, Juju made 0
+<!-- type: event -->
+**From:** MUNGURA
+
+Juju diagnosis: order of work was wrong; VerseBatch made 10 long scripts in 55 min, Juju made 0
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session c34719fe)
+- Ambi asked whether we messed up: two weeks of prep and two Ultra-weekly token runs produced no one-minute video, and he asked what we need to do.
+- Agent compared VerseBatch (10 scripts of about 6,900 words each, 55 min, 10 Oct) with Juju (0 usable scripts; one try of 6 min, 1,483 words, cost $0.46).
+- Causes named: scripts built from border-table rows with lines that break accuracy; checks that kill films instead of flagging them; swarms that re-read heavily, about 4.4B tokens on 24-25 Nov.
+- A 75-second voiced film rendered at 8:58 and was stopped because its thumbnail scored 0.69 against a 0.68 limit; the agent said that film is not good either.
+- Still open: no fix was applied in this part of the session. Next step is to rebuild the script order and the gates before more swarm runs.
+- Files changed: ~/.claude/projects/-Users-Mungura-AUH/memory/juju-benchmark-versebatch.md
+- Status: in-progress — diagnosis delivered and benchmark note saved; no Juju fix applied yet
+
+---
+
+## 2026-11-25 09:28 EAT — MUNGURA — Juju audit for Ambi: the script step lost to VerseBatch
+<!-- type: event -->
+**From:** MUNGURA
+
+- **Changed:** nothing in Juju; read only. Harness: Claude Code (Opus 5.5).
+- **Why/verdict:** Measured: VerseBatch made 10 scripts averaging 6,905 words in 55 min (10 Oct, jobs/verse file times). Juju proof12 spent 0.46 US and 353 s on one failed script of 1,483 words cut to 800 by its own checks; proof75a (75 s, voiced, 4.6 min) held only by a thumbnail check and its lines are a list. 4.4 billion Claude tokens on 24 and 25 Nov, almost all re-reading.
+- **Status/open:** round 1 of questions put to Ambi; no decision recorded.
+- **Related:** juju, runs/builder/proof12.log, ~/AUH/Loop/jobs/verse
+
+---
+
+## 2026-11-25 08:53 EAT — TEHUTI — Fixed the context-repo sync job and pushed the Juju overhaul to GitHub
+<!-- type: event -->
+**From:** TEHUTI
+
+Fixed the context-repo sync job and pushed the Juju overhaul to GitHub
+- Harness: Claude Code (auto-log by claude-haiku-5-5, SessionEnd, session 2aeafab7)
+- Ambi asked: "I think everything today GitHub. Everything that has happened... Everything everything now, man, please." The two-hour sync had crashed at 13:52 on a date format, so nothing had been pushed for 18 hours.
+- Fixed sync_context_repo.py, then read both days of Juju work and the day logs. Picked hand-chosen success and failure pictures, each with its verdict in the caption, and ran a text scan on each.
+- Rewrote the repo pages: 11-juju/worked-and-failed.md, money-and-stack, orchestration, surfaces, and the now and record pages. Each is timestamped and the gallery was updated (252 pictures, 57 new).
+- Pushed by hand after stopping the running sync job, so the push did not wait for the schedule. The GitHub link and the update text for Ambi were produced from the pushed repo.
+- Still open: the Make-a-film button still makes a practice clip, not a real film. No phone app file exists yet. The two-hourly Haiku update job needs a confirmed clean run.
+- Files changed: ~/AUH/AMBESSA/sync_context_repo.py; ~/AUH/AMBESSA/context_gallery.py; ~/AUH/AMBESSA/context-repo/11-juju/worked-and-failed.md; ~/AUH/AMBESSA/context-repo/11-juju/money-and-stack.md; ~/AUH/AMBESSA/context-repo/11-juju/orchestration.md; ~/AUH/AMBESSA/context-repo/10-now/now.md; ~/AUH/AMBESSA/context-repo/09-assets/library/LIBRARY.md; ~/AUH/AMBESSA/context-repo/11-juju/what-ambi-said.md
+- Status: complete — repo pushed by hand at 08:15 EAT 25 Nov; app 'Make a film' still makes practice clips, not yet wired
+
+---
+
+## 2026-11-25 08:44 EAT — TEHUTI — THROUGH: silent Juju film built to DONE with its own lines; voiced minute and thru-japan/space still open
+<!-- type: event -->
+**From:** TEHUTI
+
+THROUGH: silent Juju film built to DONE with its own lines; voiced minute and thru-japan/space still open
+- Harness: Claude Code (auto-log by claude-haiku-5-5, SessionEnd, session ef888377)
+- Ambi asked for a real juju make film with no test switches, only Juju's models: silent minute, then voiced minute, then 10 minutes.
+- Silent otto-chron-2 reached DONE, with Juju's own dated lines on the map. Sound passed at -14.6 LUFS with 4 of 4 cues heard. Fixes went into truth.rs, words.rs, source.rs, clock.rs, deal.rs and the new chron.rs.
+- New checks refuse a line shown before its year or a pin more than 150 km from its named place. The test suite was at 61 passing with planted cases; the final full run was not confirmed before the session was interrupted.
+- Lead reports strip-mughal DONE (16 min, 0.0085 US) but with faults still open. thru-japan and thru-space stalled on the 7 s gap rule. otto-chron-3 went back to Outline. No voiced minute has been made yet.
+- Files changed: crates/juju-cli/src/stages/chron.rs; crates/juju-cli/src/stages/truth.rs; crates/juju-cli/src/stages/words.rs; crates/juju-cli/src/stages/source.rs; crates/juju-cli/src/stages/clock.rs; crates/juju-cli/src/stages/deal.rs; crates/juju-cli/tests/make.rs; runs/through/BLOCKS.md
+- Status: in-progress — silent minute DONE (otto-chron-2); voiced minute and 10-minute film not yet made; session interrupted by user
+
+---
+
+## 2026-11-25 08:44 EAT — TEHUTI — Sound worker: read the juju-sound code for three fixes; interrupted before any fix landed
+<!-- type: event -->
+**From:** TEHUTI
+
+Sound worker: read the juju-sound code for three fixes; interrupted before any fix landed
+- Harness: Claude Code (auto-log by claude-haiku-5-5, SessionEnd, session 62c92a0f)
+- Ambi asked for three sound fixes: a bed for the space film strip-pluto, the watch.py reserve mismatch with prices.worst, and a listening check of three masters. He said not to push to PR 26.
+- Read WORKER.md, the ask-juju skill, the earshot-sound-engine skill, the juju-sound crate, glue/watch.py, scripts/prices.py and runs/sound/auto/HANDOFF.md.
+- Searched Wikimedia for public-domain space-air recordings and created an empty folder runs/sound/auto/shelf/src/space. No bed was built, no code was changed, and no listening check was done.
+- Ambi interrupted the run. Open: the bed for strip-pluto, the watcher reserve fix (0.000336 vs 0.001344), and the Earshot listening note on the three masters.
+- Files changed: runs/sound/auto/shelf/src/space
+- Status: blocked — interrupted by Ambi; all three asks still open, no code or film changed
 
 ---
 

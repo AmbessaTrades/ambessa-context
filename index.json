@@ -1,7 +1,7 @@
 {
  "name": "ambessa-context",
  "what": "The working context of one project, Juju, for an AI that cannot see Ambi's computer.",
- "rebuilt": "08:23 EAT, Wed 25 Nov 2026",
+ "rebuilt": "10:27 EAT, Wed 25 Nov 2026",
  "read_order": [
   "00-READ-FIRST.md",
   "01-context.txt",
@@ -20,7 +20,7 @@
   },
   {
    "path": "01-context.txt",
-   "bytes": 15948
+   "bytes": 14127
   },
   {
    "path": "02-the-software.md",
@@ -56,7 +56,7 @@
   },
   {
    "path": "08-journal/recent.md",
-   "bytes": 92411
+   "bytes": 101919
   },
   {
    "path": "09-assets/.DS_Store",
@@ -1071,16 +1071,20 @@
    "bytes": 224050
   },
   {
+   "path": "09-assets/library/253-strip-japan-done-by-its-own-checks-60-s-asked-.jpg",
+   "bytes": 217448
+  },
+  {
    "path": "09-assets/library/GALLERY.html",
-   "bytes": 77102
+   "bytes": 77471
   },
   {
    "path": "09-assets/library/LIBRARY.md",
-   "bytes": 70690
+   "bytes": 71047
   },
   {
    "path": "09-assets/library/items.json",
-   "bytes": 76590
+   "bytes": 76982
   },
   {
    "path": "09-assets/library/library.json",
@@ -1164,23 +1168,23 @@
   },
   {
    "path": "10-now/attempts.md",
-   "bytes": 45898
+   "bytes": 46769
   },
   {
    "path": "10-now/films.md",
-   "bytes": 7330
+   "bytes": 9138
   },
   {
    "path": "10-now/history.md",
-   "bytes": 55982
+   "bytes": 63321
   },
   {
    "path": "10-now/now.html",
-   "bytes": 12671
+   "bytes": 10799
   },
   {
    "path": "10-now/now.md",
-   "bytes": 11409
+   "bytes": 9588
   },
   {
    "path": "10-now/pull-requests.md",
@@ -1188,7 +1192,7 @@
   },
   {
    "path": "10-now/status.json",
-   "bytes": 15224
+   "bytes": 15268
   },
   {
    "path": "11-juju/README.md",

@@ -1,6 +1,6 @@
 # The library
 
-252 pictures, numbered once and never renumbered. Newest work first. Rebuilt 08:24 EAT, 25 Nov 2026.
+253 pictures, numbered once and never renumbered. Newest work first. Rebuilt 10:28 EAT, 25 Nov 2026.
 
 Raw link for any file: `https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/<file>`. Machine record: `items.json`. Page with pictures: `GALLERY.html`.
 
@@ -18,6 +18,7 @@ Films that came out of one command, `juju make`, with Juju's own models. A finis
 | 204 | Thumbnail Juju made for make-mongols. Thin: one shape, no idea · 25 Nov | [204-thumbnail-juju-made-for-make-mongols-thin-one-.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/204-thumbnail-juju-made-for-make-mongols-thin-one-.jpg) |
 | 205 | Test film of 20:29, 24 Nov: Africa 1956 to 1960. Silent and from a fixed test script, so it is not a Juju film | [205-test-film-of-20-29-24-nov-africa-1956-to-1960-.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/205-test-film-of-20-29-24-nov-africa-1956-to-1960-.jpg) |
 | 252 | strip-mughal, DONE by its own checks: the first new subject to reach a file. 60 s silent, 0.009 US, 15.8 machine minutes. Seen by the writer of this repo: tiny words, 14 s of bare land before colour, dull · 25 Nov 08:08 | [252-strip-mughal-done-by-its-own-checks-60-s-asked.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/252-strip-mughal-done-by-its-own-checks-60-s-asked.jpg) |
+| 253 | strip-japan: DONE by its own checks, 60 s asked, 0.008751 US, 11.2 machine minutes. 20 frames. Not judged by a person when added · 25 Nov 08:34 | [253-strip-japan-done-by-its-own-checks-60-s-asked-.jpg](https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/253-strip-japan-done-by-its-own-checks-60-s-asked-.jpg) |
 
 ## Juju — worked
 

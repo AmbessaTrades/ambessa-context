@@ -1,5 +1,5 @@
 {
- "as_of": "08:23 EAT, Wed 25 Nov 2026",
+ "as_of": "10:27 EAT, Wed 25 Nov 2026",
  "workshop": "down",
  "jobs": [],
  "pull_requests": [
@@ -367,13 +367,13 @@
   }
  ],
  "ledger": {
-  "calls": 5825,
-  "usd_total": 6.0073,
+  "calls": 6029,
+  "usd_total": 8.0822,
   "usd_by_service": {
-   "deepseek": 1.9606,
-   "openrouter": 2.9972,
-   "google": 0.5074,
-   "inworld": 0.2357,
+   "deepseek": 2.1902,
+   "openrouter": 4.3318,
+   "google": 0.834,
+   "inworld": 0.4198,
    "unsettled": 0.1355,
    "lead-test": 0.0,
    "wavespeed": 0.171
@@ -381,24 +381,24 @@
  },
  "service_calls": {
   "deepseek": {
-   "ok": 2753,
+   "ok": 2898,
    "refused_or_failed": 13,
-   "last_ok": "25 Nov 08:11 EAT"
+   "last_ok": "25 Nov 10:27 EAT"
   },
   "openrouter": {
-   "ok": 2902,
+   "ok": 2949,
    "refused_or_failed": 45,
-   "last_ok": "25 Nov 08:21 EAT"
+   "last_ok": "25 Nov 10:22 EAT"
   },
   "google": {
-   "ok": 11,
+   "ok": 14,
    "refused_or_failed": 7,
-   "last_ok": "24 Nov 14:25 EAT"
+   "last_ok": "25 Nov 10:01 EAT"
   },
   "inworld": {
-   "ok": 78,
+   "ok": 87,
    "refused_or_failed": 1,
-   "last_ok": "24 Nov 17:43 EAT"
+   "last_ok": "25 Nov 10:02 EAT"
   },
   "unsettled": {
    "ok": 0,
@@ -424,7 +424,7 @@
   },
   "juju-cli": {
    "files": 24,
-   "lines": 3368
+   "lines": 3558
   },
   "juju-conduct": {
    "files": 26,
@@ -440,7 +440,7 @@
   },
   "juju-gather": {
    "files": 23,
-   "lines": 2821
+   "lines": 2837
   },
   "juju-next": {
    "files": 14,
@@ -456,7 +456,7 @@
   },
   "juju-serve": {
    "files": 22,
-   "lines": 3236
+   "lines": 3359
   },
   "juju-sigil": {
    "files": 13,
@@ -467,16 +467,16 @@
    "lines": 62
   },
   "juju-sound": {
-   "files": 11,
-   "lines": 1098
+   "files": 12,
+   "lines": 1281
   },
   "juju-stage": {
-   "files": 35,
-   "lines": 3219
+   "files": 47,
+   "lines": 3960
   }
  },
- "rust_lines": 32716,
- "rooms": 19,
+ "rust_lines": 33969,
+ "rooms": 20,
  "decisions": 19,
  "apk_files": 0,
  "design_libraries": [
@@ -502,6 +502,8 @@
   "sJiaWNxYFUA": 2
  },
  "main_commits": [
+  "04788e9 25 Nov 10:12 Cutaways over the map, the whole film watched as a stage, an ending, faster map",
+  "cbbffcb 25 Nov 09:46 Voiced films told from events, backed by quotations; One Ink map; arrival motion; video eye",
   "3aec0e3 25 Nov 08:12 juju-db: simulation and receipt of the binary",
   "2bc945b 25 Nov 08:04 juju-db: the package line tells and does not hold; a killed writer hides no film; rules and counts brought up to date",
   "13b8a06 25 Nov 07:22 juju-db: receipt of the binary",
@@ -511,13 +513,11 @@
   "d0f07e1 25 Nov 05:26 juju-next: receipt",
   "9e42859 25 Nov 05:26 juju-next: subjects tried are only those judged, readers see 340 words back, no writing without room for both readings",
   "a3dfd48 25 Nov 05:09 juju-next 0.5.0: truth held word by word and sealed to two readings, pictures from their own records, bends on the donor's shape, one journal; no hand is dealt yet",
-  "9be3910 25 Nov 04:16 juju-db: receipt of the binary",
-  "a966d48 25 Nov 04:16 juju-db: every refusal listed, the window rule's sources, the report of 25 November",
-  "1815e3d 25 Nov 03:52 juju-db: receipt of the binary"
+  "9be3910 25 Nov 04:16 juju-db: receipt of the binary"
  ],
  "finish_check": "2 of 23 clauses true, so not done",
- "film_runs": "3 DONE, 3 FAILED, 19 HOLD",
- "attempts": "236 kept, 33 reverted, 40 inconclusive",
+ "film_runs": "4 DONE, 4 FAILED, 23 HOLD",
+ "attempts": "241 kept, 35 reverted, 47 inconclusive",
  "clauses": [
   {
    "clause": "trunk.no_open_prs",
@@ -527,7 +527,7 @@
   {
    "clause": "trunk.main_is_origin_and_clean",
    "ok": false,
-   "detail": "branch main, ahead 16, behind 77, uncommitted files outside runs/ 229"
+   "detail": "branch main, ahead 18, behind 77, uncommitted files outside runs/ 214"
   },
   {
    "clause": "trunk.gate_open_at_head",
@@ -572,7 +572,7 @@
   {
    "clause": "app.receipt_is_of_this_head",
    "ok": false,
-   "detail": "walk made at None with None uncommitted files, now 3aec0e3 with 229, no-paid None"
+   "detail": "walk made at None with None uncommitted files, now 04788e9 with 214, no-paid None"
   },
   {
    "clause": "film.exists_10_to_20_min_with_picture_and_sound",
@@ -587,7 +587,7 @@
   {
    "clause": "money.ledger_within_cap",
    "ok": true,
-   "detail": "6.0073 spent and 0.0000 held of 10.00 US over 5826 rows (cap file 10.0, Ambi's ceiling 10.0)"
+   "detail": "8.0822 spent and 0.0000 held of 9.50 US over 6029 rows (cap file 9.5, Ambi's ceiling 10.0)"
   },
   {
    "clause": "film.voice_is_inworld_real_calls",
@@ -635,12 +635,12 @@
    "detail": "could not be read: ValueError: ROOT-PASS.json is missing or empty"
   }
  ],
- "newest_runs": "strip-bulgaria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-austria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-manchuria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-pluto HOLD 25 Nov 08:08 (stopped at Render and mix); thru-mughal HOLD 25 Nov 08:06 (stopped at Pictures and form); otto-chron-3 HOLD 25 Nov 08:06 (stopped at Pictures and form); strip-mughal DONE 25 Nov 07:59 (60 s, 0.008507 US); thru-japan HOLD 25 Nov 07:46 (stopped at Pictures and form); thru-space HOLD 25 Nov 07:46 (stopped at Pictures and form); strip-japan HOLD 25 Nov 07:43 (stopped at Pictures and form); otto-chron-2 DONE 25 Nov 07:39 (60 s, 0.001904 US); strip-jerusalem FAILED 25 Nov 07:36 (stopped at Script and heal)",
- "live_agents": 7,
+ "newest_runs": "proof12c FAILED 25 Nov 09:47 (stopped at Render and mix); proof12 HOLD 25 Nov 09:16 (stopped at Script and heal); proof75b HOLD 25 Nov 09:06 (stopped at Render and mix); proof75a HOLD 25 Nov 08:59 (stopped at Publish kit); strip-planets HOLD 25 Nov 08:41 (stopped at Deal and package); strip-pluto HOLD 25 Nov 08:40 (stopped at Render and mix); 20261125-083722-131d HOLD 25 Nov 08:37 (stopped at Deal and package); strip-japan DONE 25 Nov 08:34 (60 s, 0.008751 US); strip-bulgaria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-austria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-manchuria HOLD 25 Nov 08:11 (stopped at Deal and package); thru-mughal HOLD 25 Nov 08:06 (stopped at Pictures and form)",
+ "live_agents": 0,
  "load": [
-  89,
-  84,
-  75
+  14,
+  14,
+  17
  ],
  "sheet_written": true
 }
