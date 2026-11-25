@@ -1,6 +1,6 @@
 # The library
 
-253 pictures, numbered once and never renumbered. Newest work first. Rebuilt 14:33 EAT, 25 Nov 2026.
+253 pictures, numbered once and never renumbered. Newest work first. Rebuilt 16:34 EAT, 25 Nov 2026.
 
 Raw link for any file: `https://raw.githubusercontent.com/AmbessaTrades/ambessa-context/main/09-assets/library/<file>`. Machine record: `items.json`. Page with pictures: `GALLERY.html`.
 

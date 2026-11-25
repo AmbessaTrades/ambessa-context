@@ -1,5 +1,5 @@
 {
- "as_of": "14:31 EAT, Wed 25 Nov 2026",
+ "as_of": "16:34 EAT, Wed 25 Nov 2026",
  "workshop": "down",
  "jobs": [],
  "pull_requests": [
@@ -367,13 +367,13 @@
   }
  ],
  "ledger": {
-  "calls": 6384,
-  "usd_total": 9.9,
+  "calls": 6639,
+  "usd_total": 16.1197,
   "usd_by_service": {
-   "deepseek": 2.3606,
-   "openrouter": 5.064,
-   "google": 1.1165,
-   "inworld": 1.0254,
+   "deepseek": 2.4823,
+   "openrouter": 9.5897,
+   "google": 2.4544,
+   "inworld": 1.2599,
    "unsettled": 0.1355,
    "lead-test": 0.0,
    "wavespeed": 0.198
@@ -381,24 +381,24 @@
  },
  "service_calls": {
   "deepseek": {
-   "ok": 3159,
+   "ok": 3284,
    "refused_or_failed": 13,
-   "last_ok": "25 Nov 14:27 EAT"
+   "last_ok": "25 Nov 16:26 EAT"
   },
   "openrouter": {
-   "ok": 3001,
+   "ok": 3100,
    "refused_or_failed": 45,
-   "last_ok": "25 Nov 14:26 EAT"
+   "last_ok": "25 Nov 16:33 EAT"
   },
   "google": {
-   "ok": 15,
+   "ok": 23,
    "refused_or_failed": 7,
-   "last_ok": "25 Nov 11:24 EAT"
+   "last_ok": "25 Nov 16:19 EAT"
   },
   "inworld": {
-   "ok": 127,
+   "ok": 150,
    "refused_or_failed": 1,
-   "last_ok": "25 Nov 14:25 EAT"
+   "last_ok": "25 Nov 16:09 EAT"
   },
   "unsettled": {
    "ok": 0,
@@ -455,8 +455,8 @@
    "lines": 2878
   },
   "juju-serve": {
-   "files": 22,
-   "lines": 3368
+   "files": 23,
+   "lines": 3617
   },
   "juju-sigil": {
    "files": 13,
@@ -475,7 +475,7 @@
    "lines": 3967
   }
  },
- "rust_lines": 34532,
+ "rust_lines": 34781,
  "rooms": 20,
  "decisions": 20,
  "apk_files": 0,
@@ -515,9 +515,9 @@
   "9e42859 25 Nov 05:26 juju-next: subjects tried are only those judged, readers see 340 words back, no writing without room for both readings",
   "a3dfd48 25 Nov 05:09 juju-next 0.5.0: truth held word by word and sealed to two readings, pictures from their own records, bends on the donor's shape, one journal; no hand is dealt yet"
  ],
- "finish_check": "2 of 23 clauses true, so not done",
+ "finish_check": "1 of 23 clauses true, so not done",
  "film_runs": "4 DONE, 4 FAILED, 24 HOLD",
- "attempts": "255 kept, 39 reverted, 47 inconclusive",
+ "attempts": "272 kept, 40 reverted, 48 inconclusive",
  "clauses": [
   {
    "clause": "trunk.no_open_prs",
@@ -527,7 +527,7 @@
   {
    "clause": "trunk.main_is_origin_and_clean",
    "ok": false,
-   "detail": "branch main, ahead 19, behind 77, uncommitted files outside runs/ 227"
+   "detail": "branch main, ahead 19, behind 77, uncommitted files outside runs/ 232"
   },
   {
    "clause": "trunk.gate_open_at_head",
@@ -572,7 +572,7 @@
   {
    "clause": "app.receipt_is_of_this_head",
    "ok": false,
-   "detail": "walk made at None with None uncommitted files, now 4dba4d9 with 227, no-paid None"
+   "detail": "walk made at None with None uncommitted files, now 4dba4d9 with 232, no-paid None"
   },
   {
    "clause": "film.exists_10_to_20_min_with_picture_and_sound",
@@ -586,8 +586,8 @@
   },
   {
    "clause": "money.ledger_within_cap",
-   "ok": true,
-   "detail": "9.9000 spent and 0.0000 held of 10.00 US over 6384 rows (cap file 15.0, Ambi's ceiling 10.0)"
+   "ok": false,
+   "detail": "16.1197 spent and 0.1223 held of 10.00 US over 6639 rows (cap file 20.0, Ambi's ceiling 10.0)"
   },
   {
    "clause": "film.voice_is_inworld_real_calls",
@@ -638,9 +638,9 @@
  "newest_runs": "ottoman12f HOLD 25 Nov 11:25 (stopped at Pictures and form); proof12c FAILED 25 Nov 09:47 (stopped at Render and mix); proof12 HOLD 25 Nov 09:16 (stopped at Script and heal); proof75b HOLD 25 Nov 09:06 (stopped at Render and mix); proof75a HOLD 25 Nov 08:59 (stopped at Publish kit); strip-planets HOLD 25 Nov 08:41 (stopped at Deal and package); strip-pluto HOLD 25 Nov 08:40 (stopped at Render and mix); 20261125-083722-131d HOLD 25 Nov 08:37 (stopped at Deal and package); strip-japan DONE 25 Nov 08:34 (60 s, 0.008751 US); strip-bulgaria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-austria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-manchuria HOLD 25 Nov 08:11 (stopped at Deal and package)",
  "live_agents": 0,
  "load": [
-  77,
-  71,
-  80
+  7,
+  13,
+  21
  ],
  "sheet_written": true
 }

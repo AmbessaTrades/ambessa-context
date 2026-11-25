@@ -1,6 +1,185 @@
 # Juju day log, newest first
 
-Rebuilt 14:31 EAT, Wed 25 Nov 2026. Only entries whose title names Juju. Times are EAT (UTC+3). Logged by agents: evidence of what they report, not proof. Where two entries disagree, the later one wins and the older stays.
+Rebuilt 16:34 EAT, Wed 25 Nov 2026. Only entries whose title names Juju. Times are EAT (UTC+3). Logged by agents: evidence of what they report, not proof. Where two entries disagree, the later one wins and the older stays.
+
+---
+
+## 2026-11-25 16:27 EAT — TEHUTI — River and ground cut acts built in juju-maps gl.js, checked in night and day stills
+<!-- type: event -->
+**From:** TEHUTI
+
+River and ground cut acts built in juju-maps gl.js, checked in night and day stills
+- Harness: Claude Code (auto-log by claude-haiku-5-5, SessionEnd, session bab8c728)
+- Ambi asked for a river cut (section with river:true) and a ground cut (ground:true), ten timed acts, each stills checked by eye at 854x480 in night and day.
+- Agent built all ten acts (perch, silt, raise, breach, seep, buried, pump, drop, sinkground, saltcreep) in gl.js and reviewed the stills in films/_river.
+- Agent reports each act costs under 2 ms a frame and that the block stays on the real line; it judged stills only, not a moving clip.
+- The two lead faults (tremor ring 'waves' too large, seamount 'lamps' crowding the crater) were raised; the transcript cuts off before confirming they were fixed.
+- Files changed: juju-maps/gl.js; juju-maps/films/_river/night.jpg; juju-maps/films/_river/day.jpg
+- Status: complete — ten river and ground acts built and checked in night and day stills; lead-fault fixes not confirmed in the visible transcript.
+
+---
+
+## 2026-11-25 16:26 EAT — TEHUTI — Juju Maps: river and ground cuts with ten acts built in gl.js
+<!-- type: event -->
+**From:** TEHUTI
+
+- Harness: Claude Code (claude-opus-5-5), worker lane maps-marks
+- **Changed:** juju-maps/gl.js: section with river or ground; perch, silt, raise, breach, seep, buried, pump, drop, sinkground, saltcreep; tremor ring capped at 0.35 of the view and 2 px; boat lamps kept off a seamount.
+- **Why/verdict:** lead 16:15 asked for the cut of a river. 13 stills each in night and day looked at by the builder; no blind viewer, no moving clip.
+- **Status/open:** 0.0 to 0.8 ms a frame, seeks identical both ways; not committed; no lead film uses them yet.
+- **Related:** juju-maps/films/_river, juju-maps/board6.py, storyboard3.py
+
+---
+
+## 2026-11-25 16:23 EAT — TEHUTI — Juju 20 minute picture timeline: film20.json and FILM20.md written
+
+**Changed.** juju-maps/film20.json, docs/FILM20.md, runs/harvest/longform/tools (kinds.py, register.py, film20.py, film20_acts.txt). No paid call. Harness: Claude Code (Opus 5.5).
+
+**Why-verdict.** Lead order 16:20. 174 acts dark, 165 day; 26 stations; map 78 cut 7 panel 12 card 3 percent. jenny introduces 6.3 new names a minute against the donors 3.3 and 3.7.
+
+**Status-open.** Not boarded or drawn. Engine lacks: beds by time, ledger/calendar/share/curve in the board menu, a device id, station cameras, a rest flag, an hour field.
+
+**Related.** runs/harvest/longform/LONGFORM.md, juju-maps/board6.py, mix.py
+
+---
+
+## 2026-11-25 16:12 EAT — TEHUTI — Juju maps: gl.js now draws sea-floor sections, seamounts, people lights, pillars, detours and borders
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju maps: gl.js now draws sea-floor sections, seamounts, people lights, pillars, detours and borders
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session bab8c728)
+- Ambi on films/jenny/d.mp4: "I don't understand the ring" and "what's with all the lights". Scope was gl.js only, with the five ops read from scene.json and drawn as smooth in and out.
+- Built section-over-sea (true floor, glass sea, volcano cone via o.peak), gasrise and lidwater, seamount, people on/out, pillars, detour and border-only area ops.
+- Verified with stills from record.mjs on jenny at 854x480: each body read by eye, under 2 ms a frame, deterministic seek. The only judge so far is the agent; no blind viewer has seen them.
+- Cost numbers are noisy: the seamount low view measured 1.8 ms in one run and 0.2 to 0.7 in others, so its headroom is thin. The first timing meter was inflating results and was fixed.
+- Open: after the work, git stopped listing juju-maps/gl.js in status and the cause was not found. Nothing was committed by the agent.
+- Files changed: juju-maps/gl.js
+- Status: in-progress — five ops built and checked by stills; blind review and the missing git status for gl.js are still open.
+
+---
+
+## 2026-11-25 16:11 EAT — TEHUTI — Juju Maps: five new marks (sea cut, seamount, people, pillars, detour) built in gl.js
+<!-- type: event -->
+**From:** TEHUTI
+
+- Harness: Claude Code (claude-opus-5-5), worker lane maps-marks
+- **Changed:** juju-maps/gl.js (ops section at sea with peak/gasrise/lidwater, seamount, people on/out, pillars, detour, area line:true); new file juju-maps/data/towns.json (7,342 places from Natural Earth).
+- **Why/verdict:** Ambi 15:42 on jenny d.mp4: the ring and the lights were not understood. Stills read by the builder only; no blind viewer yet.
+- **Status/open:** 480p stills in juju-maps/films/_marks; 0.0 to 1.8 ms a frame; forward and backward seeks identical. Not committed. The white ring still in jenny is the hero op, not these marks.
+- **Related:** juju-maps/depict.json, films/jenny
+
+---
+
+## 2026-11-25 16:02 EAT — TEHUTI — Juju test cap raised to 20 (25 hard most) by Ambi; videos are tools, Juju picks its own ideas
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju test cap raised to 20 (25 hard most) by Ambi; videos are tools, Juju picks its own ideas
+- Harness: Claude Code
+- What happened: undefined
+- Status: undefined
+
+---
+
+## 2026-11-25 15:57 EAT — TEHUTI — Juju 0.2 presses built: pick a channel and style, make a map film in resumable steps, verified on web and phone
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju 0.2 presses built: pick a channel and style, make a map film in resumable steps, verified on web and phone
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session a19667f0)
+- Ambi asked for the two styles (duppy-night, moko-day) fully piped and wired by 5 p.m., so Juju can make many channels and bends from the presses.
+- Built juju-maps/film.py: make runs eight resumable steps per film, writes live.json after each, and skips finished steps. A killed run resumes where it stopped.
+- Verified with real clicks at 1440x900 and 390x844: channel, style, and title take 3 presses to a playing film, seeking works, and a second make gets a 409 'Already making one'.
+- Verified kills: a kill in Duppy's Film redrew only missing pieces; a kill in Moko's Mix kept Board. Money: 0 ledger rows from test films. Not run for real: Story, Voice and Think through film.py.
+- Open: Think's film limit is fixed at 2.00 US in board5.py:12 and storyboard.py:6; the app showed $1.21 left at 15:55, and a film costs about 0.27 US (estimate).
+- Files changed: juju-maps/film.py; juju-maps/structures.json; crates/juju-serve/src/v02.rs; mockups/v02/served/build.py; mockups/v02/served/walk.mjs
+- Status: in-progress — presses and resumable film steps work and are walked; real Story/Voice/Think runs and the Think money limit are still open.
+
+---
+
+## 2026-11-25 15:50 EAT — TEHUTI — Juju long films: peaks re-checked without chapter marks, slot sheet re-cut into 73 sets
+
+**Changed.** runs/harvest/longform: pool.json rerun without chapter marks and adverts; slots-long-20.json now 2,929 words, 73 sets of 7 to 28 s.
+
+**Why-verdict.** Numbers, going back, and finding words still mark replayed moments; a late person and a promise no longer clear their interval and are now Judged.
+
+**Status-open.** Not run through a writer or a render. MINUTES 19.0.
+
+**Related.** runs/harvest/longform/LONGFORM.md
+
+---
+
+## 2026-11-25 15:43 EAT — TEHUTI — Juju long films: 18 winners of 18 to 47 min studied, 20-minute slot sheet written
+
+**Changed.** runs/harvest/longform/: LONGFORM.md, longform.json, slots-long-20.json, shots-long-20.json, tools/. Nothing outside that folder edited. No paid call, no subagent. Harness: Claude Code (Opus 5.5).
+
+**Why-verdict.** Ambi, 25 Nov 13:55: how do we make 20 minute videos engaging in this flow. Verdict (Judged on Measured parts): do not stretch; nine 2-minute chapters, hero changes state by thirds, one turn-over at half time, four consequences as the last half, an odd sight planted at 0:30 and paid at 16:34.
+
+**Status-open.** Not run through a model or rendered. story2 MINUTES must be 19.0 for this sheet; storyboard3 needs a SHOTS path and part-by-part boards. Only winners were read, no flops.
+
+**Related.** juju-maps/story2.py, storyboard3.py, veve-gait, nyansapo-ladder; runs/decision.tsv lane longform.
+
+---
+
+## 2026-11-25 15:42 EAT — TEHUTI — Juju Maps: Lake Kivu take 4 is Ambi's best film so far; what to keep
+- Harness: Claude Code (claude-opus-5-5)
+- **Changed:** juju-maps/board6.py replaces per-sentence fill: one mind (gemini-4-neon) writes a cast of at most five, held views and 15 to 19 acts, then reads its own second-by-second sheet back as a hard director; code refuses repeats, acts too small to see, acts closer than 1.8 s, more than 10.5 s with nothing changing. storyboard3.py `stay`: what comes in stays; a cut opened again shows what it had become. mix.py sound law: hits 2 dB over the music, one in 8 s, same act not within 40 s, air 8 dB under. New inside act `dive` (a plate slides under). Hero kind `spot`. make.sh uses board6.
+- **Why-verdict:** Ambi 15:36 on films/kivu2/d.mp4: "This video so far is the best. The scripts are better, we finally got the pacing is better he pauses and we finally got the sound effects right... one mind so beautiful, lets keep on this path". Earlier same day on Moko r1: "slop... everything is random".
+- **Status-open:** next = 10, 16, 20 minute form from runs/harvest/longform/LONGFORM.md (18 long films) and "Galactic Empires" J0wWNytEXS4 (runs/scout/atticus). Films sent: kivu2/d, jenny/d, dam4 r2 (Moko Dusk). Running: deadsea, mekong.
+- **Related:** juju, juju-maps, veve-gait, nyansapo-ladder
+
+---
+
+## 2026-11-25 15:42 EAT — TEHUTI — Juju 0.2 presses wired to the map films on a test server
+
+**Changed.** juju-maps/film.py (eight kept steps, live.json), juju-maps/structures.json, crates/juju-serve/src/v02.rs plus route lines, mockups/v02/served (page, walk, HANDOFF.md). Harness: Claude Code (Opus 5.5).
+
+**Why-verdict.** Ambi 25 Nov 14:45: two styles wired in by 17:00. Proven by clicks at 1440x900 and 390x844 on port 4702: 3 presses to a playing film; a make stopped and carried on in Duppy Night and Moko Day. Bought steps were copied, 0 ledger rows for the test films.
+
+**Status-open.** Live 4700 untouched. No paid make has been run through it. Send private, lengths over 2 min, Raise cap not built.
+
+**Related.** topic juju; mockups/v02/served/HANDOFF.md
+
+---
+
+## 2026-11-25 15:12 EAT — TEHUTI — Low-poly motion bodies for the Juju map films: built and stills drawn, not yet proven
+<!-- type: event -->
+**From:** TEHUTI
+
+Low-poly motion bodies for the Juju map films: built and stills drawn, not yet proven
+- Harness: Claude Code (auto-log by claude-haiku-5-5, SessionEnd, session 41189cdb)
+- Asked: every motion graphic as a solid, lit, shadowed low-poly body under flag P.poly, with no glow, proven by stills and a 15 s Egypt clip. New engine is gl-poly.js, hooked into gl.js for low-poly looks only.
+- Drawn: day and dusk body sheets and 240p clips (clip-day.mp4, clip-dusk.mp4). Clips lack river, zone and reach, and the last 4 s cut Ethiopia. The clip.json fix is written but not drawn.
+- Dark look: 19 of 19 stills matched at 13:55. A later run differed on 4 of 19, probably late ground-tile loads; a frozen rerun matched. Speed target of 6x was not met (15 to 21 s per clip on a loaded Mac).
+- Stopped at the lead's 15:08 order to free the Mac. Edits from 15:00 onward (springs, stronger bend, gl.js loader) are syntax-checked only. Arrow, river light and flood swell are not checked frame by frame.
+- Files changed: juju-lowpoly/gl-poly.js; juju-lowpoly/gl.js; juju-lowpoly/motion.js; juju-lowpoly/films/poly-motion/bodies-day.jpg; juju-lowpoly/films/poly-motion/bodies-dusk.jpg; juju-lowpoly/films/poly-motion/clip-day.mp4; juju-lowpoly/films/poly-motion/clip-dusk.mp4; juju-lowpoly/NOTES-5.md
+- Status: in-progress — exit predicate not TRUE: the clip fix and late edits are undrawn, and the frame-by-frame checks and 6x speed target are open.
+
+---
+
+## 2026-11-25 15:04 EAT — TEHUTI — Juju 0.2: the whole app as a pressable page, 3 to 4 presses to a film
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju 0.2: the whole app as a pressable page, 3 to 4 presses to a film
+- Harness: Claude Code (claude-opus-5-5)
+- What happened: Changed: mockups/v02/ in juju: FLOW.md (steps, machine work, failures, states), juju.html (one self-contained clickable file, 30 states, 1440x900 and 390x844), shots/ and board.jpg, V02-BUILD.md (kept, new, order). Ambi's order 25 Nov 13:55. Why-verdict: channel, style, title; the press on a title starts the film. VidRush's prompt box, brand tabs, quote pages and timeline are folded or cut. Styles are one land in three windows (Duppy Night, Moko Day, Moko Dusk) and a shut door (Spiritual). Found while building: money can only stop a film in Story, Voice or Edit (drawing is free). Status-open: prototype only; the app's press still draws with juju-stage, no YouTube upload code exists, one map-film command (N1) is the first thing to build. Open for Ambi: start with no second question, raise cap from the app, length per channel, the fourth name, where niches go. Related: ADR 0022, docs/STACK-MOVE.md. Harness: Claude Code (Opus 5.5).
+- Files changed: AMBESSA/intel/juju/mockups/v02/
+- Verification: build/shoot.mjs: 60 screens, 0 faults; real clicks at both sizes: 3 presses to the film, Play plays, Send ends at Private; raise cap, another structure, leave and come back walked. Every shot looked at.
+- Status: complete: design and prototype; build not started
+
+---
+
+## 2026-11-25 14:35 EAT — TEHUTI — Juju: thinking before writing and boarding; laws from Ambi 14:20-14:35
+
+**Changed.** Pack nyansapo-ladder; juju-maps/ladder.json, story4.py, calabash.py (125 banned rows now run on map scripts), tics-maps.json, board5.py (thought rows, views chosen, small forms), storyboard3 laws (north up, J-cut 0.55 s, lens, dwell 2.6 s, no repeated labels, neighbour hues, flags), gl.js bodies mist, lamps, thread, and pipe, lid, vents, streams, giveback in the lake cut. Films in the making: kivu2 (Duppy Night), dam4 (Moko, low poly).
+
+**Why-verdict.** Ambi: ideate before boarding; annotation is not thought; Tanganyika was drawn on the wrong side; poly is "low-key insane, whoa", keep its Nile, pumping water, music; churn more.
+
+**Status-open.** Drawing. Money 9.7 of 15. Harness: Claude Code (Opus 5.5).
+
+**Related.** [[juju]]
 
 ---
 
