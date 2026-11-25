@@ -1,5 +1,5 @@
 {
- "as_of": "16:34 EAT, Wed 25 Nov 2026",
+ "as_of": "18:36 EAT, Wed 25 Nov 2026",
  "workshop": "down",
  "jobs": [],
  "pull_requests": [
@@ -367,38 +367,38 @@
   }
  ],
  "ledger": {
-  "calls": 6639,
-  "usd_total": 16.1197,
+  "calls": 7001,
+  "usd_total": 19.5198,
   "usd_by_service": {
-   "deepseek": 2.4823,
-   "openrouter": 9.5897,
-   "google": 2.4544,
-   "inworld": 1.2599,
+   "deepseek": 2.7255,
+   "openrouter": 11.1859,
+   "google": 3.6588,
+   "inworld": 1.5261,
    "unsettled": 0.1355,
    "lead-test": 0.0,
-   "wavespeed": 0.198
+   "wavespeed": 0.288
   }
  },
  "service_calls": {
   "deepseek": {
-   "ok": 3284,
+   "ok": 3529,
    "refused_or_failed": 13,
-   "last_ok": "25 Nov 16:26 EAT"
+   "last_ok": "25 Nov 18:36 EAT"
   },
   "openrouter": {
-   "ok": 3100,
+   "ok": 3169,
    "refused_or_failed": 45,
-   "last_ok": "25 Nov 16:33 EAT"
+   "last_ok": "25 Nov 18:35 EAT"
   },
   "google": {
-   "ok": 23,
-   "refused_or_failed": 7,
-   "last_ok": "25 Nov 16:19 EAT"
+   "ok": 38,
+   "refused_or_failed": 13,
+   "last_ok": "25 Nov 17:33 EAT"
   },
   "inworld": {
-   "ok": 150,
+   "ok": 175,
    "refused_or_failed": 1,
-   "last_ok": "25 Nov 16:09 EAT"
+   "last_ok": "25 Nov 18:22 EAT"
   },
   "unsettled": {
    "ok": 0,
@@ -412,7 +412,7 @@
   },
   "wavespeed": {
    "ok": 6,
-   "refused_or_failed": 0,
+   "refused_or_failed": 2,
    "last_ok": "25 Nov 11:24 EAT"
   }
  },
@@ -456,7 +456,7 @@
   },
   "juju-serve": {
    "files": 23,
-   "lines": 3617
+   "lines": 3629
   },
   "juju-sigil": {
    "files": 13,
@@ -475,7 +475,7 @@
    "lines": 3967
   }
  },
- "rust_lines": 34781,
+ "rust_lines": 34793,
  "rooms": 20,
  "decisions": 20,
  "apk_files": 0,
@@ -517,7 +517,7 @@
  ],
  "finish_check": "1 of 23 clauses true, so not done",
  "film_runs": "4 DONE, 4 FAILED, 24 HOLD",
- "attempts": "272 kept, 40 reverted, 48 inconclusive",
+ "attempts": "283 kept, 41 reverted, 48 inconclusive",
  "clauses": [
   {
    "clause": "trunk.no_open_prs",
@@ -527,7 +527,7 @@
   {
    "clause": "trunk.main_is_origin_and_clean",
    "ok": false,
-   "detail": "branch main, ahead 19, behind 77, uncommitted files outside runs/ 232"
+   "detail": "branch main, ahead 19, behind 77, uncommitted files outside runs/ 233"
   },
   {
    "clause": "trunk.gate_open_at_head",
@@ -572,7 +572,7 @@
   {
    "clause": "app.receipt_is_of_this_head",
    "ok": false,
-   "detail": "walk made at None with None uncommitted files, now 4dba4d9 with 232, no-paid None"
+   "detail": "walk made at None with None uncommitted files, now 4dba4d9 with 233, no-paid None"
   },
   {
    "clause": "film.exists_10_to_20_min_with_picture_and_sound",
@@ -587,7 +587,7 @@
   {
    "clause": "money.ledger_within_cap",
    "ok": false,
-   "detail": "16.1197 spent and 0.1223 held of 10.00 US over 6639 rows (cap file 20.0, Ambi's ceiling 10.0)"
+   "detail": "19.5234 spent and 0.0123 held of 10.00 US over 7003 rows (cap file 30.0, Ambi's ceiling 10.0)"
   },
   {
    "clause": "film.voice_is_inworld_real_calls",
@@ -638,9 +638,9 @@
  "newest_runs": "ottoman12f HOLD 25 Nov 11:25 (stopped at Pictures and form); proof12c FAILED 25 Nov 09:47 (stopped at Render and mix); proof12 HOLD 25 Nov 09:16 (stopped at Script and heal); proof75b HOLD 25 Nov 09:06 (stopped at Render and mix); proof75a HOLD 25 Nov 08:59 (stopped at Publish kit); strip-planets HOLD 25 Nov 08:41 (stopped at Deal and package); strip-pluto HOLD 25 Nov 08:40 (stopped at Render and mix); 20261125-083722-131d HOLD 25 Nov 08:37 (stopped at Deal and package); strip-japan DONE 25 Nov 08:34 (60 s, 0.008751 US); strip-bulgaria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-austria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-manchuria HOLD 25 Nov 08:11 (stopped at Deal and package)",
  "live_agents": 0,
  "load": [
-  7,
-  13,
-  21
+  27,
+  14,
+  19
  ],
  "sheet_written": true
 }

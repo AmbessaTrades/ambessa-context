@@ -1,6 +1,173 @@
 # Juju day log, newest first
 
-Rebuilt 16:34 EAT, Wed 25 Nov 2026. Only entries whose title names Juju. Times are EAT (UTC+3). Logged by agents: evidence of what they report, not proof. Where two entries disagree, the later one wins and the older stays.
+Rebuilt 18:36 EAT, Wed 25 Nov 2026. Only entries whose title names Juju. Times are EAT (UTC+3). Logged by agents: evidence of what they report, not proof. Where two entries disagree, the later one wins and the older stays.
+
+---
+
+## 2026-11-25 18:07 EAT — TEHUTI — Juju map motion: ten map ops and a credit line built and drawn on the real map
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju map motion: ten map ops and a credit line built and drawn on the real map
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 161b78f0)
+- Ambi asked to build ten map-motion ops (pace, region, overlay, locator, stream, sweep, pole, ask, heatup, beat) plus a bottom-left source credit line, in film.js, gl.js, motion.js and panels.js.
+- All ten ops and the credit op are live on the real map (port 4720). Day and night were drawn at 480p and the stills were checked by eye.
+- Test clip clip2-day.mp4 was rendered for Ambi to judge taste. Its words were hand-written to test the tools, so it is not a Juju film.
+- Nothing was committed. Ambi's judgment of the look is still open.
+- Files changed: juju-maps/film.js; juju-maps/gl.js; juju-maps/motion.js; juju-maps/panels.js; runs/map-motion-1125/clip2-day.mp4
+- Status: complete — all ops drawn and checked at 480p day and night; nothing committed, Ambi's taste judgment pending.
+
+---
+
+## 2026-11-25 18:06 EAT — TEHUTI — Juju Motion: thirteen new tools on the map, drawn in the ground and from the frame edge
+<!-- type: event -->
+**From:** TEHUTI
+
+- **Changed:** juju-maps gl.js, film.js, motion.js, panels.js: region, overlay, locator, stream, sweep, pole, ask, heatup, beat, count, strip, credit, and lines that draw at the pace of the words; calendar and ledger redrawn. New data file juju-maps/data/ne_50m_admin_0_countries.geojson. Nothing committed.
+- **Why-verdict:** Ambi, 25 Nov: Juju Motion not mastered, design systems need to be more creative. Each tool adds 0.5 ms or less a frame (Measured, interleaved). Taste waits for his eye on the 20 s clip.
+- **Status-open:** not wired into the cutter; provinces need an admin-1 file that is not on this disk.
+- **Related:** runs/map-motion-1125. Harness: Claude Code (claude-opus-5-5).
+
+---
+
+## 2026-11-25 17:46 EAT — TEHUTI — Juju Maps: data layers, real satellite years and OSM streets drawn and checked in stills
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju Maps: data layers, real satellite years and OSM streets drawn and checked in stills
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 01f0bfee)
+- Ambi asked for Juju Maps to use its own powers in slow moments and boring places, so a teaching film is never a bare flat map. The 12-layer GIBS list is in data-layers.json (37 kB).
+- Built the data op (k:'data'), timelapse op and osm op in server.mjs and tiles.js. Stills at 854x480 were checked by eye in day and night looks: Aral Sea shrink, Dead Sea years, night lights.
+- Still open: the lead must apply films/_data/film-data-ops.patch (6 lines) to film.js, then restart ports 4720 and 4721 for /d/. Elevation tint and the no-'at' case were not shot.
+- Of the 12 layers asked for, 11 are served. GIBS only serves fires as vector tiles, so that one is missing. Disk cache kept small; clear.py checks cloud-free dates for each year.
+- Files changed: juju-maps/data-layers.json; juju-maps/osm.py; juju-maps/server.mjs; juju-maps/tiles.js; juju-maps/films/_data/film-data-ops.patch
+- Status: in-progress — the data, timelapse and osm ops work in stills; the film.js wiring by the lead and the restart are still needed, and elevation and no-'at' are unshot.
+
+---
+
+## 2026-11-25 17:44 EAT — TEHUTI — Juju Maps: real satellite years, measured layers, streets and one ground tone built
+<!-- type: event -->
+**From:** TEHUTI
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** juju-maps/tiles.js, server.mjs installed; new data-layers.json, osm.py, clear.py, data/osm/cairo.json + kaifeng.json; film.js patch handed over, not applied.
+- **Why/verdict:** 20 minute teaching films must never be a bare flat map. Aral Sea 9 years, Dead Sea 1985 to 2021, 13 measured layers and Cairo streets looked at in day and night. Shallow-sea rule tried and reverted.
+- **Status/open:** servers 4720 and 4721 need a restart for /d/; fires are vector only; border layers not shot after install; nothing committed.
+- **Related:** juju-maps/films/_data/sheets, runs/decision.tsv lane maps-data
+
+---
+
+## 2026-11-25 17:31 EAT — TEHUTI — Juju Maps: the land can rise, the camera can fly, rivers carry their names
+<!-- type: event -->
+**From:** TEHUTI
+
+- **Changed:** juju-maps/gl.js and film.js: new ops relief, profile, rivername, spot; stop.move glide, orbit, rise, dive; daylight river line. Nothing committed (kickoff).
+- **Why-verdict:** Ambi, 25 Nov 17:00: a flat unannotated map from 48 to 56 s is not interesting. Kaifeng's raised river bed (69 m plain, 80 m bed in the 30 m data) now reads by eye in day and night. Seek and step match (mean diff 0.000).
+- **Status-open:** not wired into the board writer; satellite tile seams show (lane B); river lines are Natural Earth, 1 to 3 km off near the ground.
+- **Related:** runs/map-powers-1125, films/_powers. Harness: Claude Code (claude-opus-5-5).
+
+---
+
+## 2026-11-25 17:31 EAT — TEHUTI — Juju Maps: five 3D tools for flat slow moments (relief, profile, river name, spot, camera moves)
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju Maps: five 3D tools for flat slow moments (relief, profile, river name, spot, camera moves)
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 161b78f0)
+- Ambi asked for map tools that fill slow moments like 48 to 56 s on films/yellow/c.mp4, e.g. ridges on a flat plain, zoom into terrain, unique Juju Maps tools.
+- Added five ops in juju-maps/film.js and gl.js: relief (vertical exaggeration with optional hypsometric tint), profile, stop.move glide/orbit/rise/dive, rivername, and spot.
+- Verified: day and night stills rendered; seek against stepped frames gives mean difference 0.000 to 0.001; old scenes kivu2 and _river have at most 0.01% of pixels off by more than 1 level.
+- Still open: nothing committed. Lane B files (board6/7, storyboard3, server.mjs, tiles.js) were not touched. Port 4721 belonged to another lane, so debug ran on 4747 only.
+- Files changed: juju-maps/film.js; juju-maps/gl.js; runs/map-powers-1125
+- Status: complete — all five tools are live on port 4720 and the Juju exit predicate printed TRUE; nothing committed.
+
+---
+
+## 2026-11-25 17:30 EAT — TEHUTI — Juju money audit: Neon was on OpenRouter with 0 percent cache; rewired and measured
+- Harness: Claude Code (claude-opus-5-5)
+- **Changed:** door.py kind neon_flex now calls Google direct through the purse (Standard price; Google's flex tier answered 503 three times then hung 300 s, so it is only on with NEON_TIER=flex); new kind glm (OpenRouter GLM 5.3). story4 SCRIPTER=mixed: DeepSeek ladder, draft, editor, stitch; one lean speak pass (GLM by default, SPEAKER=neon_flex for films that go out) behind a constant prefix of about 4,900 tokens; GLM doubts the facts; nothing said twice. board7: constant prompt first (CONST7), DeepSeek drafts and directs, code checks every field and every place, mends up to 3 times; DIRECT7=neon only on purpose. Film limit back to 0.80. Automatic second pass and the Neon film watch are off unless AGAIN=1.
+- **Why-verdict:** Ambi 17:05 and 17:20: Neon must use the Google AI Studio credit, OpenRouter is for Jev and GLM; "we haven't been using the cache". Ledger: 239 Neon calls on OpenRouter 9.13 US, 40 on Google 3.31 US, cached 0 percent, 766k thinking tokens about 6.6 US.
+- **Status/open:** measure a Neon cache hit on a second call; Inworld voice is now the largest production cost (25 US a million characters). 2.1 GB disk.
+- **Related:** juju, gemini-neon-implicit-cache, docs/COSTS-MAPS.md, ADR 0010.
+
+---
+
+## 2026-11-25 17:17 EAT — TEHUTI — Moko Day retired from the looks; Juju picks with any; board7 replaces board6 but still crashes
+<!-- type: event -->
+**From:** TEHUTI
+
+Moko Day retired from the looks; Juju picks with any; board7 replaces board6 but still crashes
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session a19667f0)
+- Ambi: "I really hate Moko Day ... only one polygon". Moko Day was taken out of film.py, structures.json and the app. Moko now means the dusk look; 'any' lets Juju pick the look itself.
+- birth.json now holds pick.feed beside pick.titles. Titles put Juju's pick first and order the rest by pick.feed; no feed number is shown.
+- Verified: a Juju-picks press on web ran the real one.sh (kokaral, Moko), came back Ready and played. Watch and titles walked at 1440x900 and 390x844 with 0 faults. The stub's cut was copied, so the crash did not stop it.
+- Open: board7.py stops at line 6 for every film on both engines. Line 29 of board6.py has single braces in an f-string; doubling them is the suspected fix, not yet confirmed. A paid press has not been run.
+- Files changed: juju-maps/film.py; juju-maps/films/dam4-dusk/live.json; juju-maps/board6.py; juju-maps/board7.py; mockups/v02/served/build.py; mockups/v02/served/walk.mjs
+- Status: in-progress — Moko Day removal and Juju-picks verified on web; board7 crash and the paid press still open
+
+---
+
+## 2026-11-25 17:17 EAT — TEHUTI — Juju presses: Moko Day taken out, Moko is dusk, Juju picks added; board7 found broken
+
+**Changed.** juju-maps/film.py, structures.json, crates/juju-serve/src/v02.rs, mockups/v02/served. Harness: Claude Code (Opus 5.5).
+
+**Why-verdict.** Ambi retired Moko Day (lead 17:02). Clicked at 1440x900 and 390x844 on 4702: four windows, a Juju picks press ended in a played Moko film, 0 ledger rows.
+
+**Status-open.** board6.py line 29 has single braces in an f-string, so board7 fails for every film since 16:59 (reproduced 17:16 with spending blocked). Disk about 2 GB.
+
+**Related.** topic juju; mockups/v02/served/HANDOFF.md
+
+---
+
+## 2026-11-25 17:05 EAT — TEHUTI — Juju Maps: Juju now has its own ideas, sources, reference reading and long-film book; Moko is a real map at dusk only
+- Harness: Claude Code (claude-opus-5-5)
+- **Changed:** birth.py (16 ideas, blind feed test against real outliers, picks look and title), seek.py (own sources), story4/story5 (opening law, names that are words, stitch; story5 = 10 to 20 min book and parts), voice.py say-names, numerals.py (captions 1902, 1.6 billion; 23 of 23 tests), board7.py (any length: DeepSeek drafts on paper twice, stranger, Neon directs once; 9 cents and 90 s for 2 min instead of 35 cents), rea.py (YouTube link read by Gemini through the API, no computer; refs/lyRHFOcNMTU.json: 37 views, 20 changes a minute, 2.5 s apart), depict.json (26 ideas), Sentinel-2 2016 near ground (EOX, CC BY 4.0, credit needed), river/ground/sea cuts in gl.js, people lights, seamount, pillars, detour, date, level/land/shore acts, storyboard lifetimes and proof.json loops, one.sh (one press), make.sh, again.sh; music bed per chapter.
+- **Why-verdict (Ambi):** Kivu take 4 "best"; Moko Dusk dam "10 out of 10"; Moko Day hated, retired: "even though it's polygon it still gotta look like a real map"; China film 7/10: river not named at the start, flat bare land, nothing for 8 s; "videos are tools to develop the software"; aim 20 minute films by the end of the day, 2 minute tests only; cap 20 (25 hard).
+- **Status/open:** delegates: Powers A (relief lens, glide, profile, river name), Powers B (real years, data layers, streets, seamless near ground), Moko lane 8 (real water levels; film kokaral b), app 0.2 wire-in. 14 minute paper film of the Yellow River in films/yellow20 (book.json, script.json, film7.json, cut7.json). Next: film "How One Dam in Tajikistan Could Dry Out Uzbekistan" (films/rogun, born, feed 7.3 vs real 11.7) once powers land. Spend about 18.7 of 20.
+- **Related:** juju, juju-maps, docs/FILM20.md, runs/harvest/longform/LONGFORM.md.
+
+---
+
+## 2026-11-25 16:59 EAT — TEHUTI — Juju Maps: Juju picks its own ideas, cheaper cutter, map powers and calendar numerals in progress
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju Maps: Juju picks its own ideas, cheaper cutter, map powers and calendar numerals in progress
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 31bfe4d9)
+- Ambi asked for Juju to use map films as tools to improve the whole stack, not to keep redoing Kivu, and for slow map moments to show ridges, profiles, real data or photos.
+- Built a cheap board cutter (board7.py): the Yellow River cut now costs about 9 cents instead of 35 and runs in about 90 seconds, per the agent's own run log.
+- Added rules so the first 8 seconds name the subject on the map, bare land may not hold more than 3 seconds, and captions write years like a calendar (1902). Rendering and checks are still running.
+- Drafted a 20-minute Yellow River plan on paper only (13.9 min, 10 chapters); the truth check trimmed the script to 1,742 words, so it needs more sources before it is proven.
+- Spend cap for Juju tests was raised to $20, with $25 as the hard maximum (logged separately). A Wedjat-side fork (Ramani, ramani/) was started; its scene compiler and picture fetcher exist, but no full film has been rendered yet.
+- Files changed: juju-maps/board7.py; juju-maps/storyboard3.py; juju-maps/rea.py; docs/FILM20.md; runs/meter/cap.json; ramani/compile.py
+- Status: in-progress — map powers and calendar numerals still being built; the 20-minute film is on paper only, and no new film has been proven yet.
+
+---
+
+## 2026-11-25 16:45 EAT — TEHUTI — Wired the one-command film chain into the Juju app and proved one stub press on port 4702
+<!-- type: event -->
+**From:** TEHUTI
+
+Wired the one-command film chain into the Juju app and proved one stub press on port 4702
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session a19667f0)
+- Ambi asked: one press runs juju-maps/one.sh SYSTEM [NAME] end to end, with no paid test runs, and the app must show Juju's six titles with its pick first.
+- Changed film.py to run one.sh, make.sh, again.sh or draw.sh and read stage files, so edits to the chain land without copying it. Also edited live.js, walk.mjs, v02.rs and structures.json.
+- Proved on stubs: stub-yellow, stub-caspian, stub-caspian2 and stub-caspian22 ran the real chain with the gate unreachable and the meter unwritable. Ledger rows: 0. A server without a stub answers Spending is locked.
+- Browser walks covered Duppy Day (web) and Moko Day and Moko Dusk (phone). One Moko stop failed because moko.py was being edited mid-run, then the rerun passed.
+- Open: no paid press was run. The agent's 12-line report on what a person presses was not confirmed complete in the transcript.
+- Files changed: juju-maps/film.py; mockups/v02/served/live.js; mockups/v02/served/walk.mjs; crates/juju-serve/src/v02.rs; juju-maps/structures.json; mockups/v02/served/walk/phone-press-moko-dusk.json
+- Status: complete — one stub press through one.sh proven on port 4702 with 0 ledger rows; paid press not run.
+
+---
+
+## 2026-11-25 16:44 EAT — TEHUTI — Juju 0.2 presses now run the one-command chain, four styles, Juju's own titles
+
+**Changed.** juju-maps/film.py runs one.sh or make.sh whole and watches it; crates/juju-serve/src/v02.rs (births, deal, make from a title); mockups/v02/served (titles step, Duppy Day window, test/nopay.sb). Harness: Claude Code (Opus 5.5).
+
+**Why-verdict.** Lead 16:12. Proven by clicks on port 4702: Duppy Day on web (both drawings), Moko Dusk and Moko Day on phone, stop and carry on, played. The real chain ran with the gate and the meter blocked: 0 ledger rows.
+
+**Status-open.** No paid press yet; 4700 untouched; disk 2.1 GB at 16:40.
+
+**Related.** topic juju; mockups/v02/served/HANDOFF.md
 
 ---
 
