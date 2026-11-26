@@ -1,6 +1,84 @@
 # Juju day log, newest first
 
-Rebuilt 20:08 EAT, Thu 26 Nov 2026. Only entries whose title names Juju. Times are EAT (UTC+3). Logged by agents: evidence of what they report, not proof. Where two entries disagree, the later one wins and the older stays.
+Rebuilt 22:39 EAT, Thu 26 Nov 2026. Only entries whose title names Juju. Times are EAT (UTC+3). Logged by agents: evidence of what they report, not proof. Where two entries disagree, the later one wins and the older stays.
+
+---
+
+## 2026-11-26 22:18 EAT — TEHUTI — Juju 0.4.2 shipped: Mac signs into Door, channel delete, absorb dedupe, export, 90/70/50 chain
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju 0.4.2 shipped: Mac signs into Door, channel delete, absorb dedupe, export, 90/70/50 chain
+- Harness: Claude Code (auto-log by claude-haiku-5-5, SessionEnd, session 873ccd40)
+- Ambi asked the Mac app to sign in to the Door and update to v0.4.0, then for a channel delete (type DELETE), a fix for accidental channel adds via Absorb, and an export button; 0.4.1 and 0.4.2 followed.
+- Mac app now signs in to the Door with its own key, learns from films through it, sends the Claude reading, and reports its version. Door tests 62/62 pass; live web sweep and Mac routes checked.
+- Built channel delete with a DELETE-typed confirm sheet; Absorb now reuses an existing channel, takes the real YouTube name and picture, and learns from the channel's best film.
+- Export 720p/1080p on phone and web saves to Movies/Juju; the 90/70/50 Echo Decay chain runs in the Door, so phone, web and Mac behave the same after a film's YouTube link is pasted.
+- Upload kit wired on phone and web (it said 'Not built yet'). Released 0.4.2 to phone, web and Mac; merged to main.
+- Files changed: crates/juju-serve/src/door.rs; crates/juju-serve/src/chan.rs; ~/AUH/AMBESSA/intel/juju-door-wt/apps/door/src/space.js; ~/AUH/AMBESSA/intel/juju-door-wt/apps/door/src/youtube.js; ~/AUH/AMBESSA/intel/juju-phone-wt/apps/juju-shell/web/sw.js; ~/AUH/AMBESSA/intel/juju-phone-wt/apps/juju-shell/android/rust/src/tap.rs; mockups/r2/altar.html; mockups/r2/cauldron.html
+- Status: complete — 0.4.2 live on phone, web and Mac app, merged to main, with live checks run on each.
+
+---
+
+## 2026-11-26 21:39 EAT — TEHUTI — Juju 0.4.2 everywhere: export to the phone, upload links, Echo Decay 90/70/50 chain
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** Door 0ff5cb31: /v1/chain/posted + /v1/chain (upload kept on the channel row, measured from 24 h every 12 h up to 3 times against the median of the channel's other 10 uploads, armed at 2.0x, step idea by DeepSeek into the ideas list, 90 -> 70 -> 50 -> rest 10); tests 63/63. Phone: POST films/<id>/export {h 480|720|1080} redraws with kept answers and wakes the worker; Gallery saves the kit text beside the film in Downloads/Juju; posted route; channel GET runs the chain check. Web: same routes. Mac 0.4.2 (restarted): posted route, chain idea first in a channel's ideas. Rooms: Cauldron sheet Export 720p/1080p with a confirm, and Uploaded? paste the link (Cauldron and Shelf); Crossroads marks a chain idea Follows your hit · 90%. main pushed.
+- **Verified:** live web 0.4.2 sweep (9 GET routes, new channel, rename, ideas, learn, bad link 400, make -> order, mode check, Gris-gris, purse refresh, delete removes its orders), 5 rooms load with no script errors; Mac 9 routes 200 signed in; real DeepSeek step-90 idea: Does Your Province Have These? (15 Maps).
+- **Open:** phone export and the chain not run on a real phone or a real upload yet.
+
+---
+
+## 2026-11-26 21:25 EAT — TEHUTI — Juju 0.4.1 on phone, web and Mac: delete a channel, Absorb studies the channel, the Mac signs in to the Door
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Verified:** Mac door-ambi.json signed in by mac, /api/update 0.4.1; live web 390x844 test space: absorb gives the real name + best film, the same handle twice opens the first, a video link is redirected, DELETE without the word 422, with it 200 and the list empty; the sheet looked at (Delete stays grey until DELETE is typed).
+- **Open:** Mend (fixing a film) answers only on the Mac; phone films with learned rules not made yet.
+
+---
+
+## 2026-11-26 21:10 EAT — TEHUTI — Learn from a film now works on phone and web (Juju 0.4.0), using the film-harvest (REAV) method
+<!-- type: event -->
+**From:** TEHUTI
+
+Learn from a film now works on phone and web (Juju 0.4.0), using the film-harvest (REAV) method
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 873ccd40)
+- Ambi said learning from a film was missing from the app's Absorb and Describe sections and asked for it on phone and web, built to the REAV method (the film-harvest skill).
+- Built the Door's POST /v1/learn route: Gemini watches a YouTube link, answers film-harvest's questions, and returns 8 to 12 rules. The worst-case cost is reserved first.
+- Tested on the USA maps film: 55 s, $0.20. Rules are kept per channel and fed into the phone writing step. New Vessel shows what was learned. Live web test passed in a test space.
+- Shipped 0.4.0 (APK and web), merged to main. Still open: the 11-minute test film was held by room 4 because 20 coloured countries had no name; the label fix has not been started.
+- Files changed: ~/AUH/AMBESSA/intel/juju-door-wt/apps/door/src/learn.js; ~/AUH/AMBESSA/intel/juju-door-wt/apps/door/src/space.js; ~/AUH/AMBESSA/intel/juju-phone-wt/apps/juju-shell/web/sw.js; ~/AUH/AMBESSA/intel/juju-phone-wt/apps/juju-shell/android/rust/src/tap.rs; ~/AUH/AMBESSA/intel/juju-core-wt/crates/juju-core/src/door_http.rs; mockups/r2/new-vessel.html; crates/juju-skills/packs/film-harvest/SKILL.md; ~/AUH/AMBESSA/intel/juju-phone-wt/apps/juju-shell/android/rust/src/door.rs
+- Status: complete — Learn from a film shipped in 0.4.0 on phone and web and merged to main; the long-film label fix is still open.
+
+---
+
+## 2026-11-26 21:10 EAT — TEHUTI — Juju 0.4.0: Learn from a film on phone and web (film-harvest / rea-video through Gemini at the Door)
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** Door 5ca8b342: POST /v1/learn {link}: YouTube lookup, worst case held (learnWorst), gemini-4-neon watches the film by link (low resolution, 0.5 fps, first 15 min, thinking low), answers film-harvest's questions + Juju grammar in one JSON lesson (src/learn.js), metered; test 59/59. Web sw + phone tap.rs: refs route learns, keeps ref + lesson on the channel (rules merged, max 12), topics_like_this become the channel's ideas. juju-core: set_learned puts STYLE TO FOLLOW in every words call tail; core_swap reads the channel lesson. New Vessel waits 240 s and shows verdict + rules count. film-harvest SKILL.md names the path (pins same 697).
+- **Verified:** real run on 9jSKCZK3Pzo (USA maps, Ambi's link): 55 s, $0.20, 19 shots, 10 rules, 6 topics (runs/harvest/learn/9jSKCZK3Pzo.lesson.json); live web test space: link -> lesson -> channel rules -> room shows Learned 3 rules.
+- **Open:** not run on a real account; the Mac app's own Learn still only reads metadata (it has no Door session); a phone film that uses learned rules not made yet.
+
+---
+
+## 2026-11-26 20:34 EAT — TEHUTI — Juju 0.3.9: High Juju switch, pack download, film length, and confirm-before-film fixed on phone and web
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju 0.3.9: High Juju switch, pack download, film length, and confirm-before-film fixed on phone and web
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 873ccd40)
+- Ambi said High Juju and Gris-gris would not switch and showed 'null'. The sheet expected a different answer format from the Door. Fixed in the Door, so phone and web both get it; 6 Door tests added.
+- Films failed with 'data/timesets.json' missing because the Door refused to serve the private pack list. The Door now serves it, and the phone says plainly when maps fail to arrive.
+- Length slider did nothing: films were capped at 18 stops (about 3.5 min). Test film: 11 min gave 44 stops and a 9.4-min film. Steer line now reaches phone films.
+- Tapping an idea now asks 'Make it' or 'Not now' first, showing length, time, money, the 600 MB first download and any film already cooking. New Vessel has a tick box before Open the vessel. Web Make hands the film to the phone. Verified on the live site; 0.3.9 is published and merged to main.
+- Still open: the long test film was still drawing at the end, so its frames are not checked. Idea titles had stripped apostrophes (22 places); states.json was repaired and a build guard added.
+- Files changed: ~/AUH/AMBESSA/intel/juju-door-wt/apps/door/src/space.js; ~/AUH/AMBESSA/intel/juju-door-wt/apps/door/src/front.js; mockups/r2/crossroads.html; mockups/r2/new-vessel.html; juju-maps/timemap.py; ~/AUH/AMBESSA/intel/juju-core-wt/crates/juju-core/src/plan/mod.rs; ~/AUH/AMBESSA/intel/juju-phone-wt/apps/juju-shell/android/rust/src/core_swap.rs; juju-maps/make/ideas/states.json
+- Status: in-progress — 0.3.9 is live on phone and web and merged; the long test film's frames are not yet checked.
+
+---
+
+## 2026-11-26 20:33 EAT — TEHUTI — Juju 0.3.8 + 0.3.9: films stop failing on timesets.json, length and steer reach the film, confirm before making, web Make hands the film to the phone
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** Door (deployed 410c250a): serves /v1/packs/index-private.json from KV (the name check refused the dot, so phones never fetched the private core pack, and films died on data/timesets.json); packs-upload puts the list last; orders shared list. Phone 0.3.8/0.3.9 (engine c1f4591c): plain error if core is missing; Read again; started time; length sets stops (13 s each, never under 14; juju-core and timemap.py both had 14 stops capped at 18, so the slider did nothing anywhere); steer reaches every words call (door.py TELLING ported); web orders claimed by the phone on a films read and woken in MainActivity. Rooms: confirm sheet before a film (length, time, money, first 600 MB, another film waits its turn); New Vessel tick box gates Open the vessel; Cauldron says about how long is left; no Not built yet on New Vessel; ideas states.json apostrophes repaired (22) and seed.py guard. main 29b200ad.
+- **Verified:** live web 390x844 test space: tick box blocks and explains; confirm sheet shows; web Make answers Sent to your phone and the Cauldron shows it waiting. Mac film zz-len11 (TEST) --minutes 11: 44 stops, 563 s (was 14 stops, about 3.5 min). Door 57/57.
+- **Open:** phone side of web orders and the private pack list not run on a real sign-in (needs Ambi's phone); reverse-engineering a pasted film is Mac-only (film-harvest), phone and web only keep it as a reference.
 
 ---
 

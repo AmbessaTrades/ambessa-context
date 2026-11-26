@@ -1,5 +1,5 @@
 {
- "as_of": "20:08 EAT, Thu 26 Nov 2026",
+ "as_of": "22:39 EAT, Thu 26 Nov 2026",
  "workshop": "down",
  "jobs": [],
  "pull_requests": [
@@ -380,10 +380,10 @@
   }
  ],
  "ledger": {
-  "calls": 10626,
-  "usd_total": 36.0973,
+  "calls": 10632,
+  "usd_total": 36.1077,
   "usd_by_service": {
-   "deepseek": 11.0955,
+   "deepseek": 11.1059,
    "openrouter": 12.269,
    "google": 8.3851,
    "inworld": 3.9231,
@@ -394,9 +394,9 @@
  },
  "service_calls": {
   "deepseek": {
-   "ok": 6531,
+   "ok": 6537,
    "refused_or_failed": 23,
-   "last_ok": "26 Nov 17:52 EAT"
+   "last_ok": "26 Nov 20:27 EAT"
   },
   "openrouter": {
    "ok": 3411,
@@ -473,7 +473,7 @@
   },
   "juju-serve": {
    "files": 29,
-   "lines": 5364
+   "lines": 5484
   },
   "juju-sigil": {
    "files": 13,
@@ -492,7 +492,7 @@
    "lines": 3967
   }
  },
- "rust_lines": 37404,
+ "rust_lines": 37524,
  "rooms": 22,
  "decisions": 27,
  "apk_files": 1,
@@ -519,18 +519,18 @@
   "sJiaWNxYFUA": 2
  },
  "main_commits": [
+  "446e356e 26 Nov 21:35 0.4.2: Export (720p, 1080p) in the Cauldron; Uploaded? paste the link, Juju follows it (Echo Decay 90/70/50 at the Door) and Part 2 shows in Crossroads; on the Mac too",
+  "b46058c5 26 Nov 21:22 0.4.1 Mac and rooms: the Mac signs in to the Door by itself, learns from a film through it, sends its Claude reading, reports its version; delete a channel (type DELETE) on every channel card and in New Vessel; Absorb opens a channel you already have and learns from its best film",
+  "3228742c 26 Nov 21:08 Learn from a film on phone and web: New Vessel waits for the watch and shows what was learned; film-harvest names the Door path",
+  "81314049 26 Nov 20:28 Length reaches the film: timemap.py stops follow --seconds (13 s each; the cap of 18 grows with them); confirm says a second film waits its turn; web says where its film went; New Vessel says what each row does",
+  "4925adbe 26 Nov 20:16 Rooms: a confirm sheet before a film starts (length, time, money, another film cooking, first-film download); Open the vessel waits for a tick box; Cauldron says about how long is left; Sound says what Juju does",
   "f3ccecf3 26 Nov 19:19 New Vessel: a look with no film yet shows its own land and sea colours, not a black box",
   "575ef820 26 Nov 19:13 New Vessel: the + jar opens Absorb with the link box focused",
   "a29b2db6 26 Nov 19:04 Mojo Bag: the total says which services it adds up",
   "0a9840a2 26 Nov 18:55 door-keys: carry a Claude API key for High Juju on the API",
   "b22fa8c5 26 Nov 18:36 PHONE-CORE: port list from the films lead for juju-core",
   "1b224ff3 26 Nov 18:33 Gate: one PIN entry for a first PIN; the setup code must be typed first; Ambi 26 Nov could not sign in",
-  "6372643a 26 Nov 17:54 Length is one slider, 10 to 30 minutes (default 11); a held film plays with its reason and is never kept",
-  "8a8430d1 26 Nov 17:52 PHONE-CORE: one unit, update sheet, signing key, rooms from the web, parity gate (Ambi 26 Nov)",
-  "270a83a4 26 Nov 17:21 App polish 2: POLISH-2-DONE",
-  "a07a7fe2 26 Nov 17:21 App polish 2: a truthful Mojo Bag, the Door channel sync, the drawer's palette, --vessel, ideas for every vessel, the upload kit for every film",
-  "675b6269 26 Nov 16:51 Gate: the next step in plain words for every state; Enter never looks pressable while it cannot go",
-  "0d61617b 26 Nov 16:47 App round 3, unit 1: an empty first run; New Vessel with Ready-made, Absorb, Describe and Juju's receipt"
+  "6372643a 26 Nov 17:54 Length is one slider, 10 to 30 minutes (default 11); a held film plays with its reason and is never kept"
  ],
  "finish_check": "1 of 23 clauses true, so not done",
  "film_runs": "4 DONE, 4 FAILED, 24 HOLD",
@@ -544,7 +544,7 @@
   {
    "clause": "trunk.main_is_origin_and_clean",
    "ok": false,
-   "detail": "branch main, ahead 0, behind 140, uncommitted files outside runs/ 299"
+   "detail": "branch main, ahead 0, behind 160, uncommitted files outside runs/ 300"
   },
   {
    "clause": "trunk.gate_open_at_head",
@@ -589,7 +589,7 @@
   {
    "clause": "app.receipt_is_of_this_head",
    "ok": false,
-   "detail": "walk made at None with None uncommitted files, now f3ccecf with 299, no-paid None"
+   "detail": "walk made at None with None uncommitted files, now 446e356 with 300, no-paid None"
   },
   {
    "clause": "film.exists_10_to_20_min_with_picture_and_sound",
@@ -604,7 +604,7 @@
   {
    "clause": "money.ledger_within_cap",
    "ok": false,
-   "detail": "36.0973 spent and 0.0000 held of 10.00 US over 10626 rows (cap file 40.0, Ambi's ceiling 10.0)"
+   "detail": "36.1077 spent and 0.0000 held of 10.00 US over 10632 rows (cap file 40.0, Ambi's ceiling 10.0)"
   },
   {
    "clause": "film.voice_is_inworld_real_calls",
@@ -655,9 +655,9 @@
  "newest_runs": "ottoman12f HOLD 25 Nov 11:25 (stopped at Pictures and form); proof12c FAILED 25 Nov 09:47 (stopped at Render and mix); proof12 HOLD 25 Nov 09:16 (stopped at Script and heal); proof75b HOLD 25 Nov 09:06 (stopped at Render and mix); proof75a HOLD 25 Nov 08:59 (stopped at Publish kit); strip-planets HOLD 25 Nov 08:41 (stopped at Deal and package); strip-pluto HOLD 25 Nov 08:40 (stopped at Render and mix); 20261125-083722-131d HOLD 25 Nov 08:37 (stopped at Deal and package); strip-japan DONE 25 Nov 08:34 (60 s, 0.008751 US); strip-bulgaria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-austria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-manchuria HOLD 25 Nov 08:11 (stopped at Deal and package)",
  "live_agents": 0,
  "load": [
-  12,
-  13,
-  14
+  14,
+  15,
+  17
  ],
  "sheet_written": true
 }
