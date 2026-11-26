@@ -1,6 +1,6 @@
 # Films made by Juju, every run
 
-As of 18:05 EAT, Thu 26 Nov 2026, read by code from each run's own report. A run is one `juju make`: a card or an idea goes in, eleven stages follow. **DONE** means the file exists and every stage passed its own check; it does not mean the film is good. **HOLD** means one of Juju's checks refused it. **FAILED** means a stage broke.
+As of 20:08 EAT, Thu 26 Nov 2026, read by code from each run's own report. A run is one `juju make`: a card or an idea goes in, eleven stages follow. **DONE** means the file exists and every stage passed its own check; it does not mean the film is good. **HOLD** means one of Juju's checks refused it. **FAILED** means a stage broke.
 
 | When (EAT) | Run | Asked length | Result | Stages that worked | Cost US | Machine minutes | Where it stopped |
 |---|---|---|---|---|---|---|---|

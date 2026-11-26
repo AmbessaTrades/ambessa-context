@@ -1,4 +1,4 @@
-<!-- copied from the Juju repo: docs/ENGINE-2.md, last changed 14:15 EAT, 25 Nov 2026. Private lines removed. Do not edit here. -->
+<!-- copied from the Juju repo: docs/ENGINE-2.md, last changed 19:24 EAT, 26 Nov 2026. Private lines removed. Do not edit here. -->
 # Engine 2: worlds, not text layouts
 
 > **Retired for map films 25 Nov 2026 (ADR 0022):** the Map theatre row is now Juju Maps (`docs/STACK-MOVE.md`). The other worlds wait with their niches.

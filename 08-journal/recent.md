@@ -1,6 +1,154 @@
 # Juju day log, newest first
 
-Rebuilt 18:05 EAT, Thu 26 Nov 2026. Only entries whose title names Juju. Times are EAT (UTC+3). Logged by agents: evidence of what they report, not proof. Where two entries disagree, the later one wins and the older stays.
+Rebuilt 20:08 EAT, Thu 26 Nov 2026. Only entries whose title names Juju. Times are EAT (UTC+3). Logged by agents: evidence of what they report, not proof. Where two entries disagree, the later one wins and the older stays.
+
+---
+
+## 2026-11-26 20:08 EAT — TEHUTI — Juju: Gris-gris / High Juju sheet fixed on phone and web (Door only, no new APK)
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** Door 5279daf3 (deployed f9d2f502): /v1/mode now answers in the Mac's /api/mode shape (lean {plan, api}, room words, why_not, available); /v1/mode/check switches High Juju on when a leaned way is open; POST lean {plan|api: bool} sticks. The room read v.room/v.why_not/v.lean.plan, which the Door did not send, so it printed "Gris-gris. null." and no button changed anything.
+- **Verified:** live web 390x844 test space, pressed: Check High Juju → chip High Juju "High Juju is on"; API off → Gris-gris with the reason; API on → High Juju; Gris-gris → back. Door test 55/55 (6 new mode presses).
+- **Open:** juju-core high_on does not read lean.api (only matters if the Mac's plan reading is fresh and the API is leaned off).
+
+---
+
+## 2026-11-26 19:39 EAT — TEHUTI — Juju 0.3.7: High Juju on the Claude API with no Mac; bag shows Google, Inworld, Claude week spend
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** Door 308be375 (deployed bc317ecc): new provider anthropic (claude-opus-5-5, effort medium max, cache_control, priced from usage $4/$5/$0.20/$20), High Juju row says "API open · $X used this week" from a free count_tokens check (1 h), Google/Inworld rows say this week's spend instead of Not reported; Door test 49/49 and no longer signs in as Ambi (five runs today had locked his PIN for 15 min). juju-core eca22dec: when /v1/mode says high-juju with the API open, roles package/insight/ladder/direct/one/table/think/film mind/storyboard/birth pick go to Claude; 19+7 tests pass. Phone 0.3.7 (APK bb322ec7…, engine eca22dec) released; main 80576db9.
+- **Why/verdict:** Ambi: the Mac will be closed; High Juju must be direct API on APK and web; bag rows said Not reported.
+- **Verified:** Claude key 200 on count_tokens; one real Opus 5.5 call with the Door body (effort medium, top-level cache) answered; Door test space Claude call metered.
+- **Open:** a real High Juju film on the phone not run yet; the plan path (Claude subscription) still needs the Mac.
+- **Related:** apps/door/src/rules.js, space.js; crates/juju-core/src/door_http.rs
+
+---
+
+## 2026-11-26 19:39 EAT — TEHUTI — Juju 0.3.5-0.3.7: channel paste fixed, look pictures, bag shows real spend, High Juju on Claude API via Door
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju 0.3.5-0.3.7: channel paste fixed, look pictures, bag shows real spend, High Juju on Claude API via Door
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 873ccd40)
+- Ambi asked for the Cloudflare Door to carry all keys, the Mojo Bag to show every service, and the phone APK and web app to work with the Mac off. Black boxes, 'Not reported' and the Mac-only High Juju had to go.
+- Fixed: pasting a channel on the web (sw.js create handler), look pictures added to web and phone builds, Juju icon confirmed in APK, web install manifest added.
+- Door: Claude Opus 5.5 medium-effort route for High Juju, Google/Inworld/Claude weekly spend shown instead of 'Not reported'. Door tests 49/49 pass; one real Claude call returned correctly.
+- Released 0.3.6 and 0.3.7, merged into main and pushed. Still open: five High Juju looks (Duppy Day, City Towers, Contagion Pulse, Crude Ledger, Engraved Atlas) have no films or colours yet.
+- Files changed: ~/AUH/AMBESSA/intel/juju-door-wt/apps/door/src/rules.js; ~/AUH/AMBESSA/intel/juju-door-wt/apps/door/src/space.js; ~/AUH/AMBESSA/intel/juju-door-wt/apps/door/test.mjs; ~/AUH/AMBESSA/intel/juju-phone-wt/apps/juju-shell/web/sw.js; ~/AUH/AMBESSA/intel/juju-phone-wt/apps/juju-shell/android/seed.py; ~/AUH/AMBESSA/intel/juju-core-wt/crates/juju-core/src/door_http.rs; mockups/r2/new-vessel.html
+- Status: complete — 0.3.7 live on phone and web and merged to main; five High Juju looks still have no films or colours.
+
+---
+
+## 2026-11-26 19:28 EAT — TEHUTI — Juju 0.3.6 live: channel paste works on web, look pictures show, web installs with the Juju icon, Door deployed with the Claude key
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** 0.3.6 (phone 0916da56, APK sha ee6e47ea…): the web channel-link code sat in the edit handler, so a pasted link answered "A link, a line or a look"; it now sits in the create handler, and create returns handle+name on web and phone. Looks with no film paint their land/sea colours (main f3ccecf3). The web has a manifest, 192/512 cat icons and an apple-touch icon, so Install app makes its own app. Merged main+phone/standalone and pushed origin main 5e0dff4a. Door deployed (fad2c2b4) with every key incl. ANTHROPIC_KEY; Door test 48/48 after the purse test was moved to the full bag.
+- **Why/verdict:** Ambi: + and paste did nothing, looks black, icon must be the Juju cat, not a browser badge. The APK already had the cat icon (checked the res pngs).
+- **Verified:** live web 390x844 test space: paste @RealLifeLore → channel created and shown; 10 look pictures load (200, 480 px); manifest 200; version.json 0.3.6.
+- **Open:** 5 High Juju looks have no colours (themes list empty) and stay dark: seed.py could read land/sea from juju-maps/stack/systems/styles; High Juju on API in a real space not verified (test spaces use the stub); Inworld/Google/Claude have no balance API, so the bag shows week spend; DMG next time.
+- **Related:** apps/juju-shell/web/sw.js, mockups/r2/new-vessel.html, apps/door
+
+---
+
+## 2026-11-26 19:06 EAT — TEHUTI — Juju 0.3.3 and 0.3.4 shipped to phone and web; Door fix blocked on Cloudflare login
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju 0.3.3 and 0.3.4 shipped to phone and web; Door fix blocked on Cloudflare login
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 873ccd40)
+- Ambi asked for the films lead's money-film fixes on the phone, 'push it in 0.3.2.1'. Shipped as 0.3.3 because the update checker only reads three numbers. Android dry-run build passed, then published; the APK downloaded back complete.
+- Not yet proven: 0.3.3 has not made a full film on the test phone. Still Mac-only: per-country colour, names on pointer lines, figures on cards, source on screen, US state figures.
+- Ambi asked for the Mojo Bag to show every service, a High Juju row, and no 'not on the web/phone yet' text. Code written in the Door, phone sw.js and tap.rs, and mockups/r2.
+- 0.3.4 released to phone and web (Mojo Bag, plan line, API-key line); APK downloaded back. The Door update is NOT live: Cloudflare login fails ('unable to authenticate', port 8976 in use), and Cloudflare status is partly down.
+- Files changed: ~/AUH/AMBESSA/intel/juju-door-wt/apps/door/src/space.js; ~/AUH/AMBESSA/intel/juju-phone-wt/apps/juju-shell/web/sw.js; ~/AUH/AMBESSA/intel/juju-phone-wt/apps/juju-shell/android/rust/src/tap.rs; mockups/r2/api.js; docs/PHONE-CORE.md
+- Status: in-progress — 0.3.4 live on phone and web; Door update (full Mojo Bag, shared High Juju switch) blocked on Cloudflare sign-in.
+
+---
+
+## 2026-11-26 19:05 EAT — TEHUTI — Juju 0.3.4: full Mojo Bag and plain High Juju states; Door deploy blocked by Cloudflare auth
+- Harness: Claude Code (claude-opus-5-5), lead of "JUJU SHIP IT NOW". Topics: juju
+- **Changed:** 0.3.4 (APK sha 0e1b48b9…, web sw fullPurse/localMode, tap.rs full_purse + mode fallback, api.js total_line): every pot shows (unread say "Not reported"), High Juju row, total says what it adds; mode says what opens High Juju (plan read on the Mac; API needs ANTHROPIC_API_KEY). Door d2ff92fa (purse all pots + /v1/mode shared switch) committed but NOT deployed: wrangler OAuth token (written 18:32) rejected with 10001; Cloudflare status degraded. Watcher bgztqw09w deploys when whoami works.
+- **Status-open:** Door deploy; Claude API key from Ambi; High Juju routing of film roles to Claude (not built); Mac posting Claude % to the Door.
+
+---
+
+## 2026-11-26 18:53 EAT — TEHUTI — Juju phone app: built the 0.3.0 release unit (one version, signing key, update pop-up), not yet released
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju phone app: built the 0.3.0 release unit (one version, signing key, update pop-up), not yet released
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 9bc0993c)
+- Ambi's order: phone and web ship as one unit, with an update pop-up, and the signing key must exist before the first public APK, since it cannot change later.
+- Emulator run with the Mac unreachable: the phone made a 3 min 35 s wealth film by itself in 11.4 min, with no crash lines. A fix stops each new film re-downloading about 620 MB of maps.
+- Built: scripts/release.sh (dry run passed), a release keystore in ~/.config/juju, the update sheet on phone and web, and a parity check with 0 MISSING. Committed and pushed to phone/standalone at f3a8511a.
+- Not done: the two-film proof on the signed 0.3.0 build did not finish. Film 1 was still downloading maps (18 of 44 MB) when credits forced a stop. Release is not published; the test must rerun first.
+- Open: the Mac version line in the Mojo Bag belongs to juju-serve and api.js, not this session. GET /api/update spec was sent to the lead to hand on.
+- Files changed: ~/AUH/AMBESSA/intel/juju-phone-wt/scripts/release.sh; ~/AUH/AMBESSA/intel/juju-phone-wt/scripts/parity.py; ~/AUH/AMBESSA/intel/juju-phone-wt/apps/juju-shell/android/app/src/main/java/labs/juju/app/Updater.kt; ~/AUH/AMBESSA/intel/juju-phone-wt/apps/juju-shell/android/app/src/main/java/labs/juju/app/MainActivity.kt; ~/AUH/AMBESSA/intel/juju-phone-wt/apps/juju-shell/android/phone.js; ~/AUH/AMBESSA/intel/juju-phone-wt/apps/juju-shell/web/build.py; ~/AUH/AMBESSA/intel/juju-phone-wt/apps/juju-shell/web/sw.js; ~/AUH/AMBESSA/intel/juju-phone-wt/apps/juju-shell/android/rust/src/engine.rs
+- Status: blocked — 0.3.0 built and pushed (f3a8511a) but not released; the two-film test on the signed build has not passed.
+
+---
+
+## 2026-11-26 18:41 EAT — TEHUTI — Juju 0.3.3 released: phone engine with today's money-film fixes
+- Harness: Claude Code (claude-opus-5-5), lead of "JUJU SHIP IT NOW". Topics: juju
+- **Changed:** 0.3.2 (one-step sign-in, new setup code, Door says "Wrong setup code", Door 33240bf4) and 0.3.3 (juju-core 214c4752: named groups, colour bands, legend, names on every land; golden SAME vs Mac). APK https://github.com/AmbessaTrades/juju-web/releases/download/v0.3.3/juju-0.3.3.apk sha 8a7720ef…, version.json 0.3.3, engine 214c4752. Dry run compiled for Android first.
+- **Why-verdict:** Ambi: phone needs the updates "REALLY BADLY". Versioned 0.3.3 not 0.3.2.1 (update check compares three numbers). Not run on the emulator: no film made on 0.3.3 itself.
+- **Status-open:** port list in docs/PHONE-CORE.md (7 items from films lead, items 2-6); Mac /api/update foot line; desktop app.
+
+---
+
+## 2026-11-26 18:36 EAT — TEHUTI — Juju: name-jump fix, pop-up stats, louder sound, US state money films; pushed 18:32
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju: name-jump fix, pop-up stats, louder sound, US state money films; pushed 18:32
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 31bfe4d9)
+- Ambi said the credits were nearly out and asked for a push. Save went to GitHub at 18:05 (26 files) and again at 18:32 with the last changes.
+- Fixed name jumps: each country now keeps one placement rule for the whole film. The debt proof film had held on a 140px United States name jump at 2.3-2.6 s before this fix.
+- Added pop-up number cards and small line charts at big turns, on-screen sources, and louder sound effects. The agent reports the sound test passes. US state money films can now draw GDP, taxes, pay and income by state (BEA, keyless).
+- Ambi asked for the highest-leverage fixes for 0.3.1. The agent listed five: name jumps, camera framing, money-film thumbnails, measure-naming titles, and music looping. Only the name fix and pop-ups were built.
+- Not proven: no film has been redrawn with these changes yet. A peer session reports Juju 0.3.2 is live on web and APK; this session did not verify that.
+- Files changed: juju-maps/timemap/src/page.rs; juju-maps/timemap.py; juju-maps/states/statemap.py
+- Status: in-progress — the changes are pushed, but the debt film has not been redrawn and checked since the name-jump fix.
+
+---
+
+## 2026-11-26 18:34 EAT — TEHUTI — Fixed Juju sign-in so the PIN is entered once, then only the PIN after setup; shipped web and APK 0.3.1
+<!-- type: event -->
+**From:** TEHUTI
+
+Fixed Juju sign-in so the PIN is entered once, then only the PIN after setup; shipped web and APK 0.3.1
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 873ccd40)
+- Ambi reported that the PIN was asked twice and rejected even when typed the same way ('literally the same pin'), and asked that the setup code and PIN be entered once only.
+- Done: the setup code box takes letters and stops at 8; a wrong code now says 'Wrong setup code'; a PIN typed first says 'Type the setup code first'; the PIN is entered once.
+- Done: the Door's code check in space.js was corrected, the gate.html fix was committed and pushed to the live web app, and Juju 0.3.1 APK was released with the same fix.
+- Checked: the APK download arrived complete and the web sign-in screen was reloaded. Not yet checked: a real first sign-in on a physical phone, and a full film on the 0.3.1 build.
+- Still open: the 15-minute test round for the phone build, the Mac version line, and the update sheet's real-device check.
+- Files changed: mockups/r2/gate.html; ~/AUH/AMBESSA/intel/juju-door-wt/apps/door/src/space.js; ~/AUH/AMBESSA/intel/juju-phone-wt/apps/juju-shell/android/phone.js; ~/AUH/AMBESSA/intel/juju-phone-wt/apps/juju-shell/VERSION
+- Status: in-progress — web sign-in fixed and live, 0.3.1 APK published; real-phone sign-in and a full film on 0.3.1 not yet verified
+
+---
+
+## 2026-11-26 18:32 EAT — MUNGURA — Juju: last push before credits end
+- **Changed:** state films draw income, GDP, taxes or pay by state (BEA, keyless) chosen from the sentence; money cards show their figure; pop-up chart at money turns; names hang on leaders in money films; source on screen all film; sound effects raised (camera -4 dB, cap +6 LU, test PASS); one placement rule per name.
+- **Status-open:** none of these proven on a drawn film yet; debt proof film last held for a name flip (fixed after). Next agent: ju make wealth "how government debt grew in the biggest economies since 1990" --name zz-debt-r6, then frames every 2 s.
+
+---
+
+## 2026-11-26 18:25 EAT — TEHUTI — Juju 0.3.1 released: phone APK + web, sign-in fixed
+- Harness: Claude Code (claude-opus-5-5), lead of "JUJU SHIP IT NOW". Topics: juju
+- **Changed:** scripts/release.sh published 0.3.0 then 0.3.1 (phone/standalone 2739ed1f, engine f256bed9, release key ~/.config/juju). APK https://github.com/AmbessaTrades/juju-web/releases/download/v0.3.1/juju-0.3.1.apk sha256 c5bfd716…, web https://ambessatrades.github.io/juju-web/. Fix: Gate setup-code box took the PIN digits and used a numeric keyboard (code has letters) so Ambi could not sign in; now text, max 8, hands keys back to the keypad.
+- **Why-verdict:** downloaded APK matches version.json sha and carries the fix; live web phone.js carries the fix. The 0.3.0 signed build's round reached map download on the emulator; the engine made a full film in the previous build. No full film run on the 0.3.1 build itself.
+- **Status-open:** Ambi keeps a private copy of ~/.config/juju; Mac /api/update foot line; desktop app packaging; core items 2-6.
+
+---
+
+## 2026-11-26 18:10 EAT — MUNGURA — Juju: debt proof film result
+- **Verification:** zz-debt-r4 held at room 4 only for name jumps at 2.3-2.6 s (United States 140 px, Argentina 71 px, Italy 17 px) as the opening camera move brings anchors on screen; 0 unnamed lands (was 13). Next: in page.rs at_anchor, keep each name on one placement rule for the whole film (decide per land once, like name_side), then redraw zz-debt-r4.
+
+---
+
+## 2026-11-26 18:07 EAT — TEHUTI — Juju handoff: phone 0.3.0 unreleased, core money fixes pushed
+- Harness: Claude Code (claude-opus-5-5), lead of "JUJU SHIP IT NOW". Topics: juju
+- **Changed:** core/juju-core 214c4752 (money-film fixes, golden SAME vs Mac on the debt film; Android/wasm not rebuilt at this head). phone/standalone f3a8511a (0.3.0 signed APK gen/juju-0.3.0.apk a69501e6, update sheet, release.sh dry run green, parity 40 rows 0 MISSING) NOT released: round cut mid map download. App Polish stopped; /api/update not built; 4700 on 6372643a.
+- **Status-open:** next lead: rebuild phone/standalone on core 214c4752 (cross-build check), one emulator round, scripts/release.sh 0.3.0, give Ambi the link; Mac /api/update foot line; drawer label proof; core items 2-6.
+- **Related:** docs/PHONE-CORE.md, runs/apk/, crates/juju-core/proof/RECEIPTS.md
 
 ---
 

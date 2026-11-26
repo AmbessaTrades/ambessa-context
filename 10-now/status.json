@@ -1,5 +1,5 @@
 {
- "as_of": "18:05 EAT, Thu 26 Nov 2026",
+ "as_of": "20:08 EAT, Thu 26 Nov 2026",
  "workshop": "down",
  "jobs": [],
  "pull_requests": [
@@ -519,18 +519,18 @@
   "sJiaWNxYFUA": 2
  },
  "main_commits": [
+  "f3ccecf3 26 Nov 19:19 New Vessel: a look with no film yet shows its own land and sea colours, not a black box",
+  "575ef820 26 Nov 19:13 New Vessel: the + jar opens Absorb with the link box focused",
+  "a29b2db6 26 Nov 19:04 Mojo Bag: the total says which services it adds up",
+  "0a9840a2 26 Nov 18:55 door-keys: carry a Claude API key for High Juju on the API",
+  "b22fa8c5 26 Nov 18:36 PHONE-CORE: port list from the films lead for juju-core",
+  "1b224ff3 26 Nov 18:33 Gate: one PIN entry for a first PIN; the setup code must be typed first; Ambi 26 Nov could not sign in",
   "6372643a 26 Nov 17:54 Length is one slider, 10 to 30 minutes (default 11); a held film plays with its reason and is never kept",
   "8a8430d1 26 Nov 17:52 PHONE-CORE: one unit, update sheet, signing key, rooms from the web, parity gate (Ambi 26 Nov)",
   "270a83a4 26 Nov 17:21 App polish 2: POLISH-2-DONE",
   "a07a7fe2 26 Nov 17:21 App polish 2: a truthful Mojo Bag, the Door channel sync, the drawer's palette, --vessel, ideas for every vessel, the upload kit for every film",
   "675b6269 26 Nov 16:51 Gate: the next step in plain words for every state; Enter never looks pressable while it cannot go",
-  "0d61617b 26 Nov 16:47 App round 3, unit 1: an empty first run; New Vessel with Ready-made, Absorb, Describe and Juju's receipt",
-  "903a527b 26 Nov 16:02 door-keys: a re-run keeps the setup code unless --new-code",
-  "06cb125d 26 Nov 16:01 door-keys: carry YOUTUBE_API_KEY to the Door's YOUTUBE_KEY for the weekly niche Pulse",
-  "0ff326e7 26 Nov 15:37 App flow 3, part 2: niche Pulse shared by channels, one Order, Bend cards, correction reach, Fill the week, powers table (Ambi 26 Nov)",
-  "a61335f0 26 Nov 15:27 Tell Juju: MEND-DONE",
-  "5f3fc990 26 Nov 15:27 Tell Juju runs ju mend: progress words, before and after cards, both takes, Use this one",
-  "690e9e5c 26 Nov 15:26 App flow round 3: you steer, Juju guides (Ambi 26 Nov): empty first run, New Vessel absorb/describe/ready-made, Cauldron composer, running Pact, Juju pop-out"
+  "0d61617b 26 Nov 16:47 App round 3, unit 1: an empty first run; New Vessel with Ready-made, Absorb, Describe and Juju's receipt"
  ],
  "finish_check": "1 of 23 clauses true, so not done",
  "film_runs": "4 DONE, 4 FAILED, 24 HOLD",
@@ -544,7 +544,7 @@
   {
    "clause": "trunk.main_is_origin_and_clean",
    "ok": false,
-   "detail": "branch main, ahead 17, behind 109, uncommitted files outside runs/ 299"
+   "detail": "branch main, ahead 0, behind 140, uncommitted files outside runs/ 299"
   },
   {
    "clause": "trunk.gate_open_at_head",
@@ -589,7 +589,7 @@
   {
    "clause": "app.receipt_is_of_this_head",
    "ok": false,
-   "detail": "walk made at None with None uncommitted files, now 6372643 with 299, no-paid None"
+   "detail": "walk made at None with None uncommitted files, now f3ccecf with 299, no-paid None"
   },
   {
    "clause": "film.exists_10_to_20_min_with_picture_and_sound",
@@ -655,9 +655,9 @@
  "newest_runs": "ottoman12f HOLD 25 Nov 11:25 (stopped at Pictures and form); proof12c FAILED 25 Nov 09:47 (stopped at Render and mix); proof12 HOLD 25 Nov 09:16 (stopped at Script and heal); proof75b HOLD 25 Nov 09:06 (stopped at Render and mix); proof75a HOLD 25 Nov 08:59 (stopped at Publish kit); strip-planets HOLD 25 Nov 08:41 (stopped at Deal and package); strip-pluto HOLD 25 Nov 08:40 (stopped at Render and mix); 20261125-083722-131d HOLD 25 Nov 08:37 (stopped at Deal and package); strip-japan DONE 25 Nov 08:34 (60 s, 0.008751 US); strip-bulgaria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-austria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-manchuria HOLD 25 Nov 08:11 (stopped at Deal and package)",
  "live_agents": 0,
  "load": [
-  51,
-  60,
-  50
+  12,
+  13,
+  14
  ],
  "sheet_written": true
 }

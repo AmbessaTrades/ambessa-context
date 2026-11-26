@@ -1,4 +1,4 @@
-<!-- copied from the Juju repo: mockups/ART-BRIEF.md, last changed 11:34 EAT, 24 Nov 2026. Private lines removed. Do not edit here. -->
+<!-- copied from the Juju repo: mockups/ART-BRIEF.md, last changed 19:24 EAT, 26 Nov 2026. Private lines removed. Do not edit here. -->
 # Art brief, round 2 (after Ambi saw round 1)
 
 > Working document. Subject to change through continued conversation. Nothing here is a requirement until Ambi says so.
