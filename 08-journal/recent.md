@@ -1,6 +1,236 @@
 # Juju day log, newest first
 
-Rebuilt 09:00 EAT, Thu 26 Nov 2026. Only entries whose title names Juju. Times are EAT (UTC+3). Logged by agents: evidence of what they report, not proof. Where two entries disagree, the later one wins and the older stays.
+Rebuilt 11:04 EAT, Thu 26 Nov 2026. Only entries whose title names Juju. Times are EAT (UTC+3). Logged by agents: evidence of what they report, not proof. Where two entries disagree, the later one wins and the older stays.
+
+---
+
+## 2026-11-26 11:03 EAT — TEHUTI — Juju stories: Mali line without the poor frame, poverty-frame check, core states only, opening disclaimers
+- Harness: Claude Code (claude-opus-5-5), stories lane. Topics: juju
+- **Changed:** door-3 stop 1 now "Mali's mines led the ancient world in gold, and its people never told the Arabs where the mines lay." (both halves word for word in GHA IV 194 and 641; no saved passage gives the dust to Mali's people, 641 says it of Ghana); timestory.py poor_frame (code flag in the lens pass; planted "workers kept only scraps" flagged and rewritten), lawcheck musts only for up to 6 core states (named in title, then most screen time); canon/disclaimers.json (3 fiction, 3 history, defaults "Made up / This world never was" and "Real dates / We may err, no offence meant"); clip films/_data/time-stories/judge/door3-v4/narrated.mp4.
+- **Why-verdict:** testlens, testlaw pass; mk-andes lawcheck 5 faults (2 drawing words, 100% vs 19%, Wari and Inca rise); all 6 disclaimers pass lint, 1.3-1.9 s.
+- **Status-open:** Ambi judges door3-v4 by ear and picks the disclaimers; engine lane wires lawcheck and the opening card (messages sent).
+
+---
+
+## 2026-11-26 10:53 EAT — MUNGURA — Juju ship-it-now: app, High Juju, niche map and APK lanes started; film asks routed
+- Harness: Claude Code (claude-opus-5-5), thread "JUJU SHIP IT NOW". Topics: juju
+- **Changed:** split agreed with lead of "JUJU X POTETO ORCHESTRATION #2": this thread owns crates/juju-serve, mockups/r2, apps/, vessels/ (brand + niche map), High Juju gate, Claude meter, Night/Day lock, APK; the other lead keeps juju-maps/ (engine, pack titles/thumbs, canon, make). Four workers started (Opus 5.5 medium): App Flow, High Juju (daily mode "Gris-gris" recommended, super "High Juju" = Claude Opus xhigh/high + medium bulk, weekly-room check, use sparingly), niche map (~250 tiered sub-niches, vessels/niches.json), APK (waits for runs/app/FLOW-DONE and 12 GB free).
+- **Why-verdict:** Ambi 10:40-10:45: Make opened on "Write a sentence"; no new films seen since waking; thumbnails and copy weak; wants super mode, disclaimer card, outlier-mapped recognisable titles, APK tested. Root blocker found: disk 2.2 GB free (100%), the App worker stopped 07:22 on "No space left".
+- **Status-open:** Ambi must empty the Trash (~480 GB sits in Trash/Photos/update snapshots per the other lead). Disclaimer card, titles span check, thumbnails routed to the other lead's lanes.
+- **Related:** juju-maps/canon/APP-FLOW.md, runs/app/FLOW-DONE, vessels/niches.json, juju-maps/make/REQUEST-high-juju.md
+
+---
+
+## 2026-11-26 10:50 EAT — TEHUTI — Juju Night on two grounds parked (Ambi: greyed out, super high mode later)
+- Harness: Claude Code (claude-opus-5-5), night2 lane.
+- **Changed:** juju-maps/night2/PARKED.md written; round three stopped before any draw (0 US); plain-night look night 0.001 and globe life false left in place (still test clean, full redraw unproven); write2.py refuses garbled shots and matches adjectives to places (dry runs only).
+- **Why-verdict:** Ambi decision via the lead. Works: two grounds, seam 0.05-0.77% of width, place check, 1 deg floor, Chile eye 8. Golden istanbul and po3 the same; classic files unchanged.
+- **Status-open:** next three fixes in PARKED.md (lights at 1 deg, garbled names, adjective places).
+- **Related:** juju-maps/night2/PARKED.md, runs/predicate/overnight/night.json
+
+---
+
+## 2026-11-26 10:48 EAT — TEHUTI — Juju app lane handed to "JUJU SHIP IT NOW": Make room live on 4700 under launchd
+- Harness: Claude Code (claude-opus-5-5), app lane. Topics: juju
+- **Changed:** crates/juju-serve/src/make.rs (new, /api/tap: ju make in three slots, canon kinds, ideas, queued exports, Again/Drop/Accept), mockups/r2/make.html (new Make room, first door), kit2.js, gate.html, routes.rs, scripts/serve start/stop + launchd com.auh.juju-serve. Uncommitted in the main checkout.
+- **Why-verdict:** Measured: click walks clean at 1440x900 and 390x844 (runs/app/tap/walk2); a wealth film tapped in the app played (204 s, 240p, 0.0022 US); states made (0.0038 US); restart test passed (runs/app/tap/reboot.log). Kingdoms failed once on the gap-word gate, then died when the disk filled.
+- **Status-open:** newest binary (Again/Drop/Accept, canon kinds) never live and not walked; app.json not written; APP-FLOW screens not built.
+- **Related:** runs/app/HANDOFF.md
+
+---
+
+## 2026-11-26 10:40 EAT — TEHUTI — Juju Night rebuilt on two grounds; round two eye-mark spread down from 5 to 3
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju Night rebuilt on two grounds; round two eye-mark spread down from 5 to 3
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session e49bb5c7)
+- Ambi asked for 'a really extreme level of consistency' in Night. The lines layer moved into a Rust drawer (night2/ardhi), with one camera law for both grounds and a fitted globe camera for the hand-over.
+- Round one: five 240p first takes, combined-mark spread 2.55 (4.15 to 6.7). Round two re-drew the same five after fixes. Hand-over jump fell from 3% to 33% of frame width to 0.05% to 0.77%.
+- Round two marks: eye 5 to 8, spread 3 (was 5); program score spread 1.1. Eye marks are judged by the agent, not measured, and the spread is still wide for Ambi's bar.
+- Added a place check: a place named outside its frame stops the film before voice. It catches Bordeaux's Kayes and Mali faults but misses adjectives like 'Nigerien'. Spend 0.44 US of the 0.50 limit.
+- Protected files (record.mjs, film.js, storyboard3.py, golden.py) were hashed before and after; the diff result is not in this part. 1080p not run; plain-night look still blurs close stops.
+- Files changed: juju-maps/night2/ardhi/src/main.rs; juju-maps/night2/make.py; juju-maps/night2/seam.py; juju-maps/night2/marks.py; juju-maps/night2/write2.py; juju-maps/night2/run2.sh; juju-maps/night2/README.md
+- Status: in-progress — round two done and the night clause passes, but eye-mark spread is 3 and the plain-night look still blurs close stops
+
+---
+
+## 2026-11-26 10:35 EAT — TEHUTI — Juju Night round two: eye spread 5 to 3, seam under 1% of width
+- Harness: Claude Code (claude-opus-5-5), night2 lane.
+- **Changed:** night2: views never under 1 deg; globe camera fitted per frame to the drawer (fitcam.py), hand-over moves at tilt 0.98 on the 24 fps grid; write2.py refuses before voice a place said or named outside its frame; plague towns at least 8 px at 240p (ardhi); marks.py reports count and eye apart.
+- **Why-verdict:** same five subjects: eye 6,8,7,7,5 (spread 3, was 5); count 4.9-6.0 (spread 1.1, was 0.8); seam 0.05-0.77% of width (was 3-33%); seville seen 0 to 3 of 6. 0.10 US. Golden istanbul, po3 the same; classic files unchanged.
+- **Status-open:** plain globe still shows night lights as beige blobs at 1 deg (looks owner); misnamed shots draw nothing (bordeaux); disk had 1.4 GB free, one join failed and was redrawn.
+- **Related:** runs/predicate/overnight/night.json, juju-maps/night2/README.md
+
+---
+
+## 2026-11-26 10:32 EAT — TEHUTI — Juju 1080p export speed: Metal ground and lands port byte-identical, merge still pending
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju 1080p export speed: Metal ground and lands port byte-identical, merge still pending
+- Harness: Claude Code (auto-log by claude-haiku-5-5, SessionEnd, session 0f9667e6)
+- Ambi asked for the shortest time from sentence to finished 1080p film. Measured: 30 s of the Africa film at 1080p took 1,196 s, and drawing is about 85% of the export.
+- Built a Metal port of the ground and lands passes in a copy (juju-maps/velocity/timemap-fast), not the live drawer. Stills at 300, 308, 316 and 324 s matched the live drawer byte for byte (4 of 4), re-checked after today's edits.
+- Export settings: x264 veryfast, crf 17, keyframe every 15 frames. On a 30 s 1080p clip the encoder used 69 CPU s against the live 199 s, file 24.4 MB. VideoToolbox rejected: softer relief on dark land.
+- Audio bitrate change (192 to 384 kbps) filed as request 7 for the engine lane. Disk filled mid-run; deleted only my own build folders (about 526 MB freed) with Ambi's approval.
+- Not done: after_s is not written (no merged drawer yet), and no real 2-minute 1080p export has been timed; that waits for load under 8 (it was 25 at last check).
+- Files changed: juju-maps/velocity/timemap-fast/src/gpu.rs; juju-maps/velocity/timemap-fast/src/draw.rs; juju-maps/velocity/timemap-fast/src/main.rs; juju-maps/velocity/EXPORT-SETTINGS.md; juju-maps/velocity/receipt-metal/RECEIPT.md; juju-maps/timemap/REQUESTS-velocity.md; runs/predicate/overnight/velocity.json
+- Status: in-progress — Metal port verified identical on stills; waiting on engine-lane merge, audio change and a timed real export under load 8
+
+---
+
+## 2026-11-26 10:31 EAT — TEHUTI — Juju velocity: Metal patch rechecked against today's live drawer, 4/4 stills identical
+- Harness: Claude Code (claude-opus-5-5), velocity lane. Topics: juju
+- **Changed:** deleted own scratch build dirs (target, target2, target3; ~526 MB); rebuilt live and live+metal.patch into one target dir; RECEIPT.md open line closed; recheck-1031.txt; decision row.
+- **Why-verdict:** scene.rs and page.rs changed after the 09:00 check. Live src 10:26 + patch applies clean; 1080p stills 300/308/316/324 s 4/4 byte-identical. Kept.
+- **Status-open:** engine-lane merge of metal.patch + request 7 (audio 384k); 2-min real export at load under 8.
+- **Related:** juju-maps/velocity/receipt-metal/, juju-maps/timemap/REQUESTS-velocity.md
+
+---
+
+## 2026-11-26 10:24 EAT — TEHUTI — Juju velocity: receipt corrected, audio request 7, two decision rows; stills recheck waits on disk
+- Harness: Claude Code (claude-opus-5-5), velocity lane. Topics: juju
+- **Changed:** juju-maps/velocity/receipt-metal/RECEIPT.md (240p one-sample line out, 8x row replaced by 7.6 vs 0.75 fps and ~5x quiet estimate, coverage row); juju-maps/timemap/REQUESTS-velocity.md item 7 (audio 192k->384k, timemap.py:1095); runs/decision.tsv rows 522-523 (encoder settings, coverage sweep).
+- **Why-verdict:** small writes only while disk is at 1.1 GB free; no build, export or frame sets.
+- **Status-open:** live vs live+patch 1080p stills against current scene.rs (needs a build, several GB); engine-lane merge; 2-min real export at load under 8.
+- **Related:** juju-maps/velocity/EXPORT-SETTINGS.md, receipt-metal/metal.patch
+
+---
+
+## 2026-11-26 10:08 EAT — TEHUTI — Juju stories: title rule, lens pass, story laws, door-3 voiced again
+- Harness: Claude Code (claude-opus-5-5), stories lane. Topics: juju
+- **Changed:** timestory.py label_title/title_case/punctuation/map-word checks on cards (testlabel); lens pass (whose frame, the people's own record, rewrite only on a proved quote; testlens: Mali dust line rewritten); story_laws + lawcheck (rise and widest of core states, card figure = counter, no repeat, no drawing words; testlaw); tm-africa-28 story: 5 judged/lens copies, "Persia takes back Egypt"; door-3 narration v3 voiced (Gavin) at films/_data/time-stories/judge/door3-v3/narrated.mp4.
+- **Why-verdict:** re-judge of 8 rewritten cards: old wins 7 of 8 (only Musa new kept); narration v3 vs v1: Mali line 2/3, Jenne 3/3, silence 3/3, "set them back" 1/3 (kept: "pushed" is not in the source).
+- **Status-open:** mk-andes lawcheck finds the Inca rise and 2 drawing-word cards and the 100% vs 19% card; engine lane wires lawcheck into ju make (handoff sent) and redraws tm-africa-28; wealth stops at films/_data/time-stories/show-wealth-tm-africa-28.json.
+- **Related:** ADR 0027 items 28, 46, 47; ADR 0028 items 10, 11.
+
+---
+
+## 2026-11-26 10:08 EAT — TEHUTI — Juju canon: the lens law (law 26) and Juju's Kallaway scale; skill drafts as request 6
+<!-- type: event -->
+**From:** TEHUTI
+- Harness: Claude Code (claude-opus-5-5), canon lane. Topics: juju
+- **Changed:** canon/LAWS.md law 26 (whose frame; push toward the sourced truth, never past it), tied to timestory.py:lens and lens_door; canon/laws/director.py prompt and DIRECTOR.md give room to a stop showing sourced wealth or agency; canon/MAP.md and map.json name the nyansapo ladder as Juju's Kallaway scale; runs/canon/countersign-6/ (time-map-storyboard and juju-roots SKILL.md drafts, trial.sh).
+- **Why-verdict:** ADR 0028 items 10-11. Measured: trial 6 TRUE (0 DIFF, audit 0), planted FALSE; canon check TRUE.
+- **Status-open:** lens inside timestory.py:story for every film is the stories lane's; request 6 waits for a fresh reviewer.
+
+---
+
+## 2026-11-26 09:58 EAT — TEHUTI — Juju thumbnails rebuilt as whole places: squint 1 to 11 of 20; disk full stops the run
+- Harness: Claude Code (claude-opus-5-5), channels lane. Topics: juju
+- **Changed:** juju-maps/pack/thumb2.py, places.json, blind.py; 40 stills (year A and B) per card; truth check of words against story.json.
+- **Why-verdict:** blind squint place named 11/20 (bar 15); 13 of 15 earlier word sets fail the new truth check. DeepSeek 0.0039 US.
+- **Status-open:** BLOCKED: disk 120 MB free (886 of 926 GB used, not by this lane); pick test, new sheet and commit not done.
+- **Related:** juju-maps/pack/squint2-score.json, out/v2-all.jpg
+
+---
+
+## 2026-11-26 09:56 EAT — TEHUTI — Juju app flow: VidRush and witch-theme study turned into a publish-in-mass design for the App lane
+- Harness: Claude Code (claude-opus-5-5), design sub-agent. Topics: juju
+- **Changed:** juju-maps/canon/APP-FLOW.md (candidate): flow Altar > Crossroads > Cauldron > First look > Shelf (Publish Kit), Fill the week / Fill every channel; VidRush keep/our-way/do-not-want table; brand profile in vessels/<channel>.json; 12 stuck rows; 12 wireframes runs/app-flow/wire/ (wire.py); six Haiku reads runs/app-flow/*.json.
+- **Why-verdict:** ADR 0027 item 50. Measured finds: the app never reads pack/ideas.json (object vs list); Export waits forever (no ju export); money refusal says edit a JSON; first offered idea (Ethiopia) fails the gap gate; no package step in ju make.
+- **Status-open:** Ambi: default export height; do Juju titles ship untouched. Requests: ju ideas, ju export, package step. App lane implements.
+- **Related:** runs/app/tap/walk2, make/CONTRACT.md, docs/BACKLOG.md rows 17-19
+
+---
+
+## 2026-11-26 09:42 EAT — TEHUTI — Juju stories: copy lint wired, narration written, blind judge says keep old cards
+- Harness: Claude Code (claude-opus-5-5), stories lane. Topics: juju
+- **Changed:** timestory.py lint_copy (calabash + tics-time.json, 6 planted AI lines fail), rewrite and narrate commands with one heal pass; narration for door 3 at films/_data/time-stories/judge/tm-africa-28-door3-narration.json.
+- **Why-verdict:** three blind readers (Gemini, DeepSeek, GLM): new cards win 16 of 36, so old cards stay; new narration wins 27 of 27. VERDICT.md beside it.
+- **Status-open:** narration stops 5 and 7 still fail a check; Ambi judges by ear. About 0.07 US spent of 0.20.
+- **Related:** ADR 0027 items 46, 47.
+
+---
+
+## 2026-11-26 09:34 EAT — TEHUTI — Juju canon: one bracket list closed (stories lane wired, five stories pass)
+<!-- type: event -->
+**From:** TEHUTI
+- Harness: Claude Code (claude-opus-5-5), canon lane. Topics: juju
+- **Changed:** verified timestory.py:404 and :435 read canon/brackets.json; LAWS law 8 and MIGRATION record it closed.
+- **Why-verdict:** Measured: 5 of 5 story files pass canon.laws.brackets; drawn plans 4 of 5 pass, tm-africa-28 (plan drawn 06:52, story fixed 08:54) fails on two old "from the dug site" until the engine redraws it.
+- **Status-open:** rows 14, 15, 18 not yet reported by their lanes (no stripe region in st-us, no canon read in statemap.py or make.rs).
+
+## %Y-%m-%d %H:%M EAT — TEHUTI — Juju: five new time-map design systems drawn, styles clause passes
+<!-- type: event -->
+**From:** TEHUTI
+
+- Harness: Claude Code (claude-opus-5-5), design lane.
+- Changed: five design systems as cards + themes in juju-maps/stack/systems/styles/ (war-room, contagion-pulse, crude-ledger, city-towers, engraved-atlas); build.py makes each film from open shelf data (HCED, plague first wave, OWID oil, Chandler cities, Cliopatria), no model call, $0; five 240p films 90.5 to 92.2 s with beds; engine wishes in juju-maps/timemap/REQUESTS-styles.md (17 rows).
+- Why-verdict: Ambi asked for more design systems we are unsure of (ADR 0027 item 27); ADR items 28 to 40 applied: one holder per land a year, colour with meaning (who won, year struck, oil region, part of the world), no meaningless rings, things rise in place, no hedge words. Lead marks on stills: Atlas 6.5, Contagion 6, Crude 6, War Room 5, City Towers 4.
+- Status-open: overnight predicate styles PASS (6 of 11 overall). Deep Time not built (no sea-level or paleo data on the shelf). War Room still shows Cliopatria corridor shapes at Austerlitz and Borodino; City Towers dying towers tear. No 1080p (lead: 240p until the drawer speed patch).
+- Related: runs/predicate/overnight/styles.json; runs/decision.tsv rows 508 to 513; films juju-maps/films/sty-*/a.mp4.
+
+---
+
+## 2026-11-26 09:29 EAT — TEHUTI — Juju: Ambi's morning notes routed (sound, paths, reading time, copy, myth worlds, 240p churn, app flow)
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju: Ambi's morning notes routed (sound, paths, reading time, copy, myth worlds, 240p churn, app flow)
+- Harness: Claude Code (claude-opus-5-5)
+- What happened: Changed: ADR 0027 items 43 to 51 (subtitles kept for Night and Day; sound quieter and more creative with channel sound profiles; Night's path lines in the drawer, no meaningless dots; longer reading time; much better copy with calabash and nyansapo wired, narrated door kept as a channel's option; myth and fiction lands that tear and move; 240p churn only; app flow from VidRush and witch-theme study; export settings research). Skill gates: 124 faults to 0 after five countersigned batches. Lanes: engine, sound, stories, worlds, stack churn (10 films), new App Flow study, velocity research beside the Metal bet. Status-open: overnight predicate 4 of 11; spend about 34.6 of 40 US.
+- Status: in-progress
+
+---
+
+## 2026-11-26 09:29 EAT — TEHUTI — Juju canon: conductor audit reads 0 live (124 to 0)
+<!-- type: event -->
+**From:** TEHUTI
+- Harness: Claude Code (claude-opus-5-5), canon lane. Topics: juju
+- **Changed:** countersign 5 applied: no-tell-frames v0.2.0 (R0: no spoken sentence on the frame except Duppy Night and Duppy Day, ADR 0027 item 43; R2/R5 stated in SKILL.md), 3 Builder rows, 14 pins. Receipt runs/canon/countersign-5/receipt.json.
+- **Why-verdict:** Measured: juju-conduct plan exits 0 (audit 0, was 124 this morning); pins-check 0 DIFF over every pack; canon check TRUE; link-skills 59.
+- **Status-open:** crates/juju-stage/tests/laws.rs:74 left with the old R0 (old engine, no map films); migration rows 14, 15, 18 with lanes; law 6 report-only until fills land; bracket change in timestory.py waits on the stories lane.
+- **Related:** runs/canon/audit-124.md.
+
+---
+
+## 2026-11-26 09:23 EAT — TEHUTI — Juju canon: request 5 round 2, R0 narrowed to Duppy Night and Duppy Day
+<!-- type: event -->
+**From:** TEHUTI
+- Harness: Claude Code (claude-opus-5-5), canon lane. Topics: juju
+- **Changed:** no-tell-frames R0 exception now names only Duppy Night and Duppy Day (skill.json, SKILL.md); pins-new.txt regenerated (only R0 moved); REQUEST.md notes juju-stage tests/laws.rs:74 still enforces the old R0 and draws no map film.
+- **Why-verdict:** reviewer: "any voiced system" went past Ambi's words (ADR 0027 item 43). Measured: trial.sh TRUE (0 DIFF, audit 18 -> 0); round-1 pins planted print FALSE.
+- **Status-open:** fresh reviewer re-checks.
+
+---
+
+## 2026-11-26 09:19 EAT — TEHUTI — Juju time maps: US film rebuilt as one partition per year in civic-ink; flat land, locked assets, laws wired
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** states/statemap.py: partition_us (land cut by code into state, territory, Native nation, foreign, unorganised, striped overlap pieces per year; raster masks), civic-ink role colours, handoff merges words.json (title, line, title2/line2, crucial, pulse, today_outline, bracket, _extra_stops), no rings or battle bursts, cession piece flash. Engine: mask keys, stripe and rim per region, flat land by default, member bodies on ground points + --anchors check, find moment and pan, modern outline, year pulse and clean roll, burst/blast/piece tricks, near framing. timemap.py: canon laws 6/20/24 wired (gap report-only via FINAL flag), wealth card figures checked against their own year, gap words off screen, timemap/smooth.py (frame jumps must be events; planted fault caught).
+- **Why-verdict:** films/st-us/a.mp4 371 s judged 7 at 240p (smooth ok, anchors 0.0 px, 62/66 shots); receipt runs/predicate/overnight/us.json written; 1080p waits for the Velocity patch. Africa 12 min redrawing on Dates africa.geojson.
+- **Status-open:** Africa mark; 1080p exports after the Velocity patch; Sahara, Musa, output, Asia redraws; Baekje label placement; tradition hatch only at rest.
+- **Related:** films/st-us/run.json, sheet-240.png; runs/decision.tsv; canon/laws/HANDOFF.md
+
+---
+
+## 2026-11-26 09:12 EAT — TEHUTI — Juju canon: countersign request 5 ready, no-tell-frames after Ambi's subtitle call (18 to 0)
+<!-- type: event -->
+**From:** TEHUTI
+- Harness: Claude Code (claude-opus-5-5), canon lane. Topics: juju
+- **Changed:** no-tell-frames v0.2.0: R0 lets a voiced system (Duppy Night, Duppy Day, any narrated) show the spoken line as subtitle, silent looks still not (ADR 0027 item 43); R2/R5 worded as SKILL.md; SKILL.md states R0, R2, R5; canon duppy-night/day subtitles law; runs/canon/countersign-5/ with trial.sh.
+- **Why-verdict:** Measured: trial.sh TRUE, audit 18 -> 0, 0 DIFF; planted dropped pin line FALSE.
+- **Status-open:** waits for a fresh reviewer.
+- **Related:** runs/canon/countersign-5/REQUEST.md.
+
+---
+
+## 2026-11-26 09:09 EAT — TEHUTI — Juju drawer on the graphics chip: 18x less drawing work, frames byte-identical, patch handed to the engine lane
+- Harness: Claude Code (claude-opus-5-5), velocity worker. Topics: juju
+- **Changed:** juju-maps/velocity/timemap-fast/src/gpu.rs (Metal: ground, lands, slabs and shadows, small picture); draw.rs/main.rs/scene.rs hooks; patch + receipt in juju-maps/velocity/receipt-metal/; handoff in timemap/REQUESTS-velocity.md item 6. Includes approved 240p one-sample, x264 veryfast, all cores under load 8.
+- **Why-verdict:** 30 frames Africa 1080p: 30.25 -> 1.66 CPU s; one frame wall 3,803 -> 167 ms at load 65; 30/30 byte-identical, 4 threads too; live vs patched stills identical; US states one value off by 1 in 6.2M.
+- **Status-open:** engine lane merges; real 2-min export when load < 8, then after_s.
+- **Related:** runs/decision.tsv lane velocity
+
+---
+
+## 2026-11-26 09:04 EAT — TEHUTI — Juju long-form law, 26 minute Africa, time-map sound and the narrated test
+- Harness: Claude Code (claude-opus-5-5), long-form and sound lane. Topics: juju
+- **Changed:** juju-maps/sound/ (tmsound.py, sheet.py, packs/tm-war-table.json): every flip, stop, dive, blast, march, ship, find and count heard from the engine's own data, bed per act, -14 LUFS. juju-maps/longform/ (LONG-LAW.md, law.json, plan.py, pen.py, check.py, narrate.py, africa-28.json): the 28 minute law as data and checks. films/tm-africa-28 drawn at 240p (1556 s), sound in sound/proof/tm-africa-28, narrated test in films/tm-africa-28/door3.
+- **Why-verdict:** padding check TRUE (every act feeds a later one; return after 8 cards away), spine answer changes 3 times, 4 crossings; Earshot on st-us: 65% of 281 cues within 40 ms (chance 22%). Mark 5.5/10 (lead and lane agree): ends weak (empty views, Egypt colour flips, last act never draws "its own peoples again"). Kept: events +8 dB; one blast in 6 s. Reverted: per-kind +3 dB (the measure was wrong, not the level). Spend ~0.30 US of 0.40.
+- **Status-open:** 1080p waits for the Velocity drawer patch; redraw waits for flat land, motion of change, outline and pulse (longform/HANDOFF-engine.md item 13); tm-africa-long sound waits for a matching picture; DeepSeek sound chooser not run.
+- **Related:** runs/predicate/overnight/long.json (PASS), longform/frames/NOTES.md, ADR 0024, 0027 items 28-40.
 
 ---
 
