@@ -44,3 +44,29 @@ Open: names of the two systems; how they are grouped in the app; length per film
 ## Added 26 Nov about 02:15 (Ambi, on the 7 minute Africa)
 
 25. At 1:27 the film left Egypt while Persia took it and Egypt drove Persia out: "you didn't annotate that, you were focused on something else". The crucial changes must be seen: "if anything is changing ... we want to see what changed", above all when time is stretched; a run of conquests and recoveries is told whole, in good copy, true to the people's own sources. Juju needs a structure for this: mental models, design systems, stacks, the reasoning behind its storyboard, its copy and its camera.
+
+## Added 26 Nov about 05:20 (Ambi: "assume ur in full control ... make decisions and wire up juju by urself")
+
+26. Lead decisions under that authority, reversible, each open to Ambi's veto: (a) Night and Day take two grounds (stack/GROUNDS.md): the clean drawing plus exact lines for wide views, the plain globe up close, behind `smooth: true`; nothing changes for a film without the field. (b) Working name of the drawing engine inside Juju Maps: Juju Ardhi (folders keep their names). (c) A simulation on real land starts from the real cultures in the world book; imagined peoples only on imagined land (Atlantis, sunken lands), per ADR 0028.
+27. Ordered the same hour: every part of the stack runs alone without Claude Code (one command per film, a doctor per part); the app makes films from one tap with every button clicked; more design systems are churned; then launch.
+
+## Added 26 Nov about 05:45 (Ambi, after the 11 minute Africa)
+
+28. "A real video production has no room to say still missing": Juju always gives the best finished product in every design system. A gap is closed before drawing (fill it, or choose the span and subject the sources cover); a film never shows or speaks a gap.
+29. "[dates about]" is not liked: be confident. Brackets stay, used for other nuances that matter.
+30. The motion of any expansion, conquest or change must be better: when land fills or moves between parts of the map, the viewer must see it happen.
+31. The stacked layers (slabs) suit other parts of the design system; here ask what they show that a flatter land could not, and use them only where they carry meaning.
+32. A quick outline of the modern country or empire, now and then (not on a rhythm; when the engine judges it helps, above all on zoom-outs), so the viewer can compare the time map with today's map.
+33. The year at the top left may pulse or flash subtly at crucial moments, chosen by the storyboard.
+34. "I love the camera work." The 11 minute Africa "looks really really good" and can be refined further, using every Juju Power.
+35. Rewrite how the stack, design systems, Juju Powers and skills are written and flow with one another, inside Juju's own JSON and MD files, so they are one cohesive system ("13 of 13").
+36. (Ambi, about 05:55) A 28 minute film must feel like it "could only have been possible in 28 minutes": ideation, pockets, copy, storyboard, direction and camera, never an 11 minute film stretched. Lead's design (exploring, sent to the long-form lane): one spine question answered three or more times; braided threads that cross at real turning points; setups that pay later, checked by code (a pocket nothing later depends on is cut); a scale ladder with a dive at the heart of each act; lens changes; camera craft held back so each act brings something new; copy that grows from naming to connecting; a novelty meter per minute.
+
+## Added 26 Nov about 06:10 (Ambi, on the US states film, before sleeping)
+
+37. The US film "doesn't look good visually": borders and layers lie on top of each other with no flow; the colour theme does not fit this sub-niche or drive interest (it worked for Africa); the circles (4:06) do not do their job; contested claims need a better way to be shown; spreading borders look weird; it feels laggy and glitchy. A different design approach for this subject, using a good combination of the powers, smooth.
+38. Juju may make its own choices inside a film: "maybe we need this, this isn't needed, this would be stronger over here, this would be stronger if this waits for this". Think of interactions, flow, ease of use and speed.
+39. Exports at 720p, 1080p and 2K (1440p): "no one ever really wants to export a 480p". 240p stays only for Juju's own quick takes.
+40. Before he wakes: log all of this, execute it; the stack and design systems updated; films churned with the updates; Juju's flow working well in the actual app, its buttons and flows well ideated.
+Lead's measured read of the US film (06:10): the Native cession layer (Royce 1899) is drawn semi-transparent over the states and territories layer (Newberry), two sources with different edges, so slivers and double edges show; a pastel colour per state on a loud brown relief means nothing; the rings are event markers with no meaning of their own; morphs step. Lead's mark: 4.5, not 6.5.
+41. (Ambi, about 06:20, on the Fort Sumter dive) While the camera moves, the Juju Poly assets drift slowly against the map; they must look stuck to the ground. Every body, ring and dot is locked to its ground point (checked by code: under half a pixel at 1080p).

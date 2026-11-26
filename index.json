@@ -1,7 +1,7 @@
 {
  "name": "ambessa-context",
  "what": "The working context of one project, Juju, for an AI that cannot see Ambi's computer.",
- "rebuilt": "04:46 EAT, Thu 26 Nov 2026",
+ "rebuilt": "06:53 EAT, Thu 26 Nov 2026",
  "read_order": [
   "00-READ-FIRST.md",
   "01-context.txt",
@@ -56,7 +56,7 @@
   },
   {
    "path": "08-journal/recent.md",
-   "bytes": 257532
+   "bytes": 275729
   },
   {
    "path": "09-assets/.DS_Store",
@@ -1168,7 +1168,7 @@
   },
   {
    "path": "10-now/attempts.md",
-   "bytes": 43442
+   "bytes": 43636
   },
   {
    "path": "10-now/films.md",
@@ -1192,7 +1192,7 @@
   },
   {
    "path": "10-now/status.json",
-   "bytes": 15445
+   "bytes": 11909
   },
   {
    "path": "11-juju/README.md",
@@ -1336,7 +1336,7 @@
   },
   {
    "path": "11-juju/decisions/0027-time-maps.md",
-   "bytes": 6483
+   "bytes": 11069
   },
   {
    "path": "11-juju/decisions/0028-own-account-first.md",
@@ -1344,7 +1344,7 @@
   },
   {
    "path": "11-juju/decisions/0029-world-book.md",
-   "bytes": 2305
+   "bytes": 3007
   },
   {
    "path": "11-juju/decisions/README.md",
@@ -1476,7 +1476,7 @@
   },
   {
    "path": "11-juju/skills.md",
-   "bytes": 11607
+   "bytes": 12447
   },
   {
    "path": "11-juju/stack-status.md",

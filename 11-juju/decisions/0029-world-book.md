@@ -13,3 +13,9 @@ Lead's design, *exploring* until Ambi accepts it: research is done AHEAD, once p
 4. It must be solid in code, as the time maps are: the regions taken and colonised at a given time are computed from data, "truth to indigenous stories and carbon dating as possible", whatever the age the dating gives ("40,000 years, 37,000 years, 37,643,000 years"). "That needs to be a part of Juju. I swear, I'm not joking."
 
 Lead's design, *exploring*: every drawn shape is a function of sourced rows, never written by a model; dates are stored raw with method, error and lab and turned into ranges by code (radiocarbon calibrated, other methods for ages past radiocarbon's reach); control of land is computed from dated rows of who held which sites; disagreeing sources stand side by side and the choice between them is a rule in code.
+
+## Added 26 Nov about 06:40 (Ambi, after watching the whole 12 minute Africa)
+
+5. "That was pretty good", "very good for its time". The vetting behind it (own accounts, dated sources, the nuances and notes) must not be Africa's alone: the same for Asia, the Americas, any part of the globe, and for every subject (economics, trade routes and the rest).
+6. A 25 to 30 minute film "ideated as well or even better has to be possible on any range or any place on the map, including within countries", with city mappings right.
+7. The Juju Powers and skills orchestrate with each other "without your intervention": the world book is built and read by Juju's own chain and models, not by the lead's agents.

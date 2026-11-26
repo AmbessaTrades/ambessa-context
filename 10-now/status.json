@@ -1,5 +1,5 @@
 {
- "as_of": "04:46 EAT, Thu 26 Nov 2026",
+ "as_of": "06:53 EAT, Thu 26 Nov 2026",
  "workshop": "down",
  "jobs": [],
  "pull_requests": [
@@ -367,13 +367,13 @@
   }
  ],
  "ledger": {
-  "calls": 9858,
-  "usd_total": 32.3715,
+  "calls": 10053,
+  "usd_total": 34.006,
   "usd_by_service": {
-   "deepseek": 8.1192,
+   "deepseek": 9.6244,
    "openrouter": 12.2061,
    "google": 7.9358,
-   "inworld": 3.6869,
+   "inworld": 3.8162,
    "unsettled": 0.1355,
    "lead-test": 0.0,
    "wavespeed": 0.288
@@ -381,9 +381,9 @@
  },
  "service_calls": {
   "deepseek": {
-   "ok": 5874,
-   "refused_or_failed": 17,
-   "last_ok": "26 Nov 04:11 EAT"
+   "ok": 6050,
+   "refused_or_failed": 18,
+   "last_ok": "26 Nov 06:52 EAT"
   },
   "openrouter": {
    "ok": 3384,
@@ -396,9 +396,9 @@
    "last_ok": "26 Nov 00:46 EAT"
   },
   "inworld": {
-   "ok": 402,
+   "ok": 420,
    "refused_or_failed": 1,
-   "last_ok": "26 Nov 02:10 EAT"
+   "last_ok": "26 Nov 06:48 EAT"
   },
   "unsettled": {
    "ok": 0,
@@ -416,7 +416,7 @@
    "last_ok": "25 Nov 11:24 EAT"
   }
  },
- "skills": 56,
+ "skills": 59,
  "rust": {
   "juju-absorb": {
    "files": 15,
@@ -428,7 +428,7 @@
   },
   "juju-conduct": {
    "files": 26,
-   "lines": 5165
+   "lines": 5172
   },
   "juju-core": {
    "files": 3,
@@ -459,8 +459,8 @@
    "lines": 2878
   },
   "juju-serve": {
-   "files": 24,
-   "lines": 3647
+   "files": 25,
+   "lines": 3953
   },
   "juju-sigil": {
    "files": 13,
@@ -479,8 +479,8 @@
    "lines": 3967
   }
  },
- "rust_lines": 35232,
- "rooms": 20,
+ "rust_lines": 35545,
+ "rooms": 21,
  "decisions": 27,
  "apk_files": 0,
  "design_libraries": [
@@ -519,132 +519,16 @@
   "9e42859 25 Nov 05:26 juju-next: subjects tried are only those judged, readers see 340 words back, no writing without room for both readings",
   "a3dfd48 25 Nov 05:09 juju-next 0.5.0: truth held word by word and sealed to two readings, pictures from their own records, bends on the donor's shape, one journal; no hand is dealt yet"
  ],
- "finish_check": "1 of 23 clauses true, so not done",
+ "finish_check": "not read",
  "film_runs": "4 DONE, 4 FAILED, 24 HOLD",
- "attempts": "348 kept, 50 reverted, 52 inconclusive",
- "clauses": [
-  {
-   "clause": "trunk.no_open_prs",
-   "ok": false,
-   "detail": "7 open pull requests"
-  },
-  {
-   "clause": "trunk.main_is_origin_and_clean",
-   "ok": false,
-   "detail": "git fetch failed, so origin/main is not known: Command 'git fetch -q origin main' timed out after 60 seconds"
-  },
-  {
-   "clause": "trunk.gate_open_at_head",
-   "ok": false,
-   "detail": "no receipt; make it: scripts/exit-predicate gate"
-  },
-  {
-   "clause": "app.server_answers",
-   "ok": true,
-   "detail": "/api/health (local page) gave {\"ok\":true} 200"
-  },
-  {
-   "clause": "app.core_rooms_walked_live_both_sizes",
-   "ok": false,
-   "detail": "0 of 22 room and size pairs pressed; no walk yet; make it: scripts/exit-predicate walk"
-  },
-  {
-   "clause": "app.zero_dead_controls",
-   "ok": false,
-   "detail": "not known: 0 of 22 room and size pairs were pressed"
-  },
-  {
-   "clause": "app.zero_layout_faults",
-   "ok": false,
-   "detail": "not known: 0 of 22 room and size pairs were pressed"
-  },
-  {
-   "clause": "app.zero_page_errors",
-   "ok": false,
-   "detail": "not known: 0 of 22 room and size pairs were pressed"
-  },
-  {
-   "clause": "app.soon_marks_at_most_two",
-   "ok": false,
-   "detail": "could not be read: ValueError: not known: 0 of 22 room and size pairs were pressed"
-  },
-  {
-   "clause": "app.zero_sample_tags",
-   "ok": false,
-   "detail": "could not be read: ValueError: not known: 0 of 22 room and size pairs were pressed"
-  },
-  {
-   "clause": "app.receipt_is_of_this_head",
-   "ok": false,
-   "detail": "walk made at None with None uncommitted files, now 4dba4d9 with 245, no-paid None"
-  },
-  {
-   "clause": "film.exists_10_to_20_min_with_picture_and_sound",
-   "ok": false,
-   "detail": "could not be read: ValueError: ffprobe: runs/films/ten/final.mp4: No such file or directory"
-  },
-  {
-   "clause": "film.loudness_minus_14_lufs",
-   "ok": false,
-   "detail": "could not be read: ValueError: ffprobe: runs/films/ten/final.mp4: No such file or directory"
-  },
-  {
-   "clause": "money.ledger_within_cap",
-   "ok": false,
-   "detail": "32.3715 spent and 0.0386 held of 10.00 US over 9858 rows (cap file 35.0, Ambi's ceiling 10.0)"
-  },
-  {
-   "clause": "film.voice_is_inworld_real_calls",
-   "ok": false,
-   "detail": "could not be read: ValueError: FINAL.json names no ledger_times for the voice"
-  },
-  {
-   "clause": "film.wavespeed_thumbnail_real",
-   "ok": false,
-   "detail": "could not be read: ValueError: FINAL.json names no ledger_times for the thumbnail"
-  },
-  {
-   "clause": "film.render_at_most_1_0_s_per_film_s",
-   "ok": false,
-   "detail": "could not be read: ValueError: render.json is missing or empty"
-  },
-  {
-   "clause": "film.earshot_heard_it_real_sound",
-   "ok": false,
-   "detail": "could not be read: ValueError: earshot.json is missing or empty"
-  },
-  {
-   "clause": "film.timing_laws_measured",
-   "ok": false,
-   "detail": "could not be read: ValueError: timing.json is missing or empty"
-  },
-  {
-   "clause": "film.zero_visual_faults_by_code",
-   "ok": false,
-   "detail": "could not be read: ValueError: faults.json is missing or empty"
-  },
-  {
-   "clause": "film.blind_sheet_passes",
-   "ok": false,
-   "detail": "could not be read: ValueError: blind.json is missing or empty"
-  },
-  {
-   "clause": "film.lead_pass",
-   "ok": false,
-   "detail": "could not be read: ValueError: LEAD-PASS.json is missing or empty"
-  },
-  {
-   "clause": "film.root_countersign",
-   "ok": false,
-   "detail": "could not be read: ValueError: ROOT-PASS.json is missing or empty"
-  }
- ],
+ "attempts": "364 kept, 54 reverted, 52 inconclusive",
+ "clauses": [],
  "newest_runs": "ottoman12f HOLD 25 Nov 11:25 (stopped at Pictures and form); proof12c FAILED 25 Nov 09:47 (stopped at Render and mix); proof12 HOLD 25 Nov 09:16 (stopped at Script and heal); proof75b HOLD 25 Nov 09:06 (stopped at Render and mix); proof75a HOLD 25 Nov 08:59 (stopped at Publish kit); strip-planets HOLD 25 Nov 08:41 (stopped at Deal and package); strip-pluto HOLD 25 Nov 08:40 (stopped at Render and mix); 20261125-083722-131d HOLD 25 Nov 08:37 (stopped at Deal and package); strip-japan DONE 25 Nov 08:34 (60 s, 0.008751 US); strip-bulgaria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-austria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-manchuria HOLD 25 Nov 08:11 (stopped at Deal and package)",
  "live_agents": 0,
  "load": [
-  6,
-  6,
-  7
+  167,
+  98,
+  64
  ],
- "sheet_written": true
+ "sheet_written": false
 }

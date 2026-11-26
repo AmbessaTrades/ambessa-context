@@ -1,6 +1,6 @@
 # The Juju skills
 
-As of 04:46 EAT, Thu 26 Nov 2026. One folder per skill in the private repo (`crates/juju-skills/packs`), each a page for agents plus a JSON the app embeds. Agents use them while building; the app must act on them while making a film. Bodies stay private; this is the map.
+As of 06:53 EAT, Thu 26 Nov 2026. One folder per skill in the private repo (`crates/juju-skills/packs`), each a page for agents plus a JSON the app embeds. Agents use them while building; the app must act on them while making a film. Bodies stay private; this is the map.
 
 | Skill | What it does, and when |
 |---|---|
@@ -27,7 +27,9 @@ As of 04:46 EAT, Thu 26 Nov 2026. One folder per skill in the private repo (`cra
 | `graft-to-bloom-comment-miner` | Graft then Bloom: choose where ideas come from by upload count. Use when dealing a slate, launching a vessel, or mining comments for sequel demand. |
 | `idea-before-picture` | Idea before picture: decide what a still makes the viewer think before choosing what it shows. Use when a still is chosen for a stretch, a frame is clean but dull, or a picture only repeats the noun in the sentence. |
 | `impeccable-juju-ui` | Juju screen craft: fonts, skins, one action, few words, slop checks. Use when designing or changing a Juju room, or when judging a finished Juju screen. |
+| `juju-director` | Juju Director: review a film's own storyboard after the plan and before drawing; cut, move, merge or make one thing wait, each choice logged with its reason. Use when a plan is laid out and not yet drawn, or a drawn take shows a crowded, empty or mistimed stretch. |
 | `juju-poteto-autopilot` | Juju run-until-done discipline: exit predicate, one owner per lane, keep or revert, live proof, one report. Use when a Juju goal is given, a worker is started or a number is improved. |
+| `juju-roots` | Juju Roots: tell a time map from the world book, a people's own account first, with one short note only where a claim is truly disputed. Use when a time map, lore film or history film is planned, written or checked, or when a source, date or border is asked for. |
 | `jujulogov01-svg-animator` | Motion states for the Juju witch-cat logo, the app's only character. Use when the cat appears, moves or reacts on a screen, or when someone asks for a mascot or avatar. |
 | `machete-razor` | Machete Razor: cut the extra part, and undecided means no. Use when a change adds a part, two working designs compete, or a writing model's instructions grow. |
 | `memoir-swarm-handoff` | Memoir receipts around Juju agent waves. Use when starting, closing or handing over a wave of Juju sub-agents, or when picking up Juju work mid-way. |
@@ -51,6 +53,7 @@ As of 04:46 EAT, Thu 26 Nov 2026. One folder per skill in the private repo (`cra
 | `skillforge-meta-autolearner` | SkillForge: turn a breakout or a studied donor channel into a new skill pack, tested on unseen videos first. Use when a winner repeats or a new channel is absorbed. |
 | `spirit-tongue` | Spirit Tongue: route each piece of copy to one voice and unlock the voice stage. Use when a vessel's voice is set or switched, copy is compiled, or a custom voice is absorbed. |
 | `thought-board` | Thought board: one row per thought with its words, its idea, what is seen and why, where the change lands, and the air round it. Use when narration is turned into pictures and silence, or a board is checked. |
+| `time-map-storyboard` | Time-map storyboard: choose a voiceless time map's stops (turns first), its camera move per stop and its moments, so every change is seen. Use when a kingdoms, wealth, states or worlds film is planned, recut, or a change was missed on screen. |
 | `title-thumb-twin` | Title-thumb twin: fill one closed form that holds the title and the thumbnail together, then check it in code. Use when a title needs its picture, a package is rejected, or a thumbnail repeats its title. |
 | `v0-cohort-desync-solver` | V0 rotation: deal (S, O, R, T, P) under H1 to H6. Use when a run starts, a sibling channel joins a niche, a thumbnail repeats, or a script seals. |
 | `value-alchemy` | Value Alchemy: judge an offer by outcome, certainty, delay and effort, each from a counted fact, and compute channel eRPM. Use when an offer is chosen, compared or forecast. |

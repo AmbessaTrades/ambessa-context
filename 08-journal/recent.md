@@ -1,6 +1,178 @@
 # Juju day log, newest first
 
-Rebuilt 04:46 EAT, Thu 26 Nov 2026. Only entries whose title names Juju. Times are EAT (UTC+3). Logged by agents: evidence of what they report, not proof. Where two entries disagree, the later one wins and the older stays.
+Rebuilt 06:53 EAT, Thu 26 Nov 2026. Only entries whose title names Juju. Times are EAT (UTC+3). Logged by agents: evidence of what they report, not proof. Where two entries disagree, the later one wins and the older stays.
+
+---
+
+## 2026-11-26 06:53 EAT — TEHUTI — Juju canon: three skill packs live under countersign; 124 audit faults listed; law 6 switch ready
+<!-- type: event -->
+**From:** TEHUTI
+- Harness: Claude Code (claude-opus-5-5), canon lane. Topics: juju
+- **Changed:** rows 16-17 applied live: juju-director, time-map-storyboard, juju-roots packs; 5 skill patches; reach.rs MAPS + 6 rows; pins.txt 9 lines (backups runs/canon/countersign-16-17/before/). runs/canon/audit-124.md (no fixes). canon/laws/gap.py FINAL flag (False) and remeasure.py.
+- **Why-verdict:** Measured: pins 0 DIFF; audit 124 before and after, 0 new, 0 naming the three packs; canon check TRUE; link-skills linked 59. Live conductor sha256 f3d6b2d4. The 124: pin new 79, no reach row 27, pin changed 10, no stage 8; 8 packs added since 25 Nov hold most.
+- **Status-open:** law 6 report-only until dates draws 26 states and stories adds 9 stops (fills-26nov.json) and remeasure prints CLEAN; engine lane asked to raise only on gap.FINAL. The 124 wait for their own countersigned unit.
+- **Related:** runs/canon/countersign-16-17/receipt.json; runs/canon/audit-124.md.
+
+---
+
+## 2026-11-26 06:45 EAT — TEHUTI — Juju canon: law 6 judged against the film itself; skill packs countersign trial stops on the conductor audit
+<!-- type: event -->
+**From:** TEHUTI
+- Harness: Claude Code (claude-opus-5-5), canon lane. Topics: juju
+- **Changed:** canon/laws/gap.py: a gap is a book state or people inside the film's own camera frames, a 12 s question stretch with no stop, or a stop without its page; mask and inline keys read for roots.cover; 21/21 tests incl. a focused film with off-frame states that passes. canon/laws/LAW6-MEASURE.md and fills-26nov.json. Rows 16-17 run whole in an isolated copy: runs/canon/countersign-16-17/receipt.json.
+- **Why-verdict:** Measured: Africa 11-min refused for 15 framed states + 5 stretches; Musa for Kilwa; Sahara 10 + 3 (7 off-frame pass); US 1 stretch. Trial: pins 0 DIFF, the three packs add 0 audit faults, but the conductor already refuses 124 faults before any change, so check 2 fails and nothing was applied (live pins.txt, reach.rs, packs untouched).
+- **Status-open:** lead to decide check 2 (fix the 124 first, or read it as adds no fault); the engine lane runs the gate report-only.
+- **Related:** runs/canon/countersign-16-17/receipt.json; juju-maps/canon/laws/LAW6-MEASURE.md.
+
+---
+
+## 2026-11-26 06:34 EAT — TEHUTI — Juju Make room built and walked on desk and phone; live swap and app-made film still open
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju Make room built and walked on desk and phone; live swap and app-made film still open
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 160a7d4c)
+- Ambi asked: "wire up juju by urself, make sure ui ux buttons work, click around ... and launch full", with one tap making kingdoms, wealth, states, worlds and Night films.
+- Built the Make room (/r2/make.html) with ideas first, your own sentence, five kinds, six theme frames, size pick (1080p preselected), progress words, player, film list and Stop. Routes are under /api/tap in make.rs.
+- Verified: server build passes its 22 unit tests; desk (1440x900) and phone (390x844) click walks ran with no faults, and the screenshots were looked at.
+- Open: the app-made wealth film was still drawing its map at 50% when the log ended. The live swap on port 4700 and the launchd load are not done, and runs/predicate/overnight/app.json is not written.
+- Files changed: crates/juju-serve/src/make.rs; crates/juju-serve/src/lib.rs; mockups/r2/make.html; mockups/r2/gate.html; mockups/r2/kit2.js; scripts/serve/start; scripts/serve/com.auh.juju-serve.plist; juju-maps/make/CONTRACT.md
+- Status: in-progress — Make room works on the test server (4705); live swap, app-made film end and overnight app.json still open
+
+---
+
+## 2026-11-26 06:30 EAT — TEHUTI — Juju velocity: four systems timed; 1080p drawing is the film; requests to engine and make lanes
+- Harness: Claude Code (claude-opus-5-5), velocity worker. Topics: juju
+- **Changed:** runs/predicate/overnight/velocity.json (stage table, four systems); juju-maps/timemap/REQUESTS-velocity.md; juju-maps/velocity/REQUESTS-make.md; bench under juju-maps/velocity/bench. mix.py prefetch tried and reverted (23.4 -> 22.0 s median, inside noise, output byte-identical).
+- **Why-verdict:** Africa 1080p: a 30 s window costs 1,257 CPU s (21x 240p); encode is 15% of it (x264 193 vs VideoToolbox 13 CPU s, PSNR 46.8 dB). Planning 373 s, of which 197 s are 24 drawer relaunches; make step 2 plans again. Bar FALSE: no stage is in a velocity-owned file.
+- **Status-open:** engine lane: countries read once, probe-many, Cliopatria cache, VideoToolbox flag; make lane: step 2 --draw.
+- **Related:** runs/decision.tsv lane velocity
+
+---
+
+## 2026-11-26 06:20 EAT — TEHUTI — Juju canon: laws 6, 20, 24 are code; migration rows 1-4 done; skill packs prepared for countersign
+<!-- type: event -->
+**From:** TEHUTI
+- Harness: Claude Code (claude-opus-5-5), canon lane. Topics: juju
+- **Changed:** juju-maps/canon/laws/ (gap.py law 6, director.py law 20, rights.py law 24, words.py, test_laws.py 18 planted faults, wired.py, HANDOFF.md with one call per chain); canon/check.py runs the tests and prints wiring; LAWS.md cites ADR 0027 items 37-41, law 25 (asset drift) added; GLOSSARY.md 8 words; AGENTS.md one Where row; canon/THRESHOLD-CHANGE-skills.md (rows 16-17, not applied); one wish line at the foot of timemap/CONTRACT.md.
+- **Why-verdict:** Measured on a copy of the 11-min Africa: the gap gate refuses it (101 undrawn states, narrow -3300 to -800, fill.json), strips the "not drawn" credit; the director (DeepSeek low, 0.0226 US in two calls) kept 2 merges and undid a planted turn cut. check.py TRUE; gold films the same. 6 decide rows.
+- **Status-open:** no chain calls the laws yet (engine, worlds, states, stack lanes); the first wired Africa make will be refused until roots and dates fill 101 states or the span narrows; night films not covered by the director.
+- **Related:** juju-maps/canon/laws/HANDOFF.md; python3 -m canon.laws.wired.
+
+---
+
+## 2026-11-26 06:15 EAT — TEHUTI — Juju time maps: no hedge words drawn, Mansa Musa rebuilt around his road, Asia land source named
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju time maps: no hedge words drawn, Mansa Musa rebuilt around his road, Asia land source named
+- Harness: Claude Code (claude-opus-5-5)
+- What happened: Harness: Claude Code (claude-opus-5-5). Topics: juju.
+**Changed:** timestory.py gains polish() and hedge_check() (ADR 0027 items 28 to 33): no hedge word in drawn text; one bracket at most from a closed list (their own record, by tradition, from the dug site, ruled through local kings, influence not rule, in name only); crucial/pulse stops; today_outline at most one a minute; the doubt kept in e.doubt. Applied to tm-africa-long (TRUE), st-us (TRUE), Sahara, Musa, Africa. tm-musa is rebuilt around Musa's road: 15 stops; the caravan route Niani, Walata, Taghaza, Tuat, Cairo, Mecca; the Catalan Atlas find image (BnF via Commons, public domain). films/tm-asia/land-source.json names the UN manufacturing set. st-us words.json has Fort Sumter's second card.
+**Why-verdict:** Ambi: "be confident"; the Musa film was mostly North Africa's dynasties.
+**Status-open:** Musa and Sahara each fail one gap check (an act with a stop only every 26 to 28 s). Musa spent about 0.05. Another worker is charging timestory.py calls to this lane's purse (purpose tm-africa-28).
+- Status: complete; two small gap faults open
+
+---
+
+## 2026-11-26 05:51 EAT — TEHUTI — Juju canon: one map of the Powers, one design-system form, the laws tied to code
+<!-- type: event -->
+**From:** TEHUTI
+- Harness: Claude Code (claude-opus-5-5), design sub-agent. Topics: juju
+- **Changed:** new juju-maps/canon/ (README, MAP.md + map.json, design-system.schema.json + DESIGN-SYSTEM.md, systems/{kingdoms,wealth,states,worlds,duppy-night,duppy-day,moko-day}.json + HANDOFF.md, LAWS.md (24 laws, each tied to file:function or "not yet code" + lane), DIRECTOR.md, skills/ drafts, MIGRATION.md (18 rows), check.py, diagram.py); docs/CANON.md; vault board ~/LOT Files/LOT/LOT+AAY/JUJU/Juju Powers.excalidraw.md (+3 stills). Lead orders of 26 Nov (director step, one partition per year, colour roles, exports 720/1080/1440, system bar 7+ at 240p and clean 1080p) written in.
+- **Why-verdict:** ADR 0027 items 28, 29, 35. canon/check.py TRUE; three planted faults each FAIL; golden.py istanbul and po3 the same. Nothing live edited.
+- **Status-open:** gap closing before drawing is not yet code (roots.cover only reports; timemap.py:764 still makes "[dates about]", seen on the Africa still); director, stripes, finals export not yet code; ADR 0027 items 37-40 not yet in the ADR file; board not opened in Obsidian.
+- **Related:** start from juju-maps/canon/MIGRATION.md row 2.
+
+---
+
+## 2026-11-26 05:36 EAT — TEHUTI — Juju overnight: US film critique, exports 720p to 2K, director step, all lanes running
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju overnight: US film critique, exports 720p to 2K, director step, all lanes running
+- Harness: Claude Code (claude-opus-5-5)
+- What happened: Changed: ADR 0027 items 28 to 40 (no gap words; confident brackets; motion of change; flat kingdoms; modern outline; year pulse; one cohesive canon; 28-minute law; US film rebuilt: one partition per year, contested as stripes, colour with meaning, no meaningless rings, smooth morphs; exports 720p/1080p/1440p; a director step). Lanes running: engine, dates, roots, stories, type (seventh theme for political films), stack proof, app (exports, ideas first screen, every button), styles, channels, long+sound (28 min Africa), Night on two grounds, canon. Why: Ambi 06:10, going to sleep: "log all these changes and have them be executed". Status-open: films churn overnight; purse 32.46 of 35 US at last read; lead's US mark 4.5.
+- Status: in-progress; overnight run
+
+---
+
+## 2026-11-26 05:18 EAT — TEHUTI — Juju dates: Africa rebuilt from Roots round four; lab dates no longer stretch a state past its end
+- Harness: Claude Code (claude-opus-5-5), Juju dates worker. Topics: juju
+- **Changed:** door.py: Axum drawn as Aksum (aliases.json), a dated extent is a hold in itself, extents ride lab sets; reach.rs Hold.clip (a lab set ends at its state's own dated end); dates/draw/africa-roots.geojson rebuilt; engine lane told to redraw Africa.
+- **Why-verdict:** same-state mean |log ratio| 0.204 -> 0.222 (Aksum 1.66 and Wagadu by their own GHA extents, noted; Songhay 0.62, Mali 0.74); Wagadu ends 1202 not 1706. Frames 340, 1550, 1580, 1700 read. 28/28 tests incl. a clip law with a planted fault.
+- **Status-open:** "Aksum under Ezana" drawn as its own state; Asante 1700 uncapped; read-back in dates/HANDOFF-to-roots.md.
+
+---
+
+## 2026-11-26 05:17 EAT — TEHUTI — Juju: full control taken, app wiring, stack proof and style lanes started, GitHub save fixed
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju: full control taken, app wiring, stack proof and style lanes started, GitHub save fixed
+- Harness: Claude Code (claude-opus-5-5)
+- What happened: Changed: GitHub autosave push had failed since 04:03 (HTTP 400); fixed with http.postBuffer, 8 saves pushed. Three new lanes: Stack Proof (ju make KIND "sentence", ju doctor per part, env -i runs), App (juju-serve wires ju make, every button clicked at 390x844 and 1440x900, keeper/launchd after sleep), Styles (5 new design systems as stills and 90 s films). Lead decisions under Ambi's full-control order in ADR 0027 item 26: two grounds behind smooth: true, working name Juju Ardhi, real cultures on real land. Why: Ambi 05:15 "assume ur in full control ... wire up juju by urself ... launch full". Status-open: engine and Dates lanes still running; purse 32.46 of 35 US.
+- Status: in-progress
+
+---
+
+## 2026-11-26 05:08 EAT — TEHUTI — Juju Roots round four: Songhay to 1591, Kongo 1540-1666, Aksum under Ezana, six gaps filled
+<!-- type: event -->
+**From:** TEHUTI
+
+- Harness: Claude Code (claude-opus-5-5)
+- Changed: lead holds for Songhay (Gao 1591, Teghazza 1539-49, Macina 1512), Kongo (Mbanza Kongo 1540/1548/1666, Pool 1566-67, Mbwila 1665), Aksum under Ezana (320-360) dating the Meroe extent; roots/gaps.py; Napata, Meroe, Kilwa, Gondar, Djimi gaps filled; merge only when years meet; OCR i486 and decades fixed.
+- Why-verdict: Dates lane found Songhay ending 1529, Kongo empty 1543-1645, Aksum extents undated. check.py TRUE; planted fault (Songhay 1591 hold removed) fires. No paid calls.
+- Status-open: Garamantes, Persia, Aksum -100..0 and Kongo 1567-1622 have no dated place on the shelf; Dates lane session not running, note in roots/HANDOFF-to-dates.md.
+- Related: juju-maps/dates/HANDOFF-to-roots.md
+
+---
+
+## 2026-11-26 05:07 EAT — TEHUTI — Juju time maps: US film worded by the stories lane and its faults fixed; Africa on Dates round three
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** timemap.py: a state made from its own territory appears in place (move "there", no blob); stops take their land's own width (small cessions and Hawaii close); a stop's further cards (the dive's second card); the find pan (view 150 px lower while the picture stands; dy on a camera fit). Engine: "there" birth can be asked for; find picture moves clear of the event's words; fit dy. states/statemap.py handoff merges films/st-us/words.json (who|date) over the data words, with sources.
+- **Why-verdict:** films/st-us/a.mp4 359.6 s with the stories lane's words, Alaska 1959 in place, Hawaii close, second Fort Sumter card shown; judged 6.5 of 10. films/tm-africa-long/a.mp4 697.5 s on Dates round three (Mali across the west in 1235-1350), turncheck FAIL 1 (655, same holder); judged 6.5 of 10.
+- **Status-open:** US: ground edge west of 172 W, the dive's return frame, words over land on 8 shots; Africa: the 658 BC frame shows the change mid-way; the find moment has no real find in any story yet.
+- **Related:** films/st-us/run.json, words.json; films/tm-africa-long/run.json; data/timesets-fixes.json
+
+---
+
+## 2026-11-26 05:00 EAT — TEHUTI — Juju maps: sourced African state extents, US states film rebuilt, US story cards reworded
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju maps: sourced African state extents, US states film rebuilt, US story cards reworded
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 31bfe4d9)
+- Ambi asked for Juju's Roots, Maps and Stories lanes to be built from sources. Roots: 18 reach records, 37 of 39 ends placed. Africa drawn from them (429 shapes); 27 of 27 tests pass.
+- Africa sizes now: Songhay 1.12, Mali 0.92, Wagadu 0.87, Kanem/Borno/Asante 1.00 of source. Kongo 5.8x (flagged, size disputed). Kush 0.34 and Aksum 0.45 still small.
+- US states film now uses the Africa path: 360.9 s at 240p, $0.012 spent, 57 of 64 shots pass the clock. Alaska (1959 green blob) and Hawaii (dark sea stop) are still weak; fixes are running.
+- All 34 US story cards reworded from the inside; 17 carry a quoted line from an open source. Native side is thin: 4 of 7 cessions have no second line. Total test spend $32.46 of the $35 cap.
+- Open: statemap.py still rewrites story.json from old words each run; words.json is not merged yet. Africa 1550 gap (Songhay ends 1529, Kongo 1543-1645 empty); Aksum conquests have no year.
+- Files changed: juju-maps/dates/draw/africa-roots.geojson; juju-maps/dates/work/size-table-round3.md; juju-maps/states/statemap.py; juju-maps/films/st-us/story.json; juju-maps/films/st-us/words.json; juju-maps/films/st-us/a.mp4; juju-maps/roots/HANDOFF-to-dates.md
+- Status: in-progress — Africa extents and US film drawn and tested; Alaska/Hawaii fixes, words merge and 1550 gaps still open
+
+---
+
+## 2026-11-26 04:58 EAT — TEHUTI — Juju time maps: US states film stops worded from inside, quoted lines from Royce, the Historian, the Apology Resolution
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju time maps: US states film stops worded from inside, quoted lines from Royce, the Historian, the Apology Resolution
+- Harness: Claude Code (claude-opus-5-5)
+- What happened: Harness: Claude Code (claude-opus-5-5). Topics: juju.
+**Changed:** films/st-us/words.json (keyed who|date) and films/st-us/story.json: all 34 stops reworded; 17 carry a line whose quote stands word for word in a saved page (Royce 1899 schedule, US Office of the Historian, Public Law 103-150, The American Yawp, now on the source shelf); 17 are title only. timestory.py wordstates.
+**Why-verdict:** no data talk left ("created from territory", "on this date"). Lines that repeated the year, or quoted a passage about another year, were blanked by code; 4 stops where the pen read a passage of another year keep plain rule words ("Utah becomes a state").
+**Status-open:** statemap.py handoff() must merge words.json or the next run brings back the old words (engine lane told). Spent 0.087 of 0.10, of which 0.039 was a timed-out call charged at its worst case. DeepSeek total for this lane 0.791.
+- Status: complete; the merge is the engine lane's
+
+---
+
+## 2026-11-26 04:54 EAT — TEHUTI — Juju dates: Roots' extent rows drawn; states reach the places their own sources name
+- Harness: Claude Code (claude-opus-5-5), Juju dates worker. Topics: juju
+- **Changed:** extent holds grow a state from its nearest dated site to each named end along the ground (250 km margin, no corridor across >80 km of open water); an extent with 2+ ends speaks for size above Cliopatria; Cliopatria's widest figure yields to its shape of the year; size notes only between source ranks; Asante influence kept aside, not land; dates/draw/africa-roots.geojson rebuilt (429 features); engine lane told Africa can be redrawn.
+- **Why-verdict:** 21 states mean |log ratio| 0.233 -> 0.21; Songhay 1.12, Mali 0.92, Borno 1.0, Wagadu 0.87; Kongo 5.82 by GHA's own extent (noted); Aksum 0.45 and Kush 0.34 stay short for book reasons. 27/27 tests.
+- **Status-open:** Roots: date Aksum's 4th-century extents, Songhay after 1529, Kongo 1543-1645 (dates/HANDOFF-to-roots.md).
+- **Related:** juju-maps/dates/work/size-table-round3.md, work/stills4/sheet.png.
 
 ---
 
