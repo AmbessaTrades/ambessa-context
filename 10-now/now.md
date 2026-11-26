@@ -1,130 +1,113 @@
 # Juju now
 
-As of 15:57 EAT, Thu 26 Nov 2026. Written every two hours by claude-haiku-5-5 (medium) from facts collected by code and the lead agent's own messages. Reports are not proof.
+As of 18:05 EAT, Thu 26 Nov 2026. Written every two hours by claude-haiku-5-5 (medium) from facts collected by code and the lead agent's own messages. Reports are not proof.
 
 ## Changed since the last sheet
-- Covers 09:00 to 16:01 EAT, Thu 26 Nov 2026. Facts are as of 15:57.
-- Ledger: 10,470 paid calls, $35.80 in all (was 10,145 calls, $34.33). That is above the $35 cap the last sheet recorded. No message says whether that cap still stands. The lead set a Door cap of 5 US at 15:04.
-- Pull requests: 8 open (was 7), 19 merged, 1 closed. New open: #28 "High Juju". #26 and #28 show a failing check. CI is blocked by billing, so checks run locally (lead's log).
-- Main moved for the first time since 11:13 on 25 Nov. 15 commits from 12:57 to 15:37 today.
-- Rust: 37,007 lines in 15 crates (was 35,572). Rooms drawn: 22 (was 21). Skills: 59. Decisions: 27. APK files built: 1 (was 0).
-- Attempts logged: 427 kept, 63 reverted, 52 inconclusive (was 391, 60, 52).
-- Mac load at 15:57: 95, 89, 86 (was 26, 34, 45).
-- Finish check: not read (was 1 of 23).
-- Whole-film runs unchanged: 4 DONE, 4 FAILED, 24 HOLD. The films named in messages below are not in that list.
-- Night on two grounds: round two done (09:23 to 10:35). The lead then parked it at 10:50 after its own change made the night lights worse. Round three was stopped before any spend.
-- Door: built, deployed and set to live mode with five provider secrets (lead, 15:04). Paid calls stay refused until the two sign-in codes are set.
-- Core: the drawer is now a library. Lane A reports identical frames to the Mac's (Measured, 14:20).
-- Ambi's rule, quoted by the lead (15:16): "our job is to allow the software juju to make any kinds videos... not to CHOOSE videos and topics for it. but to be adaptable."
-- Ambi called Deep Time "ugly" (14:47). It is parked.
-- Neon A/B stopped on Ambi's word (14:06). About 0.24 US spent; cache 0 on 11 calls.
-- The "60% of Africa ruled from outside" figure was a code fault, not a model fault (lead, 13:47). Fix in flight.
-- Three afternoon mends regressed because new 4-second pieces were spliced into older takes (lead, 15:50). Fix in flight.
+- Covers 15:57 to 18:05 EAT, Thu 26 Nov 2026. Facts as of 18:05.
+- Ambi said "no more films" (lane log, 17:28). Agents stop making videos and filming is left to the app. No film is queued.
+- Agent work stopped at about 18:05 when the credits ran out. The lead says merge and stop. Every worker reports stopped.
+- Ledger: 10,626 calls, $36.10 in all (was $35.80). That is above the $35 cap the last sheet noted. No message says whether that cap still stands.
+- Main moved: 15 commits from 15:26 to 17:54. Newest: one length slider, 10 to 30 minutes, default 11. A held film plays with its reason and is never kept.
+- Pull requests: 8 open, 19 merged, 1 closed. #26 and #28 show failing checks. CI is blocked by billing, so checks run locally (lead, 15:57).
+- Rust: 37,404 lines (was 37,007). Rooms drawn 22, skills 59, decisions 27, APK files 1: unchanged.
+- Attempts logged: 433 kept (was 427), 63 reverted, 52 inconclusive.
+- Finish check: 1 of 23 clauses true (not read at 15:57).
+- Whole-film runs on disk: 4 DONE, 4 FAILED, 24 HOLD, unchanged. Films made in the app and in lane tests are not in that count.
+- Mac load: 51, 60, 50 (was 95, 89, 86).
 
 ## What worked and what failed
 **Worked (as reported)**
-- Door live: test.mjs 32 of 32 on the live address (lane C, 15:04). The worker reports 38 of 38 with the pulse and video routes, run four times (16:01). Not checked by anyone else.
-- Route and place: 21 test answers pass. Code answers cost 0.13 to 0.22 CPU s each (lane, 15:51, Measured).
-- App walk: 38 of 38 clauses at phone and desktop sizes, 0 console errors (polish lane, 14:32, Measured).
-- Mend on the Africa film drew with the film's own engine, 0.0125 US (worlds lane, 14:47).
-- Sound: a camera bed sits within 3 LU of the music. Earshot picks 60% of cues against 21% by chance (sound lane, 14:46, Measured).
-- Phone: the emulator made a 2-minute film with the Mac's ports blocked. It took 13.6 minutes (phone lane, 15:55). The drawing is a stand-in, not Juju's map design.
+- Phone (lane B, 17:41): on the Android emulator with all Mac ports blocked, a 215-second money film was drawn by juju-core in 11.4 minutes. It measured -14.4 LUFS, played from the shelf, and had 0 fatal errors. Not tested on a real phone.
+- juju-core (lane A, 17:16): builds green on Mac (Metal and CPU-only), Android and wasm. 18 and 7 unit tests pass. A build from the 35 packs alone gives frames identical to the Mac (0 of 255 values differ).
+- Fresh-person walk to Shelf passes at phone and desktop sizes. No film drawn (lane, 17:23).
+- Route: 21 test answers pass. Pulse: about 0.0009 US and 83 s for a full week.
+- Parity: 40 features checked against the Mac, 0 missing (worker, 18:03).
 
 **Failed or refused**
-- Night on two grounds, by the lead: round two spread 3 on the eye mark (was 5) and 1.1 on the program score (was 0.8). Beige glow on night lights rose from 4–45% to 8–61% of close frames. A clean redraw failed, and the cause is not found.
-- Deep Time: Ambi, "ugly". Parked.
-- Neon: Ambi, "forget Neon if expensive". Stopped.
-- Gold6 night film: the file is missing from the save. The deleter is unknown. The canon check fails on it (lead, 13:37).
-- The "Ambi correction" entry in the corrections log was fake and removed (lead, 15:28).
-- Ambi, 15:20: "Why are you guys losing the plot... Why are you fumbling?" The lead rebuilt the app flow after this.
-- Worlds: the Africa share figure, the Almoravids date and two Korean sign flips are refused by the engine lane.
+- Ambi: the debt rehearsal showed Jordan, Sudan and Congo for "biggest economies". The lead fixed it: a named group in the title now picks the countries.
+- Ambi, 17:40, as quoted by the lead: "we're here to fix juju, not ... the specific video."
+- The debt rehearsal was held at its final check (17:31). The largest-economies film looked good by eye (lead), but was held at room 4 for unnamed lands and name jitter. The fixes are built but not proven on a film.
+- The 0.3.0 phone test was cut at film 1, while maps were downloading (18 of 44 MB). Not released.
+- Ambi refused Deep Time ("ugly"). It is parked. He also said "forget Neon if expensive". Neon is stopped.
 
 ## App engine and films
-- `ju make` can now draw a film from a sentence. The last whole-film run list is unchanged.
-- The Africa film at 26.8 minutes was redrawn on the new engine in 1,610 s. The sound is mixed. The loudness check did not finish. Ambi has not listened.
-- `ju route` (which style draws a subject) and `ju place` (which sub-niche a channel is in) are built. Each uses code first and DeepSeek only when code cannot decide. Asked of the film-make lane: `ju` dispatch lines not in yet, so the app calls the scripts directly.
-- `ju mend` applies corrections to a finished film. It must redraw whole when the design generation differs. Not yet working; the splicing fault is still open.
-- War Room has no `ju make` kind yet.
-- The scale model is 352 channels in 54 niches (Ambi, 15:38, via the lead). Scouting runs 54 times a week, not 352.
-- `ju pulse` (the weekly niche scan) runs in code plus one DeepSeek summary, about 63 seconds for all niches. No real YouTube data yet.
-- Gate: 10 films pass rooms 1 to 3 after a fold fix (lead, 15:16).
+- Ambi's rule (quoted by lead, 15:16): "our job is to allow the software juju to make any kinds videos... not to CHOOSE videos and topics for it. but to be adaptable."
+- Money films route to a money style. Debt, tax and inflation films plan and pass rooms 1 to 3. Any money measure is fetched from the World Bank on request.
+- Each country gets its own colour, no two neighbours alike. Names stay pinned and visible through the end card. Not proven on a film.
+- juju-core (Rust): wealth films run from one sentence with no Python. Not ported: kingdoms, series, corrections. The "states" kind and the Canada sentence stop in plain words. The exit predicate is still false.
+- Held films can be watched with their reason, never kept. "Again" (free redraw) is not proven.
+- Music: Earshot picked tracks for money-map, trade-road and war-table. That is 3 of 16 regions. The War Room test re-mix measured -14.02 LUFS. Each film's music credit goes into its upload description. Ambi has not heard the picks.
+- Mend: splices old and new design generations. "Use this one" stays hidden until takes are one generation.
+- Africa 26.8-minute film: loudness not confirmed. Ambi has not heard it.
+- Door has a YouTube key (worker, 18:05). No real Pulse run on it is reported.
 
 ## Web app and rooms
-- The round-three app flow is in the main branch (commits 15:26 and 15:37). No test report yet.
-- Changes landed in the rooms: empty first run, New Vessel with absorb, describe and ready-made, a Cauldron composer, a running Pact, and a Juju pop-out. The pop-out is a sidebar that stays on every page.
-- "Tell Juju" was given the mend command (commit 15:27, "MEND-DONE").
-- Last full control census (24 Nov): 573 controls; 112 real. Not re-run since.
-- Phone rooms are not checked on a real phone.
+- The public web app was rebuilt with the new rooms and checked live at phone size in a test space (lane B, 17:41). The Gate, empty Altar, New Vessel, Crossroads and Mojo Bag are in. It cannot make films yet (worker, 18:05).
+- Door sync needs Ambi to sign in once at the Gate with his PIN. Not passed.
+- Idea cards show the style's sample picture, not one picture per idea.
+- Not built: Bend, Fill the week, the composer, Conjuring receipt. Last full control census (24 Nov): 573 controls, 112 real. Not re-run.
 
 ## Mac app and APK
-- Mac shell: no new report since 25 Nov. The old rooms still ship. Not tested.
-- One APK built, 9.8 MB, on the phone branch. It runs a stand-in engine, not the real map drawer.
-- Worker's test (15:55): with every Mac port blocked, the phone signed in through the Door, drew a 2-minute film, and saved it. The AI answer was a saved reply, so $0 was spent.
-- Emulator screenshots came back black. The worker took pictures from inside the app.
-- ANR (app not responding) under CPU pressure is open.
-- Not tested on a real phone. The Galaxy is not plugged in (last sheet; no newer message).
+- Mac app (local server): length slider, held films, Mojo Bag with live balances, upload kit, empty Altar. Live since 17:22.
+- Mac version line in the Mojo Bag is not built. The update route on the Mac server is not built.
+- Phone 0.3.0: built and signed, kept on the Mac, not in git, not published. The test round was cut. One release script builds web and phone from one commit. The update sheet on both waits while a film is being made.
+- Phone screens stay bundled in the app. Loading them from the web was refused (lead agreed).
+- Phone: the ANR fix was made (lane B, 17:28), not re-tested. First film downloads about 600 MB.
+- Only money films draw through juju-core on the phone. Other kinds are not ported.
 
 ## Agents running now
-- Live agent page did not answer. Running agents are known only from messages.
-- Lead: last message 15:50 (diagnosis of the mend splice). Coordinating the lanes.
-- Worker: last message 16:01 (Pulse and video lookup deployed; War Room being written).
-- Door lane: last message 16:01 (scout and lookup deployed, no key).
-- Core lane: last message 14:20 (planner not done; one unit test fails; packs build running).
-- Phone lane: last message 15:55 (waiting for the core planner).
-- Film-make lane: last message 15:54 (generation stamps; `ju make` stamping takes).
-- Worlds lane: last message 14:47 (mend and tale). Worlds 2 started 15:16.
-- Sound lane: last message 14:46. Night lane: last message 10:50, parked.
-- Route and place lane: last message 15:55. Asked to build pulse, bend and fill.
-- Screens worker: first run built, waiting for a build slot.
+- The live agent page did not answer. Running agents are known only from messages. No transcript was written in the last 10 minutes.
+- Lead: last message 18:05, stopped at credits.
+- Phone lane and screens worker: stopped 18:05.
+- Core lane: wound down 17:16.
+- Route, place and music lane: stopped on Ambi's word, 17:28.
+- App Polish: last message 17:22. Session not running.
+- Door lane: last message 16:01 (last sheet).
+- Worlds and Sound lanes: closed 17:28.
+- The debt film redraw was still drawing at the stop. Its result is unread.
 
 ## Money spent on services
-- Ledger: 10,470 calls, $35.80 in all, up $1.47 since 09:00.
-- DeepSeek $10.80 (6,377 ok, last ok 15:44). OpenRouter $12.27 (3,409 ok, last ok 15:43). Google $8.39 (119 ok, last 13:59). Inworld $3.92 (458 ok, last 10:54). WaveSpeed $0.29 (last 25 Nov). Unsettled $0.14 (9 failed).
-- Door cap: 5 US (lead, 15:04). Ambi has not named another.
-- Route fallback: about 0.0001 US per call. Place fallback: 0.0001 US.
-- Pulse summary: 0.00026 US per niche.
-- Mend: 0.0125 US.
-- Night round two: 0.10 US.
-- Neon: about 0.24 US, stopped.
-- YouTube: 102 units per niche, Door ceiling 9,000 units a day. Nothing spent; no key.
+- Ledger: 10,626 calls, $36.10 in all, up $0.30 since 15:57 (156 more calls).
+- DeepSeek $11.10 (6,531 ok, last ok 17:52). OpenRouter $12.27 (3,411 ok, last ok 16:38). Google $8.39 (119 ok, last 13:59). Inworld $3.92 (458 ok, last 10:54). WaveSpeed $0.29 (last 25 Nov). Unsettled $0.14 (9 failed).
+- Door cap: 5 US, set by the lead at 15:04. Ambi has not named another.
+- Per call: route and place about 0.0001 US. Ideas for five cards 0.00124 US. Music tags 0.00105 US for three shelves.
+- YouTube: 102 units per niche; Door ceiling 9,000 units a day. No spend recorded.
+- Agent credits ran out at about 18:05. No top-up reported.
 
 ## Broken, blocked or open
-- The engine cannot yet use War Room, and `ju` dispatch lines are not in.
-- Mend splices old and new design generations. A patch is written but not built. The app hides mended takes and the "Use this one" button until it is fixed.
-- The Africa share figure is wrong by code. The engine lane's fix is in flight.
-- Gold6 night film missing; canon check fails on it.
-- Night: the plain globe turns lights to beige blobs at 1 degree. The looks owner must fix the plain look file. The seviller2 redraw failure is unexplained.
-- Core: planner port not done; one library unit test fails.
-- Phone: stand-in engine; the packs are not published; the ANR is open.
-- Door: no YouTube key, so no real scout or video lookup yet. Paid calls refused until the sign-in codes are set.
-- Outlier and flop cut-offs (3 times and a quarter of a channel's average) are the worker's choice, not yet approved.
-- Africa 26-minute film: loudness not confirmed; Ambi has not heard it.
-- Worlds: the crown waits on reading seven own-record stops. The myth's opening world view has a smeared top band.
-- Not proven: a voiced film over 10 minutes; any phone build; the 95 of 100 taste bar; that a cheap model fills recipes at 95% legal first answers.
-- juju-maps is not in git; there is no commit id for it.
+- Phone 0.3.0 is not released. Its two-film test must pass first. The map download was incomplete at the stop.
+- Debt films: the colour, key and name fixes are not proven. Round four's result is unread.
+- Mac version line and its update route are not built.
+- juju-core: the workspace check fails in the app shell (a Tauri build step), not in this lane. Wasm and WebCodecs parts are not built.
+- Night on two grounds is parked. The plain globe turns night lights beige at 1 degree; the plain look file must change. The seviller redraw failure is unexplained.
+- Gold6 night film is missing. The canon check fails on it.
+- Africa share figure: fix reported in flight at 15:50. No later report.
+- Outlier and flop cut-offs (3 times and a quarter of a channel's average) are not approved.
+- Not proven: a voiced film over 10 minutes; any phone build on a real phone; the 95 of 100 taste bar; that a cheap model fills recipes at 95% legal first answers; that the debt film passes room 4.
+- Mac work was pushed to the private backup at 18:05 as a snapshot.
 
 ## Waiting on Ambi
-1. Make the YouTube key and store it (steps in the Door's key notes, about 5 minutes). Pulse and video lookup need it.
-2. Set the two sign-in codes so paid calls work, then name the live cap (5 US now).
-3. Say whether the $35 cap still holds. The ledger is at $35.80.
-4. Approve or change the outlier and flop cut-offs.
-5. Listen to the first 2 minutes of the 26-minute Africa film with sound, and say if it feels right.
-6. Night on two grounds is parked by the lead. No ruling from Ambi.
-7. Plug in the Galaxy. Phone tests have run on an emulator only.
-8. The no-tell-frames subtitle call (18 canon faults wait on it), per the last sheet.
-9. Whether the map code goes into git without its data.
+1. Say whether the $35 cap still holds. The ledger is at $36.10. The Door cap is 5 US.
+2. Sign in once at the Gate with your PIN, for Door sync. The sign-in needs the Door's setup code.
+3. Listen to the music picks for money-map, trade-road and war-table, and say whether they fit.
+4. Listen to the first 2 minutes of the 26.8-minute Africa film.
+5. Say "check the debt film" when credits are back (worker's ask).
+6. Plug in the Galaxy. Phone tests have run on an emulator only.
+7. Approve or change the outlier and flop cut-offs.
+8. Night on two grounds: parked, no ruling yet.
+9. The no-tell-frames subtitle call. 18 canon faults wait on it.
 
 ## Counted by code
 
 - Pull requests: 8 open, 19 merged, 1 closed
-- Paid calls in the test ledger: 10470, $35.7955 in all {deepseek: 10.7972, openrouter: 12.2655, google: 8.3851, inworld: 3.9231, unsettled: 0.1365, lead-test: 0.0, wavespeed: 0.288}
-- Paid services answering: deepseek 6377 ok, 23 refused or failed, last ok 26 Nov 15:44 EAT; openrouter 3409 ok, 47 refused or failed, last ok 26 Nov 15:43 EAT; google 119 ok, 16 refused or failed, last ok 26 Nov 13:59 EAT; inworld 458 ok, 1 refused or failed, last ok 26 Nov 10:54 EAT; unsettled 0 ok, 9 refused or failed, last ok None; lead-test 0 ok, 3 refused or failed, last ok None; wavespeed 6 ok, 2 refused or failed, last ok 25 Nov 11:24 EAT
-- Rust: 37,007 lines in 15 crates. Skills: 59. Rooms drawn: 22. Decisions: 27. APK files built: 1
+- Paid calls in the test ledger: 10626, $36.0973 in all {deepseek: 11.0955, openrouter: 12.269, google: 8.3851, inworld: 3.9231, unsettled: 0.1365, lead-test: 0.0, wavespeed: 0.288}
+- Paid services answering: deepseek 6531 ok, 23 refused or failed, last ok 26 Nov 17:52 EAT; openrouter 3411 ok, 47 refused or failed, last ok 26 Nov 16:38 EAT; google 119 ok, 16 refused or failed, last ok 26 Nov 13:59 EAT; inworld 458 ok, 1 refused or failed, last ok 26 Nov 10:54 EAT; unsettled 0 ok, 9 refused or failed, last ok None; lead-test 0 ok, 3 refused or failed, last ok None; wavespeed 6 ok, 2 refused or failed, last ok 25 Nov 11:24 EAT
+- Rust: 37,404 lines in 15 crates. Skills: 59. Rooms drawn: 22. Decisions: 27. APK files built: 1
 - Design-system libraries on disk: camera_motion.json, fonts, house, kits, looks, palettes.json, proof, proto, work-camera_motion, work-palettes, work-quotes, work-surfaces_light, work-typography
-- Finish check: not read
+- Finish check: 1 of 23 clauses true, so not done
 - Whole-film runs of `juju make` on disk: 4 DONE, 4 FAILED, 24 HOLD
 - Newest film runs: ottoman12f HOLD 25 Nov 11:25 (stopped at Pictures and form); proof12c FAILED 25 Nov 09:47 (stopped at Render and mix); proof12 HOLD 25 Nov 09:16 (stopped at Script and heal); proof75b HOLD 25 Nov 09:06 (stopped at Render and mix); proof75a HOLD 25 Nov 08:59 (stopped at Publish kit); strip-planets HOLD 25 Nov 08:41 (stopped at Deal and package); strip-pluto HOLD 25 Nov 08:40 (stopped at Render and mix); 20261125-083722-131d HOLD 25 Nov 08:37 (stopped at Deal and package); strip-japan DONE 25 Nov 08:34 (60 s, 0.008751 US); strip-bulgaria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-austria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-manchuria HOLD 25 Nov 08:11 (stopped at Deal and package)
 - Agent transcripts written to in the last 10 minutes (all Claude work on this Mac, mostly Juju): 0
-- Logged attempts: 427 kept, 63 reverted, 52 inconclusive
-- Mac load (1, 5, 15 min): [95, 89, 86]
+- Logged attempts: 433 kept, 63 reverted, 52 inconclusive
+- Mac load (1, 5, 15 min): [51, 60, 50]
 - The live agent page did not answer, so running agents are unknown

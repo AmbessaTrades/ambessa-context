@@ -4,6 +4,103 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 
 ---
 
+# Sheet of 18:05 EAT, Thu 26 Nov 2026
+
+## Changed since the last sheet
+- Covers 15:57 to 18:05 EAT, Thu 26 Nov 2026. Facts as of 18:05.
+- Ambi said "no more films" (lane log, 17:28). Agents stop making videos and filming is left to the app. No film is queued.
+- Agent work stopped at about 18:05 when the credits ran out. The lead says merge and stop. Every worker reports stopped.
+- Ledger: 10,626 calls, $36.10 in all (was $35.80). That is above the $35 cap the last sheet noted. No message says whether that cap still stands.
+- Main moved: 15 commits from 15:26 to 17:54. Newest: one length slider, 10 to 30 minutes, default 11. A held film plays with its reason and is never kept.
+- Pull requests: 8 open, 19 merged, 1 closed. #26 and #28 show failing checks. CI is blocked by billing, so checks run locally (lead, 15:57).
+- Rust: 37,404 lines (was 37,007). Rooms drawn 22, skills 59, decisions 27, APK files 1: unchanged.
+- Attempts logged: 433 kept (was 427), 63 reverted, 52 inconclusive.
+- Finish check: 1 of 23 clauses true (not read at 15:57).
+- Whole-film runs on disk: 4 DONE, 4 FAILED, 24 HOLD, unchanged. Films made in the app and in lane tests are not in that count.
+- Mac load: 51, 60, 50 (was 95, 89, 86).
+
+## What worked and what failed
+**Worked (as reported)**
+- Phone (lane B, 17:41): on the Android emulator with all Mac ports blocked, a 215-second money film was drawn by juju-core in 11.4 minutes. It measured -14.4 LUFS, played from the shelf, and had 0 fatal errors. Not tested on a real phone.
+- juju-core (lane A, 17:16): builds green on Mac (Metal and CPU-only), Android and wasm. 18 and 7 unit tests pass. A build from the 35 packs alone gives frames identical to the Mac (0 of 255 values differ).
+- Fresh-person walk to Shelf passes at phone and desktop sizes. No film drawn (lane, 17:23).
+- Route: 21 test answers pass. Pulse: about 0.0009 US and 83 s for a full week.
+- Parity: 40 features checked against the Mac, 0 missing (worker, 18:03).
+
+**Failed or refused**
+- Ambi: the debt rehearsal showed Jordan, Sudan and Congo for "biggest economies". The lead fixed it: a named group in the title now picks the countries.
+- Ambi, 17:40, as quoted by the lead: "we're here to fix juju, not ... the specific video."
+- The debt rehearsal was held at its final check (17:31). The largest-economies film looked good by eye (lead), but was held at room 4 for unnamed lands and name jitter. The fixes are built but not proven on a film.
+- The 0.3.0 phone test was cut at film 1, while maps were downloading (18 of 44 MB). Not released.
+- Ambi refused Deep Time ("ugly"). It is parked. He also said "forget Neon if expensive". Neon is stopped.
+
+## App engine and films
+- Ambi's rule (quoted by lead, 15:16): "our job is to allow the software juju to make any kinds videos... not to CHOOSE videos and topics for it. but to be adaptable."
+- Money films route to a money style. Debt, tax and inflation films plan and pass rooms 1 to 3. Any money measure is fetched from the World Bank on request.
+- Each country gets its own colour, no two neighbours alike. Names stay pinned and visible through the end card. Not proven on a film.
+- juju-core (Rust): wealth films run from one sentence with no Python. Not ported: kingdoms, series, corrections. The "states" kind and the Canada sentence stop in plain words. The exit predicate is still false.
+- Held films can be watched with their reason, never kept. "Again" (free redraw) is not proven.
+- Music: Earshot picked tracks for money-map, trade-road and war-table. That is 3 of 16 regions. The War Room test re-mix measured -14.02 LUFS. Each film's music credit goes into its upload description. Ambi has not heard the picks.
+- Mend: splices old and new design generations. "Use this one" stays hidden until takes are one generation.
+- Africa 26.8-minute film: loudness not confirmed. Ambi has not heard it.
+- Door has a YouTube key (worker, 18:05). No real Pulse run on it is reported.
+
+## Web app and rooms
+- The public web app was rebuilt with the new rooms and checked live at phone size in a test space (lane B, 17:41). The Gate, empty Altar, New Vessel, Crossroads and Mojo Bag are in. It cannot make films yet (worker, 18:05).
+- Door sync needs Ambi to sign in once at the Gate with his PIN. Not passed.
+- Idea cards show the style's sample picture, not one picture per idea.
+- Not built: Bend, Fill the week, the composer, Conjuring receipt. Last full control census (24 Nov): 573 controls, 112 real. Not re-run.
+
+## Mac app and APK
+- Mac app (local server): length slider, held films, Mojo Bag with live balances, upload kit, empty Altar. Live since 17:22.
+- Mac version line in the Mojo Bag is not built. The update route on the Mac server is not built.
+- Phone 0.3.0: built and signed, kept on the Mac, not in git, not published. The test round was cut. One release script builds web and phone from one commit. The update sheet on both waits while a film is being made.
+- Phone screens stay bundled in the app. Loading them from the web was refused (lead agreed).
+- Phone: the ANR fix was made (lane B, 17:28), not re-tested. First film downloads about 600 MB.
+- Only money films draw through juju-core on the phone. Other kinds are not ported.
+
+## Agents running now
+- The live agent page did not answer. Running agents are known only from messages. No transcript was written in the last 10 minutes.
+- Lead: last message 18:05, stopped at credits.
+- Phone lane and screens worker: stopped 18:05.
+- Core lane: wound down 17:16.
+- Route, place and music lane: stopped on Ambi's word, 17:28.
+- App Polish: last message 17:22. Session not running.
+- Door lane: last message 16:01 (last sheet).
+- Worlds and Sound lanes: closed 17:28.
+- The debt film redraw was still drawing at the stop. Its result is unread.
+
+## Money spent on services
+- Ledger: 10,626 calls, $36.10 in all, up $0.30 since 15:57 (156 more calls).
+- DeepSeek $11.10 (6,531 ok, last ok 17:52). OpenRouter $12.27 (3,411 ok, last ok 16:38). Google $8.39 (119 ok, last 13:59). Inworld $3.92 (458 ok, last 10:54). WaveSpeed $0.29 (last 25 Nov). Unsettled $0.14 (9 failed).
+- Door cap: 5 US, set by the lead at 15:04. Ambi has not named another.
+- Per call: route and place about 0.0001 US. Ideas for five cards 0.00124 US. Music tags 0.00105 US for three shelves.
+- YouTube: 102 units per niche; Door ceiling 9,000 units a day. No spend recorded.
+- Agent credits ran out at about 18:05. No top-up reported.
+
+## Broken, blocked or open
+- Phone 0.3.0 is not released. Its two-film test must pass first. The map download was incomplete at the stop.
+- Debt films: the colour, key and name fixes are not proven. Round four's result is unread.
+- Mac version line and its update route are not built.
+- juju-core: the workspace check fails in the app shell (a Tauri build step), not in this lane. Wasm and WebCodecs parts are not built.
+- Night on two grounds is parked. The plain globe turns night lights beige at 1 degree; the plain look file must change. The seviller redraw failure is unexplained.
+- Gold6 night film is missing. The canon check fails on it.
+- Africa share figure: fix reported in flight at 15:50. No later report.
+- Outlier and flop cut-offs (3 times and a quarter of a channel's average) are not approved.
+- Not proven: a voiced film over 10 minutes; any phone build on a real phone; the 95 of 100 taste bar; that a cheap model fills recipes at 95% legal first answers; that the debt film passes room 4.
+- Mac work was pushed to the private backup at 18:05 as a snapshot.
+
+## Waiting on Ambi
+1. Say whether the $35 cap still holds. The ledger is at $36.10. The Door cap is 5 US.
+2. Sign in once at the Gate with your PIN, for Door sync. The sign-in needs the Door's setup code.
+3. Listen to the music picks for money-map, trade-road and war-table, and say whether they fit.
+4. Listen to the first 2 minutes of the 26.8-minute Africa film.
+5. Say "check the debt film" when credits are back (worker's ask).
+6. Plug in the Galaxy. Phone tests have run on an emulator only.
+7. Approve or change the outlier and flop cut-offs.
+8. Night on two grounds: parked, no ruling yet.
+9. The no-tell-frames subtitle call. 18 canon faults wait on it.
+
 # Sheet of 15:57 EAT, Thu 26 Nov 2026
 
 ## Changed since the last sheet
@@ -118,6 +215,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 8. The no-tell-frames subtitle call (18 canon faults wait on it), per the last sheet.
 9. Whether the map code goes into git without its data.
 
+
 # Sheet of 09:00 EAT, Thu 26 Nov 2026
 
 ## Changed since the last sheet
@@ -228,6 +326,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 13. Critique the Africa films, the US states film and the Night takes.
 
 
+
 # Sheet of 04:46 EAT, Thu 26 Nov 2026
 
 ## Changed since the last sheet
@@ -314,6 +413,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 9. Plug in the Galaxy.
 10. Tehuti's five questions are unanswered (01:41): odds in counts, hatched own record, outside dating, banners, Night keeps the globe.
 11. Critique the 12-minute Africa film, the US states film and Night round two.
+
 
 
 
@@ -423,6 +523,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 8. Plug in the Galaxy.
 9. Tehuti's five questions (odds in counts, hatched own record, outside dating, banners, Night keeps the globe) are unanswered (Tehuti, 01:41).
 10. Critique the new time-map films (Asia, South America, North America, Europe, World) and the Night round-two films.
+
 
 
 
@@ -537,6 +638,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 
 
 
+
 # Sheet of 22:39 EAT, Wed 25 Nov 2026
 
 ## Changed since the last sheet
@@ -634,6 +736,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 6. Decide whether to lift the cap above 30 US. About $2.87 is left.
 7. Fix GitHub billing so seven pull requests can merge.
 8. Plug in the Galaxy.
+
 
 
 
@@ -753,6 +856,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 
 
 
+
 # Sheet of 18:36 EAT, Wed 25 Nov 2026
 
 ## Changed since the last sheet
@@ -865,6 +969,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 
 
 
+
 # Sheet of 16:34 EAT, Wed 25 Nov 2026
 
 ## Changed since the last sheet
@@ -949,6 +1054,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 6. Answer whether a film always finishes (10:50).
 7. Plug in the Galaxy.
 8. Decide the 0.2 questions: raise the cap from the app, length per channel, and where niches go.
+
 
 
 
@@ -1050,6 +1156,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 5. Juju Maps: judge the kivu take and the dam film, pick the look, judge the pictures and voice of the Ottoman take. No verdict yet on terra.
 6. Answer whether a film always finishes (Mungura, 10:50; Tehuti, 10:51). No answer recorded.
 7. Plug in the Galaxy for the phone job.
+
 
 
 
@@ -1162,6 +1269,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 
 
 
+
 # Sheet of 10:27 EAT, Wed 25 Nov 2026
 
 ## Changed since the last sheet
@@ -1246,6 +1354,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 5. **Sound:** rule on the 1.28 s hush, and say whether the three sound fixes wait for the watcher fix.
 6. **Plug in the Galaxy** for the phone job.
 7. **Personal check-in:** a worker asked Ambi a personal question at 09:28 and 09:31. No reply is recorded.
+
 
 
 
@@ -1351,6 +1460,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 - **Ear table:** holds one refused line; the script checker needs about five.
 - **Packaging:** his eye and ear decide. Bend facts still unopened.
 - **Phone:** plug in the Galaxy.
+
 
 
 
@@ -1473,6 +1583,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 
 
 
+
 # Sheet of 08:16 EAT, Wed 25 Nov 2026
 
 ## Changed since the last sheet
@@ -1565,6 +1676,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 - **LINE-RULE items 7 to 20** (vault): awaiting countersign.
 - **Phone job:** plug in the Galaxy.
 - **Standing advice** (lead, 12:48 Tue): keep Inworld permissions read-only.
+
 
 
 
@@ -1693,6 +1805,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 
 
 
+
 # Sheet of 13:45 EAT, Tue 24 Nov 2026
 
 ## Changed since the last sheet
@@ -1774,6 +1887,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 - ADR 0010 (20-minute plan) is a candidate. Acceptance not reported.
 - Replacement 90/70/50 wording is a candidate for Ambi (packaging worker, 13:46).
 - Standing advice (lead, 12:48): keep Inworld permissions on Read only.
+
 
 
 
@@ -1887,6 +2001,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 
 
 
+
 # Sheet of 13:27 EAT, Tue 24 Nov 2026
 
 ## Changed since the last sheet
@@ -1948,6 +2063,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 
 ## Waiting on Ambi
 - No request to Ambi is stated in the messages or facts.
+
 
 
 

@@ -1,5 +1,5 @@
 {
- "as_of": "15:57 EAT, Thu 26 Nov 2026",
+ "as_of": "18:05 EAT, Thu 26 Nov 2026",
  "workshop": "down",
  "jobs": [],
  "pull_requests": [
@@ -380,11 +380,11 @@
   }
  ],
  "ledger": {
-  "calls": 10470,
-  "usd_total": 35.7955,
+  "calls": 10626,
+  "usd_total": 36.0973,
   "usd_by_service": {
-   "deepseek": 10.7972,
-   "openrouter": 12.2655,
+   "deepseek": 11.0955,
+   "openrouter": 12.269,
    "google": 8.3851,
    "inworld": 3.9231,
    "unsettled": 0.1365,
@@ -394,14 +394,14 @@
  },
  "service_calls": {
   "deepseek": {
-   "ok": 6377,
+   "ok": 6531,
    "refused_or_failed": 23,
-   "last_ok": "26 Nov 15:44 EAT"
+   "last_ok": "26 Nov 17:52 EAT"
   },
   "openrouter": {
-   "ok": 3409,
+   "ok": 3411,
    "refused_or_failed": 47,
-   "last_ok": "26 Nov 15:43 EAT"
+   "last_ok": "26 Nov 16:38 EAT"
   },
   "google": {
    "ok": 119,
@@ -472,8 +472,8 @@
    "lines": 2878
   },
   "juju-serve": {
-   "files": 28,
-   "lines": 4967
+   "files": 29,
+   "lines": 5364
   },
   "juju-sigil": {
    "files": 13,
@@ -492,7 +492,7 @@
    "lines": 3967
   }
  },
- "rust_lines": 37007,
+ "rust_lines": 37404,
  "rooms": 22,
  "decisions": 27,
  "apk_files": 1,
@@ -519,29 +519,145 @@
   "sJiaWNxYFUA": 2
  },
  "main_commits": [
-  "0ff326e 26 Nov 15:37 App flow 3, part 2: niche Pulse shared by channels, one Order, Bend cards, correction reach, Fill the week, powers table (Ambi 26 Nov)",
-  "a61335f 26 Nov 15:27 Tell Juju: MEND-DONE",
-  "5f3fc99 26 Nov 15:27 Tell Juju runs ju mend: progress words, before and after cards, both takes, Use this one",
-  "690e9e5 26 Nov 15:26 App flow round 3: you steer, Juju guides (Ambi 26 Nov): empty first run, New Vessel absorb/describe/ready-made, Cauldron composer, running Pact, Juju pop-out",
-  "6a71827 26 Nov 14:32 Juju with the Mac off: the plan (one engine on phone and browser, the Cloudflare Door) and Ambi's one-command key loader",
-  "cc28cfa 26 Nov 14:32 App polish: POLISH-DONE",
-  "4c372ef 26 Nov 14:32 App polish: Mojo Bag purse, every QA row fixed or answered, doors open with no channel, Tell Juju pop-out",
-  "c1292af 26 Nov 12:58 App flow: FLOW-DONE names its commit",
-  "0895b1c 26 Nov 12:57 App flow: Altar of every channel, ideas first, Cauldron and Shelf of every film, locked looks greyed",
-  "4dba4d9 25 Nov 11:13 App from press to watched film; music bed for history and space films; export settings, checked closing line",
-  "04788e9 25 Nov 10:12 Cutaways over the map, the whole film watched as a stage, an ending, faster map",
-  "cbbffcb 25 Nov 09:46 Voiced films told from events, backed by quotations; One Ink map; arrival motion; video eye"
+  "6372643a 26 Nov 17:54 Length is one slider, 10 to 30 minutes (default 11); a held film plays with its reason and is never kept",
+  "8a8430d1 26 Nov 17:52 PHONE-CORE: one unit, update sheet, signing key, rooms from the web, parity gate (Ambi 26 Nov)",
+  "270a83a4 26 Nov 17:21 App polish 2: POLISH-2-DONE",
+  "a07a7fe2 26 Nov 17:21 App polish 2: a truthful Mojo Bag, the Door channel sync, the drawer's palette, --vessel, ideas for every vessel, the upload kit for every film",
+  "675b6269 26 Nov 16:51 Gate: the next step in plain words for every state; Enter never looks pressable while it cannot go",
+  "0d61617b 26 Nov 16:47 App round 3, unit 1: an empty first run; New Vessel with Ready-made, Absorb, Describe and Juju's receipt",
+  "903a527b 26 Nov 16:02 door-keys: a re-run keeps the setup code unless --new-code",
+  "06cb125d 26 Nov 16:01 door-keys: carry YOUTUBE_API_KEY to the Door's YOUTUBE_KEY for the weekly niche Pulse",
+  "0ff326e7 26 Nov 15:37 App flow 3, part 2: niche Pulse shared by channels, one Order, Bend cards, correction reach, Fill the week, powers table (Ambi 26 Nov)",
+  "a61335f0 26 Nov 15:27 Tell Juju: MEND-DONE",
+  "5f3fc990 26 Nov 15:27 Tell Juju runs ju mend: progress words, before and after cards, both takes, Use this one",
+  "690e9e5c 26 Nov 15:26 App flow round 3: you steer, Juju guides (Ambi 26 Nov): empty first run, New Vessel absorb/describe/ready-made, Cauldron composer, running Pact, Juju pop-out"
  ],
- "finish_check": "not read",
+ "finish_check": "1 of 23 clauses true, so not done",
  "film_runs": "4 DONE, 4 FAILED, 24 HOLD",
- "attempts": "427 kept, 63 reverted, 52 inconclusive",
- "clauses": [],
+ "attempts": "433 kept, 63 reverted, 52 inconclusive",
+ "clauses": [
+  {
+   "clause": "trunk.no_open_prs",
+   "ok": false,
+   "detail": "8 open pull requests"
+  },
+  {
+   "clause": "trunk.main_is_origin_and_clean",
+   "ok": false,
+   "detail": "branch main, ahead 17, behind 109, uncommitted files outside runs/ 299"
+  },
+  {
+   "clause": "trunk.gate_open_at_head",
+   "ok": false,
+   "detail": "no receipt; make it: scripts/exit-predicate gate"
+  },
+  {
+   "clause": "app.server_answers",
+   "ok": true,
+   "detail": "/api/health (local page) gave {\"ok\":true} 200"
+  },
+  {
+   "clause": "app.core_rooms_walked_live_both_sizes",
+   "ok": false,
+   "detail": "0 of 22 room and size pairs pressed; no walk yet; make it: scripts/exit-predicate walk"
+  },
+  {
+   "clause": "app.zero_dead_controls",
+   "ok": false,
+   "detail": "not known: 0 of 22 room and size pairs were pressed"
+  },
+  {
+   "clause": "app.zero_layout_faults",
+   "ok": false,
+   "detail": "not known: 0 of 22 room and size pairs were pressed"
+  },
+  {
+   "clause": "app.zero_page_errors",
+   "ok": false,
+   "detail": "not known: 0 of 22 room and size pairs were pressed"
+  },
+  {
+   "clause": "app.soon_marks_at_most_two",
+   "ok": false,
+   "detail": "could not be read: ValueError: not known: 0 of 22 room and size pairs were pressed"
+  },
+  {
+   "clause": "app.zero_sample_tags",
+   "ok": false,
+   "detail": "could not be read: ValueError: not known: 0 of 22 room and size pairs were pressed"
+  },
+  {
+   "clause": "app.receipt_is_of_this_head",
+   "ok": false,
+   "detail": "walk made at None with None uncommitted files, now 6372643 with 299, no-paid None"
+  },
+  {
+   "clause": "film.exists_10_to_20_min_with_picture_and_sound",
+   "ok": false,
+   "detail": "could not be read: ValueError: ffprobe: runs/films/ten/final.mp4: No such file or directory"
+  },
+  {
+   "clause": "film.loudness_minus_14_lufs",
+   "ok": false,
+   "detail": "could not be read: ValueError: ffprobe: runs/films/ten/final.mp4: No such file or directory"
+  },
+  {
+   "clause": "money.ledger_within_cap",
+   "ok": false,
+   "detail": "36.0973 spent and 0.0000 held of 10.00 US over 10626 rows (cap file 40.0, Ambi's ceiling 10.0)"
+  },
+  {
+   "clause": "film.voice_is_inworld_real_calls",
+   "ok": false,
+   "detail": "could not be read: ValueError: FINAL.json names no ledger_times for the voice"
+  },
+  {
+   "clause": "film.wavespeed_thumbnail_real",
+   "ok": false,
+   "detail": "could not be read: ValueError: FINAL.json names no ledger_times for the thumbnail"
+  },
+  {
+   "clause": "film.render_at_most_1_0_s_per_film_s",
+   "ok": false,
+   "detail": "could not be read: ValueError: render.json is missing or empty"
+  },
+  {
+   "clause": "film.earshot_heard_it_real_sound",
+   "ok": false,
+   "detail": "could not be read: ValueError: earshot.json is missing or empty"
+  },
+  {
+   "clause": "film.timing_laws_measured",
+   "ok": false,
+   "detail": "could not be read: ValueError: timing.json is missing or empty"
+  },
+  {
+   "clause": "film.zero_visual_faults_by_code",
+   "ok": false,
+   "detail": "could not be read: ValueError: faults.json is missing or empty"
+  },
+  {
+   "clause": "film.blind_sheet_passes",
+   "ok": false,
+   "detail": "could not be read: ValueError: blind.json is missing or empty"
+  },
+  {
+   "clause": "film.lead_pass",
+   "ok": false,
+   "detail": "could not be read: ValueError: LEAD-PASS.json is missing or empty"
+  },
+  {
+   "clause": "film.root_countersign",
+   "ok": false,
+   "detail": "could not be read: ValueError: ROOT-PASS.json is missing or empty"
+  }
+ ],
  "newest_runs": "ottoman12f HOLD 25 Nov 11:25 (stopped at Pictures and form); proof12c FAILED 25 Nov 09:47 (stopped at Render and mix); proof12 HOLD 25 Nov 09:16 (stopped at Script and heal); proof75b HOLD 25 Nov 09:06 (stopped at Render and mix); proof75a HOLD 25 Nov 08:59 (stopped at Publish kit); strip-planets HOLD 25 Nov 08:41 (stopped at Deal and package); strip-pluto HOLD 25 Nov 08:40 (stopped at Render and mix); 20261125-083722-131d HOLD 25 Nov 08:37 (stopped at Deal and package); strip-japan DONE 25 Nov 08:34 (60 s, 0.008751 US); strip-bulgaria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-austria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-manchuria HOLD 25 Nov 08:11 (stopped at Deal and package)",
  "live_agents": 0,
  "load": [
-  95,
-  89,
-  86
+  51,
+  60,
+  50
  ],
  "sheet_written": true
 }

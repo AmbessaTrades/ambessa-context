@@ -1,6 +1,404 @@
 # Juju day log, newest first
 
-Rebuilt 15:57 EAT, Thu 26 Nov 2026. Only entries whose title names Juju. Times are EAT (UTC+3). Logged by agents: evidence of what they report, not proof. Where two entries disagree, the later one wins and the older stays.
+Rebuilt 18:05 EAT, Thu 26 Nov 2026. Only entries whose title names Juju. Times are EAT (UTC+3). Logged by agents: evidence of what they report, not proof. Where two entries disagree, the later one wins and the older stays.
+
+---
+
+## 2026-11-26 18:05 EAT — TEHUTI — Juju finance films: fixed wrong-country picks, added colour key, and pinned country names
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju finance films: fixed wrong-country picks, added colour key, and pinned country names
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 31bfe4d9)
+- Ambi said the debt rehearsal showed Jordan, Sudan and Congo for 'biggest economies'. Fixed: a named group in the title now picks the countries, and at most 24 are drawn.
+- Added a height and colour key with units, a five-band value scale, and a palette where each country gets its own colour and neighbours never share one.
+- Names stay pinned above their column and on their anchor, stay visible through the closing card, and small countries get names. A film that fails only on names is redrawn automatically.
+- Africa-skew audit by code reading: no Africa default in the code or AI prompts. The skew came from hand-written idea lists (53 Africa vs 5 Europe), which the app does not read.
+- Pushed to the private GitHub backup (17:53). The three-film finance test still passes. The debt film redraw (zz-debt-r3) is still running, so the name and colour fixes are not yet proven on a film.
+- Files changed: juju-maps/timemap.py; juju-maps/timemap/src/page.rs; juju-maps/timemap/src/scene.rs; juju-maps/make/make.py
+- Status: in-progress — colour, key and name fixes built and pushed; debt film redraw still running and its final check is not yet confirmed.
+
+---
+
+## 2026-11-26 18:05 EAT — TEHUTI — Juju Phone: release unit ready (0.3.0), not released; round cut by credits
+- Harness: Claude Code (claude-opus-5-5), lane B. Topics: juju
+- **Changed:** phone/standalone f3a8511a (pushed): apps/juju-shell/VERSION 0.3.0 + NOTES.json; scripts/release.sh (web + APK from one commit, parity gate, version.json, GitHub release on AmbessaTrades/juju-web; --dry-run green); scripts/parity.py (40 rows, 0 MISSING); release key ~/.config/juju (SHA-256 6B:6D:3B:87…2B:5E, keep a private copy); update sheet on phone and web; Mojo Bag foot line; pack done-marks by id (verified on 52050f9a: relief-*.sha256), "Getting the maps N of M MB" shown on the phone.
+- **Why-verdict:** Ambi: phone + web ship as one unit with an update pop-up like AfriFluent. Rooms stay bundled (lead agreed): a bad web push must never break every phone.
+- **Status-open:** the signed 0.3.0 round was stopped at film 1 (map download) when credits ran out; not released. Next: boot, round (2 films), then JUJU_CORE=<juju-core f256bed9> scripts/release.sh. App Polish owes GET /api/update on juju-serve plus the foot line in api.js.
+- **Related:** runs/apk/RECEIPT-juju-phone-52050f9aedd6.md, apps/juju-shell/gen/juju-0.3.0.apk (a69501e6, not in git)
+
+---
+
+## 2026-11-26 18:05 EAT — MUNGURA — Juju: final push; money films drawable, colours per country, labels repairs
+- Harness: Claude Code (claude-opus-5-5), lead. Topics: juju
+- **Changed:** timemap.py (rates, World Bank fetch, groups, own colour per country no shared neighbour, names max); page.rs (name lift pinned, anchor kept, small/quiet named, names through end card, precise label record); make.py (wealth any money set, room 4 repairs labels); route.py money routing; ideas.py vessel kind; wbfetch.py.
+- **Why-verdict:** finance plans PASS rooms 1-3 (debt, tax, inflation); rehearsal room 4 faults traced (end card hid names; rounding jitter).
+- **Status-open:** proof film zz-debt-r4 drawing at stop, room 4 result unread; next agent: read films/zz-debt-r4/live.json, then frames every 2 s.
+- **Related:** juju-maps/timemap.py, juju-maps/timemap/src/page.rs
+
+---
+
+## 2026-11-26 18:05 EAT — MUNGURA — Juju ship-it-now: wind-down on credits, branches pushed
+- Harness: Claude Code (claude-opus-5-5), lead of "JUJU SHIP IT NOW". Topics: juju
+- **Changed:** Ambi: credits end in ~3 min, merge/push and stop. Pushed main snapshot to save/ship-it-now-*, door/cloudflare, core/juju-core, phone/standalone, ship/apk-thin. Lanes told: B commit+push and publish 0.3.0 only if its round passed; Polish swap /api/update only if tests pass else revert; A commit what compiles. Live now: Door (live, keys, packs, YouTube), web app https://ambessatrades.github.io/juju-web/ (Gate fix, empty Altar, New Vessel), Mac 4700 (slider 10-30, held films, Mojo Bag truthful, upload kit), Altar empty (rehearsal vessel parked).
+- **Status-open:** 0.3.0 APK release URL from lane B if its round passed; drawer label fix proof (other lead); main has other lanes' uncommitted edits (not mine, left alone).
+- **Handoff:** next lead starts from docs/PHONE-CORE.md and docs/APP-FLOW-3.md; release with apps/juju-shell scripts/release.sh on phone/standalone.
+
+---
+
+## 2026-11-26 17:41 EAT — TEHUTI — Juju Phone: a real Juju film made on the phone by juju-core; web rebuilt for unit 1
+- Harness: Claude Code (claude-opus-5-5), lane B. Topics: juju
+- **Changed:** APK runs/apk/juju-phone-52050f9aedd6.apk (phone/standalone 812d4e77 + juju-core f256bed9): juju_core::make on the phone, kept answers, public packs from juju-data and private packs from the Door's /v1/packs, the New Vessel routes in the Rust shim. Web https://ambessatrades.github.io/juju-web/ rebuilt from mockups/r2 675b6269+ (Gate fix, keypad, empty Altar, New Vessel), shim routes through the Door, ?test=<name> for proofs.
+- **Why-verdict:** Emulator with every Mac port blocked. A wealth film was made on the phone in 11.4 min (Measured): 215.2 s, -14.4 LUFS, real Juju map frames, Movies/Juju, played from the Shelf, 0 FATAL. Private packs by adb (lead's option c); lane C proved the home-space download. Web proved live at 390x844 in a test space.
+- **Status-open:** four fixes after the round (pack done-mark names, download words, label, live.json) compiled but not run on the emulator. Ambi's sign-in needs the Door's SETUP_CODE. Kingdoms and states are not ported in juju-core. The first film downloads about 600 MB.
+- **Related:** runs/apk/RECEIPT-juju-phone-52050f9aedd6.md, apps/juju-shell/android/proof/core-1126/
+
+---
+
+## 2026-11-26 17:41 EAT — MUNGURA — Juju rehearsal 2: system fixes work, every film held by the label law
+- Harness: Claude Code (claude-opus-5-5), lead of "JUJU SHIP IT NOW". Topics: juju
+- **Changed:** two films through the app on vessel-702988: debt rerun (G20 group, colour bands, legend: fixes hold) and "world largest economies since 1600" bent from donor DSZGVqC42XI via Learn from a film (refs). Largest-economies film judged good by eye. Both held at room 4: unnamed lands (13, 30) and name jitter (up to 139.5 px). Films lead's audit: Africa skew came from ratio ranking ignoring the named group (fixed in series()); defaults neutral; agent idea fixtures Africa-heavy (53 vs 5) but never shown. Asked: drawer must meet the label law (names on every land, steady), gate unchanged; app shows held films playable with the reason, never keepable.
+- **Why-verdict:** Ambi 17:40: "we're here to fix juju, not ... the specific video". Each fault fixed as a stack rule, proven on a different sentence.
+- **Status-open:** drawer label fix; length slider 10-30 (default 11; 2 min test-only); held-film view; APK juju-core round.
+- **Related:** scratchpad r-*.png, juju-maps/films/*928395 (TEST.json)
+
+---
+
+## 2026-11-26 17:31 EAT — TEHUTI — Juju dress rehearsal: finance path runs end to end; debt film held by quality check
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju dress rehearsal: finance path runs end to end; debt film held by quality check
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 873ccd40)
+- Ambi asked for one real path from a fresh person to a finished film before his test: new channel, ideas, Make, Shelf, upload kit.
+- Dress rehearsal through the app: 'government debt by country' placed correctly; first Make failed on a blocker (finance films refused every dataset except world output). Fixed by the lead; proofs pass for debt, tax and inflation films.
+- Rerun made a 3.5 min finance film with sound; the final quality check held it back. Visible faults: wrong subject (debt-to-GDP countries, not biggest economies), unexplained towers, grey colours, wandering camera, 13 unnamed countries.
+- Five fixes sent to map and story teams, smallest first; rehearsal films marked TEST.json so they stay off the Shelf. Not yet re-run after fixes.
+- Also open: Mac app sign-in at the Gate (needed for Door sync), idea cards have no pictures, US state tax and debt need a free Census key, phone app test round still running.
+- Files changed: juju-maps/films/wealth-how-government-debt-928387/TEST.json; juju-maps/films/wealth-how-government-debt-928387/live.json; juju-maps/films/wealth-how-government-debt-928383/TEST.json
+- Status: in-progress — finance path runs but the rerun film is held; fixes are with the other leads and the film is not yet re-run.
+
+---
+
+## 2026-11-26 17:28 EAT — TEHUTI — Juju: stopped agent film-making, fixed money routing, ideas and music picks for the app test
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju: stopped agent film-making, fixed money routing, ideas and music picks for the app test
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 31bfe4d9)
+- Ambi said 'no more films' and asked agents to stop making videos, leaving filming to the app; the Worlds and Sound lanes closed and no film is left queued to draw.
+- Money films now route to the money style. The film maker accepts debt, tax and inflation data, and fetches missing World Bank measures. Three finance films planned (not drawn) and passed the first three checks.
+- Finance channels now get only money ideas. A debt test vessel no longer gets kingdom ideas. Idea cards still have no picture, so the app shows the style's sample image.
+- Earshot picked licensed tracks for money, trade and war table. The War Room test mix is made, and package.py adds an automatic music credit to each film's description. Ambi has not yet listened.
+- The map-fix build (place names, borders, colours) is still not built. Ambi's app test run is the next check, and lessons are saved in docs/LESSONS-2026-11-26.md.
+- Files changed: juju-maps/timemap.py; juju-maps/make/route.py; juju-maps/make/ideas.py; juju-maps/make/make.py; juju-maps/data/wbfetch.py; juju-maps/data/timesets.json; juju-maps/make/test_money_route.py; docs/LESSONS-2026-11-26.md
+- Status: in-progress — the app test run and the map-fix build are still pending, and Ambi has not yet heard the music or seen a passing app run.
+
+---
+
+## 2026-11-26 17:28 EAT — TEHUTI — Juju phone: web app live with new rooms, APK wired to juju-core, emulator wealth film in progress
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju phone: web app live with new rooms, APK wired to juju-core, emulator wealth film in progress
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 9bc0993c)
+- Ambi's ask: the Juju Android app must make films on the phone with his Mac off. Export needs no connection; the network is only for model answers and voice via the Door.
+- Done: FilmService work moved off the main thread (ANR fix); juju-core switch is one line in core_swap.rs; New Vessel routes added to the phone Rust shim and the web service worker.
+- Verified: live web app at 390x844 on a fresh profile (Gate, PIN set and confirmed, empty Altar, New Vessel with looks). On the emulator: Door sign-in, a Wealth vessel created, Crossroads ideas shown.
+- Open: the APK 6904584a was built on juju-core 6dde9ff3, not the newest lane A commit, which did not compile. The emulator wealth film was still running at the last check; its result is not confirmed.
+- Files changed: ~/AUH/AMBESSA/intel/juju-phone-wt/apps/juju-shell/android/rust/src/core_swap.rs; ~/AUH/AMBESSA/intel/juju-phone-wt/apps/juju-shell/android/rust/src/tap.rs; ~/AUH/AMBESSA/intel/juju-phone-wt/apps/juju-shell/android/rust/src/door.rs; ~/AUH/AMBESSA/intel/juju-phone-wt/apps/juju-shell/android/app/src/main/java/labs/juju/app/FilmService.kt; ~/AUH/AMBESSA/intel/juju-phone-wt/apps/juju-shell/web/sw.js; ~/AUH/AMBESSA/intel/juju-phone-wt/apps/juju-shell/web/build.py; ~/AUH/AMBESSA/intel/juju-phone-wt/apps/juju-shell/android/seed.py
+- Status: in-progress — web app is live and proven; phone wealth film is still running on the emulator, result not yet confirmed
+
+---
+
+## 2026-11-26 17:24 EAT — MUNGURA — Juju dress rehearsal through the app: finance film refused by ju make's wealth check
+- Harness: Claude Code (claude-opus-5-5), lead of "JUJU SHIP IT NOW". Topics: juju
+- **Changed:** lead ran Ambi's exact path through 4700's API: Describe "government debt by country" → vessel-702988 (kinds wealth, niche wealth.debt.world, owner ambi) → Make wealth "how government debt grew in the biggest economies since 1990" → failed step 1, 0.00374 US: "the shelf chose the imf-debt-gdp set ... a wealth film needs maddison". Film folder marked TEST.json. Blocker sent to films lead (make.py wealth check must accept finance sets).
+- **Why-verdict:** route/shelf and ju make disagree; every finance film Ambi tries would fail. Rehearsal found it before he did. Also: POST channels ignored "name".
+- **Status-open:** rerun after Stack Proof widens the check; park vessel-702988 after.
+- **Related:** juju-maps/films/wealth-how-government-debt-928383, juju-maps/make/make.py
+
+---
+
+## 2026-11-26 17:23 EAT — TEHUTI — Juju app: Mojo Bag shows live balances, Door channel sync, and a walk from a fresh person to Shelf
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju app: Mojo Bag shows live balances, Door channel sync, and a walk from a fresh person to Shelf
+- Harness: Claude Code (auto-log by claude-haiku-5-5, SessionEnd, session 6f5145e6)
+- Ambi asked for the Purse as a Juju-named menu on phone and web. Built it as the Mojo Bag: DeepSeek, OpenRouter and WaveSpeed read live with an as-of time; Google and Inworld show 'Not reported' instead of a typed budget.
+- Added a Door channel sync (crates/juju-serve/src/door.rs), a palette in the engine's shape, and --vessel on every make from the app. Unit tests reported 32 of 32 passing.
+- Walk4 (fresh person: Gate, New Vessel, ideas, Make, Cauldron, First look, Keep, Shelf, Upload kit) passes at 1440 and 390 on a test server. No film was drawn.
+- Walk3 on the live 4700 passes every check except door_sync, which needs Ambi to sign in once at the Gate with his PIN. That check is still open.
+- Fixed Crossroads so described vessels show Juju's ideas before 'Pick a look', and fixed the empty Altar jar and the Gate keypad on phone.
+- Files changed: crates/juju-serve/src/pots.rs; crates/juju-serve/src/door.rs; crates/juju-serve/src/chan.rs; mockups/r2/api.js; mockups/r2/gate.html; mockups/r2/crossroads.html; mockups/r2/shelf.html; runs/app/flow/walk4.mjs
+- Status: in-progress — walks pass on test server and 4700; Door sync needs Ambi's PIN sign-in and the live film test is still pending
+
+---
+
+## 2026-11-26 17:22 EAT — TEHUTI — Juju app polish 2: truthful Mojo Bag, Door sync, ideas for every vessel, upload kit for every film
+- Harness: Claude Code (claude-opus-5-5), App Polish owner. Topics: juju
+- **Changed:** juju-serve (purse reads DeepSeek/OpenRouter/WaveSpeed live through the paid gate, Google/Inworld not reported, refresh; door.rs: Gate signs into the Door with the same PIN, vessels written to /v1/state/channels; palette in the drawer's roles; ju make --vessel; ideas for described or look-only vessels via ju place or the look's niche; upload kit built once for films without a package); mockups/r2 api.js, crossroads (Find ideas, no repeated stand-in picture), new-vessel, shelf, gate (plain words). Commits 675b6269, a07a7fe2.
+- **Why-verdict:** Measured: tests 32/32; walk4 PASS 1440 and 390 (whole path to Make, no film drawn); walk3 on 4700 PASS except door_sync (needs Ambi's Gate sign-in); real ju ideas on a described vessel: 5 ideas, 0.00124 US. Binary d6fe2dd0 live.
+- **Status-open:** Door sync waits on Ambi signing in once; ju ideas gave kingdom ideas for a debt niche; Bend, Fill the week, composer, Conjuring receipt not built; Use this one hidden until one-generation takes.
+- **Related:** runs/app/qa/POLISH-2-DONE, runs/app/qa/DECISIONS.md, docs/APP-FLOW-3.md, docs/PHONE-CORE.md section 3.
+
+---
+
+## 2026-11-26 17:17 EAT — TEHUTI — Juju Core: wealth films now run from one sentence in Rust with no Python; kingdoms still unported
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju Core: wealth films now run from one sentence in Rust with no Python; kingdoms still unported
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 976793c7)
+- Ambi asked for Juju to make films on a phone with the Mac off, 'right now'. Lane A is juju-core, the Rust engine. Its public API was published early in crates/juju-core/src/lib.rs.
+- Wealth path ported: planner, story, direct, laws, one-shot gate rooms 1-3, assembly. Golden check: time.json matches Python except 8 rewind values off by at most 1.4e-13 s.
+- A wealth film from one sentence ran with no Python: 215 s, plays with picture and sound at -14.3 LUFS. A saved-answers rerun gave a byte-identical time.json.
+- Builds green at f256bed9 on Mac (Metal and CPU), Android, and wasm. Unit tests pass, plus 7 new plain-failure tests. Data packs published as 29 assets on AmbessaTrades/juju-data.
+- Still open: the kingdoms data step is not ported, so the exit predicate is FALSE. The 'states' kind and the Canada sentence also stop in plain words.
+- Files changed: ~/AUH/AMBESSA/intel/juju-core-wt/crates/juju-core/src/plan/assemble.rs; ~/AUH/AMBESSA/intel/juju-core-wt/crates/juju-core/src/plan/gate.rs; ~/AUH/AMBESSA/intel/juju-core-wt/crates/juju-core/src/plan/output.rs; ~/AUH/AMBESSA/intel/juju-core-wt/crates/juju-core/src/tm/mod.rs; ~/AUH/AMBESSA/intel/juju-core-wt/crates/juju-core/tests/plain_failures.rs; docs/PHONE-CORE.md
+- Status: in-progress — wealth films proven with no Python and branch pushed at f256bed9; kingdoms films not yet ported, so the exit predicate is FALSE
+
+---
+
+## 2026-11-26 17:16 EAT — TEHUTI — Juju: each film's music credit now lands in its upload description
+- Harness: Claude Code (claude-opus-5-5), route-place lane. Topics: juju
+- **Changed:** juju-maps/make/package.py music_lines(): description.txt ends with "Music" + the credit from the film's cues.json (from beds/music/picks.json). Handoff note in juju-maps/make/HANDOFF.md.
+- **Why-verdict:** CC BY needs the credit line. Proved on the scratch War Room proof: description ends with the Taiko credit (jobro, CC BY 3.0, freesound URL).
+- **Status-open:** time.json end.credits may still list the old orchestral bed under Sources (nx-korea): make lane's to fix. Regions for later. Lane stopped on the lead's order.
+- **Related:** juju-maps/make/package.py, juju-maps/beds/music/picks.json
+
+---
+
+## 2026-11-26 17:16 EAT — TEHUTI — Juju Core: wound down, f256bed9 pushed, wealth path proven, packs licence-narrowed
+- Harness: Claude Code (claude-opus-5-5), lane A. Topics: juju
+- **Changed:** core/juju-core pushed at f256bed9. Fixed 8d0425da (a comment swallowed braces in door.rs; lane B caught it). untar refuses unknown entries. 7 plain-failure tests. The public wealth pack holds only shelf-licensed files (sha 790240a0c370), and ATTRIBUTION.md names them. Receipts are in crates/juju-core/proof/RECEIPTS.md.
+- **Why-verdict:** Measured: green at that head on Mac Metal and CPU-only, Android and wasm x2; 18 + 7 tests pass. A home built only from the 35 packs draws frames identical to the Mac (0/255). The CPU-only binary is identical to bin/timemap (0/255).
+- **Status-open:** kingdoms, states, series and corrections are not ported. Private packs have no delivery to the phone (decision asked of the lead). The wasm file and WebCodecs seams are not built. The workspace check fails in apps/juju-shell (Tauri proc macro, not this lane).
+- **Related:** handoff sent to JUJU SHIP IT NOW and lane B.
+
+---
+
+## 2026-11-26 17:15 EAT — TEHUTI — Juju: built ju route, ju place, ju pulse, and one-track-per-film music mixing
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju: built ju route, ju place, ju pulse, and one-track-per-film music mixing
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 5b3db6d6)
+- Built ju route (subject to kind, system, theme, why, or a nothing-here refusal) and ju place. All 21 test answers pass. The paid fallback costs about 0.0001 US per call.
+- Built ju pulse: one shared file per niche per week, checked against vessels/pulse/pulse.schema.json. The Jev thumbnail sort is one call. A whole Pulse costs about 0.0009 US and takes 83 s.
+- tmsound.py now lays one background track per film instead of switching music per act. Its test passes. The 90-second War Room re-mix measured -14.02 LUFS.
+- Music picks exist for money-map, trade-road and war-table, from CC0/CC BY sources, with credit lines in picks.json. Ambi has not heard them. The 16 regional shelves are not done.
+- Open: Epidemic tracks are excluded. 3 unnamed-artist tracks wait for Ambi to say where they came from. A film longer than its track will loop it.
+- Files changed: juju-maps/make/route.py; juju-maps/make/place.py; juju-maps/make/pulse.py; juju-maps/sound/tmsound.py; juju-maps/beds/music/shelf.py; juju-maps/beds/music/choose.py; .toolchain/earshot/src/earshot/music.py; vessels/pulse/pulse.schema.json
+- Status: in-progress — route, place and pulse are done; the music shelf covers 3 of 16 regions and Ambi has not yet heard it
+
+---
+
+## 2026-11-26 17:15 EAT — TEHUTI — Juju Ear: money-map, trade-road and war-table music picked; War Room proof re-mixed off Grieg
+- Harness: Claude Code (claude-opus-5-5), route-place lane. Topics: juju
+- **Changed:** earshot music (fork) ran search, fetch, tags, listen (scripts/heavy) and pick for three shelves -> juju-maps/beds/music/picks.json; README line in juju-maps/sound.
+- **Why-verdict:** Measured: picks: money-map "Drift - Minimal" (PodcastAC, CC BY 4.0) and "Ambient Corporate" (WinnieTheMoog, CC BY 4.0, rise); trade-road "Uighur Traditional Music 1" (RTB45, CC BY 4.0); war-table "Taiko drums" (jobro, CC BY 3.0) and "13 drum cadences" (kiddpark, CC0, rise). sty-war-room proof (scratch copy, the film untouched): one track, -14.02 LUFS, 13.6 s wall / 15 CPU s for 90 s at load 16; Earshot hears drums, no orchestra. Spend 0.00105 US (3 tag calls). Listen 256 s for 48 clips.
+- **Status-open:** 16 regions left for later; a film longer than its track loops the track (Taiko 226 s); Ambi's ear on the three shelves not asked yet.
+- **Related:** juju-maps/beds/music/picks.json; .toolchain/earshot/src/earshot/music.py
+
+---
+
+## 2026-11-26 17:13 EAT — MUNGURA — Juju: every finance subject drawable (rates, World Bank fetch on request), money routing, drawer built
+- Harness: Claude Code (claude-opus-5-5), lead, own hands on Ambi order. Topics: juju
+- **Changed:** timemap.py series() draws rates (own value, capped height, no stack chart) besides shares; choose() fetches any missing money measure via new juju-maps/data/wbfetch.py (World Bank WDI, 1498 indicators, keyless, CC BY) instead of refusing or drawing another measure; timesets.json + imf-debt-usd, imf-debt-gdp, wb-tax-gdp, oecd-top-pit and 8 fetched WDI sets; make/route.py money words route to wealth (states for US income), US state tax/debt names the Census key gap; route KINDS + warroom; make/test_money_route.py.
+- **Why-verdict:** Verification: plan-only zz-tax and zz-infl PASS gate rooms 1-3 with true cards (Denmark 1994 32% of GDP in tax; Nicaragua 1988 13612% inflation), test_money_route PASS 10/10, test_route_place PASS 21; drawer built (look_version 1, labels code in page.rs). Test films deleted.
+- **Status-open:** US state finances over years need a free Census key; skills not re-pinned (pins.txt countersign); labels law unproven on a drawn film (app test).
+- **Related:** juju-maps/data/wbfetch.py, juju-maps/timemap.py, juju-maps/make/route.py
+
+---
+
+## 2026-11-26 17:07 EAT — MUNGURA — Juju packs: public wealth packs gated by licence, unlisted files split private (uncommitted)
+
+Harness: Claude Code (claude-opus-5-5), lane A. Topics: juju
+
+**Changed.** In intel/juju-core-wt (branch core/juju-core), uncommitted: scripts/packs/build.py (16:59) builds the wealth group only from data/timesets.json rows that name an open licence (CC BY or public domain) — Maddison, owid-population, the open owid files, worldbank plus res_xgold — and puts every other timeset file in a new group wealth-unlisted. crates/juju-core/src/packs.rs, src/door.rs and tests/plain_failures.rs touched to 17:04, also uncommitted.
+
+**Why verdict.** The lead's go was to publish only open-licence packs (juju-data release 2026-11-26); the diff's own comment says the remaining owid files have no shelf row yet, so they stay private until one names a licence.
+
+**Status open.** Uncommitted and not rebuilt: no new packs index, no juju-data release, tests not run since the edit.
+
+**Related.** juju-data release 2026-11-26, runs/packs/2026-11-26/index-private.json
+
+---
+
+## 2026-11-26 17:06 EAT — MUNGURA — Juju web: unit-1 rooms answered by the service worker; Pages pushed
+
+Harness: Claude Code (claude-opus-5-5), lane B. Topics: juju
+
+**Changed.** Branch phone/standalone: e77cf06f (16:55) — apps/juju-shell/web/sw.js and android/seed.py give the web app the unit-1 rooms (looks, a new channel from a look or a line, name/look/describe/palette/films_week, park, ideas through the Door), "Not built yet" instead of 404, ?test=<name> keeps a proof in a Door test space; 0add4dfb (16:58) — index waits until the service worker controls the page before ?test= and the Gate (controllerchange, 4 s fallback). Public AmbessaTrades/juju-web pushed 5ac95d6e at 13:58 UTC = 16:58 EAT.
+
+**Why verdict.** Measured on the live Pages build: sw.js is 16,752 bytes, the same as the worktree's, and contains __space and films_week, so the site serves the new rooms rather than the 16:43 build. Without service-worker control the index would fetch /api at the site root, which is why it waits.
+
+**Status open.** No walk receipt of the new rooms against the live Door's test space in this pass; the APK receipt (77f3c47f) predates these web commits.
+
+**Related.** apps/juju-shell/web/sw.js, apps/juju-shell/web/build.py, https://ambessatrades.github.io/juju-web/
+
+---
+
+## 2026-11-26 17:05 EAT — MUNGURA — Juju Gate: the next step in plain words, Enter never looks pressable while it cannot go
+
+Harness: Claude Code (claude-opus-5-5), App Polish. Topics: juju
+
+**Changed.** mockups/r2/gate.html, commit 675b6269: every state names its next step ("Tap 4 numbers for your new PIN" / "Tap the same 4 again" / "Type the setup code Ambi gave you" while the web code field is empty / "Tap your 4 numbers"); refusals in plain words ("Those didn't match, start again", "Wrong code"); Enter carries .off and aria-disabled until it can go, so an early press says the next step instead of doing nothing; mode() now treats the phone's setup-code field as the set/again room. 21 insertions, 5 deletions.
+
+**Why verdict.** Ambi could not tell what the Gate wanted (commit message, 26 Nov). mockups/r2 is the room set juju-serve actually serves (cfg.rs rooms()), so this is the app UI, not a side mockup. Walked at 390x844 on a test server with no PIN set: start, early Enter, again, mismatch, code field empty.
+
+**Status open.** The walk is the mockup on a test server; not re-walked through the live binary after the commit.
+
+**Related.** crates/juju-serve/src/cfg.rs:37, mockups/r2/gate.html, runs/app/qa/DECISIONS.md
+
+---
+
+## 2026-11-26 17:04 EAT — MUNGURA — Juju final push: one real path from a fresh person to a packaged film, before Ambi's test
+- Harness: Claude Code (claude-opus-5-5), lead of "JUJU SHIP IT NOW". Topics: juju
+- **Changed:** consolidation. Live today: Door (keys, cap, lists, packs KV, YouTube scout, version 13bbe89c, 48/48), web app https://ambessatrades.github.io/juju-web/ (Gate fix, empty first run, New Vessel; no film making), Mac 4700 unit 1 (empty Altar, New Vessel looks/colours/learn/absorb/describe), juju-core wealth films without Python, public packs AmbessaTrades/juju-data. Gaps found: no end-to-end real path proven (vessel → ideas → Make → film → package); route sends "US state debt" to kingdoms; package thumb only for kingdoms; units 2-3 of APP-FLOW-3 unbuilt.
+- **Why-verdict:** Ambi ~17:10: "one more chance to make everything perfect ... so I can use it right now". Highest leverage = prove his exact first path with one real cheap film before he tries it.
+- **Status-open:** films lead: route rule + package thumbs for wealth/states; App Polish: smallest working make path + POLISH-2-DONE; lane B: APK juju-core round (private packs via adb, labelled); lead: one real film through the app, then 2 light QA testers, then APK release.
+- **Related:** docs/APP-FLOW-3.md, docs/PHONE-CORE.md
+
+---
+
+## 2026-11-26 17:02 EAT — TEHUTI — Juju Ear: one track per film landed; music shelf half built, wound down on Ambi's order
+- Harness: Claude Code (claude-opus-5-5), route-place lane. Topics: juju
+- **Changed:** juju-maps/sound/tmsound.py lays one bed for the whole film (one_track(), asks earshot music choose first); Earshot fork .toolchain/earshot/src/earshot/music.py + cli.py ("earshot music search|fetch|listen|tags|pick|licensed|choose", Openverse + Internet Archive, CC0/CC BY/public domain only); juju-maps/beds/music/licensed.json (24 of Ambi's tracks, read only, Epidemic left out, 3 of unknown source off). Earlier today: ju pulse + vessels/pulse/pulse.schema.json + door kind "eye" (Jev).
+- **Why-verdict:** Measured: test_tmsound PASS; war-room-90 mix one bed, -14.02 LUFS, 39 s wall (14 CPU s) at load 65. Was 4 bed switches per film.
+- **Status-open:** no regional picks yet (search stopped mid-way: money-map 46, trade-road 23, war-table 37, west-africa 47 hits; money-map 8 clips fetched; nothing heard by Earshot). Until picks exist the one track is still an old orchestral bed (Grieg in the proof). Bend and fill dropped for now. 10 min timing not measured.
+- **Related:** next: earshot music search (rest) -> fetch -> listen (scripts/heavy) -> tags -> pick; then re-mix tm-musa, nx-korea, sty-war-room.
+
+---
+
+## 2026-11-26 17:00 EAT — TEHUTI — Juju Door: private packs from KV with resumable downloads; test origin removed
+- Harness: Claude Code (claude-opus-5-5), lane C. Topics: juju
+- **Changed:** GET /v1/packs/<id>, signed-in sessions only. Supports Range bytes=N- or N-M and sends an x-juju-sha256 header. The 7 private packs (62 MB) are in Workers KV namespace PACKS, in parts of 20 MiB or less, the pack record written last. apps/door/packs-upload.mjs does the upload (wrangler kv) after checking each sha256 against index-private.json; there is no upload route and no new secret. Test spaces get only a made-up test pack. The (local page) test origin is gone from CORS. Deployed 13bbe89c, branch door/cloudflare.
+- **Why-verdict:** the lead's order; Ambi: wind down, ironclad. Measured live: all 7 packs downloaded with the index sha256 (sound-1, 33 MB, in 18.6 s), and sound-1 resumed at 21,000,000 bytes across its part edge, joining to the same sha256. A planted wrong sha256 is refused by the uploader before any write. Unit 44/44; test.mjs 48/48 live. The temporary probe space was wiped and the PROBE_CODE secret deleted.
+- **Status-open:** none for the Door. KV free plan: 1,000 writes a day; one full upload is 16.
+- **Related:** apps/door/src/packs.js, apps/door/packs-upload.mjs, runs/door/live-packs.txt
+
+---
+
+## 2026-11-26 16:58 EAT — TEHUTI — Juju Worlds lane: ju mend fixes landed, Africa film still not final
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju Worlds lane: ju mend fixes landed, Africa film still not final
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session f1cec95d)
+- Ambi asked for ju mend fixes first: stop a wrong-year card (AD 972) from slipping through behind an older fault. Fault counting, year-vs-clock check, place and school checks, and required --by were added; test_mend.py passes on planted faults (Measured).
+- Rules file now holds Ambi's row with the lead's wording; a later mend can no longer overwrite it. A 16:04 mend had put the writer's wording back and was restored.
+- Africa whole-redraw showed the al-Azhar card at AD 972 with the clock at 972, but the gate's fourth check refused it (drawer stamp not copied). Ambi then ordered a stop; mend and BACI download were killed. Finance fetchers (Census, IMF, OECD, World Bank) saved, not yet wired.
+- Still open: copy the drawer stamp into the mend folder; the Tamil tale steer and crown planner are built but not wired into ju make (handoff note written to Stack Proof). Lane spend about 0.18 US of 0.50.
+- Files changed: juju-maps/correct/mend.py; juju-maps/correct/laws.py; juju-maps/correct/test_mend.py; juju-maps/make/CONTRACT.md; juju-maps/worlds.py; juju-maps/data/finance/fetch.py; juju-maps/worlds/crown/crown.py; juju-maps/correct/HANDOFF-to-timemap.md
+- Status: in-progress — ju mend fixed and tested; Africa film not final (gate check 4 failing); Ambi stopped the lane
+
+---
+
+## 2026-11-26 16:58 EAT — MUNGURA — Juju: lessons of two days consolidated (docs/LESSONS-2026-11-26.md)
+- Harness: Claude Code (claude-opus-5-5), lead. Topics: juju
+- **Changed:** docs/LESSONS-2026-11-26.md (what made films good, 10 lessons, stack changes, open list); all lanes wound down on Ambi order, no agent films.
+- **Why-verdict:** Ambi asked to consolidate what hundreds of films taught. Top: structure beats model; data density decides the niche; refuse before drawing.
+- **Status-open:** drawer build (labels, palette, look_version) not built; corrections scope in timemap; app test by Ambi.
+- **Related:** docs/adr/0027-time-maps.md items 53-88
+
+---
+
+## 2026-11-26 16:57 EAT — TEHUTI — Juju Worlds 2: ju mend laws, --by and scope, finance shelves fetched; stopped on Ambi's no-films order
+- Harness: Claude Code (claude-opus-5-5), Worlds lane. Topics: juju
+- **Why-verdict:** Measured: the 972 card slipped through because mend refused only a NEW kind of fault; now counted. Mend 20261126-160431 (whole redraw, today's plan): card AD 972 at clock 972, gate rooms 1-3 PASS, frames looked at (sheet.png): one design, no old counter. Room 4 refused it: no drawer stamp copied (fixed in code after). Card says "Azhar in Fustat" (wrong city; seat-city law added, its rerun stopped on order). Lane spend 0.18 US.
+- **Status-open:** no mend film is final; the stamped redraw with the seat law is one command when films are allowed. Scope not yet read by timemap.py/timestory.py (handoff). Crown, steer, trade routes dropped for now.
+- **Related:** ADR 0027 items 79, 86, 88; lead JUJU X POTETO ORCHESTRATION #2.
+
+---
+
+## 2026-11-26 16:55 EAT — TEHUTI — Juju: US map fixes, world-book gaps filled, labels law built, economy direction set
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju: US map fixes, world-book gaps filled, labels law built, economy direction set
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 31bfe4d9)
+- US map film redrawn with five faults fixed, rated 6.5 of 10 (draw $0.012). Still wrong: a hard dark edge west of 172°W and an odd climb out of the Fort Sumter dive.
+- Roots world book gaps filled: Songhay to 1591, Kongo dated 1540 to 1665 (1567 to 1622 stays open), Aksum 320 to 360. Gap scan went from 33 to 28. check.py prints TRUE, no paid calls.
+- Ambi asked that every coloured land be named at any zoom. The labels check was reported built, but Time Map says the full labels code is written, not yet built. Also written, not yet built: look_version stamps, halo fix, channel palettes.
+- Ambi's direction: economy, finance and trade films, no war or border maps, no Epidemic Sound. First economy film (China rise and fall) passed three quality checks and is planned, not drawn.
+- Stopped an old ancient-Africa planning job that held the build slot 35 min so the app build could run. The app update is still building and not yet confirmed live on port 4700.
+- Files changed: juju-maps/films/st-us/a.mp4; juju-maps/roots/HANDOFF-to-dates.md; juju-maps/make/gate.json; docs/adr/0027-time-maps.md
+- Status: in-progress — map label, palette and look code not yet built; app swap pending; economy films planned, not drawn
+
+---
+
+## 2026-11-26 16:47 EAT — TEHUTI — Juju app round 3 unit 1: an empty first run, New Vessel with Juju's receipt
+- Harness: Claude Code (claude-opus-5-5), App Polish owner. Topics: juju
+- **Changed:** juju-serve (looks from canon, new vessel from a look, a line or a link, owner, park, ideas and place, route on Describe, refs, palette, made-by so only app films stand on a channel, TEST.json hidden, mend --by/--scope); mockups/r2 altar (empty, + jar, Mine · Both), new-vessel (Ready-made, Absorb, Describe, receipt, Colours, Learn from a film), gate (keypad fits 390x844); vessels seeded moved to vessels/looks, LOT to vessels/parked. Commit 0d61617b; also 5f3fc99 (Tell Juju runs ju mend).
+- **Why-verdict:** Ambi: "I don't want to log in and see pre-selected shit". Measured: walk3 PASS 1440 and 390 on 4700, 0 console errors; tests 31/31; binary fb806311 live 16:34.
+- **Status-open:** Mojo Bag still shows the typed budget (next: live balances, as-of dates, refresh); Door channel sync; palette in the engine's shape and --vessel on make; the test mend row in canon was flagged to the lead (Worlds removes it).
+- **Related:** docs/APP-FLOW-3.md, runs/app/qa/DECISIONS.md, runs/app/flow/walk3.mjs.
+
+---
+
+## 2026-11-26 16:46 EAT — TEHUTI — Juju Core: wealth films from a sentence in Rust, no Python; open data packs published
+- Harness: Claude Code (claude-opus-5-5), lane A of "JUJU SHIP IT NOW". Topics: juju
+- **Changed:** branch core/juju-core (worktree ~/AUH/AMBESSA/intel/juju-core-wt), commits up to 8d0425da. Ported the wealth planner of timemap.py 0fe0ef4a to crates/juju-core/src/plan: choose, output (Maddison xlsx), story, direct, clock, laws 6/20/24, gate rooms 1-3, assembly. Pieces are keyed by engine source and design system. The mix lays land moves. Public repo github.com/AmbessaTrades/juju-data (lead's go): index.json, ATTRIBUTION.md, 27 open packs (1,022 MB) as release 2026-11-26. 7 private packs (62 MB) are in runs/packs/2026-11-26/index-private.json, unpublished.
+- **Why-verdict:** Measured, golden: time.json equal to Python's except 8 warp seconds off by <=1.4e-13 s (Accelerate summation); frames 0/255 at 5 times; the same "held at room 1" verdict, 17 s against 454 s. Measured: w-asia, a sentence to a film with no Python on PATH (saved answers), 215.2 s, plays, -14.3 LUFS, plan cost $0.0025 once. The Android and wasm builds pass, 18 tests pass.
+- **Status-open:** kingdoms (Cliopatria polities, PIL raster) not ported, so no kingdoms film yet. The random idea #70 ("Canada s provinces and the oil of Alberta") failed in words: kind states is not in core; as wealth, the shelf chose polities. Series sets, law 6 frame gaps, gate room 4, lawcheck: not yet. wasm builds, but make() needs a file and encoder seam in the browser. The live timemap.py moved on (corrections, cache-first prompts): port after the match.
+- **Related:** lanes B (APK, has the API) and C (door_http.rs merged).
+
+---
+
+## 2026-11-26 16:44 EAT — TEHUTI — Juju Phone: web app live on GitHub Pages; APK ready for juju-core
+- Harness: Claude Code (claude-opus-5-5), lane B. Topics: juju
+- **Changed:** web app https://ambessatrades.github.io/juju-web/ (public repo AmbessaTrades/juju-web, built files only, no key). A service worker answers the rooms' /api from the Door and the seed. Make says "Films are made in the phone app for now" until juju-core WASM lands. First visit never asks the site root. APK code: no work on the main thread (the ANR fix), Door lists cached 15 s, the juju-core switch in one function plus JUJU_CORE=<crate> in build.sh (checked against lane A's branch), private packs via door: addresses with the token, an empty first run (APP-FLOW-3). Branch phone/standalone 3681e399.
+- **Why-verdict:** Ambi (through the lead): "make it perfect fast ... then ship it, so i can download app and login webapp". Web proved at 390x844 and 1440x900 against the live Door's test space.
+- **Status-open:** Ambi's login waits on the Door's SETUP_CODE secret. The APK's juju-core round waits on lane C's /v1/packs and lane A's public index (lead: real packs only). Gate keypad cut off at 390x844: sent to App Polish.
+- **Related:** apps/juju-shell/web, apps/juju-shell/android, runs/apk/RECEIPT-juju-phone-77f3c47fcec1.md
+
+---
+
+## 2026-11-26 16:35 EAT — TEHUTI — Juju Door: Pulse in pulse.schema.json shape, real YouTube proven, Mac import, Eye in ask
+- Harness: Claude Code (claude-opus-5-5), lane C. Topics: juju
+- **Changed:** the Door scout now writes pulse.py's record (by "door scout"). The port of title forms and the sieve gives the same output as pulse.py on 38 titles. Thumbnails are sorted into Sigil dialects by one Jev call through the Door's own metered ask. Added PUT /v1/pulse/import (the newer copy is kept), the Eye in /v1/ask (typesafe/jev-1.14, pictures 1024x576 or larger, read from the file header), kind eye in door_http.rs, probe spaces (real YouTube, paid models stubbed, behind a PROBE_CODE secret), an ask body limit of 6 MB, and CORS for ambessatrades.github.io and (local page). Deployed 93885198, branch door/cloudflare.
+- **Why-verdict:** lead, 26 Nov ~16:10: the pulse.py file shape is canonical. Measured with the real YOUTUBE_KEY: one Pulse of war.guns.napoleon = 112 units in 2.9 s (3 outliers, 15 winners, 15 flops, 5 channels); one video lookup = 2 units. The probe row passes pulse.schema.json. Unit 41/41; test.mjs 43/43 live. The first real run caught the Eye's 6 thumbnails refused at a 1 MB body; fixed.
+- **Status-open:** real Eye dialects in the home space are unmeasured (the probe stubs paid models). No home channel names a niche yet, so the cron scouts nothing. Remove (local page) after lane B's proof.
+- **Related:** runs/door/probe-pulse-war.guns.napoleon.json, apps/door/src/youtube.js
+
+---
+
+## 2026-11-26 16:31 EAT — MUNGURA — Juju: Ambi hands over; direction economy, finance, trade routes; no Epidemic
+- Harness: Claude Code (claude-opus-5-5), lead. Topics: juju
+- **Changed:** ADR 0027 item 88.
+- **Why-verdict:** Ambi decision: data-led economy niches over war/border maps; Juju Ear full audio fast; no Epidemic Sound.
+- **Status-open:** trade routes + economy shelves (Worlds 2), Ear music no ES_ (Make Doors), app swap (ship-it).
+- **Related:** docs/adr/0027-time-maps.md
+
+---
+
+## 2026-11-26 16:26 EAT — MUNGURA — Juju: lean into data niches (finance, tax, debt, states, wars); Juju Ear gets music options; app must allow design/colours/reference/name
+- Harness: Claude Code (claude-opus-5-5), lead. Topics: juju
+- **Changed:** ADR 0027 items 85-87.
+- **Why-verdict:** Ambi on tm-africa-28 (empty 2300-2200 BC): hard mode, not a strength.
+- **Status-open:** finance data shelves to Worlds 2; Ear music options to Make Doors; app checklist to ship-it.
+- **Related:** docs/adr/0027-time-maps.md
+
+---
+
+## 2026-11-26 16:12 EAT — MUNGURA — Juju: factory laws: every land named, modern lines over not instead, one regional track per film (Music Ear)
+- Harness: Claude Code (claude-opus-5-5), lead. Topics: juju
+- **Changed:** ADR 0027 items 80-83.
+- **Why-verdict:** Ambi on a 1177 SE Asia frame (unnamed lands, Khmer unnamed) and on sound (two songs in one film, orchestra for everything). Measured: beds.json all European concert music; tmsound picks bed by act. Blacksite process found: research/runs/sound (Openverse/Freesound + listener score + picks with licence); music from BG MZK folder (YouTube Audio Library + Epidemic ES_).
+- **Status-open:** labels + overlay to Time Map; label check to Stack Proof gate; Music Ear to Make Doors after pulse.
+- **Related:** docs/adr/0027-time-maps.md, juju-maps/beds/beds.json
+
+---
+
+## 2026-11-26 16:01 EAT — TEHUTI — Juju Door: niche Pulse, weekly YouTube scout by cron, video lookup for Bend
+- Harness: Claude Code (claude-opus-5-5), lane C. Topics: juju
+- **Changed:** apps/door. The new `pulse` shared list holds one row per niche in use, taken from the channels list (`niche` and `niche_words`). Only the scout writes it; the phone reads it. An hourly cron scouts up to 8 niches whose Pulse is a week old, at 102 units each (1 search, 1 videos, 1 channels) under the Door's own ceiling of 9,000 a day. It keeps outliers (3x or more of the channel's own average) and flops (0.25x or less) with title, channel, thumbnail, views and date, for this year's videos, Shorts left out. Also added: GET /v1/youtube/video?id= (id or link) for Bend, and the YouTube key steps in KEYS.md. Deployed d26acfa9, branch door/cloudflare 8afa9a7.
+- **Why-verdict:** docs/APP-FLOW-3.md part 2, Mac off. Measured: unit 34/34; test.mjs 38/38 live, 3 runs; the cron fired locally. With no YOUTUBE_KEY, /v1/health says "needs a YouTube key".
+- **Status-open:** Ambi makes the YouTube key (KEYS.md) and puts it with secret put YOUTUBE_KEY. scripts/door-keys.sh (the lead's) needs YOUTUBE_API_KEY→YOUTUBE_KEY in its map. Channel rows must carry niche and niche_words.
+- **Related:** apps/door/src/youtube.js, apps/door/KEYS.md, runs/door/live-test.txt
 
 ---
 
