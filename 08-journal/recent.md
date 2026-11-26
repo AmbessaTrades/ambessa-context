@@ -1,6 +1,323 @@
 # Juju day log, newest first
 
-Rebuilt 02:43 EAT, Thu 26 Nov 2026. Only entries whose title names Juju. Times are EAT (UTC+3). Logged by agents: evidence of what they report, not proof. Where two entries disagree, the later one wins and the older stays.
+Rebuilt 04:46 EAT, Thu 26 Nov 2026. Only entries whose title names Juju. Times are EAT (UTC+3). Logged by agents: evidence of what they report, not proof. Where two entries disagree, the later one wins and the older stays.
+
+---
+
+## 2026-11-26 04:43 EAT — TEHUTI — Juju time maps: the US states film now draws on the shared path; find moment and zoom sizes built
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** timemap.py: a "given" land source (films/NAME/land.json from another chain), per-stop bodies, tricks, dive cameras and battle rings from the story, a clock fix for sharp speed changes, pull backs never wider than the film's home view, find pictures made into PNGs. Engine: find moment (line, picture with rim and shadow, caption, dim line), sizes by zoom and weight, bodies marching in file, blast trick, closed travel outline. states/statemap.py: film_us hands its land and stops to timemap.py (handoff); --own-path keeps the old drawing; Canada and money untouched. timemap/CONTRACT.md: layer order, fractional years, new fields.
+- **Why-verdict:** films/st-us/a.mp4 360.9 s, run 193 s; clock ok (worst change 3.94); 57 of 64 shots pass; the Fort Sumter dive is sharp with islands and harbour. Judged 6 of 10.
+- **Status-open:** Hawaii 1898 and 1959 stops dark and tiny; Alaska 1959 drawn as a round blob; 7 cession shots too small; the dive's second card dropped; Africa waits for the Dates lane.
+- **Related:** films/st-us/run.json, land.json, story.json; juju-maps/states/statemap.py handoff()
+
+---
+
+## 2026-11-26 04:34 EAT — TEHUTI — Juju Roots round three: checked extents and areas for the first states, Mali added
+<!-- type: event -->
+**From:** TEHUTI
+
+- Harness: Claude Code (claude-opus-5-5)
+- Changed: roots/extent.py (extent and area tagger; ends placed from GeoNames CC BY 4.0, Pleiades, p3k14c, gazetteer, Natural Earth shores); book/africa/extents-lead.json (18 extent rows chosen by reading); 18 Cliopatria area rows; Mali state row; check.py round-three bar.
+- Why-verdict: the Dates lane drew states too small (Aksum 0.05). Code-only tagging was about half wrong (Ghana Gold Coast, footnote years), so its finds stay as unchecked candidates; the 18 checked rows place 37 of 39 ends. check.py TRUE; planted fault (Aksum extents removed) fires. No paid calls.
+- Status-open: no km2 sentence in GHA; Sibiridugu and Birni Kafela unplaced; Dates lane session not running, note left in roots/HANDOFF-to-dates.md.
+- Related: juju-maps/dates/HANDOFF-to-roots.md
+
+---
+
+## 2026-11-26 04:27 EAT — TEHUTI — Juju Africa map: Roots fixes pass, states sized to sources, Africa film at 6.5/10
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju Africa map: Roots fixes pass, states sized to sources, Africa film at 6.5/10
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 31bfe4d9)
+- Roots: check.py passes after fixing Carthage (now 814 to 145 BC, no era-less centuries) and D'mt (passages stored word for word). Added 14 dated state ends and 20 placed holds; nothing guessed, unplaced holds stay in queue.json.
+- Time Map: Egypt keeps its purple from 658 BC, the Fatimid colour gap and label collisions were fixed, and the 12-minute Africa film was redrawn at 6.5/10 (up from 6). Turncheck is down to one FAIL (655 BC, same holder).
+- Dates and Reach: states are capped by the highest-ranked source's stated extent, not the Cliopatria cap. Average size gap fell from 0.97 to 0.23 on a log scale over 21 states; 27 of 27 tests pass.
+- Open: Fatimid colour still close to the prior ruler, Kush label and an empty view at 8:00, Egypt's 658-616 BC shape, and Aksum, Kush and Wagadu drawn far below source size until the world book places their named ends.
+- Files changed: juju-maps/films/tm-africa-long/a.mp4; juju-maps/dates/draw/africa-roots.geojson; juju-maps/dates/work/stills3/sheet2.png
+- Status: in-progress — Roots check passes and the new size rule is tested, but the redrawn Africa still needs world-book placements before state sizes match their sources.
+
+---
+
+## 2026-11-26 04:26 EAT — TEHUTI — Juju time maps: Africa turn colours pass, dive coasts follow the real shore
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** timemap.py: farthest OKLab colour for own powers too; a pass that keeps every successor on a turn land 14 OKLab from the holder before it across families; a freed land takes its own rulers' last sourced shape (not the modern outline). Engine: a name is hidden where a later land covers its anchor; in a dive (under 6 degrees) a land reaches the true 10 m coast within 0.12 degrees of its outline.
+- **Why-verdict:** films/tm-africa-long/a.mp4 697.4 s, run 308 s; turncheck FAIL 1 (655, same holder, no drawn change); flips 22 of 23. Fort Sumter dive: Sullivan's and James Island now coloured, harbour mouth reads.
+- **Status-open:** find moment and sizes with zoom not built; States asks 2-6; 8:00 rest view still thin; Dates lane's ranked sizes equal the last round until Roots places the named ends.
+- **Related:** films/tm-africa-long/run.json; films/st-us (dive at 190-221 s); data/timesets/relief/9, /10
+
+---
+
+## 2026-11-26 04:18 EAT — TEHUTI — Juju dates: Cliopatria is no longer the hard cap; the highest-ranked source sets a state's size
+- Harness: Claude Code (claude-opus-5-5), Juju dates worker. Topics: juju
+- **Changed:** reach.rs size_speakers: caps and extent holds rank by rules.json; a compiled set caps only where nothing higher speaks, and its border is not drawn in a year it is outranked; sizes more than 1.5x apart give one short note; dates/draw/africa-roots.geojson rebuilt.
+- **Why-verdict:** lead 05:55 on ADR 0028 (Cliopatria is one outside compilation). 27/27 tests; the new test fails when the compiled set is ranked first. Today's map unchanged: only Garamantes and Nubia have extent holds and neither has a Cliopatria cap.
+- **Status-open:** extent ends need Roots' gazetteer (the Delta, First Cataract, Mediterranean, Semna) and extent tags; asked in dates/HANDOFF-to-roots.md.
+
+---
+
+## 2026-11-26 04:11 EAT — TEHUTI — Juju dates: Africa's states sized against their sources
+- Harness: Claude Code (claude-opus-5-5), Juju dates worker. Topics: juju
+- **Changed:** juju-dates measure (computed vs Cliopatria area on one ground); caps (a state never drawn past its source's shape of that year); rules.json state_reach kingdom 2.0, empire 2.5, only for states a source sizes; a border yields only to a row sited inside it; extent sentences' named ends become holds; dates/draw/africa-roots.geojson rebuilt (386 features) from Roots' fixed book.
+- **Why-verdict:** Ambi: Africa's states look tiny. Measured on 21 states: mean |log ratio| 0.97 -> 0.23, over source 8 -> 0, under half 8 -> 2 (Aksum 0.05, Kush 0.26). 26/26 tests incl. a cap law with a planted fault.
+- **Status-open:** extent tags and named-end places asked of Roots (dates/HANDOFF-to-roots.md); Kongo and Asante stay at Cliopatria's size until a source says larger.
+- **Related:** juju-maps/dates/work/size-table.md, work/stills3/sheet2.png; runs/decision.tsv rows 446-447.
+
+---
+
+## 2026-11-26 04:03 EAT — TEHUTI — Juju time maps: Africa keeps Egypt's own colour, banners, estimate notes and a sharp dive ground
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** timemap.py: a sourced "freed" turn cuts the outside holder from that year until the set draws the own row (Egypt 658 BC back in its purple); Dates round two read (114 polities); banners from time-banners.json; estimate note (one in two minutes, under the year); land-less stops framed 35 degrees with the lands near them. Engine: foot cloth woven to the clock hand, head hair line with walkers of their years, note drawing, dive ground (zoom 9 relief + 10 m coast) for views under 6 degrees; 430 free relief tiles fetched for Fort Sumter and the Klondike only.
+- **Why-verdict:** films/tm-africa-long/a.mp4 697.2 s, run 336 s; turncheck FAIL 2 (655 same holder; 969 Fatimids 11.8 against 12); flips 22 of 23; shots 105 of 108. Judged 6.5 of 10.
+- **Status-open:** 8:00 rest view still bare; "Kush" label on Assyria at 663 BC; Egypt 658-616 BC clipped to the modern outline; find moment and sizes with zoom not built; dive harbour still blocky (region coast comes from the cell grid).
+- **Related:** films/tm-africa-long/run.json, check.json; data/timesets/relief/9, /10; stack/systems/time-banners.json
+
+---
+
+## 2026-11-26 03:59 EAT — TEHUTI — Juju Roots: eraless centuries refused, passages kept as printed, Carthage and D'mt fixed
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju Roots: eraless centuries refused, passages kept as printed, Carthage and D'mt fixed
+- Harness: Claude Code (auto-log by claude-haiku-5-5, SessionEnd, session 627f03d6)
+- Ambi asked to fix two faults: Carthage drawn to AD 500 from an era-less 'fifth century', and D'mt refused over 'cerqos' vs 'çerqos'. Then quick wins from the holds, attestations and takings with no dated end.
+- Done: the era reader gives no year for a century with no BC/AD unless the passage or nearby page text says which era. Carthage now runs 814 to 145 BC. D'mt keeps 'Çerqos' as printed.
+- Done: 14 states got dated ends from the Cliopatria dataset, and 20 more hold places were placed. Unresolved holds stay in book/africa/queue.json; nothing was guessed.
+- Verified: check.py prints TRUE. Two new guards fail on an era-less century or a passage not found word for word on its page. Numbers: 264 holds, 237 placed, 99 states with a dated hold.
+- Lane message sent to the Dates lane. Open: the 50 attestations and 37 takings with no dated end are not shown as finished in this session.
+- Files changed: juju-maps/roots/roots.py; juju-maps/roots/check.py; juju-maps/roots/book/places.json; juju-maps/roots/book/africa/queue.json
+- Status: in-progress — both faults fixed and check.py TRUE; attestation and taking end-dates not confirmed done
+
+---
+
+## 2026-11-26 03:58 EAT — TEHUTI — Juju Roots: eraless centuries refused, passages kept as printed, Carthage and D'mt fixed
+<!-- type: event -->
+**From:** TEHUTI
+
+- Harness: Claude Code (claude-opus-5-5)
+- Changed: roots.py era reader refuses a century with no BC/AD unless the passage or about 600 letters of page around it say which; book passages stored as the page prints them (diacritics, case); short lead passages widened; Cliopatria years added as data claims for 14 states; 20 more sites placed; check.py gains both checks.
+- Why-verdict: Dates lane found Carthage drawn to AD 500 and D'mt refused for cerqos vs Çerqos. Now Carthage -814 to -145, D'mt passes; check.py TRUE; both planted faults fire. Holds 264, placed 237, 99 polities drawable. No paid calls.
+- Status-open: queue still holds unplaced and undated holds; Dates lane told by message.
+- Related: juju-maps/dates/HANDOFF-to-roots.md
+
+---
+
+## 2026-11-26 03:52 EAT — TEHUTI — Juju Africa map: 12-minute film now 6/10, world book rebuilt from dated sources
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju Africa map: 12-minute film now 6/10, world book rebuilt from dated sources
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 31bfe4d9)
+- Ambi asked for a 12-minute Africa that shows the land. Redrawn film judged 6 of 10 (was 5). Turn check fails 1 flip (was 5), and 21 of 23 flips show on drawn frames.
+- Africa world book rebuilt from dated sources: 232 places become 216 map shapes, 95 after 1500. All 25 tests pass and the frozen fixture is untouched. A slip overwrote a test file; restored from the GitHub save.
+- Story fixes done for under 1 cent: five ruler names corrected with quoted sources, closing line added (true but weak), draft title 'Africa Holds Its Land To About The Year 1350' left for Ambi.
+- Still open: most of Africa is near-empty because states are too small (true extents not built yet), the Egypt-orange colour fix is not on screen, and the title and closing line need Ambi's call.
+- Two-ground split for Night and Day (drawer for wide views, plain globe up close) is written up in GROUNDS.md as a candidate. Waiting on Ambi's yes/no and the name pick (Juju Ardhi).
+- Files changed: juju-maps/films/tm-africa-long/a.mp4; juju-maps/dates/draw/africa-roots.geojson; juju-maps/films/tm-africa-long/NEXT.md; juju-maps/films/_data/time-type/lab/turncheck.py; juju-maps/stack/GROUNDS.md
+- Status: in-progress — Africa redraw judged 6/10; state extents, colour fix and Ambi's decisions still open.
+
+---
+
+## 2026-11-26 03:50 EAT — TEHUTI — Juju dates round two: Africa's land rebuilt from 817 Roots rows into dates/draw
+- Harness: Claude Code (claude-opus-5-5), Juju dates worker. Topics: juju
+- **Changed:** door.py reads Roots' new site holds (taken/start/lost/end/span/within; reach and ruler open a stretch from their year); another state's dated taking ends a site; borders never written into a frozen fixture; juju-dates build --drop-refused (a refused row is dropped and named, the rest drawn); rules.json site_holder (newest dated change holds a site) and notes only where sources of different kinds disagree.
+- **Why-verdict:** dates/draw/africa-roots.geojson = 216 features, all kept by the engine's reader; held-year frames show Persia 520/460 BC, Kemet free 400 BC, Persia again 336 BC, Kerma, Garamantes, Songhay 1500, Kongo, Asante 1730. 25/25 tests, fixture untouched.
+- **Status-open:** Roots fixes in juju-maps/dates/HANDOFF-to-roots.md (D'mt letter, Persia c0 short passage, Carthage 5th century coded AD); engine lane told.
+- **Related:** juju-maps/dates/work/stills2/sheet.png, persia.png; runs/decision.tsv rows 443-444.
+
+---
+
+## 2026-11-26 03:43 EAT — TEHUTI — Juju time maps: 12 minute Africa redrawn, turn check FAIL 5 to FAIL 1
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** timemap.py reads dates/draw/*.geojson (estimate edge hatched), kept row names (data/timesets-names-africa.json) + fix rows of kind "name", outside colours picked farthest in OKLab from the theme's own list, continent pull back at most every 90 s outside chains, end on the whole continent with every place lit; engine: 2 px dark rim on outside lands, morphs about ten clock years centred on their year, near filter for rest views.
+- **Why-verdict:** films/tm-africa-long/a.mp4 696.7 s, drawn in 196 s; turncheck FAIL 1 (655: same holder, no drawn change), flips 21 of 23, judged 6 of 10. Kerma, Kush, Aksum, Palmyra, Sosso and Mali now have land.
+- **Status-open:** bare rest views at 4:40, 8:00, 10:00; two pull backs 97-100 s apart inside chains; type 1.1 banners, estimate note, find moment, sizes with zoom; states asks (dive ground needs zoom 9-10 tiles not on disk).
+- **Related:** films/tm-africa-long/run.json, check.json; data/timesets-fixes.json; stack/systems/themes/*.json succession
+
+---
+
+## 2026-11-26 03:38 EAT — TEHUTI — Juju 12-minute Africa film: pull-backs, dated shapes, palette and end fixes; full redraw still running
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju 12-minute Africa film: pull-backs, dated shapes, palette and end fixes; full redraw still running
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 6a09db7f)
+- Ambi asked for the 12-minute Africa film to show more than Egypt: add the Dates lane's 36 shapes, pull back to the continent at least every 90 s, and end on the whole continent with a closing line.
+- Done in code: timemap.py now reads dates/draw/*.geojson; scene.rs morph timing changed; rest view fits the nearby lands; continent pull-back interval set to 62 s; ending uses a fixed whole-continent camera.
+- Outside-power colours now spaced by OKLab distance (Persia and Rome were 91 apart in RGB, 8.8 in OKLab); a 2 px dark rim keeps outside lands in one colour family.
+- Stories lane's name fixes (Ayyubids, Ptolemies, Mamluks, Seleucids, Normans of Sicily) and closing line were applied in the draw. Earlier 240p draw: 748.6 s, $0.0002 measured spend.
+- Still open: the final full draw was running at the end of this part; the turncheck.py PASS and a frame read of the new draw have not been run yet. States-lane close-up request not started.
+- Files changed: juju-maps/timemap.py; juju-maps/timemap/src/scene.rs; juju-maps/timemap/src/draw.rs; juju-maps/timemap/src/fit.rs; juju-maps/films/tm-africa-long/a.mp4
+- Status: in-progress — full 12-minute Africa redraw running; turn check (PASS needed) and frame read still pending
+
+---
+
+## 2026-11-26 03:36 EAT — TEHUTI — Juju Roots round two: Persia, late Egypt, Garamantes, Aksum, D'mt and 1500-1880 Africa as dated holds
+<!-- type: event -->
+**From:** TEHUTI
+
+- Harness: Claude Code (claude-opus-5-5)
+- Changed: juju-maps/roots: 10 more GHA readers (vols II, V, VI; line anchors, code cuts the words); pharaoh.se dynasties 25-31 (CC BY); Fazzan radiocarbon; Black Athena (Bernal own words, Lefkowitz, Wilson Quarterly critique) shelved; each polity now carries holds (site, place, dated claim, passage).
+- Why-verdict: the dates lane draws only from dated holds. Book 817 rows, 98 polities with a placed dated hold (236 holds, 170 after 1500). Persia in Egypt 525-404 and 343-332 BC (GHA prints -341); 25th Dynasty takes Thebes and Memphis about 752 BC; D'mt dated through the south Arabian period (5th-4th c. BC). check.py TRUE; a hold whose place is not in its passage now fails it. Spend 0.
+- Status-open: Sais dated only within the Late Period; 1018 queue items; Bernal read only as a reading, colonies in India still unsourced; nothing committed.
+- Related: juju-maps/dates/README.md, REQUESTS-roots.md
+
+---
+
+## 2026-11-26 03:27 EAT — TEHUTI — Juju time maps: 12 minute Africa gets name fixes, a quoted end, a title that fits its span
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju time maps: 12 minute Africa gets name fixes, a quoted end, a title that fits its span
+- Harness: Claude Code (claude-opus-5-5)
+- What happened: Harness: Claude Code (claude-opus-5-5). Topics: juju.
+**Changed:** data/timesets-fixes.json gets 5 rows of kind name, each quoted: Ayyubids, Ptolemies, Mamluks, Seleucids, Normans of Sicily. tm-africa-long/story.json: end.lines "Kilwa is wealthiest / Zimbabwean gold made Kilwa the wealthiest of all", quoted from OpenStax 15.2; film_title "Africa Holds Its Land To About The Year 1350" (a draft).
+**Why-verdict:** the label "Aleppo" is not in this lane's files (the names file already says Ayyubids); the name row overrides it. A second try at the end lines said "Kilwa holds the land", which is false, and was refused.
+**Status-open:** check TRUE, turns 23 of 23. Spent 0.0065 of the allowed 0.05 (DeepSeek total 0.704). The engine lane has been told.
+- Status: complete
+
+---
+
+## 2026-11-26 03:14 EAT — TEHUTI — Juju: dated-land engine passes 25/25 tests, 12-min Africa story built, state films and worlds drafted
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju: dated-land engine passes 25/25 tests, 12-min Africa story built, state films and worlds drafted
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 31bfe4d9)
+- Ambi asked that every border come from dated sources in code: no source, no land, and carbon dates kept as ranges. juju-maps/dates passes 25 of 25 tests, and planted faults fail as they should.
+- Roots shelf: 80 open sources across 13 regions, each saved word for word with a receipt; 12 refused, Native Land out on its terms. check.py prints TRUE; Africa before 1000 BC now holds Kemet, Ta-Seti, Kerma and Punt.
+- 12-minute Africa story: 55 stops over about 12.5 minutes, 23 of 23 ruler changes on screen, all checks pass. Not yet drawn by the engine. Night round two marked 4.5 and 4, so further Night spending is held.
+- US states (6.5 min) 5.5, Canada 5, which states make the money 5.5, all about 2 cents total. The Canada borders are copyrighted and would need Toronto's permission to publish. Dates checked 10 of 10 against pages.
+- Worlds: Atlantis marked 7, the strongest simulation so far. Green Sahara marked 5 and held: it uses made-up peoples where real cultures are known from digs, so Ambi must decide. Juju Time Stories exit check still FALSE.
+- Files changed: juju-maps/dates; juju-maps/roots/check.py; juju-maps/films/tm-africa-long/story.json; juju-maps/films/st-us/a.mp4; juju-maps/films/w-atlantis/a.mp4; docs/adr/0029-world-book.md
+- Status: in-progress — dates engine and Africa story done and checked; Night, Kinds and Green Sahara still below bar or awaiting Ambi's decision
+
+---
+
+## 2026-11-26 03:14 EAT — TEHUTI — Juju time maps: 12 minute Africa drawn with turn chains, row fixes and the clear page
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** juju-maps/timemap.py (story turns become chain stops, chains split at 30-year gaps, must stops never dropped, data/timesets-fixes.json drawn with cut/clip, Roots FINDS rows kept with hatched edge, places-lit counter, flip probe on the final clock); timemap/src (key cut/clip, --probe same camera no letters 3 degrees, type 1.1: no head scrim, year alone 56 px at 118, tide line in the foot y 1040-1070 that never vanishes, chart-forward boxes, measure only when it moves 5 points, at most 3 names at rest, lit dots; single-frame calls skip the draw lock); CAMERA.md, README.md.
+- **Why-verdict:** films/tm-africa-long/a.mp4, 748.6 s, drawn in 272 s at 240p; 18 of 23 flips seen on pixels, 98 of 100 shots pass. Judged 5 of 10: Egypt's chain reads well 4:20-9:40; empty ground at 1:20, 2:00, 3:00, 10:20, 12:00; the rest of Africa barely shows.
+- **Status-open:** 5 flips without a drawn change listed in run.json; outside reds too close (619, 692, 1250); type 1.1 banners, estimate note, find arrival, sizes by zoom not built; Roots reach-from-sites and routes not built; Dates shapes not read yet.
+- **Related:** films/tm-africa-long/run.json, check.json; data/timesets-fixes.json (Stories); roots/REQUESTS-roots.md
+
+---
+
+## 2026-11-26 03:14 EAT — TEHUTI — Dates and land crate for juju-maps passes its full test bar, 25 of 25
+<!-- type: event -->
+**From:** TEHUTI
+
+Dates and land crate for juju-maps passes its full test bar, 25 of 25
+- Harness: Claude Code (auto-log by claude-haiku-5-5, SessionEnd, session a97dabc6)
+- Ambi's bar: plain `scripts/heavy cargo test` in juju-maps/dates must pass. It now passes 25 of 25 tests (receipt in work/receipt/cargo-test.txt).
+- Dates keep what the source printed and give a 68% and 95% range, never a single year. A radiocarbon age older than the 55,000-year curve is refused.
+- Planted-fault checks fail as they should: land with no row, a hold with no date, a single year shown for a range, a made-up row, a passage not in its page.
+- A Ta-Seti test was added for Wadi Halfa in 3100 BC. Putting the old river cost (0.3) back made the test fail, so it catches the bug. The rule was restored to 0.5.
+- Open: Marine20 has no published check yet. Kakapel passes within 1 year but on IntCal20, while the paper says SHCal20 and the numbers do not match.
+- Files changed: juju-maps/dates/tests/roots.rs; juju-maps/dates/rules.json; juju-maps/dates/.gitignore
+- Status: complete — full cargo test bar passes 25 of 25; Marine20 check and Kakapel curve mismatch still open.
+
+---
+
+## 2026-11-26 03:11 EAT — TEHUTI — Juju Maps grounds: globe vs drawer measured, division proposed for Night and Day
+- Harness: Claude Code (claude-opus-5-5), design sub-agent. Topics: juju
+- **Changed:** new juju-maps/grounds/ (views, make.py, lines.py prototype, plain-night look, stills, moves, blind read) and juju-maps/stack/GROUNDS.md. No edit to timemap/src, record.mjs, storyboard3, systems, looks or golden. Four free terrarium tiles (z6, Sumatra) added to cache/terrarium.
+- **Why-verdict:** candidate division: drawer + exact lines (lights, rivers, lakes, towns) for views 4 deg and wider; globe with plain look (no satellite photo) for close and low views; smooth toggle ground: classic|smooth, classic default. Measured: plain globe 34.7 s vs 319 s per 20 s at 480p; drawer 33.8 s. Blind (2 Haiku, weak): plain globe 5/8 sits with gold.
+- **Status-open:** one camera law for both grounds; Rust port of lines.py into the drawer; a pixel check in golden.py; trench needs a sea depth ramp. golden.py check: istanbul and po3 the same. Names for the drawer are Ambi's choice.
+- **Related:** docs/adr/0027 items 17-18; juju-maps/grounds/stills/SHEET-480.jpg
+
+---
+
+## 2026-11-26 03:09 EAT — TEHUTI — Juju dates: carbon dates and sourced rows now compute who held which land, year by year
+- Harness: Claude Code (claude-opus-5-5), Juju dates worker. Topics: juju
+- **Changed:** new Rust crate juju-maps/dates (juju-dates): radiocarbon calibration on IntCal20/SHCal20/Marine20 with 68/95% ranges; OSL, U-series, K-Ar/Ar-Ar, tree rings, king-list counts, spans, tradition counts through one door; land computed from dated site rows over the ground (deserts and slopes slow it, rivers and coasts carry it, sea stops it); sourced borders (Cliopatria) win where present; one rule file (rules.json) decides disputes, own account and dated finds first; door.py bridges the Roots world book (194 dates, 94 holds, 76 places, 0 refused) and writes the drawer's shelf form (dates/draw/africa-roots.geojson, 36 features, all kept by timemap.py's own reader).
+- **Why-verdict:** Ambi 26 Nov 02:35 "solid in code ... true to indigenous accounts and carbon dating". Published calibrations matched (Cajamarca within 2 yr, Great Zimbabwe within 5, Kakapel within 1 on IntCal20). Laws hold with planted faults failing: no land without a dated sourced row, no holder change without a dated row, no year sharper than its range, a tradition never shown as a date nor drawing land, a made-up row refused. Persia holds Egypt 520 BC, Egypt itself 400 BC (hand fixture; the Roots book has no Persia row). Kerma 2000 BC from Roots rows.
+- **Status-open:** engine lane needs one glob (dates/draw/*.geojson) beside roots/draw; Roots gaps: Garamantes start, Persia, Egypt after 1080 BC, Axum outside AD 300-400; Marine20 has no published check yet; crate untracked in the juju-maps repo.
+- **Related:** juju-maps/dates/README.md; films juju-maps/dates/work/film-roots-slow/dates-240.mp4, work/film-persia; runs/decision.tsv rows "dates".
+
+---
+
+## 2026-11-26 03:07 EAT — TEHUTI — Juju Africa timemap: engine row-fix and turn-probe work, 12-minute film drawing
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju Africa timemap: engine row-fix and turn-probe work, 12-minute film drawing
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 6a09db7f)
+- Ambi's Persia critique: turn stops must stay on the land with the flip colour and holder name. Done: row fixes from Stories' timesets-fixes.json are cut and drawn in the engine, and the flip probe uses one camera with no letters.
+- Probe result before the timing fix: 24 of 36 flips seen, and the 12 unseen turns have no drawn change at that year. That list goes to Stories for year rows. A later plan run's count is not in the transcript.
+- Lead's order: draw tm-africa-long (748 s, 55 stops) as one film with turn chains and the row fixes. A counter of places lit was added. Plan run showed 15 of 23 flips before the probe-timing fix.
+- Still open: the 240p draw was still running at the end of the transcript. Frames are not yet read by eye, and the mark and faults by the second have not been sent to the lead.
+- Files changed: juju-maps/timemap.py; juju-maps/timemap/src/scene.rs; juju-maps/timemap/src/draw.rs; juju-maps/timemap/src/main.rs; juju-maps/timemap/README.md; juju-maps/films/tm-africa-long/story.json
+- Status: in-progress — engine fixes built and tested on fixtures; 12-minute Africa film still drawing and not yet checked by eye
+
+---
+
+## 2026-11-26 03:06 EAT — TEHUTI — Fixed outline bug in Juju reach code and bridged Roots' Africa book into the date engine
+<!-- type: event -->
+**From:** TEHUTI
+
+Fixed outline bug in Juju reach code and bridged Roots' Africa book into the date engine
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session a97dabc6)
+- Ambi asked for the reach example to be built from Roots' Africa book rows (Kemet, Ta-Seti, Kerma, Punt, Kush, Napata, Aksum, Carthage, Garamantes), not a fixture: 'Go on.'
+- Fixed an outline ring-orientation bug in reach.rs: real outlines were dropped and only holes survived. Removed the wrong reversal; a new outline test confirms it. 20 tests pass in release.
+- Bridged Roots' book.json into the crate's row form: 132 dates, 95 holds and 3 borders pass every law with 0 refused. Each book now writes its own borders file.
+- Changed the river factor 0.3 to 0.5 in rules.json, logged via scripts/decide, because Kemet reached Kerma in 3100 BC past Ta-Seti. Great Zimbabwe now 1197-1557 against Roots' 1187-1557.
+- The engine's shelf reader keeps all 36 features from the new shelf file. Films drawn for the fixture, Roots dense clock and Roots slow -2200 to -1500 BC. Open: the final debug test run and README section 5 check.
+- Files changed: juju-maps/dates/src/reach.rs; juju-maps/dates/src/source.rs; juju-maps/dates/rules.json; juju-maps/dates/door.py; juju-maps/dates/tests/outline.rs; juju-maps/dates/README.md; juju-maps/dates/draw/africa-roots.geojson; juju-maps/dates/fixture/africa-roots.json
+- Status: in-progress — outline fix and Roots bridge verified; final debug test run and last film check still pending
+
+---
+
+## 2026-11-26 03:01 EAT — TEHUTI — Juju time maps: first three state films (US, Canada, America's money) at 240p
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju time maps: first three state films (US, Canada, America's money) at 240p
+- Harness: Claude Code (claude-opus-5-5)
+- What happened: Changed: new chain juju-maps/states/statemap.py (its own copy beside timemap.py; the engine's Rust code was not touched) plus shp.py. It reads US states with their dates (Newberry, any lawful use), Native land cessions (Royce/USFS, CC BY 4.0), Canada's borders (Toronto atlas, copyright, review only), Canada's treaties (OGL) and BEA income by state. It draws films/st-us, st-canada and st-money. Five rows were added to data/timesets.json. Engine wishes are in timemap/REQUESTS-states.md. A country list is in states/COUNTRIES.md. Why/verdict: time maps can show states; Native land is a grid on top of the states and territories; at each stop the year creeps forward so the change happens on screen; wars run through their years with battle rings; dives work at Fort Sumter and the Klondike, but the ground blurs. Status/open: the card words are thin; the dive ground is blurred; the Métis are not in any set; the Canada borders need permission before publishing. Related: ADR 0027 items 17 to 24.
+- Files changed: juju-maps/states/statemap.py; juju-maps/states/shp.py; juju-maps/states/COUNTRIES.md; juju-maps/states/DATES-CHECK.md; juju-maps/timemap/REQUESTS-states.md; juju-maps/data/timesets.json; juju-maps/data/timesets/states/
+- Verification: ffprobe: 382.6 s, 357.8 s and 248.7 s, all h264+aac at 426x240, around -17 LUFS. I read frame sheets at one frame every 4 s for all three. Ten dates matched a page each (states/DATES-CHECK.md). The model cost 0.021 US.
+- Status: complete: three playable 240p films; first takes for Ambi's critique
+
+---
+
+## 2026-11-26 02:58 EAT — TEHUTI — Juju time maps: Roots world book merged into the 12 minute Africa
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju time maps: Roots world book merged into the 12 minute Africa
+- Harness: Claude Code (claude-opus-5-5)
+- What happened: Harness: Claude Code (claude-opus-5-5). Topics: juju.
+**Changed:** tm-africa-long/story.json now has 55 stops over 741 s (Measured), 15 of them before 1000 BC. 18 rows come from the Roots world book (facts/roots-africa.json, 18 of 21 rows used): Kemet's Archaic, Old, Middle and New Kingdoms with both Intermediate Periods, Ta-Seti, Kerma, Nubia under the 12th dynasty, Kush, Punt and the sea road to it, Napata, Carthage (traditional date) and Rome's landing, Meroe's Ergamenos, the Garamantes, and Aksum's coins. Each row was re-proved word for word against Roots' saved page. Roots' marks (dug, later, record, tradition) and dispute notes are kept as they are (6 notes). The turn stops are worded by the pen; 8 are flagged wrong by their pages and marked argued.
+**Why-verdict:** check TRUE; turns 23 of 23 on screen. D'mt is not in the book; 3 rows were dropped (an Aksum row whose quote is about a 1906 dig, Adulis, and a second Carthage).
+**Status-open:** spent DeepSeek 0.698 (0.109 of the 0.30). The engine shows 24 of 36 flips on tm-africa; the 12 unseen are years where the drawn set has no change (its receipt: films/tm-africa/check.json flips). tm-output still has one 39 s gap. Titles are drafts for Ambi.
+- Status: complete for the merge; flips the set cannot draw remain open
+
+---
+
+## 2026-11-26 02:49 EAT — TEHUTI — Juju Worlds: a sentence in, a simulated world out; three 240p films
+- Harness: Claude Code (claude-opus-5-5), worker of the worlds lane. Topics: juju
+- **Changed:** juju-maps/worlds.py (frame, ground, book with attack and mend, simulation, words, time.json, story.json, film), juju-maps/worlds/ (Rust: ground, sim, plates; speed.py, exit.py, README), data/worlds (sea curve, rain, lakes, Plato's text, plate model), stack/formats/worlds.json (rules and inks), stack/worldideas.json (40 ideas), timemap/STORY-NOTE.md (asks to the engine).
+- **Why-verdict:** Ambi wants a world from one sentence, and the lead wanted Atlantis first and "simulated" to be true. The history now comes from a seeded simulation (food, reach, war, revolt, trade, ships, drowning). The model sets only the start and words what happened. Films: films/w-atlantis/a.mp4, films/w-green/a.mp4, films/w-bridge/a.mp4, each 150 s at 240p; frame sheets looked at.
+- **Status-open:** paid 0.653 US (DeepSeek), GLM 0. Head counts in the three films run 3 to 10 times higher than HYDE, so those films are pinned (pin.json) and new worlds use 0.2. A sim at 4 threads runs 5.5 to 22 s depending on load. Lake levels were not read again (PNAS 403). Alternate history from the record's borders is not built. Deep time: a reader and a still only. Nothing committed (juju-maps is an embedded repo).
+- **Related:** juju-maps/worlds/README.md; python3 juju-maps/worlds/exit.py
+
+---
+
+## 2026-11-26 02:46 EAT — TEHUTI — Juju time maps: turn stops got sourced words, six titles under 58 letters, Asia pocket done; predicate still FALSE
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju time maps: turn stops got sourced words, six titles under 58 letters, Asia pocket done; predicate still FALSE
+- Harness: Claude Code (auto-log by claude-haiku-5-5, SessionEnd, session 2589b416)
+- Ambi asked: turn stops get real words from inside the land, quote-checked; then titles under 58 letters; then the Asia pocket; feed test only if money is left.
+- Turn stops: 21 of 28 Africa stops now have a second line backed by a saved-page quote; 7 are title only. The writer found 7 dates wrong and marked them 'argued' with the doubt written on the stop.
+- Titles: six candidates per film, judged blind by three strangers against 36 real titles. Each title is under 58 letters. The world-output title lost to the real ones. Weak evidence: the comparison set was not the same subject.
+- Spend: $0.084 of the new $0.30 used on four jobs. Exit predicate is FALSE: 5 of 6 stories pass check; the world-output film fails on one long gap. South America waits for Roots.
+- Still open: fix the world-output film's long gap, the 7 title-only stops, and the feed test (not run; money held back).
+- Files changed: juju-maps/timestory.py; juju-maps/data/timesets-fixes.json; juju-maps/films/_data/time-stories/series/tm-asia.json
+- Status: in-progress — exit predicate FALSE: 5 of 6 stories pass; world-output film fails one long gap, $0.216 of the $0.30 left unspent
 
 ---
 

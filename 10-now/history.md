@@ -4,6 +4,93 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 
 ---
 
+# Sheet of 04:46 EAT, Thu 26 Nov 2026
+
+## Changed since the last sheet
+- Covers 02:43 to 04:47 EAT, Thu 26 Nov 2026.
+- Spend rose from $32.34 to $32.37 over 9,839 to 9,858 paid calls. The cap is $35, so about $2.63 is left on the ledger.
+- Finish check: 1 of 23 clauses true, unchanged.
+- Pull requests: 7 open, 19 merged, 1 closed, unchanged. The open ones are 21 to 27.
+- Main: newest commit still 11:13 on 25 Nov. Time-map, dates, roots and states work is uncommitted (Tehuti, 03:14 and 04:43).
+- Whole-film runs: 4 DONE, 4 FAILED, 24 HOLD, unchanged. Newest DONE is still strip-japan.
+- Logged attempts: 348 kept (was 328), 50 reverted, 52 inconclusive.
+- Mac load now 6, 6, 7 (was 52, 57, 49).
+- Dates crate: 27 of 27 tests pass (Tehuti, 04:18). States are sized by the highest-ranked source, not the Cliopatria set.
+- Roots: check.py prints TRUE. 264 holds, 237 placed, 99 states with a dated hold (Tehuti, 03:58). Carthage now runs 814 to 145 BC. Mali has a state row. Eighteen checked extent rows cover the first ten states (Tehuti, 04:34).
+- Africa time map: the 12-minute film was redrawn at 697.4 s. Turn check shows FAIL 1 (655 BC, same holder, no drawn change). Tehuti marks it 6.5 of 10. Tehuti is its maker.
+- US states film: drawn on the shared Africa path at 360.9 s. Tehuti marks it 6 of 10. The find moment and zoom-sized text are built.
+
+## What worked and what failed
+**Worked (as reported)**
+- Africa film: Egypt's chain reads, and 22 of 23 flips show on drawn frames (Tehuti, 04:26).
+- Dates crate: planted faults fail as they should. Carbon ranges are kept as ranges. Published checks: Cajamarca within 2 years, Great Zimbabwe within 5 (Tehuti, 03:09).
+- Ambi, relayed in the 02:35 log: "solid in code ... true to indigenous accounts and carbon dating."
+- States sizes, measured on 21 states: mean gap 0.97 to 0.23 on a log scale (Tehuti, 04:11).
+- US states film: clock worst change 3.94, under the limit of 4. Fort Sumter dive is sharp, with islands and harbour (Tehuti, 04:43).
+
+**Failed or refused**
+- Ambi's refusals still stand: stand-in drawings, the "slop" line, the dot strip, the 36-palette sheet, parchment, Moko Day, Jenny ring (not judged), and the glowing border and cheesy arrow of film 4.
+- Ambi on Jakarta: "terribly bad", voice "AI-ish".
+- Night round two: 4.5 and 4 (Tehuti, 03:14). Further Night spending is held. The round-one line "not broken since 1992" was false and was not caught.
+- Green Sahara: marked 5 and held. It uses made-up peoples where digs show real cultures.
+- Juju Poly bodies: blind test lost (2 with, 4 without, 2 equal).
+- Writer lane (lead, 00:49): long form 3 of 10 with a fresh reader. Istanbul lost 0 of 3. Max thinking took twice the time and cost for 7 of 12 votes, so low stays the default.
+- Congo economics film is wrong; its redraw is not done.
+- Shots check: 8 of 64 fail (worker, 04:47). Which test is being checked.
+- US states: Hawaii 1898 and 1959 stops are dark or tiny. Alaska 1959 shows as a round green blob. Seven cession shots fill too little of the frame.
+
+## App engine and films
+- Juju make: newest DONE is strip-japan (60 s, 0.008751 US, 25 Nov 08:34). Newest HOLD is ottoman12f (25 Nov 11:25, stopped at Pictures and form). Newest FAILED is proof12c (09:47).
+- Time maps: Africa 12-minute film at 697.4 s. US states film at 360.9 s. Names are hidden where a later land covers them. "Kush" still sits on Assyria at 663 BC.
+- Find moment: built and tested on a fixture card. No real story carries a find yet.
+- Juju Shots round two (scar, bristol, khovd) has no blind judge.
+- Voices: 19 of 19 pass the hard-name check at 0.91 or better. Àṣẹ Regular V 0.3 is wired. Nobody has listened to the Ear mix.
+
+## Web app and rooms
+- No new web report since 22:39 on 25 Nov.
+- At that report, every path ended at the practice minute. The five cards were placeholders. Mirror Bend and Feed Sight showed broken or empty pictures. New Vessel and the Tank are drawings. The sound room sent you back to the Altar.
+- Census: 573 controls; 112 real, 160 sample, 131 dead.
+
+## Mac app and APK
+- The Mac shell still bundles the old rooms (11:06 on 25 Nov). No release build. Not tested.
+- Juju Pots app: live balances; login not loaded (Tehuti, 23:45 on 25 Nov).
+- APK files built: 0. Nothing has run on a phone. Not tested. The Galaxy is not plugged in.
+
+## Agents running now
+- The live agent page was not checked in this sheet. Running agents are known only from messages.
+- Worker: latest message 04:47. Fixing the US states film (Alaska, Hawaii, framing, card rewording). Checking the 8 failing shots.
+- Tehuti: latest log 04:43. Working on the time maps, dates, roots and states lanes.
+- Dates lane: not running (worker, 04:34). Its handoff note was left in a file for it.
+- Lead: quiet since 00:49. Writer lane closed.
+
+## Money spent on services
+- Ledger: 9,858 calls, $32.37 in all, up $0.03 since 02:43.
+- DeepSeek $8.12 (5,874 answered, last ok 04:11). OpenRouter $12.21 (3,384 answered, last 01:43). Google $7.94 (104, last 00:46). Inworld $3.69 (402, last 02:10). WaveSpeed $0.288 (6, last 25 Nov 11:24). Unsettled $0.14 (7 failed).
+- Cap $35. About $2.63 left.
+- Neon hard read: 0.023 US per two-minute film, over the 0.02 bar. Wired but off.
+- Pots: at 60 films of 22.5 minutes, short about $71 (Estimated).
+
+## Broken, blocked or open
+- Africa film: turn check FAIL 1 (655 BC). Bare 8:00 rest view. Fatimid colour near the prior ruler. Kush label on Assyria.
+- Roots: unplaced holds in the queue. Sibiridugu and Birni Kafela are unplaced. 50 attestations and 37 takings have no dated end. Gazetteer names needed for the Delta, First Cataract, Mediterranean and Semna.
+- Dates: no published check for Marine20. Kakapel matches IntCal20 within 1 year, but its paper says SHCal20. Render and framing not verified.
+- US states: Hawaii and Alaska stops; seven small cessions; cards read like a database; the 150 px find pan is not built.
+- Shots: 8 of 64 failing.
+- Not proven: a voiced film over 10 minutes; a 20- or 25-minute film; anything on a phone; the 95 of 100 taste bar; the depict card.
+
+## Waiting on Ambi
+1. Two grounds for Night and Day: yes or no. The candidate is a drawer for wide views and a plain globe up close (Tehuti, 03:11).
+2. Name for the drawer. The worker's pick is Juju Ardhi.
+3. Simulations on real land: real cultures or imagined peoples. Green Sahara is held on this.
+4. Voice: choose A or B, C or D. Àṣẹ Regular V 0.3 is wired.
+5. Name for the voice toggle.
+6. Name the two film systems, or accept "kingdoms" and "wealth".
+7. Listen to the Ear mix on gold6 or marmara2.
+8. Decide whether to lift the $35 cap. About $2.63 is left.
+9. Plug in the Galaxy.
+10. Tehuti's five questions are unanswered (01:41): odds in counts, hatched own record, outside dating, banners, Night keeps the globe.
+11. Critique the 12-minute Africa film, the US states film and Night round two.
+
 # Sheet of 02:43 EAT, Thu 26 Nov 2026
 
 ## Changed since the last sheet
@@ -110,6 +197,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 8. Plug in the Galaxy.
 9. Tehuti's five questions (odds in counts, hatched own record, outside dating, banners, Night keeps the globe) are unanswered (Tehuti, 01:41).
 10. Critique the new time-map films (Asia, South America, North America, Europe, World) and the Night round-two films.
+
 
 # Sheet of 00:41 EAT, Thu 26 Nov 2026
 
@@ -218,6 +306,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 8. Plug in the Galaxy.
 
 
+
 # Sheet of 22:39 EAT, Wed 25 Nov 2026
 
 ## Changed since the last sheet
@@ -315,6 +404,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 6. Decide whether to lift the cap above 30 US. About $2.87 is left.
 7. Fix GitHub billing so seven pull requests can merge.
 8. Plug in the Galaxy.
+
 
 
 
@@ -428,6 +518,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 
 
 
+
 # Sheet of 18:36 EAT, Wed 25 Nov 2026
 
 ## Changed since the last sheet
@@ -537,6 +628,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 
 
 
+
 # Sheet of 16:34 EAT, Wed 25 Nov 2026
 
 ## Changed since the last sheet
@@ -621,6 +713,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 6. Answer whether a film always finishes (10:50).
 7. Plug in the Galaxy.
 8. Decide the 0.2 questions: raise the cap from the app, length per channel, and where niches go.
+
 
 
 
@@ -719,6 +812,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 5. Juju Maps: judge the kivu take and the dam film, pick the look, judge the pictures and voice of the Ottoman take. No verdict yet on terra.
 6. Answer whether a film always finishes (Mungura, 10:50; Tehuti, 10:51). No answer recorded.
 7. Plug in the Galaxy for the phone job.
+
 
 
 
@@ -825,6 +919,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 
 
 
+
 # Sheet of 10:27 EAT, Wed 25 Nov 2026
 
 ## Changed since the last sheet
@@ -909,6 +1004,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 5. **Sound:** rule on the 1.28 s hush, and say whether the three sound fixes wait for the watcher fix.
 6. **Plug in the Galaxy** for the phone job.
 7. **Personal check-in:** a worker asked Ambi a personal question at 09:28 and 09:31. No reply is recorded.
+
 
 
 
@@ -1011,6 +1107,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 - **Ear table:** holds one refused line; the script checker needs about five.
 - **Packaging:** his eye and ear decide. Bend facts still unopened.
 - **Phone:** plug in the Galaxy.
+
 
 
 
@@ -1127,6 +1224,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 
 
 
+
 # Sheet of 08:16 EAT, Wed 25 Nov 2026
 
 ## Changed since the last sheet
@@ -1219,6 +1317,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 - **LINE-RULE items 7 to 20** (vault): awaiting countersign.
 - **Phone job:** plug in the Galaxy.
 - **Standing advice** (lead, 12:48 Tue): keep Inworld permissions read-only.
+
 
 
 
@@ -1341,6 +1440,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 
 
 
+
 # Sheet of 13:45 EAT, Tue 24 Nov 2026
 
 ## Changed since the last sheet
@@ -1422,6 +1522,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 - ADR 0010 (20-minute plan) is a candidate. Acceptance not reported.
 - Replacement 90/70/50 wording is a candidate for Ambi (packaging worker, 13:46).
 - Standing advice (lead, 12:48): keep Inworld permissions on Read only.
+
 
 
 
@@ -1529,6 +1630,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 
 
 
+
 # Sheet of 13:27 EAT, Tue 24 Nov 2026
 
 ## Changed since the last sheet
@@ -1590,6 +1692,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 
 ## Waiting on Ambi
 - No request to Ambi is stated in the messages or facts.
+
 
 
 

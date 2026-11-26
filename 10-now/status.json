@@ -1,5 +1,5 @@
 {
- "as_of": "02:43 EAT, Thu 26 Nov 2026",
+ "as_of": "04:46 EAT, Thu 26 Nov 2026",
  "workshop": "down",
  "jobs": [],
  "pull_requests": [
@@ -367,10 +367,10 @@
   }
  ],
  "ledger": {
-  "calls": 9839,
-  "usd_total": 32.337,
+  "calls": 9858,
+  "usd_total": 32.3715,
   "usd_by_service": {
-   "deepseek": 8.0847,
+   "deepseek": 8.1192,
    "openrouter": 12.2061,
    "google": 7.9358,
    "inworld": 3.6869,
@@ -381,9 +381,9 @@
  },
  "service_calls": {
   "deepseek": {
-   "ok": 5855,
+   "ok": 5874,
    "refused_or_failed": 17,
-   "last_ok": "26 Nov 02:42 EAT"
+   "last_ok": "26 Nov 04:11 EAT"
   },
   "openrouter": {
    "ok": 3384,
@@ -521,7 +521,7 @@
  ],
  "finish_check": "1 of 23 clauses true, so not done",
  "film_runs": "4 DONE, 4 FAILED, 24 HOLD",
- "attempts": "328 kept, 50 reverted, 52 inconclusive",
+ "attempts": "348 kept, 50 reverted, 52 inconclusive",
  "clauses": [
   {
    "clause": "trunk.no_open_prs",
@@ -591,7 +591,7 @@
   {
    "clause": "money.ledger_within_cap",
    "ok": false,
-   "detail": "32.3388 spent and 0.0000 held of 10.00 US over 9843 rows (cap file 35.0, Ambi's ceiling 10.0)"
+   "detail": "32.3715 spent and 0.0386 held of 10.00 US over 9858 rows (cap file 35.0, Ambi's ceiling 10.0)"
   },
   {
    "clause": "film.voice_is_inworld_real_calls",
@@ -642,9 +642,9 @@
  "newest_runs": "ottoman12f HOLD 25 Nov 11:25 (stopped at Pictures and form); proof12c FAILED 25 Nov 09:47 (stopped at Render and mix); proof12 HOLD 25 Nov 09:16 (stopped at Script and heal); proof75b HOLD 25 Nov 09:06 (stopped at Render and mix); proof75a HOLD 25 Nov 08:59 (stopped at Publish kit); strip-planets HOLD 25 Nov 08:41 (stopped at Deal and package); strip-pluto HOLD 25 Nov 08:40 (stopped at Render and mix); 20261125-083722-131d HOLD 25 Nov 08:37 (stopped at Deal and package); strip-japan DONE 25 Nov 08:34 (60 s, 0.008751 US); strip-bulgaria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-austria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-manchuria HOLD 25 Nov 08:11 (stopped at Deal and package)",
  "live_agents": 0,
  "load": [
-  52,
-  57,
-  49
+  6,
+  6,
+  7
  ],
  "sheet_written": true
 }
