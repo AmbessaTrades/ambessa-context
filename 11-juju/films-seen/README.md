@@ -1,6 +1,6 @@
 # Key films, seen whole
 
-As of 11:04 EAT, Thu 26 Nov 2026. 11 of 12. Each page is an agent's notes on one published film: cuts, moves, pacing, how each thing was made. Notes for learning structure; another maker's film is never copied.
+As of 13:46 EAT, Thu 26 Nov 2026. 11 of 12. Each page is an agent's notes on one published film: cuts, moves, pacing, how each thing was made. Notes for learning structure; another maker's film is never copied.
 
 - [36J1tL9ulGA seen whole. Markets of the Past, "The Real Reason Hitler Never Invaded Switzerland", 1852.8 s, 25 fps, 720p copy](36J1tL9ulGA.md)
 - [3KkQGTa1YjM seen whole. 1045HourVitality, "Judgement Day, Mapped (2026 - 3036)", 541.0 s, 30 fps, 720p copy](3KkQGTa1YjM.md)

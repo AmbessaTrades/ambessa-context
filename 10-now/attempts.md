@@ -1,9 +1,18 @@
 # Attempts, kept and reverted
 
-As of 11:04 EAT, Thu 26 Nov 2026. One row for each change a worker measured (one change, one measurement, keep or revert). 527 rows so far; the newest 160 are here. Written by the workers: reports, not proof.
+As of 13:46 EAT, Thu 26 Nov 2026. One row for each change a worker measured (one change, one measurement, keep or revert). 536 rows so far; the newest 160 are here. Written by the workers: reports, not proof.
 
 | When (UTC) | Lane | Idea | Before | After | Verdict |
 |---|---|---|---|---|---|
+| 11-26 10:28 | sound | filtered camera sounds (low swell, airy glide) vanish under strings; +6 dB makeup on filtered dive/pullback/travel in the three channel packs | w-tale lost 15/25, camera over bed -18.1 LU | lost 13/25, -17.3 LU; Earshot 52% cues hit within 40 ms (chance 12%), no strong accent | kept |
+| 11-26 10:05 | sound | powder steps and the thunder take read as rain and a storm; march -> step_leaves, blast -> break-ground only, all packs | Earshot rain/thunder tags 12 | 9 (rest in the steppes bed stretch) | kept |
+| 11-26 10:05 | sound | a sound landing in a pause of the music stands alone; cap against the bed over the sound's own span, floored 10 LU under the 3 s level | Earshot accents 0:30.66 +32, 0:31.27 +35 dB | those two gone in the next listen; Earshot accents vary run to run (0:31.08 +35 on the last) | kept |
+| 11-26 10:05 | sound | film sounds sit too high after the morning's +8 dB (chosen when the sheet measured the wrong band); pack events_db 8 -> 3 | sty-war-room count note +33 dB over a bed pause (Earshot) | classes over bed max +2.9 to +3.0 LU; 9/67 lost in clearest band | kept |
+| 11-26 09:48 | channels | thumbnails built from 3 measured donors per niche (mirror bend) with a lit subject read by a stranger; titles copied from measured outlier forms and span-checked; juju-maps/pack/bend.py titles.py blind.py round 3 | place named 11/20 (round 2) | place named 17/20 by a second fresh reader; picked over donor 8/20 (6/18 new pictures) | kept |
+| 11-26 09:02 | high-juju | gate reads the CLI's own weekly figure; claude.rs + mode.rs + chip; check script | no mode | check 10.2 s NOT AVAILABLE (15% left, no API door) | kept |
+| 11-26 08:22 | niches | evidence audit by eye + app shape; 8 misfit evidence demoted, 5000-view floor, plain briefs, flat niches[] + channels{} for chan.rs | 144 evidenced, 5/5 | 138 evidenced, 5/5 and 5/5 | kept |
+| 11-26 08:14 | niches | one page lets a blind reader place channels; vessels/niches.json + niches.md + scripts/niches-check.py | no niche map | 339 sub-niches, blind Haiku 5/5 | kept |
+| 11-26 08:12 | apk | thin client needs server origin; phase1 plan written, no build | no plan | runs/apk/PLAN.md | kept |
 | 11-26 07:49 | sound | camera landings lost under the bed in the kingdoms pack; cam.land takes: land_grass -> step_leaves | st-us lost 17/226 | lost 8/226 | kept |
 | 11-26 07:45 | sound | film sounds repeat and do not match the move (ADR 0027 item 44); channel pack kingdoms-from-inside: low swell dives, airy glides, cloth/ink flips, no take twice in a row, rings 1/10 s, counts 1/4 s | st-us same take in a row 66, rings 66, counts 32, lost 7/281 | same take in a row 0, rings 21, counts 22, lost 17/226 (11 are camera landings on a grass take) | kept |
 | 11-26 07:35 | night2 | five fixes shrink the spread of Night first takes; 1 deg floor, one camera, place-in-frame refusal, 8 px plague towns, count and eye apart | eye 3-8 (spread 5), count 4.9-5.7 (0.8), mark 2.55 | eye 5-8 (spread 3), count 4.9-6.0 (1.1), mark 5.25-6.7 (1.45); seam 0.05-0.77% of width | kept |
@@ -155,12 +164,3 @@ As of 11:04 EAT, Thu 26 Nov 2026. One row for each change a worker measured (one
 | 11-25 16:53 | maps-data | borders must be coloured, never lit; area flat fill wipe, flat edges, band arrow, cased hot hero, flat said line | glow curtain, yellow beam, white line | stills old beside new, day and night | kept |
 | 11-25 16:44 | maps-data | night area glow and fat arrows are additive or world-sized; area night = wash .10 and flat edge .4, no curtain; arrow2 sized on the picture | blown border, beam | stills 37,55,80,116 s, near view | kept |
 | 11-25 16:36 | maps-data | cold landings wait on tiles one by one; prefetch in film.js, /raw /th and memory in server.mjs, 4 s cap | 8 s cold landing: late 40, 64.5 s | 8 s cold landings at other places: late 0, 40.2 s and 58.5 s; load 9 to 25 | kept |
-| 11-25 16:36 | maps-data | teal sea squares are flat zero heights from z 11; z 9 depth stands in for zeros; z>10 bakes renamed | two light tiles at ghosts 160 s | none, same view | kept |
-| 11-25 15:52 | map-day | ranked films and faults need their own tools; board score sum set fault rupture | could not be drawn | drawn day and night, read at 240p; 0.5 ms or less each by median | kept |
-| 11-25 15:52 | map-day | additive light blows out by day; flat area tint, thin thread, spot at 58 % of itself, relief capped, neon lake green calmed | blown glow, white beams, black view, neon | none of them in the stills | kept |
-| 11-25 15:52 | map-day | steep land by day must not crush to black; shadow floor .45 day .28 night and softer slopes when a low view's height range passes 3.6 % of its width | rogun 46 s near black | 0.2 % of pixels under 20 of 255 at 46 s; flat-land films untouched | kept |
-| 11-25 15:06 | map-motion | a dust ribbon of streaks reads as light; veil noise, duller colour | bright streaks | a brown veil by eye | kept |
-| 11-25 15:06 | map-motion | calendar and ledger should grow from the frame edge; months hang from the top edge, boxes removed; soft shade behind ledger | twelve boxes over the map | no boxes, read at 240p by eye | kept |
-| 11-25 15:06 | map-motion | devices the donors use can stand on the real map; ops region overlay locator stream sweep pole ask heatup beat count strip credit, words pace on lines | none of the ten could be drawn | all drawn day and night at 480p; each adds 0.5 ms or less by median, interleaved; seek vs step 0.000 | kept |
-| 11-25 14:35 | maps-data | real years and measured layers can be drawn as ground; data/timelapse/osm kinds in tiles.js, /d/ in server.mjs, clear.py, osm.py, data-layers.json | none | Aral 9 years, Dead Sea 1985-2021, 14 layers (fires not: vector tiles only), Cairo and Kaifeng streets, looked at day and night | kept |
-| 11-25 14:35 | maps-data | shallow sea that is not blue is land; d > -6 m and not blue = land | lagoon speckle | Bahamas and Yangtze shelves drawn as land | reverted |

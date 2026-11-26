@@ -1,8 +1,21 @@
 {
- "as_of": "11:04 EAT, Thu 26 Nov 2026",
+ "as_of": "13:46 EAT, Thu 26 Nov 2026",
  "workshop": "down",
  "jobs": [],
  "pull_requests": [
+  {
+   "number": 28,
+   "title": "High Juju: two modes, the 20% plan gate, Check High Juju",
+   "state": "OPEN",
+   "checks": [
+    "FAILURE",
+    "SKIPPED"
+   ],
+   "opened": "2026-11-26T09:01:34Z",
+   "merged": null,
+   "added": 537,
+   "removed": 3
+  },
   {
    "number": 27,
    "title": "Rules agents read: WORKER.md, Ambi's eye, the film-harvest row",
@@ -367,33 +380,33 @@
   }
  ],
  "ledger": {
-  "calls": 10278,
-  "usd_total": 34.9068,
+  "calls": 10377,
+  "usd_total": 35.3015,
   "usd_by_service": {
-   "deepseek": 10.317,
-   "openrouter": 12.2403,
-   "google": 8.0025,
+   "deepseek": 10.5947,
+   "openrouter": 12.2407,
+   "google": 8.1185,
    "inworld": 3.9231,
-   "unsettled": 0.1359,
+   "unsettled": 0.1365,
    "lead-test": 0.0,
    "wavespeed": 0.288
   }
  },
  "service_calls": {
   "deepseek": {
-   "ok": 6222,
-   "refused_or_failed": 18,
-   "last_ok": "26 Nov 10:52 EAT"
+   "ok": 6299,
+   "refused_or_failed": 23,
+   "last_ok": "26 Nov 13:36 EAT"
   },
   "openrouter": {
-   "ok": 3395,
-   "refused_or_failed": 45,
-   "last_ok": "26 Nov 10:04 EAT"
+   "ok": 3399,
+   "refused_or_failed": 47,
+   "last_ok": "26 Nov 13:32 EAT"
   },
   "google": {
-   "ok": 107,
-   "refused_or_failed": 13,
-   "last_ok": "26 Nov 10:03 EAT"
+   "ok": 114,
+   "refused_or_failed": 16,
+   "last_ok": "26 Nov 13:45 EAT"
   },
   "inworld": {
    "ok": 458,
@@ -402,7 +415,7 @@
   },
   "unsettled": {
    "ok": 0,
-   "refused_or_failed": 8,
+   "refused_or_failed": 9,
    "last_ok": null
   },
   "lead-test": {
@@ -427,8 +440,8 @@
    "lines": 3569
   },
   "juju-conduct": {
-   "files": 26,
-   "lines": 5201
+   "files": 27,
+   "lines": 5620
   },
   "juju-core": {
    "files": 3,
@@ -459,8 +472,8 @@
    "lines": 2878
   },
   "juju-serve": {
-   "files": 26,
-   "lines": 4322
+   "files": 27,
+   "lines": 4665
   },
   "juju-sigil": {
    "files": 13,
@@ -479,10 +492,10 @@
    "lines": 3967
   }
  },
- "rust_lines": 35943,
- "rooms": 21,
+ "rust_lines": 36705,
+ "rooms": 22,
  "decisions": 27,
- "apk_files": 0,
+ "apk_files": 1,
  "design_libraries": [
   "camera_motion.json",
   "fonts",
@@ -506,6 +519,8 @@
   "sJiaWNxYFUA": 2
  },
  "main_commits": [
+  "c1292af 26 Nov 12:58 App flow: FLOW-DONE names its commit",
+  "0895b1c 26 Nov 12:57 App flow: Altar of every channel, ideas first, Cauldron and Shelf of every film, locked looks greyed",
   "4dba4d9 25 Nov 11:13 App from press to watched film; music bed for history and space films; export settings, checked closing line",
   "04788e9 25 Nov 10:12 Cutaways over the map, the whole film watched as a stage, an ending, faster map",
   "cbbffcb 25 Nov 09:46 Voiced films told from events, backed by quotations; One Ink map; arrival motion; video eye",
@@ -515,23 +530,21 @@
   "b6dfdd8 25 Nov 07:22 juju-db: every blocking fault of the review fixed, the simulation over the whole vault",
   "cf2a0e5 25 Nov 06:50 juju-db: no film more alike one of another niche than unrelated published films are; title and silhouette apart; the run folder fills the record",
   "62e5ec7 25 Nov 05:57 juju-db: the review of 25 Nov, WIP: one lock for a deal, killed runs, film numbers, the story of every film, spoken words only, brands across the vault",
-  "d0f07e1 25 Nov 05:26 juju-next: receipt",
-  "9e42859 25 Nov 05:26 juju-next: subjects tried are only those judged, readers see 340 words back, no writing without room for both readings",
-  "a3dfd48 25 Nov 05:09 juju-next 0.5.0: truth held word by word and sealed to two readings, pictures from their own records, bends on the donor's shape, one journal; no hand is dealt yet"
+  "d0f07e1 25 Nov 05:26 juju-next: receipt"
  ],
  "finish_check": "1 of 23 clauses true, so not done",
  "film_runs": "4 DONE, 4 FAILED, 24 HOLD",
- "attempts": "414 kept, 61 reverted, 52 inconclusive",
+ "attempts": "423 kept, 61 reverted, 52 inconclusive",
  "clauses": [
   {
    "clause": "trunk.no_open_prs",
    "ok": false,
-   "detail": "7 open pull requests"
+   "detail": "8 open pull requests"
   },
   {
    "clause": "trunk.main_is_origin_and_clean",
    "ok": false,
-   "detail": "branch main, ahead 0, behind 96, uncommitted files outside runs/ 256"
+   "detail": "branch main, ahead 2, behind 96, uncommitted files outside runs/ 269"
   },
   {
    "clause": "trunk.gate_open_at_head",
@@ -576,7 +589,7 @@
   {
    "clause": "app.receipt_is_of_this_head",
    "ok": false,
-   "detail": "walk made at None with None uncommitted files, now 4dba4d9 with 256, no-paid None"
+   "detail": "walk made at None with None uncommitted files, now c1292af with 269, no-paid None"
   },
   {
    "clause": "film.exists_10_to_20_min_with_picture_and_sound",
@@ -591,7 +604,7 @@
   {
    "clause": "money.ledger_within_cap",
    "ok": false,
-   "detail": "34.9068 spent and 0.0000 held of 10.00 US over 10278 rows (cap file 40.0, Ambi's ceiling 10.0)"
+   "detail": "35.3019 spent and 0.1376 held of 10.00 US over 10378 rows (cap file 40.0, Ambi's ceiling 10.0)"
   },
   {
    "clause": "film.voice_is_inworld_real_calls",
@@ -642,9 +655,9 @@
  "newest_runs": "ottoman12f HOLD 25 Nov 11:25 (stopped at Pictures and form); proof12c FAILED 25 Nov 09:47 (stopped at Render and mix); proof12 HOLD 25 Nov 09:16 (stopped at Script and heal); proof75b HOLD 25 Nov 09:06 (stopped at Render and mix); proof75a HOLD 25 Nov 08:59 (stopped at Publish kit); strip-planets HOLD 25 Nov 08:41 (stopped at Deal and package); strip-pluto HOLD 25 Nov 08:40 (stopped at Render and mix); 20261125-083722-131d HOLD 25 Nov 08:37 (stopped at Deal and package); strip-japan DONE 25 Nov 08:34 (60 s, 0.008751 US); strip-bulgaria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-austria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-manchuria HOLD 25 Nov 08:11 (stopped at Deal and package)",
  "live_agents": 0,
  "load": [
-  78,
-  59,
-  46
+  169,
+  183,
+  185
  ],
  "sheet_written": false
 }

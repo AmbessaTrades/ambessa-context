@@ -1,10 +1,11 @@
 # Pull requests on the private Juju repo
 
-As of 11:04 EAT, Thu 26 Nov 2026. The repo is private: the links need access, so each request's own description is copied here.
+As of 13:46 EAT, Thu 26 Nov 2026. The repo is private: the links need access, so each request's own description is copied here.
 One unit, one pull request, one review round (ADR 0020). The lead merges when fresh reviewers find nothing serious and the checks are green.
 
 | No. | State | Checks | Title | Lines |
 |---|---|---|---|---|
+| 28 | open | failure, skipped | High Juju: two modes, the 20% plan gate, Check High Juju | +537 -3 |
 | 27 | open | ?, success | Rules agents read: WORKER.md, Ambi's eye, the film-harvest row | +21 -0 |
 | 26 | open | ?, failure, skipped, success | juju-sound: a film's sound, heard by Earshot | +1240 -0 |
 | 25 | open | ?, success | juju-gather: a bare card to sourced facts, tables, pictures | +2503 -0 |
@@ -32,6 +33,24 @@ One unit, one pull request, one review round (ADR 0020). The lead merges when fr
 | 3 | merged | ?, success | Quiet screens: names and verbs only, checked by code | +1292 -19 |
 | 2 | merged | ?, success | Script gates, rounds 3 and 4 | +4319 -133 |
 | 1 | merged | ?, success | Workspace list is a glob | +15 -2 |
+
+## 28. High Juju: two modes, the 20% plan gate, Check High Juju
+
+One unit: the mode knob and the gate for Claude (Ambi, 26 Nov 2026; ADR 0027 item 56).
+
+**What**
+- `crates/juju-conduct/src/claude.rs` (new): Gris-gris and High Juju, the role table, the lean Claude Code CLI call (empty folder, no settings, hooks, tools or MCP, API key removed from the environment), the weekly reading from its `rate_limit_event`, and two ways in: the plan (open at ≥ 20% of the week left) and the API through `scripts/purse.py` with caching (closed: the purse has no Claude door). `juju-conduct high check|off|lean|ask`. 7 unit tests.
+- `crates/juju-serve/src/mode.rs` (new) plus one `pub mod` line and three route arms: `GET /api/mode`, `POST /api/mode`, `POST /api/mode/check`. No model name leaves the server.
+- `mockups/r2/api.js`: the head chip "Gris-gris · Recommended" and a sheet with Check High Juju, Lean on the plan, and Lean on the API (cached). The check's call gets 16 s.
+- `scripts/high-juju-check`: AVAILABLE or NOT AVAILABLE, with the reason for each way.
+
+**Proof (Measured, 26 Nov):** the check printed NOT AVAILABLE in 10.2 s: "only 15% of this week left; it opens at 20%" and "the money gate has no Claude door yet". Clicked on a test server at 1440x900 and 390x844: the refusal reads in plain words, the mode stays Gris-gris, the toggles work, and the page threw no errors.
+
+**Not in this PR:** a real High Juju conductor call. The gate refuses today (14 to 15% left, no API door), as Ambi's rule says. Adding a Claude door to `scripts/purse.py` would be a THRESHOLD CHANGE that needs a countersign.
+
+**Note:** juju-conduct on main uses `File::try_lock`, which this Mac's Rust 1.88 does not build. `claude.rs` was tested on the earlier head.
+
+🤖 Generated with [Claude Code](https://claude.com/claude-code)
 
 ## 27. Rules agents read: WORKER.md, Ambi's eye, the film-harvest row
 
