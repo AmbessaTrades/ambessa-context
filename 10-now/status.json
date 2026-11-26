@@ -1,5 +1,5 @@
 {
- "as_of": "06:53 EAT, Thu 26 Nov 2026",
+ "as_of": "07:01 EAT, Thu 26 Nov 2026",
  "workshop": "down",
  "jobs": [],
  "pull_requests": [
@@ -367,10 +367,10 @@
   }
  ],
  "ledger": {
-  "calls": 10053,
-  "usd_total": 34.006,
+  "calls": 10063,
+  "usd_total": 34.0367,
   "usd_by_service": {
-   "deepseek": 9.6244,
+   "deepseek": 9.6552,
    "openrouter": 12.2061,
    "google": 7.9358,
    "inworld": 3.8162,
@@ -381,9 +381,9 @@
  },
  "service_calls": {
   "deepseek": {
-   "ok": 6050,
+   "ok": 6060,
    "refused_or_failed": 18,
-   "last_ok": "26 Nov 06:52 EAT"
+   "last_ok": "26 Nov 07:01 EAT"
   },
   "openrouter": {
    "ok": 3384,
@@ -460,7 +460,7 @@
   },
   "juju-serve": {
    "files": 25,
-   "lines": 3953
+   "lines": 3954
   },
   "juju-sigil": {
    "files": 13,
@@ -479,7 +479,7 @@
    "lines": 3967
   }
  },
- "rust_lines": 35545,
+ "rust_lines": 35546,
  "rooms": 21,
  "decisions": 27,
  "apk_files": 0,
@@ -526,9 +526,9 @@
  "newest_runs": "ottoman12f HOLD 25 Nov 11:25 (stopped at Pictures and form); proof12c FAILED 25 Nov 09:47 (stopped at Render and mix); proof12 HOLD 25 Nov 09:16 (stopped at Script and heal); proof75b HOLD 25 Nov 09:06 (stopped at Render and mix); proof75a HOLD 25 Nov 08:59 (stopped at Publish kit); strip-planets HOLD 25 Nov 08:41 (stopped at Deal and package); strip-pluto HOLD 25 Nov 08:40 (stopped at Render and mix); 20261125-083722-131d HOLD 25 Nov 08:37 (stopped at Deal and package); strip-japan DONE 25 Nov 08:34 (60 s, 0.008751 US); strip-bulgaria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-austria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-manchuria HOLD 25 Nov 08:11 (stopped at Deal and package)",
  "live_agents": 0,
  "load": [
-  167,
-  98,
-  64
+  96,
+  107,
+  87
  ],
  "sheet_written": false
 }
