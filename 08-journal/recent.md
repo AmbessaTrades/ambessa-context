@@ -1,6 +1,199 @@
 # Juju day log, newest first
 
-Rebuilt 13:46 EAT, Thu 26 Nov 2026. Only entries whose title names Juju. Times are EAT (UTC+3). Logged by agents: evidence of what they report, not proof. Where two entries disagree, the later one wins and the older stays.
+Rebuilt 15:57 EAT, Thu 26 Nov 2026. Only entries whose title names Juju. Times are EAT (UTC+3). Logged by agents: evidence of what they report, not proof. Where two entries disagree, the later one wins and the older stays.
+
+---
+
+## 2026-11-26 15:55 EAT — TEHUTI — Juju phone APK: film made on the phone with the Mac unreachable (stand-in drawer); packs to publish
+- Harness: Claude Code (claude-opus-5-5), lead of "JUJU SHIP IT NOW". Topics: juju
+- **Changed:** lane B APK runs/apk/juju-phone-77f3c47fcec1.apk (9.8 MB, branch phone/standalone): emulator with every Mac port blocked except a pack stand-in; Gate PIN through the live Door test space, Altar, Crossroads, 2 min 240p film made on the phone (13.6 min, MediaCodec), Shelf plays it, Movies/Juju. Lead looked at the frames: a stand-in drawer (circles), not juju-core; plan was a stub answer. Lead killed the emulator that held a heavy slot 47 min. Lane A told: planner first, publish open-licence packs to public AmbessaTrades/juju-data with ATTRIBUTION.md; Juju-authored data stays private, later via the Door.
+- **Why-verdict:** plumbing for Mac-off proven (Measured); the film itself is not a Juju film yet.
+- **Status-open:** juju-core planner + packs::needed/unpack; swap into the APK; an ANR under CPU pressure; rooms of APP-FLOW-3 into the APK when unit 1 lands.
+- **Related:** runs/apk/RECEIPT-juju-phone-77f3c47fcec1.md, docs/PHONE-CORE.md
+
+---
+
+## 2026-11-26 15:54 EAT — TEHUTI — Juju Phone: APK makes a film with the Mac off (stand-in engine)
+- Harness: Claude Code (claude-opus-5-5), lane B of "JUJU SHIP IT NOW". Topics: juju
+- **Changed:** branch phone/standalone (worktree intel/juju-phone-wt, 1d98d5b+): apps/juju-shell/android from unit/phone e136754, with KeyBox removed. Rust now answers the rooms' /api/tap in-process in juju-serve's shapes. Door client (rust/src/door.rs + Net.kt) against lane C's live Door. Packs come with sha256 and resume. Seed of systems/channels/ideas built at build time. Labelled stand-in engine (standin.rs) behind the engine::make seam. The MediaCodec encoder is vendored from unit/phone. APK runs/apk/juju-phone-77f3c47fcec1.apk (9.8 MB).
+- **Why-verdict:** Ambi 26 Nov ~13:40: the app must work with his Mac off, in another city. Emulator round, with the Mac's 4700/4701/3000 blocked by iptables: Gate → PIN via the Door (test space) → Altar → Crossroads → 2 min 240p kingdoms film made on the phone in 13.6 min (Measured) → Shelf plays it → Movies/Juju. No FATAL from Juju.
+- **Status-open:** engine = my stand-in until lane A's planner lands; pack index = Mac stand-in until lane A publishes; display capture is black on this emulator, so shots were taken over WebView DevTools; the Door home space waits on Ambi's setup code; rooms move to APP-FLOW-3.
+- **Related:** runs/apk/RECEIPT-juju-phone-77f3c47fcec1.md, docs/PHONE-CORE.md, apps/juju-shell/android/proof/e2e-1126/
+
+---
+
+## 2026-11-26 15:51 EAT — TEHUTI — Juju: ju route and ju place built (R2, R4), code first, 0.0001 US fallback
+- Harness: Claude Code (claude-opus-5-5), route-place lane under JUJU X POTETO ORCHESTRATION #2. Topics: juju
+- **Changed:** new juju-maps/make/route.py (subject -> design system from canon systems, niche map, place names, HCED battle shelf; locked systems only with --super; plain no with the nearest), place.py (vessel words + absorbed titles vote in vessels/niches.json; niches-placed fallback), test_route_place.py; CONTRACT.md section added. Decisions rows 539-541 (1 kept, 2 reverted).
+- **Why-verdict:** Measured: test 21 answers PASS; code 0.13-0.22 CPU s each, wall median 1.0-1.5 s at load 58-104 (max 6.3 s). Model fallback 0.000103 US route, 0.000104 and 0.000052 US place (ledger 12:44 UTC).
+- **Status-open:** ju dispatch lines asked of Stack Proof; War Room has no ju make kind (route says so); juju-maps is not in git. Next for this lane: R5 pulse, R6 bend, R8 fill (lead, 15:45).
+- **Related:** docs/APP-FLOW-3.md, ADR 0027 items 75, 77; scripts/light /usr/local/bin/python3 juju-maps/make/test_route_place.py
+
+---
+
+## 2026-11-26 15:50 EAT — MUNGURA — Juju: the 3 pm 'regressed' films are ju mend splices of two design generations
+- Harness: Claude Code (claude-opus-5-5), lead of "JUJU SHIP IT NOW". Topics: juju
+- **Changed:** diagnosis only. The three mend takes (tm-africa/v1 14:45 and 15:06, tm3-north 15:17) splice today's redrawn 4 s pieces into takes drawn by an older drawer and look (tm3-north at 01:05). Frame at 10 s = new pieces (no header, white halo); 20 s = old take (counter, timeline). Routed to the films lead: mend redraws whole when the generation differs; every piece records engine sha + system version; one-generation check; halo checked by the engine lane. App hides mended takes and Use this one until fixed. Core A told the same rule.
+- **Why-verdict:** Ambi ~16:30: "it's not supposed to regress design systems, it's not supposed to regress UI". Not a regression of the system: reuse of old frames.
+- **Status-open:** fix with Worlds 2 / engine lane. Lane B told to stop holding a heavy slot with the emulator (44 min, 6 builds queued).
+- **Related:** juju-maps/correct/mend.py:255, scratchpad mend-10.png / mend-20.png
+
+---
+
+## 2026-11-26 15:50 EAT — MUNGURA — Juju: builds forward, never mixed design generations (ADR 0027 item 79)
+- Harness: Claude Code (claude-opus-5-5), lead. Topics: juju
+- **Changed:** ADR 0027 item 79; TEST.json on 3 mends; Worlds 2: mend redraws whole when sha/system differ; Time Map: stamp sha + system per piece, check halo; Stack Proof: one-generation check in gate room 4, --again redraws old takes whole.
+- **Why-verdict:** Failure: mend spliced new pieces into old takes; lead looked at 2 frames and missed it.
+- **Status-open:** three fixes in flight.
+- **Related:** juju-maps/films/tm-africa/v1/mends
+
+---
+
+## 2026-11-26 15:38 EAT — MUNGURA — Juju: scale model 352 channels / 54 niches; pulse, bend, fill routed
+- Harness: Claude Code (claude-opus-5-5), lead. Topics: juju
+- **Changed:** ADR 0027 item 78; R5 ju pulse, R6 ju bend, R8 ju fill to Make Doors; R7 correction scope to Worlds 2; R1 --title, R3 ju ideas to Stack Proof; R2 ju route, R4 ju place to Make Doors (started 15:3x).
+- **Why-verdict:** Ambi via ship-it: weekly pulse per niche, many channels per niche each distinct.
+- **Status-open:** all commands to report cost and seconds per call.
+- **Related:** docs/APP-FLOW-3.md
+
+---
+
+## 2026-11-26 15:38 EAT — MUNGURA — Juju at 352 channels: niche Pulse shared, one Order, Bend cards, correction reach (ADR 0027 item 78)
+- Harness: Claude Code (claude-opus-5-5), lead of "JUJU SHIP IT NOW". Topics: juju
+- **Why-verdict:** Ambi ~16:00: "352 channels ... 54 niches ... know how to do each uniquely ... weekly patterns ... lightning fast" and "iron, refined and simple ... Juju really being a harness". Scout runs 54x a week, not 352x.
+- **Status-open:** R2/R4/R5-R8 not landed; screens worker building first run; YouTube key from Ambi for Mac-off Pulse.
+- **Related:** docs/APP-FLOW-3.md, docs/PHONE-CORE.md
+
+---
+
+## 2026-11-26 15:28 EAT — MUNGURA — Juju: fake "Ambi correction" removed from corrections.jsonl
+- Harness: Claude Code (claude-opus-5-5), lead. Topics: juju
+- **Why-verdict:** Failure: a test walk could write founder-attributed rules every plan obeys. Founder words are the scarce record.
+- **Status-open:** --by flag; ship-it holds real mends until it lands.
+- **Related:** juju-maps/canon/corrections.jsonl
+
+---
+
+## 2026-11-26 15:26 EAT — MUNGURA — Juju app round 3: you steer, Juju guides (empty first run, composer, running Pact, harness pop-out)
+- Harness: Claude Code (claude-opus-5-5), lead of "JUJU SHIP IT NOW". Topics: juju
+- **Changed:** docs/APP-FLOW-3.md: design anchored on Ambi's 26 Nov sentences (no pre-selected channels; give your title/context; systems and harness guide; adaptable, never choosing; keep looks and thumbnails). Restores the r2 rooms round 1 dropped: empty Altar, New Vessel (Absorb/Describe/Ready-made + receipt), Cauldron as VidRush-style composer with Juju's live ideas, Crossroads hand, Conjuring with the Pact as a running receipt (quote without a stop), The Film, Shelf; 5 doors; Juju pop-out as the harness in every room (GLM 5.3, Claude in High Juju). Seeded vessels become ready-made looks.
+- **Why-verdict:** Ambi ~15:20 "Why are you guys losing the plot ... Why are you fumbling?" Lead re-read VidRush frames (13-39-08 composer, 13-28-43 quote, 13-45-20 looks) and the r2 shots (altar no-channel, new-vessel, cauldron from_card, pact ready) before writing.
+- **Status-open:** App Polish builds it after MEND-DONE, unit by unit. Films lane requests R1 --title, R2 ju route, R3 ju ideas per vessel, R4 ju place. Phone B told to bind no new /api without PHONE-CORE.
+- **Related:** docs/APP-FLOW-3.md, mockups/ROOMS.md, docs/PHONE-CORE.md
+
+---
+
+## 2026-11-26 15:18 EAT — MUNGURA — Juju: the line between building Juju and preparing its output (ADR 0027 item 77)
+- Harness: Claude Code (claude-opus-5-5), lead. Topics: juju
+- **Changed:** ADR 0027 item 77; agreed with JUJU SHIP IT NOW: ju ideas live via the birth step (Stack Proof), thumbnails per film in package (Stack Proof), pack cards K01-W04 to fixtures/pack-gold, app labels samples and tests; Worlds 2 told to build a crown system, not the city film.
+- **Why-verdict:** Ambi: "the juju thing is not suppose to prepare shit for us really". Agents had hand-picked topics (pack/ideas.json, timeideas, worldideas, crown stops).
+- **Status-open:** proof = a new channel by link with nothing agent-made in its niche.
+- **Related:** docs/adr/0027-time-maps.md
+
+---
+
+## 2026-11-26 15:16 EAT — MUNGURA — Juju: adaptable not choosing (ADR 0027 item 75); Worlds 2 lane started; gate passes 10 films
+- Harness: Claude Code (claude-opus-5-5), lead. Topics: juju
+- **Changed:** ADR 0027 items 75-76; delegate "Juju Worlds 2" (ju mend card-year + rule rewrite + atomic write, tradition steer from own sources, city crown 4 min take); Stack Proof allowed the worlds.py fold line; director law fixed by Stack Proof.
+- **Why-verdict:** Measured: 10 films pass gate rooms 1-3 after fold fix; Africa films 0 share cards (coverage 0.1/2.4/0.0%); cache-first prompts cached input 4.1% -> 31.0% (decision row 537). Worlds and Long and Sound sessions closed on their own.
+- **Status-open:** sound lane closed with the Africa 26 min remix and door-3 pending; steer changes names only so far.
+- **Related:** docs/adr/0027-time-maps.md, runs/decision.tsv
+
+---
+
+## 2026-11-26 15:16 EAT — AMBI — Juju: adaptable, never choosing; w-deep and Mansa gold praised
+- Harness: Claude Code (claude-opus-5-5), relayed by MUNGURA lead of "JUJU SHIP IT NOW". Topics: juju
+- **Changed:** Decision (Ambi, quoted): "our job is to allow the software juju to make any kinds videos in these designs systems for any niche that handles it, not to CHOOSE videos and topics for it. but to be adaptable." Praise: "w-deep's video is actually really really well done ... as well as the Mansa gold ... not perfect, there are things that we know now that we would do a little better."
+- **Why-verdict:** agents build Juju's capability (systems, data, checks, ideation), never hand-pick or tune topics. Applied to the phone engine port (generic, proof on a random unseen sentence).
+- **Status-open:** films lead asked to record it as the next ADR 0027 item.
+- **Related:** juju-maps/films/w-deep, docs/PHONE-CORE.md
+
+---
+
+## 2026-11-26 15:04 EAT — TEHUTI — Juju Door LIVE: five keys in from Ambi's key file, cap 5 US, 32/32 live
+- Harness: Claude Code (claude-opus-5-5), lead of "JUJU SHIP IT NOW". Topics: juju
+- **Why-verdict:** /v1/health says mode live; test.mjs 32/32 on the live URL after the flip (test spaces stay on the stub, nothing spent). Values never printed by the lead.
+- **Status-open:** Ambi pasted his OpenRouter and WaveSpeed keys into chat; told to rotate, he declined ("its okay ... proceed"). Paid calls refused until both PINs are set (first sign-in in the phone app). Cap 5 US until Ambi names another.
+- **Related:** apps/door/wrangler.toml, runs/door/
+
+---
+
+## 2026-11-26 14:47 EAT — TEHUTI — Juju: ju mend (Ambi's corrections applied to a film), myth take 2, deep time parked, city crown stop list
+- Harness: Claude Code (claude-opus-5-5), worlds lane. Topics: juju
+- **Changed:** juju-maps/correct/mend.py and route.json (writer GLM 5.3), hook in juju-maps/ju, contract in make/CONTRACT.md, canon/corrections.jsonl (first rule). worlds/tale.py (shoal, no on-screen disclaimer, a check that a second line never repeats its title). worlds/DEEP-PARKED.md. worlds/crown/stops.json (51 stops), data/worlds/cities (Hotham 2026, CC BY 4.0).
+- **Why-verdict:** Measured: ju mend on tm-africa/v1 hid the disputed counter and chart and added "AD 972 Students still come"; drawn with the film's own engine (50f2f0c1); 0.0125 US. Myth take 2 (films/w-tale/a.mp4): 25 of 25 moves heard, 0 pops, shoal drawn. Ambi called deep time ugly: parked.
+- **Status-open:** the crown waits on reading the 7 own-record stops against the world book, then a 4-minute 240p take; the myth's opening world view has a smeared top band; a whole-film mend takes about 15 minutes on the old engine.
+- **Related:** docs/adr/0027-time-maps.md item 69
+
+---
+
+## 2026-11-26 14:46 EAT — TEHUTI — Juju Ear: channel sound packs, quieter camera, sound step in ju make, Africa 26.8 min redrawn
+- Harness: Claude Code (claude-opus-5-5), long-form and sound lane. Topics: juju
+- **Changed:** juju-maps/sound/tmsound.py: camera sounds -8 dB, soft attack, every sound capped against the bed at its own moment; no take twice in a row; packs per channel (kingdoms-from-inside, the-money-map, simulated-atlas; war-room theme -> tm-war-table) picked by sound/channels.json; camera rows read; bed slices decoded alone and in parallel; --moves cached; one ffmpeg pass; no stems kept; CPU timers in cues.json. make/make.py: a Sound step after the draw, no flag skips it. sound/test_tmsound.py (PASS). Narration duck now an explicit envelope (measured 17.9 dB, the old compressor's depth). Sound laid into films/sty-war-room/a.mp4 and films/w-tale/a.mp4. tm-africa-28 redrawn on the new engine: 1610 s.
+- **Why-verdict:** Ambi 26 Nov (ADR 0027 items 44, 47; 11:30 order: every map film has sound, much faster). Measured: mk-wealth2 camera over bed max +4.8 -> -3.2 LU; same take twice in a row 66 -> 0 (st-us); sty-war-room every class within +3 LU of the bed, Earshot 60% cues within 40 ms (chance 21%); w-tale Earshot 52% (chance 12%), no strong accent; 7.8 CPU s for 90 s of film. Bug: my edit broke tmsound for every film (end swallowed by a comment), fixed on the Worlds lane's report; test added. Decisions rows 526-536. Africa redraw judged 6.5/10 (was 5.5); overnight clause long PASS.
+- **Status-open:** Africa 26.8 min Juju Ear remix and door-3 wait for the heavy slot (after Stack Proof's third Neon film); the ju make sound step not yet proven by a finished make (snd-proof refused by the gap gate in the draw); Rust mixer written down only (sound/RUST-MIXER.md).
+- **Related:** runs/predicate/overnight/long.json, juju-maps/longform/frames-v3/NOTES.md, juju-maps/sound/channels.json.
+
+---
+
+## 2026-11-26 14:32 EAT — TEHUTI — Juju app polish: Mojo Bag, every QA row answered, doors open anytime, Tell Juju
+- Harness: Claude Code (claude-opus-5-5), App Polish owner. Topics: juju
+- **Changed:** crates/juju-serve (GET /api/purse, Upload kit route, mp4 stills and lengths, fonts cached + 304s, old links to Altar, length 2), mockups/r2 (Mojo Bag sheet from the money chip, Upload kit, channel switcher, doors open with no channel, length row 2/10/20/28, Tell Juju pop-out with Not built yet guard), runs/app/flow/walk.mjs (purse and no-channel door clauses). Commits 4c372ef and POLISH-DONE.
+- **Why-verdict:** Measured: walk PASS at 390x844 and 1440x900, 38 of 38 clauses, 0 console errors (runs/app/qa/walk-final). Every screenshot looked at. Library tests 29/29; tests/real.rs 3 timeouts under load 160-187, rerun 5/5. Binary sha 0eff99d9 on 4700.
+- **Status-open:** ju mend contract (Worlds lane) not received, so Tell Juju says Not built yet. docs/PHONE-CORE.md section 3 (purse shape) and runs/app/make.json [2] are the lead's untracked files, edited but not committed by me. Self-inflicted: api.js broken on disk about 10 min at 13:30.
+- **Related:** runs/app/qa/DECISIONS.md, runs/app/qa/POLISH-DONE, docs/adr/0027 item 73.
+
+---
+
+## 2026-11-26 14:32 EAT — TEHUTI — Juju Door live (test mode) on Cloudflare; one-command key loader for Ambi
+- Harness: Claude Code (claude-opus-5-5), lead of "JUJU SHIP IT NOW". Topics: juju
+- **Status-open:** Ambi runs door-keys.sh, sets both PINs, names the live cap (ships 5 US); lead flips MODE=live. Lanes A (core) and B (phone) still building.
+- **Related:** runs/door/live-test.txt, apps/door/KEYS.md
+
+---
+
+## 2026-11-26 14:30 EAT — TEHUTI — Juju Door: live on Cloudflare in stub mode, 32/32 on the live URL
+- Harness: Claude Code (claude-opus-5-5), lane C. Topics: juju
+- **Changed:** deployed juju-door to https://juju-door.sema-relay.workers.dev (version 951f9adb, MODE stub, CAP_USD 5). The Rust client now carries door.py's route() (routes.json role to kind, clamps, writers, Neon film fallback through GET /v1/film). Added a meter running total and indexes, a 600 s provider timeout, and test spaces that wipe after a day. Branch door/cloudflare 909766f.
+- **Why-verdict:** Measured: test.mjs 32/32 on the live URL, 3 runs (runs/door/live-test.txt). The first run right after the first deploy saw one Cloudflare error page on /v1/people, and it did not come back. Unit 26/26; Rust 5/5 plus live_door. Lane B drove the live Door from its phone client. I read the lead's scripts/door-keys.sh and confirmed the names and path; I did not run it.
+- **Status-open:** Ambi runs scripts/door-keys.sh (keys + SETUP_CODE), then sets both PINs. The lead sets MODE live and the cap Ambi names, then redeploys. Lane A takes door_http.rs into core.
+- **Related:** apps/door/README.md, apps/door/KEYS.md, docs/PHONE-CORE.md sections 1 and 3
+
+---
+
+## 2026-11-26 14:20 EAT — TEHUTI — Juju Core: drawer is a library, frames identical, Android and wasm build
+- Harness: Claude Code (claude-opus-5-5), lane A of "JUJU SHIP IT NOW" (docs/PHONE-CORE.md). Topics: juju
+- **Changed:** branch core/juju-core (worktree ~/AUH/AMBESSA/intel/juju-core-wt), commits 282c012, 83c34b2. The public API is in crates/juju-core/src/api.rs: Order, Live, Door::ask(film, role, request), Maker/Piece with w and h, make(). The timemap drawer is copied into src/tm (sha manifest ref/COPIED-FROM.sha256; Metal only on macOS, a CPU stub elsewhere; the theme is set per film). Also: Rust mix (bed and stops, -14 LUFS, Ogg via lewton), an ffmpeg Maker, a Saved door (the same tm-<sha> shelf name as timemap.py, byte-identical json.dumps), a Glue door (door.py), resumable 4 s pieces, and scripts/packs/build.py.
+- **Why-verdict:** Measured: frames at 5 times of mk-wealth2/time.json at 240p are identical (max 0/255) to bin/timemap f889403c, on both the Metal and the CPU path. aarch64-linux-android release builds; wasm32 builds with --no-default-features and with the full film engine.
+- **Status-open:** the planner port (sentence to time.json) is not done; one lib unit test fails (to look at); the packs build is running; the reference plan for wealth-the-richest-country-927707 is running in a frozen shadow (scratchpad).
+- **Related:** lanes B (phone/standalone) and C (door/cloudflare) have the seam.
+
+---
+
+## 2026-11-26 14:06 EAT — MUNGURA — Juju: Neon A/B stopped on Ambi word; one consistent DeepSeek stack
+- Harness: Claude Code (claude-opus-5-5), lead. Topics: juju
+- **Changed:** ADR 0027 item 74; Stack Proof told to stop nx- films, keep --writer neon as option, resume thumbnails, steer, churn.
+- **Why-verdict:** Ambi: forget Neon if expensive; Neon about 0.24 US spent in tries, cache 0 on 11 calls.
+- **Status-open:** none new.
+- **Related:** juju-maps/routes.json
+
+---
+
+## 2026-11-26 14:05 EAT — TEHUTI — Juju Door: built and tested in stub mode, deploy waits on Cloudflare login
+- Harness: Claude Code (claude-opus-5-5), lane C of "JUJU SHIP IT NOW". Topics: juju
+- **Changed:** apps/door (Cloudflare Worker + one SQLite Durable Object per space): session (PBKDF2 PIN, setup code, 5-wrong lockout), ask (DeepSeek, OpenRouter, Google, priced as route_proof.py), voice (Inworld WAV + alignment), purse (Mojo Bag shape), versioned state for channels/ideas/films plus append-only corrections, meter, audit, rate limits, CORS for the app's origins only. Test spaces always on the stub. KEYS.md has Ambi's secret lines. crates/juju-core/src/door_http.rs is the Rust client (Net seam, door.py bodies). docs/PHONE-CORE.md sections 1 and 3 now hold the exact shapes. Branch door/cloudflare b10d1a8.
+- **Why-verdict:** Ambi 26 Nov ~13:40 chose the Cloudflare Door so Juju works with the Mac off. Measured: unit 26/26; test.mjs 32/32 against wrangler dev; door_http 4/4 plus live_door against wrangler dev; two planted faults (PIN compare, cap check) each caught.
+- **Status-open:** deploy blocked: the wrangler OAuth expired on 27 Sep; Ambi must click Allow on wrangler login. Then deploy, run test.mjs against workers.dev, and send the URL to lanes A and B. The live cap is Ambi's number (ships at 5).
+- **Related:** apps/door/README.md, apps/door/KEYS.md, runs/door/*.txt
+
+---
+
+## 2026-11-26 14:01 EAT — MUNGURA — Juju: Mentawai and city crown praised (both DeepSeek); play to DeepSeek strengths; app correction = right pop-out
+- Harness: Claude Code (claude-opus-5-5), lead. Topics: juju
+- **Changed:** ADR 0027 items 70-73; BACKLOG 46-48.
+- **Why-verdict:** Measured: kd-trench written by deepseek-flash (voiced chain), sty-city-towers by the styles build. Engine lane: share cards only over whole region at >=80% coverage, book first, Almoravids 594 and Silla/Goguryeo sign flips refused.
+- **Status-open:** Neon A/B still running; City crown rebuild queued; pop-out and menu fix to ship-it.
+- **Related:** juju-maps/films/kd-trench, juju-maps/films/sty-city-towers
 
 ---
 
