@@ -1,6 +1,188 @@
 # Juju day log, newest first
 
-Rebuilt 07:01 EAT, Thu 26 Nov 2026. Only entries whose title names Juju. Times are EAT (UTC+3). Logged by agents: evidence of what they report, not proof. Where two entries disagree, the later one wins and the older stays.
+Rebuilt 09:00 EAT, Thu 26 Nov 2026. Only entries whose title names Juju. Times are EAT (UTC+3). Logged by agents: evidence of what they report, not proof. Where two entries disagree, the later one wins and the older stays.
+
+---
+
+## 2026-11-26 08:50 EAT — TEHUTI — Juju canon: brackets in land names checked; migration rows 7 and 10 done by the engine lane
+<!-- type: event -->
+**From:** TEHUTI
+- Harness: Claude Code (claude-opus-5-5), canon lane. Topics: juju
+- **Changed:** canon/laws/brackets.py also checks brackets in region names and shelf Name/Bracket (+1 test, 26 green); wired.py counts every mk-* film for timemap.py; MIGRATION rows 7 and 10 done.
+- **Why-verdict:** Measured: the dates lane's 22 "[by tradition]" land names (africa, east-asia, nigeria) are on the list; STORYBOARD.md and timemap.py:992 changed by the engine lane; mk-andes still making (director call in flight) when read.
+- **Status-open:** rows 14, 15, 18; stories lane brackets change (lead sent it); re-prove timemap wiring when mk-andes finishes; no-tell-frames waits for Ambi; law 6 FINAL off.
+
+---
+
+## 2026-11-26 08:47 EAT — TEHUTI — Juju dates: tradition-only states drawn hatched; Andes, East Asia, Nigeria and Cairo land built
+- Harness: Claude Code (claude-opus-5-5), Juju dates worker. Topics: juju
+- **Changed:** reach.rs tradition land (edge tradition, 'X [by tradition]', only cells no measured row holds; shelf Edge=tradition, Bracket); door.py tradition stretches, bounds and grid by scale (region 0.2, country 0.05 by Natural Earth admin-0, city 0.005 with rules-city.json), book's own Cliopatria pairings; dates/draw: africa, andes, east-asia, country/nigeria, city/cairo; engine and stack lanes told.
+- **Why-verdict:** ADR 0028 items 7, 9 (lead). 29/29 tests incl. a tradition test whose mutant fails. Measured: Andes 3 and East Asia 10 states at 1.0 (drawn from their Cliopatria borders), Nigeria Bornu split fixed by alias; frames read for Andes and East Asia; East Asia label fault sent to engine.
+- **Status-open:** remaining Nigeria and Cairo frames drawing behind a jammed light queue; Roots notes in dates/HANDOFF-to-roots.md.
+
+---
+
+## 2026-11-26 08:44 EAT — TEHUTI — Juju canon: one bracket list for every lane, checked in code
+<!-- type: event -->
+**From:** TEHUTI
+- Harness: Claude Code (claude-opus-5-5), canon lane. Topics: juju
+- **Changed:** juju-maps/canon/brackets.json (8: their own record, by tradition, dug and dated, oldest known record, disputed, ruled through local kings, influence not rule, in name only; never dates about/argued/estimate); canon/laws/brackets.py (check, say); gap.gate fails an off-list bracket; time-type.json estimate.words points at the list; LAWS law 8 rewritten; canon/HANDOFF-brackets.md for timestory.py (lines 404, 432).
+- **Why-verdict:** lead: two lists existed. Measured: st-us ok; tm-africa-28 fails only on from the dug site; tm-musa, tm-sahara, tm-africa-long carry argued/dates about from before 26 Nov. A patched copy of timestory.py passes a mapped bracket and fails a planted dates about. Found: the word scan never caught brackets because time.json stores them without square brackets.
+- **Status-open:** the stories session is gone (socket stale, none listed); the hand-off waits in canon/HANDOFF-brackets.md; verify with python3 -m canon.laws.brackets on its next film.
+- **Related:** juju-maps/canon/brackets.json.
+
+---
+
+## 2026-11-26 08:43 EAT — TEHUTI — Juju Roots round seven: law 6 holds, Sahara salt row, fast place index
+- Harness: Claude Code (claude-opus-5-5), roots lane. Topics: juju
+- **Changed:** roots.py capital rule, short date-line anchor, hijri/OCR years, p3k cache; geoindex.py, spell.py; Juju reader units u21-u24, r11-r13.
+- **Why-verdict:** Measured: check.py TRUE; 24th Dynasty held at Sais 735-721 BC; Ife, Benin, Borno, Nkore, Bauchi held; Sahara 868-1055 rows dated; spend 0.13 US this round.
+- **Status-open:** Agades, Bono, Bonny, Nok unheld; Andes 12 and East Asia 16 states held by passage, 25+ only with Cliopatria borders.
+- **Related:** juju-maps/roots/HANDOFF-to-dates.md (Round seven).
+
+---
+
+## 2026-11-26 08:41 EAT — TEHUTI — Juju Night on two grounds: five first takes, marks spread 2.55
+- Harness: Claude Code (claude-opus-5-5), night2 lane.
+- **Changed:** new juju-maps/night2/ (Rust ardhi: exact lines + Night marks on the drawer; make.py camera law: drawer >=4 deg and steeper than -45, plain globe below, 0.8 s dissolve inside moves; run.sh/draw.sh/seen2/seam/marks). Classic Night untouched (sha256 same; golden istanbul and po3 the same).
+- **Why-verdict:** five first takes khovd2 5.45, chile 6.7, seville 4.15, baltic 5.85, bordeaux 4.85; spread 2.55 (count spread 0.8, same as round two). Worst faults: plain globe at 0.2 deg is a blur; seam offsets 3-33% of width; bordeaux says places it does not show. 0.34 US.
+- **Status-open:** close stops should clamp to >=1 deg or keep the satellite look; seam not aligned; timemap global lock makes a 100 s ground wait 8-9 min. No 1080p (none earned 7).
+- **Related:** runs/predicate/overnight/night.json, juju-maps/night2/README.md
+
+---
+
+## 2026-11-26 08:39 EAT — TEHUTI — Juju canon: migration rows 5, 6, 8, 11 done; only lanes' rows 7, 14, 15, 18 and Ambi's subtitle call left
+<!-- type: event -->
+**From:** TEHUTI
+- Harness: Claude Code (claude-opus-5-5), canon lane. Topics: juju
+- **Changed:** row 6: systems/build.py writes canon pointers and carries moko-day retired (rebuild would have dropped it); row 11: time-type.json estimate.opening null, [estimate] out of words; canon/systems/moko-dusk.json added; duppy-night canon points at night2/; rows 5 (make lane) and 8 (roots lane) verified done.
+- **Why-verdict:** Measured: golden istanbul and po3 the same before and after row 6; moko-dusk water #2a7c92 -> #1f5f7c (its look since 25 Nov 16:37); no code reads the estimate block; canon check TRUE; ju systems shows a canon file for every system.
+- **Status-open:** rows 7, 14, 15, 18 with their lanes; type lane had no live session (note in canon/HANDOFF-migration.md); no-tell-frames waits for Ambi; law 6 FINAL off.
+- **Related:** runs/canon/row6/RESULT.md, runs/canon/row11/RESULT.md.
+
+---
+
+## 2026-11-26 08:22 EAT — TEHUTI — Juju canon: crossroads live, audit down to Ambi's subtitle call (124 to 18); migration hand-offs sent
+<!-- type: event -->
+**From:** TEHUTI
+- Harness: Claude Code (claude-opus-5-5), canon lane. Topics: juju
+- **Changed:** countersign 4 applied (crossroads row + 19 pins; receipt runs/canon/countersign-4/receipt.json). canon/laws/wired.py proves wiring from any film made since the call; canon/laws/gap.py description() for a description written after the gate (+1 test, 22 green); canon/HANDOFF-migration.md with exact edits for rows 5, 6, 7, 8, 10, 11, 14, 15, 18; engine, stack, night, type and roots lanes messaged.
+- **Why-verdict:** Measured: audit 29 -> 18, all no-tell-frames; pins 0 DIFF; canon TRUE; 59 linked. timemap.py laws proven in mk-kingdoms and tm-africa-28 (gate reports 33 and 52 framed undrawn states there); tm-africa-28 description still carries the caution line because it is written after the gate.
+- **Status-open:** no-tell-frames waits for Ambi; rows above wait on their lanes; worlds and statemap own-path not wired; law 6 FINAL off.
+- **Related:** juju-maps/canon/HANDOFF-migration.md.
+
+---
+
+## 2026-11-26 08:09 EAT — TEHUTI — Juju canon: countersign request 4 made reproducible (trial.sh)
+<!-- type: event -->
+**From:** TEHUTI
+- Harness: Claude Code (claude-opus-5-5), canon lane. Topics: juju
+- **Changed:** runs/canon/countersign-4/trial.sh rebuilds the trial in a fresh temp copy (reach.diff, pin swap, pins-check, own-folder build, audit); REQUEST.md says a reviewer runs it; audit-124.md states the request recipe.
+- **Why-verdict:** request 4 refused on reproducibility (trial copy gone). Measured: trial.sh TRUE (0 DIFF, audit 18, 0 naming crossroads); planted copy with one pin line dropped prints FALSE.
+- **Status-open:** waits for a fresh reviewer.
+- **Related:** runs/canon/countersign-4/REQUEST.md.
+
+---
+
+## 2026-11-26 08:00 EAT — TEHUTI — Juju canon: crossroads choice (b) ready as countersign request 4 (29 to 18)
+<!-- type: event -->
+**From:** TEHUTI
+- Harness: Claude Code (claude-opus-5-5), canon lane. Topics: juju
+- **Changed:** crossroads-chain-outliner: passes 1-5 max, 6-7 low (ladder_effort_by_pass), package low, 4,000 tokens kept; SKILL.md carries the measured numbers and the DeepSeek 128,000 note; runs/character/ladder/ladder.py reads per-pass and package efforts; runs/canon/countersign-4/ prepared.
+- **Why-verdict:** lead chose (b): no new money or caps. Measured: trial audit 29 -> 18 (all no-tell-frames), 0 new; pins 0 DIFF; stubbed calls ask max for passes 1-5, low for 6, 7 and packages.
+- **Status-open:** waits for a fresh reviewer; then only no-tell-frames (Ambi's subtitle call) remains of the 124.
+- **Related:** runs/canon/countersign-4/REQUEST.md.
+
+---
+
+## 2026-11-26 07:51 EAT — TEHUTI — Juju: ju make makes films from one sentence with no agent; ju doctor runs each part alone
+- Harness: Claude Code (claude-opus-5-5), make lane.
+- Changed: juju-maps/ju (make, status, stop, list, doctor), juju-maps/make/ (CONTRACT.md, make.py, doctor.py, states.py, night_birth.py, chain.json, costs.json, receipt.py, prove.sh, fixtures/, HANDOFF.md). No other lane's file edited.
+- Why-verdict: 4 films made by ju make from env -i: mk-wealth 6.5/10, mk-states 5/10, mk-night 6/10, mk-kingdoms 4/10 (misses West Africa). mk-worlds refused on money (lane 0.089 of 0.30 US spent; worlds Estimated 0.22). Spend 0.0899 US (Measured). Laws 6/20/24 wired; canon.laws.wired says proven for make. Doctor: 12 parts PASS alone, 8 planted faults FAIL as they must; last whole run FAIL on roots query (KeyError partners, roots lane).
+- Status-open: five-film bar not met (worlds refused); roots query broken; story fixture refrozen 07:45 after a stricter rule; export path written, not run on a film.
+- Related: juju-maps/make/_out/marks.md, runs/predicate/overnight/make.json, runs/predicate/overnight/doctor.json, juju-maps/make/HANDOFF.md
+
+---
+
+## 2026-11-26 07:48 EAT — TEHUTI — Juju channels lane: three map channels ranked by measured pools, first ten titles and thumbnails
+- Harness: Claude Code (claude-opus-5-5), channels and packaging lane. Topics: juju
+- **Changed:** new juju-maps/pack/ (pool.py, demand.py, pack.py, spawn.py, finish.py, forms.json, cards.json); sheet juju-maps/pack/sheet.jpg; ideas.json for the app; runs/predicate/overnight/channels.json (clause PASS).
+- **Why-verdict:** 2026 format pools (8+ min): kingdoms 9 (entrants median 375 views), states 6 (61), worlds 24 (17). Proven syntax: "X: Every Year (..)" Paper Borders 197x own median, Jabzy 120x, GeoPanda one-map 87-140x. Blind squint: only the US outline named a place (1 of 20); 45 degree kingdoms camera moved 0/10, reverted. DeepSeek spend 0.011 US.
+- **Status-open:** thumbnail words are DECLARED, a person checks truth; kingdoms thumbnails need a whole-continent frame with the subject lit; channel pick is Ambi's.
+- **Related:** runs/decision.tsv channels row; juju-maps/pack/channels-ranked.json
+
+---
+
+## 2026-11-26 07:47 EAT — TEHUTI — Juju drawer speed: processor routes measured, none gives 5x same-looking; graphics chip is the route
+- Harness: Claude Code (claude-opus-5-5), velocity worker. Topics: juju
+- **Changed:** juju-maps/velocity/timemap-fast (copy of the drawer, --bench only kept), bench harness, juju-maps/velocity/DRAWER-ARITHMETIC.md; 5 decide rows.
+- **Why-verdict:** base 30.25 CPU s / 30 frames 1080p; ground 37% lands 38% march 19%; 0 identical neighbour frames; reuse caps 1.2x; --ss 1 2.4x but relief-shadow stair edges (1.77% px off >16); encoder veryfast 2.8x less encode CPU.
+- **Status-open:** lead decides: Metal port of the map pass (days), or --ss 1 for 240p looks, x264 faster, 8 threads at night (Ambi).
+- **Related:** runs/decision.tsv lane velocity
+
+---
+
+## 2026-11-26 07:47 EAT — TEHUTI — Juju canon: spirit-tongue and poteto live (43 to 29); crossroads ladder at max does not fit 4,000 tokens
+<!-- type: event -->
+**From:** TEHUTI
+- Harness: Claude Code (claude-opus-5-5), canon lane. Topics: juju
+- **Changed:** spirit-tongue SKILL.md describes the registrar v4; spirit-tongue and juju-poteto-autopilot re-pinned live (receipt runs/canon/countersign-3/receipt.json); runs/character/ladder/ladder.py reads ladder_effort_write for package calls and LADDER_WORK for a fresh run folder; one seed measured (runs/canon/countersign-3/CROSSROADS-MEASURE.md).
+- **Why-verdict:** Measured: live audit 43 -> 29 (18 no-tell-frames, 11 crossroads), 0 naming the two; pins 0 DIFF; R17 test TRUE; canon TRUE; 59 linked. Ladder at max: passes 1-5 fit (<= 2,752 tokens), pass 6 spent 4,000 of 4,000 thinking and its repair was unusable; ladder stopped; arm A package at low whole in 136 tokens; 0.0297 US.
+- **Status-open:** crossroads needs the lead to choose: raise ladder_max_tokens and the ladder cap (two threshold changes), or keep max within today's room. no-tell-frames waits for Ambi.
+- **Related:** runs/canon/countersign-3/CROSSROADS-MEASURE.md.
+
+---
+
+## 2026-11-26 07:35 EAT — TEHUTI — Juju canon: two packs live (45 to 43); request 3 ready with three fixes (43 to 18)
+<!-- type: event -->
+**From:** TEHUTI
+- Harness: Claude Code (claude-opus-5-5), canon lane. Topics: juju
+- **Changed:** echo-decay and asase-velocity re-pinned live (receipt runs/canon/countersign-2/receipt.json). Fixes on disk: spirit-tongue registrar v4 (no absence habit, confident close; rubric h3 counts the new habit), R17 test runs/canon/tests/test_spirit_tongue_r17.py; crossroads ladder_effort max + ladder_effort_write low, done_when says candidate (3 of 10); poteto heavy_slots 8. runs/canon/countersign-3/ prepared. Sahara 862-1054 Roots row written into juju-maps/dates/HANDOFF-to-roots.md.
+- **Why-verdict:** Measured: live 45 -> 43, 0 new, pins 0 DIFF, canon TRUE; trial 3: 43 -> 18 (all no-tell-frames), 0 new; R17 test TRUE and bites (3 of 6 fail on a tag-blind fits).
+- **Status-open:** request 3 waits for a fresh reviewer; ladder.py must read ladder_effort_write (character lane); max effort at 4,000 tokens untested.
+- **Related:** runs/canon/countersign-3/REQUEST.md.
+
+---
+
+## 2026-11-26 07:27 EAT — TEHUTI — Juju Roots round six: Juju reads by itself; Andes, East Asia, Nigeria, Cairo, trade and money books
+<!-- type: event -->
+**From:** TEHUTI
+
+- Harness: Claude Code (claude-opus-5-5)
+- Changed: roots/reader.py (DeepSeek low via door, one unit a call, line anchors, code cuts passages), units.py, scale.py (country and city), subject.py (trade, money); books andes, east-asia, nigeria, cairo, trade, money; East Asia shelf (Nihongi, Shoo King, Sima Qian, Hulbert, papers); GeoNames for 14 more countries.
+- Why-verdict: ADR 0029 items 5-7. Juju reader vs Haiku on one unit: 0.90 of claims on shared lines, 0.82 same year, 0.96 pass the page check. Andes 27.7c, East Asia 30.2c, Nigeria 3.1c, total 64.8c of 1.50. check.py TRUE with a clause per book.
+- Status-open: a book build takes about 7 min (398 MB place index); Andes and East Asia have 11 placed states each; Slave Voyages and ORBIS licences unreadable; Dates lane session not running, note in roots/HANDOFF-to-dates.md.
+- Related: docs/adr/0029-world-book.md
+
+---
+
+## 2026-11-26 07:22 EAT — TEHUTI — Juju dates: law 6 fills, 7 of 19 framed states now drawn, 12 sent to Roots
+- Harness: Claude Code (claude-opus-5-5), Juju dates worker. Topics: juju
+- **Changed:** door.py bridges people rows; lab sets clipped only by explicit ends; rules.json finds and cemeteries 30 km circles, min_cells 1; reach.rs a sourced border keeps all its cells against spill; dates/draw/africa-roots.geojson rebuilt; Roots handoff lists the 12 undrawn with reasons; canon note canon/laws/FROM-DATES-law6.md (session not reachable by name); engine lane told.
+- **Why-verdict:** canon gap law (fills-26nov.json). Measured: 7 of 19 drawn in framed years; same-state size mean 0.272 (was 0.222: Aksum 3.58, Kush 0.21 moved by added peoples and rows; Kanem whole again). 28/28 tests.
+- **Status-open:** 12 states need dated stretches from Roots; Aksum and Kush sizes to retune after Roots' next round.
+
+---
+
+## 2026-11-26 07:20 EAT — TEHUTI — Juju canon: seven packs live (124 to 45 faults); countersign request 2 ready (45 to 21)
+<!-- type: event -->
+**From:** TEHUTI
+- Harness: Claude Code (claude-opus-5-5), canon lane. Topics: juju
+- **Changed:** countersign 1 applied live without no-tell-frames (23 rows, 49 pins; receipt runs/canon/countersign-1/receipt.json, conductor sha256 aa8562e9); runs/canon/countersign-2/ prepared (echo-decay, asase-velocity, crossroads +1 Builder row, spirit-tongue re-pinned); audit-124.md carries the review findings; fills-26nov.json progress (stories 8 of 9; Sahara 862-1054 needs a Roots row).
+- **Why-verdict:** Measured: live audit 124 -> 45, 0 new; pins 0 DIFF; canon TRUE; 59 linked. Trial 2: 45 -> 21, 0 new. Held: no-tell-frames (Ambi: R0 vs subtitles), juju-poteto-autopilot (heavy_slots 4 vs scripts/heavy 8).
+- **Status-open:** request 2 waits for a fresh reviewer; law 6 waits for the dates lane (26 states) and one Roots row.
+- **Related:** runs/canon/countersign-2/REQUEST.md.
+
+---
+
+## 2026-11-26 07:07 EAT — TEHUTI — Juju canon: countersign request 1 ready (eight packs, rows and pins); request 2 review started
+<!-- type: event -->
+**From:** TEHUTI
+- Harness: Claude Code (claude-opus-5-5), canon lane. Topics: juju
+- **Changed:** runs/canon/countersign-1/ (REQUEST.md, reach.diff 26 Builder rows, pins-lines.txt 63 lines, audits, trial binary); nothing applied.
+- **Why-verdict:** Measured in an isolated copy: audit 124 -> 27, 0 new, 0 naming the eight packs; pins-check 0 DIFF each. Findings: no-tell-frames R2/R5 and film-harvest R10 gates absent from their SKILL.md; no-tell R0 vs Night subtitles; evergreen still LOT 16-20 min / 2,400 words; moko-and-duppy names retired Moko Day.
+- **Status-open:** waits for the lead's fresh-reviewer countersign. Request 2 (the 27 left): spirit-tongue +486 lines, crossroads +211, echo-decay +56, asase +26 since pinned (uncommitted vs HEAD); poteto R7 pins heavy_slots 4 while scripts/heavy runs 8.
+- **Related:** runs/canon/countersign-1/REQUEST.md.
 
 ---
 
