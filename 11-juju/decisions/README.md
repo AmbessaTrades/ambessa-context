@@ -1,6 +1,6 @@
 # Decisions (ADRs)
 
-As of 16:44 EAT, Sat 28 Nov 2026. Copied from the Juju repo. These outrank the master brief and every page here except a newer sentence from Ambi.
+As of 18:46 EAT, Sat 28 Nov 2026. Copied from the Juju repo. These outrank the master brief and every page here except a newer sentence from Ambi.
 A line marked candidate, inferred or "the lead's" is not Ambi's.
 
 | No. | Decision |

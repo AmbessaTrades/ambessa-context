@@ -1,5 +1,5 @@
 {
- "as_of": "16:44 EAT, Sat 28 Nov 2026",
+ "as_of": "18:46 EAT, Sat 28 Nov 2026",
  "workshop": "down",
  "jobs": [],
  "pull_requests": [
@@ -380,11 +380,11 @@
   }
  ],
  "ledger": {
-  "calls": 10632,
-  "usd_total": 36.1077,
+  "calls": 13163,
+  "usd_total": 36.214,
   "usd_by_service": {
-   "deepseek": 11.1059,
-   "openrouter": 12.269,
+   "deepseek": 11.1132,
+   "openrouter": 12.368,
    "google": 8.3851,
    "inworld": 3.9231,
    "unsettled": 0.1365,
@@ -394,14 +394,14 @@
  },
  "service_calls": {
   "deepseek": {
-   "ok": 6537,
+   "ok": 6903,
    "refused_or_failed": 23,
-   "last_ok": "26 Nov 20:27 EAT"
+   "last_ok": "28 Nov 18:46 EAT"
   },
   "openrouter": {
-   "ok": 3411,
-   "refused_or_failed": 47,
-   "last_ok": "26 Nov 16:38 EAT"
+   "ok": 5574,
+   "refused_or_failed": 49,
+   "last_ok": "28 Nov 18:45 EAT"
   },
   "google": {
    "ok": 119,
@@ -544,7 +544,7 @@
   {
    "clause": "trunk.main_is_origin_and_clean",
    "ok": false,
-   "detail": "branch main, ahead 0, behind 167, uncommitted files outside runs/ 306"
+   "detail": "branch main, ahead 0, behind 171, uncommitted files outside runs/ 308"
   },
   {
    "clause": "trunk.gate_open_at_head",
@@ -589,7 +589,7 @@
   {
    "clause": "app.receipt_is_of_this_head",
    "ok": false,
-   "detail": "walk made at None with None uncommitted files, now 13ff419 with 306, no-paid None"
+   "detail": "walk made at None with None uncommitted files, now 13ff419 with 308, no-paid None"
   },
   {
    "clause": "film.exists_10_to_20_min_with_picture_and_sound",
@@ -604,7 +604,7 @@
   {
    "clause": "money.ledger_within_cap",
    "ok": false,
-   "detail": "36.1077 spent and 0.0000 held of 10.00 US over 10632 rows (cap file 40.0, Ambi's ceiling 10.0)"
+   "detail": "could not be read: JSONDecodeError: Expecting value: line 1 column 1 (char 0)"
   },
   {
    "clause": "film.voice_is_inworld_real_calls",
@@ -653,11 +653,11 @@
   }
  ],
  "newest_runs": "ottoman12f HOLD 25 Nov 11:25 (stopped at Pictures and form); proof12c FAILED 25 Nov 09:47 (stopped at Render and mix); proof12 HOLD 25 Nov 09:16 (stopped at Script and heal); proof75b HOLD 25 Nov 09:06 (stopped at Render and mix); proof75a HOLD 25 Nov 08:59 (stopped at Publish kit); strip-planets HOLD 25 Nov 08:41 (stopped at Deal and package); strip-pluto HOLD 25 Nov 08:40 (stopped at Render and mix); 20261125-083722-131d HOLD 25 Nov 08:37 (stopped at Deal and package); strip-japan DONE 25 Nov 08:34 (60 s, 0.008751 US); strip-bulgaria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-austria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-manchuria HOLD 25 Nov 08:11 (stopped at Deal and package)",
- "live_agents": 0,
+ "live_agents": 8,
  "load": [
   3,
-  3,
-  3
+  4,
+  4
  ],
  "sheet_written": true
 }

@@ -1,6 +1,39 @@
 # Juju day log, newest first
 
-Rebuilt 16:44 EAT, Sat 28 Nov 2026. Only entries whose title names Juju. Times are EAT (UTC+3). Logged by agents: evidence of what they report, not proof. Where two entries disagree, the later one wins and the older stays.
+Rebuilt 18:46 EAT, Sat 28 Nov 2026. Only entries whose title names Juju. Times are EAT (UTC+3). Logged by agents: evidence of what they report, not proof. Where two entries disagree, the later one wins and the older stays.
+
+---
+
+## 2026-11-28 18:19 EAT — MUNGURA — Juju mapped as built: 6 of 22 rooms reachable; first tool run on the real web build 8 pass, 8 fail; model stack measured
+<!-- type: event -->
+**From:** MUNGURA
+
+Juju mapped as built: 6 of 22 rooms reachable; first tool run on the real web build 8 pass, 8 fail; model stack measured
+- Harness: Claude Code (claude-fable-5-2)
+- What happened: **Changed:** New data, no app code touched. ~/AUH/AUDIT-2026-11-28/asbuilt/ (one JSON per built room + chrome.json + backend.json 174 nodes/302 edges/51 flows + drift.json), ~/AUH/AUDIT-2026-11-28/studies/ (powermove.json, harness.json, references.json, models-measured.json, seats.json). New test code: juju/scripts/journey/ (run.mjs + 9 journeys + shim.mjs), receipt juju/runs/journey/20261128T151341Z/receipt.json with 36 screenshots. New: juju/flow/complaints.json (Ambi's 57 asks of 28 Nov as rows a checker will read). Harness: Claude Code, Fable 5.2 lead (ultracode), 16 Opus 5.5 medium workers.
+
+**Why/verdict (Measured unless marked):** Only 6 of 22 built rooms can be reached by tapping (gate, altar, new-vessel, crossroads, cauldron, shelf); the other 16 are finished-looking mockups that send no request and fake results with timers. 16 of the 218 arrows of the 24 Nov blueprint are still true in a reachable room. First ever tool press of the REAL web build 0.4.4 (fake Door, $0, 178 s): 8 pass, 8 fail, 2 blocked. Fails: typing the setup code also types into the PIN (2580 saved as 1258); the same film learned twice sends two paid watch calls; states cards are dealt though the phone engine refuses states; one dead tab. On the web the Shelf always says empty (sw.js:80 marks every film elsewhere). New Vessel "Read it" spends about 0.20 US with no confirm. Back end: 17 breaks of four rules (meter first, saved before reply, long work as a job, offer only what the engine can make). Model stack: the app's last film used 3 DeepSeek calls, thinking off, 7.5 s, 0.002 US, against 252 s of drawing; Neon was 48% of spend on 3.5% of calls, cache 1.6%; Jev 1 call in 4,512 map-engine rows; the idea picker silently ran on DeepSeek since 25 Nov (cap counting bug); High Juju changes no model call of a map film (Inferred). Powermove (AGPL, ideas only): keep one drawer process alive for a whole plan, Estimated 211 to 30 CPU s. Decisions by the lead on Ambi's order: no anti-detect browser or ownership disguise (cut); honest per-channel sign-in sessions plus a whole-channel audit before upload (kept); planner / executor / Jev-judge roles with a question book tied to named principles; each role proven by the same film made both ways.
+
+**Status/open:** design panel running (3 designers, lenses: daily loop, correct by construction, creator craft); then the lead merges into juju/flow/, a checker with planted faults, frames on the Doop canvas. Not pressed by any tool: Android tap.rs, the real Door, the Mac path, any film being drawn.
+
+**Related:** juju/flow/, juju/scripts/journey/, ADR 0030, 0031. Handoff: Changed = as-built map + journey suite + complaints data / Verified = receipt.json, lead looked at 2 screenshots / Remaining = merge design, checker, Doop canvas / Start from = `lockf -t 600 /tmp/juju-shot.lock node scripts/journey/run.mjs` and juju/flow/complaints.json.
+- Status: in-progress: design panel running
+
+---
+
+## 2026-11-28 17:15 EAT — TEHUTI — Juju: mapping the built app and saving 50 complaints as a checker file (step 1 of 3)
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju: mapping the built app and saving 50 complaints as a checker file (step 1 of 3)
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 8412ec98)
+- Ambi asked for a canvas of every screen and tap, checked against the built app before any app code. The Doop canvas at (local page) exists (658 frames) but shows the 24 Nov design, not the built app.
+- Launched a 14-agent mapping fleet: 8 write down every screen, button and tap from the real code, 1 builds a robot to press the real web build with a fake Door, 3 study Powermove, Poteto and references, 1 maps back-end calls.
+- Saved Ambi's 50 complaints from today as flow/complaints.json. The checker will fail any design that leaves one unanswered.
+- Powermove is AGPL, so its ideas can be used but not its code. Role reading: Neon plans once per film, DeepSeek runs small parallel jobs, Jev scores and gates. Jev is not in the map-film chain today.
+- Still open: step 2 (design the new flow) and step 3 (all screens on the Doop canvas) not started. Ambi has not yet decided the model-role change; the standing rule needs the same film made both ways first.
+- Files changed: flow/complaints.json
+- Status: in-progress — mapping fleet still running; design and canvas steps not started.
 
 ---
 
