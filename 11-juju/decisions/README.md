@@ -1,6 +1,6 @@
 # Decisions (ADRs)
 
-As of 09:03 EAT, Sat 28 Nov 2026. Copied from the Juju repo. These outrank the master brief and every page here except a newer sentence from Ambi.
+As of 16:44 EAT, Sat 28 Nov 2026. Copied from the Juju repo. These outrank the master brief and every page here except a newer sentence from Ambi.
 A line marked candidate, inferred or "the lead's" is not Ambi's.
 
 | No. | Decision |
@@ -32,3 +32,5 @@ A line marked candidate, inferred or "the lead's" is not Ambi's.
 | 0027 | [# ADR 0027: time maps, a channel type of their own](0027-time-maps.md) |
 | 0028 | [# ADR 0028: a people's own account first, and how sure we are is shown](0028-own-account-first.md) |
 | 0029 | [# ADR 0029: the world book is built ahead, so films are fast and true](0029-world-book.md) |
+| 0030 | [# ADR 0030: she has her own engine; one engine runs everywhere](0030-her-own-engine.md) |
+| 0031 | [# ADR 0031: the skills reach the engine; High Juju runs the same way as Gris-gris](0031-skills-reach-the-engine.md) |

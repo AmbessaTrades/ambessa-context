@@ -4,6 +4,93 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 
 ---
 
+# Sheet of 16:44 EAT, Sat 28 Nov 2026
+
+## Changed since the last sheet
+- Covers 22:39 Thu 26 Nov to 16:44 Sat 28 Nov EAT.
+- Main: last commit 13ff4192 (15:50, 0.4.4). Two commits since the last sheet: 1f04d013 (15:45, 0.4.3) and 13ff4192 (15:50, 0.4.4). Rust: 37,598 lines (was 37,524). Decisions: 29 (was 27).
+- Juju 0.4.3 and 0.4.4 shipped to the phone, web and Mac (lead, 15:52). Checked by hand only.
+- Pull requests unchanged: 8 open, 19 merged, 1 closed. PR 28 still has a failing check.
+- Money ledger unchanged: 10,632 calls, $36.11 in all.
+- Worker's read-only audit of Juju finished at 16:11. No Juju code changed and no paid call made by the audit.
+- ADR 0030 and ADR 0031 and a plan were written at 16:30. The worker says Ambi's answers are recorded there. ADR 0030 says the phone engine becomes the only engine and the Mac runs it too. This replaces the 16:14 "park the phone engine" answer.
+- At 16:40 the worker reports Ambi's order: the lead decides two questions alone, no limits on the phone's looks, no more markdown files, show the whole app as a canvas. The Doop canvas started.
+- Corrections: the lead's 15:38 Google and Inworld 7-day spend ($8.39, $3.80) became $9.28 and $3.92 at 15:52. The old "1% left" Claude reading became 99% left, resets 5 Dec (fresh reading, 15:45).
+
+## What worked and what failed
+**Worked (checked by hand, no automatic test)**
+- Gris-gris sheet names its roles: DeepSeek writes, GLM 5.3 checks, Neon plans (lead, 15:52).
+- Mojo Bag shows quota cards with % bars, 7-day spend, and Read again refreshes every card (lead, 15:52).
+- Each channel card has Ideas, films, Settings or Finish, and the bin on one line at phone width (live web).
+- Absorb inside a channel fills that channel. Two channels stay two (live web, 15:52).
+- The Mac shows all three channels from the Door: Spiral5D, GEOTORYX, spiral 5d (lead, 15:48).
+
+**Failed or refused**
+- Absorb pays, then drops the answer. The phone waits 90 seconds. The Door waits 600 seconds and charges, nothing is saved, and each retry pays again. The worker is about 75% sure of this cause. Not fixed in 0.4.4.
+- The phone's idea screen deals states cards, but the phone's film engine draws kingdoms and wealth only. The audit says a states idea was refused after a 600 MB download. Not fixed.
+- Ideas are weak by construction: every kingdoms title follows one template, and two channels can get identical ideas (audit).
+- Ambi refused "Deep Time" as "ugly". It is parked.
+- Ambi said "forget Neon if expensive". The learn route still uses gemini-4-neon. Not reconciled.
+- The worker says 13 releases (0.3.0 to 0.4.2) went out on 26 Nov with no button pressed.
+
+## App engine and films
+- Phone engine: kingdoms and wealth only. Film kinds are built twice, once for the Mac and once for the phone (audit).
+- Films finished: about 2 from roughly 27 presses on the Mac. None on a real phone on record (audit).
+- Film runs on disk: 4 DONE, 4 FAILED, 24 HOLD. Unchanged.
+- Decided, not built:
+  - Every look runs on every device, including the 3D globe on the phone. The method is picked by a race on the phone (Ambi refused limits).
+  - Each thinking step (idea, bend, title, outline, script, storyboard, check) becomes a card: fixed text, required answer shape, code checks (ADR 0031).
+  - Variety: code refuses an idea that repeats too much of the last five films.
+  - Three formats first: "Does your state have this?", "Bigger than you think", "Why this one is the most X". Voice is a switch per channel.
+  - Every film gets a free code-fault repair loop, up to 2 rounds, on the cheap model.
+  - High Juju also checks its 240p take with Claude and fixes it up to 2 rounds, capped at $0.50 per film (lead, Ambi's order).
+
+## Web app and rooms
+- Web is at 0.4.4 (lead, 15:52).
+- Proposed, not built: three places (Today, Make, Channel) and a command bar. Cmd-K on the Mac, + on the phone. Film as a thread with status. Review by story first. Settings hidden until set.
+- Blueprint: one flow file would draw the canvas and drive a test that presses every arrow. The old flow files hold 22 files and 218 arrows, and they have drifted from the built rooms (16:40).
+- Doop canvas is running. Paper's connector needs Paper.app open.
+- The 19 themed rooms still stand.
+
+## Mac app and APK
+- Mac app: 0.4.4, restarted (lead, 15:52).
+- Every 30 minutes the Mac signs in to the Door, deletes channels deleted elsewhere, pulls Door channels it lacks, merges its rows, and pushes its week.
+- The Mac reads Claude's week at most every 2 hours.
+- Mac 7-day spend (Door purse, 15:52): Google (Neon, Choice of the Seer) $9.28; Inworld (Voice of the Elders) $3.92. Inworld and Google give no balance, only spend.
+- Phone: 0.4.4 live (lead, 15:52). One APK file is built.
+- Phone on a real device: not tested. No test has pressed the phone or web build (audit).
+
+## Agents running now
+- The live agent page did not answer, so running agents are unknown.
+- Lead: last message 15:52 Sat (0.4.4 shipped).
+- Worker: last message 16:40 Sat. Waiting on three answers before building the canvas. Its 11 audit agents finished by 16:07.
+- Transcripts written in the last 10 minutes: 0.
+- Mac load (1, 5, 15 min): 3, 3, 3.
+
+## Money spent on services
+- Ledger: 10,632 calls, $36.11 in all. DeepSeek 11.11, OpenRouter 12.27, Google 8.39, Inworld 3.92, unsettled 0.14, WaveSpeed 0.29.
+- Door spend for 27 and 28 Nov is not in the ledger (audit).
+- Caps conflict: the last sheet named a $35 cap, passed, with no ruling. The audit names a 10 US ceiling. No ruling from Ambi.
+- Claude is not a ledger line.
+
+## Broken, blocked or open
+- Absorb charge and states refusal: both not fixed.
+- Ideas: template titles, identical ideas, and the 59 skills do not reach a model in the film path (audit).
+- No automatic test has pressed the real phone or web build. The worker says GitHub has refused automatic checks since 25 Nov because the account is at its limit. Autosave pushes to main (audit).
+- PR 28 has a failing check.
+- Decided, not built: no shipping to a phone until a robot presses every arrow green (about 3 minutes).
+- Not proven: a voiced film over 10 minutes; a film on 0.4.4; the 95 of 100 taste bar; a cheap model fills recipes at 95% legal first answers; anything on a real phone.
+
+## Waiting on Ambi
+1. Name her channel and the phone model. This blocks the first proof and the build.
+2. Doop or Paper.app for the canvas. Doop is running now.
+3. Yes or change: three places (Today, Make, Channel) with a command bar.
+4. Remove the extra Spiral channel. Tap its bin, type DELETE, tap Delete.
+5. Your one click: GitHub billing, to restore automatic checks.
+6. Rule on the cap: $35, or the audit's 10 US.
+7. Rule on "forget Neon if expensive" against the learn route.
+8. Plug in a real phone. No real-device test is on record.
+
 # Sheet of 22:39 EAT, Thu 26 Nov 2026
 
 ## Changed since the last sheet
@@ -93,6 +180,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 7. Say whether to build colours and films for the five High Juju looks now.
 8. Plug in a real Galaxy. Phone tests have run on an emulator only.
 9. Rule on night on two grounds: parked, no ruling.
+
 
 # Sheet of 20:08 EAT, Thu 26 Nov 2026
 
@@ -195,6 +283,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 9. Five High Juju looks: say whether to build colours and films for them now.
 
 
+
 # Sheet of 18:05 EAT, Thu 26 Nov 2026
 
 ## Changed since the last sheet
@@ -291,6 +380,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 7. Approve or change the outlier and flop cut-offs.
 8. Night on two grounds: parked, no ruling yet.
 9. The no-tell-frames subtitle call. 18 canon faults wait on it.
+
 
 
 
@@ -411,6 +501,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 
 
 
+
 # Sheet of 09:00 EAT, Thu 26 Nov 2026
 
 ## Changed since the last sheet
@@ -524,6 +615,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 
 
 
+
 # Sheet of 04:46 EAT, Thu 26 Nov 2026
 
 ## Changed since the last sheet
@@ -610,6 +702,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 9. Plug in the Galaxy.
 10. Tehuti's five questions are unanswered (01:41): odds in counts, hatched own record, outside dating, banners, Night keeps the globe.
 11. Critique the 12-minute Africa film, the US states film and Night round two.
+
 
 
 
@@ -722,6 +815,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 8. Plug in the Galaxy.
 9. Tehuti's five questions (odds in counts, hatched own record, outside dating, banners, Night keeps the globe) are unanswered (Tehuti, 01:41).
 10. Critique the new time-map films (Asia, South America, North America, Europe, World) and the Night round-two films.
+
 
 
 
@@ -842,6 +936,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 
 
 
+
 # Sheet of 22:39 EAT, Wed 25 Nov 2026
 
 ## Changed since the last sheet
@@ -939,6 +1034,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 6. Decide whether to lift the cap above 30 US. About $2.87 is left.
 7. Fix GitHub billing so seven pull requests can merge.
 8. Plug in the Galaxy.
+
 
 
 
@@ -1064,6 +1160,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 
 
 
+
 # Sheet of 18:36 EAT, Wed 25 Nov 2026
 
 ## Changed since the last sheet
@@ -1179,6 +1276,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 
 
 
+
 # Sheet of 16:34 EAT, Wed 25 Nov 2026
 
 ## Changed since the last sheet
@@ -1263,6 +1361,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 6. Answer whether a film always finishes (10:50).
 7. Plug in the Galaxy.
 8. Decide the 0.2 questions: raise the cap from the app, length per channel, and where niches go.
+
 
 
 
@@ -1367,6 +1466,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 5. Juju Maps: judge the kivu take and the dam film, pick the look, judge the pictures and voice of the Ottoman take. No verdict yet on terra.
 6. Answer whether a film always finishes (Mungura, 10:50; Tehuti, 10:51). No answer recorded.
 7. Plug in the Galaxy for the phone job.
+
 
 
 
@@ -1485,6 +1585,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 
 
 
+
 # Sheet of 10:27 EAT, Wed 25 Nov 2026
 
 ## Changed since the last sheet
@@ -1569,6 +1670,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 5. **Sound:** rule on the 1.28 s hush, and say whether the three sound fixes wait for the watcher fix.
 6. **Plug in the Galaxy** for the phone job.
 7. **Personal check-in:** a worker asked Ambi a personal question at 09:28 and 09:31. No reply is recorded.
+
 
 
 
@@ -1677,6 +1779,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 - **Ear table:** holds one refused line; the script checker needs about five.
 - **Packaging:** his eye and ear decide. Bend facts still unopened.
 - **Phone:** plug in the Galaxy.
+
 
 
 
@@ -1805,6 +1908,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 
 
 
+
 # Sheet of 08:16 EAT, Wed 25 Nov 2026
 
 ## Changed since the last sheet
@@ -1897,6 +2001,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 - **LINE-RULE items 7 to 20** (vault): awaiting countersign.
 - **Phone job:** plug in the Galaxy.
 - **Standing advice** (lead, 12:48 Tue): keep Inworld permissions read-only.
+
 
 
 
@@ -2031,6 +2136,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 
 
 
+
 # Sheet of 13:45 EAT, Tue 24 Nov 2026
 
 ## Changed since the last sheet
@@ -2112,6 +2218,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 - ADR 0010 (20-minute plan) is a candidate. Acceptance not reported.
 - Replacement 90/70/50 wording is a candidate for Ambi (packaging worker, 13:46).
 - Standing advice (lead, 12:48): keep Inworld permissions on Read only.
+
 
 
 
@@ -2231,6 +2338,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 
 
 
+
 # Sheet of 13:27 EAT, Tue 24 Nov 2026
 
 ## Changed since the last sheet
@@ -2292,6 +2400,7 @@ The last 84 two-hour sheets. Older ones are in the git history of this file.
 
 ## Waiting on Ambi
 - No request to Ambi is stated in the messages or facts.
+
 
 
 

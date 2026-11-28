@@ -1,117 +1,114 @@
 <!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Juju now</title><style>body{background:#fff;color:#111;font:18px/1.6 Georgia,serif;max-width:44em;margin:0 auto;padding:40px 20px 80px}h1{font-size:30px}h2{font-size:21px;margin:34px 0 6px}li{margin:4px 0}code{font-size:.85em}</style></head><body>
 <h1>Juju now</h1>
-<p>As of 22:39 EAT, Thu 26 Nov 2026. Written every two hours by claude-haiku-5-5 (medium) from facts collected by code and the lead agent's own messages. Reports are not proof.</p>
+<p>As of 16:44 EAT, Sat 28 Nov 2026. Written every two hours by claude-haiku-5-5 (medium) from facts collected by code and the lead agent's own messages. Reports are not proof.</p>
 <h2>Changed since the last sheet</h2>
 <ul>
-<li>Covers 20:08 to 22:39 EAT, Thu 26 Nov 2026. Facts as of 22:39.</li>
-<li>Main: last commit 446e356e (21:35, 0.4.2). Five commits since 20:08.</li>
-<li>Phone: 0.3.8 and 0.3.9 (20:33, engine c1f4591c), then 0.4.0 (21:10), 0.4.1 (21:25), 0.4.2 (21:39). Current phone build: 0.4.2.</li>
-<li>Web: 0.4.2 live at 21:39.</li>
-<li>Mac app: 0.4.2, restarted 21:39.</li>
-<li>Door: 410c250a (20:33), 5ca8b342 with the learn route (21:10), 0ff5cb31 with the export chain (21:39). Door tests 63 of 63 pass at 21:39.</li>
-<li>Money ledger: 10,632 calls, $36.11 in all. Up about one cent since 20:08.</li>
-<li>Pull requests: 8 open, 19 merged, 1 closed (unchanged). PR 28, "High Juju: two modes", is open with a failing check.</li>
-<li>Rust: 37,524 lines (was 37,404).</li>
-<li>Film runs on disk: 4 DONE, 4 FAILED, 24 HOLD (unchanged). The worker reports an 11-minute test film, zz-len11, held at room 4. It is not in the disk count.</li>
+<li>Covers 22:39 Thu 26 Nov to 16:44 Sat 28 Nov EAT.</li>
+<li>Main: last commit 13ff4192 (15:50, 0.4.4). Two commits since the last sheet: 1f04d013 (15:45, 0.4.3) and 13ff4192 (15:50, 0.4.4). Rust: 37,598 lines (was 37,524). Decisions: 29 (was 27).</li>
+<li>Juju 0.4.3 and 0.4.4 shipped to the phone, web and Mac (lead, 15:52). Checked by hand only.</li>
+<li>Pull requests unchanged: 8 open, 19 merged, 1 closed. PR 28 still has a failing check.</li>
+<li>Money ledger unchanged: 10,632 calls, $36.11 in all.</li>
+<li>Worker's read-only audit of Juju finished at 16:11. No Juju code changed and no paid call made by the audit.</li>
+<li>ADR 0030 and ADR 0031 and a plan were written at 16:30. The worker says Ambi's answers are recorded there. ADR 0030 says the phone engine becomes the only engine and the Mac runs it too. This replaces the 16:14 "park the phone engine" answer.</li>
+<li>At 16:40 the worker reports Ambi's order: the lead decides two questions alone, no limits on the phone's looks, no more markdown files, show the whole app as a canvas. The Doop canvas started.</li>
+<li>Corrections: the lead's 15:38 Google and Inworld 7-day spend ($8.39, $3.80) became $9.28 and $3.92 at 15:52. The old "1% left" Claude reading became 99% left, resets 5 Dec (fresh reading, 15:45).</li>
 </ul>
 <h2>What worked and what failed</h2>
-<p><b>Worked (as reported)</b></p>
+<p><b>Worked (checked by hand, no automatic test)</b></p>
 <ul>
-<li>Length: 11 minutes asked gave 44 stops and a 9.4-minute film (worker, 20:40; TEHUTI, 20:33). Mac build only, held (see below).</li>
-<li>Confirm sheet before a film shows length, time, money and first download. Checked on the live web at phone size (TEHUTI, 20:33).</li>
-<li>Gris-gris and High Juju switch works on the live web (TEHUTI, 20:08).</li>
-<li>Learn from a film: Door watch of Ambi's USA maps link. 55 s, $0.20, 19 shots, 10 rules, 6 topics (worker, 21:10). In a test space, link to lesson to rules on the channel ran end to end.</li>
-<li>Absorb: the same handle twice opens the first channel; a video link is redirected; a bad link is refused (live web, 21:25).</li>
-<li>Delete a channel: 422 without the word DELETE, 200 with it (live web, 21:25).</li>
-<li>Upload chain: DeepSeek's real step-90 idea was "Does Your Province Have These? (15 Maps)" (worker, 21:39).</li>
-<li>Live sweep: nine GET routes answered; five rooms load with no script errors. Mac: nine routes answer 200 while signed in (worker, 21:38).</li>
+<li>Gris-gris sheet names its roles: DeepSeek writes, GLM 5.3 checks, Neon plans (lead, 15:52).</li>
+<li>Mojo Bag shows quota cards with % bars, 7-day spend, and Read again refreshes every card (lead, 15:52).</li>
+<li>Each channel card has Ideas, films, Settings or Finish, and the bin on one line at phone width (live web).</li>
+<li>Absorb inside a channel fills that channel. Two channels stay two (live web, 15:52).</li>
+<li>The Mac shows all three channels from the Door: Spiral5D, GEOTORYX, spiral 5d (lead, 15:48).</li>
 </ul>
 <p><b>Failed or refused</b></p>
 <ul>
-<li>The 11-minute test was held at room 4. Twenty coloured countries had no name, and Russia and Australia shake a few pixels between frames (worker, 20:40). The last three short money films (14 stops each) were held the same way, so the fault is older than today.</li>
-<li>Phone films are not held by room 4, because the check is not built on the phone.</li>
-<li>Ambi (17:40, as quoted by the lead): "we're here to fix juju, not ... the specific video."</li>
-<li>Ambi refused Deep Time ("ugly") and said "forget Neon if expensive" (last sheet). Parked. The learn route uses gemini-4-neon (21:10). This is not reconciled.</li>
-<li>Five test runs locked Ambi's PIN for 15 minutes (19:39). The Door no longer signs in as him in tests.</li>
+<li>Absorb pays, then drops the answer. The phone waits 90 seconds. The Door waits 600 seconds and charges, nothing is saved, and each retry pays again. The worker is about 75% sure of this cause. Not fixed in 0.4.4.</li>
+<li>The phone's idea screen deals states cards, but the phone's film engine draws kingdoms and wealth only. The audit says a states idea was refused after a 600 MB download. Not fixed.</li>
+<li>Ideas are weak by construction: every kingdoms title follows one template, and two channels can get identical ideas (audit).</li>
+<li>Ambi refused "Deep Time" as "ugly". It is parked.</li>
+<li>Ambi said "forget Neon if expensive". The learn route still uses gemini-4-neon. Not reconciled.</li>
+<li>The worker says 13 releases (0.3.0 to 0.4.2) went out on 26 Nov with no button pressed.</li>
 </ul>
 <h2>App engine and films</h2>
 <ul>
-<li>juju-core and timemap.py take the film length. Each stop is 13 seconds. Stops are no longer capped at 18.</li>
-<li>The steer line reaches every words call (TEHUTI, 20:33).</li>
-<li>Learned rules go into every words call as "STYLE TO FOLLOW" (TEHUTI, 21:10). No phone film has used them yet.</li>
-<li>Room 4 fix (proposed by the worker): give every coloured country its name, and stop names shaking. It goes in the shared map code, so Mac and phone both get it. The worker estimates 1 to 2 hours plus a test film. Not started. It waits on Ambi's reply.</li>
-<li>Export 720p or 1080p redraws the film at the new size and reuses the paid script and voice (worker, 21:39). Not run on a real phone.</li>
-<li>The Mac sends its Claude plan reading to the Door (21:22). The last reading seen was 1% left (19:39).</li>
-<li>High Juju sends writing and storyboard roles to Claude Opus 5.5 (last sheet). No real film on the phone has used it.</li>
-<li>The debt film has not been redrawn on the fixed code. Ambi's rehearsal showed Jordan, Sudan and Congo for "biggest economies" (fixed in code, not drawn).</li>
+<li>Phone engine: kingdoms and wealth only. Film kinds are built twice, once for the Mac and once for the phone (audit).</li>
+<li>Films finished: about 2 from roughly 27 presses on the Mac. None on a real phone on record (audit).</li>
+<li>Film runs on disk: 4 DONE, 4 FAILED, 24 HOLD. Unchanged.</li>
+<li>Decided, not built:</li>
+<li>Every look runs on every device, including the 3D globe on the phone. The method is picked by a race on the phone (Ambi refused limits).</li>
+<li>Each thinking step (idea, bend, title, outline, script, storyboard, check) becomes a card: fixed text, required answer shape, code checks (ADR 0031).</li>
+<li>Variety: code refuses an idea that repeats too much of the last five films.</li>
+<li>Three formats first: "Does your state have this?", "Bigger than you think", "Why this one is the most X". Voice is a switch per channel.</li>
+<li>Every film gets a free code-fault repair loop, up to 2 rounds, on the cheap model.</li>
+<li>High Juju also checks its 240p take with Claude and fixes it up to 2 rounds, capped at $0.50 per film (lead, Ambi's order).</li>
 </ul>
 <h2>Web app and rooms</h2>
 <ul>
-<li>Live at 0.4.2. Five rooms load clean: Altar, New Vessel, Crossroads, Cauldron, Shelf.</li>
-<li>New since 20:08: the DELETE sheet on every channel card; absorb studies the best film; Learn from a film; the upload kit opens (it said "Not built yet"); "Uploaded? paste the link" in Cauldron and Shelf; Crossroads marks chain ideas "Follows your hit · 90%"; export buttons in the Cauldron.</li>
-<li>Still wrong: five High Juju looks (Duppy Day, City Towers, Contagion Pulse, Crude Ledger, Engraved Atlas) have no films or colours (19:39).</li>
-<li>Mend (fix a film) answers only on the Mac.</li>
-<li>Rooms missing since the last sheet, not re-reported: Bend, Fill the week, the composer, Conjuring receipt.</li>
+<li>Web is at 0.4.4 (lead, 15:52).</li>
+<li>Proposed, not built: three places (Today, Make, Channel) and a command bar. Cmd-K on the Mac, + on the phone. Film as a thread with status. Review by story first. Settings hidden until set.</li>
+<li>Blueprint: one flow file would draw the canvas and drive a test that presses every arrow. The old flow files hold 22 files and 218 arrows, and they have drifted from the built rooms (16:40).</li>
+<li>Doop canvas is running. Paper's connector needs Paper.app open.</li>
+<li>The 19 themed rooms still stand.</li>
 </ul>
 <h2>Mac app and APK</h2>
 <ul>
-<li>Mac app: 0.4.2. Signs in to the Door with its own key, learns from films through it, sends the Claude plan reading, and reports its version (21:22).</li>
-<li>Phone: 0.4.2 released (21:39). Only one APK file is on disk (FACTS).</li>
-<li>Phone on a real device: not tested. The one emulator run used earlier builds.</li>
-<li>DMG for the Mac: still next time (19:28).</li>
+<li>Mac app: 0.4.4, restarted (lead, 15:52).</li>
+<li>Every 30 minutes the Mac signs in to the Door, deletes channels deleted elsewhere, pulls Door channels it lacks, merges its rows, and pushes its week.</li>
+<li>The Mac reads Claude's week at most every 2 hours.</li>
+<li>Mac 7-day spend (Door purse, 15:52): Google (Neon, Choice of the Seer) $9.28; Inworld (Voice of the Elders) $3.92. Inworld and Google give no balance, only spend.</li>
+<li>Phone: 0.4.4 live (lead, 15:52). One APK file is built.</li>
+<li>Phone on a real device: not tested. No test has pressed the phone or web build (audit).</li>
 </ul>
 <h2>Agents running now</h2>
 <ul>
-<li>Worker (TEHUTI): last message 21:39 (0.4.2 shipped). Session end logged 22:18.</li>
-<li>Lead: last message 18:05 (credits ran out).</li>
-<li>Agent transcripts written in the last 10 minutes: 0.</li>
 <li>The live agent page did not answer, so running agents are unknown.</li>
-<li>Mac load (1, 5, 15 min): 14, 15, 17.</li>
+<li>Lead: last message 15:52 Sat (0.4.4 shipped).</li>
+<li>Worker: last message 16:40 Sat. Waiting on three answers before building the canvas. Its 11 audit agents finished by 16:07.</li>
+<li>Transcripts written in the last 10 minutes: 0.</li>
+<li>Mac load (1, 5, 15 min): 3, 3, 3.</li>
 </ul>
 <h2>Money spent on services</h2>
 <ul>
-<li>Ledger at 22:39: 10,632 calls, $36.11 in all. DeepSeek 11.11, OpenRouter 12.27, Google 8.39, Inworld 3.92, unsettled 0.14, WaveSpeed 0.29.</li>
-<li>The $35 cap was passed at the last sheet. No ruling since.</li>
-<li>Door cap: 5 US (lead, 15:04). No change reported.</li>
-<li>Learn from a film: $0.20 for the USA lesson, and about 3 cents for the first test watch (worker, 20:58). The Gemini watch is not in the ledger figures above; Google stays at $8.39.</li>
-<li>Claude API: one count_tokens check per hour, free. One real Opus call under 1 cent (19:39). Claude is not a ledger line.</li>
+<li>Ledger: 10,632 calls, $36.11 in all. DeepSeek 11.11, OpenRouter 12.27, Google 8.39, Inworld 3.92, unsettled 0.14, WaveSpeed 0.29.</li>
+<li>Door spend for 27 and 28 Nov is not in the ledger (audit).</li>
+<li>Caps conflict: the last sheet named a $35 cap, passed, with no ruling. The audit names a 10 US ceiling. No ruling from Ambi.</li>
+<li>Claude is not a ledger line.</li>
 </ul>
 <h2>Broken, blocked or open</h2>
 <ul>
-<li>Room 4 label fix: not started.</li>
-<li>Five High Juju looks: no colours or films (last report 19:39).</li>
-<li>juju-core high_on does not read lean.api (20:08).</li>
-<li>Not run: export on a real phone; the upload chain on a real upload; a phone film using learned rules; the learn route on Ambi's own account.</li>
-<li>Phone: no real-device test; first sign-in on a physical phone not checked.</li>
-<li>Door sync needs Ambi's Gate sign-in. Not done.</li>
+<li>Absorb charge and states refusal: both not fixed.</li>
+<li>Ideas: template titles, identical ideas, and the 59 skills do not reach a model in the film path (audit).</li>
+<li>No automatic test has pressed the real phone or web build. The worker says GitHub has refused automatic checks since 25 Nov because the account is at its limit. Autosave pushes to main (audit).</li>
 <li>PR 28 has a failing check.</li>
-<li>Not proven: a voiced film over 10 minutes; a film on 0.4.2; the 95 of 100 taste bar; that a cheap model fills recipes at 95% legal first answers.</li>
+<li>Decided, not built: no shipping to a phone until a robot presses every arrow green (about 3 minutes).</li>
+<li>Not proven: a voiced film over 10 minutes; a film on 0.4.4; the 95 of 100 taste bar; a cheap model fills recipes at 95% legal first answers; anything on a real phone.</li>
 </ul>
 <h2>Waiting on Ambi</h2>
 <ul>
-<li>Reply "go labels" to start the room 4 label fix (worker, 20:40).</li>
-<li>Install 0.4.2. Open a finished film in the Cauldron, tap 720p, and check the phone's Movies folder when it says done (worker, 21:39).</li>
-<li>On the phone, paste the USA maps link under Learn from a film and wait for "Learned 10 rules" (worker, 21:10).</li>
-<li>Remove the two extra channels added by accident: tap the bin, type DELETE, tap Delete (worker, 21:25).</li>
-<li>Say whether the $35 cap still holds.</li>
-<li>Rule on "forget Neon if expensive" against the learn route, which uses gemini-4-neon.</li>
-<li>Say whether to build colours and films for the five High Juju looks now.</li>
-<li>Plug in a real Galaxy. Phone tests have run on an emulator only.</li>
-<li>Rule on night on two grounds: parked, no ruling.</li>
+<li>Name her channel and the phone model. This blocks the first proof and the build.</li>
+<li>Doop or Paper.app for the canvas. Doop is running now.</li>
+<li>Yes or change: three places (Today, Make, Channel) with a command bar.</li>
+<li>Remove the extra Spiral channel. Tap its bin, type DELETE, tap Delete.</li>
+<li>Your one click: GitHub billing, to restore automatic checks.</li>
+<li>Rule on the cap: $35, or the audit's 10 US.</li>
+<li>Rule on "forget Neon if expensive" against the learn route.</li>
+<li>Plug in a real phone. No real-device test is on record.</li>
 </ul>
 <h2>Counted by code</h2>
 <ul>
 <li>Pull requests: 8 open, 19 merged, 1 closed</li>
 <li>Paid calls in the test ledger: 10632, $36.1077 in all {deepseek: 11.1059, openrouter: 12.269, google: 8.3851, inworld: 3.9231, unsettled: 0.1365, lead-test: 0.0, wavespeed: 0.288}</li>
 <li>Paid services answering: deepseek 6537 ok, 23 refused or failed, last ok 26 Nov 20:27 EAT; openrouter 3411 ok, 47 refused or failed, last ok 26 Nov 16:38 EAT; google 119 ok, 16 refused or failed, last ok 26 Nov 13:59 EAT; inworld 458 ok, 1 refused or failed, last ok 26 Nov 10:54 EAT; unsettled 0 ok, 9 refused or failed, last ok None; lead-test 0 ok, 3 refused or failed, last ok None; wavespeed 6 ok, 2 refused or failed, last ok 25 Nov 11:24 EAT</li>
-<li>Rust: 37,524 lines in 15 crates. Skills: 59. Rooms drawn: 22. Decisions: 27. APK files built: 1</li>
+<li>Rust: 37,598 lines in 15 crates. Skills: 59. Rooms drawn: 22. Decisions: 29. APK files built: 1</li>
 <li>Design-system libraries on disk: camera_motion.json, fonts, house, kits, looks, palettes.json, proof, proto, work-camera_motion, work-palettes, work-quotes, work-surfaces_light, work-typography</li>
 <li>Finish check: 1 of 23 clauses true, so not done</li>
 <li>Whole-film runs of <code>juju make</code> on disk: 4 DONE, 4 FAILED, 24 HOLD</li>
 <li>Newest film runs: ottoman12f HOLD 25 Nov 11:25 (stopped at Pictures and form); proof12c FAILED 25 Nov 09:47 (stopped at Render and mix); proof12 HOLD 25 Nov 09:16 (stopped at Script and heal); proof75b HOLD 25 Nov 09:06 (stopped at Render and mix); proof75a HOLD 25 Nov 08:59 (stopped at Publish kit); strip-planets HOLD 25 Nov 08:41 (stopped at Deal and package); strip-pluto HOLD 25 Nov 08:40 (stopped at Render and mix); 20261125-083722-131d HOLD 25 Nov 08:37 (stopped at Deal and package); strip-japan DONE 25 Nov 08:34 (60 s, 0.008751 US); strip-bulgaria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-austria HOLD 25 Nov 08:11 (stopped at Deal and package); strip-manchuria HOLD 25 Nov 08:11 (stopped at Deal and package)</li>
 <li>Agent transcripts written to in the last 10 minutes (all Claude work on this Mac, mostly Juju): 0</li>
 <li>Logged attempts: 433 kept, 63 reverted, 52 inconclusive</li>
-<li>Mac load (1, 5, 15 min): [14, 15, 17]</li>
+<li>Mac load (1, 5, 15 min): [3, 3, 3]</li>
 <li>The live agent page did not answer, so running agents are unknown</li>
 </ul>
 </body></html>

@@ -1,6 +1,83 @@
 # Juju day log, newest first
 
-Rebuilt 09:03 EAT, Sat 28 Nov 2026. Only entries whose title names Juju. Times are EAT (UTC+3). Logged by agents: evidence of what they report, not proof. Where two entries disagree, the later one wins and the older stays.
+Rebuilt 16:44 EAT, Sat 28 Nov 2026. Only entries whose title names Juju. Times are EAT (UTC+3). Logged by agents: evidence of what they report, not proof. Where two entries disagree, the later one wins and the older stays.
+
+---
+
+## 2026-11-28 16:40 EAT — MUNGURA — Juju round 3: Q2 and Q3 decided by the lead on Ambi's order; blueprint-first breakthrough proposed
+<!-- type: event -->
+**From:** MUNGURA
+
+Juju round 3: Q2 and Q3 decided by the lead on Ambi's order; blueprint-first breakthrough proposed
+- Harness: Claude Code (claude-opus-5-5)
+- What happened: **Changed:** No files. Doop canvas started ((local page), 200). Ambi (28 Nov ~16:40) told the lead to decide Q2 and Q3 itself, refused limits on Q1, and said: no more .md files, show the whole app as a canvas (every screen, phone and desktop, every tap and where it goes, mermaid-style), bring Linear and Poteto into the interactions, and lead.
+
+**Why/verdict (lead's decisions on his order):** Q3: every film gets a free code-fault repair loop on the cheap model (up to 2 rounds); High Juju adds a look loop on Claude (240p contact sheet, up to 2 rounds, cap 0.50 US). Q2: building never pauses; shipping to a phone waits until a robot presses every arrow of the flow on the real build (about 3 min). Q1: every look on every device, including the 3D globe on the phone; the method is chosen by a race on the phone. Q4: forking between the two channels yes. Proposed breakthrough: the flow file is the app: one file of screens, controls and arrows renders the blueprint canvas and drives the test robot, so a button with no arrow cannot ship; the 19 themed rooms collapse to three places (Today, Make, Channel) plus a command bar, with Linear's local-first copy, film-as-thread with status, review by story first, settings hidden until set.
+
+**Status/open:** waiting on Ambi: which channel is hers and the phone model; canvas Doop or Paper.app; the three-place structure. Then the blueprint is built before app code.
+
+**Related:** juju/docs/PLAN-0.5.md, ADR 0030, 0031, mockups/flow/*.json (22 files, 218 arrows, 24 Nov, drifted from the built rooms).
+- Status: in-progress: waiting on 3 answers, then the blueprint canvas
+
+---
+
+## 2026-11-28 16:30 EAT — MUNGURA — Juju round 2: her own engine (ADR 0030), skills reach the engine (ADR 0031), Plan 0.5 written
+<!-- type: event -->
+**From:** MUNGURA
+
+Juju round 2: her own engine (ADR 0030), skills reach the engine (ADR 0031), Plan 0.5 written
+- Harness: Claude Code (claude-opus-5-5)
+- What happened: **Changed:** Wrote juju/docs/adr/0030-her-own-engine.md, juju/docs/adr/0031-skills-reach-the-engine.md, juju/docs/PLAN-0.5.md; added Variety, Echo Decay, Lifelike (Ambi's), Seat card, Driver (candidates) to juju/GLOSSARY.md and corrected Kitchen, removed Counter; added round-2 section to ~/AUH/AUDIT-REPORT-2026-11-28.md. Harness: Claude Code, Opus 5.5. Studied the v2 repo in full myself (docs/decisions.md, agents_section.md, 28 commands); no Riley Brown v2 demo video exists on his channel.
+
+
+**Status/open:** Waiting on round-2 answers: 3D globe looks on the phone; freeze until the journey test is green (Q4 unanswered twice); High Juju look-and-revise budget; forking between the two channels; which channel is hers and whether the phone is the first proof. No code changed.
+
+**Related:** ~/AUH/AUDIT-REPORT-2026-11-28.md; juju docs/PHONE-CORE.md; ADR 0019, 0023, 0027. Handoff: Changed = 2 ADRs + plan + glossary / Verified = ADR quotes are Ambi's words from the chat / Remaining = round-2 answers, then Thread A lanes A1-A4 + B1 / Start from = juju/docs/PLAN-0.5.md section 7.
+- Files changed: docs/adr/0030-her-own-engine.md; docs/adr/0031-skills-reach-the-engine.md; docs/PLAN-0.5.md; GLOSSARY.md; ~/AUH/AUDIT-REPORT-2026-11-28.md
+- Status: in-progress: decisions recorded, waiting on round-2 answers before code
+
+---
+
+## 2026-11-28 16:11 EAT — MUNGURA — Juju audit written (read-only): why phone app 0.4.2 broke, fix order, 30 questions for Ambi
+<!-- type: event -->
+**From:** MUNGURA
+
+Juju audit written (read-only): why phone app 0.4.2 broke, fix order, 30 questions for Ambi
+- Harness: Claude Code (claude-fable-5-2)
+- What happened: **Changed:** Wrote ~/AUH/AUDIT-REPORT-2026-11-28.md and the evidence folder ~/AUH/AUDIT-2026-11-28/ (12 agent files + 4 transcripts). Appended 12 candidate terms, all marked open question, to the end of juju/GLOSSARY.md. Nothing else in Juju was edited; no paid call was made. Harness: Claude Code T3, Fable 5.2 as lead; 8 Opus 5.5 medium tracers + 3 Haiku readers.
+
+**Why/verdict (Measured unless marked):** (1) The phone runs its own film engine (juju-core, kingdoms and wealth only) while the idea screen deals states cards: chain.rs:24 vs seed.py:10. (2) Absorb pays then drops the answer: phone waits 90 s (Net.kt:15), the Door waits 600 s and charges (space.js:324,466), nothing cached, each retry pays again (cause ~75% sure, Judged). (3) The app logic is hand-written three times (juju-serve, sw.js, tap.rs), 33 of 35 routes. (4) No test ever pressed the phone or web build; 13 releases 0.3.0 to 0.4.2 went out unpressed; exit-predicate is FALSE 1 of 23; GitHub checks refused for billing since 25 Nov 20:46; autosave pushes to main. (5) Two channels get identical ideas (no seed, cache keyed on prompt only); ideas.py:186 overwrites every kingdoms title with one template; the depth ladder and all 59 skill packs reach no model in the app's film path. (6) App finished 2 films of ~27 presses on the Mac, none on a real phone on record. (7) Spend at least 36.11 US vs 10 US ceiling; Door spend 27-28 Nov uncounted. (8) v2 repo: do not fork, copy three ideas (take record, timed comments, make another like this). (9) Rust share ~47%, not 80%.
+
+**Status/open:** Audit of Juju only; the other 10 repos and 541 Hermes skills of AUDIT-ORDER-2026-11-27 are still not started. Nobody pressed the phone build in this pass. A second session shipped 0.4.3 and 0.4.4 today 15:45-15:50 (Mojo Bag, channel Settings, card buttons), untested; absorb charge and states refusal are NOT fixed there. Waiting on Ambi: 5 root questions in chat (one kitchen vs phone engine; three formats first; voice as a per-channel switch; freeze releases until the pressing test is green; v2 copy not fork) and 25 defaults in report section 9. His one click: GitHub billing.
+
+**Related:** ~/AUH/AUDIT-ORDER-2026-11-27.md; juju docs/adr/0022, 0023, 0026, 0027; docs/PHONE-CORE.md; docs/LESSONS-2026-11-26.md. Handoff: Changed = report + evidence + glossary candidates / Verified = each Measured line names its file / Remaining = Ambi's answers, then fix steps 1-4 / Start from = ~/AUH/AUDIT-REPORT-2026-11-28.md section 5 step 1.
+- Files changed: ~/AUH/AUDIT-REPORT-2026-11-28.md; ~/AUH/AUDIT-2026-11-28/evidence; GLOSSARY.md
+- Verification: exit-predicate run 15:41 EAT: FALSE 1 of 23. Error strings from Ambi's screenshots grepped to file:line. Net.kt readTimeout re-read at phone head 212b51e4 (0.4.4): still 90_000. Not verified: Door audit rows, Door spend 27-28 Nov, cap-raise quotes, any press of the real phone build.
+- Status: complete: audit written; fixes not started, waiting on Ambi's answers
+
+---
+
+## 2026-11-28 15:53 EAT — TEHUTI — Juju 0.4.4: Gris-gris wording, Mojo Bag quota cards with real 7-day spend, channel Settings back, duplicate-channel fix
+<!-- type: event -->
+**From:** TEHUTI
+
+Juju 0.4.4: Gris-gris wording, Mojo Bag quota cards with real 7-day spend, channel Settings back, duplicate-channel fix
+- Harness: Claude Code (auto-log by claude-haiku-5-5, Stop, session 873ccd40)
+- Ambi asked: Gris-gris should show the normal DeepSeek + GLM + Neon mix, not the cloud API line. Mojo Bag should drop the 'money set aside' line, show real % bars and 7-day spend, with Read again refreshing all cards.
+- Done: Gris-gris now names its roles (Pen of the Scribe, Eye of the Judges, Choice of the Seer). Mojo Bag shows the Mac's 7-day spend per service and a fresh Claude reading (High Juju 99% left, resets 5 Dec).
+- Done: each channel card has its own Ideas, films, Settings (or Finish setup) and bin buttons on one line. Settings reopens the full menu. Deleted channels are kept on a list so the Mac no longer brings them back.
+- Verified on the live web at phone size and on the Mac's Altar (three channels, Settings menu complete). Released 0.4.4 and merged to main. Gris-gris 'lasts to 27 Nov' and a stale 1% note were removed.
+- Still open: none reported in this session.
+- Files changed: ~/AUH/AMBESSA/intel/juju-door-wt/apps/door/src/space.js; crates/juju-serve/src/door.rs; crates/juju-serve/src/mode.rs; crates/juju-serve/src/pots.rs; mockups/r2/altar.html; mockups/r2/api.js; ~/AUH/AMBESSA/intel/juju-phone-wt/apps/juju-shell/web/sw.js; ~/AUH/AMBESSA/intel/juju-phone-wt/apps/juju-shell/android/rust/src/tap.rs
+- Status: complete — Juju 0.4.4 released on phone, web and Mac, and merged to main.
+
+---
+
+## 2026-11-28 15:52 EAT — TEHUTI — Juju 0.4.3 + 0.4.4: Gris-gris says what it is, Mojo Bag as quota cards with real 7-day spend, channel Settings, Mac shows every channel
+- Harness: Claude Code (claude-opus-5-5). Topics: juju
+- **Changed:** Door: /v1/purse/week (the Mac's 7-day ledger by service) joins the Door meter; High Juju row = plan % + reset when the Mac's reading is under 12 h; deleted-channels list. Mac 0.4.4: every 30 min signs in, deletes channels deleted elsewhere, pulls Door channels it lacks into vessels/, merges its rows into the Door's (never overwrites), pushes the week, re-reads Claude's week at most every 2 h; bag rows carry week_line; why_not from fresh paths. Phone/web: a link pasted in a channel's settings fills that channel (root cause of the duplicate Spiral channel); delete writes the deleted list. Rooms: Gris-gris = the everyday mix (DeepSeek writes, GLM 5.3 + Jev check, Neon plans); bag without the set-aside line, % bars, 7-day spend, read time, resets; Altar cards with Ideas / N films / Settings or Finish / bin; Settings from Crossroads; warning when the channel made films.
+- **Verified:** Door purse with the Mac session: Google 7-day $9.28, Inworld $3.92, High Juju 99% left, resets 5 Dec; Mac bag live balances read just now; Mac Altar shows Spiral5D, GEOTORYX, spiral 5d; Settings opens New Vessel with the three tabs, Learn and Delete; Gris-gris sheet reads right; live web absorb-into-channel keeps 2 channels.
+- **Open:** Inworld and Google give no balance (spend shown instead); the Mac's High Juju API path still says the money gate has no Claude door (its films use the plan).
 
 ---
 

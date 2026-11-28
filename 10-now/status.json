@@ -1,5 +1,5 @@
 {
- "as_of": "09:03 EAT, Sat 28 Nov 2026",
+ "as_of": "16:44 EAT, Sat 28 Nov 2026",
  "workshop": "down",
  "jobs": [],
  "pull_requests": [
@@ -473,7 +473,7 @@
   },
   "juju-serve": {
    "files": 29,
-   "lines": 5484
+   "lines": 5558
   },
   "juju-sigil": {
    "files": 13,
@@ -492,9 +492,9 @@
    "lines": 3967
   }
  },
- "rust_lines": 37524,
+ "rust_lines": 37598,
  "rooms": 22,
- "decisions": 27,
+ "decisions": 29,
  "apk_files": 1,
  "design_libraries": [
   "camera_motion.json",
@@ -519,6 +519,8 @@
   "sJiaWNxYFUA": 2
  },
  "main_commits": [
+  "13ff4192 28 Nov 15:50 0.4.4: the Mac's Altar shows every channel from the Door and merges into the Door's rows; why High Juju is closed comes from the fresh paths; a run-out date already past is not shown; card buttons fit one line",
+  "1f04d013 28 Nov 15:45 0.4.3: channel cards with one button per job (Ideas, films, Settings or Finish setup, delete), Settings from Crossroads with a warning once films are made; Gris-gris says what it is; Mojo Bag without the set-aside line, % bars, 7-day spend; the Mac sends its week and a fresh Claude reading every 30 min and deletes channels deleted elsewhere",
   "446e356e 26 Nov 21:35 0.4.2: Export (720p, 1080p) in the Cauldron; Uploaded? paste the link, Juju follows it (Echo Decay 90/70/50 at the Door) and Part 2 shows in Crossroads; on the Mac too",
   "b46058c5 26 Nov 21:22 0.4.1 Mac and rooms: the Mac signs in to the Door by itself, learns from a film through it, sends its Claude reading, reports its version; delete a channel (type DELETE) on every channel card and in New Vessel; Absorb opens a channel you already have and learns from its best film",
   "3228742c 26 Nov 21:08 Learn from a film on phone and web: New Vessel waits for the watch and shows what was learned; film-harvest names the Door path",
@@ -528,9 +530,7 @@
   "575ef820 26 Nov 19:13 New Vessel: the + jar opens Absorb with the link box focused",
   "a29b2db6 26 Nov 19:04 Mojo Bag: the total says which services it adds up",
   "0a9840a2 26 Nov 18:55 door-keys: carry a Claude API key for High Juju on the API",
-  "b22fa8c5 26 Nov 18:36 PHONE-CORE: port list from the films lead for juju-core",
-  "1b224ff3 26 Nov 18:33 Gate: one PIN entry for a first PIN; the setup code must be typed first; Ambi 26 Nov could not sign in",
-  "6372643a 26 Nov 17:54 Length is one slider, 10 to 30 minutes (default 11); a held film plays with its reason and is never kept"
+  "b22fa8c5 26 Nov 18:36 PHONE-CORE: port list from the films lead for juju-core"
  ],
  "finish_check": "1 of 23 clauses true, so not done",
  "film_runs": "4 DONE, 4 FAILED, 24 HOLD",
@@ -544,7 +544,7 @@
   {
    "clause": "trunk.main_is_origin_and_clean",
    "ok": false,
-   "detail": "branch main, ahead 0, behind 160, uncommitted files outside runs/ 300"
+   "detail": "branch main, ahead 0, behind 167, uncommitted files outside runs/ 306"
   },
   {
    "clause": "trunk.gate_open_at_head",
@@ -589,7 +589,7 @@
   {
    "clause": "app.receipt_is_of_this_head",
    "ok": false,
-   "detail": "walk made at None with None uncommitted files, now 446e356 with 300, no-paid None"
+   "detail": "walk made at None with None uncommitted files, now 13ff419 with 306, no-paid None"
   },
   {
    "clause": "film.exists_10_to_20_min_with_picture_and_sound",
@@ -657,7 +657,7 @@
  "load": [
   3,
   3,
-  4
+  3
  ],
- "sheet_written": false
+ "sheet_written": true
 }
