@@ -1,7 +1,7 @@
 {
  "name": "ambessa-context",
  "what": "The working context of one project, Juju, for an AI that cannot see Ambi's computer.",
- "rebuilt": "07:51 EAT, Sat 28 Nov 2026",
+ "rebuilt": "09:03 EAT, Sat 28 Nov 2026",
  "read_order": [
   "00-READ-FIRST.md",
   "01-context.txt",
